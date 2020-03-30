@@ -1,2 +1,2 @@
-# hive-hashkings-backend
- Hive Backend
+# hashkings
+Gamified Staking
