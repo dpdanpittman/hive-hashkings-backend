@@ -24,7 +24,7 @@
 //                    nP"     "*MMnx       DaFreakyG
 
 var steem = require('dsteem');
-var steemjs = require('steem');
+var steemjs = require('steem-js-patched');
 var steemState = require('./processor');
 var steemTransact = require('steem-transact');
 var fs = require('fs');
