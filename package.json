@@ -1,18 +1,17 @@
 {
   "name": "hashkings-api",
-  "version": "0.9.4",
-  "description": "Steem Cannabis Farming Interface API",
+  "version": "0.0.1",
+  "description": "Hive Cannabis Farming Interface API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [
-    "dlux",
-    "steem",
+    "hive",
     "hashkings"
   ],
-  "author": "disregardfiat, qwoyn",
+  "author": "qwoyn",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
