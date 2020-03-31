@@ -351,11 +351,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 42130000; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 42138170; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 42130000;
+const ago = ENV.ago || 42138170;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const clientURL = ENV.APIURL || 'https://api.openhive.network' // can be changed to another node
 var client = new steem.Client(clientURL);
@@ -2488,7 +2488,7 @@ function startApp() {
 
     processor.onOperation('transfer', function(json, from) {
         var wrongTransaction = 'qwoyn'
-        if (json.to == username && json.amount.split(' ')[1] == 'STEEM') {
+        if (json.to == username && json.amount.split(' ')[1] == 'HIVE') {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             fetch(`http://blacklist.usesteem.com/user/${json.from}`)
             .then(function(response) {
@@ -2704,7 +2704,7 @@ var bot = {
     xfer: function(toa, amount, memo) {
         const float = parseFloat(amount / 1000).toFixed(3)
         const data = {
-            amount: `${float} STEEM`,
+            amount: `${float} HIVE`,
             from: username,
             to: toa,
             memo: memo
@@ -2765,7 +2765,7 @@ var bot = {
             {
                 from: username,
                 to: toa,
-                amount: `${parseFloat(amount/1000).toFixed(3)} STEEM`,
+                amount: `${parseFloat(amount/1000).toFixed(3)} HIVE`,
             },
         ];
         client.broadcast.sendOperations([op], key).then(
