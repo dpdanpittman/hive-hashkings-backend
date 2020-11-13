@@ -21,6 +21,7 @@
         "express": "^4.16.4",
         "ipfs": "^0.50.2",
         "ipfs-http-client": "^42.0.0-pre.2",
+        "steem-js-patched": "^1.0.0",
         "steem-state": "1.3.2",
         "steem-transact": "^1.0.2"
     }
