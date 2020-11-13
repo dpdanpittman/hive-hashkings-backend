@@ -23,8 +23,8 @@
 //                      .3P"%....                   
 //                    nP"     "*MMnx       DaFreakyG
 
-var steem = require('dsteem');
-var steemjs = require('steem-js-patched');
+var dhive = require("@hiveio/dhive");
+var hivejs = require('@hiveio/hive-js');
 var steemState = require('./processor');
 var steemTransact = require('steem-transact');
 var fs = require('fs');
@@ -355,14 +355,18 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 42138170; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 48642276; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = steem.PrivateKey.from(ENV.KEY); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 42156800;
+const ago = ENV.ago || 48642276;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
-const clientURL = ENV.APIURL || 'https://anyx.io' // can be changed to another node
-var client = new steem.Client(clientURL);
+var client = new dhive.Client([
+    //"https://hive.roelandp.nl",
+    //"https://api.pharesim.me",
+    "https://hived.privex.io",
+    "https://api.hive.blog"
+], {rebrandedApi: true, consoleOnFailover: true});
 var processor;
 var recents = [];
 const transactor = steemTransact(client, steem, prefix);
@@ -370,7 +374,7 @@ const transactor = steemTransact(client, steem, prefix);
 /****ISSUE****/
 //I think this is where the app can get the hash from hashkings_report that is saved in state.js and use it
 //to start the app.  this should prevent the app having to start from GENESIS BLOCK
-steemjs.api.getAccountHistory(username, -1, 100, function(err, result) {
+hivejs.api.getAccountHistory(username, -1, 100, function(err, result) {
     if (err) {
         console.log(err)
         startWith(sh)
