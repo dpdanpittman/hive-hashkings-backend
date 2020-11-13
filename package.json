@@ -15,7 +15,7 @@
     "license": "MIT",
     "dependencies": {
         "@hiveio/dhive": "^0.14.8",
-        "@hiveio/hive-js": "^0.8.4",
+        "@hiveio/hive-js": "^0.8.10",
         "axios": "^0.20.0",
         "cors": "^2.8.5",
         "express": "^4.16.4",
