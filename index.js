@@ -372,10 +372,31 @@ var processor;
 var recents = [];
 const transactor = steemTransact(client, dhive, prefix);
 
+const { ChainTypes, makeBitMaskFilter } = require('@hiveio/hive-js/lib/auth/serializer')
+const op = ChainTypes.operations
+const walletOperationsBitmask = makeBitMaskFilter([
+  op.transfer,
+  op.transfer_to_vesting,
+  op.withdraw_vesting,
+  op.interest,
+  op.liquidity_reward,
+  op.transfer_to_savings,
+  op.transfer_from_savings,
+  op.escrow_transfer,
+  op.cancel_transfer_from_savings,
+  op.escrow_approve,
+  op.escrow_dispute,
+  op.escrow_release,
+  op.fill_convert_request,
+  op.fill_order,
+  op.claim_reward_balance
+])
+
+
 /****ISSUE****/
 //I think this is where the app can get the hash from hashkings_report that is saved in state.js and use it
 //to start the app.  this should prevent the app having to start from GENESIS BLOCK
-hivejs.api.getAccountHistory(username, -1, 100, function(err, result) {
+hivejs.api.getAccountHistory(username, -1, 100, ...walletOperationsBitmask, function(err, result) {
     if (err) {
         console.log(err)
         startWith(sh)
