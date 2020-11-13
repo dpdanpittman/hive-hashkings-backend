@@ -13,7 +13,7 @@
     unexpectedStopCallback: A function to call when hive-state stops unexpectedly
       due to an error.
 */
-module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed=100, prefix='etherchest_', mode='latest', unexpectedStopCallback=function(){}) {
+module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed=100, prefix='qwoyn_', mode='latest', unexpectedStopCallback=function(){}) {
   var onCustomJsonOperation = {};  // Stores the function to be run for each operation id.
   var onOperation = {};
 
