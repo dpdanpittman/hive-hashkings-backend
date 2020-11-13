@@ -77,7 +77,7 @@ const init = require('./state');
 const app = express();
 const port = ENV.PORT || 3000;
 const wkey = ENV.wkey;
-const skey = steem.PrivateKey.from(ENV.skey);
+const skey = dhive.PrivateKey.from(ENV.skey);
 const streamname = ENV.streamname;
 
 app.use(cors());
