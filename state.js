@@ -499,12 +499,6 @@ module.exports = {
          "used": 0
       },
       {
-         "delegator": "saboin",
-         "vests": 0,
-         "availible": 0,
-         "used": 0
-      },
-      {
          "delegator": "okean123",
          "vests": 0,
          "availible": 0,
@@ -575,6 +569,12 @@ module.exports = {
          "vests": 0,
          "availible": 0,
          "used": 0
+      },
+      {
+         "delegator": "saboin",
+         "vests": 920579630440,
+         "availible": 23,
+         "used": 0
       }
    ],
    "kudos": {},
@@ -611,14 +611,14 @@ module.exports = {
             "lat": "-3.2",
             "lon": "37.9",
             "weather": {
-               "high": 301.5,
-               "low": 294.14,
-               "avg": "297.3",
-               "precip": 10.700000000000001,
-               "clouds": 67,
-               "humidity": 49,
-               "winds": 1.76,
-               "windd": 80
+               "high": 300.99,
+               "low": 293.91,
+               "avg": "296.8",
+               "precip": 0.55,
+               "clouds": 69,
+               "humidity": 85,
+               "winds": 2.36,
+               "windd": 67
             }
          },
          "c": {
@@ -786,7 +786,63 @@ module.exports = {
       "b": 0,
       "p": 1497479
    },
-   "refund": [],
+   "refund": [
+      [
+         "ssign",
+         [
+            [
+               "comment",
+               {
+                  "parent_author": "",
+                  "parent_permlink": "hashkings",
+                  "author": "hk-stream",
+                  "permlink": "h48664198",
+                  "title": "Hashkings Almanac for Africa | 48664198",
+                  "body": "\nhttps://source.unsplash.com/user/kimzy/1600x900# \nAfrica Growers Daily News\n\n## Todays Weather\nYou can expect mostly cloudy skies with a high of 28.8 Celsius. Winds will be out of the West at 2.4 M/s. Models predict 0.55mm of rain. Relative humidity will be around 85% and a low of 21.8 Celsius overnight.\n\n<center><h1>Hashkings Official Links</h1>\n    \n[Hashkings Web App](https://www.hashkings.app)\n    \n[Hashkings Discord](https://discord.gg/QW6tWF9)\n    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)\n    \n</center>\n    \n\n    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>\n    \n<center><h1>STEEM Community Showcase</h1></center>\n    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.\n    \n<a href=\"https://discord.gg/DcsPHUG\"><img src=\"https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg\">\n    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***\n    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***\n<h4>All Hashkings Rewards go directly to our users!</h4>\n                \n\n                \nThis post benefits:\n                \n* @elemental010 with 100.00%\n",
+                  "json_metadata": "{\"tags\":[\"hk-stream\"]}"
+               }
+            ],
+            [
+               "comment_options",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h48664198",
+                  "max_accepted_payout": "1000000.000 SBD",
+                  "percent_steem_dollars": 10000,
+                  "allow_votes": true,
+                  "allow_curation_rewards": true,
+                  "extensions": [
+                     [
+                        0,
+                        {
+                           "beneficiaries": [
+                              {
+                                 "account": "elemental010",
+                                 "weight": 10000
+                              }
+                           ]
+                        }
+                     ]
+                  ]
+               }
+            ]
+         ]
+      ],
+      [
+         "sign",
+         [
+            [
+               "vote",
+               {
+                  "author": "hk-stream",
+                  "permlink": "h48664198",
+                  "voter": "hashkings",
+                  "weight": 10000
+               }
+            ]
+         ]
+      ]
+   ],
    "lands": {
       "forSale": [
          "d45",
@@ -3780,7 +3836,12 @@ module.exports = {
          "owner": "nutritree",
          "strain": "cg",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               48664730,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 4,
          "substage": 6,
@@ -3797,7 +3858,12 @@ module.exports = {
          "owner": "nutritree",
          "strain": "dp",
          "xp": 1,
-         "care": [],
+         "care": [
+            [
+               48664730,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 4,
          "substage": 2,
@@ -3814,7 +3880,12 @@ module.exports = {
          "owner": "nutritree",
          "strain": "hk",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               48664730,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 4,
          "substage": 4,
@@ -20129,18 +20200,6 @@ module.exports = {
    "payday": [
       [
          {
-            "account": "elemental010",
-            "weight": 10000
-         }
-      ],
-      [
-         {
-            "account": "cuko",
-            "weight": 9999
-         }
-      ],
-      [
-         {
             "account": "saboin",
             "weight": 9999
          }
@@ -20196,6 +20255,8 @@ module.exports = {
       "42120859:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
       "42123836:elemental010": "elemental010 watered c38 c91 a120 a52 ",
       "42123841:elemental010": "elemental010 harvested a120 a52 ",
-      "42132540:tsnaks": "tsnaks watered d82 "
+      "42132540:tsnaks": "tsnaks watered d82 ",
+      "48664730:nutritree": "nutritree watered d54 e58 f33 ",
+      "48666929:saboin": "920579630440 vested"
    }
 }
