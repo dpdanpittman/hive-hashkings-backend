@@ -20197,41 +20197,7 @@ module.exports = {
       "t": [],
       "e": []
    },
-   "payday": [
-      [
-         {
-            "account": "saboin",
-            "weight": 9999
-         }
-      ],
-      [
-         {
-            "account": "badpupper",
-            "weight": 10000
-         }
-      ],
-      [
-         {
-            "account": "ecoinstats",
-            "weight": 10000
-         }
-      ],
-      [
-         {
-            "account": "anarcist69",
-            "weight": 10000
-         }
-      ],
-      [
-         {
-            "account": "ericwilson",
-            "weight": 10000
-         }
-      ],
-      [],
-      [],
-      []
-   ],
+   "payday": [],
    "blacklist": {
       "zonguin": true,
       "steembeem": true
