@@ -504,6 +504,14 @@ function startApp() {
                 });
             }
 
+            if (num % 5 === 0 && processor.isStreaming()) {              
+                //logging for testing will remove after a while
+                console.log('------------------------');
+                console.log('at block ' + num);
+                console.log('bal.c is ' + state.bal.c);
+                
+            }
+
             if (num % 1000 === 0 && processor.isStreaming()) {
                 if (!state.blacklist) state.blacklist = {}
                 ipfsSaveState(num, JSON.stringify(state))
