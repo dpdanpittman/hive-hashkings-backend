@@ -424,6 +424,20 @@ function kudo(user) {
     }
 }
 
+// gets hive in usd
+function getEthToHive(amount) {
+    return new Promise((resolve, reject) => {
+      axios.get('https://api.binance.com/api/v3/ticker/price').then((res) => {
+        const { data } = res
+        const hivePrice = data.find(o => o.symbol === "HIVEUSDT")
+  
+        resolve(hivePrice.toFixed(3))
+      }).catch((err) => {
+        reject(err)
+      })
+    })
+  }
+
 /****ISSUE****/
 function startWith(hash) {
     if (hash) {
@@ -486,6 +500,27 @@ function startApp() {
                 console.log('------------------------');
                 console.log('at block ' + num);
                 console.log('bal.c is ' + state.bal.c);
+
+                getEthToHive(1).then(price => {
+
+                    let seedPrice = price * 1000;
+                    
+                    // sets state to gem price + 2 percent and 30 HIVE to make up for price difference
+                    state.stats.prices.listed.seeds.reg = Math.ceil((seedPrice * 2.5)); 
+                    state.stats.prices.listed.seeds.mid = Math.ceil((seedPrice * 2.5) * 2); 
+                    state.stats.prices.listed.seeds.top = Math.ceil((seedPrice * 2.5) * 3); 
+                    state.stats.prices.listed.seeds.special = Math.ceil((seedPrice * 2.5) * 4); 
+                    //sets cut to 0 because bal.c is deprecated
+                    state.bal.c = 0
+
+                    //logging for testing will remove after a while
+                    console.log('------------------------');
+                    console.log('at block ' + num);
+                    console.log('regular seed price is ' + state.stats.prices.listed.seeds.reg);
+                    console.log('mid shelf seed price is ' + state.stats.prices.listed.seeds.mid);
+                    console.log('top shelf seed price is ' + state.stats.prices.listed.seeds.top);
+                    console.log('special seed price is ' + state.stats.prices.listed.seeds.special);
+                    })
                 
             }
 
