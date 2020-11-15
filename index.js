@@ -425,7 +425,7 @@ function kudo(user) {
 }
 
 // gets hive in usd
-function getEthToHive(amount) {
+function hivePrice(amount) {
     return new Promise((resolve, reject) => {
       axios.get('https://api.binance.com/api/v3/ticker/price').then((res) => {
         const { data } = res
@@ -501,7 +501,7 @@ function startApp() {
                 console.log('at block ' + num);
                 console.log('bal.c is ' + state.bal.c);
 
-                getEthToHive(1).then(price => {
+                hivePrice(1).then(price => {
 
                     let seedPrice = price * 1000;
                     
