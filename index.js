@@ -356,11 +356,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 48720884; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 48722035; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 48720884;
+const ago = ENV.ago || 48722035;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     //"https://hive.roelandp.nl",
@@ -425,13 +425,15 @@ function kudo(user) {
 }
 
 // gets hive in usd
-function hivePrice(amount) {
+function hivePriceConversion(amount) {
     return new Promise((resolve, reject) => {
       axios.get('https://api.binance.com/api/v3/ticker/price').then((res) => {
         const { data } = res
         const hivePrice = data.find(o => o.symbol === "HIVEUSDT")
-  
-        resolve(hivePrice.toFixed(3))
+        const hiveCost = hivePrice.price * amount
+        const hiveAmount = hiveCost
+
+        resolve(hiveAmount.toFixed(3))
       }).catch((err) => {
         reject(err)
       })
@@ -501,7 +503,7 @@ function startApp() {
                 console.log('at block ' + num);
                 console.log('bal.c is ' + state.bal.c);
 
-                hivePrice(1).then(price => {
+                hivePriceConversion(1).then(price => {
 
                     let seedPrice = price * 1000;
                     
