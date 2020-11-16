@@ -505,7 +505,7 @@ function startApp() {
 
                 hivePriceConversion(1).then(price => {
 
-                    let seedPrice = price * 1000;
+                    let seedPrice = price * 100;
                     
                     // sets state to gem price + 2 percent and 30 HIVE to make up for price difference
                     state.stats.prices.listed.seeds.reg = Math.ceil((seedPrice * 2.5)); 
