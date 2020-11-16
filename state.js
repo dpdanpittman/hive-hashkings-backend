@@ -789,18 +789,6 @@ module.exports = {
    "refund": [],
    "lands": {
       "forSale": [
-         "d45",
-         "c56",
-         "b49",
-         "d37",
-         "f16",
-         "e40",
-         "f23",
-         "e41",
-         "e46",
-         "b39",
-         "a76",
-         "c67",
          "e59",
          "c43",
          "b57",
@@ -929,7 +917,7 @@ module.exports = {
       },
       "e57": {
          "owner": "qwoyn-dev",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1002,7 +990,7 @@ module.exports = {
       },
       "e14": {
          "owner": "mondoshawan",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1065,7 +1053,7 @@ module.exports = {
       },
       "a11": {
          "owner": "bluntsmasha",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1077,7 +1065,7 @@ module.exports = {
       },
       "b2": {
          "owner": "bluntsmasha",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1088,7 +1076,7 @@ module.exports = {
       },
       "c1": {
          "owner": "bluntsmasha",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1099,7 +1087,7 @@ module.exports = {
       },
       "f2": {
          "owner": "bluntsmasha",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1143,7 +1131,7 @@ module.exports = {
       },
       "b5": {
          "owner": "luegenbaron",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1188,7 +1176,7 @@ module.exports = {
       },
       "b41": {
          "owner": "mondoshawan",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1200,7 +1188,7 @@ module.exports = {
       },
       "c37": {
          "owner": "luegenbaron",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1212,7 +1200,7 @@ module.exports = {
       },
       "e11": {
          "owner": "jonyoudyer",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1224,7 +1212,7 @@ module.exports = {
       },
       "e15": {
          "owner": "mondoshawan",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1253,7 +1241,7 @@ module.exports = {
       },
       "a3": {
          "owner": "jonyoudyer",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1366,7 +1354,7 @@ module.exports = {
       },
       "d32": {
          "owner": "ecoinstar",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1611,7 +1599,7 @@ module.exports = {
       },
       "a120": {
          "owner": "elemental010",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1624,7 +1612,7 @@ module.exports = {
       },
       "a52": {
          "owner": "elemental010",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1654,7 +1642,7 @@ module.exports = {
       },
       "e20": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1666,7 +1654,7 @@ module.exports = {
       },
       "e21": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1678,7 +1666,7 @@ module.exports = {
       },
       "e22": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1690,7 +1678,7 @@ module.exports = {
       },
       "e23": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1702,7 +1690,7 @@ module.exports = {
       },
       "e24": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1714,7 +1702,7 @@ module.exports = {
       },
       "e25": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1726,7 +1714,7 @@ module.exports = {
       },
       "e26": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1738,7 +1726,7 @@ module.exports = {
       },
       "e27": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -1750,7 +1738,7 @@ module.exports = {
       },
       "e28": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -2199,7 +2187,7 @@ module.exports = {
       },
       "d40": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [
             [
@@ -2492,7 +2480,7 @@ module.exports = {
       },
       "b53": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -2504,7 +2492,7 @@ module.exports = {
       },
       "b54": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -2516,7 +2504,7 @@ module.exports = {
       },
       "b55": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -2742,7 +2730,7 @@ module.exports = {
       },
       "b56": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3050,7 +3038,7 @@ module.exports = {
       },
       "d46": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [
             [
@@ -3298,7 +3286,7 @@ module.exports = {
       },
       "f30": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3310,7 +3298,7 @@ module.exports = {
       },
       "c61": {
          "owner": "bauloewe",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3322,7 +3310,7 @@ module.exports = {
       },
       "c62": {
          "owner": "bauloewe",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3448,7 +3436,7 @@ module.exports = {
       },
       "c60": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3460,7 +3448,7 @@ module.exports = {
       },
       "a68": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3472,7 +3460,7 @@ module.exports = {
       },
       "d49": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3502,7 +3490,7 @@ module.exports = {
       },
       "d50": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3751,7 +3739,7 @@ module.exports = {
       },
       "e61": {
          "owner": "silverlining1",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3762,7 +3750,7 @@ module.exports = {
       },
       "a72": {
          "owner": "silverlining1",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3792,7 +3780,7 @@ module.exports = {
       },
       "c70": {
          "owner": "russia-btc",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3803,7 +3791,7 @@ module.exports = {
       },
       "d56": {
          "owner": "russia-btc",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3816,7 +3804,7 @@ module.exports = {
       },
       "e63": {
          "owner": "russia-btc",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -3829,7 +3817,7 @@ module.exports = {
       },
       "a75": {
          "owner": "russia-btc",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4250,7 +4238,7 @@ module.exports = {
       },
       "c74": {
          "owner": "silverlining1",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4261,7 +4249,7 @@ module.exports = {
       },
       "f41": {
          "owner": "silverlining1",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4291,7 +4279,7 @@ module.exports = {
       },
       "f42": {
          "owner": "silverlining1",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4302,7 +4290,7 @@ module.exports = {
       },
       "a82": {
          "owner": "silverlining1",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4313,7 +4301,7 @@ module.exports = {
       },
       "b70": {
          "owner": "silverlining1",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4324,7 +4312,7 @@ module.exports = {
       },
       "f43": {
          "owner": "silverlining1",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4597,7 +4585,7 @@ module.exports = {
       },
       "d65": {
          "owner": "luegenbaron",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4680,7 +4668,7 @@ module.exports = {
       },
       "f48": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4690,7 +4678,7 @@ module.exports = {
       },
       "f49": {
          "owner": "mulletwang",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4730,7 +4718,7 @@ module.exports = {
       },
       "f55": {
          "owner": "saboin",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -4743,7 +4731,7 @@ module.exports = {
       },
       "a69": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4755,7 +4743,7 @@ module.exports = {
       },
       "a70": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4767,7 +4755,7 @@ module.exports = {
       },
       "b61": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4779,7 +4767,7 @@ module.exports = {
       },
       "b62": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4791,7 +4779,7 @@ module.exports = {
       },
       "c63": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4803,7 +4791,7 @@ module.exports = {
       },
       "c64": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4815,7 +4803,7 @@ module.exports = {
       },
       "d52": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4827,7 +4815,7 @@ module.exports = {
       },
       "d53": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4839,7 +4827,7 @@ module.exports = {
       },
       "e53": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4851,7 +4839,7 @@ module.exports = {
       },
       "e54": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4863,7 +4851,7 @@ module.exports = {
       },
       "c65": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4875,7 +4863,7 @@ module.exports = {
       },
       "a71": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4887,7 +4875,7 @@ module.exports = {
       },
       "f31": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4899,7 +4887,7 @@ module.exports = {
       },
       "f32": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4911,7 +4899,7 @@ module.exports = {
       },
       "b63": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4923,7 +4911,7 @@ module.exports = {
       },
       "e55": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -4935,7 +4923,7 @@ module.exports = {
       },
       "e56": {
          "owner": "chronocrypto",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -5229,7 +5217,7 @@ module.exports = {
       },
       "c82": {
          "owner": "wdougwatson",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -5258,7 +5246,7 @@ module.exports = {
       },
       "c83": {
          "owner": "saboin",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -5271,7 +5259,7 @@ module.exports = {
       },
       "b79": {
          "owner": "saboin",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -5284,7 +5272,7 @@ module.exports = {
       },
       "a96": {
          "owner": "saboin",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -5716,7 +5704,7 @@ module.exports = {
       },
       "e84": {
          "owner": "jeffjagoe",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -5850,7 +5838,7 @@ module.exports = {
       },
       "f66": {
          "owner": "saboin",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -5906,7 +5894,7 @@ module.exports = {
       },
       "b88": {
          "owner": "saboin",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -5919,7 +5907,7 @@ module.exports = {
       },
       "b89": {
          "owner": "saboin",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -5980,7 +5968,7 @@ module.exports = {
       },
       "a106": {
          "owner": "jeffjagoe",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -6327,7 +6315,7 @@ module.exports = {
       },
       "e85": {
          "owner": "jeffjagoe",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -6461,7 +6449,7 @@ module.exports = {
       },
       "d83": {
          "owner": "nupulse",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -6475,7 +6463,7 @@ module.exports = {
       },
       "b92": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6487,7 +6475,7 @@ module.exports = {
       },
       "d84": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6499,7 +6487,7 @@ module.exports = {
       },
       "e92": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6511,7 +6499,7 @@ module.exports = {
       },
       "f68": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [
             [
                41803180,
@@ -6530,7 +6518,7 @@ module.exports = {
       },
       "a113": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [
             [
                41803180,
@@ -6549,7 +6537,7 @@ module.exports = {
       },
       "b93": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6561,7 +6549,7 @@ module.exports = {
       },
       "f69": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [
             [
                41803180,
@@ -6580,7 +6568,7 @@ module.exports = {
       },
       "d85": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6592,7 +6580,7 @@ module.exports = {
       },
       "e93": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6604,7 +6592,7 @@ module.exports = {
       },
       "e94": {
          "owner": "anarcist69",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6642,7 +6630,7 @@ module.exports = {
       },
       "e95": {
          "owner": "romiferns",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6726,7 +6714,7 @@ module.exports = {
       },
       "a115": {
          "owner": "cuko",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6757,7 +6745,7 @@ module.exports = {
       },
       "b97": {
          "owner": "saboin",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6770,7 +6758,7 @@ module.exports = {
       },
       "b98": {
          "owner": "abrockman",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6810,7 +6798,7 @@ module.exports = {
       },
       "b100": {
          "owner": "vcdragon",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6823,7 +6811,7 @@ module.exports = {
       },
       "e98": {
          "owner": "vcdragon",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -6868,7 +6856,7 @@ module.exports = {
       },
       "b102": {
          "owner": "vcdragon",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6881,7 +6869,7 @@ module.exports = {
       },
       "c104": {
          "owner": "vcdragon",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6908,7 +6896,7 @@ module.exports = {
       },
       "c105": {
          "owner": "vcdragon",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -6979,7 +6967,7 @@ module.exports = {
       },
       "a117": {
          "owner": "vcdragon",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -7060,7 +7048,7 @@ module.exports = {
       },
       "c108": {
          "owner": "cwow2",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -7085,7 +7073,7 @@ module.exports = {
       },
       "c106": {
          "owner": "russia-btc",
-         "strain": "",
+         "strain": "mal",
          "xp": 0,
          "care": [],
          "aff": [],
@@ -7098,7 +7086,7 @@ module.exports = {
       },
       "a124": {
          "owner": "nupulse",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -7152,7 +7140,7 @@ module.exports = {
       },
       "a125": {
          "owner": "badpupper",
-         "strain": "",
+         "strain": "mal",
          "care": [],
          "aff": [],
          "stage": -1,
@@ -16429,7 +16417,19 @@ module.exports = {
             "f66",
             "b88",
             "b89",
-            "b97"
+            "b97",
+            "d45",
+            "c56",
+            "b49",
+            "d37",
+            "f16",
+            "e40",
+            "f23",
+            "e41",
+            "e46",
+            "b39",
+            "a76",
+            "c67",
          ],
          "xps": 26,
          "seeds": [
