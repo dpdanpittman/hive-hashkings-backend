@@ -579,13 +579,13 @@ module.exports = {
       {
          "delegator": "schlees",
          "vests": 76883056683,
-         "availible": 0,
+         "availible": 1,
          "used": 1
       },
       {
          "delegator": "vibrasphere",
          "vests": 38345367240,
-         "availible": 0,
+         "availible": 1,
          "used": 0
       }
    ],
