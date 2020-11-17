@@ -2202,7 +2202,7 @@ function startApp() {
                                         '<h3>Automated Hashkings Response</h3>\nThanks for trying to lease a plot on Hashkings but it looks like you have used up your plot credits and may need to delegate more STEEM POWER. Please return to the [Hashkings Market](https://www.hashkings.app/markets) to delegate more SP\nIf you feel this is an error please contact our DEV TEAM in our [Discord Server](https://discord.gg/xabv5az)\n<h5>Thank you so much for you support!</h5>\n<a href="https://www.hashkings.app"><img src="https://i.imgur.com/MQYSNVK.png"></a>'
                                     ])
                                 }
-                            } else if (want == 'rseed' && amount == state.stats.prices.listed.seeds.reg) {
+                            } else if (want == 'rseed' && amount > state.stats.prices.listed.seeds.reg - 3 &&  amount < state.stats.prices.listed.seeds.reg + 3) {
                                 if (state.stats.supply.strains.indexOf(type) < 0) { type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length - 1)] }
                                 var seed = {
                                     strain: type,
