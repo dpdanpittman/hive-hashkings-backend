@@ -356,11 +356,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 48788034; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 48807159; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 48788034;
+const ago = ENV.ago || 48807159;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     //"https://hive.roelandp.nl",
@@ -507,7 +507,7 @@ function startApp() {
 
                     let seedPrice = price * 100;
                     
-                    // sets state to gem price + 2 percent and 30 HIVE to make up for price difference
+                    // sets state to seed price
                     state.stats.prices.listed.seeds.reg = Math.ceil((seedPrice * 2.5)); 
                     state.stats.prices.listed.seeds.mid = Math.ceil((seedPrice * 2.5) * 2); 
                     state.stats.prices.listed.seeds.top = Math.ceil((seedPrice * 2.5) * 3); 
