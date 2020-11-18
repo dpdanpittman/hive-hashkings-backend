@@ -532,16 +532,13 @@ function startApp() {
             }
 
             if (num % 28800 === 0) {
-                var d = parseInt(state.bal.c / 4)
+                var d = parseInt(state.bal.c)
                 state.bal.r += state.bal.c
                 if (d) {
-                    state.refund.push(['xfer', 'qwoyn-dev', d, 'Dev Cut'])
-                    state.refund.push(['xfer', 'qwoyn-fund', parseInt(2 * d), 'Funds'])
                     state.refund.push(['xfer', 'qwoyn', d, 'Producer Cut'])
-                    state.bal.c -= d * 4
-                    d = parseInt(state.bal.c / 5) * 2
-                        //state.refund.push(['xfer', 'qwoyn-chest', state.bal.c, 'Warchest'])
                     state.bal.c = 0
+                    d = 0
+                        //state.refund.push(['xfer', 'qwoyn-chest', state.bal.c, 'Warchest'])
                     state.refund.push(['power', username, state.bal.b, 'Power to the people!'])
                 }
             }
@@ -2015,7 +2012,6 @@ function startApp() {
         if (json.to == username && json.from == username) {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             state.cs[`${json.block_num}:${json.from}`] = `${amount} to vesting`
-            state.bal.b -= amount
             state.bal.p += amount
             for (var i = 0; i < state.refund.length; i++) {
                 if (state.refund[i][1] == json.to && state.refund[i][2] == amount) {
@@ -2185,9 +2181,8 @@ function startApp() {
                                         }
                                     }
                                 } else {
-                                    const c = parseInt(amount * 0.75)
+                                    const c = parseInt(amount)
                                     state.bal.c += c
-                                    state.bal.b += amount - c
                                     allowed = true
                                 }
                                 if (allowed) {
@@ -2218,9 +2213,8 @@ function startApp() {
                                 state.users[json.from].xps += 1;
                                 state.users[json.from].seeds.push(seed)
 
-                                const c = parseInt(amount * 0.75)
+                                const c = parseInt(amount)
                                 state.bal.c += c
-                                state.bal.b += amount - c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
                             } else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000) {
                                 if (want == 'papers') {
@@ -2247,9 +2241,8 @@ function startApp() {
                                     state.users[json.from].hempwraps++;
                                     state.users[json.from].xps += 250;
                                 }
-                                const c = parseInt(amount * 0.75)
+                                const c = parseInt(amount)
                                 state.bal.c += c
-                                state.bal.b += amount - c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
                             } else {
                                 state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
