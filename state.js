@@ -822,32 +822,7 @@ module.exports = {
       "b": 23250,
       "p": 1497479
    },
-   "refund": [
-      [
-         "xfer",
-         "qwoyn-dev",
-         18062,
-         "Dev Cut"
-      ],
-      [
-         "xfer",
-         "qwoyn-fund",
-         36124,
-         "Funds"
-      ],
-      [
-         "xfer",
-         "qwoyn",
-         18062,
-         "Producer Cut"
-      ],
-      [
-         "power",
-         "hashkings",
-         23250,
-         "Power to the people!"
-      ]
-   ],
+   "refund": [],
    "lands": {
       "forSale": [
          "e59",
