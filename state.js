@@ -595,7 +595,7 @@ module.exports = {
       "gamewatch": 1
    },
    "stats": {
-      "vs": 1950,
+      "vs": 1915,
       "dust": 25,
       "time": 48771320,
       "offsets": {
