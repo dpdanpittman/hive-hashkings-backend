@@ -8240,7 +8240,6 @@ module.exports = {
                "created_alliance"
             ]
          ],
-         "xps": 50000,
          "v": 0
       },
       "disregardfiat": {
