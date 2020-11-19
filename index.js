@@ -2114,45 +2114,6 @@ function startApp() {
         var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'HIVE') {
             const amount = parseInt(parseFloat(json.amount) * 1000)
-            fetch(`http://blacklist.usehive.com/user/${json.from}`)
-                .then(function(response) {
-                    return response.json();
-                })
-                .then(function(myJson) {
-                    if (myJson.blacklisted.length > 1 || json.from == 'news-today') {
-                        if (!state.users[json.from]) state.users[json.from] = {
-                            addrs: [],
-                            seeds: [],
-                            xps: 0,
-                            pollen: [],
-                            buds: [],
-                            alliance: "",
-                            friends: [],
-                            inv: [],
-                            seeds: [],
-                            pollen: [],
-                            buds: [],
-                            kief: [],
-                            bubblehash: [],
-                            oil: [],
-                            edibles: [],
-                            joints: [],
-                            blunts: [],
-                            moonrocks: [],
-                            dippedjoints: [],
-                            cannagars: [],
-                            kiefbox: 0,
-                            vacoven: 0,
-                            bubblebags: 0,
-                            browniemix: 0,
-                            stats: [],
-                            traits: [],
-                            terps: [],
-                            blacklist: true,
-                            v: 0,
-                            a: 0,
-                            u: 0
-                        }
                         var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                             type = json.memo.split(" ")[1] || ''
                         if (state.stats.prices.listed[want] == amount || amount == 500 && type == 'manage' && state.stats.prices.listed[want] || want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000 || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special) {
@@ -2242,21 +2203,6 @@ function startApp() {
                             state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                             state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds/tools or managing land...please check wallet`
                         }
-                    } else {
-                        if (state.blacklist[json.from]) {
-                            var users = parseInt(amount / 2),
-                                ops = parseInt(amount - users)
-                            state.balance.b += users
-                            state.bal.c += ops
-                        } else {
-                            state.bal.r += amount
-                            state.refund.push(['xfer', json.from, amount, 'This account is on the global blacklist. You may remove your delegation, any further transfers will be treated as donations.\n\nIf you feel this may be an error please contact our DEV TEAM in our [Discord Server](https://discord.gg/xabv5az)'])
-                            state.blacklist[json.from] = true
-                            state.cs[`${json.block_num}:${json.from}`] = `${json.from} blacklisted`
-                        }
-                    }
-                })
-
         } else if (json.from == username) {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             for (var i = 0; i < state.refund.length; i++) {
