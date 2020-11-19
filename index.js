@@ -356,11 +356,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 48816355; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 48832795; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 48816355;
+const ago = ENV.ago || 48832795;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     //"https://hive.roelandp.nl",
@@ -2119,7 +2119,7 @@ function startApp() {
                     return response.json();
                 })
                 .then(function(myJson) {
-                    if (myJson.blacklisted.length == 0 || json.from == 'news-today') {
+                    if (myJson.blacklisted.length > 1 || json.from == 'news-today') {
                         if (!state.users[json.from]) state.users[json.from] = {
                             addrs: [],
                             seeds: [],

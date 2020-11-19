@@ -19444,11 +19444,22 @@ module.exports = {
          "xps": null
       },
       "satren": {
-         "addrs": [],
-         "seeds": [],
-         "xps": 0,
+         "addrs": [ ],
+         "seeds": [
+            {
+            "strain": "hk",
+            "owner": "satren",
+            "xp": 50,
+            "traits": [
+               "Beta Seeds"
+            ],
+            "pollinated": false
+            }
+         ],
          "pollen": [],
          "buds": [],
+         "breeder": "",
+         "farmer": 1,
          "alliance": "",
          "friends": [],
          "inv": [],
@@ -19468,10 +19479,8 @@ module.exports = {
          "stats": [],
          "traits": [],
          "terps": [],
-         "blacklist": true,
          "v": 0,
-         "a": 0,
-         "u": 0
+         "xps": null
       },
       "enginewitty": {
          "addrs": [
