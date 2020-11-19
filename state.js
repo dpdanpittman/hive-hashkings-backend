@@ -614,11 +614,11 @@ module.exports = {
       }
    ],
    "kudos": {
-      "qwoyn": 8,
-      "saboin": 6,
+      "qwoyn": 10,
+      "saboin": 7,
       "gamewatch": 2,
-      "anarcist69": 2,
-      "schlees": 1,
+      "anarcist69": 4,
+      "schlees": 3,
       "bibdieufr": 2
    },
    "stats": {
@@ -737,10 +737,10 @@ module.exports = {
             "f": 20000,
             "t": 20000,
             "seeds": {
-               "reg": 31,
-               "mid": 62,
-               "top": 93,
-               "special": 123
+               "reg": 30,
+               "mid": 60,
+               "top": 90,
+               "special": 119
             },
             "supplies": {
                "papers": 5000,
@@ -805,14 +805,6 @@ module.exports = {
       },
       "gardeners": 152,
       "alliances": [
-         {
-            "name": "Canna-Curate",
-            "founder": "qwoyn",
-            "members": 1,
-            "memberNames": [
-               "qwoyn"
-            ]
-         },
          {
             "name": "Hashkings",
             "founder": "qwoyn",
@@ -921,19 +913,18 @@ module.exports = {
          "strain": "mis",
          "care": [
             [
-               48782971,
+               48810513,
                "watered"
             ],
             [
-               48752964,
+               48782971,
                "watered",
-               "",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "beta pollinated seed"
          ],
@@ -2020,57 +2011,51 @@ module.exports = {
       },
       "e36": {
          "owner": "anarcist69",
-         "strain": "hk",
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               48778235,
-               "watered",
-               ""
+               48808229,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Beta Seed"
-         ],
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "xp": 2250,
-         "inv": [],
-         "planted": 41555285,
-         "sex": "female"
+         "pollinated": false,
+         "id": "e36"
       },
       "a53": {
          "owner": "anarcist69",
-         "strain": "kmj",
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               48778235,
-               "watered",
-               ""
+               48808229,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "xp": 750,
-         "inv": [],
-         "planted": 41555281,
-         "sex": "female"
+         "pollinated": false,
+         "id": "a53"
       },
       "c46": {
          "owner": "qwoyn",
          "strain": "aca",
          "xp": 2250,
          "care": [
+            [
+               48810513,
+               "watered"
+            ],
             [
                48782971,
                "watered",
@@ -4209,12 +4194,13 @@ module.exports = {
          "care": [
             [
                48781938,
-               "watered"
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -6207,7 +6193,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "b92"
       },
       "d84": {
          "owner": "anarcist69",
@@ -6219,7 +6206,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "d84"
       },
       "e92": {
          "owner": "anarcist69",
@@ -6231,7 +6219,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "e92"
       },
       "f68": {
          "owner": "anarcist69",
@@ -6243,7 +6232,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "f68"
       },
       "a113": {
          "owner": "anarcist69",
@@ -6255,7 +6245,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "a113"
       },
       "b93": {
          "owner": "anarcist69",
@@ -6267,7 +6258,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "b93"
       },
       "f69": {
          "owner": "anarcist69",
@@ -6279,7 +6271,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "f69"
       },
       "d85": {
          "owner": "anarcist69",
@@ -6291,7 +6284,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "d85"
       },
       "e93": {
          "owner": "anarcist69",
@@ -6303,7 +6297,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "e93"
       },
       "e94": {
          "owner": "anarcist69",
@@ -6315,7 +6310,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "e94"
       },
       "a100": {
          "owner": "qwoyn",
@@ -6323,19 +6319,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               48782971,
+               48810513,
                "watered"
             ],
             [
-               48752964,
+               48782971,
                "watered",
-               "",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -6659,6 +6654,10 @@ module.exports = {
          "strain": "aca",
          "xp": 2250,
          "care": [
+            [
+               48810513,
+               "watered"
+            ],
             [
                48782971,
                "watered",
@@ -7015,10 +7014,6 @@ module.exports = {
          "care": [
             [
                48800128,
-               "watered"
-            ],
-            [
-               48771976,
                "watered",
                ""
             ]
@@ -7035,7 +7030,7 @@ module.exports = {
          ],
          "planted": 48771969,
          "stage": 1,
-         "substage": 1,
+         "substage": 2,
          "pollinated": true,
          "father": [],
          "id": "a127"
@@ -7127,7 +7122,8 @@ module.exports = {
          "care": [
             [
                48800361,
-               "watered"
+               "watered",
+               ""
             ]
          ],
          "aff": [],
@@ -7142,9 +7138,35 @@ module.exports = {
          ],
          "planted": 48800349,
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "pollinated": false,
          "id": "a128"
+      },
+      "e107": {
+         "owner": "enginewitty",
+         "strain": "kbr",
+         "xp": 200,
+         "care": [
+            [
+               48807798,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 48807783,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "id": "e107"
       }
    },
    "users": {
@@ -8089,7 +8111,7 @@ module.exports = {
             }
          ],
          "breeder": "Willie",
-         "alliance": "",
+         "alliance": "Hashkings",
          "friends": [
             {
                "name": [
@@ -8218,6 +8240,7 @@ module.exports = {
                "created_alliance"
             ]
          ],
+         "xps": 50000,
          "v": 0
       },
       "disregardfiat": {
@@ -13865,8 +13888,63 @@ module.exports = {
             "e93",
             "e94"
          ],
-         "xps": 301,
-         "seeds": [],
+         "xps": 351,
+         "seeds": [
+            {
+               "strain": "kmj",
+               "owner": "anarcist69",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "anarcist69",
+               "familyTree": "kmj",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "kmj",
+               "owner": "anarcist69",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kmj",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "hk",
+               "owner": "anarcist69",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "anarcist69",
+               "familyTree": "hk",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "hk",
+               "owner": "anarcist69",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "hk",
+               "pollinated": false,
+               "father": []
+            }
+         ],
          "pollen": [],
          "buds": [
             {
@@ -19404,17 +19482,7 @@ module.exports = {
             "b109",
             "a129"
          ],
-         "seeds": [
-            {
-               "strain": "kbr",
-               "owner": "enginewitty",
-               "xp": 200,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": false
-            }
-         ],
+         "seeds": [],
          "pollen": [],
          "buds": [],
          "breeder": "",
@@ -19460,53 +19528,14 @@ module.exports = {
       "executive-board": true
    },
    "cs": {
-      "48761211:schlees": "76691328362 vested",
-      "48761267:schlees": "76883056683 vested",
-      "48761333:schlees": "schlees purchased land at plot #a127",
-      "48762245:gamewatch": "gamewatch watered c48 ",
-      "48762268:gamewatch": "gamewatch harvested c48 ",
-      "48763426:vibrasphere": "38345367240 vested",
-      "48771969:schlees": "planted on empty plot a127",
-      "48771976:schlees": "schlees watered a127 ",
-      "48776512:bibdieufr": "76687403495 vested",
-      "48776527:bibdieufr": "bibdieufr purchased land at plot #e106",
-      "48776534:bibdieufr": "bibdieufr purchased land at plot #c113",
-      "48776573:bibdieufr": "bibdieufr purchased kbr",
-      "48776578:schlees": "schlees purchased land at plot #a128",
-      "48776675:altonos": "76687362606 vested",
-      "48776693:altonos": "altonos purchased land at plot #c114",
-      "48776711:altonos": "altonos purchased land at plot #c115",
-      "48776737:altonos": "altonos purchased mis",
-      "48777152:satren": "satren is managing",
-      "48777166:satren": "191718099754 vested",
-      "48778235:anarcist69": "anarcist69 watered a53 e36 ",
-      "48779377:satren": "satren refunded successfully",
-      "48780639:qwoyn": "qwoyn purchased lkg",
-      "48781632:gamewatch": "planted on harvested plot c48 ",
-      "48781644:gamewatch": "gamewatch did something unexpected with a plant!",
-      "48781664:gamewatch": "gamewatch did something unexpected with a plant!",
-      "48781938:saboin": "saboin watered d61 a83 c77 e70 ",
-      "48782971:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
-      "48783551:gamewatch": "gamewatch did something unexpected with a plant!",
-      "48788150:qwoyn": "qwoyn purchased hk",
-      "48788867:bibdieufr": "planted on empty plot e106",
-      "48788876:gamewatch": "gamewatch watered c48 ",
-      "48788936:bibdieufr": "bibdieufr purchased cht",
-      "48788949:bibdieufr": "planted on empty plot c113",
-      "48788959:bibdieufr": "bibdieufr watered e106 ",
-      "48788974:bibdieufr": "bibdieufr watered c113 ",
-      "48789789:bibdieufr": "bibdieufr watered c113 ",
-      "48800115:altonos": "planted on empty plot c114",
-      "48800128:schlees": "schlees watered a127 ",
-      "48800149:altonos": "altonos watered c114 ",
-      "48800337:schlees": "schlees purchased hk",
-      "48800349:schlees": "planted on empty plot a128",
-      "48800361:schlees": "schlees watered a128 ",
-      "48807130:enginewitty": "191699278516 vested",
       "48807145:enginewitty": "enginewitty purchased land at plot #e107",
       "48807149:enginewitty": "enginewitty purchased land at plot #f77",
       "48807152:enginewitty": "enginewitty purchased land at plot #d100",
       "48807156:enginewitty": "enginewitty purchased land at plot #b109",
-      "48807159:enginewitty": "enginewitty purchased land at plot #a129"
+      "48807159:enginewitty": "enginewitty purchased land at plot #a129",
+      "48807783:enginewitty": "planted on empty plot e107",
+      "48807798:enginewitty": "enginewitty watered e107 ",
+      "48808229:anarcist69": "anarcist69 harvested a53 e36 ",
+      "48810513:qwoyn": "qwoyn watered a10 c46 a100 e37 "
    }
 }
