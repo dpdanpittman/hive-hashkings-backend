@@ -37,12 +37,6 @@ module.exports = {
          "used": 1
       },
       {
-         "delegator": "gamewatch",
-         "vests": 39882850262,
-         "availible": 0,
-         "used": 1
-      },
-      {
          "delegator": "disregardfiat",
          "vests": 39869791916,
          "availible": 0,
@@ -611,11 +605,23 @@ module.exports = {
          "vests": 191699278516,
          "availible": 0,
          "used": 5
+      },
+      {
+         "delegator": "gamewatch",
+         "vests": 76672434965,
+         "availible": 0,
+         "used": 2
+      },
+      {
+         "delegator": "foxon",
+         "vests": 0,
+         "availible": 0,
+         "used": 0
       }
    ],
    "kudos": {
-      "qwoyn": 10,
-      "saboin": 7,
+      "qwoyn": 12,
+      "saboin": 10,
       "gamewatch": 2,
       "anarcist69": 4,
       "schlees": 3,
@@ -737,10 +743,10 @@ module.exports = {
             "f": 20000,
             "t": 20000,
             "seeds": {
-               "reg": 30,
-               "mid": 60,
-               "top": 90,
-               "special": 119
+               "reg": 31,
+               "mid": 62,
+               "top": 93,
+               "special": 123
             },
             "supplies": {
                "papers": 5000,
@@ -763,8 +769,8 @@ module.exports = {
             "bc": 110,
             "c": 304,
             "cc": 116,
-            "d": 319,
-            "dc": 101,
+            "d": 318,
+            "dc": 102,
             "e": 312,
             "ec": 108,
             "f": 342,
@@ -914,17 +920,13 @@ module.exports = {
          "care": [
             [
                48810513,
-               "watered"
-            ],
-            [
-               48782971,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 4,
+         "substage": 5,
          "traits": [
             "beta pollinated seed"
          ],
@@ -2032,12 +2034,7 @@ module.exports = {
          "owner": "anarcist69",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               48808229,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -2096,6 +2093,10 @@ module.exports = {
          "strain": "cg",
          "xp": 2250,
          "care": [
+            [
+               48836029,
+               "watered"
+            ],
             [
                48788876,
                "watered",
@@ -2709,15 +2710,20 @@ module.exports = {
       },
       "b56": {
          "owner": "chronocrypto",
-         "strain": "mal",
-         "xp": 0,
+         "strain": "cg",
+         "xp": 2250,
          "care": [],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
-         "id": "b56"
+         "id": "b56",
+         "inv": [],
+         "planted": 48842804,
+         "pollinated": true
       },
       "c55": {
          "owner": "chronocrypto",
@@ -3372,27 +3378,37 @@ module.exports = {
       },
       "a68": {
          "owner": "chronocrypto",
-         "strain": "mal",
-         "xp": 0,
+         "strain": "cg",
+         "xp": 2250,
          "care": [],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
-         "id": "a68"
+         "id": "a68",
+         "inv": [],
+         "planted": 48842809,
+         "pollinated": true
       },
       "d49": {
          "owner": "chronocrypto",
-         "strain": "mal",
-         "xp": 0,
+         "strain": "pam",
+         "xp": 2250,
          "care": [],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "Beta Seed"
+         ],
          "terps": [],
-         "id": "d49"
+         "id": "d49",
+         "inv": [],
+         "planted": 48842819,
+         "pollinated": true
       },
       "e44": {
          "owner": "chronocrypto",
@@ -4108,6 +4124,10 @@ module.exports = {
          "xp": 50,
          "care": [
             [
+               48835586,
+               "watered"
+            ],
+            [
                48781938,
                "watered",
                ""
@@ -4193,14 +4213,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               48781938,
+               48835586,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4266,6 +4286,10 @@ module.exports = {
          "owner": "saboin",
          "strain": "pam",
          "care": [
+            [
+               48835586,
+               "watered"
+            ],
             [
                48781938,
                "watered",
@@ -4481,6 +4505,10 @@ module.exports = {
          "owner": "saboin",
          "strain": "mal",
          "care": [
+            [
+               48835586,
+               "watered"
+            ],
             [
                48781938,
                "watered",
@@ -6320,24 +6348,21 @@ module.exports = {
          "care": [
             [
                48810513,
-               "watered"
-            ],
-            [
-               48782971,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
          "pollinated": true,
          "id": "a100",
          "terps": [],
-         "planted": 41380051
+         "planted": 41380051,
+         "sex": "female"
       },
       "e95": {
          "owner": "romiferns",
@@ -6902,7 +6927,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "pollinated": true,
-         "sex": "female"
+         "sex": "female",
+         "id": "a85"
       },
       "a86": {
          "owner": "chronocrypto",
@@ -6923,7 +6949,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "pollinated": true,
-         "sex": "female"
+         "sex": "female",
+         "id": "a86"
       },
       "a87": {
          "owner": "chronocrypto",
@@ -6944,7 +6971,8 @@ module.exports = {
          "stage": 2,
          "substage": 3,
          "pollinated": true,
-         "sex": "female"
+         "sex": "female",
+         "id": "a87"
       },
       "e105": {
          "owner": "muru",
@@ -7011,13 +7039,7 @@ module.exports = {
       "a127": {
          "owner": "schlees",
          "strain": "mis",
-         "care": [
-            [
-               48800128,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7039,6 +7061,10 @@ module.exports = {
          "owner": "bibdieufr",
          "strain": "kbr",
          "care": [
+            [
+               48835217,
+               "watered"
+            ],
             [
                48788959,
                "watered",
@@ -7065,6 +7091,10 @@ module.exports = {
          "owner": "bibdieufr",
          "strain": "cht",
          "care": [
+            [
+               48835217,
+               "watered"
+            ],
             [
                48789789,
                "watered",
@@ -7119,13 +7149,7 @@ module.exports = {
       "a128": {
          "owner": "schlees",
          "strain": "hk",
-         "care": [
-            [
-               48800361,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7167,6 +7191,108 @@ module.exports = {
          "substage": 0,
          "pollinated": false,
          "id": "e107"
+      },
+      "e40": {
+         "owner": "saboin",
+         "strain": "dp",
+         "xp": 50,
+         "care": [
+            [
+               48835626,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 48835594,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true
+      },
+      "a76": {
+         "owner": "saboin",
+         "strain": "mis",
+         "xp": 50,
+         "care": [
+            [
+               48835626,
+               "watered",
+               ""
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 48835602,
+         "stage": 1,
+         "substage": 1,
+         "pollinated": true
+      },
+      "d45": {
+         "owner": "saboin",
+         "strain": "pam",
+         "xp": 50,
+         "care": [
+            [
+               48835626,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 48835609,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true
+      },
+      "f16": {
+         "owner": "saboin",
+         "strain": "cg",
+         "xp": 50,
+         "care": [
+            [
+               48835650,
+               "watered",
+               ""
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seeds"
+            ]
+         ],
+         "planted": 48835636,
+         "stage": 1,
+         "substage": 1,
+         "pollinated": true
       }
    },
    "users": {
@@ -14311,7 +14437,8 @@ module.exports = {
       },
       "gamewatch": {
          "addrs": [
-            "c48"
+            "c48",
+            "d101"
          ],
          "xps": 26,
          "seeds": [],
@@ -14679,33 +14806,6 @@ module.exports = {
          ],
          "xps": 1,
          "seeds": [
-            {
-               "strain": "cg",
-               "owner": "chronocrypto",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cg",
-               "owner": "chronocrypto",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "pam",
-               "owner": "chronocrypto",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
             {
                "strain": "pam",
                "owner": "chronocrypto",
@@ -16381,15 +16481,6 @@ module.exports = {
          "xps": 26,
          "seeds": [
             {
-               "strain": "dp",
-               "owner": "saboin",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
                "strain": "kmj",
                "owner": "saboin",
                "xp": 50,
@@ -16400,24 +16491,6 @@ module.exports = {
             },
             {
                "strain": "kmj",
-               "owner": "saboin",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "mis",
-               "owner": "saboin",
-               "xp": 50,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "pam",
                "owner": "saboin",
                "xp": 50,
                "traits": [
@@ -16526,15 +16599,6 @@ module.exports = {
             },
             {
                "strain": "cht",
-               "owner": "saboin",
-               "xp": 50,
-               "traits": [
-                  "Beta Seeds"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cg",
                "owner": "saboin",
                "xp": 50,
                "traits": [
@@ -19444,16 +19508,16 @@ module.exports = {
          "xps": null
       },
       "satren": {
-         "addrs": [ ],
+         "addrs": [],
          "seeds": [
             {
-            "strain": "hk",
-            "owner": "satren",
-            "xp": 50,
-            "traits": [
-               "Beta Seeds"
-            ],
-            "pollinated": false
+               "strain": "hk",
+               "owner": "satren",
+               "xp": 50,
+               "traits": [
+                  "Beta Seeds"
+               ],
+               "pollinated": false
             }
          ],
          "pollen": [],
@@ -19515,6 +19579,34 @@ module.exports = {
          "traits": [],
          "terps": [],
          "v": 0
+      },
+      "foxon": {
+         "addrs": [],
+         "seeds": [],
+         "pollen": [],
+         "buds": [],
+         "breeder": "",
+         "farmer": 1,
+         "alliance": "",
+         "friends": [],
+         "inv": [],
+         "kief": [],
+         "bubblehash": [],
+         "oil": [],
+         "edibles": [],
+         "joints": [],
+         "blunts": [],
+         "moonrocks": [],
+         "dippedjoints": [],
+         "cannagars": [],
+         "kiefbox": 0,
+         "vacoven": 0,
+         "bubblebags": 0,
+         "browniemix": 0,
+         "stats": [],
+         "traits": [],
+         "terps": [],
+         "v": 0
       }
    },
    "news": {
@@ -19544,6 +19636,22 @@ module.exports = {
       "48807783:enginewitty": "planted on empty plot e107",
       "48807798:enginewitty": "enginewitty watered e107 ",
       "48808229:anarcist69": "anarcist69 harvested a53 e36 ",
-      "48810513:qwoyn": "qwoyn watered a10 c46 a100 e37 "
+      "48810513:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
+      "48835217:bibdieufr": "bibdieufr watered e106 c113 ",
+      "48835586:saboin": "saboin watered d61 a83 c77 e70 ",
+      "48835594:saboin": "planted on empty plot e40",
+      "48835602:saboin": "planted on empty plot a76",
+      "48835609:saboin": "planted on empty plot d45",
+      "48835626:saboin": "saboin watered d45 e40 a76 ",
+      "48835636:saboin": "planted on empty plot f16",
+      "48835650:saboin": "saboin watered f16 ",
+      "48836029:gamewatch": "gamewatch watered c48 ",
+      "48836066:gamewatch": "76672434965 vested",
+      "48836097:gamewatch": "gamewatch purchased land at plot #d101",
+      "48842804:chronocrypto": "planted on harvested plot b56 ",
+      "48842809:chronocrypto": "planted on harvested plot a68 ",
+      "48842819:chronocrypto": "planted on harvested plot d49 ",
+      "48842824:chronocrypto": "chronocrypto can't plant that.",
+      "48845098:foxon": "0 vested"
    }
 }

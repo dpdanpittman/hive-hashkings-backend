@@ -356,11 +356,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 48832795; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 48845100; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 48832795;
+const ago = ENV.ago || 48845100;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     //"https://hive.roelandp.nl",
@@ -2144,7 +2144,7 @@ function startApp() {
                                     state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased land at plot #${addr}`
                                 } else {
                                     state.refund.push(['xfer', json.from, amount,
-                                        '<h3>Automated Hashkings Response</h3>\nThanks for trying to lease a plot on Hashkings but it looks like you have used up your plot credits and may need to delegate more STEEM POWER. Please return to the [Hashkings Market](https://www.hashkings.app/markets) to delegate more SP\nIf you feel this is an error please contact our DEV TEAM in our [Discord Server](https://discord.gg/xabv5az)\n<h5>Thank you so much for you support!</h5>\n<a href="https://www.hashkings.app"><img src="https://i.imgur.com/MQYSNVK.png"></a>'
+                                        '<h3>Automated Hashkings Response</h3>\nThanks for trying to lease a plot on Hashkings but it looks like you have used up your plot credits and may need to delegate more Hive Power (HP). Please return to the [Hashkings Market](https://www.hashkings.app/markets) to delegate more SP\nIf you feel this is an error please contact our DEV TEAM in our [Discord Server](https://discord.gg/xabv5az)\n<h5>Thank you so much for you support!</h5>\n<a href="https://www.hashkings.app"><img src="https://i.imgur.com/MQYSNVK.png"></a>'
                                     ])
                                 }
                             } else if (want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
