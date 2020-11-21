@@ -620,12 +620,12 @@ module.exports = {
       }
    ],
    "kudos": {
-      "qwoyn": 12,
-      "saboin": 10,
-      "gamewatch": 2,
+      "qwoyn": 16,
+      "saboin": 15,
+      "gamewatch": 3,
       "anarcist69": 4,
       "schlees": 3,
-      "bibdieufr": 2
+      "bibdieufr": 4
    },
    "stats": {
       "vs": 1915,
@@ -743,10 +743,10 @@ module.exports = {
             "f": 20000,
             "t": 20000,
             "seeds": {
-               "reg": 31,
-               "mid": 62,
-               "top": 93,
-               "special": 123
+               "reg": 32,
+               "mid": 63,
+               "top": 94,
+               "special": 125
             },
             "supplies": {
                "papers": 5000,
@@ -809,7 +809,7 @@ module.exports = {
             "Terpinolene"
          ]
       },
-      "gardeners": 152,
+      "gardeners": 153,
       "alliances": [
          {
             "name": "Hashkings",
@@ -919,14 +919,14 @@ module.exports = {
          "strain": "mis",
          "care": [
             [
-               48810513,
+               48848472,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "beta pollinated seed"
          ],
@@ -2015,12 +2015,7 @@ module.exports = {
          "owner": "anarcist69",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               48808229,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -2050,8 +2045,9 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               48810513,
-               "watered"
+               48848472,
+               "watered",
+               ""
             ],
             [
                48782971,
@@ -2061,7 +2057,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 2,
          "quality": [],
          "id": "c46",
          "traits": [
@@ -2094,18 +2090,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               48836029,
+               48866790,
                "watered"
             ],
             [
-               48788876,
+               48836029,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Genesis Seed"
          ],
@@ -4125,10 +4121,6 @@ module.exports = {
          "care": [
             [
                48835586,
-               "watered"
-            ],
-            [
-               48781938,
                "watered",
                ""
             ]
@@ -4137,7 +4129,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 2,
-         "substage": 3,
+         "substage": 4,
          "pollinated": true,
          "inv": [],
          "traits": [
@@ -4211,13 +4203,7 @@ module.exports = {
          "owner": "saboin",
          "strain": "dp",
          "xp": 50,
-         "care": [
-            [
-               48835586,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 2,
          "substage": 3,
@@ -4288,17 +4274,13 @@ module.exports = {
          "care": [
             [
                48835586,
-               "watered"
-            ],
-            [
-               48781938,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4507,17 +4489,13 @@ module.exports = {
          "care": [
             [
                48835586,
-               "watered"
-            ],
-            [
-               48781938,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -6347,14 +6325,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               48810513,
+               48848472,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -6556,7 +6534,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "e98"
       },
       "a119": {
          "owner": "vcdragon",
@@ -6658,7 +6637,8 @@ module.exports = {
          "pollinated": false,
          "inv": [],
          "planted": 41717689,
-         "father": []
+         "father": [],
+         "id": "f74"
       },
       "d92": {
          "owner": "vcdragon",
@@ -6680,22 +6660,19 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               48810513,
-               "watered"
+               48848472,
+               "watered",
+               ""
             ],
             [
                48782971,
                "watered",
                ""
-            ],
-            [
-               42097307,
-               "watered"
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Genesis Seed"
          ],
@@ -6717,7 +6694,8 @@ module.exports = {
          "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": false,
+         "id": "a117"
       },
       "d93": {
          "owner": "vcdragon",
@@ -7034,7 +7012,8 @@ module.exports = {
          "planted": 41687715,
          "stage": 1,
          "substage": 6,
-         "pollinated": true
+         "pollinated": true,
+         "id": "a63"
       },
       "a127": {
          "owner": "schlees",
@@ -7062,11 +7041,11 @@ module.exports = {
          "strain": "kbr",
          "care": [
             [
-               48835217,
+               48864020,
                "watered"
             ],
             [
-               48788959,
+               48835217,
                "watered",
                ""
             ]
@@ -7083,7 +7062,7 @@ module.exports = {
          ],
          "planted": 48788867,
          "stage": 1,
-         "substage": 1,
+         "substage": 2,
          "pollinated": false,
          "id": "e106"
       },
@@ -7092,11 +7071,11 @@ module.exports = {
          "strain": "cht",
          "care": [
             [
-               48835217,
+               48864020,
                "watered"
             ],
             [
-               48789789,
+               48835217,
                "watered",
                ""
             ],
@@ -7117,19 +7096,14 @@ module.exports = {
          ],
          "planted": 48788949,
          "stage": 1,
-         "substage": 1,
+         "substage": 2,
          "pollinated": false,
          "id": "c113"
       },
       "c114": {
          "owner": "altonos",
          "strain": "mis",
-         "care": [
-            [
-               48800149,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7170,12 +7144,7 @@ module.exports = {
          "owner": "enginewitty",
          "strain": "kbr",
          "xp": 200,
-         "care": [
-            [
-               48807798,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7199,7 +7168,8 @@ module.exports = {
          "care": [
             [
                48835626,
-               "watered"
+               "watered",
+               ""
             ]
          ],
          "aff": [],
@@ -7214,20 +7184,14 @@ module.exports = {
          ],
          "planted": 48835594,
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "pollinated": true
       },
       "a76": {
          "owner": "saboin",
          "strain": "mis",
          "xp": 50,
-         "care": [
-            [
-               48835626,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7250,7 +7214,8 @@ module.exports = {
          "care": [
             [
                48835626,
-               "watered"
+               "watered",
+               ""
             ]
          ],
          "aff": [],
@@ -7265,20 +7230,14 @@ module.exports = {
          ],
          "planted": 48835609,
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "pollinated": true
       },
       "f16": {
          "owner": "saboin",
          "strain": "cg",
          "xp": 50,
-         "care": [
-            [
-               48835650,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -14441,7 +14400,26 @@ module.exports = {
             "d101"
          ],
          "xps": 26,
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "kbr",
+               "owner": "gamewatch",
+               "xp": 200,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": false
+            },
+            {
+               "strain": "cg",
+               "owner": "gamewatch",
+               "xp": 200,
+               "traits": [
+                  "Beta Seed"
+               ],
+               "pollinated": false
+            }
+         ],
          "pollen": [],
          "buds": [],
          "breeder": "",
@@ -19628,30 +19606,14 @@ module.exports = {
       "executive-board": true
    },
    "cs": {
-      "48807145:enginewitty": "enginewitty purchased land at plot #e107",
-      "48807149:enginewitty": "enginewitty purchased land at plot #f77",
-      "48807152:enginewitty": "enginewitty purchased land at plot #d100",
-      "48807156:enginewitty": "enginewitty purchased land at plot #b109",
-      "48807159:enginewitty": "enginewitty purchased land at plot #a129",
-      "48807783:enginewitty": "planted on empty plot e107",
-      "48807798:enginewitty": "enginewitty watered e107 ",
-      "48808229:anarcist69": "anarcist69 harvested a53 e36 ",
-      "48810513:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
-      "48835217:bibdieufr": "bibdieufr watered e106 c113 ",
-      "48835586:saboin": "saboin watered d61 a83 c77 e70 ",
-      "48835594:saboin": "planted on empty plot e40",
-      "48835602:saboin": "planted on empty plot a76",
-      "48835609:saboin": "planted on empty plot d45",
-      "48835626:saboin": "saboin watered d45 e40 a76 ",
-      "48835636:saboin": "planted on empty plot f16",
-      "48835650:saboin": "saboin watered f16 ",
-      "48836029:gamewatch": "gamewatch watered c48 ",
-      "48836066:gamewatch": "76672434965 vested",
       "48836097:gamewatch": "gamewatch purchased land at plot #d101",
       "48842804:chronocrypto": "planted on harvested plot b56 ",
       "48842809:chronocrypto": "planted on harvested plot a68 ",
       "48842819:chronocrypto": "planted on harvested plot d49 ",
       "48842824:chronocrypto": "chronocrypto can't plant that.",
-      "48845098:foxon": "0 vested"
+      "48845098:foxon": "0 vested",
+      "48848472:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
+      "48864020:bibdieufr": "bibdieufr watered e106 c113 ",
+      "48866790:gamewatch": "gamewatch watered c48 "
    }
 }
