@@ -745,10 +745,10 @@ module.exports = {
             "f": 20000,
             "t": 20000,
             "seeds": {
-               "reg": 32,
-               "mid": 64,
-               "top": 96,
-               "special": 127
+               "reg": 23,
+               "mid": 45,
+               "top": 68,
+               "special": 90
             },
             "supplies": {
                "papers": 5000,
@@ -2123,6 +2123,10 @@ module.exports = {
          "strain": "cg",
          "xp": 2250,
          "care": [
+            [
+               48898587,
+               "watered"
+            ],
             [
                48866790,
                "watered",
@@ -4154,7 +4158,12 @@ module.exports = {
          "owner": "saboin",
          "strain": "tha",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               48897344,
+               "watered"
+            ]
+         ],
          "aff": [],
          "terps": [],
          "stats": [],
@@ -4233,7 +4242,12 @@ module.exports = {
          "owner": "saboin",
          "strain": "dp",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               48897344,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 2,
          "substage": 3,
@@ -4301,7 +4315,12 @@ module.exports = {
       "c77": {
          "owner": "saboin",
          "strain": "pam",
-         "care": [],
+         "care": [
+            [
+               48897344,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 2,
          "substage": 4,
@@ -4517,7 +4536,12 @@ module.exports = {
       "e70": {
          "owner": "saboin",
          "strain": "mal",
-         "care": [],
+         "care": [
+            [
+               48897344,
+               "watered"
+            ]
+         ],
          "aff": [],
          "stage": 2,
          "substage": 2,
@@ -7194,7 +7218,12 @@ module.exports = {
          "owner": "saboin",
          "strain": "dp",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               48897344,
+               "watered"
+            ]
+         ],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7208,13 +7237,19 @@ module.exports = {
          "planted": 48835594,
          "stage": 1,
          "substage": 1,
-         "pollinated": true
+         "pollinated": true,
+         "id": "e40"
       },
       "a76": {
          "owner": "saboin",
          "strain": "mis",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               48897344,
+               "watered"
+            ]
+         ],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7228,13 +7263,19 @@ module.exports = {
          "planted": 48835602,
          "stage": 1,
          "substage": 1,
-         "pollinated": true
+         "pollinated": true,
+         "id": "a76"
       },
       "d45": {
          "owner": "saboin",
          "strain": "pam",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               48897344,
+               "watered"
+            ]
+         ],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7248,13 +7289,19 @@ module.exports = {
          "planted": 48835609,
          "stage": 1,
          "substage": 1,
-         "pollinated": true
+         "pollinated": true,
+         "id": "d45"
       },
       "f16": {
          "owner": "saboin",
          "strain": "cg",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               48897344,
+               "watered"
+            ]
+         ],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7268,7 +7315,8 @@ module.exports = {
          "planted": 48835636,
          "stage": 1,
          "substage": 1,
-         "pollinated": true
+         "pollinated": true,
+         "id": "f16"
       },
       "d101": {
          "owner": "gamewatch",
@@ -19689,6 +19737,8 @@ module.exports = {
       "48895558:mickvir": "mickvir can't plant that.",
       "48895562:mickvir": "mickvir watered c45 ",
       "48895748:mickvir": "planted on harvested plot c45 ",
-      "48895753:mickvir": "mickvir watered c116 "
+      "48895753:mickvir": "mickvir watered c116 ",
+      "48897344:saboin": "saboin watered d61 a83 c77 e70 d45 f16 e40 a76 ",
+      "48898587:gamewatch": "gamewatch watered c48 "
    }
 }
