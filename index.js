@@ -356,11 +356,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 48896990; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 48897125; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 48896990;
+const ago = ENV.ago || 48897125;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     //"https://hive.roelandp.nl",
@@ -508,10 +508,10 @@ function startApp() {
                     let seedPrice = price * 100;
                     
                     // sets state to seed price
-                    state.stats.prices.listed.seeds.reg = Math.ceil((seedPrice * 3)); 
-                    state.stats.prices.listed.seeds.mid = Math.ceil((seedPrice * 3) * 2); 
-                    state.stats.prices.listed.seeds.top = Math.ceil((seedPrice * 3) * 3); 
-                    state.stats.prices.listed.seeds.special = Math.ceil((seedPrice * 3) * 4); 
+                    state.stats.prices.listed.seeds.reg = Math.ceil((seedPrice * 2.5)); 
+                    state.stats.prices.listed.seeds.mid = Math.ceil((seedPrice * 2.5) * 2); 
+                    state.stats.prices.listed.seeds.top = Math.ceil((seedPrice * 2.5) * 3); 
+                    state.stats.prices.listed.seeds.special = Math.ceil((seedPrice * 2.5) * 4); 
                     //sets cut to 0 because bal.c is deprecated
                     state.bal.c = 0
 
