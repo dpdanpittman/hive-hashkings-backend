@@ -356,11 +356,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49239250; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49267530; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49239250;
+const ago = ENV.ago || 49267530;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     //"https://hive.roelandp.nl",
@@ -2136,7 +2136,7 @@ function startApp() {
             const amount = parseInt(parseFloat(json.amount) * 1000)
                         var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                             type = json.memo.split(" ")[1] || ''
-                        if (state.stats.prices.listed[want] == amount || amount == 500 && type == 'manage' && state.stats.prices.listed[want] || want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000 || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special) {
+                        if (state.stats.prices.listed[want] == amount || amount == 500 && type == 'manage' && state.stats.prices.listed[want] || want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000 || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special || want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000 || want== 'pollen' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
                             if (state.stats.supply.land[want]) {
                                 var allowed = false
                                 if (amount == 500 && type == 'manage') {
@@ -2186,7 +2186,26 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
-                            } else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000) {
+                            } else if (want == 'pollen' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
+                                if (state.stats.supply.strains.indexOf(type) < 0) { type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length - 1)] }
+                                var pollen = {
+                                    strain: type,
+                                    owner: json.from,
+                                    traits: ['genesis pollen'],
+                                    terps: [],
+                                    thc: 'coming soon',
+                                    cbd: 'coming soon',
+                                    breeder: 'Landrace Strain',
+                                    familyTree: 'Landrace Strain'
+                                }
+                                state.users[json.from].xps += 1;
+                                state.users[json.from].pollen.push(pollen)
+
+                                const c = parseInt(amount)
+                                state.bal.c += c
+                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${pollen.strain}`
+                            }
+                            else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000) {
                                 if (want == 'papers') {
                                     state.users[json.from].papers++;
                                     state.users[json.from].xps += 1;
