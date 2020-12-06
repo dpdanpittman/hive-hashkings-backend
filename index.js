@@ -2588,7 +2588,7 @@ function sexing() {
 
     sex = Math.floor(Math.random() * 10) % 1.90;
 
-    if (sex > 0) {
+    if (sex > 1) {
         sexAtBirth = "male";
     } else {
         sexAtBirth = "female";
