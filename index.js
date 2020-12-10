@@ -363,7 +363,7 @@ const sh = ENV.sh || '';
 const ago = ENV.ago || 49416799;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
-    "https://hive.roelandp.nl",
+    "https://hive.roelandp.nl"
     //"https://api.pharesim.me",
     //"https://hived.privex.io",
     //"https://api.hive.blog"
