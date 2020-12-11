@@ -622,17 +622,17 @@ module.exports = {
    "kudos": {
       "qwoyn": 32,
       "saboin": 76,
-      "gamewatch": 32,
-      "anarcist69": 7,
-      "schlees": 23,
-      "bibdieufr": 24,
-      "mulletwang": 143,
+      "gamewatch": 33,
+      "anarcist69": 8,
+      "schlees": 25,
+      "bibdieufr": 26,
+      "mulletwang": 148,
       "mickvir": 2,
       "vcdragon": 13,
       "enginewitty": 1,
-      "abrockman": 947,
-      "monsterbuster": 12,
-      "foxon": 19
+      "abrockman": 1049,
+      "monsterbuster": 13,
+      "foxon": 21
    },
    "stats": {
       "vs": 1915,
@@ -750,10 +750,10 @@ module.exports = {
             "f": 20000,
             "t": 20000,
             "seeds": {
-               "reg": 22,
-               "mid": 44,
-               "top": 66,
-               "special": 88
+               "reg": 21,
+               "mid": 42,
+               "top": 62,
+               "special": 83
             },
             "supplies": {
                "papers": 5000,
@@ -1120,14 +1120,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -1141,25 +1141,21 @@ module.exports = {
       },
       "c39": {
          "owner": "abrockman",
-         "strain": "sog",
-         "xp": 200,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 6,
-         "planted": 41250124,
+         "stage": -1,
+         "substage": 0,
          "traits": [],
          "terps": [],
-         "id": "c39",
-         "father": "lkg",
-         "sex": "female",
-         "pollinated": true
+         "stats": [],
+         "pollinated": false
       },
       "d33": {
          "owner": "abrockman",
@@ -1167,14 +1163,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -1188,42 +1184,36 @@ module.exports = {
       },
       "b43": {
          "owner": "abrockman",
-         "strain": "mal",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
-            ],
-            [
-               49289009,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "stage": 4,
-         "substage": 0,
-         "pollinated": true,
-         "id": "b43",
-         "traits": [
-            "Beta Seed"
-         ],
-         "planted": 41403078,
-         "sex": "female",
-         "father": "hk"
+         "pollinated": false
       },
       "a51": {
          "owner": "mulletwang",
          "strain": "tha",
          "xp": 50,
-         "care": [],
+         "care": [
+            [
+               49435704,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Genesis Seed"
          ],
@@ -1240,7 +1230,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1263,7 +1253,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1286,7 +1276,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1309,7 +1299,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1332,14 +1322,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -1373,7 +1363,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1396,7 +1386,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1419,7 +1409,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1441,7 +1431,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1463,7 +1453,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1485,7 +1475,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1507,7 +1497,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1529,7 +1519,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1551,7 +1541,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1573,7 +1563,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -1595,14 +1585,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -1620,14 +1610,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -1813,12 +1803,13 @@ module.exports = {
          "care": [
             [
                49408014,
-               "watered"
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "beta pollinated seed"
          ],
@@ -1884,22 +1875,30 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49392974,
+               49428125,
                "watered",
                ""
             ],
             [
-               49392968,
+               49428125,
                "watered"
             ],
             [
-               49360296,
+               49428120,
+               "watered"
+            ],
+            [
+               49428117,
+               "watered"
+            ],
+            [
+               49392968,
                "watered"
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Genesis Seed"
          ],
@@ -1935,14 +1934,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -1960,14 +1959,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -1981,27 +1980,21 @@ module.exports = {
       },
       "c50": {
          "owner": "abrockman",
-         "strain": "aca",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 5,
-         "traits": [
-            "Beta Seed"
-         ],
-         "father": "beta",
-         "pollinated": true,
-         "planted": 41250139,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "c50",
-         "sex": "female"
+         "stats": [],
+         "pollinated": false
       },
       "d38": {
          "owner": "aggamun",
@@ -2025,7 +2018,7 @@ module.exports = {
          "xp": 0,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
@@ -2043,14 +2036,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -2064,27 +2057,21 @@ module.exports = {
       },
       "f17": {
          "owner": "abrockman",
-         "strain": "afg",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "planted": 41373188,
-         "id": "f17",
-         "sex": "female"
+         "pollinated": false
       },
       "a58": {
          "owner": "abrockman",
@@ -2092,14 +2079,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2111,26 +2102,21 @@ module.exports = {
       },
       "f18": {
          "owner": "abrockman",
-         "strain": "lkg",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 6,
-         "substage": 3,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "planted": 40910073,
-         "id": "f18",
-         "father": "beta",
-         "sex": "female"
+         "stats": [],
+         "pollinated": false
       },
       "b51": {
          "owner": "abrockman",
@@ -2138,14 +2124,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "patreon genesis seed"
          ],
@@ -2164,14 +2150,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -2186,14 +2172,14 @@ module.exports = {
          "strain": "swz",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2212,14 +2198,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -2234,14 +2220,14 @@ module.exports = {
          "strain": "lb",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2291,7 +2277,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -2314,7 +2300,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -2336,7 +2322,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -2358,7 +2344,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered"
             ]
          ],
@@ -2587,14 +2573,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2612,14 +2598,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2635,14 +2625,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2660,14 +2650,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -2684,14 +2674,14 @@ module.exports = {
          "strain": "cht",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2710,7 +2700,7 @@ module.exports = {
          "xp": 0,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
@@ -2724,41 +2714,35 @@ module.exports = {
       },
       "f29": {
          "owner": "abrockman",
-         "strain": "mis",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 6,
-         "substage": 3,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "id": "f29",
-         "planted": 40910342,
-         "father": "afg",
-         "sex": "female",
-         "pollinated": true
+         "stats": [],
+         "pollinated": false
       },
       "c58": {
          "owner": "abrockman",
          "strain": "mis",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2773,27 +2757,21 @@ module.exports = {
       },
       "a66": {
          "owner": "abrockman",
-         "strain": "aca",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 1,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "id": "a66",
-         "planted": 41403082,
-         "sex": "female"
+         "pollinated": false
       },
       "b59": {
          "owner": "abrockman",
@@ -2801,14 +2779,14 @@ module.exports = {
          "xp": 1,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2825,14 +2803,14 @@ module.exports = {
          "strain": "hk",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2850,14 +2828,14 @@ module.exports = {
          "strain": "lb",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2876,14 +2854,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -2901,14 +2879,18 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 3,
+         "substage": 4,
          "traits": [],
          "id": "c59",
          "planted": 41110011,
@@ -2922,14 +2904,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 4,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -2944,14 +2930,14 @@ module.exports = {
          "strain": "cht",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -2969,14 +2955,14 @@ module.exports = {
          "strain": "mis",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -3265,14 +3251,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3288,14 +3274,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -3313,14 +3299,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3336,14 +3322,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -3359,14 +3349,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3382,14 +3376,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -3423,55 +3421,39 @@ module.exports = {
       },
       "f38": {
          "owner": "abrockman",
-         "strain": "pam",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 4,
-         "traits": [
-            "Beta Seeds"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "planted": 41373229,
-         "id": "f38",
-         "sex": "female"
+         "pollinated": false
       },
       "c71": {
          "owner": "abrockman",
-         "strain": "lb",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
-            ],
-            [
-               49267133,
-               "watered"
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 2,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "planted": 41373194,
-         "id": "c71",
-         "sex": "female"
+         "pollinated": false
       },
       "e64": {
          "owner": "abrockman",
@@ -3479,14 +3461,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -3502,14 +3488,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3521,27 +3511,21 @@ module.exports = {
       },
       "d58": {
          "owner": "abrockman",
-         "strain": "dp",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 6,
-         "traits": [
-            "Beta Seed"
-         ],
-         "id": "d58",
-         "planted": 41146492,
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "father": "beta",
-         "pollinated": true,
-         "sex": "female"
+         "stats": [],
+         "pollinated": false
       },
       "a78": {
          "owner": "abrockman",
@@ -3549,7 +3533,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
@@ -3558,7 +3542,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 3,
-         "substage": 5,
+         "substage": 6,
          "pollinated": true,
          "inv": [],
          "traits": [
@@ -3574,14 +3558,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3597,14 +3585,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3620,14 +3612,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3643,14 +3639,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 7,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3662,27 +3662,21 @@ module.exports = {
       },
       "f39": {
          "owner": "abrockman",
-         "strain": "lb",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "planted": 41373262,
-         "id": "f39",
-         "sex": "female"
+         "pollinated": false
       },
       "c72": {
          "owner": "abrockman",
@@ -3690,7 +3684,11 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ],
@@ -3701,7 +3699,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 6,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3717,14 +3715,18 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 7,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -3739,14 +3741,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3762,14 +3768,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 7,
-         "substage": 4,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -3784,14 +3794,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -3807,7 +3821,7 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
@@ -3816,7 +3830,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 3,
-         "substage": 5,
+         "substage": 6,
          "pollinated": false,
          "inv": [],
          "traits": [
@@ -3829,27 +3843,21 @@ module.exports = {
       },
       "e66": {
          "owner": "abrockman",
-         "strain": "aca",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "stage": 4,
-         "substage": 1,
-         "pollinated": true,
-         "traits": [
-            "Beta Seed"
-         ],
-         "planted": 41373198,
-         "id": "e66",
-         "sex": "female"
+         "pollinated": false
       },
       "c74": {
          "owner": "silverlining1",
@@ -3980,14 +3988,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "quality": [],
          "inv": [],
          "traits": [
@@ -4004,14 +4012,14 @@ module.exports = {
          "strain": "cg",
          "care": [
             [
-               49392464,
+               49420792,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 4,
+         "substage": 5,
          "traits": [
             "beta pollinated seed"
          ],
@@ -4030,7 +4038,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
@@ -4039,7 +4047,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 3,
-         "substage": 5,
+         "substage": 6,
          "pollinated": true,
          "inv": [],
          "traits": [
@@ -4054,14 +4062,14 @@ module.exports = {
          "strain": "afg",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4079,14 +4087,14 @@ module.exports = {
          "strain": "pam",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seeds"
          ],
@@ -4104,14 +4112,14 @@ module.exports = {
          "strain": "mal",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4130,14 +4138,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -4155,14 +4163,18 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417865,
+               "harvested"
+            ],
+            [
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 6,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4178,14 +4190,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4238,14 +4250,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 5,
+         "substage": 6,
          "quality": [],
          "id": "f48",
          "inv": [],
@@ -4262,7 +4274,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49297371,
+               49435704,
                "watered",
                ""
             ]
@@ -4271,7 +4283,7 @@ module.exports = {
          "terps": [],
          "stats": [],
          "stage": 1,
-         "substage": 5,
+         "substage": 6,
          "pollinated": true,
          "id": "f49",
          "inv": [],
@@ -4502,14 +4514,14 @@ module.exports = {
          "strain": "ach",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "beta pollinated seed"
          ],
@@ -4527,14 +4539,14 @@ module.exports = {
          "strain": "cg",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "beta pollinated seed"
          ],
@@ -4552,14 +4564,14 @@ module.exports = {
          "strain": "ach",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "beta pollinated seed"
          ],
@@ -4578,14 +4590,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4602,14 +4614,14 @@ module.exports = {
          "strain": "kbr",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -4627,14 +4639,14 @@ module.exports = {
          "strain": "tha",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "beta pollinated seed"
          ],
@@ -4653,14 +4665,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4677,14 +4689,14 @@ module.exports = {
          "strain": "mis",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -4702,14 +4714,14 @@ module.exports = {
          "strain": "lkg",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -4727,14 +4739,14 @@ module.exports = {
          "strain": "mis",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4752,14 +4764,14 @@ module.exports = {
          "strain": "pam",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seeds"
          ],
@@ -4777,14 +4789,14 @@ module.exports = {
          "strain": "afg",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4802,14 +4814,14 @@ module.exports = {
          "strain": "aca",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seeds"
          ],
@@ -4867,14 +4879,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -4891,14 +4903,14 @@ module.exports = {
          "strain": "mal",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -4916,14 +4928,14 @@ module.exports = {
          "strain": "mis",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -4941,14 +4953,14 @@ module.exports = {
          "strain": "pam",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "patreon genesis seed"
          ],
@@ -4968,7 +4980,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ],
@@ -4980,7 +4992,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -4997,14 +5009,14 @@ module.exports = {
          "strain": "kbr",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -5022,14 +5034,14 @@ module.exports = {
          "strain": "mal",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -5048,7 +5060,7 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ],
@@ -5060,7 +5072,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -5077,14 +5089,14 @@ module.exports = {
          "strain": "swz",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -5103,14 +5115,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -5300,14 +5312,14 @@ module.exports = {
          "strain": "hk",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -5355,14 +5367,14 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seeds"
          ],
@@ -5376,64 +5388,53 @@ module.exports = {
       },
       "a93": {
          "owner": "abrockman",
-         "strain": "dp",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 2,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "planted": 41373201,
-         "id": "a93",
-         "sex": "female"
+         "pollinated": false
       },
       "d69": {
          "owner": "abrockman",
-         "strain": "afg",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 2,
-         "pollinated": true,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "planted": 41337343,
-         "id": "d69",
-         "sex": "female"
+         "stats": [],
+         "pollinated": false
       },
       "a99": {
          "owner": "abrockman",
          "strain": "lkg",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seeds"
          ],
@@ -5448,41 +5449,35 @@ module.exports = {
       },
       "f59": {
          "owner": "abrockman",
-         "strain": "dp",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 4,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "planted": 41373285,
-         "id": "f59",
-         "sex": "female"
+         "pollinated": false
       },
       "a102": {
          "owner": "abrockman",
          "strain": "aca",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seeds"
          ],
@@ -5497,41 +5492,35 @@ module.exports = {
       },
       "e82": {
          "owner": "abrockman",
-         "strain": "kmj",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "stage": 4,
-         "substage": 1,
-         "pollinated": true,
-         "traits": [
-            "Beta Seed"
-         ],
-         "planted": 41373233,
-         "id": "e82",
-         "sex": "female"
+         "pollinated": false
       },
       "d72": {
          "owner": "abrockman",
          "strain": "kmj",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 2,
+         "substage": 3,
          "traits": [
             "Beta Seed"
          ],
@@ -5546,27 +5535,20 @@ module.exports = {
       },
       "e83": {
          "owner": "abrockman",
-         "strain": "dp",
-         "xp": 50,
+         "strain": "",
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 5,
+         "stage": -1,
          "substage": 0,
-         "traits": [
-            "Beta Seed"
-         ],
+         "traits": [],
          "terps": [],
-         "id": "e83",
-         "planted": 41053706,
-         "father": "beta",
-         "pollinated": false,
-         "sex": "female"
+         "stats": [],
+         "pollinated": false
       },
       "a104": {
          "owner": "abrockman",
@@ -5574,14 +5556,14 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
-         "stage": 2,
-         "substage": 6,
+         "stage": 3,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -5595,51 +5577,39 @@ module.exports = {
       },
       "c89": {
          "owner": "abrockman",
-         "strain": "hk",
-         "xp": 50,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 3,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
          "stats": [],
-         "pollinated": true,
-         "planted": 41373238,
-         "id": "c89",
-         "sex": "female"
+         "pollinated": false
       },
       "f62": {
          "owner": "abrockman",
-         "strain": "lkg",
-         "xp": 2250,
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49386147,
-               "watered",
-               ""
+               49417865,
+               "tilled"
             ]
          ],
          "aff": [],
-         "stage": 4,
-         "substage": 5,
-         "father": "beta",
-         "pollinated": true,
-         "id": "f62",
-         "planted": 41282254,
-         "traits": [
-            "Beta Seed"
-         ],
+         "stage": -1,
+         "substage": 0,
+         "traits": [],
          "terps": [],
-         "sex": "female"
+         "stats": [],
+         "pollinated": false
       },
       "c94": {
          "owner": "ghosthunter1",
@@ -5811,13 +5781,7 @@ module.exports = {
       "f68": {
          "owner": "anarcist69",
          "strain": "hk",
-         "care": [
-            [
-               49408014,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
          "substage": 1,
@@ -5998,14 +5962,14 @@ module.exports = {
          "strain": "kmj",
          "care": [
             [
-               49386147,
+               49417781,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 2,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "Beta Seed"
          ],
@@ -6431,7 +6395,13 @@ module.exports = {
       "a127": {
          "owner": "schlees",
          "strain": "mis",
-         "care": [],
+         "care": [
+            [
+               49435727,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "inv": [],
          "terps": [
@@ -6444,7 +6414,7 @@ module.exports = {
          ],
          "planted": 48771969,
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "pollinated": true,
          "father": [],
          "id": "a127",
@@ -6455,8 +6425,13 @@ module.exports = {
          "strain": "kbr",
          "care": [
             [
-               49406826,
+               49436659,
                "watered"
+            ],
+            [
+               49406826,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
@@ -6471,7 +6446,7 @@ module.exports = {
          ],
          "planted": 48788867,
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "pollinated": false,
          "id": "e106",
          "sex": "female"
@@ -6481,8 +6456,13 @@ module.exports = {
          "strain": "cht",
          "care": [
             [
-               49406826,
+               49436659,
                "watered"
+            ],
+            [
+               49406826,
+               "watered",
+               ""
             ]
          ],
          "aff": [],
@@ -6497,7 +6477,7 @@ module.exports = {
          ],
          "planted": 48788949,
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "pollinated": false,
          "id": "c113",
          "sex": "female"
@@ -6525,7 +6505,13 @@ module.exports = {
       "a128": {
          "owner": "schlees",
          "strain": "hk",
-         "care": [],
+         "care": [
+            [
+               49435727,
+               "watered",
+               ""
+            ]
+         ],
          "aff": [],
          "inv": [],
          "terps": [
@@ -6538,7 +6524,7 @@ module.exports = {
          ],
          "planted": 48800349,
          "stage": 2,
-         "substage": 4,
+         "substage": 5,
          "pollinated": false,
          "id": "a128",
          "sex": "female"
@@ -6656,13 +6642,24 @@ module.exports = {
          "xp": 200,
          "care": [
             [
-               49414998,
-               "pollinated"
+               49428125,
+               "watered"
             ],
             [
-               49392974,
-               "watered",
-               ""
+               49428125,
+               "watered"
+            ],
+            [
+               49428120,
+               "watered"
+            ],
+            [
+               49428117,
+               "watered"
+            ],
+            [
+               49414998,
+               "pollinated"
             ],
             [
                49392968,
@@ -6710,13 +6707,7 @@ module.exports = {
       "f78": {
          "owner": "anarcist69",
          "strain": "kmj",
-         "care": [
-            [
-               49408014,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -6823,11 +6814,11 @@ module.exports = {
          "strain": "sog",
          "care": [
             [
-               49402518,
+               49430665,
                "watered"
             ],
             [
-               49375087,
+               49402518,
                "watered",
                ""
             ]
@@ -6844,7 +6835,7 @@ module.exports = {
          ],
          "planted": 49090339,
          "stage": 2,
-         "substage": 2,
+         "substage": 3,
          "pollinated": false,
          "id": "e108",
          "sex": "male"
@@ -6854,7 +6845,7 @@ module.exports = {
          "strain": "cg",
          "care": [
             [
-               49402518,
+               49430665,
                "watered",
                ""
             ]
@@ -6871,7 +6862,7 @@ module.exports = {
          ],
          "planted": 49090437,
          "stage": 2,
-         "substage": 3,
+         "substage": 4,
          "pollinated": false,
          "id": "a130",
          "sex": "female"
@@ -10295,7 +10286,7 @@ module.exports = {
             "a104",
             "b98"
          ],
-         "xps": 1155,
+         "xps": 1630,
          "seeds": [
             {
                "strain": "swz",
@@ -11121,22 +11112,495 @@ module.exports = {
                "familyTree": "pam",
                "pollinated": false,
                "father": []
-            }
-         ],
-         "pollen": [
+            },
             {
-               "strain": "mis",
+               "strain": "mal",
                "owner": "abrockman",
                "traits": [
-                  "genesis pollen"
+                  "beta pollinated seed"
                ],
                "terps": [],
                "thc": "coming soon",
                "cbd": "coming soon",
-               "breeder": "Landrace Strain",
-               "familyTree": "Landrace Strain"
+               "breeder": "abrockman",
+               "familyTree": "mal",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "mal",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "mal",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "sog",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "sog",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "sog",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "sog",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "lkg",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "lkg",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "lkg",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lkg",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "hk",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "hk",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "hk",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "kmj",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "kmj",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "kmj",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "dp",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "dp",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "afg",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "afg",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "afg",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "afg",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "dp",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "dp",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "lb",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lb",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "aca",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "aca",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "pam",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "pam",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "pam",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "dp",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "dp",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "lb",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "lb",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lb",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "aca",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "aca",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "mis",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "mis",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "mis",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "lkg",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "lkg",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "lkg",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "lkg",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "afg",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "afg",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "afg",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "afg",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "abrockman",
+               "familyTree": "aca",
+               "pollinated": false,
+               "father": []
+            },
+            {
+               "strain": "aca",
+               "owner": "abrockman",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "aca",
+               "pollinated": false,
+               "father": []
             }
          ],
+         "pollen": [],
          "buds": [
             {
                "strain": "afg",
@@ -12613,6 +13077,34 @@ module.exports = {
                   null
                ],
                "familyTree": "sog",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "terps": [
+                  null
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "dp",
+               "father": "Sensimilla"
+            },
+            {
+               "strain": "dp",
+               "owner": "abrockman",
+               "traits": [
+                  "Beta Buds"
+               ],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "terps": [
+                  null
+               ],
+               "familyTree": "dp",
                "father": "Sensimilla"
             }
          ],
@@ -18807,46 +19299,6 @@ module.exports = {
       "executive-board": true
    },
    "cs": {
-      "49264622:saboin": "saboin watered d61 a83 c77 e70 d45 c56 b49 f16 e40 f23 e41 a76 ",
-      "49267133:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49267585:foxon": "foxon watered e108 a130 ",
-      "49268541:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
-      "49268579:qwoyn": "qwoyn purchased hk",
-      "49274865:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 ",
-      "49276662:monsterbuster": "monsterbuster watered d63 ",
-      "49281906:qwoyn": "qwoyn sent hk pollen to gamewatch",
-      "49285135:nutritree": "191399769071 vested",
-      "49285964:bibdieufr": "bibdieufr watered e106 c113 ",
-      "49289009:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49289049:abrockman": "abrockman purchased hk",
-      "49289056:abrockman": "abrockman purchased lkg",
-      "49289061:abrockman": "abrockman purchased afg",
-      "49289067:abrockman": "abrockman purchased mis",
-      "49289083:abrockman": "abrockman pollinated b43 with hk",
-      "49289101:abrockman": "abrockman pollinated c39 with lkg",
-      "49290985:abrockman": "abrockman pollinated f29 with afg",
-      "49291858:nutritree": "nutritree harvested e58 f33 d54 ",
-      "49294894:saboin": "saboin watered d61 a83 c77 e70 d45 c56 b49 f16 e40 f23 e41 a76 ",
-      "49295004:schlees": "schlees watered a127 a128 ",
-      "49297371:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 ",
-      "49297691:gamewatch": "gamewatch watered c48 d101 ",
-      "49305692:monsterbuster": "monsterbuster watered d63 ",
-      "49319059:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49320221:foxon": "foxon watered e108 a130 ",
-      "49320644:bibdieufr": "bibdieufr watered e106 c113 ",
-      "49329914:gamewatch": "gamewatch watered c48 d101 ",
-      "49334109:monsterbuster": "monsterbuster watered d63 ",
-      "49335602:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 ",
-      "49345793:foxon": "foxon watered e108 a130 ",
-      "49345875:foxon": "foxon purchased mis",
-      "49349985:bibdieufr": "bibdieufr watered e106 c113 ",
-      "49360283:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49360296:gamewatch": "gamewatch watered c48 d101 ",
-      "49360302:gamewatch": "gamewatch watered c48 d101 ",
-      "49360811:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 ",
-      "49362790:monsterbuster": "monsterbuster watered d63 ",
-      "49375087:foxon": "foxon watered e108 a130 ",
-      "49377795:schlees": "schlees watered a127 a128 ",
       "49386147:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
       "49392464:monsterbuster": "monsterbuster watered d63 ",
       "49392968:gamewatch": "gamewatch watered c48 d101 ",
@@ -18855,6 +19307,17 @@ module.exports = {
       "49406826:bibdieufr": "bibdieufr watered e106 c113 ",
       "49408014:anarcist69": "anarcist69 watered e36 f68 f78 ",
       "49408050:anarcist69": "planted on harvested plot d84 ",
-      "49414998:gamewatch": "gamewatch pollinated d101 with hk"
+      "49414998:gamewatch": "gamewatch pollinated d101 with hk",
+      "49417781:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
+      "49417798:abrockman": "abrockman pollinated f18 with mis",
+      "49417865:abrockman": "abrockman harvested b43 c39 f62 e83 c89 e82 f59 d69 a93 f50 f40 f39 e66 d60 d59 c73 c72 b69 b68 a80 a79 f38 e64 d58 c71 b67 e60 d55 c68 c59 a67 a66 f29 f28 f18 f17 a58 c50 ",
+      "49420792:monsterbuster": "monsterbuster watered d63 ",
+      "49428117:gamewatch": "gamewatch watered c48 d101 ",
+      "49428120:gamewatch": "gamewatch watered c48 d101 ",
+      "49428125:gamewatch": "gamewatch watered c48 d101 ",
+      "49430665:foxon": "foxon watered e108 a130 ",
+      "49435704:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 ",
+      "49435727:schlees": "schlees watered a127 a128 ",
+      "49436659:bibdieufr": "bibdieufr watered e106 c113 "
    }
 }
