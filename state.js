@@ -758,9 +758,9 @@ module.exports = {
             "t": 20000,
             "seeds": {
                "reg": 23,
-               "mid": 46,
-               "top": 69,
-               "special": 91
+               "mid": 45,
+               "top": 67,
+               "special": 90
             },
             "supplies": {
                "papers": 5000,
@@ -836,7 +836,7 @@ module.exports = {
       ]
    },
    "bal": {
-      "r": -1500,
+      "r": 0,
       "c": 0,
       "b": 0,
       "p": 1497479

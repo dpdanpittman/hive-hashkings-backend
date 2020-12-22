@@ -359,12 +359,13 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49763825; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49764220; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49763825;
+const ago = ENV.ago || 49764220;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
+const hashFunction = Buffer.from('12', 'hex');
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
     //"https://api.pharesim.me",
@@ -444,14 +445,14 @@ function hivePriceConversion(amount) {
   }
 
 /****ISSUE****/
-function startWith(sh) {
-    if (sh) {
-        console.log(`Attempting to start from IPFS save state ${sh}`);
-        ipfs.cat(sh, (err, file) => {
+function startWith(hash) {
+    if (hash) {
+        console.log(`Attempting to start from IPFS save state ${hash}`);
+        ipfs.cat(hash, (err, file) => {
             if (!err) {
                 var data = JSON.parse(file.toString())
                 startingBlock = data[0]
-                if (startingBlock == ago) { startWith(sh) } else {
+                if (startingBlock == ago) { startWith(hash) } else {
                     state = JSON.parse(data[1]);
                     startApp();
                 }
@@ -515,7 +516,7 @@ function startApp() {
             } catch {
                 console.log(" line 513 ") 
             }
-            if (num % 10 === 0) {
+            if (num % 1000 === 0) {
                 store.get([], function(err, obj) {
                     const blockState = Buffer.from(JSON.stringify([num, obj]))
                     ipfsSaveState(num, blockState)
@@ -2744,4 +2745,12 @@ function daily(addr) {
 
         }
     }
+}
+
+function hashThis(data) {
+    const digest = crypto.createHash('sha256').update(data).digest()
+    const digestSize = Buffer.from(digest.byteLength.toString(16), 'hex')
+    const combined = Buffer.concat([hashFunction, digestSize, digest])
+    const multihash = bs58.encode(combined)
+    return multihash.toString()
 }
