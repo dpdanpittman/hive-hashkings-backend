@@ -35,7 +35,7 @@ const ENV = process.env;
 const maxEx = process.max_extentions || 8;
 const IPFS = require('ipfs-http-client');
 const ipfs = new IPFS({
-    host: config.ipfshost,
+    host: '2903f2c4fa160a00.dyndns.dappnode.io',
     port: 5001,
     protocol: 'https'
 });
