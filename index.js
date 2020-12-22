@@ -28,6 +28,7 @@ var hivejs = require('@hiveio/hive-js');
 var axios = require('axios');
 var steemState = require('./processor');
 var steemTransact = require('steem-transact');
+var store = new Pathwise(level('./db', { createIfEmpty: true }));
 var fs = require('fs');
 const cors = require('cors');
 const express = require('express')
