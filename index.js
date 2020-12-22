@@ -515,10 +515,11 @@ function startApp() {
             } catch {
                 console.log(" line 513 ") 
             }
-            if (num % 100 === 1) {
+            if (num % 10 === 0) {
                 store.get([], function(err, obj) {
                     const blockState = Buffer.from(JSON.stringify([num, obj]))
                     ipfsSaveState(num, blockState)
+                    console.log(num + '' + blockState)
                 })
             }
             try{
