@@ -119,6 +119,48 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
     })
   }
 
+  function transactional(ops, i, pc, num, block) {
+    if (ops.length) {
+        doOp(ops[i], [ops, i, pc, num, block])
+            .then(v => {
+                if (ops.length > i + 1) {
+                    transactional(v[0], v[1] + 1, v[2], v[3], v[4])
+                } else {
+                    onNewBlock(num, v)
+                        .then(r => {
+                            //console.log(num)
+                            pc[0]()
+                        })
+                        .catch(e => { console.log(e) })
+                }
+            })
+            .catch(e => {
+                console.log(e);
+                pc[1](e)
+            })
+    } else {
+        onNewBlock(num, pc)
+            .then(r => {
+                //console.log(num)
+                r[0]()
+            })
+            .catch(e => { pc[1](e) })
+    }
+
+
+    function doOp(op, pc) {
+        return new Promise((resolve, reject) => {
+            if (op.length == 4) {
+                onCustomJsonOperation[op[0]](op[1], op[2], op[3], [resolve, reject, pc])
+                    //console.log(op[0])
+            } else if (op.length == 2) {
+                onOperation[op[0]](op[1], [resolve, reject, pc]);
+                //console.log(op[0])
+            }
+        })
+    }
+  }
+
   function processBlock(block, num) {
     onNewBlock(num, block);
     var transactions = block.transactions;
