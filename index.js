@@ -35,7 +35,7 @@ const ENV = process.env;
 const maxEx = process.max_extentions || 8;
 const IPFS = require('ipfs-http-client');
 const ipfs = new IPFS({
-    host: 'ipfs.infura.io',
+    host: config.ipfshost,
     port: 5001,
     protocol: 'https'
 });
@@ -512,6 +512,12 @@ function startApp() {
             } catch {
                 console.log(" line 513 ") 
             }
+            if (num % 100 === 1) {
+                store.get([], function(err, obj) {
+                    const blockState = Buffer.from(JSON.stringify([num, obj]))
+                    ipfsSaveState(num, blockState)
+                })
+            }
             try{
                 if (num % 5 === 0 && processor.isStreaming()) {              
                     //logging for testing will remove after a while
@@ -544,7 +550,7 @@ function startApp() {
                 console.log(" line 544 ") 
             }
             try{
-                if (num % 1000 === 0 && processor.isStreaming()) {
+                if (num % 5 === 0 && processor.isStreaming()) {
                     if (!state.blacklist) state.blacklist = {}
                     ipfsSaveState(num, JSON.stringify(state))
                 }
@@ -2289,24 +2295,28 @@ function startApp() {
 }
 
 function ipfsSaveState(blocknum, hashable) {
-    ipfs.add(Buffer.from(JSON.stringify([blocknum, hashable]), 'ascii'), (err, IpFsHash) => {
+    ipfs.add(hashable, (err, IpFsHash) => {
         if (!err) {
-            if (IpFsHash[0].hash === undefined) {
-                ipfsSaveState(blocknum, hashable)
-            } else {
-                state.stats.bu = IpFsHash[0].hash
-                state.stats.bi = blocknum
-                console.log(blocknum + `:Saved:  ${IpFsHash[0].hash}`)
-                state.refund.push(['customJson', 'report', {
-                    stateHash: state.stats.bu,
-                    block: blocknum
-                }])
-            }
+            var hash = ''
+            try {
+                hash = IpFsHash[0].hash
+            } catch (e) {}
+            plasma.hashLastIBlock = hash
+            plasma.hashBlock = blocknum
+            console.log(current + `:Saved:  ${hash}`)
         } else {
-            console.log('IPFS Error', err)
+            console.log({
+                cycle
+            }, 'IPFS Error', err)
+            cycleipfs(cycle++)
+            if (cycle >= 25) {
+                cycle = 0;
+                return;
+            }
         }
     })
 };
+
 var bot = {
     xfer: function(toa, amount, memo) {
         const float = parseFloat(amount / 1000).toFixed(3)
