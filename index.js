@@ -444,14 +444,14 @@ function hivePriceConversion(amount) {
   }
 
 /****ISSUE****/
-function startWith(hash) {
-    if (hash) {
-        console.log(`Attempting to start from IPFS save state ${hash}`);
-        ipfs.cat(hash, (err, file) => {
+function startWith(sh) {
+    if (sh) {
+        console.log(`Attempting to start from IPFS save state ${sh}`);
+        ipfs.cat(sh, (err, file) => {
             if (!err) {
                 var data = JSON.parse(file.toString())
                 startingBlock = data[0]
-                if (startingBlock == ago) { startWith(hash) } else {
+                if (startingBlock == ago) { startWith(sh) } else {
                     state = JSON.parse(data[1]);
                     startApp();
                 }
