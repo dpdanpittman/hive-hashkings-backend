@@ -359,11 +359,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49764220; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49797700 ; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49764220;
+const ago = ENV.ago || 49797700 ;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const hashFunction = Buffer.from('12', 'hex');
 var client = new dhive.Client([
@@ -2477,127 +2477,6 @@ function popWeather(loc) {
     })
 }
 
-function autoPoster(loc, num) {
-    var body = `\nhttps://source.unsplash.com/user/kimzy/1600x900# \n${state.stats.env[loc].name} Growers Daily News\n`,
-        bens = ''
-    var footer = `\n<center><h1>Hashkings Official Links</h1>
-    \n[Hashkings Web App](https://www.hashkings.app)
-    \n[Hashkings Discord](https://discord.gg/QW6tWF9)
-    \n[Hashkings Github Repository](https://github.com/dpdanpittman/Hashkings-2D-UI)
-    \n</center>
-    \n
-    \n<center>![divider.png](https://smoke.io/imageupload_data/ee12bc223b16e8b3b16671dc95795f597b986400)</center>
-    \n<center><h1>STEEM Community Showcase</h1></center>
-    \nWe love community and the [Canna-Curate Server](https://discord.gg/DcsPHUG) has the most knowledgeable growers and smokers on the Blockchain.  Stop by and stay a while, spark up a bowl and chat with some of the members.
-    \n<a href="https://discord.gg/DcsPHUG"><img src="https://steemitimages.com/640x0/https://cdn.steemitimages.com/DQmV9PhMNu2JaR9BEJFhSdxjd4SA7nWj7yG131z9sRRYHJc/JPEG_20180729_131244.jpg">
-    \n***canna-curate | The #1 Cannabis Curation Trail on STEEM***
-    \n***Read what our farmers have to say [here](https://steempeak.com/hashkings/@chronocrypto/invest-in-the-game-and-get-beneficiary-rewards-hashkings) and please don't hesitate to reach out in the comments below!***`
-    if (state.news[loc].length > 0) {
-        body = body + state.news[loc][0];
-        state.news[loc].shift();
-    }
-    body = body + `\n## Todays Weather\nYou can expect ${cloudy(state.stats.env[loc].weather.clouds)} with a high of ${parseFloat(state.stats.env[loc].weather.high - 272.15).toFixed(1)} Celsius. Winds will be out of the ${metWind(state.stats.env[loc].weather.windd)} at ${parseFloat(state.stats.env[loc].weather.winds).toFixed(1)} M/s. `
-    if (state.stats.env[loc].weather.precip) { body = body + `Models predict ${parseFloat(state.stats.env[loc].weather.precip).toFixed(2)}mm of rain. ` }
-    body = body + `Relative humidity will be around ${state.stats.env[loc].weather.humidity}% and a low of ${parseFloat(state.stats.env[loc].weather.low - 272.15).toFixed(1)} Celsius overnight.\n` + footer
-    body = body + listBens(state.payday[0])
-    var ops = [
-        ["comment",
-            {
-                "parent_author": "",
-                "parent_permlink": 'hashkings',
-                "author": streamname,
-                "permlink": 'h' + num,
-                "title": `Hashkings Almanac for ${state.stats.env[loc].name} | ${num}`,
-                "body": body,
-                "json_metadata": JSON.stringify({ tags: ["hk-stream"] })
-            }
-        ]
-    ]
-    if (state.payday.length) {
-        state.payday[0] = sortExtentions(state.payday[0], 'account')
-        bens = ["comment_options",
-            {
-                "author": streamname,
-                "permlink": 'h' + num,
-                "max_accepted_payout": "1000000.000 SBD",
-                "percent_steem_dollars": 10000,
-                "allow_votes": true,
-                "allow_curation_rewards": true,
-                "extensions": [
-                    [0,
-                        { "beneficiaries": state.payday[0] }
-                    ]
-                ]
-            }
-        ]
-        ops.push(bens)
-        state.payday.shift()
-    }
-    state.refund.push(['ssign', ops])
-}
-
-function cloudy(per) {
-    const range = parseInt(per / 20)
-    switch (range) {
-        case 4:
-            return 'cloudy skies'
-            break;
-        case 3:
-            return 'mostly cloudy skies'
-            break;
-        case 2:
-            return 'scattered clouds in the sky'
-            break;
-        case 1:
-            return 'mostly clear skies'
-            break;
-        default:
-            return 'clear skies'
-
-    }
-}
-
-function metWind(deg) {
-    const range = parseInt((deg - 22.5) / 8)
-    switch (range) {
-        case 7:
-            return 'North'
-            break;
-        case 6:
-            return 'Northwest'
-            break;
-        case 5:
-            return 'West'
-            break;
-        case 4:
-            return 'Southwest'
-            break;
-        case 3:
-            return 'South'
-            break;
-        case 2:
-            return 'Southeast'
-            break;
-        case 1:
-            return 'East'
-            break;
-        default:
-            return 'Northeast'
-
-    }
-}
-
-function listBens(bens) {
-    var text = `\n<h4>All Hashkings Rewards go directly to our users!</h4>
-                \n
-                \nThis post benefits:
-                \n`
-    for (i = 0; i < bens.length; i++) {
-        text = text + `* @${bens[i].account} with ${parseFloat(bens[i].weight/100).toFixed(2)}%\n`
-    }
-    return text
-}
-
 function sexing() {
     var sexAtBirth = 'Not Sexed';
 
@@ -2618,7 +2497,9 @@ function daily(addr) {
             if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
                 state.land[addr].care.splice(i, 1)
             } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'watered') {
-                if (!grown) state.land[addr].care[i].push('')
+                if (!grown) {
+                    state.land[addr].care[i].push('')
+                }
                 if (state.land[addr].substage < 7 && state.land[addr].stage > 0 && !grown) {
                     if (!grown) {
                         state.land[addr].substage++;
@@ -2633,8 +2514,11 @@ function daily(addr) {
                     state.land[addr].stage++
                 }
 
-                //added sexing
-                if (state.land[addr].stage == 2 && state.land[addr].substage == 0) state.land[addr].sex = sexing() //state.land.length % 1
+                //plant sex
+                if (state.land[addr].stage == 2 && state.land[addr].substage == 0 && !state.land[addr].sex) {
+                    var sex = sexing()
+                     state.land[addr].sex = sex
+                }
 
                 //afflictions
                 if (state.land[addr].stage == 100 && state.land[addr].substage == 0) {
@@ -2652,105 +2536,6 @@ function daily(addr) {
                     }
                 }
             }
-
-            /*//if json is pollinated and plant is stage 3 or greater then give kudos, pollinate plant and set father
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'pollinated' && state.land[addr].stage > 2) {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with giving kudos for pollination', e.message)
-            }
-
-            //if json is crafted_kief give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.users[from].stats[i][1] == 'crafted_kief') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting kief', e.message)
-            }
-
-            //if json is crafted_bubblehash give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_bubblehash') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting bubble hash', e.message)
-            }
-
-            //if json is crafted_oil give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_oil') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting oil', e.message)
-            }
-
-            //if json is crafted_joint give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_joint') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting joints', e.message)
-            }
-
-            //if json is crafted_edibles give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_edibles') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting edibles', e.message)
-            }
-
-            //if json is crafted_blunt give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_blunt') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting blunt', e.message)
-            }
-
-            //if json is crafted_moonrock give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_moonrock') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting moonrock', e.message)
-            }
-
-            //if json is crafted_dipped_joint give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_dipped_joint') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting dipped joint', e.message)
-            }
-
-            //if json is crafted_cannagar give kudos
-            try {
-            if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'crafted_cannagar') {
-                kudo(state.land[addr].owner);
-            }
-            } catch(e) {
-                console.log('something strange with crafting cannagar', e.message)
-            }*/
-
         }
     }
-}
-
-function hashThis(data) {
-    const digest = crypto.createHash('sha256').update(data).digest()
-    const digestSize = Buffer.from(digest.byteLength.toString(16), 'hex')
-    const combined = Buffer.concat([hashFunction, digestSize, digest])
-    const multihash = bs58.encode(combined)
-    return multihash.toString()
 }
