@@ -119,11 +119,11 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
     })
   }
 
-  function transactional(ops, i, pc, num, block) {
-    if (ops.length) {
-        doOp(ops[i], [ops, i, pc, num, block])
+  function transactional(op, i, pc, num, block) {
+    if (op.length) {
+        doOp(op[i], [op, i, pc, num, block])
             .then(v => {
-                if (ops.length > i + 1) {
+                if (op.length > i + 1) {
                     transactional(v[0], v[1] + 1, v[2], v[3], v[4])
                 } else {
                     onNewBlock(num, v)
