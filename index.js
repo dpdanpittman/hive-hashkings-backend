@@ -26,11 +26,8 @@
 var dhive = require("@hiveio/dhive");
 var hivejs = require('@hiveio/hive-js');
 var axios = require('axios');
-var level = require('level');
-var Pathwise = require('./pathwise');
 var steemState = require('./processor');
 var steemTransact = require('steem-transact');
-var store = new Pathwise(level('./db', { createIfEmpty: true }));
 var fs = require('fs');
 const cors = require('cors');
 const express = require('express')
@@ -359,13 +356,12 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49797700 ; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49843870; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49797700 ;
+const ago = ENV.ago || 49843870;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
-const hashFunction = Buffer.from('12', 'hex');
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
     //"https://api.pharesim.me",
