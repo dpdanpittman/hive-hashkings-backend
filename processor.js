@@ -186,7 +186,7 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
         }
       }
     }
-    transactional(ops, 0, [resolve, reject], num, block)
+    transactional(op, 0, [resolve, reject], num, block)
   }
 
   return {
