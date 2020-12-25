@@ -511,13 +511,6 @@ function startApp() {
             } catch {
                 console.log(" line 513 ") 
             }
-            if (num % 1000 === 0) {
-                store.get([], function(err, obj) {
-                    const blockState = Buffer.from(JSON.stringify([num, obj]))
-                    ipfsSaveState(num, blockState)
-                    console.log(num + '' + blockState)
-                })
-            }
             try{
                 if (num % 5 === 0 && processor.isStreaming()) {              
                     //logging for testing will remove after a while
