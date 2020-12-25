@@ -370,7 +370,6 @@ var client = new dhive.Client([
 ], {consoleOnFailover: true});
 var processor;
 var recents = [];
-const transactor = steemTransact(client, dhive, prefix);
 
 const { ChainTypes, makeBitMaskFilter } = require('@hiveio/hive-js/lib/auth/serializer')
 const op = ChainTypes.operations
@@ -2267,8 +2266,6 @@ function startApp() {
 
     processor.start();
 
-
-    //var transactor = steemTransact(client, steem, prefix);
     processor.on('return', function(json, from) {
         var index = state.users[from].addrs.indexOf(json.addr)
         if (index >= 0) {
