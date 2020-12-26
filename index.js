@@ -357,11 +357,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49899300; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49899645; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49899300;
+const ago = ENV.ago || 49899645;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -2340,13 +2340,14 @@ function startApp() {
 }
 
 function ipfsSaveState(blocknum, hashable) {
-    console.log("inside save state")
     ipfs.add(hashable, (err, IpFsHash) => {
-        console.log("inside save state.add")
         if (!err) {
             var hash = ''
             try {
+            if (hash) {
                 hash = IpFsHash[0].hash
+                console.log(hash + " got set")
+            }
             } catch (e) {
                 console.log("hash didnt get set")
             }
@@ -2367,6 +2368,29 @@ function ipfsSaveState(blocknum, hashable) {
         }
     })
     console.log("skipped savestate if and else")
+};
+
+function ipfsSaveState(blocknum, hashable) {
+    ipfs.add(hashable, (err, IpFsHash) => {
+        if (!err) {
+            var hash = ''
+            try {
+                hash = IpFsHash[0].hash
+            } catch (e) {}
+            plasma.hashLastIBlock = hash
+            plasma.hashBlock = blocknum
+            console.log(current + `:Saved:  ${hash}`)
+        } else {
+            console.log({
+                cycle
+            }, 'IPFS Error', err)
+            cycleipfs(cycle++)
+            if (cycle >= 25) {
+                cycle = 0;
+                return;
+            }
+        }
+    })
 };
 
 var bot = {
