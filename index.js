@@ -357,11 +357,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49893620; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49897065; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49893620;
+const ago = ENV.ago || 49897065;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -370,6 +370,7 @@ var client = new dhive.Client([
     //"https://api.hive.blog"
 ], {consoleOnFailover: true});
 var processor;
+var tokenProcessor;
 var recents = [];
 
 const { ChainTypes, makeBitMaskFilter } = require('@hiveio/hive-js/lib/auth/serializer')
@@ -503,7 +504,7 @@ function startApp() {
         state.cs = {}
     }
     processor = steemState(client, dhive, startingBlock, 10, prefix);
-
+    tokenProcessor = steemState(client, dhive, startingBlock, 10);
 
     processor.onBlock(function(num, block) {
             const sun = (num - state.stats.time) % 28800
@@ -577,7 +578,7 @@ function startApp() {
                 console.log(" line 544 ") 
             }
             try{
-                if (num % 5 === 0 && processor.isStreaming()) {
+                if (num % 1000 === 0 && processor.isStreaming()) {
                     ipfsSaveState(num, JSON.stringify(state))
                     console.log("saved state at " + num)
                 }
@@ -780,6 +781,25 @@ function startApp() {
         }
         state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
     });
+
+        // search for scc-mainnet-hive from user on blockchain since genesis
+    //steemconnect link
+    //https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_water&json=%7B%22plants%22%3A%5B%22c35%22%5D%7D
+    /*tokenProcessor.on('scc-mainnet-hive', function(json, from) {
+        let plants = json.plants,
+            plantnames = ''
+        for (var i = 0; i < plants.length; i++) {
+            try {
+                if (state.land[plants[i]].owner === from) {
+                    state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
+                    plantnames += `${plants[i]} `
+                }
+            } catch (e) {
+                state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
+            }
+        }
+        state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
+    });*/
 
     //search for qwoyn_breeder_name from user on blockchain since genesis
     //steemconnect link
