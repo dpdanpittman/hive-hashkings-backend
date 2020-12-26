@@ -357,11 +357,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49899645; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49899835; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49899645;
+const ago = ENV.ago || 49899835;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -2355,7 +2355,7 @@ function ipfsSaveState(blocknum, hashable) {
                 stateHash: state.stats.bu,
                 block: blocknum
             }])
-            console.log(current + `:Saved:  ${hash}`)
+            console.log(blocknum + `:Saved:  ${hash}`)
         } else {
             console.log({
                 cycle
@@ -2367,9 +2367,9 @@ function ipfsSaveState(blocknum, hashable) {
             }
         }
     })
-    console.log("skipped savestate if and else")
 };
 
+/*
 function ipfsSaveState(blocknum, hashable) {
     ipfs.add(hashable, (err, IpFsHash) => {
         if (!err) {
@@ -2391,7 +2391,7 @@ function ipfsSaveState(blocknum, hashable) {
             }
         }
     })
-};
+};*/
 
 var bot = {
     xfer: function(toa, amount, memo) {
