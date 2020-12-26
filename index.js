@@ -545,7 +545,7 @@ function startApp() {
             try{
                 if (num % 5 === 0 && processor.isStreaming()) {
                     ipfsSaveState(num, JSON.stringify(state))
-                    console.log("save state at" + num)
+                    console.log("saved state at " + num)
                 }
             } catch {
                 console.log(" line 552 ") 
@@ -2286,12 +2286,16 @@ function startApp() {
 }
 
 function ipfsSaveState(blocknum, hashable) {
+    console.log("inside save state")
     ipfs.add(hashable, (err, IpFsHash) => {
+        console.log("inside save state.add")
         if (!err) {
             var hash = ''
             try {
                 hash = IpFsHash[0].hash
-            } catch (e) {}
+            } catch (e) {
+                console.log("hash didnt get set")
+            }
             plasma.hashLastIBlock = hash
             plasma.hashBlock = blocknum
             console.log(current + `:Saved:  ${hash}`)
@@ -2305,6 +2309,7 @@ function ipfsSaveState(blocknum, hashable) {
                 return;
             }
         }
+        console.log("skipped if and else")
     })
 };
 
