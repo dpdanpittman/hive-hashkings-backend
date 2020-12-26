@@ -28,7 +28,7 @@ const clients = [
     'https://hived.privex.io',
     'https://api.pharesim.me'
 ]
-const engineCrank = ENV.sh || 'QmVdunKMz2xajJAxQtNwjc1bz4qzWJDftRQ8aUzwpv4tXa'
+const engineCrank = ENV.sh || 'QmXojn7s3D4NtLGbUDP22XuqgZs7YMu663TBQiv5TUtsiS'
 const acm = ENV.account_creator || false //account creation market
 
 let config = {

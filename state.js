@@ -745,8 +745,8 @@ module.exports = {
             }
          }
       },
-      "bu": "QmRGhkgH9XCUuUP8irFEpA9TSTvDVDbwKDqzEfkKc4CJjD",
-      "bi": 34160000,
+      "bu": "QmXojn7s3D4NtLGbUDP22XuqgZs7YMu663TBQiv5TUtsiS",
+      "bi": 49893620,
       "prices": {
          "listed": {
             "a": 20000,

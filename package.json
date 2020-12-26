@@ -19,6 +19,7 @@
         "axios": "^0.20.0",
         "cors": "^2.8.5",
         "express": "^4.16.4",
+        "ipfs-api": "^26.1.2",
         "ipfs-http-client": "^42.0.0",
         "level": "^6.0.1",
         "level-pathwise": "^4.0.0",
