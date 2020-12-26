@@ -393,6 +393,12 @@ const walletOperationsBitmask = makeBitMaskFilter([
   op.claim_reward_balance
 ])
 
+var plasma = {
+    pending: {},
+    page: [],
+    pagencz: []
+}
+
 dynStart('hashkings')
 
 function dynStart(account) {
