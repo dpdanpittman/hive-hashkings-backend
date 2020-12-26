@@ -758,9 +758,9 @@ module.exports = {
             "t": 20000,
             "seeds": {
                "reg": 21,
-               "mid": 42,
-               "top": 63,
-               "special": 83
+               "mid": 41,
+               "top": 62,
+               "special": 82
             },
             "supplies": {
                "papers": 5000,

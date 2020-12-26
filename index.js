@@ -357,11 +357,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49897065; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49898390; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49897065;
+const ago = ENV.ago || 49898390;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -392,12 +392,6 @@ const walletOperationsBitmask = makeBitMaskFilter([
   op.fill_order,
   op.claim_reward_balance
 ])
-
-var plasma = {
-    pending: {},
-    page: [],
-    pagencz: []
-}
 
 dynStart('hashkings')
 
@@ -584,7 +578,7 @@ function startApp() {
                 console.log(" line 544 ") 
             }
             try{
-                if (num % 1000 === 0 && processor.isStreaming()) {
+                if (num % 50 === 0 && processor.isStreaming()) {
                     ipfsSaveState(num, JSON.stringify(state))
                     console.log("saved state at " + num)
                 }
@@ -2356,8 +2350,10 @@ function ipfsSaveState(blocknum, hashable) {
             } catch (e) {
                 console.log("hash didnt get set")
             }
-            plasma.hashLastIBlock = hash
-            plasma.hashBlock = blocknum
+            state.refund.push(['customJson', 'report', {
+                stateHash: state.stats.bu,
+                block: blocknum
+            }])
             console.log(current + `:Saved:  ${hash}`)
         } else {
             console.log({
