@@ -26,6 +26,7 @@
 var dhive = require("@hiveio/dhive");
 var hivejs = require('@hiveio/hive-js');
 var axios = require('axios');
+const config = require('./config');
 var steemState = require('./processor');
 var steemTransact = require('steem-transact');
 var fs = require('fs');
@@ -35,7 +36,7 @@ const ENV = process.env;
 const maxEx = process.max_extentions || 8;
 const IPFS = require('ipfs-http-client');
 const ipfs = new IPFS({
-    host: '2903f2c4fa160a00.dyndns.dappnode.io',
+    host: config.ipfshost,
     port: 5001,
     protocol: 'https'
 });
@@ -391,15 +392,48 @@ const walletOperationsBitmask = makeBitMaskFilter([
   op.claim_reward_balance
 ])
 
+dynStart('hashkings')
+
+function dynStart(account) {
+    let accountToQuery = account || config.username
+    hivejs.api.getAccountHistory(accountToQuery, -1, 100, ...walletOperationsBitmask, function(err, result) {
+        if (err) {
+            console.log(err)
+            dynStart('hashkings')
+        } else {
+
+            let ebus = result.filter(tx => tx[1].op[1].id === 'qwoyn_report')
+            for (i = ebus.length - 1; i >= 0; i--) {
+                if (JSON.parse(ebus[i][1].op[1].json).hash && parseInt(JSON.parse(ebus[i][1].op[1].json).block) > parseInt(config.override)) {
+                    recents.push(JSON.parse(ebus[i][1].op[1].json).hash)
+                }
+            }
+            if (recents.length) {
+                const mostRecent = recents.shift()
+                console.log(mostRecent)
+                if (recents.length === 0) {
+                    startWith(config.engineCrank)
+                } else {
+                    startWith(mostRecent)
+                }
+            } else {
+                startWith(config.engineCrank)
+                console.log('he did it')
+            }
+        }
+    });
+}
+
 
 /****ISSUE****/
 //I think this is where the app can get the hash from hashkings_report that is saved in state.js and use it
 //to start the app.  this should prevent the app having to start from GENESIS BLOCK
-hivejs.api.getAccountHistory(username, -1, 100, ...walletOperationsBitmask, function(err, result) {
+/*hivejs.api.getAccountHistory(username, -1, 100, ...walletOperationsBitmask, function(err, result) {
     if (err) {
         console.log(err)
         startWith(sh)
     } else {
+        /*console.log()
         let ebus = result.filter(tx => tx[1].op[1].id === 'qwoyn_report')
         for (i = ebus.length - 1; i >= 0; i--) {
             if (JSON.parse(ebus[i][1].op[1].json).stateHash !== null) recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
@@ -410,7 +444,7 @@ hivejs.api.getAccountHistory(username, -1, 100, ...walletOperationsBitmask, func
         console.log(mostRecent)
         startWith(mostRecent)
     }
-});
+});*/
 
 //assigns kudos to user. kudos determine who has properly cared for their plants and 
 //increments kudos accordingly
@@ -458,7 +492,7 @@ function startWith(hash) {
             }
         });
     } else {
-        console.log('Didnt start with hash')
+        console.log('variable hash doesnt exist')
         state = init
         startApp()
     }
@@ -2309,8 +2343,8 @@ function ipfsSaveState(blocknum, hashable) {
                 return;
             }
         }
-        console.log("skipped if and else")
     })
+    console.log("skipped savestate if and else")
 };
 
 var bot = {
