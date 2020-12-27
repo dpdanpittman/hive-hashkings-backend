@@ -412,7 +412,7 @@ function dynStart(account) {
                 }
             }
             if (recents.length) {
-                const mostRecent = recents
+                const mostRecent = recents.shift()
                 console.log(mostRecent)
                 if (recents.length === 0) {
                     startWith(config.engineCrank)
