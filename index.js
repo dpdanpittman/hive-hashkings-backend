@@ -357,11 +357,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49899835; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49900190; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49899835;
+const ago = ENV.ago || 49900190;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -578,11 +578,11 @@ function startApp() {
                 console.log(" line 544 ") 
             }
             try{
-                if (num % 50 === 0 && processor.isStreaming()) {
+                if (num % 50 === 1 && processor.isStreaming()) {
                     ipfsSaveState(num, JSON.stringify(state))
                     console.log("saved state at " + num)
                 }
-            } catch {
+            } catch (e){
                 console.log(" line 552 ") 
             }   
         })
@@ -2343,10 +2343,12 @@ function ipfsSaveState(blocknum, hashable) {
     ipfs.add(hashable, (err, IpFsHash) => {
         if (!err) {
             var hash = ''
+            console.log("var hash got initialized")
             try {
             if (hash) {
+                console.log("hash exists in if")
                 hash = IpFsHash[0].hash
-                console.log(hash + " got set")
+                console.log(`${hash} + " got set"`)
             }
             } catch (e) {
                 console.log("hash didnt get set")
@@ -2368,30 +2370,6 @@ function ipfsSaveState(blocknum, hashable) {
         }
     })
 };
-
-/*
-function ipfsSaveState(blocknum, hashable) {
-    ipfs.add(hashable, (err, IpFsHash) => {
-        if (!err) {
-            var hash = ''
-            try {
-                hash = IpFsHash[0].hash
-            } catch (e) {}
-            plasma.hashLastIBlock = hash
-            plasma.hashBlock = blocknum
-            console.log(current + `:Saved:  ${hash}`)
-        } else {
-            console.log({
-                cycle
-            }, 'IPFS Error', err)
-            cycleipfs(cycle++)
-            if (cycle >= 25) {
-                cycle = 0;
-                return;
-            }
-        }
-    })
-};*/
 
 var bot = {
     xfer: function(toa, amount, memo) {
