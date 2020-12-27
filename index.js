@@ -2343,14 +2343,14 @@ function startApp() {
 function ipfsSaveState(blocknum, hashable) {
     ipfs.add(hashable, (err, IpFsHash) => {
         if (!err) {
-            var newHash = ''
+            var hash = ''
             console.log("var hash got initialized")
             try {
-            if (newHash) {
+           
                 console.log("hash exists in if")
                 hash = IpFsHash[0].hash
                 console.log(newHash + " got set")
-            }
+           
             } catch (e) {
                 console.log("hash didnt get set")
             }
@@ -2358,7 +2358,7 @@ function ipfsSaveState(blocknum, hashable) {
                 stateHash: state.stats.bu,
                 block: blocknum
             }])
-            console.log(blocknum + `:Saved:  ${newHash}`)
+            console.log(blocknum + ` :Saved:  ${hash}`)
         } else {
             console.log({
                 cycle
