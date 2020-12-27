@@ -745,7 +745,7 @@ module.exports = {
             }
          }
       },
-      "bu": "QmXojn7s3D4NtLGbUDP22XuqgZs7YMu663TBQiv5TUtsiS",
+      "bu": "QmbSpHpfnp3DJtHqJ1gy6XPJ8YdbiH6KxYgg3RavX1nPuq",
       "bi": 49893620,
       "prices": {
          "listed": {
@@ -757,10 +757,10 @@ module.exports = {
             "f": 20000,
             "t": 20000,
             "seeds": {
-               "reg": 21,
-               "mid": 41,
-               "top": 62,
-               "special": 82
+               "reg": 22,
+               "mid": 43,
+               "top": 65,
+               "special": 86
             },
             "supplies": {
                "papers": 5000,
@@ -3920,20 +3920,21 @@ module.exports = {
       },
       "d63": {
          "owner": "monsterbuster",
-         "strain": "",
-         "care": [
-            [
-               49880782,
-               "tilled"
-            ]
-         ],
+         "strain": "kbr",
+         "care": [],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "Genesis Seed"
+         ],
          "terps": [],
          "stats": [],
-         "pollinated": false
+         "pollinated": true,
+         "id": "d63",
+         "xp": 50,
+         "inv": [],
+         "planted": 49909974
       },
       "b72": {
          "owner": "abrockman",
@@ -17057,15 +17058,6 @@ module.exports = {
          "xps": 51,
          "seeds": [
             {
-               "strain": "kbr",
-               "owner": "monsterbuster",
-               "xp": 50,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            },
-            {
                "strain": "cg",
                "owner": "monsterbuster",
                "traits": [
@@ -19963,6 +19955,7 @@ module.exports = {
       "49880782:monsterbuster": "monsterbuster harvested d63 ",
       "49888534:schlees": "schlees watered a127 a128 ",
       "49889975:foxon": "foxon watered d102 b110 ",
-      "49895493:mulletwang": "mulletwang watered c41 e20 e21 e22 e23 e24 e25 e26 e27 e28 b53 b54 b55 f48 f49 "
+      "49895493:mulletwang": "mulletwang watered c41 e20 e21 e22 e23 e24 e25 e26 e27 e28 b53 b54 b55 f48 f49 ",
+      "49909974:monsterbuster": "planted on harvested plot d63 "
    }
 }
