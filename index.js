@@ -484,9 +484,9 @@ function startWith(hash) {
         ipfs.cat(hash, (err, file) => {
             if (!err) {
                 var data = JSON.parse(file.toString())
-                startingBlock = data[0]
+                startingBlock = data[1]
                 if (startingBlock == ago) { startWith(hash) } else {
-                    state = JSON.parse(data[1]);
+                    state = JSON.parse(data[0]);
                     startApp();
                 }
             } else {
@@ -2346,7 +2346,7 @@ function ipfsSaveState(blocknum, hashable) {
             var newHash = ''
             console.log("var hash got initialized")
             try {
-            if (hash) {
+            if (newHash) {
                 console.log("hash exists in if")
                 hash = IpFsHash[0].hash
                 console.log(newHash + " got set")
