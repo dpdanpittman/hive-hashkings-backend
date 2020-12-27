@@ -360,11 +360,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49909015; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49909427; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49909015;
+const ago = ENV.ago || 49909427;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -407,12 +407,12 @@ function dynStart(account) {
         } else {
             let ebus = result.filter(tx => tx[1].op[1].id === 'qwoyn_report')
             for (i = ebus.length - 1; i >= 0; i--) {
-                if (JSON.parse(ebus[i][1].op[1].json).hash && parseInt(JSON.parse(ebus[i][1].op[1].json).block) > parseInt(config.override)) {
+                if (parseInt(JSON.parse(ebus[i][1].op[1].json).block) > parseInt(config.override)) {
                     recents.push(JSON.parse(ebus[i][1].op[1].json).hash)
                 }
             }
             if (recents.length) {
-                const mostRecent = recents.shift()
+                const mostRecent = recents
                 console.log(mostRecent)
                 if (recents.length === 0) {
                     startWith(config.engineCrank)
