@@ -357,11 +357,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49900355; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49901093; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49900355;
+const ago = ENV.ago || 49901093;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -493,7 +493,7 @@ function startWith(hash) {
             }
         });
     } else {
-        console.log('variable hash doesnt exist')
+        console.log('most recent report doesnt exist')
         state = init
         startApp()
     }
@@ -577,14 +577,14 @@ function startApp() {
             } catch {
                 console.log(" line 544 ") 
             }
-            try{
+            /*try{
                 if (num % 50 === 0 && processor.isStreaming()) {
-                    ipfsSaveState(num, state)
+                    ipfsSaveState(num, JSON.stringify(state))
                     console.log("saved state at " + num)
                 }
             } catch (e){
                 console.log(" line 552 ") 
-            }   
+            }   */
         })
         // search for qwoyn_harvest from user on blockchain since genesis
     processor.on('harvest', function(json, from) {
