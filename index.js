@@ -360,12 +360,13 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49931735; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49932725; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49931735;
+const ago = ENV.ago || 49932725;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
+const tokenPrefix = ENV.TOKENPREFIX || 'scc-';
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
     //"https://api.pharesim.me",
@@ -421,7 +422,6 @@ function dynStart(account) {
                 }
             } else {
                 startWith(config.engineCrank)
-                console.log('he did it')
             }
         }
     });
@@ -506,7 +506,7 @@ function startApp() {
         state.cs = {}
     }
     processor = steemState(client, dhive, startingBlock, 10, prefix);
-    tokenProcessor = steemState(client, dhive, startingBlock, 10);
+    tokenProcessor = steemState(client, dhive, startingBlock, 10, tokenPrefix);
 
     processor.onBlock(function(num, block) {
             const sun = (num - state.stats.time) % 28800
@@ -528,11 +528,13 @@ function startApp() {
                 console.log(" line 492 ") 
             }
             try {
-                if (num % 125 === 0 && state.refund.length && processor.isStreaming() || processor.isStreaming() && state.refund.length > 60) {
+                if (num % 5 === 0 && state.refund.length && processor.isStreaming() || processor.isStreaming() && state.refund.length > 60) {
                     if (state.refund[0].length == 4) {
                         bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2], state.refund[0][3])
                     } else if (state.refund[0].length == 3) {
                         bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2])
+                    } else if (state.refund[0].length == 2) {
+                        bot[state.refund[0][0]].call(this, state.refund[0][1])
                     }
                 }
             } catch {
