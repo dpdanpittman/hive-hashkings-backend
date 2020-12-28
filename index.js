@@ -363,7 +363,6 @@ var state;
 var startingBlock = ENV.STARTINGBLOCK || 49939590; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const sh = ENV.sh || '';
 const ago = ENV.ago || 49939590;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const tokenPrefix = ENV.TOKENPREFIX || 'scc-';
@@ -427,28 +426,6 @@ function dynStart(account) {
     });
 }
 
-
-/****ISSUE****/
-//I think this is where the app can get the hash from hashkings_report that is saved in state.js and use it
-//to start the app.  this should prevent the app having to start from GENESIS BLOCK
-/*hivejs.api.getAccountHistory(username, -1, 100, ...walletOperationsBitmask, function(err, result) {
-    if (err) {
-        console.log(err)
-        startWith(sh)
-    } else {
-        /*console.log()
-        let ebus = result.filter(tx => tx[1].op[1].id === 'qwoyn_report')
-        for (i = ebus.length - 1; i >= 0; i--) {
-            if (JSON.parse(ebus[i][1].op[1].json).stateHash !== null) recents.push(JSON.parse(ebus[i][1].op[1].json).stateHash)
-        }
-        const mostRecent = recents.shift()
-        console.log('starting properly')
-        console.log(sh)
-        console.log(mostRecent)
-        startWith(mostRecent)
-    }
-});*/
-
 //assigns kudos to user. kudos determine who has properly cared for their plants and 
 //increments kudos accordingly
 function kudo(user) {
@@ -483,9 +460,11 @@ function startWith(hash) {
         ipfs.cat(hash, (err, file) => {
             if (!err) {
                 var data = JSON.parse(file.toString())
-                startingBlock = data[1]
-                if (startingBlock == ago) { startWith(hash) } else {
-                    state = JSON.parse(data[0]);
+                startingBlock = data[0]
+                if (startingBlock == ago) { 
+                    startWith(sh) 
+                } else {
+                    state = JSON.parse(data[1]);
                     startApp();
                 }
             } else {
