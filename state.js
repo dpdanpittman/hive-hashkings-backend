@@ -953,6 +953,7 @@ module.exports = {
          "inv": [],
          "planted": 41715396,
          "father": "sog",
+         "hybrid": "",
          "id": "a10",
          "sex": "female"
       },
