@@ -360,11 +360,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49939000; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49939590; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49939000;
+const ago = ENV.ago || 49939590;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const tokenPrefix = ENV.TOKENPREFIX || 'scc-';
 var client = new dhive.Client([
@@ -613,7 +613,8 @@ function startApp() {
                                 breeder: state.land[plants[i]].owner,
                                 familyTree: state.land[plants[i]].strain,
                                 pollinated: false,
-                                father: [],
+                                father: "",
+                                hybrid: state.land[plants[i]].strain + " x " + state.land[plants[i]].father
                             }
                             var harvestedSeed2 = {
                                 strain: state.land[plants[i]].strain,
@@ -624,7 +625,8 @@ function startApp() {
                                 cbd: 'coming soon',
                                 familyTree: state.land[plants[i]].strain,
                                 pollinated: false,
-                                father: [],
+                                father: "",
+                                hybrid: state.land[plants[i]].strain + " x " + state.land[plants[i]].father
                             }
 
                             const parcel = {
@@ -666,7 +668,8 @@ function startApp() {
                                 thc: 'coming soon',
                                 cbd: 'coming soon',
                                 familyTree: state.land[plants[i]].strain,
-                                father: 'Sensimilla'
+                                father: 'Sensimilla',
+                                hybrid: false
                             }
                             var bud2 = {
                                 strain: state.land[plants[i]].strain,
@@ -676,7 +679,8 @@ function startApp() {
                                 cbd: 'coming soon',
                                 terps: [state.land[plants[i]].strain.terps],
                                 familyTree: state.land[plants[i]].strain,
-                                father: 'Sensimilla'
+                                father: 'Sensimilla',
+                                hybrid: false
                             }
 
                             const parcel = {
@@ -716,7 +720,8 @@ function startApp() {
                                 thc: 'coming soon',
                                 cbd: 'coming soon',
                                 familyTree: state.land[plants[i]].strain,
-                                father: 'Sensimilla'
+                                father: 'Sensimilla',
+                                hybrid: false
                             }
                             var pollen2 = {
                                 strain: state.land[plants[i]].strain,
@@ -726,7 +731,8 @@ function startApp() {
                                 thc: 'coming soon',
                                 cbd: 'coming soon',
                                 familyTree: state.land[plants[i]].strain,
-                                father: 'Sensimilla'
+                                father: 'Sensimilla',
+                                hybrid: false
                             }
 
                             const parcel = {
@@ -968,12 +974,9 @@ function startApp() {
                             if (state.users[from].buds.length) pollens == state.users[from].pollen.splice(0, 1)[0]
                         } catch (e) {}
                     }
-                    
-                    var hybrid = pollename + " " + state.land[plants].strain
 
                     state.land[plants].pollinated = true;
                     state.land[plants].father = pollenName;
-                    state.land[plants].hybrid = hybrid;
                 }
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
@@ -1769,7 +1772,8 @@ function startApp() {
                     traits: ['patreon genesis bud'],
                     terps: [],
                     pollinated: false,
-                    father: 'sensimilla'
+                    father: 'sensimilla',
+                    hybrid: false
                 }
             }
             if (from == 'hashkings') { state.users[json.to].buds.push(buds) }
@@ -1788,7 +1792,8 @@ function startApp() {
                     traits: ['patreon genesis pollen'],
                     terps: [],
                     pollinated: false,
-                    father: 'sensimilla'
+                    father: 'sensimilla',
+                    hybrid: false
                 }
             }
             if (from == 'hashkings') { state.users[json.to].pollen.push(pollen) }
@@ -1807,7 +1812,8 @@ function startApp() {
                     traits: ['patreon genesis seed'],
                     terps: [],
                     pollinated: false,
-                    father: 'sensimilla'
+                    father: 'sensimilla',
+                    hybrid: false
                 }
             }
             if (from == 'hashkings') { state.users[json.to].seeds.push(seeds) }
@@ -2049,6 +2055,7 @@ function startApp() {
                     substage: 0,
                     pollinated: seed.pollinated,
                     father: seed.father,
+                    hybrid: seed.hybrid
                 }
                 state.land[json.addr] = parcel
             } else if (state.land[json.addr].stage < 0) {
@@ -2065,6 +2072,7 @@ function startApp() {
                 state.land[json.addr].substage = 0
                 state.land[json.addr].pollinated = seed.pollinated
                 state.land[json.addr].father = seed.father
+                state.land[json.addr].hybrid = seed.hybrid
             } else {
                 state.users[from].seeds.unshift(seed);
                 state.cs[`${json.block_num}:${from}`] = `${from} can't plant that.`
@@ -2239,7 +2247,8 @@ function startApp() {
                                     cbd: 'coming soon',
                                     breeder: 'Landrace Strain',
                                     familyTree: 'Landrace Strain',
-                                    pollinated: false
+                                    pollinated: false,
+                                    hybrid: false
                                 }
                                 state.users[json.from].xps += 1;
                                 state.users[json.from].seeds.push(seed)
@@ -2257,7 +2266,8 @@ function startApp() {
                                     thc: 'coming soon',
                                     cbd: 'coming soon',
                                     breeder: 'Landrace Strain',
-                                    familyTree: 'Landrace Strain'
+                                    familyTree: 'Landrace Strain',
+                                    hybrid: false
                                 }
                                 state.users[json.from].xps += 1;
                                 state.users[json.from].pollen.push(pollen)

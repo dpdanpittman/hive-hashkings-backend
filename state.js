@@ -745,7 +745,7 @@ module.exports = {
             }
          }
       },
-      "bu": "QmQrn3iP74K2QSnpdrzMGEPLygpCTJEDFyw5oCCABg236i",
+      "bu": "QmPzSnQLdSYL11oEptx1Tu8cwrsBuGNAdZMfdeZvkuYA9T",
       "bi": 49893620,
       "prices": {
          "listed": {
@@ -760,7 +760,7 @@ module.exports = {
                "reg": 21,
                "mid": 42,
                "top": 63,
-               "special": 83
+               "special": 84
             },
             "supplies": {
                "papers": 5000,
@@ -939,6 +939,10 @@ module.exports = {
             [
                49939029,
                "pollinated"
+            ],
+            [
+               49939029,
+               "pollinated"
             ]
          ],
          "aff": [],
@@ -953,7 +957,6 @@ module.exports = {
          "inv": [],
          "planted": 41715396,
          "father": "sog",
-         "hybrid": "",
          "id": "a10",
          "sex": "female"
       },
@@ -20835,6 +20838,7 @@ module.exports = {
       "49935836:mulletwang": "planted on empty plot e118",
       "49935877:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 a131 a132 a133 a134 a135 a136 a137 a138 a139 c119 c120 c121 c122 c123 c124 e109 e110 e111 c125 c126 c127 c128 c129 c130 c131 c132 c133 c134 c135 e112 e113 e114 e115 e116 e117 e118 ",
       "49937588:monsterbuster": "monsterbuster watered d63 ",
-      "49938711:hashkings": "9000 to vesting"
+      "49938711:hashkings": "9000 to vesting",
+      "49939029:qwoyn": "qwoyn pollinated a10 with sog"
    }
 }
