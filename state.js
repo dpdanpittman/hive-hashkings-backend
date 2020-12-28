@@ -585,8 +585,8 @@ module.exports = {
       {
          "delegator": "mulletwang",
          "vests": 3832486462933,
-         "availible": 77,
-         "used": 23
+         "availible": 41,
+         "used": 59
       },
       {
          "delegator": "abrockman",
@@ -627,16 +627,16 @@ module.exports = {
    ],
    "kudos": {
       "qwoyn": 50,
-      "saboin": 116,
+      "saboin": 118,
       "gamewatch": 43,
       "anarcist69": 8,
-      "schlees": 39,
+      "schlees": 41,
       "bibdieufr": 28,
       "mulletwang": 384,
       "mickvir": 2,
       "vcdragon": 13,
       "enginewitty": 2,
-      "abrockman": 2311,
+      "abrockman": 2328,
       "monsterbuster": 24,
       "foxon": 49,
       "nutritree": 4
@@ -745,7 +745,7 @@ module.exports = {
             }
          }
       },
-      "bu": "QmdmqQoGPpZsjucXm9XCxZUJDBeukgu9JvTKsGKautWYm3",
+      "bu": "QmQrn3iP74K2QSnpdrzMGEPLygpCTJEDFyw5oCCABg236i",
       "bi": 49893620,
       "prices": {
          "listed": {
@@ -759,7 +759,7 @@ module.exports = {
             "seeds": {
                "reg": 21,
                "mid": 42,
-               "top": 62,
+               "top": 63,
                "special": 83
             },
             "supplies": {
@@ -777,16 +777,16 @@ module.exports = {
       },
       "supply": {
          "land": {
-            "a": 289,
-            "ac": 131,
+            "a": 280,
+            "ac": 140,
             "b": 308,
             "bc": 112,
-            "c": 301,
-            "cc": 119,
+            "c": 284,
+            "cc": 136,
             "d": 316,
             "dc": 104,
-            "e": 311,
-            "ec": 109,
+            "e": 301,
+            "ec": 119,
             "f": 339,
             "fc": 81,
             "g": 0,
@@ -839,7 +839,7 @@ module.exports = {
       "r": 0,
       "c": 0,
       "b": 0,
-      "p": 1508479
+      "p": 1517479
    },
    "refund": [],
    "lands": {
@@ -935,7 +935,12 @@ module.exports = {
       "a10": {
          "owner": "qwoyn",
          "strain": "mis",
-         "care": [],
+         "care": [
+            [
+               49939029,
+               "pollinated"
+            ]
+         ],
          "aff": [],
          "stage": 3,
          "substage": 1,
@@ -944,10 +949,10 @@ module.exports = {
          ],
          "terps": [],
          "stats": [],
-         "pollinated": false,
+         "pollinated": true,
          "inv": [],
          "planted": 41715396,
-         "father": [],
+         "father": "sog",
          "id": "a10",
          "sex": "female"
       },
@@ -1148,10 +1153,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -1161,8 +1162,8 @@ module.exports = {
             ]
          ],
          "aff": [],
-         "stage": 1,
-         "substage": 6,
+         "stage": 2,
+         "substage": 0,
          "traits": [
             "Beta Seed"
          ],
@@ -1171,7 +1172,8 @@ module.exports = {
          "pollinated": true,
          "inv": [],
          "planted": 49665395,
-         "id": "a50"
+         "id": "a50",
+         "sex": "male"
       },
       "c39": {
          "owner": "abrockman",
@@ -1246,92 +1248,141 @@ module.exports = {
       },
       "a51": {
          "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
-         "care": [],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false,
-         "id": "a51"
-      },
-      "b44": {
-         "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
-         "care": [],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false,
-         "id": "b44"
-      },
-      "e18": {
-         "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
-         "care": [],
-         "aff": [],
-         "stage": -1,
-         "substage": 0,
-         "traits": [],
-         "terps": [],
-         "stats": [],
-         "pollinated": false,
-         "id": "e18"
-      },
-      "c41": {
-         "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
+         "strain": "pam",
+         "xp": 2250,
          "care": [
             [
-               49911249,
-               "tilled"
+               49935877,
+               "watered"
             ]
          ],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "a51",
+         "inv": [],
+         "planted": 49934749
+      },
+      "b44": {
+         "owner": "mulletwang",
+         "strain": "pam",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 0,
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "b44",
+         "inv": [],
+         "planted": 49934757
+      },
+      "e18": {
+         "owner": "mulletwang",
+         "strain": "pam",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 0,
+         "traits": [
+            "Beta Seed"
+         ],
+         "terps": [],
+         "stats": [],
+         "pollinated": true,
+         "id": "e18",
+         "inv": [],
+         "planted": 49934743
+      },
+      "c41": {
+         "owner": "mulletwang",
+         "strain": "pam",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "stage": 1,
+         "substage": 0,
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
          "pollinated": false,
-         "id": "c41"
+         "id": "c41",
+         "inv": [],
+         "planted": 49934783,
+         "father": []
       },
       "d34": {
          "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
-         "care": [],
+         "strain": "pam",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
          "pollinated": false,
-         "id": "d34"
+         "id": "d34",
+         "inv": [],
+         "planted": 49934791,
+         "father": []
       },
       "f10": {
          "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
-         "care": [],
+         "strain": "pam",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
          "pollinated": false,
-         "id": "f10"
+         "id": "f10",
+         "inv": [],
+         "planted": 49934794,
+         "father": []
       },
       "f11": {
          "owner": "choosefreedom",
@@ -1352,23 +1403,36 @@ module.exports = {
       },
       "e19": {
          "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
-         "care": [],
+         "strain": "pam",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
          "pollinated": false,
-         "id": "e19"
+         "id": "e19",
+         "inv": [],
+         "planted": 49934797,
+         "father": []
       },
       "e20": {
          "owner": "mulletwang",
          "strain": "pam",
          "xp": 2250,
          "care": [
+            [
+               49935877,
+               "watered"
+            ],
             [
                49895493,
                "watered",
@@ -1394,6 +1458,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               49935877,
+               "watered"
+            ],
+            [
                49895493,
                "watered",
                ""
@@ -1417,6 +1485,10 @@ module.exports = {
          "strain": "afg",
          "xp": 2250,
          "care": [
+            [
+               49935877,
+               "watered"
+            ],
             [
                49895493,
                "watered",
@@ -1442,6 +1514,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               49935877,
+               "watered"
+            ],
+            [
                49895493,
                "watered",
                ""
@@ -1465,6 +1541,10 @@ module.exports = {
          "strain": "ach",
          "xp": 2250,
          "care": [
+            [
+               49935877,
+               "watered"
+            ],
             [
                49895493,
                "watered",
@@ -1490,6 +1570,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               49935877,
+               "watered"
+            ],
+            [
                49895493,
                "watered",
                ""
@@ -1513,6 +1597,10 @@ module.exports = {
          "strain": "lb",
          "xp": 2250,
          "care": [
+            [
+               49935877,
+               "watered"
+            ],
             [
                49895493,
                "watered",
@@ -1538,6 +1626,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               49935877,
+               "watered"
+            ],
+            [
                49895493,
                "watered",
                ""
@@ -1561,6 +1653,10 @@ module.exports = {
          "strain": "dp",
          "xp": 2250,
          "care": [
+            [
+               49935877,
+               "watered"
+            ],
             [
                49895493,
                "watered",
@@ -1910,10 +2006,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -1924,7 +2016,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 5,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2077,10 +2169,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -2091,7 +2179,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 8,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -2206,10 +2294,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -2220,7 +2304,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 7,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -2286,23 +2370,36 @@ module.exports = {
       },
       "b52": {
          "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
-         "care": [],
+         "strain": "pam",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
          "pollinated": false,
-         "id": "b52"
+         "id": "b52",
+         "inv": [],
+         "planted": 49934808,
+         "father": []
       },
       "b53": {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
          "care": [
+            [
+               49935877,
+               "watered"
+            ],
             [
                49895493,
                "watered",
@@ -2328,6 +2425,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               49935877,
+               "watered"
+            ],
+            [
                49895493,
                "watered",
                ""
@@ -2351,6 +2452,10 @@ module.exports = {
          "strain": "pam",
          "xp": 2250,
          "care": [
+            [
+               49935877,
+               "watered"
+            ],
             [
                49895493,
                "watered",
@@ -2659,12 +2764,13 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "beta pollinated seed"
          ],
@@ -2774,10 +2880,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -2788,7 +2890,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "beta pollinated seed"
          ],
@@ -2923,10 +3025,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -2937,7 +3035,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 7,
-         "substage": 4,
+         "substage": 5,
          "traits": [
             "Beta Seed"
          ],
@@ -3562,7 +3660,8 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
+               "watered",
+               ""
             ],
             [
                49930002,
@@ -3584,10 +3683,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -3598,7 +3693,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 7,
-         "substage": 3,
+         "substage": 4,
          "traits": [
             "Beta Seed"
          ],
@@ -3637,10 +3732,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -3651,7 +3742,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 8,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seed"
          ],
@@ -3946,12 +4037,13 @@ module.exports = {
          "care": [
             [
                49920395,
-               "watered"
+               "watered",
+               ""
             ]
          ],
          "aff": [],
          "stage": 3,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -3990,22 +4082,35 @@ module.exports = {
       },
       "f47": {
          "owner": "mulletwang",
-         "strain": "",
-         "xp": 0,
-         "care": [],
+         "strain": "pam",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
          "aff": [],
-         "stage": -1,
+         "stage": 1,
          "substage": 0,
-         "traits": [],
+         "traits": [
+            "beta pollinated seed"
+         ],
          "terps": [],
          "stats": [],
          "pollinated": false,
-         "id": "f47"
+         "id": "f47",
+         "inv": [],
+         "planted": 49934863,
+         "father": []
       },
       "d63": {
          "owner": "monsterbuster",
          "strain": "kbr",
          "care": [
+            [
+               49937588,
+               "watered"
+            ],
             [
                49910168,
                "watered",
@@ -4238,6 +4343,10 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
+               49935877,
+               "watered"
+            ],
+            [
                49851534,
                "watered",
                ""
@@ -4262,6 +4371,10 @@ module.exports = {
          "strain": "swz",
          "xp": 2250,
          "care": [
+            [
+               49935877,
+               "watered"
+            ],
             [
                49851534,
                "watered",
@@ -4625,17 +4738,13 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 5,
-         "substage": 0,
+         "substage": 1,
          "traits": [
             "beta pollinated seed"
          ],
@@ -5087,10 +5196,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -5101,7 +5206,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seeds"
          ],
@@ -5292,17 +5397,13 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 4,
+         "substage": 5,
          "traits": [
             "Beta Seeds"
          ],
@@ -5348,17 +5449,13 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ]
          ],
          "aff": [],
          "stage": 1,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "beta pollinated seed"
          ],
@@ -5377,10 +5474,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -5391,7 +5484,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 2,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seeds"
          ],
@@ -5433,10 +5526,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -5447,7 +5536,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 5,
-         "substage": 1,
+         "substage": 2,
          "traits": [
             "Beta Seeds"
          ],
@@ -5496,10 +5585,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -5510,7 +5595,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seed"
          ],
@@ -5600,10 +5685,6 @@ module.exports = {
          "care": [
             [
                49930005,
-               "watered"
-            ],
-            [
-               49862149,
                "watered",
                ""
             ],
@@ -5614,7 +5695,7 @@ module.exports = {
          ],
          "aff": [],
          "stage": 1,
-         "substage": 5,
+         "substage": 6,
          "traits": [
             "Beta Seeds"
          ],
@@ -6464,11 +6545,8 @@ module.exports = {
          "care": [
             [
                49931086,
-               "watered"
-            ],
-            [
-               49888534,
-               "watered"
+               "watered",
+               ""
             ],
             [
                49818168,
@@ -6486,8 +6564,8 @@ module.exports = {
             ]
          ],
          "planted": 48771969,
-         "stage": 3,
-         "substage": 6,
+         "stage": 4,
+         "substage": 0,
          "pollinated": true,
          "father": [],
          "id": "a127",
@@ -6561,11 +6639,8 @@ module.exports = {
          "care": [
             [
                49931086,
-               "watered"
-            ],
-            [
-               49888534,
-               "watered"
+               "watered",
+               ""
             ],
             [
                49818168,
@@ -6584,7 +6659,7 @@ module.exports = {
          ],
          "planted": 48800349,
          "stage": 3,
-         "substage": 5,
+         "substage": 6,
          "pollinated": false,
          "id": "a128",
          "sex": "female"
@@ -6644,7 +6719,8 @@ module.exports = {
          "care": [
             [
                49920395,
-               "watered"
+               "watered",
+               ""
             ]
          ],
          "aff": [],
@@ -6659,7 +6735,7 @@ module.exports = {
          ],
          "planted": 48835602,
          "stage": 2,
-         "substage": 3,
+         "substage": 4,
          "pollinated": true,
          "id": "a76",
          "sex": "female"
@@ -6910,12 +6986,7 @@ module.exports = {
          "owner": "foxon",
          "strain": "",
          "xp": 0,
-         "care": [
-            [
-               49863837,
-               "tilled"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": -1,
          "substage": 0,
@@ -6985,6 +7056,942 @@ module.exports = {
          "pollinated": false,
          "father": [],
          "id": "d102"
+      },
+      "a131": {
+         "owner": "mulletwang",
+         "strain": "dp",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49934977,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a131"
+      },
+      "c119": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49934981,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "c119"
+      },
+      "c120": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935012,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "c120"
+      },
+      "a132": {
+         "owner": "mulletwang",
+         "strain": "dp",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935021,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a132"
+      },
+      "a133": {
+         "owner": "mulletwang",
+         "strain": "dp",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935050,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a133"
+      },
+      "c121": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935053,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c121"
+      },
+      "a134": {
+         "owner": "mulletwang",
+         "strain": "dp",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935072,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a134"
+      },
+      "c122": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935076,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c122"
+      },
+      "a135": {
+         "owner": "mulletwang",
+         "strain": "dp",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935356,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a135"
+      },
+      "c123": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935360,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c123"
+      },
+      "c124": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935408,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c124"
+      },
+      "e109": {
+         "owner": "mulletwang",
+         "strain": "lb",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935415,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e109"
+      },
+      "a136": {
+         "owner": "mulletwang",
+         "strain": "dp",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935421,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a136"
+      },
+      "e110": {
+         "owner": "mulletwang",
+         "strain": "kbr",
+         "xp": 50,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Genesis Seed"
+            ]
+         ],
+         "planted": 49935444,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e110"
+      },
+      "a137": {
+         "owner": "mulletwang",
+         "strain": "dp",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935449,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a137"
+      },
+      "c125": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935453,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c125"
+      },
+      "c126": {
+         "owner": "mulletwang",
+         "strain": "cht",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935471,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "c126"
+      },
+      "a138": {
+         "owner": "mulletwang",
+         "strain": "dp",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935475,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a138"
+      },
+      "e111": {
+         "owner": "mulletwang",
+         "strain": "hk",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935487,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e111"
+      },
+      "a139": {
+         "owner": "mulletwang",
+         "strain": "ach",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935507,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "a139"
+      },
+      "c127": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935510,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c127"
+      },
+      "c128": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935571,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c128"
+      },
+      "e112": {
+         "owner": "mulletwang",
+         "strain": "swz",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935577,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e112"
+      },
+      "c129": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935587,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c129"
+      },
+      "e113": {
+         "owner": "mulletwang",
+         "strain": "aca",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935600,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e113"
+      },
+      "c130": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935605,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c130"
+      },
+      "e114": {
+         "owner": "mulletwang",
+         "strain": "sog",
+         "xp": 200,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Genesis Seed"
+            ]
+         ],
+         "planted": 49935615,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e114"
+      },
+      "c131": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935636,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c131"
+      },
+      "e115": {
+         "owner": "mulletwang",
+         "strain": "aca",
+         "xp": 2250,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Beta Seed"
+            ]
+         ],
+         "planted": 49935641,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e115"
+      },
+      "c132": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935660,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c132"
+      },
+      "e116": {
+         "owner": "mulletwang",
+         "strain": "sog",
+         "xp": 200,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Genesis Seed"
+            ]
+         ],
+         "planted": 49935664,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e116"
+      },
+      "c133": {
+         "owner": "mulletwang",
+         "strain": "tha",
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            []
+         ],
+         "traits": [
+            [
+               "beta pollinated seed"
+            ]
+         ],
+         "planted": 49935816,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": false,
+         "father": [],
+         "id": "c133"
+      },
+      "e117": {
+         "owner": "mulletwang",
+         "strain": "sog",
+         "xp": 200,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Genesis Seed"
+            ]
+         ],
+         "planted": 49935820,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e117"
+      },
+      "c134": {
+         "owner": "mulletwang",
+         "strain": "sog",
+         "xp": 200,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Genesis Seed"
+            ]
+         ],
+         "planted": 49935825,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "c134"
+      },
+      "c135": {
+         "owner": "mulletwang",
+         "strain": "sog",
+         "xp": 200,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Genesis Seed"
+            ]
+         ],
+         "planted": 49935833,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "c135"
+      },
+      "e118": {
+         "owner": "mulletwang",
+         "strain": "sog",
+         "xp": 200,
+         "care": [
+            [
+               49935877,
+               "watered"
+            ]
+         ],
+         "aff": [],
+         "inv": [],
+         "terps": [
+            null
+         ],
+         "traits": [
+            [
+               "Genesis Seed"
+            ]
+         ],
+         "planted": 49935836,
+         "stage": 1,
+         "substage": 0,
+         "pollinated": true,
+         "id": "e118"
       }
    },
    "users": {
@@ -7717,18 +8724,7 @@ module.exports = {
                "pollinated": false
             }
          ],
-         "pollen": [
-            {
-               "strain": "sog",
-               "owner": "qwoyn",
-               "xp": 2250,
-               "traits": [
-                  "Beta Pollen"
-               ],
-               "terps": [],
-               "level": 2250
-            }
-         ],
+         "pollen": [],
          "buds": [
             {
                "strain": "sog",
@@ -13720,253 +14716,46 @@ module.exports = {
             "b55",
             "f47",
             "f48",
-            "f49"
+            "f49",
+            "a131",
+            "a132",
+            "a133",
+            "a134",
+            "a135",
+            "a136",
+            "a137",
+            "a138",
+            "a139",
+            "c119",
+            "c120",
+            "c121",
+            "c122",
+            "c123",
+            "c124",
+            "e109",
+            "e110",
+            "e111",
+            "c125",
+            "c126",
+            "c127",
+            "c128",
+            "c129",
+            "c130",
+            "c131",
+            "c132",
+            "c133",
+            "c134",
+            "c135",
+            "e112",
+            "e113",
+            "e114",
+            "e115",
+            "e116",
+            "e117",
+            "e118"
          ],
          "xps": 251,
          "seeds": [
-            {
-               "strain": "lb",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "kbr",
-               "owner": "mulletwang",
-               "xp": 50,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "aca",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "hk",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "swz",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "cht",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "ach",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "dp",
-               "owner": "mulletwang",
-               "xp": 2250,
-               "traits": [
-                  "Beta Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "sog",
-               "owner": "mulletwang",
-               "xp": 200,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "sog",
-               "owner": "mulletwang",
-               "xp": 200,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "sog",
-               "owner": "mulletwang",
-               "xp": 200,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "sog",
-               "owner": "mulletwang",
-               "xp": 200,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "sog",
-               "owner": "mulletwang",
-               "xp": 200,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            },
-            {
-               "strain": "sog",
-               "owner": "mulletwang",
-               "xp": 200,
-               "traits": [
-                  "Genesis Seed"
-               ],
-               "pollinated": true
-            },
             {
                "strain": "sog",
                "owner": "mulletwang",
@@ -14013,249 +14802,6 @@ module.exports = {
                "thc": "coming soon",
                "cbd": "coming soon",
                "familyTree": "sog",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "pam",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "pam",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "pam",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "pam",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "pam",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "pam",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "pam",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "breeder": "mulletwang",
-               "familyTree": "tha",
-               "pollinated": false,
-               "father": []
-            },
-            {
-               "strain": "tha",
-               "owner": "mulletwang",
-               "traits": [
-                  "beta pollinated seed"
-               ],
-               "terps": [],
-               "thc": "coming soon",
-               "cbd": "coming soon",
-               "familyTree": "tha",
                "pollinated": false,
                "father": []
             }
@@ -20185,6 +20731,109 @@ module.exports = {
       "49929992:abrockman": "planted on harvested plot e65 ",
       "49930002:abrockman": "abrockman harvested f35 b64 c68 d55 e60 a78 ",
       "49930005:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49931086:schlees": "schlees watered a127 a128 "
+      "49931086:schlees": "schlees watered a127 a128 ",
+      "49934743:mulletwang": "planted on harvested plot e18 ",
+      "49934749:mulletwang": "planted on harvested plot a51 ",
+      "49934753:mulletwang": "mulletwang can't plant that.",
+      "49934757:mulletwang": "planted on harvested plot b44 ",
+      "49934762:mulletwang": "mulletwang can't plant that.",
+      "49934783:mulletwang": "planted on harvested plot c41 ",
+      "49934791:mulletwang": "planted on harvested plot d34 ",
+      "49934794:mulletwang": "planted on harvested plot f10 ",
+      "49934797:mulletwang": "planted on harvested plot e19 ",
+      "49934804:mulletwang": "mulletwang can't plant that.",
+      "49934808:mulletwang": "planted on harvested plot b52 ",
+      "49934863:mulletwang": "planted on harvested plot f47 ",
+      "49934915:mulletwang": "mulletwang purchased land at plot #a131",
+      "49934917:mulletwang": "mulletwang purchased land at plot #a132",
+      "49934919:mulletwang": "mulletwang purchased land at plot #a133",
+      "49934921:mulletwang": "mulletwang purchased land at plot #a134",
+      "49934923:mulletwang": "mulletwang purchased land at plot #a135",
+      "49934925:mulletwang": "mulletwang purchased land at plot #a136",
+      "49934927:mulletwang": "mulletwang purchased land at plot #a137",
+      "49934929:mulletwang": "mulletwang purchased land at plot #a138",
+      "49934943:mulletwang": "mulletwang purchased land at plot #a139",
+      "49934949:mulletwang": "mulletwang purchased land at plot #c119",
+      "49934951:mulletwang": "mulletwang purchased land at plot #c120",
+      "49934953:mulletwang": "mulletwang purchased land at plot #c121",
+      "49934955:mulletwang": "mulletwang purchased land at plot #c122",
+      "49934957:mulletwang": "mulletwang purchased land at plot #c123",
+      "49934960:mulletwang": "mulletwang purchased land at plot #c124",
+      "49934977:mulletwang": "planted on empty plot a131",
+      "49934981:mulletwang": "planted on empty plot c119",
+      "49934984:mulletwang": "mulletwang can't plant that.",
+      "49934987:mulletwang": "mulletwang can't plant that.",
+      "49934991:mulletwang": "mulletwang can't plant that.",
+      "49934995:mulletwang": "mulletwang can't plant that.",
+      "49934999:mulletwang": "mulletwang can't plant that.",
+      "49935002:mulletwang": "mulletwang can't plant that.",
+      "49935012:mulletwang": "planted on empty plot c120",
+      "49935021:mulletwang": "planted on empty plot a132",
+      "49935026:mulletwang": "mulletwang can't plant that.",
+      "49935029:mulletwang": "mulletwang can't plant that.",
+      "49935032:mulletwang": "mulletwang can't plant that.",
+      "49935035:mulletwang": "mulletwang can't plant that.",
+      "49935039:mulletwang": "mulletwang can't plant that.",
+      "49935042:mulletwang": "mulletwang can't plant that.",
+      "49935050:mulletwang": "planted on empty plot a133",
+      "49935053:mulletwang": "planted on empty plot c121",
+      "49935072:mulletwang": "planted on empty plot a134",
+      "49935076:mulletwang": "planted on empty plot c122",
+      "49935356:mulletwang": "planted on empty plot a135",
+      "49935360:mulletwang": "planted on empty plot c123",
+      "49935374:mulletwang": "mulletwang purchased land at plot #e109",
+      "49935386:mulletwang": "mulletwang purchased land at plot #e110",
+      "49935389:mulletwang": "mulletwang purchased land at plot #e111",
+      "49935408:mulletwang": "planted on empty plot c124",
+      "49935415:mulletwang": "planted on empty plot e109",
+      "49935421:mulletwang": "planted on empty plot a136",
+      "49935431:mulletwang": "mulletwang purchased land at plot #c125",
+      "49935433:mulletwang": "mulletwang purchased land at plot #c126",
+      "49935435:mulletwang": "mulletwang purchased land at plot #c127",
+      "49935438:mulletwang": "mulletwang purchased land at plot #c128",
+      "49935444:mulletwang": "planted on empty plot e110",
+      "49935449:mulletwang": "planted on empty plot a137",
+      "49935453:mulletwang": "planted on empty plot c125",
+      "49935471:mulletwang": "planted on empty plot c126",
+      "49935475:mulletwang": "planted on empty plot a138",
+      "49935487:mulletwang": "planted on empty plot e111",
+      "49935507:mulletwang": "planted on empty plot a139",
+      "49935510:mulletwang": "planted on empty plot c127",
+      "49935522:mulletwang": "mulletwang purchased land at plot #c129",
+      "49935524:mulletwang": "mulletwang purchased land at plot #c130",
+      "49935526:mulletwang": "mulletwang purchased land at plot #c131",
+      "49935528:mulletwang": "mulletwang purchased land at plot #c132",
+      "49935530:mulletwang": "mulletwang purchased land at plot #c133",
+      "49935532:mulletwang": "mulletwang purchased land at plot #c134",
+      "49935534:mulletwang": "mulletwang purchased land at plot #c135",
+      "49935539:mulletwang": "mulletwang purchased land at plot #e112",
+      "49935541:mulletwang": "mulletwang purchased land at plot #e113",
+      "49935543:mulletwang": "mulletwang purchased land at plot #e114",
+      "49935545:mulletwang": "mulletwang purchased land at plot #e115",
+      "49935547:mulletwang": "mulletwang purchased land at plot #e116",
+      "49935564:mulletwang": "mulletwang purchased land at plot #e117",
+      "49935566:mulletwang": "mulletwang purchased land at plot #e118",
+      "49935571:mulletwang": "planted on empty plot c128",
+      "49935577:mulletwang": "planted on empty plot e112",
+      "49935587:mulletwang": "planted on empty plot c129",
+      "49935591:mulletwang": "mulletwang can't plant that.",
+      "49935600:mulletwang": "planted on empty plot e113",
+      "49935605:mulletwang": "planted on empty plot c130",
+      "49935615:mulletwang": "planted on empty plot e114",
+      "49935620:mulletwang": "mulletwang can't plant that.",
+      "49935636:mulletwang": "planted on empty plot c131",
+      "49935641:mulletwang": "planted on empty plot e115",
+      "49935645:mulletwang": "mulletwang can't plant that.",
+      "49935660:mulletwang": "planted on empty plot c132",
+      "49935664:mulletwang": "planted on empty plot e116",
+      "49935816:mulletwang": "planted on empty plot c133",
+      "49935820:mulletwang": "planted on empty plot e117",
+      "49935825:mulletwang": "planted on empty plot c134",
+      "49935828:mulletwang": "mulletwang can't plant that.",
+      "49935833:mulletwang": "planted on empty plot c135",
+      "49935836:mulletwang": "planted on empty plot e118",
+      "49935877:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 a131 a132 a133 a134 a135 a136 a137 a138 a139 c119 c120 c121 c122 c123 c124 e109 e110 e111 c125 c126 c127 c128 c129 c130 c131 c132 c133 c134 c135 e112 e113 e114 e115 e116 e117 e118 ",
+      "49937588:monsterbuster": "monsterbuster watered d63 ",
+      "49938711:hashkings": "9000 to vesting"
    }
 }

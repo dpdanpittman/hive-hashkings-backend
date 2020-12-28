@@ -360,11 +360,11 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49932725; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49939000; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
 const sh = ENV.sh || '';
-const ago = ENV.ago || 49932725;
+const ago = ENV.ago || 49939000;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const tokenPrefix = ENV.TOKENPREFIX || 'scc-';
 var client = new dhive.Client([
@@ -957,7 +957,10 @@ function startApp() {
 
                     try {
                         for (var i = 0; i < state.users[from].pollen.length; i++) {
-                            if (state.users[from].pollen[i].strain == json.pollen) { pollens = state.users[from].pollen.splice(i, 1)[0]; break; }
+                            if (state.users[from].pollen[i].strain == json.pollen) { 
+                                pollens = state.users[from].pollen.splice(i, 1)[0]; 
+                                break; 
+                            }
                         }
                     } catch (e) {}
                     if (!pollens) {
@@ -965,9 +968,12 @@ function startApp() {
                             if (state.users[from].buds.length) pollens == state.users[from].pollen.splice(0, 1)[0]
                         } catch (e) {}
                     }
+                    
+                    var hybrid = pollename + " " + state.land[plants].strain
 
                     state.land[plants].pollinated = true;
                     state.land[plants].father = pollenName;
+                    state.land[plants].hybrid = hybrid;
                 }
             } catch (e) {
                 state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
