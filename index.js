@@ -360,10 +360,10 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 49939590; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 49954898; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 49939590;
+const ago = ENV.ago || 49954898;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const tokenPrefix = ENV.TOKENPREFIX || 'scc-';
 var client = new dhive.Client([
@@ -2104,7 +2104,7 @@ function startApp() {
     });
 
     //allows users to delegate for a plot
-    processor.onOperation('delegate_vesting_shares', function(json, from) {
+    /*processor.onOperation('delegate_vesting_shares', function(json, from) {
         const vests = parseInt(parseFloat(json.vesting_shares) * 1000000)
         var record = ''
         if (json.delegatee == username) {
@@ -2176,7 +2176,7 @@ function startApp() {
                 used
             })
         }
-    });
+    });*/
 
     processor.onOperation('transfer', function(json, from) {
         var wrongTransaction = 'qwoyn'
