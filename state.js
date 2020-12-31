@@ -630,7 +630,7 @@ module.exports = {
       "saboin": 124,
       "gamewatch": 43,
       "anarcist69": 8,
-      "schlees": 41,
+      "schlees": 42,
       "bibdieufr": 28,
       "mulletwang": 429,
       "mickvir": 2,
@@ -745,7 +745,7 @@ module.exports = {
             }
          }
       },
-      "bu": "QmancrboziRZfxxSQ39AcE7XQZRkmNZuGKsEd3sqYCYwdW",
+      "bu": "QmQYUN1XWVz32f6KvDh5nJ7cFRHmQfnJjw5h9eUpdYa5Eh",
       "bi": 49893620,
       "prices": {
          "listed": {
@@ -757,10 +757,10 @@ module.exports = {
             "f": 20000,
             "t": 20000,
             "seeds": {
-               "reg": 22,
-               "mid": 43,
-               "top": 64,
-               "special": 85
+               "reg": 21,
+               "mid": 42,
+               "top": 63,
+               "special": 83
             },
             "supplies": {
                "papers": 5000,
@@ -848,13 +848,11 @@ module.exports = {
          "c43",
          "b57",
          "f26",
-         "d66",
          "e74",
          "c44",
          "f14",
          "a73",
          "b65",
-         "f36",
          "b66",
          "c42",
          "d57",
@@ -864,7 +862,6 @@ module.exports = {
          "c76",
          "a95",
          "e62",
-         "d73",
          "a77",
          "e16",
          "f51",
@@ -910,8 +907,6 @@ module.exports = {
          "b101",
          "b103",
          "c103",
-         "d88",
-         "d90",
          "b104",
          "d91",
          "e99",
@@ -936,10 +931,6 @@ module.exports = {
          "owner": "qwoyn",
          "strain": "mis",
          "care": [
-            [
-               49939029,
-               "pollinated"
-            ],
             [
                49939029,
                "pollinated"
@@ -1158,11 +1149,6 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49930005,
-               "watered",
-               ""
-            ],
-            [
                49756844,
                "watered"
             ]
@@ -1259,12 +1245,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "pam",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
          "substage": 0,
@@ -1984,11 +1965,6 @@ module.exports = {
          "xp": 2250,
          "care": [
             [
-               49930005,
-               "watered",
-               ""
-            ],
-            [
                49756844,
                "watered"
             ]
@@ -2151,11 +2127,6 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49930005,
-               "watered",
-               ""
-            ],
-            [
                49756844,
                "watered"
             ]
@@ -2278,11 +2249,6 @@ module.exports = {
          "strain": "hk",
          "xp": 2250,
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -2739,13 +2705,7 @@ module.exports = {
       "a65": {
          "owner": "abrockman",
          "strain": "lkg",
-         "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
          "substage": 1,
@@ -2859,11 +2819,6 @@ module.exports = {
          "owner": "abrockman",
          "strain": "tha",
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -3009,11 +2964,6 @@ module.exports = {
          "strain": "lb",
          "xp": 2250,
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -3655,11 +3605,6 @@ module.exports = {
          "xp": 0,
          "care": [
             [
-               49930005,
-               "watered",
-               ""
-            ],
-            [
                49930002,
                "tilled"
             ]
@@ -3677,11 +3622,6 @@ module.exports = {
          "strain": "lb",
          "xp": 2250,
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -3727,11 +3667,6 @@ module.exports = {
          "strain": "ach",
          "xp": 2250,
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -4029,13 +3964,7 @@ module.exports = {
          "owner": "saboin",
          "strain": "dp",
          "xp": 50,
-         "care": [
-            [
-               49920395,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 3,
          "substage": 6,
@@ -4731,13 +4660,7 @@ module.exports = {
       "a92": {
          "owner": "abrockman",
          "strain": "tha",
-         "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 5,
          "substage": 1,
@@ -5204,11 +5127,6 @@ module.exports = {
          "xp": 50,
          "care": [
             [
-               49930005,
-               "watered",
-               ""
-            ],
-            [
                49756844,
                "watered"
             ]
@@ -5403,13 +5321,7 @@ module.exports = {
          "owner": "abrockman",
          "strain": "mal",
          "xp": 50,
-         "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
          "substage": 5,
@@ -5455,13 +5367,7 @@ module.exports = {
       "a90": {
          "owner": "abrockman",
          "strain": "swz",
-         "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ]
-         ],
+         "care": [],
          "aff": [],
          "stage": 1,
          "substage": 2,
@@ -5481,11 +5387,6 @@ module.exports = {
          "strain": "aca",
          "xp": 2250,
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -5534,11 +5435,6 @@ module.exports = {
          "owner": "abrockman",
          "strain": "lkg",
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -5593,11 +5489,6 @@ module.exports = {
          "strain": "mal",
          "xp": 50,
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -5696,11 +5587,6 @@ module.exports = {
          "strain": "mis",
          "xp": 50,
          "care": [
-            [
-               49930005,
-               "watered",
-               ""
-            ],
             [
                49756844,
                "watered"
@@ -6556,35 +6442,22 @@ module.exports = {
       },
       "a127": {
          "owner": "schlees",
-         "strain": "mis",
+         "strain": "",
+         "xp": 0,
          "care": [
             [
-               49931086,
-               "watered",
-               ""
-            ],
-            [
-               49818168,
-               "watered"
+               50020102,
+               "tilled"
             ]
          ],
          "aff": [],
-         "inv": [],
-         "terps": [
-            []
-         ],
-         "traits": [
-            [
-               "beta pollinated seed"
-            ]
-         ],
-         "planted": 48771969,
-         "stage": 4,
+         "stage": -1,
          "substage": 0,
-         "pollinated": true,
-         "father": [],
-         "id": "a127",
-         "sex": "female"
+         "traits": [],
+         "terps": [],
+         "stats": [],
+         "pollinated": false,
+         "id": "a127"
       },
       "e106": {
          "owner": "bibdieufr",
@@ -6652,11 +6525,6 @@ module.exports = {
          "owner": "schlees",
          "strain": "hk",
          "care": [
-            [
-               49931086,
-               "watered",
-               ""
-            ],
             [
                49818168,
                "watered"
@@ -7074,12 +6942,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7154,12 +7017,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7180,12 +7038,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7233,12 +7086,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7286,12 +7134,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7393,12 +7236,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7446,12 +7284,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7526,12 +7359,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "dp",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -7579,12 +7407,7 @@ module.exports = {
          "owner": "mulletwang",
          "strain": "ach",
          "xp": 2250,
-         "care": [
-            [
-               49935877,
-               "watered"
-            ]
-         ],
+         "care": [],
          "aff": [],
          "inv": [],
          "terps": [
@@ -14786,13 +14609,18 @@ module.exports = {
             "c133",
             "c134",
             "c135",
+            "d88",
+            "d90",
+            "d66",
+            "d73",
             "e112",
             "e113",
             "e114",
             "e115",
             "e116",
             "e117",
-            "e118"
+            "e118",
+            "f36"
          ],
          "xps": 251,
          "seeds": [
@@ -20361,7 +20189,37 @@ module.exports = {
             "a127",
             "a128"
          ],
-         "seeds": [],
+         "seeds": [
+            {
+               "strain": "mis",
+               "owner": "schlees",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "breeder": "schlees",
+               "familyTree": "mis",
+               "pollinated": false,
+               "father": "",
+               "hybrid": "mis x "
+            },
+            {
+               "strain": "mis",
+               "owner": "schlees",
+               "traits": [
+                  "beta pollinated seed"
+               ],
+               "terps": [],
+               "thc": "coming soon",
+               "cbd": "coming soon",
+               "familyTree": "mis",
+               "pollinated": false,
+               "father": "",
+               "hybrid": "mis x "
+            }
+         ],
          "pollen": [],
          "buds": [],
          "breeder": "",
@@ -20386,7 +20244,7 @@ module.exports = {
          "traits": [],
          "terps": [],
          "v": 0,
-         "xps": null
+         "xps": 25
       },
       "vibrasphere": {
          "addrs": [],
@@ -20680,98 +20538,6 @@ module.exports = {
       "executive-board": true
    },
    "cs": {
-      "49678584:monsterbuster": "monsterbuster watered d63 ",
-      "49679884:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 ",
-      "49681877:perceval": "38230272095 vested",
-      "49681970:perceval": "perceval is managing",
-      "49682003:perceval": "perceval refunded successfully",
-      "49690203:foxon": "foxon watered e108 a130 ",
-      "49693792:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49693811:abrockman": "abrockman harvested a104 a103 b84 f61 c88 b83 a102 d70 e79 ",
-      "49693819:abrockman": "planted on harvested plot e79 ",
-      "49693824:abrockman": "planted on harvested plot d70 ",
-      "49693829:abrockman": "planted on harvested plot a102 ",
-      "49693838:abrockman": "planted on harvested plot f61 ",
-      "49693846:abrockman": "planted on harvested plot b83 ",
-      "49693850:abrockman": "planted on harvested plot c88 ",
-      "49693854:abrockman": "planted on harvested plot a103 ",
-      "49693863:abrockman": "planted on harvested plot a104 ",
-      "49705194:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
-      "49706614:abrockman": "planted on harvested plot b84 ",
-      "49707408:monsterbuster": "monsterbuster watered d63 ",
-      "49709273:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 ",
-      "49718263:foxon": "foxon watered e108 a130 ",
-      "49723308:abrockman": "abrockman harvested a58 b51 c52 d41 ",
-      "49723317:abrockman": "abrockman harvested d64 c79 c78 b72 a88 f40 ",
-      "49723327:abrockman": "planted on harvested plot b51 ",
-      "49723333:abrockman": "planted on harvested plot d41 ",
-      "49723338:abrockman": "planted on harvested plot c78 ",
-      "49723349:abrockman": "planted on harvested plot d64 ",
-      "49723352:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 c78 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49736980:monsterbuster": "monsterbuster watered d63 ",
-      "49745783:foxon": "foxon watered e108 a130 ",
-      "49745792:foxon": "foxon harvested e108 ",
-      "49753163:mulletwang": "mulletwang watered a51 b44 c41 d34 e18 f10 e19 e20 e21 e22 e23 e24 e25 e26 e27 e28 b52 b53 b54 b55 f47 f48 f49 ",
-      "49753196:mulletwang": "mulletwang harvested f47 b52 e19 d34 e18 f10 b44 a51 ",
-      "49756009:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
-      "49756833:abrockman": "planted on harvested plot a88 ",
-      "49756837:abrockman": "planted on harvested plot b72 ",
-      "49756841:abrockman": "planted on harvested plot c79 ",
-      "49756844:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 c78 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49756865:abrockman": "abrockman harvested d67 b73 a90 e71 f50 ",
-      "49756869:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49757262:gamewatch": "gamewatch watered c48 d101 ",
-      "49759425:schlees": "schlees watered a127 a128 ",
-      "49798660:monsterbuster": "monsterbuster watered d63 ",
-      "49802751:foxon": "foxon watered ",
-      "49802783:foxon": "foxon did something unexpected with a plant!",
-      "49802795:foxon": "foxon watered a130 ",
-      "49812644:abrockman": "abrockman can't plant that.",
-      "49812649:abrockman": "abrockman can't plant that.",
-      "49812655:abrockman": "abrockman can't plant that.",
-      "49812663:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 a93 b75 b76 c80 c81 e76 e77 f57 f58 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 b84 a103 c89 e83 f62 a104 b98 ",
-      "49816999:silverlining1": "0 vested",
-      "49818168:schlees": "schlees watered a127 a128 ",
-      "49822799:mulletwang": "mulletwang watered c41 e20 e21 e22 e23 e24 e25 e26 e27 e28 b53 b54 b55 f48 f49 ",
-      "49825881:monsterbuster": "monsterbuster watered d63 ",
-      "49836477:abrockman": "planted on harvested plot e71 ",
-      "49836482:abrockman": "planted on harvested plot a90 ",
-      "49836488:abrockman": "planted on harvested plot b73 ",
-      "49836494:abrockman": "planted on harvested plot d67 ",
-      "49836498:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49836508:abrockman": "abrockman harvested c58 b59 a65 f28 e47 ",
-      "49839439:qwoyn": "qwoyn watered a10 c46 a100 e37 ",
-      "49843097:schlees": "schlees watered a127 a128 ",
-      "49851534:mulletwang": "mulletwang watered c41 e20 e21 e22 e23 e24 e25 e26 e27 e28 b53 b54 b55 f48 f49 ",
-      "49852485:monsterbuster": "monsterbuster watered d63 ",
-      "49862130:abrockman": "planted on harvested plot e47 ",
-      "49862135:abrockman": "planted on harvested plot a65 ",
-      "49862139:abrockman": "planted on harvested plot b59 ",
-      "49862145:abrockman": "planted on harvested plot c58 ",
-      "49862149:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 f28 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49862159:abrockman": "abrockman harvested e65 d60 d59 c73 ",
-      "49863747:foxon": "foxon watered a130 ",
-      "49863789:foxon": "foxon purchased kmj",
-      "49863815:foxon": "planted on empty plot b110",
-      "49863824:foxon": "foxon watered b110 ",
-      "49863837:foxon": "foxon harvested a130 ",
-      "49863859:foxon": "planted on empty plot d102",
-      "49863866:foxon": "foxon watered d102 ",
-      "49866891:hashkings": "11000 to vesting",
-      "49880782:monsterbuster": "monsterbuster harvested d63 ",
-      "49888534:schlees": "schlees watered a127 a128 ",
-      "49889975:foxon": "foxon watered d102 b110 ",
-      "49895493:mulletwang": "mulletwang watered c41 e20 e21 e22 e23 e24 e25 e26 e27 e28 b53 b54 b55 f48 f49 ",
-      "49909974:monsterbuster": "planted on harvested plot d63 ",
-      "49910168:monsterbuster": "monsterbuster watered d63 ",
-      "49911249:mulletwang": "mulletwang harvested c41 ",
-      "49917007:nutritree": "nutritree watered e58 f33 d54 ",
-      "49920395:saboin": "saboin watered d61 a83 c77 e70 d45 c56 b49 f16 e40 f23 e41 a76 ",
-      "49920858:foxon": "foxon watered d102 b110 ",
-      "49929992:abrockman": "planted on harvested plot e65 ",
-      "49930002:abrockman": "abrockman harvested f35 b64 c68 d55 e60 a78 ",
-      "49930005:abrockman": "abrockman watered a50 b43 c39 d33 e29 f12 a56 b50 c50 d40 e38 f17 a58 b51 c52 d41 e39 f18 a59 b58 c57 d46 e47 f28 a65 b59 c58 d47 e48 f29 a66 a67 b60 c59 d48 e49 f34 f35 b64 c68 d55 e60 a78 b67 c71 d58 e64 f38 a79 a80 b68 b69 c72 c73 d59 d60 e65 e66 f39 f40 a88 b72 c78 c79 d64 f50 e71 a90 b73 d67 e75 f56 a92 a93 b75 b76 c80 c81 e76 e77 f57 f58 d68 d69 a99 b80 c85 e79 f59 d70 a102 b83 c88 f61 e82 d72 b84 a103 c89 d74 e83 f62 a104 b98 ",
-      "49931086:schlees": "schlees watered a127 a128 ",
       "49934743:mulletwang": "planted on harvested plot e18 ",
       "49934749:mulletwang": "planted on harvested plot a51 ",
       "49934753:mulletwang": "mulletwang can't plant that.",
@@ -20876,6 +20642,7 @@ module.exports = {
       "49937588:monsterbuster": "monsterbuster watered d63 ",
       "49938711:hashkings": "9000 to vesting",
       "49939029:qwoyn": "qwoyn pollinated a10 with sog",
-      "49946527:foxon": "foxon watered d102 b110 "
+      "49946527:foxon": "foxon watered d102 b110 ",
+      "50020102:schlees": "schlees harvested a127 "
    }
 }
