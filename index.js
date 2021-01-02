@@ -360,16 +360,16 @@ app.get('/delegation/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50025019; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50078665; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50025019;
+const ago = ENV.ago || 50078665;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 const tokenPrefix = ENV.TOKENPREFIX || 'scc-';
 var client = new dhive.Client([
-    //"https://hive.roelandp.nl"
+    "https://hive.roelandp.nl"
     //"https://api.pharesim.me",
-    "https://hived.privex.io"
+    //"https://hived.privex.io",
     //"https://api.hive.blog"
 ], {consoleOnFailover: true});
 var processor;
