@@ -327,10 +327,10 @@ function startApp() {
         
             hivePriceConversion(1).then(price => {
 
-                let seedPrice = price * 100;
+                let seedPrice = price;
                 
                 // sets state to seed price
-                state.stats.prices.seedPacks.price = Math.ceil((seedPrice * 5));
+                state.stats.prices.seedPacks.price = Math.ceil((seedPrice * 5)).toFixed(3);
                 //sets cut to 0 because bal.c is deprecated
                 state.bal.c = 0
 
