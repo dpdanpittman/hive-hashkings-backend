@@ -9,7 +9,7 @@ module.exports = {
       "bi": 49893620,
       "prices": {
          "seedPacks": {
-            "price": 42,
+            "price": 100,
          },
          "timeBooster": {
             "lvl1": 10,
@@ -44,7 +44,7 @@ module.exports = {
             "mexico": 1000
          },
          "waterPlant": {
-            "lvl1": 20,
+            "lvl1": 0,
             "lvl2": 40,
             "lvl3": 60,
             "lvl4": 80,
@@ -188,17 +188,17 @@ module.exports = {
       },
       "waterPlants": {
          "LVL1": 10,
-         "LVL1": 15,
-         "LVL1": 25,
-         "LVL1": 40,
-         "LVL1": 60,
-         "LVL1": 85,
-         "LVL1": 115,
-         "LVL1": 150,
-         "LVL1": 190,
-         "LVL1": 235
+         "LVL2": 15,
+         "LVL3": 25,
+         "LVL4": 40,
+         "LVL5": 60,
+         "LVL6": 85,
+         "LVL7": 115,
+         "LVL8": 150,
+         "LVL9": 190,
+         "LVL10": 235
       },
-      "gardeners": 1,
+      "farmers": 1,
    },
    "bal": {
       "r": 0,
