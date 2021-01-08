@@ -23,6 +23,17 @@
 //                      .3P"%....                   
 //                    nP"     "*MMnx       DaFreakyG
 
+// example contract.createBud(hive, "ricabud", 1, "chocolatoso")
+
+//contract.createSeed(hive, 2, "chocolatoso")
+
+//contract.createBooster(hive, "BOOSTER LVL1", "Time", "chocolatoso")
+
+//contract.createPlot(hive,"Asia",1,"chocolatoso");
+
+//contract.createWater(hive,"Water",1,"chocolatoso")
+
+
 var dhive = require("@hiveio/dhive");
 var hivejs = require('@hiveio/hive-js');
 var axios = require('axios');
@@ -41,39 +52,6 @@ const ipfs = new IPFS({
     protocol: 'https'
 });
 
-/*  const init holds the initial state of a user in the form of a json 
-    as shown in the example.
-
-        const init: {
-            "delegations": {
-                "delegator": string;
-                "vests": number;
-                "available": number;
-                "used": number;
-            }[];
-            "kudos": {};
-            "stats": {
-                "vs": number;
-                "dust": number;
-                "time": number;
-                "offsets": {
-                    "a": number;
-                    "b": number;
-                    "c": number;
-                    "d": number;
-                    "e": number;
-                    "f": number;
-                };
-                ... 5 more ...;
-                "gardeners": number;
-            };
-            ... 8 more ...;
-            "cs": {
-                 ...;
-            };
-        }
-
-*/
 const init = require('./state');
 var Pathwise = require('./pathwise');
 var level = require('level');
@@ -127,91 +105,6 @@ app.get('/logs', (req, res, next) => {
     res.send(JSON.stringify(state.cs, null, 3))
 });
 
-/*detailed list of seeds a user owns from state.js by username\
-        [
-        {
-            "owner": "qwoyn",
-            "strain": "",
-            "xp": 0,
-            "care": [
-                [
-                    39562272,
-                    "watered"
-                ],
-                [
-                    39533519,
-                    "watered"
-                ],
-                [
-                    39504770,
-                    "watered",
-                    "c"
-                ]
-            ],
-            "aff": [],
-            "stage": -1,
-            "substage": 0,
-            "traits": [],
-            "terps": [],
-            "id": "a10"
-        },
-        {
-            "owner": "qwoyn",
-            "strain": "hk",
-            "xp": 2250,
-            "care": [
-                [
-                    39562272,
-                    "watered"
-                ],
-                [
-                    39533519,
-                    "watered",
-                    "c"
-                ],
-                [
-                    39504770,
-                    "watered",
-                    "c"
-                ]
-            ],
-            "aff": [],
-            "planted": 33012618,
-            "stage": 5,
-            "substage": 3,
-            "id": "c46",
-            "sex": null
-        },
-        {
-            "owner": "qwoyn",
-            "strain": "mis",
-            "xp": 1,
-            "care": [
-                [
-                    39562272,
-                    "watered"
-                ],
-                [
-                    39533519,
-                    "watered",
-                    "c"
-                ],
-                [
-                    39445948,
-                    "watered",
-                    "c"
-                ]
-            ],
-            "aff": [],
-            "planted": 35387927,
-            "stage": 5,
-            "substage": 1,
-            "id": "a77",
-            "sex": null
-        },
-        "a100"
-        ]
-*/
 app.get('/a/:user', (req, res, next) => {
     let user = req.params.user,
         arr = []
@@ -263,19 +156,6 @@ app.get('/seeds/:user', (req, res, next) => {
     res.send(JSON.stringify(arr, null, 3))
 });
 
-//shows pollen by user
-app.get('/pollen/:user', (req, res, next) => {
-    let user = req.params.user,
-        arr = []
-    res.setHeader('Content-Type', 'application/json');
-    if (state.users[user]) {
-        for (var i = 0; i < state.users[user].pollen.length; i++) {
-            arr.push(state.users[user].pollen[i])
-        }
-    }
-    res.send(JSON.stringify(arr, null, 3))
-});
-
 //shows buds by user
 app.get('/buds/:user', (req, res, next) => {
     let user = req.params.user,
@@ -298,64 +178,10 @@ app.get('/refunds', (req, res, next) => {
     }, null, 3))
 });
 
-/*plot and seed information by user
-        {
-        "addrs": [
-            "a10",
-            "c46",
-            "a77",
-            "a100"
-        ],
-        "seeds": [
-            {
-                "strain": "kbr",
-                "xp": 2250,
-                "traits": [
-                    "beta"
-                ]
-            },
-            {
-                "strain": "kbr",
-                "xp": 2250,
-                "traits": [
-                    "beta"
-                ]
-            },
-            {
-                "xp": 50
-            }
-        ],
-        "inv": [],
-        "stats": [],
-        "v": 0
-        }
-
-*/
 app.get('/u/:user', (req, res, next) => {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.users[user], null, 3))
-});
-
-/*delegation information by user
-{
-   "delegator": "qwoyn",
-   "vests": 4900485891391,
-   "available": 123,
-   "used": 2
-}
-*/
-app.get('/delegation/:user', (req, res, next) => {
-    let user = req.params.user
-    var op = {}
-    for (i = 0; i < state.delegations.length; i++) {
-        if (state.delegations[i].delegator == user) {
-            op = state.delegations[i]
-            break;
-        }
-    }
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(op, null, 3))
 });
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
@@ -769,25 +595,6 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
     });
 
-        // search for scc-mainnet-hive from user on blockchain since genesis
-    //steemconnect link
-    //https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_water&json=%7B%22plants%22%3A%5B%22c35%22%5D%7D
-    /*tokenProcessor.on('scc-mainnet-hive', function(json, from) {
-        let plants = json.plants,
-            plantnames = ''
-        for (var i = 0; i < plants.length; i++) {
-            try {
-                if (state.land[plants[i]].owner === from) {
-                    state.land[plants[i]].care.unshift([processor.getCurrentBlockNumber(), 'watered']);
-                    plantnames += `${plants[i]} `
-                }
-            } catch (e) {
-                state.cs[`${json.block_num}:${from}`] = `${from} can't water what is not theirs`
-            }
-        }
-        state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
-    });*/
-
     //search for qwoyn_breeder_name from user on blockchain since genesis
     //steemconnect link
     //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_breeder_name&json=%7B%22breeder%22%3A%5B%22Willie%22%5D%7D
@@ -873,36 +680,6 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} removed ${friendName} as a friend`
     });
 
-    //****ISSUE****//
-    //search for qwoyn_join_alliance from user on blockchain since genesis
-    //steemconnect link
-    //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_join_alliance&json=%7B%22alliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
-    /* processor.on('join_alliance', function(json, from) {
-         let alliance = json.alliance,
-             allianceName = ''
-         for (var i = 0; i < state.stats.alliances.length; i++) {
-                 state.users[from].alliance = alliance[i];
-                 allianceName += alliance[i]
-
-                 try{
-                     for (var i = 0;i < state.users[from].alliance.length; i++){
-                         var myAlliance = {
-                             alliance: json.alliance
-                         }
-                         // not properly updating the name
-                         if(state.users[from].alliance[i] != json.alliance){state.users[from].alliance = myAlliance;break;}
-                         var newMember = json.from
-                         if(state.users[from].alliance[i] == json.alliance){state.stats.alliances[alliance].push(newMember);break;}
-                     }
-                 } catch (e) {}
-
-             state.cs[`${json.block_num}:${from}`] = `${from} can't change another users alliance`
-         }
-         state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'joined_alliance']);
-
-         state.cs[`${json.block_num}:${from}`] = `${from} changed their alliance to ${allianceName}`
-     });*/
-
     //search for qwoyn_alliance from user on blockchain since genesis
     //steemconnect link
     //https://beta.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_create_alliance&json=%7B%22newAlliance%22%3A%5B%22NAMEOFALLIANCE%22%5D%7D
@@ -923,47 +700,6 @@ function startApp() {
             state.cs[`${json.block_num}:${from}`] = `${from} can't create an alliance`
         }
         state.cs[`${json.block_num}:${from}`] = `${from} created alliance named ${newAllianceName}`
-    });
-
-    // search for qwoyn_pollinate from user on blockchain since genesis
-    processor.on('pollinate', function(json, from) {
-        let plants = json.plants,
-            plantnames = '',
-            pollen = json.pollen,
-            pollenName = ''
-        for (var i = 0; i < 1; i++) {
-            try {
-                if (state.land[plants].owner === from && state.land[plants].stage > 2 && state.users[from].pollen) {
-                    state.land[plants].care.unshift([processor.getCurrentBlockNumber(), 'pollinated']);
-                    plantnames += `${plants}`;
-                    pollenName += `${pollen}`;
-
-                    var pollens = ''
-
-                    try {
-                        for (var i = 0; i < state.users[from].pollen.length; i++) {
-                            if (state.users[from].pollen[i].strain == json.pollen) { 
-                                pollens = state.users[from].pollen.splice(i, 1)[0]; 
-                                break; 
-                            }
-                        }
-                    } catch (e) {}
-                    if (!pollens) {
-                        try {
-                            if (state.users[from].buds.length) pollens == state.users[from].pollen.splice(0, 1)[0]
-                        } catch (e) {}
-                    }
-
-                    state.land[plants].pollinated = true;
-                    state.land[plants].father = pollenName;
-                }
-            } catch (e) {
-                state.cs[`${json.block_num}:${from}`] = `${from} can't pollinate what is not theirs`
-            }
-        }
-        state.cs[`${json.block_num}:${from}`] = `${from} pollinated ${plantnames} with ${pollenName}`
-
-        return pollenName;
     });
 
     // search for qwoyn_craft_oil from user on blockchain since genesis
@@ -2103,119 +1839,14 @@ function startApp() {
         }
     });
 
-    //allows users to delegate for a plot
-    /*processor.onOperation('delegate_vesting_shares', function(json, from) {
-        const vests = parseInt(parseFloat(json.vesting_shares) * 1000000)
-        var record = ''
-        if (json.delegatee == username) {
-            for (var i = 0; i < state.delegations.length; i++) {
-                if (state.delegations[i].delegator == json.delegator) {
-                    record = state.delegations.splice(i, 1)[0]
-                    break;
-                }
-            }
-            state.cs[`${json.block_num}:${json.delegator}`] = `${vests} vested`
-            if (!state.users[json.delegator] && json.delegatee == username) state.users[json.delegator] = {
-                addrs: [],
-                seeds: [],
-                pollen: [],
-                buds: [],
-                breeder: '',
-                farmer: 1,
-                alliance: "",
-                friends: [],
-                inv: [],
-                seeds: [],
-                pollen: [],
-                buds: [],
-                kief: [],
-                bubblehash: [],
-                oil: [],
-                edibles: [],
-                joints: [],
-                blunts: [],
-                moonrocks: [],
-                dippedjoints: [],
-                cannagars: [],
-                kiefbox: 0,
-                vacoven: 0,
-                bubblebags: 0,
-                browniemix: 0,
-                stats: [],
-                traits: [],
-                terps: [],
-                v: 0
-            }
-            var availible = parseInt(vests / (state.stats.prices.listed.a * (state.stats.vs) * 1000)),
-                used = 0;
-            if (record) {
-                const use = record.used || 0
-                if (record.vests < vests) {
-                    availible = parseInt(availible) - parseInt(use);
-                    used = parseInt(use)
-                } else {
-                    if (use > availible) {
-                        var j = parseInt(use) - parseInt(availible);
-                        for (var i = state.users[json.delegator].addrs.length - j; i < state.users[json.delegator].addrs.length; i++) {
-                            delete state.land[state.users[json.delegator].addrs[i]];
-                            state.lands.forSale.push(state.users[json.delegator].addrs[i])
-                            state.users[json.delegator].addrs.splice(i, 1)
-                        }
-                        used = parseInt(availible)
-                        availible = 0
-                    } else {
-                        availible = parseInt(availible) - parseInt(use)
-                        used = parseInt(use)
-                    }
-                }
-            }
-            state.delegations.push({
-                delegator: json.delegator,
-                vests,
-                availible,
-                used
-            })
-        }
-    });*/
-
     processor.onOperation('transfer', function(json, from) {
         var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'HIVE') {
             const amount = parseInt(parseFloat(json.amount) * 1000)
                         var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                             type = json.memo.split(" ")[1] || ''
-                        if (state.stats.prices.listed[want] == amount || amount == 500 && type == 'manage' && state.stats.prices.listed[want] || want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000 || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special || want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000 || want== 'pollen' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
-                            if (state.stats.supply.land[want]) {
-                                var allowed = false
-                                if (amount == 500 && type == 'manage') {
-                                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} is managing`
-                                    for (var i = 0; i < state.delegations.length; i++) {
-                                        if (json.from == state.delegations[i].delegator && state.delegations[i].availible) {
-                                            state.delegations[i].availible--;
-                                            state.delegations[i].used++;
-                                            state.bal.c += amount;
-                                            allowed = true
-                                            break;
-                                        }
-                                    }
-                                } else {
-                                    const c = parseInt(amount)
-                                    state.bal.c += c
-                                    allowed = true
-                                }
-                                if (allowed) {
-                                    state.stats.supply.land[want]--
-                                        const sel = `${want}c`
-                                    const num = state.stats.supply.land[sel]++
-                                        var addr = `${want}${num}`
-                                    state.users[json.from].addrs.push(addr)
-                                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased land at plot #${addr}`
-                                } else {
-                                    state.refund.push(['xfer', json.from, amount,
-                                        '<h3>Automated Hashkings Response</h3>\nThanks for trying to lease a plot on Hashkings but it looks like you have used up your plot credits and may need to delegate more Hive Power (HP). Please return to the [Hashkings Market](https://www.hashkings.app/markets) to delegate more SP\nIf you feel this is an error please contact our DEV TEAM in our [Discord Server](https://discord.gg/xabv5az)\n<h5>Thank you so much for you support!</h5>\n<a href="https://www.hashkings.app"><img src="https://i.imgur.com/MQYSNVK.png"></a>'
-                                    ])
-                                }
-                            } else if (want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
+                        if (state.stats.prices.listed[want] == amount || want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000 || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special || want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000 || want== 'pollen' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
+                            if (want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
                                 if (state.stats.supply.strains.indexOf(type) < 0) { type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length - 1)] }
                                 var seed = {
                                     strain: type,
@@ -2230,60 +1861,29 @@ function startApp() {
                                     hybrid: false
                                 }
                                 state.users[json.from].xps += 1;
-                                state.users[json.from].seeds.push(seed)
+                                state.users[json.from].seeds.push(seed);
+
+                                contract.createSeed(hivejs, type, username);  //needs finishing
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${seed.strain}`
-                            } else if (want == 'pollen' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
+                            } else if (want == 'land' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
                                 if (state.stats.supply.strains.indexOf(type) < 0) { type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length - 1)] }
-                                var pollen = {
-                                    strain: type,
-                                    owner: json.from,
-                                    traits: ['genesis pollen'],
-                                    terps: [],
-                                    thc: 'coming soon',
-                                    cbd: 'coming soon',
-                                    breeder: 'Landrace Strain',
-                                    familyTree: 'Landrace Strain',
-                                    hybrid: false
+                                var land = {
+                                    property: type,
+                                    owner: json.from
                                 }
                                 state.users[json.from].xps += 1;
-                                state.users[json.from].pollen.push(pollen)
+                                state.users[json.from].land.push(land);
+
+                                contract.createPlot(hivejs,type, 1, username); //needs finishing
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${pollen.strain}`
+                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${land.type}`
                             }
-                            else if (want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000) {
-                                if (want == 'papers') {
-                                    state.users[json.from].papers++;
-                                    state.users[json.from].xps += 1;
-                                }
-                                if (want == 'kiefbox') {
-                                    state.users[json.from].kiefbox++;
-                                    state.users[json.from].xps += 1;
-                                }
-                                if (want == 'vacoven') {
-                                    state.users[json.from].vacoven++;
-                                    state.users[json.from].xps += 10;
-                                }
-                                if (want == 'bluntwraps') {
-                                    state.users[json.from].bluntwraps++;
-                                    state.users[json.from].xps += 50;
-                                }
-                                if (want == 'browniemix') {
-                                    state.users[json.from].browniemix++;
-                                    state.users[json.from].xps += 100;
-                                }
-                                if (want == 'hempwraps') {
-                                    state.users[json.from].hempwraps++;
-                                    state.users[json.from].xps += 250;
-                                }
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${want}`
-                            } else {
+                            else {
                                 state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
                             }
@@ -2309,21 +1909,6 @@ function startApp() {
     });
 
     processor.start();
-
-    processor.on('return', function(json, from) {
-        var index = state.users[from].addrs.indexOf(json.addr)
-        if (index >= 0) {
-            state.lands.forSale.push(state.users[from].addrs.splice(i, 1))
-            state.bal.r += state.stats.prices.purchase.land
-            if (state.bal.b - state.stats.prices.purchase.land > 0) {
-                state.bal.b -= state.stats.prices.purchase.land
-            } else {
-                state.bal.d += state.stats.prices.purchase.land
-            }
-            state.refund.push(['xfer', from, state.stats.prices.purchase.land, 'We\'re sorry to see you go!'])
-        }
-
-    });
 
     function exit() {
         console.log('Exiting...');
@@ -2523,18 +2108,6 @@ function popWeather(loc) {
     })
 }
 
-function sexing() {
-    var sexAtBirth = 'Not Sexed';
-
-    sex = Math.floor(Math.random() * 10) % 1.90;
-
-    if (sex > 1) {
-        sexAtBirth = "male";
-    } else {
-        sexAtBirth = "female";
-    }
-    return sexAtBirth
-}
 
 function daily(addr) {
     var grown = false
@@ -2560,11 +2133,6 @@ function daily(addr) {
                     state.land[addr].stage++
                 }
 
-                //plant sex
-                if (state.land[addr].stage == 2 && state.land[addr].substage == 0 && !state.land[addr].sex) {
-                    var sex = sexing()
-                     state.land[addr].sex = sex
-                }
 
                 //afflictions
                 if (state.land[addr].stage == 100 && state.land[addr].substage == 0) {
