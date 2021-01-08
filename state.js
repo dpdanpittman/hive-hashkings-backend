@@ -218,22 +218,70 @@ module.exports = {
             "mexico": 0,
          },
          "seeds": {
-            "hk": 0,
-            "afg": 0,
-            "lkg": 0,
-            "mis": 0,
-            "lb": 0,
-            "kbr": 0,
-            "aca": 0,
-            "swz": 0,
-            "kmj": 0,
-            "dp": 0,
-            "mal": 0,
-            "pam": 0,
-            "cg": 0,
-            "ach": 0,
-            "tha": 0,
-            "cht": 0
+            "hk": {
+               "spt": 0,
+               "water": 0,
+            },
+            "afg": {
+               "spt": 0,
+               "water": 0,
+            },
+            "lkg": {
+               "spt": 0,
+               "water": 0,
+            },
+            "mis": {
+               "spt": 0,
+               "water": 0,
+            },
+            "lb": {
+               "spt": 0,
+               "water": 0,
+            },
+            "kbr": {
+               "spt": 0,
+               "water": 0,
+            },
+            "aca": {
+               "spt": 0,
+               "water": 0,
+            },
+            "swz": {
+               "spt": 0,
+               "water": 0,
+            },
+            "kmj": {
+               "spt": 0,
+               "water": 0,
+            },
+            "dp": {
+               "spt": 0,
+               "water": 0,
+            },
+            "mal": {
+               "spt": 0,
+               "water": 0,
+            },
+            "pam": {
+               "spt": 0,
+               "water": 0,
+            },
+            "cg": {
+               "spt": 0,
+               "water": 0,
+            },
+            "ach": {
+               "spt": 0,
+               "water": 0,
+            },
+            "tha": {
+               "spt": 0,
+               "water": 0,
+            },
+            "cht": {
+               "spt": 0,
+               "water": 0,
+            }
          },
          "water": 0,
          "waterPlantLVL": 0,
@@ -253,7 +301,8 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0
+         "MOTA": 0,
+         "MOTAstake": 0
       }
    },
    "cs": {}
