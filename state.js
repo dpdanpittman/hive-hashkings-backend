@@ -9,7 +9,7 @@ module.exports = {
       "bi": 49893620,
       "prices": {
          "seedPacks": {
-            "price": 22,
+            "price": 42,
          },
          "timeBooster": {
             "lvl1": 10,
@@ -36,12 +36,12 @@ module.exports = {
             "lvl6": 150,
          },
          "land": {
-            "asia": 20,
-            "africa": 150,
-            "afghanistan": 250,
-            "southAmerica": 650,
-            "jamaica": 55,
-            "mexico": 375
+            "asia": 1000,
+            "africa": 1000,
+            "afghanistan": 1000,
+            "southAmerica": 1000,
+            "jamaica": 1000,
+            "mexico": 1000
          },
          "waterPlant": {
             "lvl1": 20,

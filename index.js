@@ -186,10 +186,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50253691; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50253995; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50253691;
+const ago = ENV.ago || 50253995;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -327,10 +327,17 @@ function startApp() {
         
             hivePriceConversion(1).then(price => {
 
-                let seedPrice = price;
+                let assetPrice = price;
                 
                 // sets state to seed price
-                state.stats.prices.seedPacks.price = Math.ceil((seedPrice * 5));
+                state.stats.prices.seedPacks.price = Math.ceil((assetPrice * 5));
+
+                state.stats.prices.land.asia = Math.ceil((assetPrice * 15));
+                state.stats.prices.land.africa = Math.ceil((assetPrice * 7.5));
+                state.stats.prices.land.afghanistan = Math.ceil((assetPrice * 5));
+                state.stats.prices.land.southAmerica = Math.ceil((assetPrice * 1.75));
+                state.stats.prices.land.jamaica = Math.ceil((assetPrice * 9.75));
+                state.stats.prices.land.mexico = Math.ceil((assetPrice * 3.50));
                 //sets cut to 0 because bal.c is deprecated
                 state.bal.c = 0
 
@@ -338,6 +345,13 @@ function startApp() {
                 console.log('------------------------');
                 console.log('at block ' + num);
                 console.log('Seed Pack price is ' + state.stats.prices.seedPacks.price);
+                console.log('------------------------');
+                console.log('Asia price is ' + state.stats.prices.land.asia);
+                console.log('Africa price is ' + state.stats.prices.land.africa);
+                console.log('Afghanistan price is ' + state.stats.prices.land.afghanistan);
+                console.log('South America price is ' + state.stats.prices.land.southAmerica);
+                console.log('Jamaica price is ' + state.stats.prices.land.jamaica);
+                console.log('Mexico price is ' + state.stats.prices.land.mexico);
                 })
             
         }
@@ -1798,7 +1812,7 @@ function startApp() {
             const amount = parseInt(parseFloat(json.amount) * 1000)
                         var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                             type = json.memo.split(" ")[1] || ''
-                        if (state.stats.prices.listed[want] == amount || want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000 || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special || want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000 || want== 'pollen' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
+                        if (want == 'rseed' && amount > (state.stats.prices.seedPacks.price * 1000) - 3000 &&  amount < (state.stats.prices.seedPacks.price * 1000) + 3000 || want == 'mseed' && amount == state.stats.prices.listed.seeds.mid || want == 'tseed' && amount == state.stats.prices.listed.seeds.top || want == 'spseed' && amount == state.stats.prices.listed.seeds.special || want == 'papers' && amount == state.stats.prices.listed.supplies.papers && state.users[from].xps > 100 || want == 'keifbox' && amount == state.stats.prices.listed.supplies.keifbox && state.users[from].xps > 100 || want == 'vacoven' && amount == state.stats.prices.listed.supplies.vacoven && state.users[from].xps > 1000 || want == 'bluntwraps' && amount == state.stats.prices.listed.supplies.bluntwraps && state.users[from].xps > 5000 || want == 'browniemix' && amount == state.stats.prices.listed.supplies.browniemix && state.users[from].xps > 10000 || want == 'hempwraps' && amount == state.stats.prices.listed.supplies.hempwraps && state.users[from].xps > 25000 || want== 'pollen' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
                             if (want == 'rseed' && amount > (state.stats.prices.listed.seeds.reg * 1000) - 3000 &&  amount < (state.stats.prices.listed.seeds.reg * 1000) + 3000) {
                                 if (state.stats.supply.strains.indexOf(type) < 0) { type = state.stats.supply.strains[state.users.length % (state.stats.supply.strains.length - 1)] }
                                 var seed = {
@@ -1813,7 +1827,6 @@ function startApp() {
                                     pollinated: false,
                                     hybrid: false
                                 }
-                                state.users[json.from].xps += 1;
                                 state.users[json.from].seeds.push(seed);
 
                                 contract.createSeed(hivejs, type, username);  //needs finishing
