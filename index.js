@@ -186,12 +186,11 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50078665; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50252704; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50078665;
+const ago = ENV.ago || 50252704;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
-const tokenPrefix = ENV.TOKENPREFIX || 'scc-';
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
     //"https://api.pharesim.me",
@@ -199,7 +198,6 @@ var client = new dhive.Client([
     //"https://api.hive.blog"
 ], {consoleOnFailover: true});
 var processor;
-var tokenProcessor;
 var recents = [];
 
 const { ChainTypes, makeBitMaskFilter } = require('@hiveio/hive-js/lib/auth/serializer')
@@ -252,17 +250,6 @@ function dynStart(account) {
     });
 }
 
-//assigns kudos to user. kudos determine who has properly cared for their plants and 
-//increments kudos accordingly
-function kudo(user) {
-    console.log('Kudos: ' + user)
-    if (!state.kudos[user]) {
-        state.kudos[user] = 1
-    } else {
-        state.kudos[user]++
-    }
-}
-
 // gets hive in usd
 function hivePriceConversion(amount) {
     return new Promise((resolve, reject) => {
@@ -311,88 +298,58 @@ function startApp() {
         state.cs = {}
     }
     processor = steemState(client, dhive, startingBlock, 10, prefix);
-    tokenProcessor = steemState(client, dhive, startingBlock, 10, tokenPrefix);
 
     processor.onBlock(function(num, block) {
-            const sun = (num - state.stats.time) % 28800
-            var td = []
-            try {
-                for (var o in state.stats.offsets) {
-                    if (sun - state.stats.offsets[o] < 1200 && sun - state.stats.offsets[o] > 0) {
-                        td.push(`${o}${((sun-state.stats.offsets[o])*4)}`, `${o}${((sun-state.stats.offsets[o])*4)-1}`, `${o}${((sun-state.stats.offsets[o])*4)-2}`, `${o}${((sun-state.stats.offsets[o])*4)-3}`);
-                    }
-                }
-            } catch {
-                console.log(" line 458 ") 
-            }
-            try {
-                for (var i = 0; i < td.length; i++) {
-                    daily(td[i])
-                }
-            } catch {
-                console.log(" line 492 ") 
-            }
-            try {
-                if (num % 5 === 0 && state.refund.length && processor.isStreaming() || processor.isStreaming() && state.refund.length > 60) {
-                    if (state.refund[0].length == 4) {
-                        bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2], state.refund[0][3])
-                    } else if (state.refund[0].length == 3) {
-                        bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2])
-                    } else if (state.refund[0].length == 2) {
-                        bot[state.refund[0][0]].call(this, state.refund[0][1])
-                    }
-                }
-            } catch {
-                console.log(" line 503 ") 
-            }
-            try {
-                if (num % 100 === 0 && !processor.isStreaming()) {
-                    if (!state.news.e) state.news.e = []
-                    client.database.getDynamicGlobalProperties().then(function(result) {
-                        console.log('At block', num, 'with', result.head_block_number - num, 'left until real-time.')
-                    });
-                }
-            } catch {
-                console.log(" line 513 ") 
-            }
-            try{
-                if (num % 5 === 0 && processor.isStreaming()) {              
-                    //logging for testing will remove after a while
-                    console.log('------------------------');
-                    console.log('bal.c is ' + state.bal.c);
+        var td = []
+        for (var i = 0; i < td.length; i++) {
+            daily(td[i])
+        }
 
-                    hivePriceConversion(1).then(price => {
-
-                        let seedPrice = price * 100;
-                        
-                        // sets state to seed price
-                        state.stats.prices.listed.seeds.reg = Math.ceil((seedPrice * 1.8)); 
-                        state.stats.prices.listed.seeds.mid = Math.ceil((seedPrice * 1.8) * 2); 
-                        state.stats.prices.listed.seeds.top = Math.ceil((seedPrice * 1.8) * 3); 
-                        state.stats.prices.listed.seeds.special = Math.ceil((seedPrice * 1.8) * 4); 
-                        //sets cut to 0 because bal.c is deprecated
-                        state.bal.c = 0
-
-                        //logging for testing will remove after a while
-                        console.log('------------------------');
-                        console.log('at block ' + num);
-                        console.log('regular seed price is ' + state.stats.prices.listed.seeds.reg);
-                        console.log('mid shelf seed price is ' + state.stats.prices.listed.seeds.mid);
-                        console.log('top shelf seed price is ' + state.stats.prices.listed.seeds.top);
-                        console.log('special seed price is ' + state.stats.prices.listed.seeds.special);
-                        })
-                    
-                }
-            } catch {
-                console.log(" line 544 ") 
+        if (num % 5 === 0 && state.refund.length && processor.isStreaming() || processor.isStreaming() && state.refund.length > 60) {
+            if (state.refund[0].length == 4) {
+                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2], state.refund[0][3])
+            } else if (state.refund[0].length == 3) {
+                bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2])
+            } else if (state.refund[0].length == 2) {
+                bot[state.refund[0][0]].call(this, state.refund[0][1])
             }
-            if (num % 100 === 1) {
-                store.get([], function(err, data) {
-                    const blockState = Buffer.from(JSON.stringify([num, data]))
-                    ipfsSaveState(num, blockState)
+        }
+
+        if (num % 100 === 0 && !processor.isStreaming()) {
+            client.database.getDynamicGlobalProperties().then(function(result) {
+                console.log('At block', num, 'with', result.head_block_number - num, 'left until real-time.')
+            });
+        }
+
+        if (num % 5 === 0 && processor.isStreaming()) {              
+            //logging for testing will remove after a while
+            console.log('------------------------');
+            console.log('bal.c is ' + state.bal.c);
+        
+            hivePriceConversion(1).then(price => {
+
+                let seedPrice = price * 100;
+                
+                // sets state to seed price
+                state.stats.prices.seedPacks.price = Math.ceil((seedPrice * 1.8));
+                //sets cut to 0 because bal.c is deprecated
+                state.bal.c = 0
+
+                //logging for testing will remove after a while
+                console.log('------------------------');
+                console.log('at block ' + num);
+                console.log('Seed Pack price is ' + state.stats.prices.seedPacks.price);
                 })
-            }
-        })
+            
+        }
+
+        if (num % 100 === 1) {
+            store.get([], function(err, data) {
+                const blockState = Buffer.from(JSON.stringify([num, data]))
+                ipfsSaveState(num, blockState)
+            })
+        }
+    })
         // search for qwoyn_harvest from user on blockchain since genesis
     processor.on('harvest', function(json, from) {
         let plants = json.plants,
@@ -451,7 +408,6 @@ function startApp() {
                             }
 
                             state.land[plants[i]] = parcel;
-                            kudo(state.land[plants[i]].owner);
 
                             state.users[state.land[plants[i]].owner].seeds.push(harvestedSeed)
                             state.users[state.land[plants[i]].owner].seeds.push(harvestedSeed2)
@@ -503,7 +459,6 @@ function startApp() {
                                 pollinated: false
                             }
                             state.land[plants[i]] = parcel;
-                            kudo(state.land[plants[i]].owner);
 
                             state.users[state.land[plants[i]].owner].buds.push(bud1)
                             state.users[state.land[plants[i]].owner].buds.push(bud2)
@@ -555,7 +510,6 @@ function startApp() {
                                 pollinated: false
                             }
                             state.land[plants[i]] = parcel;
-                            kudo(state.land[plants[i]].owner);
 
                             state.users[state.land[plants[i]].owner].pollen.push(pollen1)
                             state.users[state.land[plants[i]].owner].pollen.push(pollen2)
@@ -2123,7 +2077,6 @@ function daily(addr) {
                     if (!grown) {
                         state.land[addr].substage++;
                         grown = true;
-                        kudo(state.land[addr].owner)
                     } else {
                         state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'You watered too soon']);
                     }
