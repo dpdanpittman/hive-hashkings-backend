@@ -127,13 +127,13 @@ app.get('/a/:user', (req, res, next) => {
     res.send(JSON.stringify(arr, null, 3))
 });
 
-//overal game stats i.e. number of gardeners, number of plants available, seed prices, land price, weather info
+//overal game stats i.e. number of farmers, number of plants available, seed prices, land price, weather info
 //at each location such as mexico or jamaica etc.
 app.get('/stats', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     Object.keys(state.users).length
     var ret = state.stats
-    ret.gardeners = Object.keys(state.users).length
+    ret.farmers = Object.keys(state.users).length
     res.send(JSON.stringify(ret, null, 3))
 });
 
@@ -184,12 +184,12 @@ app.get('/u/:user', (req, res, next) => {
     res.send(JSON.stringify(state.users[user], null, 3))
 });
 
-app.listen(port, () => console.log(`HASHKINGS token API listening on port ${port}!`))
+app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50253995; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50284197; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50253995;
+const ago = ENV.ago || 50284197;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1425,7 +1425,7 @@ function ipfsSaveState(blocknum, hashable) {
             try {
                 hash = IpFsHash[0].hash
                 state.stats.bu = hash
-                state.stats.b = blocknum
+                state.stats.bi = blocknum
             } catch (e) {
                 console.log("hash didnt get set")
             }

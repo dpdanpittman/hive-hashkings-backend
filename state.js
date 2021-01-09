@@ -12,12 +12,30 @@ module.exports = {
             "price": 100,
          },
          "timeBooster": {
-            "lvl1": 10,
-            "lvl2": 50,
-            "lvl3": 210,
-            "lvl4": 750,
-            "lvl5": 2000,
-            "lvl6": 2500
+            "lvl1": {
+               "buds": 10,
+               "boost": 5
+            },
+            "lvl2": {
+               "buds": 50,
+               "boost":10
+            },
+            "lvl3": {
+               "buds": 210,
+               "boost": 15
+            },
+            "lvl4": {
+               "buds": 750,
+               "boost": 20
+            },
+            "lvl5": {
+               "buds": 2000,
+               "boost": 25
+            },
+            "lvl6": {
+               "buds": 2500,
+               "boost": 30
+            }
          },
          "joints": {
             "splif": 50,
@@ -28,12 +46,30 @@ module.exports = {
             "blunt": 10000
          },
          "recollector": {
-            "lvl1": 20,
-            "lvl2": 40,
-            "lvl3": 60,
-            "lvl4": 80,
-            "lvl5": 100,
-            "lvl6": 150,
+            "lvl1": {
+               "buds": 20,
+               "boost": 50
+            },
+            "lvl2": {
+               "buds": 40,
+               "boost":60
+            },
+            "lvl3": {
+               "buds": 60,
+               "boost": 70
+            },
+            "lvl4": {
+               "buds": 80,
+               "boost": 80
+            },
+            "lvl5": {
+               "buds": 100,
+               "boost": 90
+            },
+            "lvl6": {
+               "buds": 150,
+               "boost": 100
+            }
          },
          "land": {
             "asia": 1000,
