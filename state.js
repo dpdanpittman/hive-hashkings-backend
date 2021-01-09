@@ -255,76 +255,118 @@ module.exports = {
          },
          "seeds": {
             "hk": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "afg": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "lkg": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "mis": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "lb": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "kbr": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "aca": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "swz": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "kmj": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "dp": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "mal": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "pam": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "cg": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "ach": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "tha": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             },
             "cht": {
-               "spt": 0,
-               "water": 0,
+               "1": {
+                  "spt": 0,
+                  "water": 0,
+               }
             }
          },
          "water": 0,
-         "waterPlantLVL": 0,
-         "timeBoosters": 0,
-         "timeBoosterLVL": 0,
-         "recollectors": 0,
-         "recollectorLVL": 0,
+         "waterPlants": {
+            "1": {
+               "lvl": 1
+            }
+         },
+         "timeBoosters": {
+            "1":{
+               "lvl": 1
+            }
+         },
+         "recollectors": {
+            "1": {
+               "lvl": 1,
+            }
+         },
          "buds": 0,
          "XP": 0,
          "LVL": 1,
