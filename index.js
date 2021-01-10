@@ -187,10 +187,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50310810; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50310983; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50310810;
+const ago = ENV.ago || 50310983;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -271,7 +271,7 @@ function hivePriceConversion(amount) {
     })
 })}
 
-function tokenPriceConversion(tokens) {
+function tokenPriceConversion() {
     return new Promise ((resolve, reject) => {
         axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["BEE"]}},"limit":1000,"offset":0,"indexes":[]}})
   .then(res => {
@@ -280,8 +280,11 @@ function tokenPriceConversion(tokens) {
         let thePrice = data.result[0]
         theLastPrice = thePrice.lastPrice
         console.log("current BEE price is " + theLastPrice)
+        const hivePriceOfToken = state.stats.prices.seedPacks.price
+        const conversion = hivePriceOfToken / theLastPrice 
+        state.stas.prices.seedPacks.token = conversion
+        resolve(conversion.toFixed(3))
     }
-    //resolve(thePrice)
   })
   .catch(error => {
       reject(error)
@@ -379,8 +382,8 @@ function startApp() {
                 console.log('South America price is ' + state.stats.prices.land.southAmerica);
                 console.log('Jamaica price is ' + state.stats.prices.land.jamaica);
                 console.log('Mexico price is ' + state.stats.prices.land.mexico);
-                })
                 console.log('------------------------');
+                })
                 tokenPriceConversion();            
         }
 
