@@ -44,6 +44,7 @@ var fs = require('fs');
 const cors = require('cors');
 const express = require('express')
 const ENV = process.env;
+const SSC = require('sscjs');
 const maxEx = process.max_extentions || 8;
 const IPFS = require('ipfs-api');
 const ipfs = new IPFS({
@@ -186,10 +187,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50284430; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50309000; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50284430;
+const ago = ENV.ago || 50309000;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -219,6 +220,11 @@ const walletOperationsBitmask = makeBitMaskFilter([
   op.fill_order,
   op.claim_reward_balance
 ])
+
+const ssc = new SSC('https://api.hive-engine.com/rpc');
+ssc.stream((err, res) => {
+	console.log(err, res);
+});
 
 dynStart('hashkings')
 
@@ -263,6 +269,18 @@ function hivePriceConversion(amount) {
       }).catch((err) => {
         reject(err)
     })
+})}
+
+function tokenPriceConversion(tokens) {
+    return new Promise ((resolve, reject) => {
+        axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["MOTA"]}},"limit":1000,"offset":0,"indexes":[]}})
+  .then(res => {
+    console.log(`statusCode: ${res.statusCode}`)
+    console.log(res)
+  })
+  .catch(error => {
+    console.error(error)
+  })
 })}
 
 /****ISSUE****/
@@ -356,7 +374,8 @@ function startApp() {
                 console.log('Jamaica price is ' + state.stats.prices.land.jamaica);
                 console.log('Mexico price is ' + state.stats.prices.land.mexico);
                 })
-            
+                console.log('------------------------');
+                tokenPriceConversion();            
         }
 
         //saves state to ipfs hash
