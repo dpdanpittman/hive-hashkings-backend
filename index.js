@@ -276,8 +276,8 @@ function tokenPriceConversion(tokens) {
         axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["BEE"]}},"limit":1000,"offset":0,"indexes":[]}})
   .then(res => {
     const { data } = res
-    console.log(data)
-    resolve(data)
+    console.log(data.lastPrice)
+    resolve(data.lastPrice)
   })
   .catch(error => {
       reject(error)
