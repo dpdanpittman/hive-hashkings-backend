@@ -187,10 +187,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50309499; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50309733; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50309499;
+const ago = ENV.ago || 50309733;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -276,10 +276,9 @@ function tokenPriceConversion(tokens) {
         axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["BEE"]}},"limit":1000,"offset":0,"indexes":[]}})
   .then(res => {
     console.log(`statusCode: ${res.status}`)
-    const { data } = res
-    const tokenPrice = data.find(o => o.lastPrice)
-    resolve(tokenPrice.toFixed(3))
-    console.log(`tokenprice: ${tokenPrice}`)
+    console.log(`tokenprice: ${res.lastPrice}`)
+    const lastHivePrice = res.lastPrice
+    resolve(lastHivePrice.toFixed(3))
   })
   .catch(error => {
       reject(error)
