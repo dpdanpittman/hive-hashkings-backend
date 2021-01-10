@@ -275,9 +275,10 @@ function tokenPriceConversion(tokens) {
     return new Promise ((resolve, reject) => {
         axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["BEE"]}},"limit":1000,"offset":0,"indexes":[]}})
   .then(res => {
-    console.log(`statusCode: ${res.status}`)
-    console.log(`tokenprice: ${res.lastPrice}`)
-    const lastHivePrice = res.lastPrice
+    const { data } = res
+    console.log(`statusCode: ${data.status}`)
+    console.log(`tokenprice: ${data.lastPrice}`)
+    const lastHivePrice = data.lastPrice
     resolve(lastHivePrice.toFixed(3))
   })
   .catch(error => {
