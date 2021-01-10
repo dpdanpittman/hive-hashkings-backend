@@ -282,7 +282,7 @@ function tokenPriceConversion() {
         console.log("current BEE price is " + theLastPrice)
         const hivePriceOfToken = state.stats.prices.seedPacks.price
         const conversion = hivePriceOfToken / theLastPrice 
-        state.stas.prices.seedPacks.token = conversion
+        state.stats.prices.seedPacks.token = conversion
         resolve(conversion.toFixed(3))
     }
   })
