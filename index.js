@@ -279,9 +279,10 @@ function tokenPriceConversion(tokens) {
     const { data } = res
     const tokenPrice = data.find(o => o.lastPrice)
     resolve(tokenPrice.toFixed(3))
+    console.log(`tokenprice: ${tokenPrice}`)
   })
   .catch(error => {
-      reject(err)
+      reject(error)
     console.error(error)
   })
 })}
