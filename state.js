@@ -10,6 +10,7 @@ module.exports = {
       "prices": {
          "seedPacks": {
             "price": 100,
+            "token": 10000
          },
          "timeBooster": {
             "lvl1": {
@@ -72,12 +73,30 @@ module.exports = {
             }
          },
          "land": {
-            "asia": 1000,
-            "africa": 1000,
-            "afghanistan": 1000,
-            "southAmerica": 1000,
-            "jamaica": 1000,
-            "mexico": 1000
+            "asia": {
+               "price": 1000,
+               "token": 100000
+            },
+            "africa": {
+               "price": 1000,
+               "token": 100000
+            },
+            "afghanistan": {
+               "price": 1000,
+               "token": 100000
+            },
+            "southAmerica": {
+               "price": 1000,
+               "token": 100000
+            },
+            "jamaica": {
+               "price": 1000,
+               "token": 100000
+            },
+            "mexico": {
+               "price": 1000,
+               "token": 100000
+            },
          },
          "waterPlant": {
             "lvl1": 0,
