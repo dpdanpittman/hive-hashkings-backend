@@ -96,7 +96,7 @@ module.exports = {
             "mexico": {
                "price": 1000,
                "token": 100000
-            },
+            }
          },
          "waterPlant": {
             "lvl1": 0,
