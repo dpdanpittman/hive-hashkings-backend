@@ -74,7 +74,7 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 1000,
+               "price": 1000, 
                "token": 100000
             },
             "africa": {
