@@ -280,6 +280,7 @@ function tokenPriceConversion() {
         let thePrice = data.result[0]
         theLastPrice = thePrice.lastDayPrice
         console.log("current BEE price is " + theLastPrice)
+        console.log("------------------------------------")
         const hivePriceOfToken = state.stats.prices.seedPacks.price
         const conversion = hivePriceOfToken / theLastPrice
         console.log("Price of seedPacks in BEE is " + conversion.toFixed(4)) 
@@ -427,12 +428,12 @@ function startApp() {
                 console.log('at block ' + num);
                 console.log('Seed Pack price is ' + state.stats.prices.seedPacks.price);
                 console.log('------------------------');
-                console.log('Asia price is ' + state.stats.prices.land.asia);
-                console.log('Africa price is ' + state.stats.prices.land.africa);
-                console.log('Afghanistan price is ' + state.stats.prices.land.afghanistan);
-                console.log('South America price is ' + state.stats.prices.land.southAmerica);
-                console.log('Jamaica price is ' + state.stats.prices.land.jamaica);
-                console.log('Mexico price is ' + state.stats.prices.land.mexico);
+                console.log('Asia price is ' + state.stats.prices.land.asia.price);
+                console.log('Africa price is ' + state.stats.prices.land.africa.price);
+                console.log('Afghanistan price is ' + state.stats.prices.land.afghanistan.price);
+                console.log('South America price is ' + state.stats.prices.land.southAmerica.price);
+                console.log('Jamaica price is ' + state.stats.prices.land.jamaica.price);
+                console.log('Mexico price is ' + state.stats.prices.land.mexico.price);
                 console.log('------------------------');
                 })
                 tokenPriceConversion();
