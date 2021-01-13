@@ -187,10 +187,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50393279; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50393558; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50393279;
+const ago = ENV.ago || 50393558;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -414,12 +414,12 @@ function startApp() {
                 // sets state to seed price
                 state.stats.prices.seedPacks.price = Math.ceil((assetPrice * 5));
 
-                state.stats.prices.land.asia = Math.ceil((assetPrice * 15));
-                state.stats.prices.land.africa = Math.ceil((assetPrice * 7.5));
-                state.stats.prices.land.afghanistan = Math.ceil((assetPrice * 5));
-                state.stats.prices.land.southAmerica = Math.ceil((assetPrice * 1.75));
-                state.stats.prices.land.jamaica = Math.ceil((assetPrice * 9.75));
-                state.stats.prices.land.mexico = Math.ceil((assetPrice * 3.50));
+                state.stats.prices.land.asia.price = Math.ceil((assetPrice * 15));
+                state.stats.prices.land.africa.price = Math.ceil((assetPrice * 7.5));
+                state.stats.prices.land.afghanistan.price = Math.ceil((assetPrice * 5));
+                state.stats.prices.land.southAmerica.price = Math.ceil((assetPrice * 1.75));
+                state.stats.prices.land.jamaica.price = Math.ceil((assetPrice * 9.75));
+                state.stats.prices.land.mexico.price = Math.ceil((assetPrice * 3.50));
                 //sets cut to 0 because bal.c is deprecated
                 state.bal.c = 0
 
@@ -428,12 +428,12 @@ function startApp() {
                 console.log('at block ' + num);
                 console.log('Seed Pack price is ' + state.stats.prices.seedPacks.price);
                 console.log('------------------------');
-                console.log('Asia price is ' + state.stats.prices.land.asia.price);
-                console.log('Africa price is ' + state.stats.prices.land.africa.price);
-                console.log('Afghanistan price is ' + state.stats.prices.land.afghanistan.price);
-                console.log('South America price is ' + state.stats.prices.land.southAmerica.price);
-                console.log('Jamaica price is ' + state.stats.prices.land.jamaica.price);
-                console.log('Mexico price is ' + state.stats.prices.land.mexico.price);
+                console.log('Asia hive price is ' + state.stats.prices.land.asia.price);
+                console.log('Africa hive price is ' + state.stats.prices.land.africa.price);
+                console.log('Afghanistan hive price is ' + state.stats.prices.land.afghanistan.price);
+                console.log('South America hive price is ' + state.stats.prices.land.southAmerica.price);
+                console.log('Jamaica hive price is ' + state.stats.prices.land.jamaica.price);
+                console.log('Mexico hive price is ' + state.stats.prices.land.mexico.price);
                 console.log('------------------------');
                 })
                 tokenPriceConversion();
