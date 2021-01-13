@@ -187,10 +187,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50393558; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50393920; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50393558;
+const ago = ENV.ago || 50393920;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -273,7 +273,7 @@ function hivePriceConversion(amount) {
 
 function tokenPriceConversion() {
     return new Promise ((resolve, reject) => {
-        axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["BEE"]}},"limit":1000,"offset":0,"indexes":[]}})
+        axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["MOTA"]}},"limit":1000,"offset":0,"indexes":[]}})
   .then(res => {
     const { data } = res
     for(let i = 0; i < 1; i++) {
@@ -296,33 +296,31 @@ function tokenPriceConversion() {
 
 function landPriceConversion() {
     return new Promise ((resolve, reject) => {
-        axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["BEE"]}},"limit":1000,"offset":0,"indexes":[]}})
+        axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["MOTA"]}},"limit":1000,"offset":0,"indexes":[]}})
   .then(res => {
     const { data } = res
     for(let i = 0; i < 1; i++) {
         let thePrice = data.result[0]
         theLastPrice = thePrice.lastDayPrice
         const hivePriceOfAsia = state.stats.prices.land.asia.price
-        console.log("asia price in hive " + hivePriceOfAsia)
         const hivePriceOfAfghanistan = state.stats.prices.land.afghanistan.price
         const hivePriceOfMexico = state.stats.prices.land.mexico.price
         const hivePriceOfJamaica = state.stats.prices.land.jamaica.price
         const hivePriceOfAfrica = state.stats.prices.land.africa.price
         const hivePriceOfSouthAmerica = state.stats.prices.land.southAmerica.price
         const conversionAsia = hivePriceOfAsia / theLastPrice
-        console.log("conversion price of asia " + conversionAsia)
         const conversionAfghanistan = hivePriceOfAfghanistan / theLastPrice
         const conversionMexico = hivePriceOfMexico / theLastPrice
         const conversionJamaica = hivePriceOfJamaica / theLastPrice
         const conversionAfrica = hivePriceOfAfrica / theLastPrice
         const conversionSouthAmerica = hivePriceOfSouthAmerica / theLastPrice
         console.log("-------------------------------------")
-        console.log("Price of asia in BEE is " + conversionAsia.toFixed(4))
-        console.log("Price of afghanistan in BEE is " + conversionAfghanistan.toFixed(4)) 
-        console.log("Price of mexico in BEE is " + conversionMexico.toFixed(4)) 
-        console.log("Price of jamaica in BEE is " + conversionJamaica.toFixed(4)) 
-        console.log("Price of africa in BEE is " + conversionAfrica.toFixed(4)) 
-        console.log("Price of south america in BEE is " + conversionSouthAmerica.toFixed(4))
+        console.log("Price of asia in MOTA is " + conversionAsia.toFixed(4))
+        console.log("Price of afghanistan in MOTA is " + conversionAfghanistan.toFixed(4)) 
+        console.log("Price of mexico in MOTA is " + conversionMexico.toFixed(4)) 
+        console.log("Price of jamaica in MOTA is " + conversionJamaica.toFixed(4)) 
+        console.log("Price of africa in MOTA is " + conversionAfrica.toFixed(4)) 
+        console.log("Price of south america in MOTA is " + conversionSouthAmerica.toFixed(4))
         console.log("-------------------------------------")
         state.stats.prices.land.asia.token = conversionAsia.toFixed(4)
         state.stats.prices.land.afghanistan.token = conversionAfghanistan.toFixed(4)
