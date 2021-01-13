@@ -279,11 +279,11 @@ function tokenPriceConversion() {
     for(let i = 0; i < 1; i++) {
         let thePrice = data.result[0]
         theLastPrice = thePrice.lastDayPrice
-        console.log("current BEE price is " + theLastPrice)
+        console.log("current MOTA price is " + theLastPrice)
         console.log("------------------------------------")
         const hivePriceOfToken = state.stats.prices.seedPacks.price
         const conversion = hivePriceOfToken / theLastPrice
-        console.log("Price of seedPacks in BEE is " + conversion.toFixed(4)) 
+        console.log("Price of seedPacks in MOTA is " + conversion.toFixed(4)) 
         state.stats.prices.seedPacks.token = conversion.toFixed(4)
         resolve(conversion.toFixed(4))
     }
