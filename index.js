@@ -187,10 +187,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50365346; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50392554; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50365346;
+const ago = ENV.ago || 50392554;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -285,6 +285,55 @@ function tokenPriceConversion() {
         console.log("Price of seedPacks in BEE is " + conversion.toFixed(4)) 
         state.stats.prices.seedPacks.token = conversion.toFixed(4)
         resolve(conversion.toFixed(4))
+    }
+  })
+  .catch(error => {
+      reject(error)
+    console.error(error)
+  })
+})}
+
+function landPriceConversion() {
+    return new Promise ((resolve, reject) => {
+        axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["BEE"]}},"limit":1000,"offset":0,"indexes":[]}})
+  .then(res => {
+    const { data } = res
+    for(let i = 0; i < 1; i++) {
+        let thePrice = data.result[0]
+        theLastPrice = thePrice.lastDayPrice
+        console.log("current BEE price is " + theLastPrice)
+        const hivePriceOfAsia = state.stats.prices.land.asia.price
+        const hivePriceOfAfghanistan = state.stats.prices.land.afghanistan.price
+        const hivePriceOfMexico = state.stats.prices.land.mexico.price
+        const hivePriceOfJamaica = state.stats.prices.land.jamaica.price
+        const hivePriceOfAfrica = state.stats.prices.land.africa.price
+        const hivePriceOfSouthAmerica = state.stats.prices.land.southAmerica.price
+        const conversionAsia = hivePriceOfAsia / theLastPrice
+        const conversionAfghanistan = hivePriceOfAfghanistan / theLastPrice
+        const conversionMexico = hivePriceOfMexico / theLastPrice
+        const conversionJamaica = hivePriceOfJamaica / theLastPrice
+        const conversionAfrica = hivePriceOfAfrica / theLastPrice
+        const conversionSouthAmerica = hivePriceOfSouthAmerica / theLastPrice
+        console.log("-------------------------------------")
+        console.log("Price of asia in BEE is " + conversionAsia.toFixed(4))
+        console.log("Price of afghanistan in BEE is " + conversionAfghanistan.toFixed(4)) 
+        console.log("Price of mexico in BEE is " + conversionMexico.toFixed(4)) 
+        console.log("Price of jamaica in BEE is " + conversionJamaica.toFixed(4)) 
+        console.log("Price of africa in BEE is " + conversionAfrica.toFixed(4)) 
+        console.log("Price of south america in BEE is " + conversionSouthAmerica.toFixed(4))
+        console.log("-------------------------------------")
+        state.stats.prices.land.asia.token = conversionAsia.toFixed(4)
+        state.stats.prices.land.afghanistan.token = conversionAfghanistan.toFixed(4)
+        state.stats.prices.land.mexico.token = conversionMexico.toFixed(4)
+        state.stats.prices.land.jamaica.token = conversionJamaica.toFixed(4)
+        state.stats.prices.land.africa.token = conversionAfrica.toFixed(4)
+        state.stats.prices.land.southAmerica.token = conversionSouthAmerica.toFixed(4)
+        resolve(conversionAsia.toFixed(4))
+        resolve(conversionAfghanistan.toFixed(4))
+        resolve(conversionMexico.toFixed(4))
+        resolve(conversionJamaica.toFixed(4))
+        resolve(conversionAfrica.toFixed(4))
+        resolve(conversionSouthAmerica.toFixed(4))
     }
   })
   .catch(error => {
