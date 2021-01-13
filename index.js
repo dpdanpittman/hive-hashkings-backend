@@ -187,10 +187,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50392948; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50393279; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50392948;
+const ago = ENV.ago || 50393279;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -302,12 +302,14 @@ function landPriceConversion() {
         let thePrice = data.result[0]
         theLastPrice = thePrice.lastDayPrice
         const hivePriceOfAsia = state.stats.prices.land.asia.price
+        console.log("asia price in hive " + hivePriceOfAsia)
         const hivePriceOfAfghanistan = state.stats.prices.land.afghanistan.price
         const hivePriceOfMexico = state.stats.prices.land.mexico.price
         const hivePriceOfJamaica = state.stats.prices.land.jamaica.price
         const hivePriceOfAfrica = state.stats.prices.land.africa.price
         const hivePriceOfSouthAmerica = state.stats.prices.land.southAmerica.price
         const conversionAsia = hivePriceOfAsia / theLastPrice
+        console.log("conversion price of asia " + conversionAsia)
         const conversionAfghanistan = hivePriceOfAfghanistan / theLastPrice
         const conversionMexico = hivePriceOfMexico / theLastPrice
         const conversionJamaica = hivePriceOfJamaica / theLastPrice
