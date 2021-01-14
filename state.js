@@ -99,16 +99,46 @@ module.exports = {
             }
          },
          "waterPlant": {
-            "lvl1": 0,
-            "lvl2": 40,
-            "lvl3": 60,
-            "lvl4": 80,
-            "lvl5": 100,
-            "lvl6": 150,
-            "lvl7": 20,
-            "lvl8": 40,
-            "lvl9": 60,
-            "lvl10": 80
+            "lvl1": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl2": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl3": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl4": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl5": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl6": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl7": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl8": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl9": {
+               "price": 10,
+               "token": 1000
+            },
+            "lvl10": {
+               "price": 10,
+               "token": 1000
+            },
          }
       },
       "supply": {
@@ -272,119 +302,140 @@ module.exports = {
             "jamaica": 0,
             "mexico": 0,
          },
+         "plotCount": 0,
+         "seedCount": 16,
          "seeds": {
             "hk": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 4,
+                  "water": 82
                }
             },
             "afg": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 5,
+                  "water": 70
                }
             },
             "lkg": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 5,
+                  "water": 43
                }
             },
             "mis": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 6,
+                  "water": 33
                }
             },
             "lb": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 2,
+                  "water": 215
                }
             },
             "kbr": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 3,
+                  "water": 205
                }
             },
             "aca": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 6,
+                  "water": 23
                }
             },
             "swz": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 3,
+                  "water": 168
                }
             },
             "kmj": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 3,
+                  "water": 137
                }
             },
             "dp": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 4,
+                  "water": 104,
                }
             },
             "mal": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 4,
+                  "water": 94
                }
             },
             "pam": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 7,
+                  "water": 9
                }
             },
             "cg": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 7,
+                  "water": 10,
                }
             },
             "ach": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 1,
+                  "water": 235,
                }
             },
             "tha": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 2,
+                  "water": 235,
                }
             },
             "cht": {
                "1": {
-                  "spt": 0,
-                  "water": 0,
+                  "spt": 2,
+                  "water": 230,
                }
             }
          },
          "water": 0,
-         "waterPlants": {
-            "1": {
-               "lvl": 1
-            }
+         "waterCount": 10,
+         "waterPlants":{
+            "lvl1": 1,
+            "lvl2": 1,
+            "lvl3": 1,
+            "lvl4": 1,
+            "lvl5": 1,
+            "lvl7": 1,
+            "lvl8": 1,
+            "lvl9": 1,
+            "lvl10": 1
          },
          "timeBoosters": {
-            "1":{
-               "lvl": 1
-            }
+            "lvl1": 1,
+            "lvl2": 1,
+            "lvl3": 1,
+            "lvl4": 1,
+            "lvl5": 1,
+            "lvl7": 1,
+            "lvl8": 1,
+            "lvl9": 1,
+            "lvl10": 1
          },
          "recollectors": {
-            "1": {
-               "lvl": 1,
-            }
+            "lvl1": 1,
+            "lvl2": 1,
+            "lvl3": 1,
+            "lvl4": 1,
+            "lvl5": 1,
+            "lvl7": 1,
+            "lvl8": 1,
+            "lvl9": 1,
+            "lvl10": 1
          },
          "buds": 0,
          "XP": 0,
@@ -398,7 +449,7 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
+         "MOTA": 0.0001,
          "MOTAstake": 0
       }
    },
