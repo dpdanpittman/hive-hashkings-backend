@@ -402,7 +402,7 @@ module.exports = {
                }
             }
          },
-         "water": 0,
+         "water": 1500,
          "waterCount": 10,
          "waterPlants":{
             "lvl1": 1,

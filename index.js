@@ -169,10 +169,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50434079; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50484000; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50434079;
+const ago = ENV.ago || 50484000;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -358,10 +358,10 @@ function startApp() {
     processor = steemState(client, dhive, startingBlock, 10, prefix);
 
     processor.onBlock(function(num, block) {
-        var td = []
+        /*var td = []
         for (var i = 0; i < td.length; i++) {
             daily(td[i])
-        }
+        }*/
 
         //processes payments from state.refund
         if (num % 5 === 0 && state.refund.length && processor.isStreaming() || processor.isStreaming() && state.refund.length > 60) {
