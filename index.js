@@ -267,7 +267,7 @@ function tokenPriceConversion() {
         const hivePriceOfToken = state.stats.prices.seedPacks.price
         const conversion = hivePriceOfToken / theLastPrice
         console.log("Price of seedPacks in MOTA is " + conversion.toFixed(4)) 
-        state.stats.prices.seedPacks.token = conversion.toFixed(4)
+        state.stats.prices.seedPacks.token = conversion
         resolve(conversion.toFixed(4))
     }
   })
@@ -298,19 +298,19 @@ function landPriceConversion() {
         const conversionAfrica = hivePriceOfAfrica / theLastPrice
         const conversionSouthAmerica = hivePriceOfSouthAmerica / theLastPrice
         console.log("-------------------------------------")
-        console.log("Price of asia in MOTA is " + conversionAsia.toFixed(4))
-        console.log("Price of afghanistan in MOTA is " + conversionAfghanistan.toFixed(4)) 
-        console.log("Price of mexico in MOTA is " + conversionMexico.toFixed(4)) 
-        console.log("Price of jamaica in MOTA is " + conversionJamaica.toFixed(4)) 
-        console.log("Price of africa in MOTA is " + conversionAfrica.toFixed(4)) 
-        console.log("Price of south america in MOTA is " + conversionSouthAmerica.toFixed(4))
+        console.log("Price of asia in MOTA is " + conversionAsia)
+        console.log("Price of afghanistan in MOTA is " + conversionAfghanistan) 
+        console.log("Price of mexico in MOTA is " + conversionMexico)
+        console.log("Price of jamaica in MOTA is " + conversionJamaica) 
+        console.log("Price of africa in MOTA is " + conversionAfrica)
+        console.log("Price of south america in MOTA is " + conversionSouthAmerica)
         console.log("-------------------------------------")
-        state.stats.prices.land.asia.token = conversionAsia.toFixed(4)
-        state.stats.prices.land.afghanistan.token = conversionAfghanistan.toFixed(4)
-        state.stats.prices.land.mexico.token = conversionMexico.toFixed(4)
-        state.stats.prices.land.jamaica.token = conversionJamaica.toFixed(4)
-        state.stats.prices.land.africa.token = conversionAfrica.toFixed(4)
-        state.stats.prices.land.southAmerica.token = conversionSouthAmerica.toFixed(4)
+        state.stats.prices.land.asia.token = conversionAsia
+        state.stats.prices.land.afghanistan.token = conversionAfghanistan
+        state.stats.prices.land.mexico.token = conversionMexico
+        state.stats.prices.land.jamaica.token = conversionJamaica
+        state.stats.prices.land.africa.token = conversionAfrica
+        state.stats.prices.land.southAmerica.token = conversionSouthAmerica
         resolve(conversionAsia.toFixed(4))
         resolve(conversionAfghanistan.toFixed(4))
         resolve(conversionMexico.toFixed(4))
@@ -1182,6 +1182,90 @@ function startApp() {
     processor.onOperation('transfer', function(json, from) {
         var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'HIVE') {
+            //if user does not exist in db create user and db entry
+            if (!state.users[json.from]) {
+                state.users[json.from] = {
+                    plots: {
+                        asia: 0,
+                        africa: 0,
+                        afghanistan: 0,
+                        southAmerica: 0,
+                        jamaica: 0,
+                        mexico: 0,
+                     },
+                     plotCount: 0,
+                     seedCount: 16,
+                     seeds: {
+                        hk: {},
+                        afg: {},
+                        lkg: {},
+                        mis: {},
+                        lb: {},
+                        kbr: {},
+                        aca: {},
+                        swz: {},
+                        kmj: {},
+                        dp: {},
+                        mal: {},
+                        pam: {},
+                        cg: {},
+                        ach: {},
+                        tha: {},
+                        cht: {}
+                     },
+                     water: 0,
+                     waterCount: 0,
+                     waterPlants:{
+                        lvl1: 0,
+                        lvl2: 0,
+                        lvl3: 0,
+                        lvl4: 0,
+                        lvl5: 0,
+                        lvl7: 0,
+                        lvl8: 0,
+                        lvl9: 0,
+                        lvl10: 0
+                     },
+                     timeBoosters: {
+                        lvl1: 0,
+                        lvl2: 0,
+                        lvl3: 0,
+                        lvl4: 0,
+                        lvl5: 0,
+                        lvl7: 0,
+                        lvl8: 0,
+                        lvl9: 0,
+                        lvl10: 0
+                     },
+                     recollectors: {
+                        lvl1: 0,
+                        lvl2: 0,
+                        lvl3: 0,
+                        lvl4: 0,
+                        lvl5: 0,
+                        lvl7: 0,
+                        lvl8: 0,
+                        vl9: 0,
+                        lvl10: 0
+                     },
+                     buds: 0,
+                     xp: 0,
+                     lvl: 1,
+                     role: 1,
+                     joints: {
+                        splif: 0,
+                        joint: 0,
+                        cone: 0,
+                        kiefJoint: 0,
+                        waxJoint: 0,
+                        blunt: 0
+                     },
+                     MOTA: 0,
+                     MOTAstake: 0
+                }
+            }
+
+            //purchasing
             const amount = parseInt(parseFloat(json.amount) * 1000)
                         var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                             type = json.memo.split(" ")[1] || ''
