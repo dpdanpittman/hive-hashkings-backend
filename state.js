@@ -12,6 +12,14 @@ module.exports = {
             "price": 100,
             "token": 10000
          },
+         "bundles": {
+            "asiaBundle": 100000,
+            "africaBundle": 100000,
+            "afghanistanBundle": 100000,
+            "jamaicaBundle": 100000,
+            "mexicoBundle": 100000,
+            "southAmericaBundle": 100000
+         },
          "timeBooster": {
             "lvl1": {
                "buds": 10,
@@ -156,6 +164,7 @@ module.exports = {
             "mexico": 375,
             "mexicoC": 0
          },
+         "seedPacks": 5000
       },
       "strains": {
          "hk": {
@@ -438,8 +447,8 @@ module.exports = {
             "lvl10": 1
          },
          "buds": 0,
-         "XP": 0,
-         "LVL": 1,
+         "xp": 0,
+         "lvl": 1,
          "role": 1,
          "joints": {
             "splif": 0,
