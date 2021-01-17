@@ -169,10 +169,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50511104; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50511450; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50511104;
+const ago = ENV.ago || 50511450;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -956,15 +956,15 @@ function startApp() {
                         || want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.southAmerica >= 1
                         //purchase water plants
                         || want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1' 
-                        || want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[from].lvl >= 10
-                        || want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[from].lvl >= 20
-                        || want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && type === '4' && state.stats.users[from].lvl >= 30
-                        || want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && type === '5' && state.stats.users[from].lvl >= 40
-                        || want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && type === '6' && state.stats.users[from].lvl >= 50
-                        || want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && type === '7' && state.stats.users[from].lvl >= 60
-                        || want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && type === '8' && state.stats.users[from].lvl >= 70
-                        || want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && type === '9' && state.stats.users[from].lvl >= 80
-                        || want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && type === '10' && state.stats.users[from].lvl >= 90) {
+                        || want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[json.from].lvl >= 10
+                        || want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[json.from].lvl >= 20
+                        || want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && type === '4' && state.stats.users[json.from].lvl >= 30
+                        || want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && type === '5' && state.stats.users[json.from].lvl >= 40
+                        || want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && type === '6' && state.stats.users[json.from].lvl >= 50
+                        || want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && type === '7' && state.stats.users[json.from].lvl >= 60
+                        || want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && type === '8' && state.stats.users[json.from].lvl >= 70
+                        || want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && type === '9' && state.stats.users[json.from].lvl >= 80
+                        || want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && type === '10' && state.stats.users[json.from].lvl >= 90) {
                             if (want == 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.land.asia != 0) {
                                 
                                 // update total number of plots
@@ -977,10 +977,10 @@ function startApp() {
                                 state.users[json.from].plots.asia++
 
                                 //add 1 water to user inventory
-                                state.users[from].waterPlants.lvl1++
+                                state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 1, from).then(res => {
+                                contract.createOneSeed(hive, 1, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -995,10 +995,10 @@ function startApp() {
                                 })
                                 
                                 // create one asia plot NFT
-                                contract.createPlot(hive,"Asia",1,from)
+                                contract.createPlot(hive,"Asia",1,json.from)
 
                                 // create level 1 water plant
-                                contract.createWater(hive,"Water",10,from)
+                                contract.createWater(hive,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1007,19 +1007,19 @@ function startApp() {
                             } if (want == 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundle.jamaicBundle * 1000) + 3000 && state.stats.supply.land.jamaica != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.seedPacks--
 
                                 // add 1 plot to user inventory
-                                state.users[from].plots.jamaica++
+                                state.users[json.from].plots.jamaica++
 
                                 //add 1 water to user inventory
-                                state.users[from].waterPlants.lvl1++
+                                state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 2, from).then(res => {
+                                contract.createOneSeed(hive, 2, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1034,10 +1034,10 @@ function startApp() {
                                 })
 
                                 // create one jamaica plot NFT
-                                contract.createPlot(hive,"Jamaica",1,from)
+                                contract.createPlot(hive,"Jamaica",1,json.from)
 
                                 // create one lvl 1 water plant NFT
-                                contract.createWater(hive,"Water",10,from)
+                                contract.createWater(hive,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1046,7 +1046,7 @@ function startApp() {
                             } if (want == 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.africa != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.seedPacks--
@@ -1055,10 +1055,10 @@ function startApp() {
                                 state.users[json.from].plots.africa++
 
                                 //add 1 water to user inventory
-                                state.users[from].waterPlants.lvl1++
+                                state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 1, from).then(res => {
+                                contract.createOneSeed(hive, 1, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1073,10 +1073,10 @@ function startApp() {
                                 })
 
                                 // create one africa NFT
-                                contract.createPlot(hive,"Africa",3,from);
+                                contract.createPlot(hive,"Africa",3,json.from);
 
                                 // create one lvl 1 water nft
-                                contract.createWater(hive,"Water",10,from)
+                                contract.createWater(hive,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1085,7 +1085,7 @@ function startApp() {
                             } if (want == 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle.price * 1000) + 3000 && state.stats.supply.land.afghanistan != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.seedPacks--
@@ -1094,10 +1094,10 @@ function startApp() {
                                 state.users[json.from].plots.afghanistan++
 
                                 //add 1 water to user inventory
-                                state.users[from].waterPlants.lvl1++
+                                state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 1, from).then(res => {
+                                contract.createOneSeed(hive, 1, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1112,10 +1112,10 @@ function startApp() {
                                 })
 
                                 // create one afghanistan plot NFT
-                                contract.createPlot(hive,"Afghanistan",4,from);
+                                contract.createPlot(hive,"Afghanistan",4,json.from);
 
                                 // create one water lvl 1 water NFT
-                                contract.createWater(hive,"Water",10,from)
+                                contract.createWater(hive,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1124,7 +1124,7 @@ function startApp() {
                             } if (want == 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply and adds one to land taken
                                 state.stats.supply.land.mexico--
@@ -1134,10 +1134,10 @@ function startApp() {
                                 state.users[json.from].plots.mexico++
 
                                 //add 1 water to user inventory
-                                state.users[from].waterPlants.lvl1++
+                                state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 5, from).then(res => {
+                                contract.createOneSeed(hive, 5, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1154,10 +1154,10 @@ function startApp() {
                                 })
 
                                 // create one mexico NFT
-                                contract.createPlot(hive,"Mexico",1,from);
+                                contract.createPlot(hive,"Mexico",1,json.from);
 
                                 // create one lvl 1 water nft
-                                contract.createWater(hive,"Water",10,from)
+                                contract.createWater(hive,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1166,7 +1166,7 @@ function startApp() {
                             } if (want == 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.seedPacks--
@@ -1175,10 +1175,10 @@ function startApp() {
                                 state.users[json.from].plots.southAmerica++
 
                                 //add 1 water to user inventory
-                                state.users[from].waterPlants.lvl1++
+                                state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 6, from).then(res => {
+                                contract.createOneSeed(hive, 6, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1195,10 +1195,10 @@ function startApp() {
                                 })
 
                                 // create one south america NFT
-                                contract.createPlot(hive,"South America",1,from);
+                                contract.createPlot(hive,"South America",1,json.from);
 
                                 // create one lvl 1 water NFT
-                                contract.createWater(hive,"Water",10,from)
+                                contract.createWater(hive,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1207,7 +1207,7 @@ function startApp() {
                             } else if (want == 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.asia--
@@ -1216,7 +1216,7 @@ function startApp() {
                                 state.users[json.from].plots.asia++
 
                                 // create nft
-                                contract.createPlot(hive, "Asia", 1, from);
+                                contract.createPlot(hive, "Asia", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1224,7 +1224,7 @@ function startApp() {
                             } else if (want == 'afghanistan' && amount > (state.stats.prices.land.afghanistan.price * 1000) - 3000 &&  amount < (state.stats.prices.land.afghanistan.price * 1000) + 3000 && state.stats.supply.land.afghanistan != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.afghanistan--
@@ -1233,7 +1233,7 @@ function startApp() {
                                 state.users[json.from].plots.afghanistan++
 
                                 // create nft
-                                contract.createPlot(hive, "Afghanistan", 1, from);
+                                contract.createPlot(hive, "Afghanistan", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1241,7 +1241,7 @@ function startApp() {
                              } else if (want == 'africa' && amount > (state.stats.prices.land.africa.price * 1000) - 3000 &&  amount < (state.stats.prices.land.africa.price * 1000) + 3000 && state.stats.supply.land.africa != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.africa--
@@ -1250,7 +1250,7 @@ function startApp() {
                                 state.users[json.from].plots.africa++
 
                                 // create nft
-                                contract.createPlot(hive, "Africa", 1, from);
+                                contract.createPlot(hive, "Africa", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1258,7 +1258,7 @@ function startApp() {
                              } else if (want == 'jamaica' && amount > (state.stats.prices.land.jamaica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.jamaica.price * 1000) + 3000 && state.stats.supply.land.jamaica != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.jamaica--
@@ -1267,7 +1267,7 @@ function startApp() {
                                 state.users[json.from].plots.jamaica++
 
                                 // create nft
-                                contract.createPlot(hive, "Jamaica", 1, from);
+                                contract.createPlot(hive, "Jamaica", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1275,7 +1275,7 @@ function startApp() {
                              } else if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 3000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 3000 && state.stats.supply.land.mexico != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.mexico--
@@ -1284,7 +1284,7 @@ function startApp() {
                                 state.users[json.from].plots.mexico++
 
                                 // create nft
-                                contract.createPlot(hive, "Mexico", 1, from);
+                                contract.createPlot(hive, "Mexico", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1292,7 +1292,7 @@ function startApp() {
                              } else if (want == 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 3000 && state.stats.supply.land.southAmerica != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.southAmerica--
@@ -1301,7 +1301,7 @@ function startApp() {
                                 state.users[json.from].plots.southAmerica++
 
                                 // create nft
-                                contract.createPlot(hive, "South America", 1, from);
+                                contract.createPlot(hive, "South America", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1309,102 +1309,102 @@ function startApp() {
                              } else if (want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1') {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl1
+                                state.users[json.from].water += state.stats.waterPlant.lvl1
 
                                 // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl1++
+                                state.users[json.from].waterPlants.lvl1++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 1, from)
+                                contract.createWater(hive, "Water", 1, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[from].lvl >= 10) {
+                             } else if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[json.from].lvl >= 10) {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl2
+                                state.users[json.from].water += state.stats.waterPlant.lvl2
 
                                 // add 1 plot to user inventory
                                 state.users[from].waterPlants.lvl2++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 2, from)
+                                contract.createWater(hive, "Water", 2, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[from].lvl >= 20) {
+                             } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[json.from].lvl >= 20) {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl3
+                                state.users[json.from].water += state.stats.waterPlant.lvl3
 
                                 // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl3++
+                                state.users[json.from].waterPlants.lvl3++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 3, from)
+                                contract.createWater(hive, "Water", 3, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && type === '4' && state.stats.users[from].lvl >= 30) {
+                             } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && type === '4' && state.stats.users[json.from].lvl >= 30) {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl4
+                                state.users[json.from].water += state.stats.waterPlant.lvl4
 
                                 // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl4++
+                                state.users[json.from].waterPlants.lvl4++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 4, from)
+                                contract.createWater(hive, "Water", 4, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && type === '5' && state.stats.users[from].lvl >= 40) {
+                             } else if (want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && type === '5' && state.stats.users[json.from].lvl >= 40) {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl5
+                                state.users[json.from].water += state.stats.waterPlant.lvl5
 
                                 // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl5++
+                                state.users[json.from].waterPlants.lvl5++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 5, from)
+                                contract.createWater(hive, "Water", 5, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && type === '6' && state.stats.users[from].lvl >= 50) {
+                             } else if (want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && type === '6' && state.stats.users[json.from].lvl >= 50) {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl6
+                                state.users[json.from].water += state.stats.waterPlant.lvl6
 
                                 // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl6++
+                                state.users[json.from].waterPlants.lvl6++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 6, from)
+                                contract.createWater(hive, "Water", 6, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && type === '7' && state.stats.users[from].lvl >= 60) {
+                             } else if (want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && type === '7' && state.stats.users[json.from].lvl >= 60) {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl7
+                                state.users[json.from].water += state.stats.waterPlant.lvl7
 
                                 // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl7++
+                                state.users[json.from].waterPlants.lvl7++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 7, from)
+                                contract.createWater(hive, "Water", 7, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && type === '8' && state.stats.users[from].lvl >= 70) {
+                             } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && type === '8' && state.stats.users[json.from].lvl >= 70) {
                                 
                                 // update total number of plots
                                 state.users[from].water += state.stats.waterPlant.lvl8
@@ -1413,35 +1413,35 @@ function startApp() {
                                 state.users[from].waterPlants.lvl8++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 8, from)
+                                contract.createWater(hive, "Water", 8, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && type === '9' && state.stats.users[from].lvl >= 80) {
+                             } else if (want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && type === '9' && state.stats.users[json.from].lvl >= 80) {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl9
+                                state.users[json.from].water += state.stats.waterPlant.lvl9
 
                                 // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl9++
+                                state.users[json.from].waterPlants.lvl9++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 9, from)
+                                contract.createWater(hive, "Water", 9, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && type === '10' && state.stats.users[from].lvl >= 90) {
+                             } else if (want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && type === '10' && state.stats.users[json.from].lvl >= 90) {
                                 
                                 // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl10
+                                state.users[json.from].water += state.stats.waterPlant.lvl10
 
                                 // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl10++
+                                state.users[json.from].waterPlants.lvl10++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 10, from)
+                                contract.createWater(hive, "Water", 10, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
