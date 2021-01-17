@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50531245; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50531549; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50531245;
+const ago = ENV.ago || 50531549;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1138,34 +1138,28 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 5, json.from).then((res) => {                                    
-                                       //const {seedData} = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].propertys
-                                       console.log(JSON.parse(res.operations[0][1].json).contractPayload.instances[0].propertys.NAME)
-
-                                       //console.log(res.operations[0][1].json)
-                                       //console.log(contractPayload.instances[0].propertys)
-                                       //console.log(contractPayload.instances[0].propertys.NAME)
-                                      
-                                      //  console.log(data)
-                                     //   console.log("the name is " + strain)
-                                
-                                    //maybe if statement depending on data returned
-                                   /* strain = {
-                                        spt: 1, // will be replaced with data from promise
-                                        water: 235 // will be replaced with data from promise
-                                        }*/
+                                contract.createOneSeed(hivejs, 5, json.from).then((res) => {
+                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].propertys.NAME
+                                    console.log(JSON.parse(res.operations[0][1].json).contractPayload.instances[0].propertys.NAME)
+                                    let strain = seedData.NAME
+                                   
+                                    strain = {
+                                        spt: seedData.SPT,
+                                        water: seedData.WATER, 
+                                        pr: seedData.PR
+                                    }
                                     
-                                    //state.users[json.from].seeds.push(strain)
+                                    state.users[json.from].seeds.push(strain)
                                     console.log("pushed strain to seeds")
 
                                 })
 
                                 // create one mexico NFT
-                                //contract.createPlot(hivejs,"Mexico",1,json.from);
+                                contract.createPlot(hivejs,"Mexico",1,json.from);
                                 console.log("createdPlot")
 
                                 // create one lvl 1 water nft
-                                //contract.createWater(hivejs,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",10,json.from)
                                 console.log("created water")
 
                                 const c = parseInt(amount)
