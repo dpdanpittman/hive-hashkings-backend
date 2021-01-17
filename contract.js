@@ -1,7 +1,7 @@
 const CONTRACT_CREATOR = 'hashkings';
 const UTILITY_TOKEN_SYMBOL = "HMOTA";
 
-const ACTIVEKEY = ""
+const ACTIVEKEY = ENV.activeKey;
 
 const SEEDS_PER_PACK = 3;
 
@@ -19,7 +19,7 @@ const SEEDS = [
             WATER: 235,
             PR: { min: 7250, max: 7800 },//Production range   
             NAME: "Thai",
-            chace: 60
+            chance: 60
         },
         2: {
             SPT: 2,//Sprouting time
@@ -274,6 +274,150 @@ const generateRandomSeed = (to, SEEDS) => {
             }
         }
 
+        properties.NAME = seed.NAME;
+        properties.SPT = seed.SPT;
+        properties.WATER = seed.WATER;
+        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+    }
+
+    const propertys = {
+        TYPE: "seed",
+        NAME: properties.NAME,
+        SPT: properties.SPT,
+        WATER: properties.WATER,
+        PR: properties.PR
+    };
+
+    const instance = {
+        symbol: UTILITY_TOKEN_SYMBOL,
+        fromType: 'contract',
+        to,
+        feeSymbol: "BEE",
+        propertys,
+    };
+
+    return instance;
+};
+
+const generateOneRandomSeed = (to, plot, SEEDS) => {
+
+    const type = plot;
+    let properties = {};
+    if (type == 1) {
+        let plot = SEEDS[0];
+        let seed = plot[Object.keys(plot).length - 1];
+        let typeRoll = Math.floor(Math.random() * 100) + 1;
+
+        let found = false;
+        for (let index = 0; index < Object.keys(plot).length; index++) {
+            const element = plot[index];
+            if (!found && typeRoll > element.chance) {
+                seed = element;
+                found = true;
+            }
+        }
+
+        properties.NAME = seed.NAME;
+        properties.SPT = seed.SPT;
+        properties.WATER = seed.WATER;
+        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+
+    } else if (type == 2) {
+        let plot = SEEDS[1];
+        let seed = plot[Object.keys(plot).length - 1];
+        let typeRoll = Math.floor(Math.random() * 100) + 1;
+
+
+        let found = false;
+        for (let index = 0; index < Object.keys(plot).length; index++) {
+            const element = plot[index];
+            if (!found && typeRoll > element.chance) {
+                seed = element;
+                found = true;
+            }
+        }
+
+
+        properties.NAME = seed.NAME;
+        properties.SPT = seed.SPT;
+        properties.WATER = seed.WATER;
+        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+    } else if (type == 3) {
+        let plot = SEEDS[2];
+        let seed = plot[Object.keys(plot).length - 1];
+        let typeRoll = Math.floor(Math.random() * 100) + 1;
+
+
+        let found = false;
+        for (let index = 0; index < Object.keys(plot).length; index++) {
+            const element = plot[index];
+            if (!found && typeRoll > element.chance) {
+                seed = element;
+                found = true;
+            }
+        }
+
+
+        properties.NAME = seed.NAME;
+        properties.SPT = seed.SPT;
+        properties.WATER = seed.WATER;
+        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+    } else if (type == 4) {
+        let plot = SEEDS[3];
+        let seed = plot[Object.keys(plot).length - 1];
+        let typeRoll = Math.floor(Math.random() * 100) + 1;
+
+
+        let found = false;
+        for (let index = 0; index < Object.keys(plot).length; index++) {
+            const element = plot[index];
+            if (!found && typeRoll > element.chance) {
+                seed = element;
+                found = true;
+            }
+        }
+
+
+        properties.NAME = seed.NAME;
+        properties.SPT = seed.SPT;
+        properties.WATER = seed.WATER;
+        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+    } else if (type == 5) {
+        let plot = SEEDS[4];
+        let seed = plot[Object.keys(plot).length - 1];
+        let typeRoll = Math.floor(Math.random() * 100) + 1;
+
+
+        let found = false;
+        for (let index = 0; index < Object.keys(plot).length; index++) {
+            const element = plot[index];
+            if (!found && typeRoll > element.chance) {
+                seed = element;
+                found = true;
+            }
+        }
+
+
+        properties.NAME = seed.NAME;
+        properties.SPT = seed.SPT;
+        properties.WATER = seed.WATER;
+        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+
+    } else if (type == 6) {
+        let plot = SEEDS[5];
+        let seed = plot[Object.keys(plot).length - 1];
+        let typeRoll = Math.floor(Math.random() * 100) + 1;
+
+
+        let found = false;
+        for (let index = 0; index < Object.keys(plot).length; index++) {
+            const element = plot[index];
+            if (!found && typeRoll > element.chance) {
+                seed = element;
+                found = true;
+            }
+        }
+
 
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
@@ -300,6 +444,41 @@ const generateRandomSeed = (to, SEEDS) => {
     return instance;
 };
 
+
+/**
+ * 
+ * @param {*} hive  hive js
+ * @param {*} plot  number of plot , exa : 1 ASIA etc..
+ * @param {*} userBuyer user to issue
+ */
+
+const createOneSeed = async (hive, plot, userBuyer) => {
+
+    let instances = [];
+    instances.push(generateOneRandomSeed(userBuyer, plot, SEEDS));
+
+
+    let json = {
+        contractName: "nft",
+        contractAction: "issueMultiple",
+        contractPayload: {
+            instances: instances
+        }
+    }
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
+};
+
+
 const CreateBud = (nameBudNFT, to) => {
 
     const properties = {
@@ -318,11 +497,13 @@ const CreateBud = (nameBudNFT, to) => {
     return instance;
 }
 
-const CreateWater = (nameWaterNFT, to) => {
+const CreateWater = (nameWaterNFT, quantity, to) => {
 
     const properties = {
         NAME: nameWaterNFT,
         TYPE: "water",
+        WATER: quantity
+
     };
 
     const instance = {
@@ -392,14 +573,16 @@ const createBud = async (hive, name, quantity, userBuyer) => {
         }
     }
 
-    hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
-        if (err) {
-            console.log(err)
-            throw new Error("error");
-        } else {
-            console.log((result))
-        }
-    });
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
 
 };
 
@@ -407,9 +590,8 @@ const createWater = async (hive, name, quantity, userBuyer) => {
 
     let instances = [];
 
-    for (let index = 0; index < quantity; index++) {
-        instances.push(CreateWater(name, userBuyer));
-    }
+    instances.push(CreateWater(name, quantity, userBuyer));
+
 
     let json = {
         contractName: "nft",
@@ -418,17 +600,19 @@ const createWater = async (hive, name, quantity, userBuyer) => {
             instances: instances
         }
     }
-    
+
     console.log(instances);
 
-    hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
-        if (err) {
-            console.log(err)
-            throw new Error("error");
-        } else {
-            console.log((result))
-        }
-    });
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
 
 };
 
@@ -446,15 +630,17 @@ const createPlot = async (hive, name, quantity, userBuyer) => {
             instances: instances
         }
     }
-    
-    hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
-        if (err) {
-            console.log(err)
-            throw new Error("error");
-        } else {
-            console.log((result))
-        }
-    });
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
 
 };
 
@@ -473,14 +659,17 @@ const createBooster = async (hive, name, consumableType, userBuyer) => {
     }
 
 
-    hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
-        if (err) {
-            console.log(err)
-            throw new Error("error");
-        } else {
-            console.log((result))
-        }
-    });
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
+
 
 };
 
@@ -501,21 +690,22 @@ const createSeed = async (hive, packs, userBuyer) => {
         }
     }
 
-    hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
-        if (err) {
-            console.log(err)
-            throw new Error("error");
-        } else {
-            console.log((result))
-        }
-    });
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
 
-
+            } else {
+                resolve(result)
+            }
+        });
+    })
 
 };
 
 module.exports = contract = {
     createSeed,
+    createOneSeed,
     createBooster,
     createPlot,
     createWater,

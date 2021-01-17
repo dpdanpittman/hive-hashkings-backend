@@ -169,10 +169,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50503040; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50510441; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50503040;
+const ago = ENV.ago || 50510441;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -657,29 +657,7 @@ function startApp() {
                 if (state.users[from].buds[i].strain == json.buds && state.users[from].xps > 4999) { bud = state.users[from].buds.splice(i, 1)[0]; break; }
             }
         } catch (e) {}
-        if (!bud) {
-            try {
-                if (state.users[from].buds.length) bud == state.users[from].buds.splice(0, 1)[0]
-            } catch (e) {}
-        }
-
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_blunt']);
-            budNames += `${buds}`;
-
-            state.users[from].bluntwraps--;
-
-            var blunt = {
-                strain: buds,
-                createdBy: from,
-                createdOn: dateCreated
-            }
-            if (state.users[from].buds[i].strain == json.buds && state.users[from].xps > 4999) {
-                state.users[from].blunts.push(blunt)
-            }
-
-        }
-        state.users[from].xps += 250;
+        
         state.cs[`${json.block_num}:${from}`] = `${from} crafted a blunt with ${budNames}`
     });
 
@@ -691,61 +669,7 @@ function startApp() {
             oilNames = '',
             kief = json.kief,
             kiefNames = ''
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_moonrocks']);
-            budNames += `${buds}`;
-            oilNames += `${oil}`;
-            kiefNames += `${kief}`;
-
-            var bud = ''
-
-            try {
-                for (var i = 0; i < state.users[from].buds.length; i++) {
-                    if (state.users[from].buds[i].strain == json.buds) { bud = state.users[from].buds.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!bud) {
-                try {
-                    if (state.users[from].buds.length) bud == state.users[from].buds.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var kiefs = ''
-
-            try {
-                for (var i = 0; i < state.users[from].kief.length; i++) {
-                    if (state.users[from].kief[i].strain == json.kief) { kiefs = state.users[from].kief.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!kiefs) {
-                try {
-                    if (state.users[from].kief.length) kiefs == state.users[from].kief.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var oils = ''
-
-            try {
-                for (var i = 0; i < state.users[from].oil.length; i++) {
-                    if (state.users[from].oil[i].strain == json.oil) { oils = state.users[from].oil.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!oils) {
-                try {
-                    if (state.users[from].oil.length) oils == state.users[from].oil.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var craftedMoonrock = {
-                buds: buds,
-                oil: oil,
-                kief: kief,
-                createdBy: from,
-                createdOn: json.block_num
-            }
-
-            state.users[from].moonrocks.push(craftedMoonrock)
-        }
+        for (var i = 0; i < 1; i++) {}
         state.cs[`${json.block_num}:${from}`] = `${from} created a moonrock from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
 
@@ -757,64 +681,7 @@ function startApp() {
             oilNames = '',
             kief = json.kief,
             kiefNames = ''
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_dipped_joint']);
-            budNames += `${buds}`;
-            oilNames += `${oil}`;
-            kiefNames += `${kief}`;
-
-            state.users[from].papers--;
-
-            var bud = ''
-
-            try {
-                for (var i = 0; i < state.users[from].buds.length; i++) {
-                    if (state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99999) { bud = state.users[from].buds.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!bud) {
-                try {
-                    if (state.users[from].buds.length) bud == state.users[from].buds.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var kiefs = ''
-
-            try {
-                for (var i = 0; i < state.users[from].kief.length; i++) {
-                    if (state.users[from].kief[i].strain == json.kief && state.users[from].xps > 99999) { kiefs = state.users[from].kief.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!kiefs) {
-                try {
-                    if (state.users[from].kief.length) kiefs == state.users[from].kief.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var oils = ''
-
-            try {
-                for (var i = 0; i < state.users[from].oil.length; i++) {
-                    if (state.users[from].oil[i].strain == json.oil && state.users[from].xps > 99999) { oils = state.users[from].oil.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!oils) {
-                try {
-                    if (state.users[from].oil.length) oils == state.users[from].oil.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var dippedJoint = {
-                buds: buds,
-                oil: oil,
-                kief: kief,
-                createdBy: from,
-                createdOn: json.block_num
-            }
-            if (state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99999) {
-                state.users[from].dippedjoints.push(dippedJoint)
-            }
-        }
+        
         state.cs[`${json.block_num}:${from}`] = `${from} created a dipped joint from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
 
@@ -827,64 +694,7 @@ function startApp() {
             kief = json.kief,
             kiefNames = ''
 
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_cannagar']);
-            budNames += `${buds}`;
-            oilNames += `${oil}`;;
-            kiefNames += `${kief}`;
-
-            state.users[from].hempwraps--;
-
-            var bud = ''
-
-            try {
-                for (var i = 0; i < state.users[from].buds.length; i++) {
-                    if (state.users[from].buds[i].strain == json.buds && state.users[from].xps > 999999) { bud = state.users[from].buds.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!bud) {
-                try {
-                    if (state.users[from].buds.length) bud == state.users[from].buds.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var kiefs = ''
-
-            try {
-                for (var i = 0; i < state.users[from].kief.length; i++) {
-                    if (state.users[from].kief[i].strain == json.kief && state.users[from].xps > 999999) { kiefs = state.users[from].kief.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!kiefs) {
-                try {
-                    if (state.users[from].kief.length) kiefs == state.users[from].kief.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var oils = ''
-
-            try {
-                for (var i = 0; i < state.users[from].oil.length; i++) {
-                    if (state.users[from].oil[i].strain == json.oil && state.users[from].xps > 999999) { oils = state.users[from].oil.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!oils) {
-                try {
-                    if (state.users[from].oil.length) oils == state.users[from].oil.splice(0, 1)[0]
-                } catch (e) {}
-            }
-
-            var cannagar = {
-                buds: buds,
-                oil: oil,
-                kief: kief,
-                createdBy: from,
-                createdOn: json.block_num
-            }
-            if (state.users[from].xps > 999999) {
-                state.users[from].cannagars.push(cannagar)
-            }
-        }
+        
         state.cs[`${json.block_num}:${from}`] = `${from} created a cannagar from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
     });
 
@@ -902,36 +712,6 @@ function startApp() {
             friend4Name = '',
             friend5 = json.friend5,
             friend5Name = ''
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_joint']);
-            jointName += `${joint}`;
-            friend1Name += `${friend1}`;
-            friend2Name += `${friend2}`;
-            friend3Name += `${friend3}`;
-            friend4Name += `${friend4}`;
-            friend5Name += `${friend5}`;
-
-            state.users[from].xps += 25;
-            state.users[friend1].xps += 5;
-            state.users[friend2].xps += 5;
-            state.users[friend3].xps += 5;
-            state.users[friend4].xps += 5;
-            state.users[friend5].xps += 5;
-
-
-            var joints = ''
-
-            try {
-                for (var i = 0; i < state.users[from].joints.length; i++) {
-                    if (state.users[from].joints[i].strain == json.joint) { joints = state.users[from].joints.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!joints) {
-                try {
-                    if (state.users[from].joints.length) joints == state.users[from].joints.splice(0, 1)[0]
-                } catch (e) {}
-            }
-        }
         state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${jointName} joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
     });
 
@@ -949,36 +729,7 @@ function startApp() {
             friend4Name = '',
             friend5 = json.friend5,
             friend5Name = ''
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_blunt']);
-            bluntName += `${blunt}`;
-            friend1Name += `${friend1}`;
-            friend2Name += `${friend2}`;
-            friend3Name += `${friend3}`;
-            friend4Name += `${friend4}`;
-            friend5Name += `${friend5}`;
-
-            state.users[from].xps += 50;
-            state.users[friend1].xps += 10;
-            state.users[friend2].xps += 10;
-            state.users[friend3].xps += 10;
-            state.users[friend4].xps += 10;
-            state.users[friend5].xps += 10;
-
-
-            var blunts = ''
-
-            try {
-                for (var i = 0; i < state.users[from].blunts.length; i++) {
-                    if (state.users[from].blunts[i].strain == json.blunt) { blunts = state.users[from].blunts.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!blunts) {
-                try {
-                    if (state.users[from].blunts.length) blunts == state.users[from].blunts.splice(0, 1)[0]
-                } catch (e) {}
-            }
-        }
+        
         state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${bluntName} joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
     });
 
@@ -989,29 +740,7 @@ function startApp() {
             friend1 = json.friend1,
             friend1Name = '',
             friend2 = json.friend2
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_blunt']);
-            ediblesName += `${edibles}`;
-            friend1Name += `${friend1}`;
-            friend2Name += `${friend2}`;
-
-            state.users[from].xps += 50;
-            state.users[friend1].xps += 25;
-            state.users[friend2].xps += 25;
-
-            var edible = ''
-
-            try {
-                for (var i = 0; i < state.users[from].blunts.length; i++) {
-                    if (state.users[from].edibles[i].strain == json.edibles) { edible = state.users[from].edibles.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!edible) {
-                try {
-                    if (state.users[from].edibles.length) edible == state.users[from].edibles.splice(0, 1)[0]
-                } catch (e) {}
-            }
-        }
+       
         state.cs[`${json.block_num}:${from}`] = `${from} ate a ${ediblesName} brownie with ${friend1Name} and ${friend2Name}`
     });
 
@@ -1029,36 +758,8 @@ function startApp() {
             friend4Name = '',
             friend5 = json.friend5,
             friend5Name = ''
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_dipped_joint']);
-            dippedJointName += `${dippedJoint}`;
-            friend1Name += `${friend1}`;
-            friend2Name += `${friend2}`;
-            friend3Name += `${friend3}`;
-            friend4Name += `${friend4}`;
-            friend5Name += `${friend5}`;
-
-            state.users[from].xps += 100;
-            state.users[friend1].xps += 20;
-            state.users[friend2].xps += 20;
-            state.users[friend3].xps += 20;
-            state.users[friend4].xps += 20;
-            state.users[friend5].xps += 20;
-
-
-            var dippedJoints = ''
-
-            try {
-                for (var i = 0; i < state.users[from].blunts.length; i++) {
-                    if (state.users[from].dippedjoints[i].strain == json.dippedJoint) { dippedJoints = state.users[from].dippedJoints.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!dippedJoints) {
-                try {
-                    if (state.users[from].dippedjoints.length) dippedJoints == state.users[from].dippedjoints.splice(0, 1)[0]
-                } catch (e) {}
-            }
-        }
+       
+        
         state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${dippedJointName} dipped joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
     });
 
@@ -1076,36 +777,7 @@ function startApp() {
             friend4Name = '',
             friend5 = json.friend5,
             friend5Name = ''
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'smoked_cannagar']);
-            cannagarName += `${cannagar}`;
-            friend1Name += `${friend1}`;
-            friend2Name += `${friend2}`;
-            friend3Name += `${friend3}`;
-            friend4Name += `${friend4}`;
-            friend5Name += `${friend5}`;
-
-            state.users[from].xps += 200;
-            state.users[friend1].xps += 40;
-            state.users[friend2].xps += 40;
-            state.users[friend3].xps += 40;
-            state.users[friend4].xps += 40;
-            state.users[friend5].xps += 40;
-
-
-            var cannagars = ''
-
-            try {
-                for (var i = 0; i < state.users[from].cannagars.length; i++) {
-                    if (state.users[from].cannagars[i].strain == json.cannagar) { cannagars = state.users[from].cannagars.splice(i, 1)[0]; break; }
-                }
-            } catch (e) {}
-            if (!cannagars) {
-                try {
-                    if (state.users[from].cannagars.length) cannagars == state.users[from].cannagars.splice(0, 1)[0]
-                } catch (e) {}
-            }
-        }
+        
         state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${cannagarName} cannagar with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
     });
 
@@ -1275,12 +947,14 @@ function startApp() {
                         || want === 'jamaica' && amount > (state.stats.prices.land.jamaica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.jamaica.price * 1000) + 3000 && state.stats.supply.jamaica >= 1
                         || want === 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 3000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 3000 && state.stats.supply.mexico >= 1
                         || want === 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 3000 && state.stats.supply.southAmerica >= 1
+                        //purchase 
                         || want === 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.asia >= 1
                         || want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.afghanistan >= 1
                         || want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.africa >= 1    
                         || want === 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.jamaicaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.jamaica >= 1
                         || want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.mexico >= 1
                         || want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.southAmerica >= 1
+                        //purchase water plants
                         || want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1' 
                         || want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[from].lvl >= 10
                         || want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[from].lvl >= 20
@@ -1305,14 +979,30 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[from].waterPlants.lvl1++
 
-                                // create nft
-                                contract.createSeed(hive, 1, from)
-                                contract.createPlot(hive,"Asia",1,from);
-                                contract.createWater(hive,"Water",1,from)
+                                // create one seed nft and return type of seed
+                                contract.createOneSeed(hive, 1, from).then(res => {
+                                    const { data } = res
+                                    let seedData =  data.result[0]
+                                    let strain = seedData.type
+
+                                    //maybe if statement depending on data returned
+                                    strain = {
+                                        spt: 1, // will be replaced with data from promise
+                                        water: 235 // will be replaced with data from promise
+                                        }
+                                    
+                                    state.users[json.from].seeds.push(strain)
+                                })
+                                
+                                // create one asia plot NFT
+                                contract.createPlot(hive,"Asia",1,from)
+
+                                // create level 1 water plant
+                                contract.createWater(hive,"Water",10,from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an asia bundle`
                              
                             } if (want == 'jamaica_bundle' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.asia != 0) {
                                 
@@ -1328,14 +1018,30 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[from].waterPlants.lvl1++
 
-                                // create nft
-                                contract.createSeed(hive, 1, from)
-                                contract.createPlot(hive,"Jamaica",1,from);
-                                contract.createWater(hive,"Water",1,from)
+                                // create one seed nft and return type of seed
+                                contract.createOneSeed(hive, 2, from).then(res => {
+                                    const { data } = res
+                                    let seedData =  data.result[0]
+                                    let strain = seedData.type
+
+                                    //maybe if statement depending on data returned
+                                    strain = {
+                                        spt: 1, // will be replaced with data from promise
+                                        water: 235 // will be replaced with data from promise
+                                        }
+                                    
+                                    state.users[json.from].seeds.push(strain)
+                                })
+
+                                // create one jamaica plot NFT
+                                contract.createPlot(hive,"Jamaica",1,from)
+
+                                // create one lvl 1 water plant NFT
+                                contract.createWater(hive,"Water",10,from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a jamaica bundle`
                              
                             } if (want == 'africa_bundle' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.asia != 0) {
                                 
@@ -1351,14 +1057,30 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[from].waterPlants.lvl1++
 
-                                // create nft
-                                contract.createSeed(hive, 1, from)
-                                contract.createPlot(hive,"Africa",1,from);
-                                contract.createWater(hive,"Water",1,from)
+                                // create one seed nft and return type of seed
+                                contract.createOneSeed(hive, 1, from).then(res => {
+                                    const { data } = res
+                                    let seedData =  data.result[0]
+                                    let strain = seedData.type
+
+                                    //maybe if statement depending on data returned
+                                    strain = {
+                                        spt: 1, // will be replaced with data from promise
+                                        water: 235 // will be replaced with data from promise
+                                        }
+                                    
+                                    state.users[json.from].seeds.push(strain)
+                                })
+
+                                // create one africa NFT
+                                contract.createPlot(hive,"Africa",3,from);
+
+                                // create one lvl 1 water nft
+                                contract.createWater(hive,"Water",10,from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an africa bundle`
                              
                             } if (want == 'afghanistan_bundle' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.asia != 0) {
                                 
@@ -1374,14 +1096,30 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[from].waterPlants.lvl1++
 
-                                // create nft
-                                contract.createSeed(hive, 1, from)
-                                contract.createPlot(hive,"Afghanistan",1,from);
-                                contract.createWater(hive,"Water",1,from)
+                                // create one seed nft and return type of seed
+                                contract.createOneSeed(hive, 1, from).then(res => {
+                                    const { data } = res
+                                    let seedData =  data.result[0]
+                                    let strain = seedData.type
+
+                                    //maybe if statement depending on data returned
+                                    strain = {
+                                        spt: 1, // will be replaced with data from promise
+                                        water: 235 // will be replaced with data from promise
+                                        }
+                                    
+                                    state.users[json.from].seeds.push(strain)
+                                })
+
+                                // create one afghanistan plot NFT
+                                contract.createPlot(hive,"Afghanistan",4,from);
+
+                                // create one water lvl 1 water NFT
+                                contract.createWater(hive,"Water",10,from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an afghanistan bundle`
                              
                             } if (want == 'mexico_bundle' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.asia != 0) {
                                 
@@ -1397,14 +1135,30 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[from].waterPlants.lvl1++
 
-                                // create nft
-                                contract.createSeed(hive, 1, from)
+                                // create one seed nft and return type of seed
+                                contract.createOneSeed(hive, 5, from).then(res => {
+                                    const { data } = res
+                                    let seedData =  data.result[0]
+                                    let strain = seedData.type
+
+                                    //maybe if statement depending on data returned
+                                    strain = {
+                                        spt: 1, // will be replaced with data from promise
+                                        water: 235 // will be replaced with data from promise
+                                        }
+                                    
+                                    state.users[json.from].seeds.push(strain)
+                                })
+
+                                // create one mexico NFT
                                 contract.createPlot(hive,"Mexico",1,from);
-                                contract.createWater(hive,"Water",1,from)
+
+                                // create one lvl 1 water nft
+                                contract.createWater(hive,"Water",10,from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a mexico bundle`
                              
                             } if (want == 'southAmerica_bundle' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.asia != 0) {
                                 
@@ -1420,14 +1174,30 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[from].waterPlants.lvl1++
 
-                                // create nft
-                                contract.createSeed(hive, 1, from)
+                                // create one seed nft and return type of seed
+                                contract.createOneSeed(hive, 6, from).then(res => {
+                                    const { data } = res
+                                    let seedData =  data.result[0]
+                                    let strain = seedData.type
+
+                                    //maybe if statement depending on data returned
+                                    strain = {
+                                        spt: 1, // will be replaced with data from promise
+                                        water: 235 // will be replaced with data from promise
+                                        }
+                                    
+                                    state.users[json.from].seeds.push(strain)
+                                })
+
+                                // create one south america NFT
                                 contract.createPlot(hive,"South America",1,from);
-                                contract.createWater(hive,"Water",1,from)
+
+                                // create one lvl 1 water NFT
+                                contract.createWater(hive,"Water",10,from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased south america bundle`
                              
                             } else if (want == 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.asia != 0) {
                                 

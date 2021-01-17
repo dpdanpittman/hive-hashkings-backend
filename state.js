@@ -305,11 +305,17 @@ module.exports = {
       "qwoyn": {
          "plots": {
             "asia": 0,
+            "asiaUsed": 0,
             "africa": 0,
+            "africaUsed": 0,
             "afghanistan": 0,
+            "afghanistanUsed": 0,
             "southAmerica": 0,
+            "southAmericaUsed": 0,
             "jamaica": 0,
+            "jamaicaUsed": 0,
             "mexico": 0,
+            "mexicoUsed": 0,
          },
          "plotCount": 0,
          "seedCount": 16,
