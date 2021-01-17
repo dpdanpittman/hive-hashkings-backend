@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50511735; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50511887; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50511735;
+const ago = ENV.ago || 50511887;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -482,7 +482,7 @@ function startApp() {
                             }
                             state.land[plants[i]] = parcel;
 
-                            contract.createBud(hive, "ricabud", 1, from)
+                            contract.createBud(hivejs, "ricabud", 1, from)
                             state.users[state.land[plants[i]].owner].xps += 25;
 
                         }
@@ -981,7 +981,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 1, json.from).then(res => {
+                                contract.createOneSeed(hivejs, 1, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -996,10 +996,10 @@ function startApp() {
                                 })
                                 
                                 // create one asia plot NFT
-                                contract.createPlot(hive,"Asia",1,json.from)
+                                contract.createPlot(hivejs,"Asia",1,json.from)
 
                                 // create level 1 water plant
-                                contract.createWater(hive,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1020,7 +1020,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 2, json.from).then(res => {
+                                contract.createOneSeed(hivejs, 2, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1035,10 +1035,10 @@ function startApp() {
                                 })
 
                                 // create one jamaica plot NFT
-                                contract.createPlot(hive,"Jamaica",1,json.from)
+                                contract.createPlot(hivejs,"Jamaica",1,json.from)
 
                                 // create one lvl 1 water plant NFT
-                                contract.createWater(hive,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1059,7 +1059,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 1, json.from).then(res => {
+                                contract.createOneSeed(hivejs, 1, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1074,10 +1074,10 @@ function startApp() {
                                 })
 
                                 // create one africa NFT
-                                contract.createPlot(hive,"Africa",3,json.from);
+                                contract.createPlot(hivejs,"Africa",3,json.from);
 
                                 // create one lvl 1 water nft
-                                contract.createWater(hive,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1098,7 +1098,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 1, json.from).then(res => {
+                                contract.createOneSeed(hivejs, 1, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1113,10 +1113,10 @@ function startApp() {
                                 })
 
                                 // create one afghanistan plot NFT
-                                contract.createPlot(hive,"Afghanistan",4,json.from);
+                                contract.createPlot(hivejs,"Afghanistan",4,json.from);
 
                                 // create one water lvl 1 water NFT
-                                contract.createWater(hive,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1138,7 +1138,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 5, json.from).then(res => {
+                                contract.createOneSeed(hivejs, 5, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1155,10 +1155,10 @@ function startApp() {
                                 })
 
                                 // create one mexico NFT
-                                contract.createPlot(hive,"Mexico",1,json.from);
+                                contract.createPlot(hivejs,"Mexico",1,json.from);
 
                                 // create one lvl 1 water nft
-                                contract.createWater(hive,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1179,7 +1179,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hive, 6, json.from).then(res => {
+                                contract.createOneSeed(hivejs, 6, json.from).then(res => {
                                     const { data } = res
                                     let seedData =  data.result[0]
                                     let strain = seedData.type
@@ -1196,10 +1196,10 @@ function startApp() {
                                 })
 
                                 // create one south america NFT
-                                contract.createPlot(hive,"South America",1,json.from);
+                                contract.createPlot(hivejs,"South America",1,json.from);
 
                                 // create one lvl 1 water NFT
-                                contract.createWater(hive,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",10,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1217,7 +1217,7 @@ function startApp() {
                                 state.users[json.from].plots.asia++
 
                                 // create nft
-                                contract.createPlot(hive, "Asia", 1, json.from);
+                                contract.createPlot(hivejs, "Asia", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1234,7 +1234,7 @@ function startApp() {
                                 state.users[json.from].plots.afghanistan++
 
                                 // create nft
-                                contract.createPlot(hive, "Afghanistan", 1, json.from);
+                                contract.createPlot(hivejs, "Afghanistan", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1251,7 +1251,7 @@ function startApp() {
                                 state.users[json.from].plots.africa++
 
                                 // create nft
-                                contract.createPlot(hive, "Africa", 1, json.from);
+                                contract.createPlot(hivejs, "Africa", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1268,7 +1268,7 @@ function startApp() {
                                 state.users[json.from].plots.jamaica++
 
                                 // create nft
-                                contract.createPlot(hive, "Jamaica", 1, json.from);
+                                contract.createPlot(hivejs, "Jamaica", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1285,7 +1285,7 @@ function startApp() {
                                 state.users[json.from].plots.mexico++
 
                                 // create nft
-                                contract.createPlot(hive, "Mexico", 1, json.from);
+                                contract.createPlot(hivejs, "Mexico", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1302,7 +1302,7 @@ function startApp() {
                                 state.users[json.from].plots.southAmerica++
 
                                 // create nft
-                                contract.createPlot(hive, "South America", 1, json.from);
+                                contract.createPlot(hivejs, "South America", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1316,7 +1316,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 1, json.from)
+                                contract.createWater(hivejs, "Water", 1, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1330,7 +1330,7 @@ function startApp() {
                                 state.users[from].waterPlants.lvl2++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 2, json.from)
+                                contract.createWater(hivejs, "Water", 2, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1344,7 +1344,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl3++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 3, json.from)
+                                contract.createWater(hivejs, "Water", 3, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1358,7 +1358,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl4++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 4, json.from)
+                                contract.createWater(hivejs, "Water", 4, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1372,7 +1372,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl5++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 5, json.from)
+                                contract.createWater(hivejs, "Water", 5, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1386,7 +1386,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl6++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 6, json.from)
+                                contract.createWater(hivejs, "Water", 6, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1400,7 +1400,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl7++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 7, json.from)
+                                contract.createWater(hivejs, "Water", 7, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1414,7 +1414,7 @@ function startApp() {
                                 state.users[from].waterPlants.lvl8++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 8, json.from)
+                                contract.createWater(hivejs, "Water", 8, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1428,7 +1428,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl9++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 9, json.from)
+                                contract.createWater(hivejs, "Water", 9, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1442,7 +1442,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl10++
 
                                 // create nft
-                                contract.createWater(hive, "Water", 10, json.from)
+                                contract.createWater(hivejs, "Water", 10, json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
