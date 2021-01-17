@@ -1145,7 +1145,7 @@ function startApp() {
                                     for(let i = 0; i < 1; i++) {
                                         let seedData = data.operations[1]
                                         console.log("pulled data displaying below")
-                                        console.log(data)
+                                        console.log(seedData)
                                     }
                                     //maybe if statement depending on data returned
                                     strain = {
