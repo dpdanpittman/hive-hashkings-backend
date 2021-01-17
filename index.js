@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50527343; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50527604; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50527343;
+const ago = ENV.ago || 50527604;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1140,18 +1140,17 @@ function startApp() {
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 5, json.from).then((res) => {                                    
                                        const seedData = JSON.parse(res.operations[0][1])
-                                       let strain = seedData.contractPayload.instances[0].NAME
-                                       if (strain === "Acapulco Gold") {
-                                           let strainName = "aca"
-                                       }
+                                       console.log(seedData)
+                                       const strain = seedData.contractPayload.instances[0].propertys.NAME
+                                      
                                       //  console.log(data)
                                         console.log("the name is " + strain)
                                 
                                     //maybe if statement depending on data returned
-                                    strain = {
+                                   /* strain = {
                                         spt: 1, // will be replaced with data from promise
                                         water: 235 // will be replaced with data from promise
-                                        }
+                                        }*/
                                     
                                     //state.users[json.from].seeds.push(strain)
                                     console.log("pushed strain to seeds")
