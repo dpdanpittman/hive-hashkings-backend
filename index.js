@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50527604; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50527866; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50527604;
+const ago = ENV.ago || 50527866;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1141,10 +1141,12 @@ function startApp() {
                                 contract.createOneSeed(hivejs, 5, json.from).then((res) => {                                    
                                        const seedData = JSON.parse(res.operations[0][1])
                                        console.log(seedData)
-                                       const strain = seedData.contractPayload.instances[0].propertys.NAME
+                                       console.log(res.operations[0][1].json)
+                                       console.log(contractPayload.instances[0].propertys)
+                                       console.log(contractPayload.instances[0].propertys.NAME)
                                       
                                       //  console.log(data)
-                                        console.log("the name is " + strain)
+                                     //   console.log("the name is " + strain)
                                 
                                     //maybe if statement depending on data returned
                                    /* strain = {
