@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50512500; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50512878; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50512500;
+const ago = ENV.ago || 50512878;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -855,118 +855,118 @@ function startApp() {
     processor.onOperation('transfer', function(json, from) {
         var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'HIVE') {
-            //if user does not exist in db create user and db entry
-            if (!state.users[json.from]) {
-                state.users[json.from] = {
-                    plots: {
-                        asia: 0,
-                        africa: 0,
-                        afghanistan: 0,
-                        southAmerica: 0,
-                        jamaica: 0,
-                        mexico: 0,
-                     },
-                     plotCount: 0,
-                     seedCount: 16,
-                     seeds: {
-                        hk: {},
-                        afg: {},
-                        lkg: {},
-                        mis: {},
-                        lb: {},
-                        kbr: {},
-                        aca: {},
-                        swz: {},
-                        kmj: {},
-                        dp: {},
-                        mal: {},
-                        pam: {},
-                        cg: {},
-                        ach: {},
-                        tha: {},
-                        cht: {}
-                     },
-                     water: 0,
-                     waterCount: 0,
-                     waterPlants:{
-                        lvl1: 0,
-                        lvl2: 0,
-                        lvl3: 0,
-                        lvl4: 0,
-                        lvl5: 0,
-                        lvl7: 0,
-                        lvl8: 0,
-                        lvl9: 0,
-                        lvl10: 0
-                     },
-                     timeBoosters: {
-                        lvl1: 0,
-                        lvl2: 0,
-                        lvl3: 0,
-                        lvl4: 0,
-                        lvl5: 0,
-                        lvl7: 0,
-                        lvl8: 0,
-                        lvl9: 0,
-                        lvl10: 0
-                     },
-                     recollectors: {
-                        lvl1: 0,
-                        lvl2: 0,
-                        lvl3: 0,
-                        lvl4: 0,
-                        lvl5: 0,
-                        lvl7: 0,
-                        lvl8: 0,
-                        vl9: 0,
-                        lvl10: 0
-                     },
-                     buds: 0,
-                     xp: 0,
-                     lvl: 1,
-                     role: 1,
-                     joints: {
-                        splif: 0,
-                        joint: 0,
-                        cone: 0,
-                        kiefJoint: 0,
-                        waxJoint: 0,
-                        blunt: 0
-                     },
-                     MOTA: 0,
-                     MOTAstake: 0
-                }
-            }
+                                        //if user does not exist in db create user and db entry
+                                        if (!state.users[json.from]) {
+                                            state.users[json.from] = {
+                                                plots: {
+                                                    asia: 0,
+                                                    africa: 0,
+                                                    afghanistan: 0,
+                                                    southAmerica: 0,
+                                                    jamaica: 0,
+                                                    mexico: 0,
+                                                },
+                                                plotCount: 0,
+                                                seedCount: 16,
+                                                seeds: {
+                                                    hk: {},
+                                                    afg: {},
+                                                    lkg: {},
+                                                    mis: {},
+                                                    lb: {},
+                                                    kbr: {},
+                                                    aca: {},
+                                                    swz: {},
+                                                    kmj: {},
+                                                    dp: {},
+                                                    mal: {},
+                                                    pam: {},
+                                                    cg: {},
+                                                    ach: {},
+                                                    tha: {},
+                                                    cht: {}
+                                                },
+                                                water: 0,
+                                                waterCount: 0,
+                                                waterPlants:{
+                                                    lvl1: 0,
+                                                    lvl2: 0,
+                                                    lvl3: 0,
+                                                    lvl4: 0,
+                                                    lvl5: 0,
+                                                    lvl7: 0,
+                                                    lvl8: 0,
+                                                    lvl9: 0,
+                                                    lvl10: 0
+                                                },
+                                                timeBoosters: {
+                                                    lvl1: 0,
+                                                    lvl2: 0,
+                                                    lvl3: 0,
+                                                    lvl4: 0,
+                                                    lvl5: 0,
+                                                    lvl7: 0,
+                                                    lvl8: 0,
+                                                    lvl9: 0,
+                                                    lvl10: 0
+                                                },
+                                                recollectors: {
+                                                    lvl1: 0,
+                                                    lvl2: 0,
+                                                    lvl3: 0,
+                                                    lvl4: 0,
+                                                    lvl5: 0,
+                                                    lvl7: 0,
+                                                    lvl8: 0,
+                                                    vl9: 0,
+                                                    lvl10: 0
+                                                },
+                                                buds: 0,
+                                                xp: 0,
+                                                lvl: 1,
+                                                role: 1,
+                                                joints: {
+                                                    splif: 0,
+                                                    joint: 0,
+                                                    cone: 0,
+                                                    kiefJoint: 0,
+                                                    waxJoint: 0,
+                                                    blunt: 0
+                                                },
+                                                MOTA: 0,
+                                                MOTAstake: 0
+                                            }
+                                        }
 
-            //purchasing
-            const amount = parseInt(parseFloat(json.amount) * 1000)
-                        var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
-                            type = json.memo.split(" ")[1] || ''
-                        if (want === 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia >= 1
-                        || want === 'afghanistan' && amount > (state.stats.prices.land.afghanistan.price * 1000) - 3000 &&  amount < (state.stats.prices.land.afghanistan.price * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1
-                        || want === 'africa' && amount > (state.stats.prices.land.africa.price * 1000) - 3000 &&  amount < (state.stats.prices.land.africa.price * 1000) + 3000 && state.stats.supply.land.africa >= 1
-                        || want === 'jamaica' && amount > (state.stats.prices.land.jamaica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.jamaica.price * 1000) + 3000 && state.stats.supply.land.jamaica >= 1
-                        || want === 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 3000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 3000 && state.stats.supply.land.mexico >= 1
-                        || want === 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1
-                        //purchase 
-                        || want === 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.asia >= 1
-                        || want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.afghanistan >= 1
-                        || want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.frica >= 1    
-                        || want === 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.jamaicaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.jamaica >= 1
-                        || want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.mexico >= 1
-                        || want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.southAmerica >= 1
-                        //purchase water plants
-                        || want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1' 
-                        || want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[json.from].lvl >= 10
-                        || want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[json.from].lvl >= 20
-                        || want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && type === '4' && state.stats.users[json.from].lvl >= 30
-                        || want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && type === '5' && state.stats.users[json.from].lvl >= 40
-                        || want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && type === '6' && state.stats.users[json.from].lvl >= 50
-                        || want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && type === '7' && state.stats.users[json.from].lvl >= 60
-                        || want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && type === '8' && state.stats.users[json.from].lvl >= 70
-                        || want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && type === '9' && state.stats.users[json.from].lvl >= 80
-                        || want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && type === '10' && state.stats.users[json.from].lvl >= 90) {
-                            if (want == 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.land.asia != 0) {
+                                //purchasing
+                                const amount = parseInt(parseFloat(json.amount) * 1000)
+                                var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
+                                    type = json.memo.split(" ")[1] || ''
+                                if (want === 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia >= 1
+                                || want === 'afghanistan' && amount > (state.stats.prices.land.afghanistan.price * 1000) - 3000 &&  amount < (state.stats.prices.land.afghanistan.price * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1
+                                || want === 'africa' && amount > (state.stats.prices.land.africa.price * 1000) - 3000 &&  amount < (state.stats.prices.land.africa.price * 1000) + 3000 && state.stats.supply.land.africa >= 1
+                                || want === 'jamaica' && amount > (state.stats.prices.land.jamaica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.jamaica.price * 1000) + 3000 && state.stats.supply.land.jamaica >= 1
+                                || want === 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 3000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 3000 && state.stats.supply.land.mexico >= 1
+                                || want === 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1
+                                //purchase 
+                                || want === 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.asia >= 1
+                                || want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.afghanistan >= 1
+                                || want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.frica >= 1    
+                                || want === 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.jamaicaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.jamaica >= 1
+                                || want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.mexico >= 1
+                                || want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.southAmerica >= 1
+                                //purchase water plants
+                                || want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1' 
+                                || want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[json.from].lvl >= 10
+                                || want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[json.from].lvl >= 20
+                                || want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && type === '4' && state.stats.users[json.from].lvl >= 30
+                                || want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && type === '5' && state.stats.users[json.from].lvl >= 40
+                                || want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && type === '6' && state.stats.users[json.from].lvl >= 50
+                                || want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && type === '7' && state.stats.users[json.from].lvl >= 60
+                                || want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && type === '8' && state.stats.users[json.from].lvl >= 70
+                                || want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && type === '9' && state.stats.users[json.from].lvl >= 80
+                                || want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && type === '10' && state.stats.users[json.from].lvl >= 90) {
+                                    if (want == 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.land.asia != 0) {
                                 
                                 // update total number of plots
                                 state.users[from].plotCount++
@@ -1005,7 +1005,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an asia bundle`
                              
-                            } if (want == 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundle.jamaicBundle * 1000) + 3000 && state.stats.supply.land.jamaica != 0) {
+                                } if (want == 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundle.jamaicBundle * 1000) + 3000 && state.stats.supply.land.jamaica != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1044,7 +1044,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a jamaica bundle`
                              
-                            } if (want == 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.africa != 0) {
+                                } if (want == 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.africa != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1083,7 +1083,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an africa bundle`
                              
-                            } if (want == 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle.price * 1000) + 3000 && state.stats.supply.land.afghanistan != 0) {
+                                } if (want == 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle.price * 1000) + 3000 && state.stats.supply.land.afghanistan != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1122,7 +1122,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an afghanistan bundle`
                              
-                            } if (want == 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico != 0) {
+                                } if (want == 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1140,8 +1140,12 @@ function startApp() {
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 5, json.from).then(res => {
                                     const { data } = res
-                                    let seedData =  data.result[0]
-                                    let strain = seedData.type
+                                    console.log("pulled data displaying below")
+                                    console.log(data)
+                                    let seedData = data
+                                    console.log("set seedData")
+                                    let strain = seedData
+                                    console.log("set strain")
 
                                     //maybe if statement depending on data returned
                                     strain = {
@@ -1150,21 +1154,23 @@ function startApp() {
                                         }
                                     
                                     state.users[json.from].seeds.push(strain)
+                                    console.log("pushed strain to seeds")
 
-                                    console.log(data)
                                 })
 
                                 // create one mexico NFT
                                 contract.createPlot(hivejs,"Mexico",1,json.from);
+                                console.log("createdPlot")
 
                                 // create one lvl 1 water nft
                                 contract.createWater(hivejs,"Water",10,json.from)
+                                console.log("created water")
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a mexico bundle`
                              
-                            } if (want == 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica != 0) {
+                                } if (want == 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1205,7 +1211,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased south america bundle`
                              
-                            } else if (want == 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia != 0) {
+                                } else if (want == 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1222,7 +1228,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                            } else if (want == 'afghanistan' && amount > (state.stats.prices.land.afghanistan.price * 1000) - 3000 &&  amount < (state.stats.prices.land.afghanistan.price * 1000) + 3000 && state.stats.supply.land.afghanistan != 0) {
+                                } else if (want == 'afghanistan' && amount > (state.stats.prices.land.afghanistan.price * 1000) - 3000 &&  amount < (state.stats.prices.land.afghanistan.price * 1000) + 3000 && state.stats.supply.land.afghanistan != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1447,16 +1453,13 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else {
-                                state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to buy tools...please check wallet`
-                            }
+                            } 
                         } else if (amount > 1000000000) {
                             state.bal.r += amount
                             state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                             state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds or land...please check wallet`
-                        }
-        } else if (json.from == username) {
+                            }
+        } else if (json.from === username) {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             for (var i = 0; i < state.refund.length; i++) {
                 if (state.refund[i][1] == json.to && state.refund[i][2] == amount) {
