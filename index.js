@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50526965; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50527192; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50526965;
+const ago = ENV.ago || 50527192;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1138,14 +1138,14 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 5, json.from).then((res) => {
-                                    console.log("the variable res is below")
-                                    console.log(res)
-                                    
-                                       // let seedData = res.operations[0][1]
-                                       // const [ data ] = res.operations[0][1]
+                                contract.createOneSeed(hivejs, 5, json.from).then((res) => {                                    
+                                       const seedData = res.operations[0][1]
+                                       let strain = seedData.json.contractPayload.properties.NAME
+                                       if (strain === "Acapulco Gold") {
+                                           let strainName = "aca"
+                                       }
                                       //  console.log(data)
-                                        console.log(res.operations[0][1])
+                                        console.log("the name is " + seedData.json.contractPayload.properties.NAME)
                                 
                                     //maybe if statement depending on data returned
                                     strain = {
@@ -1159,11 +1159,11 @@ function startApp() {
                                 })
 
                                 // create one mexico NFT
-                                contract.createPlot(hivejs,"Mexico",1,json.from);
+                                //contract.createPlot(hivejs,"Mexico",1,json.from);
                                 console.log("createdPlot")
 
                                 // create one lvl 1 water nft
-                                contract.createWater(hivejs,"Water",10,json.from)
+                                //contract.createWater(hivejs,"Water",10,json.from)
                                 console.log("created water")
 
                                 const c = parseInt(amount)
