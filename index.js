@@ -1141,7 +1141,7 @@ function startApp() {
                                 contract.createOneSeed(hivejs, 5, json.from).then((res) => {
                                     console.log("the variable res is below")
                                     console.log(res)
-                                    const { data } = res.operations[0]
+                                    const { data } = res.operations[1]
                                     console.log("pulled data displaying below")
                                     console.log(data)
                                     let seedData = data
