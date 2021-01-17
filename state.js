@@ -318,117 +318,20 @@ module.exports = {
             "mexicoUsed": 0,
          },
          "plotCount": 0,
-         "seedCount": 16,
-         "seeds": {
-            "hk": {
-               "1": {
-                  "spt": 4,
-                  "water": 82
-               }
-            },
-            "afg": {
-               "1": {
-                  "spt": 5,
-                  "water": 70
-               }
-            },
-            "lkg": {
-               "1": {
-                  "spt": 5,
-                  "water": 43
-               }
-            },
-            "mis": {
-               "1": {
-                  "spt": 6,
-                  "water": 33
-               }
-            },
-            "lb": {
-               "1": {
-                  "spt": 2,
-                  "water": 215
-               }
-            },
-            "kbr": {
-               "1": {
-                  "spt": 3,
-                  "water": 205
-               }
-            },
-            "aca": {
-               "1": {
-                  "spt": 6,
-                  "water": 23
-               }
-            },
-            "swz": {
-               "1": {
-                  "spt": 3,
-                  "water": 168
-               }
-            },
-            "kmj": {
-               "1": {
-                  "spt": 3,
-                  "water": 137
-               }
-            },
-            "dp": {
-               "1": {
-                  "spt": 4,
-                  "water": 104,
-               }
-            },
-            "mal": {
-               "1": {
-                  "spt": 4,
-                  "water": 94
-               }
-            },
-            "pam": {
-               "1": {
-                  "spt": 7,
-                  "water": 9
-               }
-            },
-            "cg": {
-               "1": {
-                  "spt": 7,
-                  "water": 10,
-               }
-            },
-            "ach": {
-               "1": {
-                  "spt": 1,
-                  "water": 235,
-               }
-            },
-            "tha": {
-               "1": {
-                  "spt": 2,
-                  "water": 235,
-               }
-            },
-            "cht": {
-               "1": {
-                  "spt": 2,
-                  "water": 230,
-               }
-            }
-         },
-         "water": 1500,
-         "waterCount": 10,
+         "seedCount": 0,
+         "seeds": {},
+         "water": 0,
+         "waterCount": 0,
          "waterPlants":{
-            "lvl1": 1,
-            "lvl2": 1,
-            "lvl3": 1,
-            "lvl4": 1,
-            "lvl5": 1,
-            "lvl7": 1,
-            "lvl8": 1,
-            "lvl9": 1,
-            "lvl10": 1
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
          },
          "timeBoosters": {
             "lvl1": 1,
