@@ -1,3 +1,5 @@
+const ENV = process.env;
+
 const CONTRACT_CREATOR = 'hashkings';
 const UTILITY_TOKEN_SYMBOL = "HMOTA";
 
