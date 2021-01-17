@@ -3,7 +3,7 @@ const ENV = process.env;
 const CONTRACT_CREATOR = 'hashkings';
 const UTILITY_TOKEN_SYMBOL = "HMOTA";
 
-const ACTIVEKEY = ENV.activeKey;
+const ACTIVEKEY = ENV.activeKey.toString();
 
 const SEEDS_PER_PACK = 3;
 
