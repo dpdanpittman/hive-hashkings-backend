@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50531663; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50536065; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50531663;
+const ago = ENV.ago || 50536065;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -242,6 +242,21 @@ function dynStart(account) {
 
 // gets hive in usd
 function seedPriceConversion(amount) {
+    return new Promise((resolve, reject) => {
+      axios.get('https://api.binance.com/api/v3/ticker/price').then((res) => {
+        const { data } = res
+        const hivePrice = data.find(o => o.symbol === "HIVEUSDT")
+        const hiveCost = amount / hivePrice.price
+        const hiveAmount = hiveCost
+
+        resolve(hiveAmount.toFixed(3))
+      }).catch((err) => {
+        reject(err)
+    })
+})}
+
+// gets hive in usd
+function createTheSeed() {
     return new Promise((resolve, reject) => {
       axios.get('https://api.binance.com/api/v3/ticker/price').then((res) => {
         const { data } = res
@@ -1141,19 +1156,18 @@ function startApp() {
                                 contract.createOneSeed(hivejs, 5, json.from).then((res) => {
                                     const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].propertys.NAME
                                     console.log(JSON.parse(res.operations[0][1].json).contractPayload.instances[0].propertys.NAME)
-                                    let strain = seedData.NAME
-                                   
-                                    var strainInfo = {
-                                        name: seedData.NAME,
-                                        spt: seedData.SPT,
-                                        water: seedData.WATER, 
-                                        pr: seedData.PR
-                                    }
-                                    
-                                    state.users[json.from].seeds.push(strainInfo)
-                                    console.log("pushed strain to seeds")
-
+                                    const strain = seedData.NAME
+                                    resolve(hiveAmount.toFixed(3))
                                 })
+
+                                var strainInfo = {
+                                    name: strain,
+                                    spt: seedData.SPT,
+                                    water: seedData.WATER, 
+                                    pr: seedData.PR
+                                }
+
+                                //state.users[json.from].seeds.push(strainInfo)
 
                                 // create one mexico NFT
                                 contract.createPlot(hivejs,"Mexico",1,json.from);
