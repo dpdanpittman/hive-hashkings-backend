@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50557857; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50558000; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50557857;
+const ago = ENV.ago || 50558000;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1519,7 +1519,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
                             } 
-                        } else if (amount > 1000000000) {
+                        } else if (!amount) {
                             state.bal.r += amount
                             state.refund.push(['xfer', wrongTransaction, amount, json.from + ' sent a weird transfer...refund?'])
                             state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds or land...please check wallet`
