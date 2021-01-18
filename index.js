@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50557350; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50557857; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50557350;
+const ago = ENV.ago || 50557857;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -416,7 +416,7 @@ function startApp() {
                 console.log('------------------------');
                 })
                 landPriceConversion();
-                seedPriceConversion(1).then(prices => {
+                hivePriceConversion(1).then(prices => {
                     let bundlePrice = prices;
 
                     state.stats.prices.bundles.asiaBundle = Math.ceil((bundlePrice * 29.99));
