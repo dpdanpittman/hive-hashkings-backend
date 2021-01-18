@@ -198,6 +198,7 @@ module.exports = {
             "mexicoUsed": 0,
          },
          "plotCount": 0,
+         "seedCount": 0,
          "seeds": [{}],
          "water": 0,
          "waterCount": 0,
