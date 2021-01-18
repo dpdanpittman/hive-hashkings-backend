@@ -1,5 +1,6 @@
 module.exports = {
    "stats": {
+      "seedCount": 1,
       "roles": {
          "farmer": 1,
          "landlord": 2,
@@ -8,10 +9,6 @@ module.exports = {
       "bu": "Qmev6Es1mcwY39wmxJiG5nAAQ82vLLadswcyGYxz8B9E9Z",
       "bi": 49893620,
       "prices": {
-         "seedPacks": {
-            "price": 100,
-            "token": 10000
-         },
          "bundles": {
             "asiaBundle": 100000,
             "africaBundle": 100000,
@@ -19,6 +16,58 @@ module.exports = {
             "jamaicaBundle": 100000,
             "mexicoBundle": 100000,
             "southAmericaBundle": 100000
+         },
+         "waterPlants": {
+            "LVL1": {
+               "price": 100000,
+               "water": 10,
+               "token": 1000
+            },
+            "LVL2": {
+               "price": 100000,
+               "water": 15,
+               "token": 1000
+            },
+            "LVL3": {
+               "price": 100000,
+               "water": 25,
+               "token": 1000
+            },
+            "LVL4": {
+               "price": 100000,
+               "water": 40,
+               "token": 1000
+            },
+            "LVL5": {
+               "price": 100000,
+               "water": 60,
+               "token": 1000
+            },
+            "LVL6": {
+               "price": 100000,
+               "water": 85,
+               "token": 1000
+            },
+            "LVL7": {
+               "price": 100000,
+               "water": 115,
+               "token": 1000
+            },
+            "LVL8": {
+               "price": 100000,
+               "water": 150,
+               "token": 1000
+            },
+            "LVL9": {
+               "price": 100000,
+               "water": 190,
+               "token": 1000
+            },
+            "LVL10": {
+               "price": 100000,
+               "water": 235,
+               "token": 1000
+            }
          },
          "timeBooster": {
             "lvl1": {
@@ -106,48 +155,6 @@ module.exports = {
                "token": 100000
             }
          },
-         "waterPlant": {
-            "lvl1": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl2": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl3": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl4": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl5": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl6": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl7": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl8": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl9": {
-               "price": 10,
-               "token": 1000
-            },
-            "lvl10": {
-               "price": 10,
-               "token": 1000
-            },
-         }
       },
       "supply": {
          "land": {
@@ -164,133 +171,6 @@ module.exports = {
             "mexico": 375,
             "mexicoC": 0
          },
-         "seedPacks": 5000
-      },
-      "strains": {
-         "hk": {
-            "region": "afghanistan",
-            "spt": 4,
-            "water": 82,
-            "prodMin": 1825,
-            "prodMax": 2175
-         },
-         "afg": {
-            "region": "afghanistan",
-            "spt": 5,
-            "water": 70,
-            "prodMin": 1450,
-            "prodMax": 1800
-         },
-         "lkg": {
-            "region": "afghanistan",
-            "spt": 5,
-            "water": 43,
-            "prodMin": 850,
-            "prodMax": 1100
-         },
-         "mis": {
-            "region": "afghanistan",
-            "spt": 6,
-            "water": 33,
-            "prodMin": 600,
-            "prodMax": 850
-         },
-         "lb": {
-            "region": "jamaica",
-            "spt": 2,
-            "water": 215,
-            "prodMin": 6000,
-            "prodMax": 7000
-         },
-         "kbr": {
-            "region": "jamaica",
-            "spt": 3,
-            "water": 205,
-            "prodMin": 5500,
-            "prodMax": 6500
-         },
-         "aca": {
-            "region": "mexico",
-            "spt": 6,
-            "water": 23,
-            "prodMin": 350,
-            "prodMax": 600
-         },
-         "swz": {
-            "region": "africa",
-            "spt": 3,
-            "water": 168,
-            "prodMin": 4600,
-            "prodMax": 4900
-         },
-         "kmj": {
-            "region": "africa",
-            "spt": 3,
-            "water": 137,
-            "prodMin": 3500,
-            "prodMax": 3900
-         },
-         "dp": {
-            "region": "africa",
-            "spt": 4,
-            "water": 104,
-            "prodMin": 2575,
-            "prodMax": 2925
-         },
-         "mal": {
-            "region": "africa",
-            "spt": 4,
-            "water": 93,
-            "prodMin": 2175,
-            "prodMax": 2525
-         },
-         "pam": {
-            "region": "southAmerica",
-            "spt": 7,
-            "water": 9,
-            "prodMin": 30,
-            "prodMax": 325
-         },
-         "cg": {
-            "region": "southAmerica",
-            "spt": 7,
-            "water": 10,
-            "prodMin": 50,
-            "prodMax": 350
-         },
-         "ach": {
-            "region": "asia",
-            "spt": 1,
-            "water": 235,
-            "prodMin": 7550,
-            "prodMax": 8000
-         },
-         "tha": {
-            "region": "asia",
-            "spt": 2,
-            "water": 235,
-            "prodMin": 7250,
-            "prodMax": 7800
-         },
-         "cht": {
-            "region": "asia",
-            "spt": 2,
-            "water": 230,
-            "prodMin": 7000,
-            "prodMax": 7300
-         }
-      },
-      "waterPlants": {
-         "LVL1": 10,
-         "LVL2": 15,
-         "LVL3": 25,
-         "LVL4": 40,
-         "LVL5": 60,
-         "LVL6": 85,
-         "LVL7": 115,
-         "LVL8": 150,
-         "LVL9": 190,
-         "LVL10": 235
       },
       "farmers": 1,
    },
@@ -318,8 +198,7 @@ module.exports = {
             "mexicoUsed": 0,
          },
          "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
+         "seeds": [{}],
          "water": 0,
          "waterCount": 0,
          "waterPlants":{
@@ -334,26 +213,26 @@ module.exports = {
             "lvl10": 0
          },
          "timeBoosters": {
-            "lvl1": 1,
-            "lvl2": 1,
-            "lvl3": 1,
-            "lvl4": 1,
-            "lvl5": 1,
-            "lvl7": 1,
-            "lvl8": 1,
-            "lvl9": 1,
-            "lvl10": 1
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
          },
          "recollectors": {
-            "lvl1": 1,
-            "lvl2": 1,
-            "lvl3": 1,
-            "lvl4": 1,
-            "lvl5": 1,
-            "lvl7": 1,
-            "lvl8": 1,
-            "lvl9": 1,
-            "lvl10": 1
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
          },
          "buds": 0,
          "xp": 0,

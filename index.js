@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50541788; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50557350; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50541788;
+const ago = ENV.ago || 50557350;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -241,7 +241,7 @@ function dynStart(account) {
 }
 
 // gets hive in usd
-function seedPriceConversion(amount) {
+function hivePriceConversion(amount) {
     return new Promise((resolve, reject) => {
       axios.get('https://api.binance.com/api/v3/ticker/price').then((res) => {
         const { data } = res
@@ -255,7 +255,7 @@ function seedPriceConversion(amount) {
     })
 })}
 
-function tokenPriceConversion() {
+/*function tokenPriceConversion() {
     return new Promise ((resolve, reject) => {
         axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["MOTA"]}},"limit":1000,"offset":0,"indexes":[]}})
   .then(res => {
@@ -276,7 +276,7 @@ function tokenPriceConversion() {
       reject(error)
     console.error(error)
   })
-})}
+})}*/
 
 function landPriceConversion() {
     return new Promise ((resolve, reject) => {
@@ -392,11 +392,9 @@ function startApp() {
             console.log('------------------------');
             console.log('bal.c is ' + state.bal.c);
         
-            seedPriceConversion(1).then(price => {
+            hivePriceConversion(1).then(price => {
 
                 let assetPrice = price;
-                
-                state.stats.prices.seedPacks.price = Math.ceil((assetPrice * 5));
 
                 state.stats.prices.land.asia.price = Math.ceil((assetPrice * 15));
                 state.stats.prices.land.africa.price = Math.ceil((assetPrice * 7.5));
@@ -409,9 +407,6 @@ function startApp() {
 
                 //logging for testing will remove after a while
                 console.log('------------------------');
-                console.log('at block ' + num);
-                console.log('Seed Pack price is ' + state.stats.prices.seedPacks.price);
-                console.log('------------------------');
                 console.log('Asia hive price is ' + state.stats.prices.land.asia.price);
                 console.log('Africa hive price is ' + state.stats.prices.land.africa.price);
                 console.log('Afghanistan hive price is ' + state.stats.prices.land.afghanistan.price);
@@ -420,7 +415,6 @@ function startApp() {
                 console.log('Mexico hive price is ' + state.stats.prices.land.mexico.price);
                 console.log('------------------------');
                 })
-                tokenPriceConversion();
                 landPriceConversion();
                 seedPriceConversion(1).then(prices => {
                     let bundlePrice = prices;
@@ -860,32 +854,21 @@ function startApp() {
                                             state.users[json.from] = {
                                                 plots: {
                                                     asia: 0,
+                                                    asiaUsed: 0,
                                                     africa: 0,
+                                                    africaUsed: 0,
                                                     afghanistan: 0,
+                                                    afghanistanUsed: 0,
                                                     southAmerica: 0,
+                                                    southAmericaUsed: 0,
                                                     jamaica: 0,
+                                                    jamaicaUsed: 0,
                                                     mexico: 0,
+                                                    mexicoUsed: 0
                                                 },
                                                 plotCount: 0,
-                                                seedCount: 16,
-                                                seeds: {
-                                                    hk: {},
-                                                    afg: {},
-                                                    lkg: {},
-                                                    mis: {},
-                                                    lb: {},
-                                                    kbr: {},
-                                                    aca: {},
-                                                    swz: {},
-                                                    kmj: {},
-                                                    dp: {},
-                                                    mal: {},
-                                                    pam: {},
-                                                    cg: {},
-                                                    ach: {},
-                                                    tha: {},
-                                                    cht: {}
-                                                },
+                                                seedCount: 0,
+                                                seeds: [{}],
                                                 water: 0,
                                                 waterCount: 0,
                                                 waterPlants:{
@@ -949,12 +932,12 @@ function startApp() {
                                 || want === 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 3000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 3000 && state.stats.supply.land.mexico >= 1
                                 || want === 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1
                                 //purchase 
-                                || want === 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.asia >= 1
-                                || want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.afghanistan >= 1
-                                || want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.frica >= 1    
-                                || want === 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.jamaicaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.jamaica >= 1
-                                || want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.mexico >= 1
-                                || want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.seedPacks >= 1 && state.stats.supply.land.southAmerica >= 1
+                                || want === 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.land.asia >= 1
+                                || want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1
+                                || want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.frica >= 1    
+                                || want === 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.jamaicaBundle * 1000) + 3000 && state.stats.supply.land.jamaica >= 1
+                                || want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico >= 1
+                                || want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1
                                 //purchase water plants
                                 || want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1' 
                                 || want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[json.from].lvl >= 10
@@ -970,9 +953,6 @@ function startApp() {
                                 
                                 // update total number of plots
                                 state.users[from].plotCount++
-                                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.seedPacks--
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.asia++
@@ -980,21 +960,38 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[json.from].waterPlants.lvl1++
 
+                                // subtracts 1 plot from total land supply
+                                state.stats.land.asia--
+
+                                // adds 1 plot to plots used count
+                                state.stats.land.asiaC++
+
+                                // adds water to users water supply
+                                state.users[json.from].water = 10
+
+                                // adds 1 seed to users seedCount
+                                state.users[json.from].seedCount++
+
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 1, json.from).then(res => {
-                                    const { data } = res
-                                    let seedData =  data.result[0]
-                                    let strain = seedData.type
+                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
-                                    //maybe if statement depending on data returned
-                                    strain = {
-                                        spt: 1, // will be replaced with data from promise
-                                        water: 235 // will be replaced with data from promise
-                                        }
-                                    
-                                    state.users[json.from].seeds.push(strain)
+                                    //update total seed count since genesis
+                                    state.stats.seedCount++
+
+                                    let strain = seedData.NAME
+
+                                var seedName = {
+                                    name: seedData.NAME,
+                                    spt: seedData.SPT,
+                                    water: seedData.WATER, 
+                                    pr: seedData.PR,
+                                    planted: false
+                                }
+
+                                state.users[json.from].seeds[strain].push(seedName)
                                 })
-                                
+
                                 // create one asia plot NFT
                                 contract.createPlot(hivejs,"Asia",1,json.from)
 
@@ -1010,28 +1007,42 @@ function startApp() {
                                 // update total number of plots
                                 state.users[json.from].plotCount++
                                 
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.seedPacks--
-
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.jamaica++
 
                                 //add 1 water to user inventory
                                 state.users[json.from].waterPlants.lvl1++
 
+                                // subtracts 1 plot from total land supply
+                                state.stats.land.jamaicaC--
+
+                                // adds 1 plot to plots used count
+                                state.stats.land.jamaicaC++
+
+                                // adds water to users water supply
+                                state.users[json.from].water = 10
+
+                                // adds 1 seed to users seedCount
+                                state.users[json.from].seedCount++
+
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 2, json.from).then(res => {
-                                    const { data } = res
-                                    let seedData =  data.result[0]
-                                    let strain = seedData.type
+                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
-                                    //maybe if statement depending on data returned
-                                    strain = {
-                                        spt: 1, // will be replaced with data from promise
-                                        water: 235 // will be replaced with data from promise
-                                        }
-                                    
-                                    state.users[json.from].seeds.push(strain)
+                                    //update total seed count since genesis
+                                    state.stats.seedCount++
+
+                                    let strain = seedData.NAME
+
+                                var seedName = {
+                                    name: seedData.NAME,
+                                    spt: seedData.SPT,
+                                    water: seedData.WATER, 
+                                    pr: seedData.PR,
+                                    planted: false
+                                }
+
+                                state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one jamaica plot NFT
@@ -1049,28 +1060,42 @@ function startApp() {
                                 // update total number of plots
                                 state.users[json.from].plotCount++
                                 
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.seedPacks--
-
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.africa++
 
                                 //add 1 water to user inventory
                                 state.users[json.from].waterPlants.lvl1++
 
+                                // subtracts 1 plot from total land supply
+                                state.stats.land.africa--
+
+                                // adds 1 plot to plots used count
+                                state.stats.land.africaC++
+
+                                // adds water to users water supply
+                                state.users[json.from].water = 10
+
+                                // adds 1 seed to users seedCount
+                                state.users[json.from].seedCount++
+
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 1, json.from).then(res => {
-                                    const { data } = res
-                                    let seedData =  data.result[0]
-                                    let strain = seedData.type
+                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
-                                    //maybe if statement depending on data returned
-                                    strain = {
-                                        spt: 1, // will be replaced with data from promise
-                                        water: 235 // will be replaced with data from promise
-                                        }
-                                    
-                                    state.users[json.from].seeds.push(strain)
+                                    //update total seed count since genesis
+                                    state.stats.seedCount++
+
+                                    let strain = seedData.NAME
+
+                                var seedName = {
+                                    name: seedData.NAME,
+                                    spt: seedData.SPT,
+                                    water: seedData.WATER, 
+                                    pr: seedData.PR,
+                                    planted: false                                
+                                }
+
+                                state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one africa NFT
@@ -1087,9 +1112,6 @@ function startApp() {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
-                                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.seedPacks--
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.afghanistan++
@@ -1097,19 +1119,36 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[json.from].waterPlants.lvl1++
 
+                                // subtracts 1 plot from total land supply
+                                state.stats.land.afghanistan--
+
+                                // adds 1 plot to plots used count
+                                state.stats.land.afghanistanC++
+
+                                // adds water to users water supply
+                                state.users[json.from].water = 10
+
+                                // adds 1 seed to users seedCount
+                                state.users[json.from].seedCount++
+
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 1, json.from).then(res => {
-                                    const { data } = res
-                                    let seedData =  data.result[0]
-                                    let strain = seedData.type
+                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
-                                    //maybe if statement depending on data returned
-                                    strain = {
-                                        spt: 1, // will be replaced with data from promise
-                                        water: 235 // will be replaced with data from promise
-                                        }
-                                    
-                                    state.users[json.from].seeds.push(strain)
+                                    //update total seed count since genesis
+                                    state.stats.seedCount++
+
+                                    let strain = seedData.NAME
+
+                                var seedName = {
+                                    name: seedData.NAME,
+                                    spt: seedData.SPT,
+                                    water: seedData.WATER, 
+                                    pr: seedData.PR,
+                                    planted: false                                
+                                }
+
+                                state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one afghanistan plot NFT
@@ -1137,32 +1176,45 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[json.from].waterPlants.lvl1++
 
+                                // subtracts 1 plot from total land supply
+                                state.stats.land.mexico--
+
+                                // adds 1 plot to plots used count
+                                state.stats.land.mexicoC++
+
+                                // adds water to users water supply
+                                state.users[json.from].water = 10
+
+                                // adds 1 seed to users seedCount
+                                state.users[json.from].seedCount++
+
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 5, json.from).then((res) => {
                                     const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
-                                    console.log(JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties.NAME)
+
+                                    //update total seed count since genesis
                                     state.stats.seedCount++
 
-                                    seedName = seedData.NAME
+                                    let strain = seedData.NAME
 
                                 var seedName = {
                                     name: seedData.NAME,
                                     spt: seedData.SPT,
                                     water: seedData.WATER, 
-                                    pr: seedData.PR
-                                
+                                    pr: seedData.PR,
+                                    planted: false                                
                                 }
 
-                                state.users[json.from].seeds.push(seedName)
+                                state.users[json.from].seeds[strain].push(seedName)
                                 })
                                 
-                                /*// create one mexico NFT
+                                // create one mexico NFT
                                 contract.createPlot(hivejs,"Mexico",1,json.from);
                                 console.log("createdPlot")
 
                                 // create one lvl 1 water nft
                                 contract.createWater(hivejs,"Water",10,json.from)
-                                console.log("created water")*/
+                                console.log("created water")
                             
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1172,9 +1224,6 @@ function startApp() {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
-                                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.seedPacks--
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.southAmerica++
@@ -1182,21 +1231,36 @@ function startApp() {
                                 //add 1 water to user inventory
                                 state.users[json.from].waterPlants.lvl1++
 
+                                // subtracts 1 plot from total land supply
+                                state.stats.land.southAmerica--
+
+                                // adds 1 plot to plots used count
+                                state.stats.land.southAmericaC++
+
+                                // adds water to users water supply
+                                state.users[json.from].water = 10
+
+                                // adds 1 seed to users seedCount
+                                state.users[json.from].seedCount++
+
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 6, json.from).then(res => {
-                                    const { data } = res
-                                    let seedData =  data.result[0]
-                                    let strain = seedData.type
+                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
-                                    //maybe if statement depending on data returned
-                                    strain = {
-                                        spt: 1, // will be replaced with data from promise
-                                        water: 235 // will be replaced with data from promise
-                                        }
-                                    
-                                    state.users[json.from].seeds.push(strain)
+                                    //update total seed count since genesis
+                                    state.stats.seedCount++
 
-                                    console.log(data)
+                                    let strain = seedData.NAME
+
+                                var seedName = {
+                                    name: seedData.NAME,
+                                    spt: seedData.SPT,
+                                    water: seedData.WATER, 
+                                    pr: seedData.PR,
+                                    planted: false                                
+                                }
+
+                                state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one south america NFT
@@ -1216,6 +1280,9 @@ function startApp() {
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.asia--
+
+                                // adds 1 plot to plots used count
+                                state.stats.land.asiaC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.asia++
