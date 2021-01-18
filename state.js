@@ -319,7 +319,7 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": {},
+         "seeds": [],
          "water": 0,
          "waterCount": 0,
          "waterPlants":{
