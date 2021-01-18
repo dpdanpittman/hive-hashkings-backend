@@ -607,6 +607,10 @@ const createWater = async (hive, name, quantity, userBuyer) => {
 
     return new Promise((resolve, reject) => {
         hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            console.log("err is ")
+            console.log(err)
+            console.log("res is")
+            console.log(result)
             if (err) {
                 reject(err)
 
