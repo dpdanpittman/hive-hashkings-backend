@@ -292,10 +292,9 @@ const generateRandomSeed = (to, SEEDS) => {
 
     const instance = {
         symbol: UTILITY_TOKEN_SYMBOL,
-        fromType: 'contract',
         to,
         feeSymbol: "BEE",
-        propertys,
+        properties: propertys,
     };
 
     return instance;
@@ -437,10 +436,9 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
 
     const instance = {
         symbol: UTILITY_TOKEN_SYMBOL,
-        fromType: 'contract',
         to,
         feeSymbol: "BEE",
-        propertys,
+        properties:propertys,
     };
 
     return instance;
@@ -490,7 +488,6 @@ const CreateBud = (nameBudNFT, to) => {
 
     const instance = {
         symbol: UTILITY_TOKEN_SYMBOL,
-        fromType: 'contract',
         to,
         feeSymbol: "BEE",
         properties,
@@ -510,7 +507,6 @@ const CreateWater = (nameWaterNFT, quantity, to) => {
 
     const instance = {
         symbol: UTILITY_TOKEN_SYMBOL,
-        fromType: 'contract',
         to,
         feeSymbol: "BEE",
         properties,
@@ -528,7 +524,6 @@ const CreatePlot = (location, to) => {
 
     const instance = {
         symbol: UTILITY_TOKEN_SYMBOL,
-        fromType: 'contract',
         to,
         feeSymbol: "BEE",
         properties,
@@ -548,7 +543,6 @@ const CreateBooster = (name, consumableType, to) => {
 
     const instance = {
         symbol: UTILITY_TOKEN_SYMBOL,
-        fromType: 'contract',
         to,
         feeSymbol: "BEE",
         properties,
