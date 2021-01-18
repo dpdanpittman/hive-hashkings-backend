@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50558383; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50558767; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50558383;
+const ago = ENV.ago || 50558767;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1521,7 +1521,7 @@ function startApp() {
                             } 
                         } else {
                             state.bal.r += amount
-                            state.refund.push(['xfer', wrongTransaction, amount, 'something strange happened please try again'])
+                            state.refund.push(['xfer', json.from, amount, 'something strange happened please try again'])
                             state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds, land or water...please check wallet`
                             }
         } else if (json.from === username) {
@@ -1530,7 +1530,7 @@ function startApp() {
                 if (state.refund[i][1] == json.to && state.refund[i][2] == amount) {
                     state.refund.splice(i, 1);
                     state.bal.r -= amount;
-                    state.cs[`${json.block_num}:${json.to}`] = `${json.to} refunded successfully`
+                    state.cs[`${json.block_num}:${json.to}`] = `${json.from} refunded successfully`
                     break;
                 }
             }
