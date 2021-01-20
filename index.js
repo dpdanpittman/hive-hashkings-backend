@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50600220; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50600520; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50600220;
+const ago = ENV.ago || 50600520;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -942,7 +942,7 @@ function startApp() {
                                             }
 
                                             state.stats.farmers++
-                                            state.stats.farmerList.push(json.to)
+                                            state.stats.farmerList.push(json.from)
                                         }
 
                                 //purchasing
@@ -1005,8 +1005,7 @@ function startApp() {
 
                                     let strain = seedData.NAME
 
-                                    if(strain === "Aceh")
-                                    { 
+                                    if(strain === "Aceh"){ 
                                         strain = "ach"
 
                                         if(!state.users[json.from].seeds[strain])
@@ -1015,8 +1014,7 @@ function startApp() {
                                                 ach: {}
                                             }
                                         }
-                                    } else if(strain === "Thai")
-                                    { 
+                                    } else if(strain === "Thai"){ 
                                         strain = "tha"
 
                                         if(!state.users[json.from].seeds[strain])
@@ -1025,8 +1023,7 @@ function startApp() {
                                                 tha: {}
                                             }
                                         }
-                                    } else if(strain === "Thai Chocolate")
-                                    { 
+                                    } else if(strain === "Thai Chocolate"){ 
                                         strain = "cht"
 
                                         if(!state.users[json.from].seeds[strain])
@@ -1035,17 +1032,17 @@ function startApp() {
                                                 cht: {}
                                             }
                                         }
-                                    }
 
-                                    var seedName = {
-                                        name: seedData.NAME,
-                                        spt: seedData.SPT,
-                                        water: seedData.WATER, 
-                                        pr: seedData.PR,
-                                        planted: false
-                                    }
-
-                                    state.users[json.from].seeds[strain].push(seedName)
+                                        var seedName = {
+                                            name: seedData.NAME,
+                                            spt: seedData.SPT,
+                                            water: seedData.WATER, 
+                                            pr: seedData.PR,
+                                            planted: false
+                                        }
+    
+                                        state.users[json.from].seeds[strain].push(seedName)
+                                    } 
                                 })
 
                                 // create one asia plot NFT
@@ -1110,17 +1107,17 @@ function startApp() {
                                                 kbr: {}
                                             }
                                         }
+
+                                        var seedName = {
+                                            name: seedData.NAME,
+                                            spt: seedData.SPT,
+                                            water: seedData.WATER, 
+                                            pr: seedData.PR,
+                                            planted: false
+                                        }
+    
+                                        state.users[json.from].seeds[strain].push(seedName)
                                     } 
-
-                                    var seedName = {
-                                        name: seedData.NAME,
-                                        spt: seedData.SPT,
-                                        water: seedData.WATER, 
-                                        pr: seedData.PR,
-                                        planted: false
-                                    }
-
-                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one jamaica plot NFT
@@ -1203,17 +1200,17 @@ function startApp() {
                                                 mal: {}
                                             }
                                         }
-                                    }
 
-                                    var seedName = {
-                                        name: seedData.NAME,
-                                        spt: seedData.SPT,
-                                        water: seedData.WATER, 
-                                        pr: seedData.PR,
-                                        planted: false                                
+                                        var seedName = {
+                                            name: seedData.NAME,
+                                            spt: seedData.SPT,
+                                            water: seedData.WATER, 
+                                            pr: seedData.PR,
+                                            planted: false
+                                        }
+    
+                                        state.users[json.from].seeds[strain].push(seedName)
                                     }
-
-                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one africa NFT
@@ -1294,17 +1291,17 @@ function startApp() {
                                                 mis: {}
                                             }
                                         }
-                                    }
 
-                                    var seedName = {
-                                        name: seedData.NAME,
-                                        spt: seedData.SPT,
-                                        water: seedData.WATER, 
-                                        pr: seedData.PR,
-                                        planted: false                                
+                                        var seedName = {
+                                            name: seedData.NAME,
+                                            spt: seedData.SPT,
+                                            water: seedData.WATER, 
+                                            pr: seedData.PR,
+                                            planted: false
+                                        }
+    
+                                        state.users[json.from].seeds[strain].push(seedName)
                                     }
-
-                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one afghanistan plot NFT
@@ -1362,17 +1359,17 @@ function startApp() {
                                                 aca: {}
                                             }
                                         }
-                                    }
 
-                                    var seedName = {
-                                        name: seedData.NAME,
-                                        spt: seedData.SPT,
-                                        water: seedData.WATER, 
-                                        pr: seedData.PR,
-                                        planted: false                                
+                                        var seedName = {
+                                            name: seedData.NAME,
+                                            spt: seedData.SPT,
+                                            water: seedData.WATER, 
+                                            pr: seedData.PR,
+                                            planted: false
+                                        }
+    
+                                        state.users[json.from].seeds[strain].push(seedName)
                                     }
-
-                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
                                 
                                 // create one mexico NFT
@@ -1439,17 +1436,17 @@ function startApp() {
                                                 pr: {}
                                             }
                                         }
+
+                                        var seedName = {
+                                            name: seedData.NAME,
+                                            spt: seedData.SPT,
+                                            water: seedData.WATER, 
+                                            pr: seedData.PR,
+                                            planted: false
+                                        }
+    
+                                        state.users[json.from].seeds[strain].push(seedName)
                                     } 
-
-                                    var seedName = {
-                                        name: seedData.NAME,
-                                        spt: seedData.SPT,
-                                        water: seedData.WATER, 
-                                        pr: seedData.PR,
-                                        planted: false                                
-                                    }
-
-                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one south america NFT
@@ -1489,6 +1486,7 @@ function startApp() {
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.afghanistan--
+                                state.stats.land.afghanistanC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.afghanistan++
@@ -1506,6 +1504,7 @@ function startApp() {
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.africa--
+                                state.stats.land.africaC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.africa++
@@ -1523,6 +1522,7 @@ function startApp() {
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.jamaica--
+                                state.stats.land.jamaicaC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.jamaica++
@@ -1540,6 +1540,7 @@ function startApp() {
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.mexico--
+                                state.stats.land.mexicoC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.mexico++
@@ -1557,6 +1558,7 @@ function startApp() {
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.land.southAmerica--
+                                state.stats.land.southAmericaC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.southAmerica++
