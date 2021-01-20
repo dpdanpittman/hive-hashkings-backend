@@ -128,7 +128,7 @@ const SEEDS = [
             SPT: 7,//Sprouting time
             WATER: 9,
             PR: { min: 30, max: 325 },//Production range   
-            NAME: "Panama red",
+            NAME: "Panama Red",
             chance: 40
         }
     }

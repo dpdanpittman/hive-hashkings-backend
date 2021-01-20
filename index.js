@@ -869,7 +869,6 @@ function startApp() {
     });
 
     processor.onOperation('transfer', function(json, from) {
-        var wrongTransaction = 'qwoyn'
         if (json.to == username && json.amount.split(' ')[1] == 'HIVE') {
                                         //if user does not exist in db create user and db entry
                                         if (!state.users[json.from]) {
@@ -941,6 +940,9 @@ function startApp() {
                                                 MOTA: 0,
                                                 MOTAstake: 0
                                             }
+
+                                            state.stats.farmers++
+                                            state.stats.farmerList.push(json.to)
                                         }
 
                                 //purchasing
@@ -1003,15 +1005,47 @@ function startApp() {
 
                                     let strain = seedData.NAME
 
-                                var seedName = {
-                                    name: seedData.NAME,
-                                    spt: seedData.SPT,
-                                    water: seedData.WATER, 
-                                    pr: seedData.PR,
-                                    planted: false
-                                }
+                                    if(strain === "Aceh")
+                                    { 
+                                        strain = "ach"
 
-                                state.users[json.from].seeds[strain].push(seedName)
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                ach: {}
+                                            }
+                                        }
+                                    } else if(strain === "Thai")
+                                    { 
+                                        strain = "tha"
+
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                tha: {}
+                                            }
+                                        }
+                                    } else if(strain === "Thai Chocolate")
+                                    { 
+                                        strain = "cht"
+
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                cht: {}
+                                            }
+                                        }
+                                    }
+
+                                    var seedName = {
+                                        name: seedData.NAME,
+                                        spt: seedData.SPT,
+                                        water: seedData.WATER, 
+                                        pr: seedData.PR,
+                                        planted: false
+                                    }
+
+                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one asia plot NFT
@@ -1024,7 +1058,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an asia bundle`
                              
-                                } if (want == 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundle.jamaicBundle * 1000) + 3000 && state.stats.supply.land.jamaica != 0) {
+                                } if (want == 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundle.jamaicBundle * 1000) + 3000 && state.stats.supply.land.jamaica >= 1) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1055,16 +1089,38 @@ function startApp() {
                                     state.stats.seedCount++
 
                                     let strain = seedData.NAME
+                                    
+                                    if(strain === "Lamb's Bread")
+                                    { 
+                                        strain = "lb"
 
-                                var seedName = {
-                                    name: seedData.NAME,
-                                    spt: seedData.SPT,
-                                    water: seedData.WATER, 
-                                    pr: seedData.PR,
-                                    planted: false
-                                }
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                lb: {}
+                                            }
+                                        }
+                                    } else if(strain === "King's Bread")
+                                    { 
+                                        strain = "kbr"
 
-                                state.users[json.from].seeds[strain].push(seedName)
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                kbr: {}
+                                            }
+                                        }
+                                    } 
+
+                                    var seedName = {
+                                        name: seedData.NAME,
+                                        spt: seedData.SPT,
+                                        water: seedData.WATER, 
+                                        pr: seedData.PR,
+                                        planted: false
+                                    }
+
+                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one jamaica plot NFT
@@ -1077,7 +1133,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a jamaica bundle`
                              
-                                } if (want == 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.africa != 0) {
+                                } if (want == 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.africa >= 1) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1085,7 +1141,7 @@ function startApp() {
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.africa++
 
-                                //add 1 water to user inventory
+                                //add 1 water tower to user inventory
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
@@ -1095,7 +1151,7 @@ function startApp() {
                                 state.stats.land.africaC++
 
                                 // adds water to users water supply
-                                state.users[json.from].water = 10
+                                state.users[json.from].water = 30
 
                                 // adds 1 seed to users seedCount
                                 state.users[json.from].seedCount++
@@ -1108,16 +1164,56 @@ function startApp() {
                                     state.stats.seedCount++
 
                                     let strain = seedData.NAME
+                                    
+                                    if(strain === "Swazi Gold")
+                                    { 
+                                        strain = "sg"
 
-                                var seedName = {
-                                    name: seedData.NAME,
-                                    spt: seedData.SPT,
-                                    water: seedData.WATER, 
-                                    pr: seedData.PR,
-                                    planted: false                                
-                                }
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                sg: {}
+                                            }
+                                        }
+                                    } else if(strain === "Kilimanjaro")
+                                    { 
+                                        strain = "kmj"
 
-                                state.users[json.from].seeds[strain].push(seedName)
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                kmj: {}
+                                            }
+                                        }
+                                    } else if(strain === "Durban Poison") { 
+                                        strain = "dp"
+
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                dp: {}
+                                            }
+                                        }
+                                    } else if(strain === "Malawi") { 
+                                        strain = "mal"
+
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                mal: {}
+                                            }
+                                        }
+                                    }
+
+                                    var seedName = {
+                                        name: seedData.NAME,
+                                        spt: seedData.SPT,
+                                        water: seedData.WATER, 
+                                        pr: seedData.PR,
+                                        planted: false                                
+                                    }
+
+                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one africa NFT
@@ -1130,7 +1226,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an africa bundle`
                              
-                                } if (want == 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle.price * 1000) + 3000 && state.stats.supply.land.afghanistan != 0) {
+                                } if (want == 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle.price * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1162,15 +1258,53 @@ function startApp() {
 
                                     let strain = seedData.NAME
 
-                                var seedName = {
-                                    name: seedData.NAME,
-                                    spt: seedData.SPT,
-                                    water: seedData.WATER, 
-                                    pr: seedData.PR,
-                                    planted: false                                
-                                }
+                                    if(strain === "Hindu Kush") { 
+                                        strain = "hk"
 
-                                state.users[json.from].seeds[strain].push(seedName)
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                hk: {}
+                                            }
+                                        }
+                                    } else if(strain === "Afghani") { 
+                                        strain = "afg"
+
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                afg: {}
+                                            }
+                                        }
+                                    } else if(strain === "Lashkar Gah") { 
+                                        strain = "lg"
+
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                lg: {}
+                                            }
+                                        }
+                                    } else if(strain === "Mazar I Sharif") { 
+                                        strain = "mis"
+
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                mis: {}
+                                            }
+                                        }
+                                    }
+
+                                    var seedName = {
+                                        name: seedData.NAME,
+                                        spt: seedData.SPT,
+                                        water: seedData.WATER, 
+                                        pr: seedData.PR,
+                                        planted: false                                
+                                    }
+
+                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one afghanistan plot NFT
@@ -1183,7 +1317,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an afghanistan bundle`
                              
-                                } if (want == 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico != 0) {
+                                } if (want == 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico >= 1) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1219,15 +1353,26 @@ function startApp() {
 
                                     let strain = seedData.NAME
 
-                                var seedName = {
-                                    name: seedData.NAME,
-                                    spt: seedData.SPT,
-                                    water: seedData.WATER, 
-                                    pr: seedData.PR,
-                                    planted: false                                
-                                }
+                                    if(strain === "Acapulco Gold") { 
+                                        strain = "aca"
 
-                                state.users[json.from].seeds[strain].push(seedName)
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                aca: {}
+                                            }
+                                        }
+                                    }
+
+                                    var seedName = {
+                                        name: seedData.NAME,
+                                        spt: seedData.SPT,
+                                        water: seedData.WATER, 
+                                        pr: seedData.PR,
+                                        planted: false                                
+                                    }
+
+                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
                                 
                                 // create one mexico NFT
@@ -1242,7 +1387,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a mexico bundle`
                              
-                                } if (want == 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica != 0) {
+                                } if (want == 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1274,15 +1419,37 @@ function startApp() {
 
                                     let strain = seedData.NAME
 
-                                var seedName = {
-                                    name: seedData.NAME,
-                                    spt: seedData.SPT,
-                                    water: seedData.WATER, 
-                                    pr: seedData.PR,
-                                    planted: false                                
-                                }
+                                    if(strain === "Colombian Gold")
+                                    { 
+                                        strain = "cg"
 
-                                state.users[json.from].seeds[strain].push(seedName)
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                cg: {}
+                                            }
+                                        }
+                                    } else if(strain === "Panama Red")
+                                    { 
+                                        strain = "pr"
+
+                                        if(!state.users[json.from].seeds[strain])
+                                        {
+                                            state.users[json.from].seeds = {
+                                                pr: {}
+                                            }
+                                        }
+                                    } 
+
+                                    var seedName = {
+                                        name: seedData.NAME,
+                                        spt: seedData.SPT,
+                                        water: seedData.WATER, 
+                                        pr: seedData.PR,
+                                        planted: false                                
+                                    }
+
+                                    state.users[json.from].seeds[strain].push(seedName)
                                 })
 
                                 // create one south america NFT
@@ -1543,8 +1710,8 @@ function startApp() {
                             } 
                         } else {
                             state.bal.r += amount
-                            state.refund.push(['xfer', json.from, amount, 'something strange happened please try again'])
-                            state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds, land or water...please check wallet`
+                            state.refund.push(['xfer', json.from, amount, 'something strange happened your item might not be available or try again'])
+                            state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds, land or water.`
                             }
         } else if (json.from === username) {
             const amount = parseInt(parseFloat(json.amount) * 1000)

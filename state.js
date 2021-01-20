@@ -173,6 +173,9 @@ module.exports = {
          },
       },
       "farmers": 1,
+      "farmerList": [
+         "qwoyn"
+      ]
    },
    "bal": {
       "r": 0,
