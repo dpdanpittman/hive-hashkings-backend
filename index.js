@@ -327,7 +327,7 @@ function landPriceConversion() {
 })}
 
 /****ISSUE****/
-/*function startWith(hash) {
+function startWith(hash) {
     if (hash) {
         console.log(`Attempting to start from IPFS save state ${hash}`);
         ipfs.cat(hash, (err, file) => {
@@ -351,8 +351,9 @@ function landPriceConversion() {
         state = init
         startApp()
     }
-}*/
+}
 
+/*
 function startWith(hash) {
     console.log(`${hash} inserted`)
     if (hash) {
@@ -372,7 +373,7 @@ function startWith(hash) {
     } else {
         startApp()
     }
-}
+}*/
 
 function startApp() {
     if (state.cs == null) {
