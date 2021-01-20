@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50558767; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50593227; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50558767;
+const ago = ENV.ago || 50593227;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -327,7 +327,7 @@ function landPriceConversion() {
 })}
 
 /****ISSUE****/
-function startWith(hash) {
+/*function startWith(hash) {
     if (hash) {
         console.log(`Attempting to start from IPFS save state ${hash}`);
         ipfs.cat(hash, (err, file) => {
@@ -349,6 +349,27 @@ function startWith(hash) {
     } else {
         console.log('most recent report doesnt exist')
         state = init
+        startApp()
+    }
+}*/
+
+function startWith(hash) {
+    console.log(`${hash} inserted`)
+    if (hash) {
+        console.log(`Attempting to start from IPFS save state ${hash}`);
+        ipfs.cat(hash, (err, file) => {
+            if (!err) {
+                var data = JSON.parse(file);
+                startingBlock = data[0]
+                if (!startingBlock) {
+                    startWith(sh)
+                }
+            } else {
+                startWith(config.engineCrank)
+                console.log(`${sh} failed to load, Replaying from genesis.\nYou may want to set the env var STARTHASH\nFind it at any token API such as token.dlux.io`)
+            }
+        });
+    } else {
         startApp()
     }
 }
@@ -1530,7 +1551,7 @@ function startApp() {
                 if (state.refund[i][1] == json.to && state.refund[i][2] == amount) {
                     state.refund.splice(i, 1);
                     state.bal.r -= amount;
-                    state.cs[`${json.block_num}:${json.to}`] = `${json.from} refunded successfully`
+                    state.cs[`${json.block_num}:${json.to}`] = `${json.to} refunded successfully`
                     break;
                 }
             }
