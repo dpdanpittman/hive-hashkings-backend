@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50600520; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50600654; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50600520;
+const ago = ENV.ago || 50600654;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -985,10 +985,10 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.asia--
+                                state.stats.supply.land.asia--
 
                                 // adds 1 plot to plots used count
-                                state.stats.land.asiaC++
+                                state.stats.supply.land.asiaC++
 
                                 // adds water to users water supply
                                 state.users[json.from].water = 10
@@ -1067,10 +1067,10 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.jamaicaC--
+                                state.stats.supply.land.jamaicaC--
 
                                 // adds 1 plot to plots used count
-                                state.stats.land.jamaicaC++
+                                state.stats.supply.land.jamaicaC++
 
                                 // adds water to users water supply
                                 state.users[json.from].water = 10
@@ -1142,10 +1142,10 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.africa--
+                                state.stats.supply.land.africa--
 
                                 // adds 1 plot to plots used count
-                                state.stats.land.africaC++
+                                state.stats.supply.land.africaC++
 
                                 // adds water to users water supply
                                 state.users[json.from].water = 30
@@ -1235,10 +1235,10 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.afghanistan--
+                                state.stats.supply.land.afghanistan--
 
                                 // adds 1 plot to plots used count
-                                state.stats.land.afghanistanC++
+                                state.stats.supply.land.afghanistanC++
 
                                 // adds water to users water supply
                                 state.users[json.from].water = 10
@@ -1330,10 +1330,10 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.mexico--
+                                state.stats.supply.land.mexico--
 
                                 // adds 1 plot to plots used count
-                                state.stats.land.mexicoC++
+                                state.stats.supply.land.mexicoC++
 
                                 // adds water to users water supply
                                 state.users[json.from].water = 10
@@ -1396,10 +1396,10 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.southAmerica--
+                                state.stats.supply.land.southAmerica--
 
                                 // adds 1 plot to plots used count
-                                state.stats.land.southAmericaC++
+                                state.stats.supply.land.southAmericaC++
 
                                 // adds water to users water supply
                                 state.users[json.from].water = 10
@@ -1465,10 +1465,10 @@ function startApp() {
                                 state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.asia--
+                                state.stats.supply.land.asia--
 
                                 // adds 1 plot to plots used count
-                                state.stats.land.asiaC++
+                                state.stats.supply.land.asiaC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.asia++
@@ -1485,8 +1485,8 @@ function startApp() {
                                 state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.afghanistan--
-                                state.stats.land.afghanistanC++
+                                state.stats.supply.land.afghanistan--
+                                state.stats.supply.land.afghanistanC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.afghanistan++
@@ -1503,8 +1503,8 @@ function startApp() {
                                 state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.africa--
-                                state.stats.land.africaC++
+                                state.stats.supply.land.africa--
+                                state.stats.supply.land.africaC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.africa++
@@ -1521,8 +1521,8 @@ function startApp() {
                                 state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.jamaica--
-                                state.stats.land.jamaicaC++
+                                state.stats.supply.land.jamaica--
+                                state.stats.supply.land.jamaicaC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.jamaica++
@@ -1539,8 +1539,8 @@ function startApp() {
                                 state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.mexico--
-                                state.stats.land.mexicoC++
+                                state.stats.supply.land.mexico--
+                                state.stats.supply.land.mexicoC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.mexico++
@@ -1557,8 +1557,8 @@ function startApp() {
                                 state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
-                                state.stats.land.southAmerica--
-                                state.stats.land.southAmericaC++
+                                state.stats.supply.land.southAmerica--
+                                state.stats.supply.land.southAmericaC++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.southAmerica++
