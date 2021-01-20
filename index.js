@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50600654; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50600772; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50600654;
+const ago = ENV.ago || 50600772;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1011,7 +1011,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                ach: {}
+                                                ach: [{}]
                                             }
                                         }
                                     } else if(strain === "Thai"){ 
@@ -1020,7 +1020,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                tha: {}
+                                                tha: [{}]
                                             }
                                         }
                                     } else if(strain === "Thai Chocolate"){ 
@@ -1029,7 +1029,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                cht: {}
+                                                cht: [{}]
                                             }
                                         }
 
@@ -1094,7 +1094,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                lb: {}
+                                                lb: [{}]
                                             }
                                         }
                                     } else if(strain === "King's Bread")
@@ -1104,7 +1104,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                kbr: {}
+                                                kbr: [{}]
                                             }
                                         }
 
@@ -1169,7 +1169,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                sg: {}
+                                                sg: [{}]
                                             }
                                         }
                                     } else if(strain === "Kilimanjaro")
@@ -1179,7 +1179,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                kmj: {}
+                                                kmj: [{}]
                                             }
                                         }
                                     } else if(strain === "Durban Poison") { 
@@ -1188,7 +1188,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                dp: {}
+                                                dp: [{}]
                                             }
                                         }
                                     } else if(strain === "Malawi") { 
@@ -1197,7 +1197,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                mal: {}
+                                                mal: [{}]
                                             }
                                         }
 
@@ -1261,7 +1261,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                hk: {}
+                                                hk: [{}]
                                             }
                                         }
                                     } else if(strain === "Afghani") { 
@@ -1270,7 +1270,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                afg: {}
+                                                afg: [{}]
                                             }
                                         }
                                     } else if(strain === "Lashkar Gah") { 
@@ -1279,7 +1279,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                lg: {}
+                                                lg: [{}]
                                             }
                                         }
                                     } else if(strain === "Mazar I Sharif") { 
@@ -1288,7 +1288,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                mis: {}
+                                                mis: [{}]
                                             }
                                         }
 
@@ -1356,7 +1356,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                aca: {}
+                                                aca: [{}]
                                             }
                                         }
 
@@ -1423,7 +1423,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                cg: {}
+                                                cg: [{}]
                                             }
                                         }
                                     } else if(strain === "Panama Red")
@@ -1433,7 +1433,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                pr: {}
+                                                pr: [{}]
                                             }
                                         }
 
