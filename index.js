@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50655822; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50656550; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50655822;
+const ago = ENV.ago || 50656550;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -955,14 +955,12 @@ function startApp() {
                                 || want === 'jamaica' && amount > (state.stats.prices.land.jamaica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.jamaica.price * 1000) + 3000 && state.stats.supply.land.jamaica >= 1
                                 || want === 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 3000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 3000 && state.stats.supply.land.mexico >= 1
                                 || want === 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1
-                                //purchase 
                                 || want === 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.land.asia >= 1
                                 || want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1
-                                || want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.frica >= 1    
+                                || want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.frica >= 1
                                 || want === 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.jamaicaBundle * 1000) + 3000 && state.stats.supply.land.jamaica >= 1
                                 || want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico >= 1
                                 || want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1
-                                //purchase water plants
                                 || want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1' 
                                 || want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[json.from].lvl >= 10
                                 || want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[json.from].lvl >= 20
@@ -998,50 +996,50 @@ function startApp() {
 
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 1, json.from).then(res => {
-                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+                                    const seedData1 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
                                     state.stats.seedCount++
 
-                                    let strain = seedData.NAME
+                                    let strain1 = seedData1.NAME
 
-                                    if(strain === "Aceh"){ 
-                                        strain = "ach"
+                                    if(strain1 === "Aceh"){ 
+                                        strain1 = "ach"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain1])
                                         {
                                             state.users[json.from].seeds = {
                                                 ach: []
                                             }
                                         }
-                                    } else if(strain === "Thai"){ 
-                                        strain = "tha"
+                                    } else if(strain1 === "Thai"){ 
+                                        strain1 = "tha"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain1])
                                         {
                                             state.users[json.from].seeds = {
                                                 tha: []
                                             }
                                         }
-                                    } else if(strain === "Thai Chocolate"){ 
-                                        strain = "cht"
+                                    } else if(strain1 === "Thai Chocolate"){ 
+                                        strain1 = "cht"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain1])
                                         {
                                             state.users[json.from].seeds = {
                                                 cht: []
                                             }
                                         }
 
-                                        var seedName = {
-                                            name: seedData.NAME,
-                                            spt: seedData.SPT,
-                                            water: seedData.WATER, 
-                                            pr: seedData.PR,
+                                        var seedName1 = {
+                                            name: seedData1.NAME,
+                                            spt: seedData1.SPT,
+                                            water: seedData1.WATER, 
+                                            pr: seedData1.PR,
                                             planted: false
                                         }
     
-                                        state.users[json.from].seeds[strain].push(seedName)
+                                        state.users[json.from].seeds[strain1].push(seedName1)
                                     } 
                                 })
 
@@ -1080,43 +1078,43 @@ function startApp() {
 
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 2, json.from).then(res => {
-                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+                                    const seedData2 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
                                     state.stats.seedCount++
 
-                                    let strain = seedData.NAME
+                                    let strain2 = seedData2.NAME
                                     
-                                    if(strain === "Lamb's Bread")
+                                    if(strain2 === "Lamb's Bread")
                                     { 
-                                        strain = "lb"
+                                        strain2 = "lb"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain2])
                                         {
                                             state.users[json.from].seeds = {
                                                 lb: []
                                             }
                                         }
-                                    } else if(strain === "King's Bread")
+                                    } else if(strain2 === "King's Bread")
                                     { 
-                                        strain = "kbr"
+                                        strain2 = "kbr"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain2])
                                         {
                                             state.users[json.from].seeds = {
                                                 kbr: []
                                             }
                                         }
 
-                                        var seedName = {
-                                            name: seedData.NAME,
-                                            spt: seedData.SPT,
-                                            water: seedData.WATER, 
-                                            pr: seedData.PR,
+                                        var seedName2 = {
+                                            name: seedData2.NAME,
+                                            spt: seedData2.SPT,
+                                            water: seedData2.WATER, 
+                                            pr: seedData2.PR,
                                             planted: false
                                         }
     
-                                        state.users[json.from].seeds[strain].push(seedName)
+                                        state.users[json.from].seeds[strain2].push(seedName2)
                                     } 
                                 })
 
@@ -1154,62 +1152,62 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 1, json.from).then(res => {
-                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+                                contract.createOneSeed(hivejs, 3, json.from).then(res => {
+                                    const seedData3 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
                                     state.stats.seedCount++
 
-                                    let strain = seedData.NAME
+                                    let strain3 = seedData3.NAME
                                     
-                                    if(strain === "Swazi Gold")
+                                    if(strain3 === "Swazi Gold")
                                     { 
-                                        strain = "sg"
+                                        strain3 = "sg"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain3])
                                         {
                                             state.users[json.from].seeds = {
                                                 sg: []
                                             }
                                         }
-                                    } else if(strain === "Kilimanjaro")
+                                    } else if(strain3 === "Kilimanjaro")
                                     { 
-                                        strain = "kmj"
+                                        strain3 = "kmj"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain3])
                                         {
                                             state.users[json.from].seeds = {
                                                 kmj: []
                                             }
                                         }
-                                    } else if(strain === "Durban Poison") { 
-                                        strain = "dp"
+                                    } else if(strain3 === "Durban Poison") { 
+                                        strain3 = "dp"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain3])
                                         {
                                             state.users[json.from].seeds = {
                                                 dp: []
                                             }
                                         }
-                                    } else if(strain === "Malawi") { 
-                                        strain = "mal"
+                                    } else if(strain3 === "Malawi") { 
+                                        strain3 = "mal"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain3])
                                         {
                                             state.users[json.from].seeds = {
                                                 mal: []
                                             }
                                         }
 
-                                        var seedName = {
-                                            name: seedData.NAME,
-                                            spt: seedData.SPT,
-                                            water: seedData.WATER, 
-                                            pr: seedData.PR,
+                                        var seedName3 = {
+                                            name: seedData3.NAME,
+                                            spt: seedData3.SPT,
+                                            water: seedData3.WATER, 
+                                            pr: seedData3.PR,
                                             planted: false
                                         }
     
-                                        state.users[json.from].seeds[strain].push(seedName)
+                                        state.users[json.from].seeds[strain3].push(seedName3)
                                     }
                                 })
 
@@ -1247,60 +1245,60 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 1, json.from).then(res => {
-                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+                                contract.createOneSeed(hivejs, 4, json.from).then(res => {
+                                    const seedData4 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
                                     state.stats.seedCount++
 
-                                    let strain = seedData.NAME
+                                    let strain4 = seedData4.NAME
 
-                                    if(strain === "Hindu Kush") { 
-                                        strain = "hk"
+                                    if(strain4 === "Hindu Kush") { 
+                                        strain4 = "hk"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain4])
                                         {
                                             state.users[json.from].seeds = {
                                                 hk: []
                                             }
                                         }
-                                    } else if(strain === "Afghani") { 
-                                        strain = "afg"
+                                    } else if(strain4 === "Afghani") { 
+                                        strain4 = "afg"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain4])
                                         {
                                             state.users[json.from].seeds = {
                                                 afg: []
                                             }
                                         }
-                                    } else if(strain === "Lashkar Gah") { 
-                                        strain = "lg"
+                                    } else if(strain4 === "Lashkar Gah") { 
+                                        strain4 = "lg"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain4])
                                         {
                                             state.users[json.from].seeds = {
                                                 lg: []
                                             }
                                         }
-                                    } else if(strain === "Mazar I Sharif") { 
-                                        strain = "mis"
+                                    } else if(strain4 === "Mazar I Sharif") { 
+                                        strain4 = "mis"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain4])
                                         {
                                             state.users[json.from].seeds = {
                                                 mis: []
                                             }
                                         }
 
-                                        var seedName = {
-                                            name: seedData.NAME,
-                                            spt: seedData.SPT,
-                                            water: seedData.WATER, 
-                                            pr: seedData.PR,
+                                        var seedName4 = {
+                                            name: seedData4.NAME,
+                                            spt: seedData4.SPT,
+                                            water: seedData4.WATER, 
+                                            pr: seedData4.PR,
                                             planted: false
                                         }
     
-                                        state.users[json.from].seeds[strain].push(seedName)
+                                        state.users[json.from].seeds[strain4].push(seedName4)
                                     }
                                 })
 
@@ -1339,32 +1337,32 @@ function startApp() {
 
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 5, json.from).then((res) => {
-                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+                                    const seedData5 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
                                     state.stats.seedCount++
 
-                                    let strain = seedData.NAME
+                                    let strain5 = seedData5.NAME
 
-                                    if(strain === "Acapulco Gold") { 
-                                        strain = "aca"
+                                    if(strain5 === "Acapulco Gold") { 
+                                        strain5 = "aca"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain5])
                                         {
                                             state.users[json.from].seeds = {
                                                 aca: []
                                             }
                                         }
 
-                                        var seedName = {
-                                            name: seedData.NAME,
-                                            spt: seedData.SPT,
-                                            water: seedData.WATER, 
-                                            pr: seedData.PR,
+                                        var seedName5 = {
+                                            name: seedData5.NAME,
+                                            spt: seedData5.SPT,
+                                            water: seedData5.WATER, 
+                                            pr: seedData5.PR,
                                             planted: false
                                         }
     
-                                        state.users[json.from].seeds[strain].push(seedName)
+                                        state.users[json.from].seeds[strain5].push(seedName5)
                                     }
                                 })
                                 
@@ -1405,18 +1403,18 @@ function startApp() {
 
                                 // create one seed nft and return type of seed
                                 contract.createOneSeed(hivejs, 6, json.from).then(res => {
-                                    const seedData = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+                                    const seedData6 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
                                     state.stats.seedCount++
 
-                                    let strain = seedData.NAME
+                                    let strain6 = seedData6.NAME
 
-                                    if(strain === "Colombian Gold")
+                                    if(strain6 === "Colombian Gold")
                                     { 
-                                        strain = "cg"
+                                        strain6 = "cg"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain6])
                                         {
                                             state.users[json.from].seeds = {
                                                 cg: []
@@ -1424,24 +1422,24 @@ function startApp() {
                                         }
                                     } else if(strain === "Panama Red")
                                     { 
-                                        strain = "pr"
+                                        strain6 = "pr"
 
-                                        if(!state.users[json.from].seeds[strain])
+                                        if(!state.users[json.from].seeds[strain6])
                                         {
                                             state.users[json.from].seeds = {
                                                 pr: []
                                             }
                                         }
 
-                                        var seedName = {
-                                            name: seedData.NAME,
-                                            spt: seedData.SPT,
-                                            water: seedData.WATER, 
-                                            pr: seedData.PR,
+                                        var seedName6 = {
+                                            name: seedData6.NAME,
+                                            spt: seedData6.SPT,
+                                            water: seedData6.WATER, 
+                                            pr: seedData6.PR,
                                             planted: false
                                         }
     
-                                        state.users[json.from].seeds[strain].push(seedName)
+                                        state.users[json.from].seeds[strain6].push(seedName6)
                                     } 
                                 })
 
