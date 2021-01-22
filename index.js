@@ -1067,7 +1067,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.supply.land.jamaicaC -= 1
+                                state.stats.supply.land.jamaica -= 1
 
                                 // adds 1 plot to plots used count
                                 state.stats.supply.land.jamaicaC += 1
