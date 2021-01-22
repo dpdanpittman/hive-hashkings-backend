@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50600772; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50655115; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50600772;
+const ago = ENV.ago || 50655115;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -889,7 +889,7 @@ function startApp() {
                                                 },
                                                 plotCount: 0,
                                                 seedCount: 0,
-                                                seeds: [{}],
+                                                seeds: [],
                                                 water: 0,
                                                 waterCount: 0,
                                                 waterPlants:{
@@ -976,7 +976,7 @@ function startApp() {
                                     if (want == 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.land.asia != 0) {
                                 
                                 // update total number of plots
-                                state.users[from].plotCount++
+                                state.users[json.from].plotCount++
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.asia++
@@ -985,13 +985,13 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.supply.land.asia--
+                                state.stats.supply.land.asia -= 1
 
                                 // adds 1 plot to plots used count
-                                state.stats.supply.land.asiaC++
+                                state.stats.supply.land.asiaC +=1
 
                                 // adds water to users water supply
-                                state.users[json.from].water = 10
+                                state.users[json.from].water += 30
 
                                 // adds 1 seed to users seedCount
                                 state.users[json.from].seedCount++
@@ -1011,7 +1011,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                ach: [{}]
+                                                ach: []
                                             }
                                         }
                                     } else if(strain === "Thai"){ 
@@ -1020,7 +1020,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                tha: [{}]
+                                                tha: []
                                             }
                                         }
                                     } else if(strain === "Thai Chocolate"){ 
@@ -1029,7 +1029,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                cht: [{}]
+                                                cht: []
                                             }
                                         }
 
@@ -1049,7 +1049,7 @@ function startApp() {
                                 contract.createPlot(hivejs,"Asia",1,json.from)
 
                                 // create level 1 water plant
-                                contract.createWater(hivejs,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1067,13 +1067,13 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.supply.land.jamaicaC--
+                                state.stats.supply.land.jamaicaC -= 1
 
                                 // adds 1 plot to plots used count
-                                state.stats.supply.land.jamaicaC++
+                                state.stats.supply.land.jamaicaC += 1
 
                                 // adds water to users water supply
-                                state.users[json.from].water = 10
+                                state.users[json.from].water += 30
 
                                 // adds 1 seed to users seedCount
                                 state.users[json.from].seedCount++
@@ -1094,7 +1094,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                lb: [{}]
+                                                lb: []
                                             }
                                         }
                                     } else if(strain === "King's Bread")
@@ -1104,7 +1104,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                kbr: [{}]
+                                                kbr: []
                                             }
                                         }
 
@@ -1124,7 +1124,7 @@ function startApp() {
                                 contract.createPlot(hivejs,"Jamaica",1,json.from)
 
                                 // create one lvl 1 water plant NFT
-                                contract.createWater(hivejs,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1142,13 +1142,13 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.supply.land.africa--
+                                state.stats.supply.land.africa -= 1
 
                                 // adds 1 plot to plots used count
-                                state.stats.supply.land.africaC++
+                                state.stats.supply.land.africaC += 1
 
                                 // adds water to users water supply
-                                state.users[json.from].water = 30
+                                state.users[json.from].water += 30
 
                                 // adds 1 seed to users seedCount
                                 state.users[json.from].seedCount++
@@ -1169,7 +1169,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                sg: [{}]
+                                                sg: []
                                             }
                                         }
                                     } else if(strain === "Kilimanjaro")
@@ -1179,7 +1179,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                kmj: [{}]
+                                                kmj: []
                                             }
                                         }
                                     } else if(strain === "Durban Poison") { 
@@ -1188,7 +1188,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                dp: [{}]
+                                                dp: []
                                             }
                                         }
                                     } else if(strain === "Malawi") { 
@@ -1197,7 +1197,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                mal: [{}]
+                                                mal: []
                                             }
                                         }
 
@@ -1214,10 +1214,10 @@ function startApp() {
                                 })
 
                                 // create one africa NFT
-                                contract.createPlot(hivejs,"Africa",3,json.from);
+                                contract.createPlot(hivejs,"Africa",1,json.from);
 
                                 // create one lvl 1 water nft
-                                contract.createWater(hivejs,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1235,13 +1235,13 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.supply.land.afghanistan--
+                                state.stats.supply.land.afghanistan -= 1
 
                                 // adds 1 plot to plots used count
-                                state.stats.supply.land.afghanistanC++
+                                state.stats.supply.land.afghanistanC += 1
 
                                 // adds water to users water supply
-                                state.users[json.from].water = 10
+                                state.users[json.from].water += 30
 
                                 // adds 1 seed to users seedCount
                                 state.users[json.from].seedCount++
@@ -1261,7 +1261,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                hk: [{}]
+                                                hk: []
                                             }
                                         }
                                     } else if(strain === "Afghani") { 
@@ -1270,7 +1270,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                afg: [{}]
+                                                afg: []
                                             }
                                         }
                                     } else if(strain === "Lashkar Gah") { 
@@ -1279,7 +1279,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                lg: [{}]
+                                                lg: []
                                             }
                                         }
                                     } else if(strain === "Mazar I Sharif") { 
@@ -1288,7 +1288,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                mis: [{}]
+                                                mis: []
                                             }
                                         }
 
@@ -1305,10 +1305,10 @@ function startApp() {
                                 })
 
                                 // create one afghanistan plot NFT
-                                contract.createPlot(hivejs,"Afghanistan",4,json.from);
+                                contract.createPlot(hivejs,"Afghanistan",1,json.from);
 
                                 // create one water lvl 1 water NFT
-                                contract.createWater(hivejs,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1330,13 +1330,13 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.supply.land.mexico--
+                                state.stats.supply.land.mexico -= 1
 
                                 // adds 1 plot to plots used count
-                                state.stats.supply.land.mexicoC++
+                                state.stats.supply.land.mexicoC += 1
 
                                 // adds water to users water supply
-                                state.users[json.from].water = 10
+                                state.users[json.from].water += 30
 
                                 // adds 1 seed to users seedCount
                                 state.users[json.from].seedCount++
@@ -1356,7 +1356,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                aca: [{}]
+                                                aca: []
                                             }
                                         }
 
@@ -1377,7 +1377,7 @@ function startApp() {
                                 console.log("createdPlot")
 
                                 // create one lvl 1 water nft
-                                contract.createWater(hivejs,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",30,json.from)
                                 console.log("created water")
                             
                                 const c = parseInt(amount)
@@ -1396,13 +1396,13 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // subtracts 1 plot from total land supply
-                                state.stats.supply.land.southAmerica--
+                                state.stats.supply.land.southAmerica -= 1
 
                                 // adds 1 plot to plots used count
-                                state.stats.supply.land.southAmericaC++
+                                state.stats.supply.land.southAmericaC += 1
 
                                 // adds water to users water supply
-                                state.users[json.from].water = 10
+                                state.users[json.from].water += 30
 
                                 // adds 1 seed to users seedCount
                                 state.users[json.from].seedCount++
@@ -1423,7 +1423,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                cg: [{}]
+                                                cg: []
                                             }
                                         }
                                     } else if(strain === "Panama Red")
@@ -1433,7 +1433,7 @@ function startApp() {
                                         if(!state.users[json.from].seeds[strain])
                                         {
                                             state.users[json.from].seeds = {
-                                                pr: [{}]
+                                                pr: []
                                             }
                                         }
 
@@ -1453,7 +1453,7 @@ function startApp() {
                                 contract.createPlot(hivejs,"South America",1,json.from);
 
                                 // create one lvl 1 water NFT
-                                contract.createWater(hivejs,"Water",10,json.from)
+                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1465,10 +1465,10 @@ function startApp() {
                                 state.users[json.from].plotCount++
                                 
                                 // subtracts 1 plot from total land supply
-                                state.stats.supply.land.asia--
+                                state.stats.supply.land.asia -= 1
 
                                 // adds 1 plot to plots used count
-                                state.stats.supply.land.asiaC++
+                                state.stats.supply.land.asiaC += 1
 
                                 // add 1 plot to user inventory
                                 state.users[json.from].plots.asia++
