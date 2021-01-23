@@ -158,14 +158,14 @@ module.exports = {
       },
       "supply": {
          "land": {
-            "asia": 40,
-            "asiaC": 0,
+            "asia": 38,
+            "asiaC": 2,
             "africa": 300,
             "africaC": 0,
             "afghanistan": 500,
             "afghanistanC": 0,
-            "southAmerica": 1300,
-            "southAmericaC": 0,
+            "southAmerica": 1298,
+            "southAmericaC": 2,
             "jamaica": 110,
             "jamaicaC": 0,
             "mexico": 750,
@@ -202,57 +202,7 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [
-            {
-               "ach":[],
-            },
-            {
-               "tha":[],
-            },
-            {
-               "cht":[],
-            },
-            {
-               "lb":[],
-            },
-            {
-               "kbr":[],
-            },
-            {
-               "sg":[],
-            },
-            {
-               "kmj":[],
-            },
-            {
-               "dp":[],
-            },
-            {
-               "mal":[],
-            },
-            {
-               "hk":[],
-            },
-            {
-               "afg":[],
-            },
-            {
-               "lg":[],
-            },
-            {
-               "mis":[],
-            },
-            {
-               "aca":[],
-            },
-            {
-               "cg":[],
-            },
-            {
-               "pr":[]
-            }
-           
-         ],
+         "seeds": [],
          "water": 0,
          "waterCount": 0,
          "waterPlants":{
