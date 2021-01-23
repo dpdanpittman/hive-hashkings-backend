@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50656774; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50678569; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50656774;
+const ago = ENV.ago || 50678569;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -869,7 +869,8 @@ function startApp() {
     });
 
     processor.onOperation('transfer', function(json, from) {
-        if (json.to == username && json.amount.split(' ')[1] == 'HIVE') {
+        if (json.to === username && json.amount.split(' ')[1] === 'HIVE') {
+            console.log("entered 1st if statement")
                                         //if user does not exist in db create user and db entry
                                         if (!state.users[json.from]) {
                                             state.users[json.from] = {
@@ -1030,17 +1031,17 @@ function startApp() {
                                                 cht: []
                                             }
                                         }
-
-                                        var seedName1 = {
-                                            name: seedData1.NAME,
-                                            spt: seedData1.SPT,
-                                            water: seedData1.WATER, 
-                                            pr: seedData1.PR,
-                                            planted: false
-                                        }
-    
-                                        state.users[json.from].seeds[strain1].push(seedName1)
                                     } 
+
+                                    var seedName1 = {
+                                        name: seedData1.NAME,
+                                        spt: seedData1.SPT,
+                                        water: seedData1.WATER, 
+                                        pr: seedData1.PR,
+                                        planted: false
+                                    }
+
+                                    state.users[json.from].seeds[strain1].push(seedName1)
                                 })
 
                                 // create one asia plot NFT
@@ -1105,17 +1106,17 @@ function startApp() {
                                                 kbr: []
                                             }
                                         }
-
-                                        var seedName2 = {
-                                            name: seedData2.NAME,
-                                            spt: seedData2.SPT,
-                                            water: seedData2.WATER, 
-                                            pr: seedData2.PR,
-                                            planted: false
-                                        }
-    
-                                        state.users[json.from].seeds[strain2].push(seedName2)
                                     } 
+
+                                    var seedName2 = {
+                                        name: seedData2.NAME,
+                                        spt: seedData2.SPT,
+                                        water: seedData2.WATER, 
+                                        pr: seedData2.PR,
+                                        planted: false
+                                    }
+
+                                    state.users[json.from].seeds[strain2].push(seedName2)
                                 })
 
                                 // create one jamaica plot NFT
@@ -1198,17 +1199,17 @@ function startApp() {
                                                 mal: []
                                             }
                                         }
-
-                                        var seedName3 = {
-                                            name: seedData3.NAME,
-                                            spt: seedData3.SPT,
-                                            water: seedData3.WATER, 
-                                            pr: seedData3.PR,
-                                            planted: false
-                                        }
-    
-                                        state.users[json.from].seeds[strain3].push(seedName3)
                                     }
+
+                                    var seedName3 = {
+                                        name: seedData3.NAME,
+                                        spt: seedData3.SPT,
+                                        water: seedData3.WATER, 
+                                        pr: seedData3.PR,
+                                        planted: false
+                                    }
+
+                                    state.users[json.from].seeds[strain3].push(seedName3)
                                 })
 
                                 // create one africa NFT
@@ -1221,7 +1222,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an africa bundle`
                              
-                                } else if (want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle.price * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1) {
+                                } else if (want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 && amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1289,17 +1290,17 @@ function startApp() {
                                                 mis: []
                                             }
                                         }
-
-                                        var seedName4 = {
-                                            name: seedData4.NAME,
-                                            spt: seedData4.SPT,
-                                            water: seedData4.WATER, 
-                                            pr: seedData4.PR,
-                                            planted: false
-                                        }
-    
-                                        state.users[json.from].seeds[strain4].push(seedName4)
                                     }
+
+                                    var seedName4 = {
+                                        name: seedData4.NAME,
+                                        spt: seedData4.SPT,
+                                        water: seedData4.WATER, 
+                                        pr: seedData4.PR,
+                                        planted: false
+                                    }
+
+                                    state.users[json.from].seeds[strain4].push(seedName4)
                                 })
 
                                 // create one afghanistan plot NFT
@@ -1353,17 +1354,17 @@ function startApp() {
                                                 aca: []
                                             }
                                         }
-
-                                        var seedName5 = {
-                                            name: seedData5.NAME,
-                                            spt: seedData5.SPT,
-                                            water: seedData5.WATER, 
-                                            pr: seedData5.PR,
-                                            planted: false
-                                        }
-    
-                                        state.users[json.from].seeds[strain5].push(seedName5)
                                     }
+
+                                    var seedName5 = {
+                                        name: seedData5.NAME,
+                                        spt: seedData5.SPT,
+                                        water: seedData5.WATER, 
+                                        pr: seedData5.PR,
+                                        planted: false
+                                    }
+
+                                    state.users[json.from].seeds[strain5].push(seedName5)
                                 })
                                 
                                 // create one mexico NFT
@@ -1378,7 +1379,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a mexico bundle`
                              
-                                } else if (want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle.price * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1) {
+                                } else if (want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1430,17 +1431,17 @@ function startApp() {
                                                 pr: []
                                             }
                                         }
-
-                                        var seedName6 = {
-                                            name: seedData6.NAME,
-                                            spt: seedData6.SPT,
-                                            water: seedData6.WATER, 
-                                            pr: seedData6.PR,
-                                            planted: false
-                                        }
-    
-                                        state.users[json.from].seeds[strain6].push(seedName6)
                                     } 
+
+                                    var seedName6 = {
+                                        name: seedData6.NAME,
+                                        spt: seedData6.SPT,
+                                        water: seedData6.WATER, 
+                                        pr: seedData6.PR,
+                                        planted: false
+                                    }
+
+                                    state.users[json.from].seeds[strain6].push(seedName6)
                                 })
 
                                 // create one south america NFT
