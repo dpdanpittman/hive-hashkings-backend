@@ -202,7 +202,26 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "ach":[],
+               "tha":[],
+               "cht":[],
+               "lb":[],
+               "kbr":[],
+               "sg":[],
+               "kmj":[],
+               "dp":[],
+               "mal":[],
+               "hk":[],
+               "afg":[],
+               "lg":[],
+               "mis":[],
+               "aca":[],
+               "cg":[],
+               "pr":[]
+            }
+         ],
          "water": 0,
          "waterCount": 0,
          "waterPlants":{

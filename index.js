@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50680869; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50681324; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50680869;
+const ago = ENV.ago || 50681324;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -890,7 +890,26 @@ function startApp() {
                                                 },
                                                 plotCount: 0,
                                                 seedCount: 0,
-                                                seeds: [],
+                                                seeds: [
+                                                    {
+                                                        ach:[],
+                                                        tha:[],
+                                                        cht:[],
+                                                        lb:[],
+                                                        kbr:[],
+                                                        sg:[],
+                                                        kmj:[],
+                                                        dp:[],
+                                                        mal:[],
+                                                        hk:[],
+                                                        afg:[],
+                                                        lg:[],
+                                                        mis:[],
+                                                        aca:[],
+                                                        cg:[],
+                                                        pr:[]
+                                                    }                                                
+                                                ],
                                                 water: 0,
                                                 waterCount: 0,
                                                 waterPlants:{
@@ -1006,37 +1025,10 @@ function startApp() {
 
                                     if(strain1 === "Aceh"){ 
                                         strain1 = "ach"
-
-                                        if(!state.users[json.from].seeds[strain1])
-                                        {
-                                            var strainType1 = {
-                                                ach:[]
-                                            }
-
-                                            state.users[json.from].seeds.push(strainType1)
-                                        }
                                     } else if(strain1 === "Thai"){ 
                                         strain1 = "tha"
-
-                                        if(!state.users[json.from].seeds[strain1])
-                                        {
-                                            var strainType1 = {
-                                                tha:[]
-                                            }
-
-                                            state.users[json.from].seeds.push(strainType1)
-                                        }
                                     } else if(strain1 === "Thai Chocolate"){ 
                                         strain1 = "cht"
-
-                                        if(!state.users[json.from].seeds[strain1])
-                                        {
-                                            var strainType1 = {
-                                                cht:[]
-                                            }
-
-                                            state.users[json.from].seeds.push(strainType1)
-                                        }
                                     } 
 
                                     var seedName1 = {
@@ -1095,27 +1087,9 @@ function startApp() {
                                     if(strain2 === "Lamb's Bread")
                                     { 
                                         strain2 = "lb"
-
-                                        if(!state.users[json.from].seeds[strain2])
-                                        {
-                                            var strainType2 = {
-                                                lb:[]
-                                            }
-
-                                            state.users[json.from].seeds.push(strainType2)
-                                        }
                                     } else if(strain2 === "King's Bread")
                                     { 
                                         strain2 = "kbr"
-
-                                        if(!state.users[json.from].seeds[strain2])
-                                        {
-                                            var strainType2 = {
-                                                kbr:[]
-                                            }
-
-                                            state.users[json.from].seeds.push(strainType2)
-                                        }
                                     } 
 
                                     var seedName2 = {
@@ -1174,41 +1148,12 @@ function startApp() {
                                     if(strain3 === "Swazi Gold")
                                     { 
                                         strain3 = "sg"
-
-                                        if(!state.users[json.from].seeds[strain3])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                sg: []
-                                            }
-                                        }
-                                    } else if(strain3 === "Kilimanjaro")
-                                    { 
+                                    } else if(strain3 === "Kilimanjaro") { 
                                         strain3 = "kmj"
-
-                                        if(!state.users[json.from].seeds[strain3])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                kmj: []
-                                            }
-                                        }
                                     } else if(strain3 === "Durban Poison") { 
                                         strain3 = "dp"
-
-                                        if(!state.users[json.from].seeds[strain3])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                dp: []
-                                            }
-                                        }
                                     } else if(strain3 === "Malawi") { 
                                         strain3 = "mal"
-
-                                        if(!state.users[json.from].seeds[strain3])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                mal: []
-                                            }
-                                        }
                                     }
 
                                     var seedName3 = {
@@ -1266,40 +1211,12 @@ function startApp() {
 
                                     if(strain4 === "Hindu Kush") { 
                                         strain4 = "hk"
-
-                                        if(!state.users[json.from].seeds[strain4])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                hk: []
-                                            }
-                                        }
                                     } else if(strain4 === "Afghani") { 
                                         strain4 = "afg"
-
-                                        if(!state.users[json.from].seeds[strain4])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                afg: []
-                                            }
-                                        }
                                     } else if(strain4 === "Lashkar Gah") { 
                                         strain4 = "lg"
-
-                                        if(!state.users[json.from].seeds[strain4])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                lg: []
-                                            }
-                                        }
                                     } else if(strain4 === "Mazar I Sharif") { 
                                         strain4 = "mis"
-
-                                        if(!state.users[json.from].seeds[strain4])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                mis: []
-                                            }
-                                        }
                                     }
 
                                     var seedName4 = {
@@ -1357,13 +1274,6 @@ function startApp() {
 
                                     if(strain5 === "Acapulco Gold") { 
                                         strain5 = "aca"
-
-                                        if(!state.users[json.from].seeds[strain5])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                aca: []
-                                            }
-                                        }
                                     }
 
                                     var seedName5 = {
@@ -1424,23 +1334,9 @@ function startApp() {
                                     if(strain6 === "Colombian Gold")
                                     { 
                                         strain6 = "cg"
-
-                                        if(!state.users[json.from].seeds[strain6])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                cg: []
-                                            }
-                                        }
-                                    } else if(strain === "Panama Red")
+                                    } else if(strain6 === "Panama Red")
                                     { 
                                         strain6 = "pr"
-
-                                        if(!state.users[json.from].seeds[strain6])
-                                        {
-                                            state.users[json.from].seeds = {
-                                                pr: []
-                                            }
-                                        }
                                     } 
 
                                     var seedName6 = {
