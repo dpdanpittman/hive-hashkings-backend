@@ -20,52 +20,52 @@ module.exports = {
          "waterPlants": {
             "LVL1": {
                "price": 100000,
-               "water": 10,
+               "water": 30,
                "token": 1000
             },
             "LVL2": {
                "price": 100000,
-               "water": 15,
+               "water": 45,
                "token": 1000
             },
             "LVL3": {
                "price": 100000,
-               "water": 25,
+               "water": 75,
                "token": 1000
             },
             "LVL4": {
                "price": 100000,
-               "water": 40,
+               "water": 120,
                "token": 1000
             },
             "LVL5": {
                "price": 100000,
-               "water": 60,
+               "water": 180,
                "token": 1000
             },
             "LVL6": {
                "price": 100000,
-               "water": 85,
+               "water": 255,
                "token": 1000
             },
             "LVL7": {
                "price": 100000,
-               "water": 115,
+               "water": 345,
                "token": 1000
             },
             "LVL8": {
                "price": 100000,
-               "water": 150,
+               "water": 450,
                "token": 1000
             },
             "LVL9": {
                "price": 100000,
-               "water": 190,
+               "water": 570,
                "token": 1000
             },
             "LVL10": {
                "price": 100000,
-               "water": 235,
+               "water": 705,
                "token": 1000
             }
          },
@@ -205,22 +205,53 @@ module.exports = {
          "seeds": [
             {
                "ach":[],
+            },
+            {
                "tha":[],
+            },
+            {
                "cht":[],
+            },
+            {
                "lb":[],
+            },
+            {
                "kbr":[],
+            },
+            {
                "sg":[],
+            },
+            {
                "kmj":[],
+            },
+            {
                "dp":[],
+            },
+            {
                "mal":[],
+            },
+            {
                "hk":[],
+            },
+            {
                "afg":[],
+            },
+            {
                "lg":[],
+            },
+            {
                "mis":[],
+            },
+            {
                "aca":[],
+            },
+            {
                "cg":[],
+            },
+            {
                "pr":[]
             }
+           
          ],
          "water": 0,
          "waterCount": 0,
