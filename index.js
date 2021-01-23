@@ -1284,7 +1284,7 @@ function startApp() {
                                         planted: false
                                     }
 
-                                    state.users[json.from].seeds[strain5].push(seedName5)
+                                    state.users[json.from].seeds.aca.push(seedName5)
                                 })
                                 
                                 // create one mexico NFT
