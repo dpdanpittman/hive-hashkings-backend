@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50679230; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50680869; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50679230;
+const ago = ENV.ago || 50680869;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -1009,27 +1009,33 @@ function startApp() {
 
                                         if(!state.users[json.from].seeds[strain1])
                                         {
-                                            state.users[json.from].seeds = {
-                                                ach: []
+                                            var strainType1 = {
+                                                ach:[]
                                             }
+
+                                            state.users[json.from].seeds.push(strainType1)
                                         }
                                     } else if(strain1 === "Thai"){ 
                                         strain1 = "tha"
 
                                         if(!state.users[json.from].seeds[strain1])
                                         {
-                                            state.users[json.from].seeds = {
-                                                tha: []
+                                            var strainType1 = {
+                                                tha:[]
                                             }
+
+                                            state.users[json.from].seeds.push(strainType1)
                                         }
                                     } else if(strain1 === "Thai Chocolate"){ 
                                         strain1 = "cht"
 
                                         if(!state.users[json.from].seeds[strain1])
                                         {
-                                            state.users[json.from].seeds = {
-                                                cht: []
+                                            var strainType1 = {
+                                                cht:[]
                                             }
+
+                                            state.users[json.from].seeds.push(strainType1)
                                         }
                                     } 
 
@@ -1092,9 +1098,11 @@ function startApp() {
 
                                         if(!state.users[json.from].seeds[strain2])
                                         {
-                                            state.users[json.from].seeds = {
-                                                lb: []
+                                            var strainType2 = {
+                                                lb:[]
                                             }
+
+                                            state.users[json.from].seeds.push(strainType2)
                                         }
                                     } else if(strain2 === "King's Bread")
                                     { 
@@ -1102,9 +1110,11 @@ function startApp() {
 
                                         if(!state.users[json.from].seeds[strain2])
                                         {
-                                            state.users[json.from].seeds = {
-                                                kbr: []
+                                            var strainType2 = {
+                                                kbr:[]
                                             }
+
+                                            state.users[json.from].seeds.push(strainType2)
                                         }
                                     } 
 
