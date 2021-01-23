@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50682973; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50683471; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50682973;
+const ago = ENV.ago || 50683471;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -890,26 +890,7 @@ function startApp() {
                                                 },
                                                 plotCount: 0,
                                                 seedCount: 0,
-                                                seeds: [
-                                                    {
-                                                        ach:[],
-                                                        tha:[],
-                                                        cht:[],
-                                                        lb:[],
-                                                        kbr:[],
-                                                        sg:[],
-                                                        kmj:[],
-                                                        dp:[],
-                                                        mal:[],
-                                                        hk:[],
-                                                        afg:[],
-                                                        lg:[],
-                                                        mis:[],
-                                                        aca:[],
-                                                        cg:[],
-                                                        pr:[]
-                                                    }                                                
-                                                ],
+                                                seeds: [],
                                                 water: 0,
                                                 waterCount: 0,
                                                 waterPlants:{
@@ -1039,7 +1020,7 @@ function startApp() {
                                         planted: false
                                     }
 
-                                    state.users[json.from].seeds[strain1].push(seedName1)
+                                    state.users[json.from].seeds.push(seedName1)
                                 })
 
                                 // create one asia plot NFT
@@ -1100,7 +1081,7 @@ function startApp() {
                                         planted: false
                                     }
 
-                                    state.users[json.from].seeds[strain2].push(seedName2)
+                                    state.users[json.from].seeds.push(seedName2)
                                 })
 
                                 // create one jamaica plot NFT
@@ -1164,7 +1145,7 @@ function startApp() {
                                         planted: false
                                     }
 
-                                    state.users[json.from].seeds[strain3].push(seedName3)
+                                    state.users[json.from].seeds.push(seedName3)
                                 })
 
                                 // create one africa NFT
@@ -1227,7 +1208,7 @@ function startApp() {
                                         planted: false
                                     }
 
-                                    state.users[json.from].seeds[strain4].push(seedName4)
+                                    state.users[json.from].seeds.push(seedName4)
                                 })
 
                                 // create one afghanistan plot NFT
@@ -1284,7 +1265,7 @@ function startApp() {
                                         planted: false
                                     }
 
-                                    state.users[json.from].seeds.aca.push(seedName5)
+                                    state.users[json.from].seeds.push(seedName5)
                                 })
                                 
                                 // create one mexico NFT
@@ -1347,7 +1328,7 @@ function startApp() {
                                         planted: false
                                     }
 
-                                    state.users[json.from].seeds[strain6].push(seedName6)
+                                    state.users[json.from].seeds.push(seedName6)
                                 })
 
                                 // create one south america NFT
