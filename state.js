@@ -158,17 +158,17 @@ module.exports = {
       },
       "supply": {
          "land": {
-            "asia": 20,
+            "asia": 40,
             "asiaC": 0,
-            "africa": 150,
+            "africa": 300,
             "africaC": 0,
-            "afghanistan": 250,
+            "afghanistan": 500,
             "afghanistanC": 0,
-            "southAmerica": 650,
+            "southAmerica": 1300,
             "southAmericaC": 0,
-            "jamaica": 55,
+            "jamaica": 110,
             "jamaicaC": 0,
-            "mexico": 375,
+            "mexico": 750,
             "mexicoC": 0
          },
       },
