@@ -158,18 +158,18 @@ module.exports = {
       },
       "supply": {
          "land": {
-            "asia": 38,
-            "asiaC": 2,
-            "africa": 300,
-            "africaC": 0,
-            "afghanistan": 500,
-            "afghanistanC": 0,
-            "southAmerica": 1298,
-            "southAmericaC": 2,
-            "jamaica": 110,
-            "jamaicaC": 0,
-            "mexico": 750,
-            "mexicoC": 0
+            "asia": 0,
+            "asiaC": 40,
+            "africa": 150,
+            "africaC": 150,
+            "afghanistan": 250,
+            "afghanistanC": 250,
+            "southAmerica": 750,
+            "southAmericaC": 750,
+            "jamaica": 96,
+            "jamaicaC": 14,
+            "mexico": 375,
+            "mexicoC": 375
          }
       },
       "farmers": 46,
