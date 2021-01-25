@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50739772; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50740087; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50739772;
+const ago = ENV.ago || 50740087;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -996,7 +996,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 1, 30, json.from).then(res => {
+                                contract.generateBundle(hivejs, 1, "Asia", 30, json.from).then(res => {
                                     const seedData1 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1051,7 +1051,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 2, 30, json.from).then(res => {
+                                contract.generateBundle(hivejs, 2, "Jamaica", 30, json.from).then(res => {
                                     const seedData2 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1106,7 +1106,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 3, 30, json.from).then(res => {
+                                contract.generateBundle(hivejs, 3, "Africa", 30, json.from).then(res => {
                                     const seedData3 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1164,7 +1164,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 4, 30, json.from).then(res => {
+                                contract.generateBundle(hivejs, 4, "Afghanistan", 30, json.from).then(res => {
                                     const seedData4 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1221,7 +1221,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 5, 30, json.from).then((res) => {
+                                contract.generateBundle(hivejs, 5, "Mexico", 30, json.from).then((res) => {
                                     const seedData5 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1272,7 +1272,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 6, 30, json.from).then(res => {
+                                contract.generateBundle(hivejs, 6, "South America", 30, json.from).then(res => {
                                     const seedData6 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis

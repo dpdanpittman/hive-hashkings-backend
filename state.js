@@ -160,16 +160,16 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 289,
-            "africaC": 11,
+            "africa": 286,
+            "africaC": 14,
             "afghanistan": 483,
             "afghanistanC": 17,
-            "southAmerica": 1442,
-            "southAmericaC": 58,
+            "southAmerica": 1237,
+            "southAmericaC": 63,
             "jamaica": 91,
             "jamaicaC": 19,
-            "mexico": 731,
-            "mexicoC": 19
+            "mexico": 730,
+            "mexicoC": 20
          }
       },
       "farmers": 49,
