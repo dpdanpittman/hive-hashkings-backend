@@ -1,7 +1,7 @@
 const ENV = process.env;
 
 const CONTRACT_CREATOR = 'hashkings';
-const UTILITY_TOKEN_SYMBOL = "HMOTA";
+const UTILITY_TOKEN_SYMBOL = "HKFARM";
 
 const ACTIVEKEY = ENV.activekey;
 
@@ -178,7 +178,15 @@ const generateRandomSeed = (to, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
 
     } else if (type == 2) {
         let plot = SEEDS[1];
@@ -199,7 +207,15 @@ const generateRandomSeed = (to, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
     } else if (type == 3) {
         let plot = SEEDS[2];
         let seed = plot[Object.keys(plot).length - 1];
@@ -219,7 +235,15 @@ const generateRandomSeed = (to, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
     } else if (type == 4) {
         let plot = SEEDS[3];
         let seed = plot[Object.keys(plot).length - 1];
@@ -239,7 +263,15 @@ const generateRandomSeed = (to, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
     } else if (type == 5) {
         let plot = SEEDS[4];
         let seed = plot[Object.keys(plot).length - 1];
@@ -259,7 +291,15 @@ const generateRandomSeed = (to, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
 
     } else if (type == 6) {
         let plot = SEEDS[5];
@@ -279,7 +319,15 @@ const generateRandomSeed = (to, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
     }
 
     const propertys = {
@@ -321,7 +369,15 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
 
     } else if (type == 2) {
         let plot = SEEDS[1];
@@ -342,7 +398,15 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
     } else if (type == 3) {
         let plot = SEEDS[2];
         let seed = plot[Object.keys(plot).length - 1];
@@ -362,7 +426,15 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
     } else if (type == 4) {
         let plot = SEEDS[3];
         let seed = plot[Object.keys(plot).length - 1];
@@ -382,7 +454,15 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
     } else if (type == 5) {
         let plot = SEEDS[4];
         let seed = plot[Object.keys(plot).length - 1];
@@ -402,7 +482,15 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
 
     } else if (type == 6) {
         let plot = SEEDS[5];
@@ -423,7 +511,15 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
         properties.NAME = seed.NAME;
         properties.SPT = seed.SPT;
         properties.WATER = seed.WATER;
-        properties.PR = Math.floor(Math.random() * seed.PR.max) + seed.PR.min;
+        properties.PR = Math.floor((Math.random() * (seed.PR.max - seed.PR.min)) + seed.PR.min);
+
+        if (properties.PR > seed.PR.max) {
+            properties.PR = seed.PR.max
+        }
+
+        if (properties.PR < seed.PR.min) {
+            properties.PR = seed.PR.min
+        }
     }
 
     const propertys = {
@@ -438,12 +534,11 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
         symbol: UTILITY_TOKEN_SYMBOL,
         to,
         feeSymbol: "BEE",
-        properties:propertys,
+        properties: propertys,
     };
 
     return instance;
 };
-
 
 /**
  * 
@@ -703,6 +798,35 @@ const createSeed = async (hive, packs, userBuyer) => {
 
 };
 
+
+const generateBundle = async (hive, plotid, plotName, quantityWater, userBuyer) => {
+
+    let instances = [];
+    instances.push(generateOneRandomSeed(userBuyer, plotid, SEEDS));
+    instances.push(CreatePlot(plotName, userBuyer));
+    instances.push(CreateWater("Water", quantityWater, userBuyer));
+
+    let json = {
+        contractName: "nft",
+        contractAction: "issueMultiple",
+        contractPayload: {
+            instances: instances
+        }
+    }
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
+
+};
+
 module.exports = contract = {
     createSeed,
     createOneSeed,
@@ -710,4 +834,5 @@ module.exports = contract = {
     createPlot,
     createWater,
     createBud,
+    generateBundle
 }

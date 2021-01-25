@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 50731561; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 50739772; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 50731561;
+const ago = ENV.ago || 50739772;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -996,7 +996,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 1, json.from).then(res => {
+                                contract.generateBundle(hivejs, 1, 30, json.from).then(res => {
                                     const seedData1 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1022,12 +1022,6 @@ function startApp() {
 
                                     state.users[json.from].seeds.push(seedName1)
                                 })
-
-                                // create one asia plot NFT
-                                contract.createPlot(hivejs,"Asia",1,json.from)
-
-                                // create level 1 water plant
-                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1057,7 +1051,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 2, json.from).then(res => {
+                                contract.generateBundle(hivejs, 2, 30, json.from).then(res => {
                                     const seedData2 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1083,12 +1077,6 @@ function startApp() {
 
                                     state.users[json.from].seeds.push(seedName2)
                                 })
-
-                                // create one jamaica plot NFT
-                                contract.createPlot(hivejs,"Jamaica",1,json.from)
-
-                                // create one lvl 1 water plant NFT
-                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1118,7 +1106,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 3, json.from).then(res => {
+                                contract.generateBundle(hivejs, 3, 30, json.from).then(res => {
                                     const seedData3 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1148,12 +1136,6 @@ function startApp() {
                                     state.users[json.from].seeds.push(seedName3)
                                 })
 
-                                // create one africa NFT
-                                contract.createPlot(hivejs,"Africa",1,json.from);
-
-                                // create one lvl 1 water nft
-                                contract.createWater(hivejs,"Water",30,json.from)
-
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an africa bundle`
@@ -1182,7 +1164,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 4, json.from).then(res => {
+                                contract.generateBundle(hivejs, 4, 30, json.from).then(res => {
                                     const seedData4 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1210,12 +1192,6 @@ function startApp() {
 
                                     state.users[json.from].seeds.push(seedName4)
                                 })
-
-                                // create one afghanistan plot NFT
-                                contract.createPlot(hivejs,"Afghanistan",1,json.from);
-
-                                // create one water lvl 1 water NFT
-                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1245,7 +1221,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 5, json.from).then((res) => {
+                                contract.generateBundle(hivejs, 5, 30, json.from).then((res) => {
                                     const seedData5 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1267,15 +1243,7 @@ function startApp() {
 
                                     state.users[json.from].seeds.push(seedName5)
                                 })
-                                
-                                // create one mexico NFT
-                                contract.createPlot(hivejs,"Mexico",1,json.from);
-                                console.log("createdPlot")
 
-                                // create one lvl 1 water nft
-                                contract.createWater(hivejs,"Water",30,json.from)
-                                console.log("created water")
-                            
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a mexico bundle`
@@ -1304,7 +1272,7 @@ function startApp() {
                                 state.users[json.from].seedCount++
 
                                 // create one seed nft and return type of seed
-                                contract.createOneSeed(hivejs, 6, json.from).then(res => {
+                                contract.generateBundle(hivejs, 6, 30, json.from).then(res => {
                                     const seedData6 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
 
                                     //update total seed count since genesis
@@ -1330,12 +1298,6 @@ function startApp() {
 
                                     state.users[json.from].seeds.push(seedName6)
                                 })
-
-                                // create one south america NFT
-                                contract.createPlot(hivejs,"South America",1,json.from);
-
-                                // create one lvl 1 water NFT
-                                contract.createWater(hivejs,"Water",30,json.from)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
