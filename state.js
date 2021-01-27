@@ -1,13 +1,13 @@
 module.exports = {
    "stats": {
-      "seedCount": 52,
+      "seedCount": 72,
       "roles": {
          "farmer": 1,
          "landlord": 2,
          "seedProducer": 3
       },
-      "bu": "QmeaXp4KNCYwbxwevfPKzXxwLR5jnPcbYdxRQzjus7FHnH",
-      "bi": 50767001,
+      "bu": "QmRtYv9EdCg6wkJ6Zm6c1nQLqf3CCAJjjoeDiZPm9NRiDq",
+      "bi": 50798901,
       "prices": {
          "bundles": {
             "asiaBundle": 222,
@@ -160,19 +160,19 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 284,
-            "africaC": 16,
-            "afghanistan": 479,
-            "afghanistanC": 21,
-            "southAmerica": 1215,
-            "southAmericaC": 85,
+            "africa": 280,
+            "africaC": 20,
+            "afghanistan": 474,
+            "afghanistanC": 26,
+            "southAmerica": 1205,
+            "southAmericaC": 95,
             "jamaica": 87,
             "jamaicaC": 23,
-            "mexico": 724,
-            "mexicoC": 26
+            "mexico": 722,
+            "mexicoC": 28
          }
       },
-      "farmers": 60,
+      "farmers": 68,
       "farmerList": [
          "qwoyn",
          "r0um3n1987",
@@ -233,16 +233,241 @@ module.exports = {
          "davedickeyyall",
          "gooba",
          "hexflex",
-         "proto26"
+         "proto26",
+         "nataxsnakex1",
+         "skippyza",
+         "udabeu",
+         "luisdavid17",
+         "mermaidvampire",
+         "bwar",
+         "yova22",
+         "seravilop"
       ]
    },
    "bal": {
       "r": 0,
-      "c": 0,
+      "c": 1246000,
       "b": 0,
       "p": 0
    },
-   "refund": [],
+   "refund": [
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmPJeDkukT3aaC2geNHF9smCoW1FsxzpJ41Pe4ZUhtp6Ej",
+            "block": 50796301
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "Qmd46xzw4nvtZzJd9yWKFCVRrUb8XDVB4PorivX6RoeqNn",
+            "block": 50796401
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmWTRRDr3R2MLSUFLxroyhnH19vCyeFvVGjK3j9d8fFmqG",
+            "block": 50796501
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmTveMh3pv8XyuGUffwXfYuRy3qv4281Cg7JuEptxAUmQN",
+            "block": 50796601
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmbznaSTvrTYp8KJw1uVQwUyqwtjT9SFmGBN38xFQxr9Ji",
+            "block": 50796701
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "Qmdi4DRWa2m5HciPTNWoBwryHuYbKKfewA7nW6gWWBFUsv",
+            "block": 50796801
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmdKqebQrYvnQzyWvkFGQdQcW148HSMV3feeR2mH4xMc6v",
+            "block": 50796901
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmeTvs5zt976C4YJDWyUyreeqRr8t3sCmhvaNASZUyweiu",
+            "block": 50797001
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmSrC4YabJi5wVpVij3D9VBGoUBLJ4ShrUwAQTMjK9EgAG",
+            "block": 50797101
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "Qmezikgq8WsDoPyWEgzvCmxF8HizLP85GVX9o5FmKXNcJP",
+            "block": 50797201
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmSUSMbapAx4U2K3aShmmyvbbpXPSQyKsxLGrMrEBzJdMg",
+            "block": 50797301
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmUWRXtBZLDXrHk9fKsdppCZgTpo8tGJEbnW5SBBHPXRyK",
+            "block": 50797401
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmTBxTeiXfJ8pb7ozrgC8cyHxScvxT8JgD6nrUYF1dC33c",
+            "block": 50797501
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmRhjMrxiAh2cA42fizwiC6BttfkXZgmbETYrKA8XkPBEY",
+            "block": 50797601
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmQoAh5TBoHRjz8qTLE8M1qVE4LBfRTrKx8evQ8kvAMnzZ",
+            "block": 50797701
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmUmYjJyM43aAsT6AjnCHq27tbUSHaAyVRws7bFacq99eM",
+            "block": 50797801
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmYuX3Q6ZWM83VqEY2BccKnMsfKJsoegXKGcW9gTxkhM6C",
+            "block": 50797901
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "Qmb6Tv568xLKPfdAPXs7mcfRVGogztuC8nzJ4zAp9rdryu",
+            "block": 50798001
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmWbzgDZks8mg68PuwAwFphZZe6CPRkNThhCXAYXZLTMhe",
+            "block": 50798101
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmNm36uUSnSaPzaHeLNiRdJXyrWvusdJBZSb6r4Q2pvnK3",
+            "block": 50798201
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmTqP1xfmiYB45g9gRsWzPMeUGBvUQX1CY1j9PCzZ1F98i",
+            "block": 50798301
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmZ5beXAvboY7oDekoiDJ1bmhswYBFgiBEjJPnfR4k8uvm",
+            "block": 50798401
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmaCYyuhSPMAbbNvU4FcsjxXZuukSTVUQ1gx11Ba1RSVCt",
+            "block": 50798501
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmQDHRdstQWHX4Je4wCdFxBYRMzmdVwGSCea5F4DwRUWtN",
+            "block": 50798601
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmST8YFYMvhNGYusA2zREBKrW28DVPhQg27nCqR8EeqL8f",
+            "block": 50798701
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmQapYUzTMv4xpLvugUVoC4HPJHPUARZMy32fR86FPBQxV",
+            "block": 50798801
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmRtYv9EdCg6wkJ6Zm6c1nQLqf3CCAJjjoeDiZPm9NRiDq",
+            "block": 50798901
+         }
+      ]
+   ],
    "users": {
       "qwoyn": {
          "plots": {
@@ -740,24 +965,74 @@ module.exports = {
          "plots": {
             "asia": 0,
             "asiaUsed": 0,
-            "africa": 0,
+            "africa": 2,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 3,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 2,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
-         "water": 0,
+         "plotCount": 7,
+         "seedCount": 7,
+         "seeds": [
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2334,
+               "planted": false
+            },
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2242,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 614,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1672,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 700,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 231,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 69,
+               "planted": false
+            }
+         ],
+         "water": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4701,6 +4976,648 @@ module.exports = {
          },
          "MOTA": 0,
          "MOTAstake": 0
+      },
+      "nataxsnakex1": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 2,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 202,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 226,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "skippyza": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 189,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "udabeu": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 419,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "luisdavid17": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 246,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "mermaidvampire": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 1,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 4,
+         "seedCount": 4,
+         "seeds": [
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2519,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 841,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 287,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 374,
+               "planted": false
+            }
+         ],
+         "water": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "bwar": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "water": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "yova22": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 733,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 66,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "seravilop": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 1,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2521,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 72,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
       }
    },
    "cs": {
@@ -4722,6 +5639,26 @@ module.exports = {
       "50759573:hexflex": "hexflex purchased south america bundle",
       "50759576:hexflex": "hexflex purchased south america bundle",
       "50761624:proto26": "proto26 purchased south america bundle",
-      "50763490:mafia.wallet": "mafia.wallet purchased south america bundle"
+      "50763490:mafia.wallet": "mafia.wallet purchased south america bundle",
+      "50767605:nataxsnakex1": "nataxsnakex1 purchased south america bundle",
+      "50767612:nataxsnakex1": "nataxsnakex1 purchased south america bundle",
+      "50772113:skippyza": "skippyza purchased south america bundle",
+      "50775260:udabeu": "udabeu purchased a mexico bundle",
+      "50781344:dolp": "dolp purchased an africa bundle",
+      "50781346:dolp": "dolp purchased an africa bundle",
+      "50781349:dolp": "dolp purchased an afghanistan bundle",
+      "50781352:dolp": "dolp purchased an afghanistan bundle",
+      "50781355:dolp": "dolp purchased an afghanistan bundle",
+      "50781358:dolp": "dolp purchased south america bundle",
+      "50781361:dolp": "dolp purchased south america bundle",
+      "50782702:luisdavid17": "luisdavid17 purchased south america bundle",
+      "50782954:mermaidvampire": "mermaidvampire purchased an africa bundle",
+      "50782965:mermaidvampire": "mermaidvampire purchased an afghanistan bundle",
+      "50782967:mermaidvampire": "mermaidvampire purchased a mexico bundle",
+      "50782969:mermaidvampire": "mermaidvampire purchased south america bundle",
+      "50787210:yova22": "yova22 purchased an afghanistan bundle",
+      "50787215:yova22": "yova22 purchased south america bundle",
+      "50794721:seravilop": "seravilop purchased an africa bundle",
+      "50794743:seravilop": "seravilop purchased south america bundle"
    }
 }
