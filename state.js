@@ -10,12 +10,12 @@ module.exports = {
       "bi": 50798901,
       "prices": {
          "bundles": {
-            "asiaBundle": 222,
-            "africaBundle": 111,
-            "afghanistanBundle": 74,
-            "jamaicaBundle": 148,
-            "mexicoBundle": 56,
-            "southAmericaBundle": 37
+            "asiaBundle": 227,
+            "africaBundle": 114,
+            "afghanistanBundle": 76,
+            "jamaicaBundle": 151,
+            "mexicoBundle": 57,
+            "southAmericaBundle": 38
          },
          "waterPlants": {
             "LVL1": {
@@ -131,28 +131,28 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 111,
-               "token": 1110
+               "price": 114,
+               "token": 1140
             },
             "africa": {
-               "price": 56,
-               "token": 560
+               "price": 57,
+               "token": 570
             },
             "afghanistan": {
-               "price": 37,
-               "token": 370
+               "price": 38,
+               "token": 380
             },
             "southAmerica": {
-               "price": 13,
-               "token": 130
+               "price": 14,
+               "token": 140
             },
             "jamaica": {
-               "price": 72,
-               "token": 720
+               "price": 74,
+               "token": 740
             },
             "mexico": {
-               "price": 26,
-               "token": 260
+               "price": 27,
+               "token": 270
             }
          }
       },
@@ -166,8 +166,8 @@ module.exports = {
             "afghanistanC": 26,
             "southAmerica": 1205,
             "southAmericaC": 95,
-            "jamaica": 87,
-            "jamaicaC": 23,
+            "jamaica": 86,
+            "jamaicaC": 24,
             "mexico": 722,
             "mexicoC": 28
          }
@@ -246,228 +246,11 @@ module.exports = {
    },
    "bal": {
       "r": 0,
-      "c": 1246000,
+      "c": 0,
       "b": 0,
       "p": 0
    },
-   "refund": [
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmPJeDkukT3aaC2geNHF9smCoW1FsxzpJ41Pe4ZUhtp6Ej",
-            "block": 50796301
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "Qmd46xzw4nvtZzJd9yWKFCVRrUb8XDVB4PorivX6RoeqNn",
-            "block": 50796401
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmWTRRDr3R2MLSUFLxroyhnH19vCyeFvVGjK3j9d8fFmqG",
-            "block": 50796501
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmTveMh3pv8XyuGUffwXfYuRy3qv4281Cg7JuEptxAUmQN",
-            "block": 50796601
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmbznaSTvrTYp8KJw1uVQwUyqwtjT9SFmGBN38xFQxr9Ji",
-            "block": 50796701
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "Qmdi4DRWa2m5HciPTNWoBwryHuYbKKfewA7nW6gWWBFUsv",
-            "block": 50796801
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmdKqebQrYvnQzyWvkFGQdQcW148HSMV3feeR2mH4xMc6v",
-            "block": 50796901
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmeTvs5zt976C4YJDWyUyreeqRr8t3sCmhvaNASZUyweiu",
-            "block": 50797001
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmSrC4YabJi5wVpVij3D9VBGoUBLJ4ShrUwAQTMjK9EgAG",
-            "block": 50797101
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "Qmezikgq8WsDoPyWEgzvCmxF8HizLP85GVX9o5FmKXNcJP",
-            "block": 50797201
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmSUSMbapAx4U2K3aShmmyvbbpXPSQyKsxLGrMrEBzJdMg",
-            "block": 50797301
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmUWRXtBZLDXrHk9fKsdppCZgTpo8tGJEbnW5SBBHPXRyK",
-            "block": 50797401
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmTBxTeiXfJ8pb7ozrgC8cyHxScvxT8JgD6nrUYF1dC33c",
-            "block": 50797501
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmRhjMrxiAh2cA42fizwiC6BttfkXZgmbETYrKA8XkPBEY",
-            "block": 50797601
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmQoAh5TBoHRjz8qTLE8M1qVE4LBfRTrKx8evQ8kvAMnzZ",
-            "block": 50797701
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmUmYjJyM43aAsT6AjnCHq27tbUSHaAyVRws7bFacq99eM",
-            "block": 50797801
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmYuX3Q6ZWM83VqEY2BccKnMsfKJsoegXKGcW9gTxkhM6C",
-            "block": 50797901
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "Qmb6Tv568xLKPfdAPXs7mcfRVGogztuC8nzJ4zAp9rdryu",
-            "block": 50798001
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmWbzgDZks8mg68PuwAwFphZZe6CPRkNThhCXAYXZLTMhe",
-            "block": 50798101
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmNm36uUSnSaPzaHeLNiRdJXyrWvusdJBZSb6r4Q2pvnK3",
-            "block": 50798201
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmTqP1xfmiYB45g9gRsWzPMeUGBvUQX1CY1j9PCzZ1F98i",
-            "block": 50798301
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmZ5beXAvboY7oDekoiDJ1bmhswYBFgiBEjJPnfR4k8uvm",
-            "block": 50798401
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmaCYyuhSPMAbbNvU4FcsjxXZuukSTVUQ1gx11Ba1RSVCt",
-            "block": 50798501
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmQDHRdstQWHX4Je4wCdFxBYRMzmdVwGSCea5F4DwRUWtN",
-            "block": 50798601
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmST8YFYMvhNGYusA2zREBKrW28DVPhQg27nCqR8EeqL8f",
-            "block": 50798701
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmQapYUzTMv4xpLvugUVoC4HPJHPUARZMy32fR86FPBQxV",
-            "block": 50798801
-         }
-      ],
-      [
-         "customJson",
-         "report",
-         {
-            "hash": "QmRtYv9EdCg6wkJ6Zm6c1nQLqf3CCAJjjoeDiZPm9NRiDq",
-            "block": 50798901
-         }
-      ]
-   ],
+   "refund": [],
    "users": {
       "qwoyn": {
          "plots": {
