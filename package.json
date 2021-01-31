@@ -16,7 +16,7 @@
     "dependencies": {
         "@hiveio/dhive": "^0.14.12",
         "@hiveio/hive-js": "^0.8.10",
-        "axios": "^0.20.0",
+        "axios": "^0.21.1",
         "cors": "^2.8.5",
         "express": "^4.16.4",
         "ipfs-api": "^26.1.2",
