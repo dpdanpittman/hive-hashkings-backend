@@ -1,21 +1,21 @@
 module.exports = {
    "stats": {
-      "seedCount": 158,
+      "seedCount": 173,
       "roles": {
          "farmer": 1,
          "landlord": 2,
          "seedProducer": 3
       },
-      "bu": "Qmdv8SsHE7Wo1kd8X2Uh6kxKv667cBKZXCZEyS2rbhqAmf",
-      "bi": 50913101,
+      "bu": "QmNbZ2EbboYvtzFS2XvpJAYEc8xmEnbUB4j5AisTZbyHhh",
+      "bi": 50934501,
       "prices": {
          "bundles": {
-            "asiaBundle": 219,
-            "africaBundle": 110,
-            "afghanistanBundle": 73,
-            "jamaicaBundle": 146,
-            "mexicoBundle": 55,
-            "southAmericaBundle": 37
+            "asiaBundle": 215,
+            "africaBundle": 107,
+            "afghanistanBundle": 72,
+            "jamaicaBundle": 143,
+            "mexicoBundle": 54,
+            "southAmericaBundle": 36
          },
          "waterPlants": {
             "LVL1": {
@@ -131,27 +131,27 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 110,
-               "token": 1100
+               "price": 108,
+               "token": 1080
             },
             "africa": {
-               "price": 55,
-               "token": 550
+               "price": 54,
+               "token": 540
             },
             "afghanistan": {
-               "price": 37,
-               "token": 370
+               "price": 36,
+               "token": 360
             },
             "southAmerica": {
                "price": 13,
                "token": 130
             },
             "jamaica": {
-               "price": 72,
-               "token": 720
+               "price": 70,
+               "token": 700
             },
             "mexico": {
-               "price": 26,
+               "price": 25,
                "token": 260
             }
          }
@@ -160,19 +160,19 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 279,
-            "africaC": 21,
-            "afghanistan": 470,
-            "afghanistanC": 30,
+            "africa": 277,
+            "africaC": 23,
+            "afghanistan": 465,
+            "afghanistanC": 35,
             "southAmerica": 1125,
             "southAmericaC": 175,
-            "jamaica": 26,
-            "jamaicaC": 84,
-            "mexico": 718,
-            "mexicoC": 32
+            "jamaica": 16,
+            "jamaicaC": 94,
+            "mexico": 717,
+            "mexicoC": 33
          }
       },
-      "farmers": 119,
+      "farmers": 124,
       "farmerList": [
          "qwoyn",
          "r0um3n1987",
@@ -268,7 +268,7 @@ module.exports = {
          "guiltyparties",
          "prettynicevideo",
          "meowgan",
-         "enginewitty", 
+         "enginewitty",
          "christoryan",
          "choosefreedom",
          "bauloewe",
@@ -292,7 +292,12 @@ module.exports = {
          "muru",
          "vibrasphere",
          "nutritree",
-         "perceval"
+         "perceval",
+         "reeeheee",
+         "sinerjji",
+         "malonn",
+         "swashcoldsteel",
+         "uganzadranje"
       ]
    },
    "bal": {
@@ -1322,7 +1327,7 @@ module.exports = {
          "plots": {
             "asia": 0,
             "asiaUsed": 0,
-            "africa": 0,
+            "africa": 1,
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
@@ -1330,11 +1335,11 @@ module.exports = {
             "southAmericaUsed": 0,
             "jamaica": 1,
             "jamaicaUsed": 0,
-            "mexico": 0,
+            "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "name": "King’s Bread",
@@ -1342,12 +1347,26 @@ module.exports = {
                "water": 205,
                "pr": 5952,
                "planted": false
+            },
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2401,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 362,
+               "planted": false
             }
          ],
-         "water": 30,
+         "water": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7076,13 +7095,13 @@ module.exports = {
             "afghanistanUsed": 0,
             "southAmerica": 0,
             "southAmericaUsed": 0,
-            "jamaica": 1,
+            "jamaica": 2,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "name": "King’s Bread",
@@ -7090,12 +7109,19 @@ module.exports = {
                "water": 205,
                "pr": 5570,
                "planted": false
+            },
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5981,
+               "planted": false
             }
          ],
-         "water": 30,
+         "water": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7370,7 +7396,452 @@ module.exports = {
          },
          "MOTA": 0,
          "MOTAstake": 0
+      },
+      "reeeheee": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 2,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5980,
+               "planted": false
+            },
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5785,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 679,
+               "planted": false
+            }
+         ],
+         "water": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "sinerjji": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 2,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5679,
+               "planted": false
+            },
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5586,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "malonn": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 1,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5652,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "swashcoldsteel": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 2,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5990,
+               "planted": false
+            },
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5651,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "uganzadranje": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 1,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 2,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 4,
+         "seedCount": 4,
+         "seeds": [
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 6171,
+               "planted": false
+            },
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5586,
+               "planted": false
+            },
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2428,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 835,
+               "planted": false
+            }
+         ],
+         "water": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
       }
    },
-   "cs": {}
+   "cs": {
+      "50921447:reeeheee": "reeeheee purchased a jamaica bundle",
+      "50921501:reeeheee": "reeeheee purchased a jamaica bundle",
+      "50921536:reeeheee": "reeeheee purchased an afghanistan bundle",
+      "50923139:sinerjji": "sinerjji purchased a jamaica bundle",
+      "50923316:malonn": "malonn purchased a jamaica bundle",
+      "50923429:swashcoldsteel": "swashcoldsteel purchased a jamaica bundle",
+      "50923668:uganzadranje": "uganzadranje purchased a jamaica bundle",
+      "50923700:sinerjji": "sinerjji purchased a jamaica bundle",
+      "50923708:uganzadranje": "uganzadranje purchased a jamaica bundle",
+      "50923729:swashcoldsteel": "swashcoldsteel purchased a jamaica bundle",
+      "50923762:uganzadranje": "uganzadranje purchased an africa bundle",
+      "50925227:uganzadranje": "uganzadranje purchased an afghanistan bundle",
+      "50925680:definitelyn0tme": "definitelyn0tme purchased a jamaica bundle",
+      "50934533:meanbees": "meanbees purchased an africa bundle",
+      "50934537:meanbees": "meanbees purchased a mexico bundle"
+   }
 }
