@@ -6,14 +6,14 @@ module.exports = {
          "landlord": 2,
          "seedProducer": 3
       },
-      "bu": "QmUqNUtHD57QgMhUD8F5YxpNrNfgppiw4ABcDc4f4fqLZb",
-      "bi": 50908801,
+      "bu": "Qmdv8SsHE7Wo1kd8X2Uh6kxKv667cBKZXCZEyS2rbhqAmf",
+      "bi": 50913101,
       "prices": {
          "bundles": {
-            "asiaBundle": 217,
-            "africaBundle": 109,
+            "asiaBundle": 219,
+            "africaBundle": 110,
             "afghanistanBundle": 73,
-            "jamaicaBundle": 145,
+            "jamaicaBundle": 146,
             "mexicoBundle": 55,
             "southAmericaBundle": 37
          },
@@ -131,8 +131,8 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 109,
-               "token": 1090
+               "price": 110,
+               "token": 1100
             },
             "africa": {
                "price": 55,
@@ -147,8 +147,8 @@ module.exports = {
                "token": 130
             },
             "jamaica": {
-               "price": 71,
-               "token": 710
+               "price": 72,
+               "token": 720
             },
             "mexico": {
                "price": 26,
@@ -172,7 +172,7 @@ module.exports = {
             "mexicoC": 32
          }
       },
-      "farmers": 87,
+      "farmers": 119,
       "farmerList": [
          "qwoyn",
          "r0um3n1987",
@@ -260,7 +260,39 @@ module.exports = {
          "treefiddybruh",
          "definitelyn0tme",
          "elricmoonslayer",
-         "quantumnachos"
+         "quantumnachos",
+         "mulletwang",
+         "saboin",
+         "molovelly",
+         "simgirl",
+         "guiltyparties",
+         "prettynicevideo",
+         "meowgan",
+         "enginewitty", 
+         "christoryan",
+         "choosefreedom",
+         "bauloewe",
+         "egamers",
+         "news-today",
+         "heremonium",
+         "rachaeldwatson",
+         "myanmarbook",
+         "jbsharkey",
+         "schlees",
+         "altonos",
+         "bibdieufr",
+         "gamewatch",
+         "mickvir",
+         "buckydurddle",
+         "disregardfiat",
+         "psyo",
+         "ghosthunter1",
+         "ericwilson",
+         "songokubg",
+         "muru",
+         "vibrasphere",
+         "nutritree",
+         "perceval"
       ]
    },
    "bal": {
