@@ -1,20 +1,20 @@
 module.exports = {
    "stats": {
-      "seedCount": 139,
+      "seedCount": 158,
       "roles": {
          "farmer": 1,
          "landlord": 2,
          "seedProducer": 3
       },
-      "bu": "QmZmrJsxa3S5jz34gKsvDseCaKa7qvuvXB7EyrQ3Bs2EX1",
-      "bi": 50882601,
+      "bu": "QmUqNUtHD57QgMhUD8F5YxpNrNfgppiw4ABcDc4f4fqLZb",
+      "bi": 50908801,
       "prices": {
          "bundles": {
-            "asiaBundle": 221,
-            "africaBundle": 111,
-            "afghanistanBundle": 74,
-            "jamaicaBundle": 148,
-            "mexicoBundle": 56,
+            "asiaBundle": 217,
+            "africaBundle": 109,
+            "afghanistanBundle": 73,
+            "jamaicaBundle": 145,
+            "mexicoBundle": 55,
             "southAmericaBundle": 37
          },
          "waterPlants": {
@@ -131,12 +131,12 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 111,
-               "token": 1110
+               "price": 109,
+               "token": 1090
             },
             "africa": {
-               "price": 56,
-               "token": 560
+               "price": 55,
+               "token": 550
             },
             "afghanistan": {
                "price": 37,
@@ -147,8 +147,8 @@ module.exports = {
                "token": 130
             },
             "jamaica": {
-               "price": 72,
-               "token": 720
+               "price": 71,
+               "token": 710
             },
             "mexico": {
                "price": 26,
@@ -160,19 +160,19 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 280,
-            "africaC": 20,
-            "afghanistan": 472,
-            "afghanistanC": 28,
-            "southAmerica": 1194,
-            "southAmericaC": 106,
-            "jamaica": 34,
-            "jamaicaC": 76,
-            "mexico": 720,
-            "mexicoC": 30
+            "africa": 279,
+            "africaC": 21,
+            "afghanistan": 470,
+            "afghanistanC": 30,
+            "southAmerica": 1186,
+            "southAmericaC": 114,
+            "jamaica": 26,
+            "jamaicaC": 84,
+            "mexico": 718,
+            "mexicoC": 32
          }
       },
-      "farmers": 83,
+      "farmers": 87,
       "farmerList": [
          "qwoyn",
          "r0um3n1987",
@@ -256,7 +256,11 @@ module.exports = {
          "condeas",
          "joebabana",
          "virusfx",
-         "aubryd"
+         "aubryd",
+         "treefiddybruh",
+         "definitelyn0tme",
+         "elricmoonslayer",
+         "quantumnachos"
       ]
    },
    "bal": {
@@ -1638,20 +1642,28 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
-         "water": 0,
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 326,
+               "planted": false
+            }
+         ],
+         "water": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2116,18 +2128,26 @@ module.exports = {
             "afghanistanUsed": 0,
             "southAmerica": 0,
             "southAmericaUsed": 0,
-            "jamaica": 0,
+            "jamaica": 1,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
-         "water": 0,
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 6234,
+               "planted": false
+            }
+         ],
+         "water": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3451,20 +3471,28 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
-         "water": 0,
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 283,
+               "planted": false
+            }
+         ],
+         "water": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6922,114 +6950,395 @@ module.exports = {
          },
          "MOTA": 0,
          "MOTAstake": 0
+      },
+      "treefiddybruh": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 1,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 6341,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 620,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "definitelyn0tme": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 1,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 5570,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "elricmoonslayer": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 96,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "quantumnachos": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 1,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 5,
+            "southAmericaUsed": 0,
+            "jamaica": 3,
+            "jamaicaUsed": 0,
+            "mexico": 2,
+            "mexicoUsed": 0
+         },
+         "plotCount": 12,
+         "seedCount": 12,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 71,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 37,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 252,
+               "planted": false
+            },
+            {
+               "name": "Lamb’s Bread",
+               "spt": 2,
+               "water": 215,
+               "pr": 6003,
+               "planted": false
+            },
+            {
+               "name": "Lamb’s Bread",
+               "spt": 2,
+               "water": 215,
+               "pr": 6641,
+               "planted": false
+            },
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2254,
+               "planted": false
+            },
+            {
+               "name": "Lashkar Gah",
+               "spt": 5,
+               "water": 43,
+               "pr": 1012,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 357,
+               "planted": false
+            },
+            {
+               "name": "King’s Bread",
+               "spt": 3,
+               "water": 205,
+               "pr": 6365,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 227,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 147,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 399,
+               "planted": false
+            }
+         ],
+         "water": 360,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 12,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
       }
    },
-   "cs": {
-      "50755481:nemesis29ff": "nemesis29ff purchased an afghanistan bundle",
-      "50755562:mafia.wallet": "mafia.wallet purchased a mexico bundle",
-      "50756455:nemesis29ff": "nemesis29ff purchased south america bundle",
-      "50756797:cesarg": "cesarg purchased a jamaica bundle",
-      "50758398:davedickeyyall": "davedickeyyall purchased south america bundle",
-      "50759216:gooba": "gooba purchased south america bundle",
-      "50759259:mafia.wallet": "mafia.wallet purchased south america bundle",
-      "50759553:hexflex": "hexflex purchased south america bundle",
-      "50759555:hexflex": "hexflex purchased south america bundle",
-      "50759557:hexflex": "hexflex purchased south america bundle",
-      "50759560:hexflex": "hexflex purchased south america bundle",
-      "50759562:hexflex": "hexflex purchased south america bundle",
-      "50759564:hexflex": "hexflex purchased south america bundle",
-      "50759569:hexflex": "hexflex purchased south america bundle",
-      "50759571:hexflex": "hexflex purchased south america bundle",
-      "50759573:hexflex": "hexflex purchased south america bundle",
-      "50759576:hexflex": "hexflex purchased south america bundle",
-      "50761624:proto26": "proto26 purchased south america bundle",
-      "50763490:mafia.wallet": "mafia.wallet purchased south america bundle",
-      "50767605:nataxsnakex1": "nataxsnakex1 purchased south america bundle",
-      "50767612:nataxsnakex1": "nataxsnakex1 purchased south america bundle",
-      "50772113:skippyza": "skippyza purchased south america bundle",
-      "50775260:udabeu": "udabeu purchased a mexico bundle",
-      "50781344:dolp": "dolp purchased an africa bundle",
-      "50781346:dolp": "dolp purchased an africa bundle",
-      "50781349:dolp": "dolp purchased an afghanistan bundle",
-      "50781352:dolp": "dolp purchased an afghanistan bundle",
-      "50781355:dolp": "dolp purchased an afghanistan bundle",
-      "50781358:dolp": "dolp purchased south america bundle",
-      "50781361:dolp": "dolp purchased south america bundle",
-      "50782702:luisdavid17": "luisdavid17 purchased south america bundle",
-      "50782954:mermaidvampire": "mermaidvampire purchased an africa bundle",
-      "50782965:mermaidvampire": "mermaidvampire purchased an afghanistan bundle",
-      "50782967:mermaidvampire": "mermaidvampire purchased a mexico bundle",
-      "50782969:mermaidvampire": "mermaidvampire purchased south america bundle",
-      "50787210:yova22": "yova22 purchased an afghanistan bundle",
-      "50787215:yova22": "yova22 purchased south america bundle",
-      "50794721:seravilop": "seravilop purchased an africa bundle",
-      "50794743:seravilop": "seravilop purchased south america bundle",
-      "50806856:krakolito": "krakolito purchased south america bundle",
-      "50806866:krakolito": "krakolito purchased south america bundle",
-      "50809218:mooncrab88": "mooncrab88 purchased south america bundle",
-      "50817179:silverxdpro": "silverxdpro purchased a jamaica bundle",
-      "50841727:gamsam": "gamsam purchased south america bundle",
-      "50849330:shmoogleosukami": "shmoogleosukami purchased a jamaica bundle",
-      "50855043:wagginston": "wagginston purchased a jamaica bundle",
-      "50855051:wagginston": "wagginston purchased a jamaica bundle",
-      "50855055:wagginston": "wagginston purchased a jamaica bundle",
-      "50855061:wagginston": "wagginston purchased a jamaica bundle",
-      "50855066:wagginston": "wagginston purchased a jamaica bundle",
-      "50855068:wagginston": "wagginston purchased a jamaica bundle",
-      "50855072:wagginston": "wagginston purchased a jamaica bundle",
-      "50855075:wagginston": "wagginston purchased a jamaica bundle",
-      "50855077:wagginston": "wagginston purchased a jamaica bundle",
-      "50855079:wagginston": "wagginston purchased a jamaica bundle",
-      "50855081:wagginston": "wagginston purchased a jamaica bundle",
-      "50855094:wagginston": "wagginston purchased a jamaica bundle",
-      "50855097:wagginston": "wagginston purchased a jamaica bundle",
-      "50855099:wagginston": "wagginston purchased a jamaica bundle",
-      "50855101:wagginston": "wagginston purchased a jamaica bundle",
-      "50855103:wagginston": "wagginston purchased a jamaica bundle",
-      "50855112:wagginston": "wagginston purchased a jamaica bundle",
-      "50855153:wagginston": "wagginston purchased a jamaica bundle",
-      "50855155:wagginston": "wagginston purchased a jamaica bundle",
-      "50855157:wagginston": "wagginston purchased a jamaica bundle",
-      "50855159:wagginston": "wagginston purchased a jamaica bundle",
-      "50855161:wagginston": "wagginston purchased a jamaica bundle",
-      "50855163:wagginston": "wagginston purchased a jamaica bundle",
-      "50855165:wagginston": "wagginston purchased a jamaica bundle",
-      "50855168:wagginston": "wagginston purchased a jamaica bundle",
-      "50855467:wagginston": "wagginston purchased a jamaica bundle",
-      "50855469:wagginston": "wagginston purchased a jamaica bundle",
-      "50855472:wagginston": "wagginston purchased a jamaica bundle",
-      "50855476:wagginston": "wagginston purchased a jamaica bundle",
-      "50855478:wagginston": "wagginston purchased a jamaica bundle",
-      "50855480:wagginston": "wagginston purchased a jamaica bundle",
-      "50855482:wagginston": "wagginston purchased a jamaica bundle",
-      "50855484:wagginston": "wagginston purchased a jamaica bundle",
-      "50855486:wagginston": "wagginston purchased a jamaica bundle",
-      "50855490:wagginston": "wagginston purchased a jamaica bundle",
-      "50855492:wagginston": "wagginston purchased a jamaica bundle",
-      "50855494:wagginston": "wagginston purchased a jamaica bundle",
-      "50855496:wagginston": "wagginston purchased a jamaica bundle",
-      "50855498:wagginston": "wagginston purchased a jamaica bundle",
-      "50855501:wagginston": "wagginston purchased a jamaica bundle",
-      "50855503:wagginston": "wagginston purchased a jamaica bundle",
-      "50855505:wagginston": "wagginston purchased a jamaica bundle",
-      "50855507:wagginston": "wagginston purchased a jamaica bundle",
-      "50855509:wagginston": "wagginston purchased a jamaica bundle",
-      "50855511:wagginston": "wagginston purchased a jamaica bundle",
-      "50857898:nupulse": "nupulse purchased a mexico bundle",
-      "50857903:nupulse": "nupulse purchased an afghanistan bundle",
-      "50858631:bhoa": "bhoa purchased south america bundle",
-      "50863321:bitandi": "bitandi purchased south america bundle",
-      "50864095:xbladex": "xbladex purchased a jamaica bundle",
-      "50866881:steinreich": "steinreich purchased south america bundle",
-      "50866999:bassman077": "bassman077 purchased south america bundle",
-      "50868210:meanbees": "meanbees purchased a jamaica bundle",
-      "50869770:condeas": "condeas purchased south america bundle",
-      "50869862:joebabana": "joebabana purchased south america bundle",
-      "50874938:cryptounicorn420": "cryptounicorn420 purchased a jamaica bundle",
-      "50876863:dolp": "dolp purchased a jamaica bundle",
-      "50876871:dolp": "dolp purchased a mexico bundle",
-      "50880164:virusfx": "virusfx purchased south america bundle",
-      "50880318:aubryd": "aubryd purchased an afghanistan bundle",
-      "50880391:krakolito": "krakolito purchased a jamaica bundle"
-   }
+   "cs": {}
 }
