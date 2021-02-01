@@ -2,16 +2,16 @@ module.exports = {
    "stats": {
       "seedCount": 173,
       "roles": {
-         "farmer": 1,
-         "landlord": 2,
-         "seedProducer": 3
+         1: "farmer",
+         2 : "landlord",
+         3 : "seedProducer"
       },
-      "bu": "QmNbZ2EbboYvtzFS2XvpJAYEc8xmEnbUB4j5AisTZbyHhh",
-      "bi": 50934501,
+      "bu": "QmNrnwKr1EMfKBJkqJWk1a8zgpc7aXySfPivxNZeav78xT",
+      "bi": 50937501,
       "prices": {
          "bundles": {
             "asiaBundle": 215,
-            "africaBundle": 107,
+            "africaBundle": 108,
             "afghanistanBundle": 72,
             "jamaicaBundle": 143,
             "mexicoBundle": 54,
@@ -151,7 +151,7 @@ module.exports = {
                "token": 700
             },
             "mexico": {
-               "price": 25,
+               "price": 26,
                "token": 260
             }
          }
@@ -160,19 +160,19 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 277,
-            "africaC": 23,
-            "afghanistan": 465,
-            "afghanistanC": 35,
-            "southAmerica": 1125,
-            "southAmericaC": 175,
-            "jamaica": 16,
-            "jamaicaC": 94,
+            "africa": 276,
+            "africaC": 24,
+            "afghanistan": 463,
+            "afghanistanC": 37,
+            "southAmerica": 1137,
+            "southAmericaC": 163,
+            "jamaica": 10,
+            "jamaicaC": 100,
             "mexico": 717,
             "mexicoC": 33
          }
       },
-      "farmers": 124,
+      "farmers": 125,
       "farmerList": [
          "qwoyn",
          "r0um3n1987",
@@ -297,7 +297,8 @@ module.exports = {
          "sinerjji",
          "malonn",
          "swashcoldsteel",
-         "uganzadranje"
+         "uganzadranje",
+         "honey-swap"
       ]
    },
    "bal": {
@@ -306,7 +307,16 @@ module.exports = {
       "b": 0,
       "p": 0
    },
-   "refund": [],
+   "refund": [
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmNrnwKr1EMfKBJkqJWk1a8zgpc7aXySfPivxNZeav78xT",
+            "block": 50937501
+         }
+      ]
+   ],
    "users": {
       "qwoyn": {
          "plots": {
@@ -7780,6 +7790,74 @@ module.exports = {
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "honey-swap": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "water": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
