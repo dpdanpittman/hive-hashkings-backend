@@ -1,21 +1,21 @@
 module.exports = {
    "stats": {
-      "seedCount": 183,
+      "seedCount": 188,
       "roles": {
-         1: "farmer",
-         2: "landlord",
-         3: "seedProducer"
+         "1": "farmer",
+         "2": "landlord",
+         "3": "seedProducer"
       },
-      "bu": "QmUJhvH6jRw6uJzoZrXWaomgXafS8HYHZxejBBY8Peqihf",
-      "bi": 50944701,
+      "bu": "QmUCydueDpSNzBAT3hjQFMWGrZek8ZRLj7F91kep3HwEVr",
+      "bi": 50945601,
       "prices": {
          "bundles": {
-            "asiaBundle": 216,
-            "africaBundle": 108,
-            "afghanistanBundle": 72,
-            "jamaicaBundle": 144,
-            "mexicoBundle": 54,
-            "southAmericaBundle": 36
+            "asiaBundle": 218,
+            "africaBundle": 109,
+            "afghanistanBundle": 73,
+            "jamaicaBundle": 146,
+            "mexicoBundle": 55,
+            "southAmericaBundle": 37
          },
          "waterPlants": {
             "LVL1": {
@@ -131,16 +131,16 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 108,
-               "token": 1080
+               "price": 109,
+               "token": 1090
             },
             "africa": {
-               "price": 54,
-               "token": 540
+               "price": 55,
+               "token": 550
             },
             "afghanistan": {
-               "price": 36,
-               "token": 360
+               "price": 37,
+               "token": 370
             },
             "southAmerica": {
                "price": 13,
@@ -160,14 +160,14 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 276,
-            "africaC": 24,
+            "africa": 273,
+            "africaC": 27,
             "afghanistan": 463,
             "afghanistanC": 37,
-            "southAmerica": 1136,
-            "southAmericaC": 164,
-            "jamaica": 1,
-            "jamaicaC": 109,
+            "southAmerica": 1135,
+            "southAmericaC": 165,
+            "jamaica": 0,
+            "jamaicaC": 110,
             "mexico": 717,
             "mexicoC": 33
          }
@@ -828,19 +828,19 @@ module.exports = {
          "plots": {
             "asia": 0,
             "asiaUsed": 0,
-            "africa": 2,
+            "africa": 4,
             "africaUsed": 0,
             "afghanistan": 3,
             "afghanistanUsed": 0,
-            "southAmerica": 2,
+            "southAmerica": 3,
             "southAmericaUsed": 0,
-            "jamaica": 1,
+            "jamaica": 2,
             "jamaicaUsed": 0,
             "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 9,
-         "seedCount": 9,
+         "plotCount": 13,
+         "seedCount": 13,
          "seeds": [
             {
                "name": "Malawi",
@@ -904,12 +904,40 @@ module.exports = {
                "water": 23,
                "pr": 517,
                "planted": false
+            },
+            {
+               "name": "Lamb’s Bread",
+               "spt": 2,
+               "water": 215,
+               "pr": 6931,
+               "planted": false
+            },
+            {
+               "name": "Durban Poison",
+               "spt": 4,
+               "water": 104,
+               "pr": 2779,
+               "planted": false
+            },
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2345,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 69,
+               "planted": false
             }
          ],
-         "water": 270,
+         "water": 390,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 9,
+            "lvl1": 13,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3834,7 +3862,7 @@ module.exports = {
          "plots": {
             "asia": 0,
             "asiaUsed": 0,
-            "africa": 0,
+            "africa": 1,
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
@@ -3845,8 +3873,8 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "name": "Lamb’s Bread",
@@ -3861,12 +3889,19 @@ module.exports = {
                "water": 205,
                "pr": 5935,
                "planted": false
+            },
+            {
+               "name": "Swazi Gold",
+               "spt": 3,
+               "water": 168,
+               "pr": 4849,
+               "planted": false
             }
          ],
-         "water": 60,
+         "water": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7994,6 +8029,11 @@ module.exports = {
       "50941514:elprutest": "elprutest purchased a jamaica bundle",
       "50941524:elprutest": "elprutest purchased a jamaica bundle",
       "50941936:quantumnachos": "quantumnachos purchased a jamaica bundle",
-      "50941940:quantumnachos": "quantumnachos purchased a jamaica bundle"
+      "50941940:quantumnachos": "quantumnachos purchased a jamaica bundle",
+      "50945250:dolp": "dolp purchased a jamaica bundle",
+      "50945350:dolp": "dolp purchased an africa bundle",
+      "50945352:dolp": "dolp purchased an africa bundle",
+      "50945357:dolp": "dolp purchased south america bundle",
+      "50945402:xbladex": "xbladex purchased an africa bundle"
    }
 }
