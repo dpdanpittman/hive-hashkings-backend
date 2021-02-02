@@ -1,21 +1,21 @@
 module.exports = {
    "stats": {
-      "seedCount": 188,
+      "seedCount": 199,
       "roles": {
          "1": "farmer",
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmUCydueDpSNzBAT3hjQFMWGrZek8ZRLj7F91kep3HwEVr",
-      "bi": 50945601,
+      "bu": "QmfPfunbDxtDuzTrvtaWxjnEDaTu57F93eEBAxpqeKzgqN",
+      "bi": 50972301,
       "prices": {
          "bundles": {
-            "asiaBundle": 218,
-            "africaBundle": 109,
-            "afghanistanBundle": 73,
-            "jamaicaBundle": 146,
-            "mexicoBundle": 55,
-            "southAmericaBundle": 37
+            "asiaBundle": 215,
+            "africaBundle": 108,
+            "afghanistanBundle": 72,
+            "jamaicaBundle": 143,
+            "mexicoBundle": 54,
+            "southAmericaBundle": 36
          },
          "waterPlants": {
             "LVL1": {
@@ -131,24 +131,24 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 109,
-               "token": 1090
+               "price": 108,
+               "token": 1080
             },
             "africa": {
-               "price": 55,
-               "token": 550
+               "price": 54,
+               "token": 540
             },
             "afghanistan": {
-               "price": 37,
-               "token": 370
+               "price": 36,
+               "token": 360
             },
             "southAmerica": {
                "price": 13,
                "token": 130
             },
             "jamaica": {
-               "price": 71,
-               "token": 710
+               "price": 70,
+               "token": 700
             },
             "mexico": {
                "price": 26,
@@ -160,19 +160,19 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 273,
-            "africaC": 27,
-            "afghanistan": 463,
-            "afghanistanC": 37,
-            "southAmerica": 1135,
-            "southAmericaC": 165,
+            "africa": 271,
+            "africaC": 29,
+            "afghanistan": 461,
+            "afghanistanC": 39,
+            "southAmerica": 1131,
+            "southAmericaC": 169,
             "jamaica": 0,
             "jamaicaC": 110,
-            "mexico": 717,
-            "mexicoC": 33
+            "mexico": 714,
+            "mexicoC": 36
          }
       },
-      "farmers": 125,
+      "farmers": 126,
       "farmerList": [
          "qwoyn",
          "r0um3n1987",
@@ -298,7 +298,8 @@ module.exports = {
          "malonn",
          "swashcoldsteel",
          "uganzadranje",
-         "honey-swap"
+         "honey-swap",
+         "nathanpieters"
       ]
    },
    "bal": {
@@ -836,11 +837,11 @@ module.exports = {
             "southAmericaUsed": 0,
             "jamaica": 2,
             "jamaicaUsed": 0,
-            "mexico": 1,
+            "mexico": 3,
             "mexicoUsed": 0
          },
-         "plotCount": 13,
-         "seedCount": 13,
+         "plotCount": 15,
+         "seedCount": 15,
          "seeds": [
             {
                "name": "Malawi",
@@ -932,12 +933,26 @@ module.exports = {
                "water": 10,
                "pr": 69,
                "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 427,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 515,
+               "planted": false
             }
          ],
-         "water": 390,
+         "water": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 13,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1373,7 +1388,7 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 1,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 1,
             "afghanistanUsed": 0,
             "southAmerica": 0,
             "southAmericaUsed": 0,
@@ -1382,8 +1397,8 @@ module.exports = {
             "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "name": "King’s Bread",
@@ -1405,12 +1420,19 @@ module.exports = {
                "water": 23,
                "pr": 362,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 834,
+               "planted": false
             }
          ],
-         "water": 90,
+         "water": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2785,19 +2807,19 @@ module.exports = {
          "plots": {
             "asia": 0,
             "asiaUsed": 0,
-            "africa": 0,
+            "africa": 1,
             "africaUsed": 0,
-            "afghanistan": 1,
+            "afghanistan": 2,
             "afghanistanUsed": 0,
-            "southAmerica": 2,
+            "southAmerica": 5,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
-            "mexico": 1,
+            "mexico": 2,
             "mexicoUsed": 0
          },
-         "plotCount": 4,
-         "seedCount": 4,
+         "plotCount": 10,
+         "seedCount": 10,
          "seeds": [
             {
                "name": "Colombian Gold",
@@ -2826,12 +2848,54 @@ module.exports = {
                "water": 9,
                "pr": 270,
                "planted": false
+            },
+            {
+               "name": "Swazi Gold",
+               "spt": 3,
+               "water": 168,
+               "pr": 4881,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 184,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 462,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 796,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 294,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 214,
+               "planted": false
             }
          ],
-         "water": 120,
+         "water": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7177,7 +7241,7 @@ module.exports = {
          "plots": {
             "asia": 0,
             "asiaUsed": 0,
-            "africa": 0,
+            "africa": 1,
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
@@ -7188,8 +7252,8 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "name": "King’s Bread",
@@ -7204,12 +7268,19 @@ module.exports = {
                "water": 205,
                "pr": 5981,
                "planted": false
+            },
+            {
+               "name": "Malawi",
+               "spt": 4,
+               "water": 93,
+               "pr": 2285,
+               "planted": false
             }
          ],
-         "water": 60,
+         "water": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8002,6 +8073,82 @@ module.exports = {
          },
          "MOTA": 0,
          "MOTAstake": 0
+      },
+      "nathanpieters": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 299,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "splif": 0,
+            "joint": 0,
+            "cone": 0,
+            "kiefJoint": 0,
+            "waxJoint": 0,
+            "blunt": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
       }
    },
    "cs": {
@@ -8034,6 +8181,17 @@ module.exports = {
       "50945350:dolp": "dolp purchased an africa bundle",
       "50945352:dolp": "dolp purchased an africa bundle",
       "50945357:dolp": "dolp purchased south america bundle",
-      "50945402:xbladex": "xbladex purchased an africa bundle"
+      "50945402:xbladex": "xbladex purchased an africa bundle",
+      "50947101:dolp": "dolp purchased a mexico bundle",
+      "50947103:dolp": "dolp purchased a mexico bundle",
+      "50949441:nathanpieters": "nathanpieters purchased south america bundle",
+      "50949885:meanbees": "meanbees purchased an afghanistan bundle",
+      "50962474:cadawg": "cadawg purchased an africa bundle",
+      "50962477:cadawg": "cadawg purchased south america bundle",
+      "50962481:cadawg": "cadawg purchased a mexico bundle",
+      "50962498:cadawg": "cadawg purchased an afghanistan bundle",
+      "50962500:cadawg": "cadawg purchased south america bundle",
+      "50962502:cadawg": "cadawg purchased south america bundle",
+      "50966053:definitelyn0tme": "definitelyn0tme purchased an africa bundle"
    }
 }
