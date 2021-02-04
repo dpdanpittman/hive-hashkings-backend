@@ -160,8 +160,8 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 267,
-            "africaC": 33,
+            "africa": 261,
+            "africaC": 39,
             "afghanistan": 458,
             "afghanistanC": 42,
             "southAmerica": 1127,
