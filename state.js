@@ -6,16 +6,16 @@ module.exports = {
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmToekRw7EznmVavi4kg5zPmw3oe3H9sk8ptPXjh7JmrAG",
-      "bi": 50997001,
+      "bu": "QmNeECtDiyYH3khDqNBTn1FNpfAsGzn7qbwFJznF6pXjx7",
+      "bi": 51028101,
       "prices": {
          "bundles": {
-            "asiaBundle": 200,
-            "africaBundle": 100,
-            "afghanistanBundle": 67,
-            "jamaicaBundle": 134,
-            "mexicoBundle": 50,
-            "southAmericaBundle": 34
+            "asiaBundle": 190,
+            "africaBundle": 95,
+            "afghanistanBundle": 64,
+            "jamaicaBundle": 127,
+            "mexicoBundle": 48,
+            "southAmericaBundle": 32
          },
          "waterPlants": {
             "LVL1": {
@@ -131,28 +131,28 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 100,
-               "token": 1000
+               "price": 95,
+               "token": 950
             },
             "africa": {
-               "price": 50,
-               "token": 500
+               "price": 48,
+               "token": 480
             },
             "afghanistan": {
-               "price": 34,
-               "token": 340
+               "price": 32,
+               "token": 320
             },
             "southAmerica": {
                "price": 12,
                "token": 120
             },
             "jamaica": {
-               "price": 65,
-               "token": 650
+               "price": 62,
+               "token": 620
             },
             "mexico": {
-               "price": 24,
-               "token": 240
+               "price": 23,
+               "token": 230
             }
          }
       },
@@ -160,8 +160,8 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 261,
-            "africaC": 39,
+            "africa": 267,
+            "africaC": 33,
             "afghanistan": 458,
             "afghanistanC": 42,
             "southAmerica": 1127,
