@@ -7,14 +7,6 @@ const ACTIVEKEY = ENV.activekey;
 
 const SEEDS_PER_PACK = 3;
 
-
-//new api for get all nfts 
-const URL = "https://api.hive-engine.com/rpc/contracts";
-const CONTRACT = "nft"; // Should be nft
-const TABLE_POSTFIX = "instances"; // Should be the same
-const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol
-const EXPORT = true; // Export to file? true = Export, false = no
-
 const SEEDS = [
     {
         0: {
@@ -835,145 +827,6 @@ const generateBundle = async (hive, plotid, plotName, quantityWater, userBuyer) 
 
 };
 
-
-
-// Return true to count, false to ignore
-function limiter(t, nft) {
-    return nft.properties.TYPE.toLowerCase() === t;
-}
-
-// Change grouping
-function grouper(nft) {
-    return nft.properties.NAME;
-}
-
-async function axiosRequest(axios, { contract, table, query, offset }) {
-    // Headers
-    let config = { headers: { "Content-Type": "application/json", "Cache-Control": "no-cache" } };
-    // Request POST body data
-    let body = JSON.stringify([{ "method": "find", "jsonrpc": "2.0", "params": { "contract": contract, "table": table, "query": query, "limit": 1000, "offset": offset, "indexes": [] }, "id": 1 }]);
-    // Make request.
-    return await axios.post(URL, body, config);
-}
-
-function isNullOrEmpty(variable) {
-    return (variable === null || variable === undefined);
-}
-
-async function queryContract(axios, { contract, table, query = {} }, offset = 0) {
-    // Request data
-    let response = await axiosRequest(axios, { contract, table, query, offset });
-
-    // Return result
-    if (response && response.data !== undefined && response.data !== null && !isNullOrEmpty(response.data[0].result)) return response.data[0].result;
-
-    // Else return false
-    return false;
-}
-
-
-
-async function getReport(axios) {
-
-    return new Promise((resolve, reject) => {
-
-
-        let complete = false;
-        let nfts = [];
-        let offset = 0;
-
-        while (!complete) {
-            let get_nfts = await queryContract(axios, { contract: CONTRACT, table: NFT_SYMBOL + TABLE_POSTFIX }, offset);
-            if (get_nfts !== false) {
-                nfts = nfts.concat(get_nfts);
-                offset += 1000;
-
-                if (get_nfts.length !== 1000) {
-                    complete = true;
-                }
-            } else {
-                complete = true;
-            }
-        }
-
-        let owners = {};
-
-        let plot = {};
-
-        let totalPlot = {
-            totalAllPlots: 0,
-            totalAllSeeds: 0,
-            totalAllWater: 0
-        }
-
-
-        for (let i = 0; i < nfts.length; i++) {
-            if (limiter("plot", nfts[i])) {
-
-
-                if (plot.hasOwnProperty(grouper(nfts[i]))) {
-                    plot[grouper(nfts[i])] += 1;
-                } else {
-                    plot[grouper(nfts[i])] = 1;
-                }
-
-
-
-                if (owners.hasOwnProperty(nfts[i].account)) {
-                    owners[nfts[i].account].totalPlot += 1;
-                    totalPlot.totalAllPlots += 1;
-
-
-
-                } else {
-
-                    totalPlot.totalAllPlots += 1;
-                    owners[nfts[i].account] = { "totalPlot": 1, "totalSeed": 0, "totalWater": 0 };
-                }
-            }
-        }
-
-        for (let j = 0; j < nfts.length; j++) {
-            if (limiter("seed", nfts[j])) {
-                try {
-                    totalPlot.totalAllSeeds += 1;
-                    owners[nfts[j].account].totalSeed += 1;
-                } catch (e) {
-                    totalPlot.totalAllSeeds += 1;
-                    owners[nfts[j].account] = { "totalPlot": 0, "totalSeed": 1, "totalWater": 0 };
-                }
-
-            }
-        }
-
-        for (let k = 0; k < nfts.length; k++) {
-            if (limiter("water", nfts[k])) {
-
-                try {
-                    totalPlot.totalAllWater += 1;
-                    owners[nfts[k].account].totalWater += 1;
-                } catch (e) {
-                    totalPlot.totalAllWater += 1;
-                    owners[nfts[k].account] = { "totalPlot": 0, "totalSeed": 0, "totalWater": 1 };
-                }
-
-
-
-            }
-        }
-
-        let report = [owners,
-            plot,
-            totalPlot]
-
-        resolve(report);
-    })
-
-
-}
-
-
-
 module.exports = contract = {
     createSeed,
     createOneSeed,
@@ -981,6 +834,5 @@ module.exports = contract = {
     createPlot,
     createWater,
     createBud,
-    generateBundle,
-    getReport
+    generateBundle
 }
