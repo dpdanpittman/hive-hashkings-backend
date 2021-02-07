@@ -450,7 +450,7 @@ function startApp() {
                     console.log('------------------------');
                 })
 
-                reporting();
+                //reporting();
         }
 
         //saves state to ipfs hash
