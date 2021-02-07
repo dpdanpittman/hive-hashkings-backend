@@ -6,16 +6,16 @@ module.exports = {
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmPcaPF9S2rrKbVBpmk9vF4aYrk7QrJqEqT5iWDDKGviC6",
-      "bi": 51105901,
+      "bu": "QmeA2xhyKvvTk5XcQbcC2PRtkrRT2hWU1b4YiiANMAnzZc",
+      "bi": 51118101,
       "prices": {
          "bundles": {
-            "asiaBundle": 184,
-            "africaBundle": 92,
-            "afghanistanBundle": 62,
-            "jamaicaBundle": 123,
-            "mexicoBundle": 46,
-            "southAmericaBundle": 31
+            "asiaBundle": 188,
+            "africaBundle": 94,
+            "afghanistanBundle": 63,
+            "jamaicaBundle": 125,
+            "mexicoBundle": 47,
+            "southAmericaBundle": 32
          },
          "waterPlants": {
             "LVL1": {
@@ -131,24 +131,24 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 92,
-               "token": 920
+               "price": 94,
+               "token": 940
             },
             "africa": {
-               "price": 46,
-               "token": 460
+               "price": 47,
+               "token": 470
             },
             "afghanistan": {
-               "price": 31,
-               "token": 310
+               "price": 32,
+               "token": 320
             },
             "southAmerica": {
                "price": 11,
                "token": 110
             },
             "jamaica": {
-               "price": 60,
-               "token": 600
+               "price": 61,
+               "token": 610
             },
             "mexico": {
                "price": 22,

@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51106000; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51118150; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51106000;
+const ago = ENV.ago || 51118150;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -255,28 +255,14 @@ function hivePriceConversion(amount) {
     })
 })}
 
-/*function tokenPriceConversion() {
-    return new Promise ((resolve, reject) => {
-        axios.post('https://api.hive-engine.com/rpc/contracts', {"jsonrpc":"2.0","id":18,"method":"find","params":{"contract":"market","table":"metrics","query":{"symbol":{"$in":["MOTA"]}},"limit":1000,"offset":0,"indexes":[]}})
-  .then(res => {
-    const { data } = res
-    for(let i = 0; i < 1; i++) {
-        let thePrice = data.result[0]
-        theLastPrice = thePrice.lastDayPrice
-        console.log("current MOTA price is " + theLastPrice)
-        console.log("------------------------------------")
-        const hivePriceOfToken = state.stats.prices.seedPacks.price
-        const conversion = hivePriceOfToken / theLastPrice
-        console.log("Price of seedPacks in MOTA is " + conversion.toFixed(4)) 
-        state.stats.prices.seedPacks.token = conversion
-        resolve(conversion.toFixed(4))
+function reporting() {
+    contract.getReport(axios).then((res) => {
+        console.log("-------------")
+        console.log("report below")
+        console.log(res)
+        console.log("-------------")
     }
-  })
-  .catch(error => {
-      reject(error)
-    console.error(error)
-  })
-})}*/
+    )}
 
 function landPriceConversion() {
     return new Promise ((resolve, reject) => {
@@ -457,6 +443,8 @@ function startApp() {
                     console.log('Mexico bundle price is ' + state.stats.prices.bundles.mexicoBundle);
                     console.log('------------------------');
                 })
+
+                reporting();
         }
 
         //saves state to ipfs hash
