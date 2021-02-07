@@ -263,7 +263,7 @@ function reporting() {
         console.log("-------------")
 
         const { data } = res
-        let landTotal = data.totalPlots
+        let landTotal = data.totalAllPlots
         
         console.log("the land total is" + landTotal)
     }
