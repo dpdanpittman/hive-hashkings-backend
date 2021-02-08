@@ -170,7 +170,8 @@ module.exports = {
             "jamaicaC": 110,
             "mexico": 706,
             "mexicoC": 44
-         }
+         },
+         "waterTowers": 17000,
       },
       "farmers": 136,
       "farmerList": [
@@ -353,8 +354,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -366,29 +366,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -421,8 +398,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -434,29 +410,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -468,8 +421,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "boyobevan": {
          "plots": {
@@ -489,8 +443,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -502,29 +455,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -536,8 +466,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "academialibertad": {
          "plots": {
@@ -565,8 +496,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -578,29 +508,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -612,8 +519,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "abztraxxx": {
          "plots": {
@@ -633,8 +541,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -646,29 +553,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -680,8 +564,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "audiomancer": {
          "plots": {
@@ -709,8 +594,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -722,29 +606,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -756,8 +617,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "cryptounicorn420": {
          "plots": {
@@ -785,8 +647,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -798,29 +659,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -832,8 +670,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "dolp": {
          "plots": {
@@ -959,8 +798,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 450,
-         "waterCount": 0,
+         "hkwater": 450,
          "waterPlants": {
             "lvl1": 15,
             "lvl2": 0,
@@ -972,29 +810,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1006,8 +821,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "xplora4253": {
          "plots": {
@@ -1027,8 +843,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1040,29 +855,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1074,8 +866,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "ricarox": {
          "plots": {
@@ -1095,8 +888,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1108,29 +900,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1142,8 +911,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "edtorr704": {
          "plots": {
@@ -1163,8 +933,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1176,29 +945,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1210,8 +956,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "marcoss21": {
          "plots": {
@@ -1231,8 +978,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1244,29 +990,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1278,8 +1001,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "foxon": {
          "plots": {
@@ -1342,8 +1066,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 180,
-         "waterCount": 0,
+         "hkwater": 180,
          "waterPlants": {
             "lvl1": 6,
             "lvl2": 0,
@@ -1355,29 +1078,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1389,8 +1089,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "meanbees": {
          "plots": {
@@ -1439,8 +1140,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
-         "waterCount": 0,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 4,
             "lvl2": 0,
@@ -1452,29 +1152,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1486,8 +1163,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "degranoengrano": {
          "plots": {
@@ -1515,8 +1193,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -1528,29 +1205,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1562,8 +1216,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "ibanezense": {
          "plots": {
@@ -1583,8 +1238,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1596,29 +1250,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1630,8 +1261,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "ejmh": {
          "plots": {
@@ -1659,8 +1291,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -1672,29 +1303,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1706,8 +1314,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "toxicmen01": {
          "plots": {
@@ -1727,8 +1336,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1740,29 +1348,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1774,8 +1359,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "cratic": {
          "plots": {
@@ -1803,8 +1389,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -1816,29 +1401,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1850,8 +1412,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "criptojones": {
          "plots": {
@@ -1871,8 +1434,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1884,29 +1446,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1918,8 +1457,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "bigkidstuff": {
          "plots": {
@@ -1939,8 +1479,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1952,29 +1491,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1986,8 +1502,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "dominic23": {
          "plots": {
@@ -2007,8 +1524,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2020,29 +1536,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2054,8 +1547,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "electru": {
          "plots": {
@@ -2075,8 +1569,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2088,29 +1581,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2122,8 +1592,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "lozadakb": {
          "plots": {
@@ -2143,8 +1614,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2156,29 +1626,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2190,8 +1637,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "hodltoday": {
          "plots": {
@@ -2211,8 +1659,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2224,29 +1671,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2258,8 +1682,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "fdeflash": {
          "plots": {
@@ -2287,8 +1712,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -2300,29 +1724,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2334,8 +1735,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "pedroozj": {
          "plots": {
@@ -2355,8 +1757,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2368,29 +1769,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2402,8 +1780,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "facugaba": {
          "plots": {
@@ -2423,8 +1802,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2436,29 +1814,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2470,8 +1825,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "luisveco88": {
          "plots": {
@@ -2491,8 +1847,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2504,29 +1859,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2538,8 +1870,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "aries02": {
          "plots": {
@@ -2559,8 +1892,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2572,29 +1904,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2606,8 +1915,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "medicenw1": {
          "plots": {
@@ -2627,8 +1937,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2640,29 +1949,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2674,8 +1960,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "quefe": {
          "plots": {
@@ -2695,8 +1982,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2708,29 +1994,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2742,8 +2005,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "mejiasclaudia": {
          "plots": {
@@ -2763,8 +2027,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2776,29 +2039,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2810,8 +2050,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "cadawg": {
          "plots": {
@@ -2902,8 +2143,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 300,
-         "waterCount": 0,
+         "hkwater": 300,
          "waterPlants": {
             "lvl1": 10,
             "lvl2": 0,
@@ -2915,29 +2155,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2949,8 +2166,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "ecuaminte": {
          "plots": {
@@ -2970,8 +2188,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2983,29 +2200,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3017,8 +2211,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "abrockman": {
          "plots": {
@@ -3038,8 +2233,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -3051,29 +2245,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3085,8 +2256,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "supremdsm": {
          "plots": {
@@ -3106,8 +2278,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -3119,29 +2290,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3153,8 +2301,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "darthslaver": {
          "plots": {
@@ -3174,8 +2323,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -3187,29 +2335,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3221,8 +2346,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "juanchuzx": {
          "plots": {
@@ -3250,8 +2376,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -3263,29 +2388,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3297,8 +2399,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "dobro2020": {
          "plots": {
@@ -3318,8 +2421,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -3331,29 +2433,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3365,8 +2444,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "dantejcs": {
          "plots": {
@@ -3394,8 +2474,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -3407,29 +2486,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3441,8 +2497,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "the-mister7": {
          "plots": {
@@ -3462,8 +2519,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -3475,29 +2531,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3509,8 +2542,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "reward.app": {
          "plots": {
@@ -3530,8 +2564,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -3543,29 +2576,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3577,8 +2587,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "oblivioncubed": {
          "plots": {
@@ -3598,8 +2609,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -3611,29 +2621,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3645,8 +2632,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "yoclensavilan": {
          "plots": {
@@ -3674,8 +2662,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -3687,29 +2674,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3721,8 +2685,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "elprutest": {
          "plots": {
@@ -3806,8 +2771,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 270,
-         "waterCount": 0,
+         "hkwater": 270,
          "waterPlants": {
             "lvl1": 9,
             "lvl2": 0,
@@ -3819,29 +2783,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3853,8 +2794,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "khan.dayyanz": {
          "plots": {
@@ -3882,8 +2824,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -3895,29 +2836,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3929,8 +2847,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "xbladex": {
          "plots": {
@@ -3972,8 +2891,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
-         "waterCount": 0,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 3,
             "lvl2": 0,
@@ -3985,29 +2903,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4019,8 +2914,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "cireth": {
          "plots": {
@@ -4048,8 +2944,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -4061,29 +2956,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4095,8 +2967,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "infernalcoliseum": {
          "plots": {
@@ -4124,8 +2997,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -4137,29 +3009,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4171,8 +3020,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "anarcist69": {
          "plots": {
@@ -4228,8 +3078,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 150,
-         "waterCount": 0,
+         "hkwater": 150,
          "waterPlants": {
             "lvl1": 5,
             "lvl2": 0,
@@ -4241,29 +3090,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4275,8 +3101,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "jmsansan.leo": {
          "plots": {
@@ -4304,8 +3131,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -4317,29 +3143,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4351,8 +3154,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "jinmori": {
          "plots": {
@@ -4387,8 +3191,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -4400,29 +3203,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4434,8 +3214,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "nemesis29ff": {
          "plots": {
@@ -4470,8 +3251,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -4483,29 +3263,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4517,8 +3274,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "mafia.wallet": {
          "plots": {
@@ -4560,8 +3318,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
-         "waterCount": 0,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 3,
             "lvl2": 0,
@@ -4573,29 +3330,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4607,8 +3341,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "cesarg": {
          "plots": {
@@ -4636,8 +3371,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -4649,29 +3383,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4683,8 +3394,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "davedickeyyall": {
          "plots": {
@@ -4712,8 +3424,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -4725,29 +3436,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4759,8 +3447,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "gooba": {
          "plots": {
@@ -4788,8 +3477,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -4801,29 +3489,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4835,8 +3500,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "hexflex": {
          "plots": {
@@ -4927,8 +3593,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 300,
-         "waterCount": 0,
+         "hkwater": 300,
          "waterPlants": {
             "lvl1": 10,
             "lvl2": 0,
@@ -4940,29 +3605,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4974,8 +3616,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "proto26": {
          "plots": {
@@ -5003,8 +3646,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -5016,29 +3658,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5050,8 +3669,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "nataxsnakex1": {
          "plots": {
@@ -5086,8 +3706,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -5099,29 +3718,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5133,8 +3729,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "skippyza": {
          "plots": {
@@ -5162,8 +3759,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -5175,29 +3771,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5209,8 +3782,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "udabeu": {
          "plots": {
@@ -5238,8 +3812,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -5251,29 +3824,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5285,8 +3835,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "luisdavid17": {
          "plots": {
@@ -5314,8 +3865,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -5327,29 +3877,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5361,8 +3888,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "mermaidvampire": {
          "plots": {
@@ -5411,8 +3939,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
-         "waterCount": 0,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 4,
             "lvl2": 0,
@@ -5424,29 +3951,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5458,8 +3962,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "bwar": {
          "plots": {
@@ -5479,8 +3984,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -5492,29 +3996,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5526,8 +4007,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "yova22": {
          "plots": {
@@ -5562,8 +4044,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -5575,29 +4056,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5609,8 +4067,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "seravilop": {
          "plots": {
@@ -5645,8 +4104,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -5658,29 +4116,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5692,8 +4127,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "krakolito": {
          "plots": {
@@ -5735,8 +4171,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
-         "waterCount": 0,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 3,
             "lvl2": 0,
@@ -5748,29 +4183,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5782,8 +4194,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "mooncrab88": {
          "plots": {
@@ -5811,8 +4224,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -5824,29 +4236,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5858,8 +4247,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "silverxdpro": {
          "plots": {
@@ -5901,8 +4291,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
-         "waterCount": 0,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 3,
             "lvl2": 0,
@@ -5914,29 +4303,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -5948,8 +4314,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "gamsam": {
          "plots": {
@@ -5977,8 +4344,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -5990,29 +4356,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6024,8 +4367,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "shmoogleosukami": {
          "plots": {
@@ -6053,8 +4397,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -6066,29 +4409,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6100,8 +4420,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "wagginston": {
          "plots": {
@@ -6437,8 +4758,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 1350,
-         "waterCount": 0,
+         "hkwater": 1350,
          "waterPlants": {
             "lvl1": 45,
             "lvl2": 0,
@@ -6450,29 +4770,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6484,8 +4781,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "nupulse": {
          "plots": {
@@ -6520,8 +4818,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -6533,29 +4830,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6567,8 +4841,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "bhoa": {
          "plots": {
@@ -6603,8 +4878,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -6616,29 +4890,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6650,8 +4901,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "bitandi": {
          "plots": {
@@ -6679,8 +4931,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -6692,29 +4943,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6726,8 +4954,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "steinreich": {
          "plots": {
@@ -6755,8 +4984,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -6768,29 +4996,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6802,8 +5007,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "bassman077": {
          "plots": {
@@ -6831,8 +5037,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -6844,29 +5049,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6878,8 +5060,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "condeas": {
          "plots": {
@@ -6907,8 +5090,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -6920,29 +5102,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6954,8 +5113,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "joebabana": {
          "plots": {
@@ -6983,8 +5143,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -6996,29 +5155,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7030,8 +5166,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "virusfx": {
          "plots": {
@@ -7059,8 +5196,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -7072,29 +5208,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7106,8 +5219,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "aubryd": {
          "plots": {
@@ -7135,8 +5249,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -7148,29 +5261,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7182,8 +5272,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "treefiddybruh": {
          "plots": {
@@ -7218,8 +5309,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -7231,29 +5321,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7265,8 +5332,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "definitelyn0tme": {
          "plots": {
@@ -7343,8 +5411,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 240,
-         "waterCount": 0,
+         "hkwater": 240,
          "waterPlants": {
             "lvl1": 8,
             "lvl2": 0,
@@ -7356,29 +5423,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7390,8 +5434,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "elricmoonslayer": {
          "plots": {
@@ -7419,8 +5464,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -7432,29 +5476,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7466,8 +5487,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "quantumnachos": {
          "plots": {
@@ -7593,8 +5615,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 450,
-         "waterCount": 0,
+         "hkwater": 450,
          "waterPlants": {
             "lvl1": 15,
             "lvl2": 0,
@@ -7606,29 +5627,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7640,8 +5638,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "reeeheee": {
          "plots": {
@@ -7683,8 +5682,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
-         "waterCount": 0,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 3,
             "lvl2": 0,
@@ -7696,29 +5694,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7730,8 +5705,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "sinerjji": {
          "plots": {
@@ -7766,8 +5742,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -7779,29 +5754,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7813,8 +5765,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "malonn": {
          "plots": {
@@ -7842,8 +5795,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -7855,29 +5807,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7889,8 +5818,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "swashcoldsteel": {
          "plots": {
@@ -7925,8 +5855,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -7938,29 +5867,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -7972,8 +5878,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "uganzadranje": {
          "plots": {
@@ -8022,8 +5929,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
-         "waterCount": 0,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 4,
             "lvl2": 0,
@@ -8035,29 +5941,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8069,8 +5952,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "honey-swap": {
          "plots": {
@@ -8090,8 +5974,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
-         "waterCount": 0,
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -8103,29 +5986,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8137,8 +5997,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "nathanpieters": {
          "plots": {
@@ -8166,8 +6027,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -8179,29 +6039,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8213,8 +6050,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "willsaldeno": {
          "plots": {
@@ -8242,8 +6080,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -8255,29 +6092,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8289,8 +6103,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "hosherama": {
          "plots": {
@@ -8360,8 +6175,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 210,
-         "waterCount": 0,
+         "hkwater": 210,
          "waterPlants": {
             "lvl1": 7,
             "lvl2": 0,
@@ -8373,29 +6187,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8407,8 +6198,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "turb0nen": {
          "plots": {
@@ -8464,8 +6256,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 150,
-         "waterCount": 0,
+         "hkwater": 150,
          "waterPlants": {
             "lvl1": 5,
             "lvl2": 0,
@@ -8477,29 +6268,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8511,8 +6279,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "psycodelic": {
          "plots": {
@@ -8561,8 +6330,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
-         "waterCount": 0,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 4,
             "lvl2": 0,
@@ -8574,29 +6342,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8608,8 +6353,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "badpupper": {
          "plots": {
@@ -8672,8 +6418,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 180,
-         "waterCount": 0,
+         "hkwater": 180,
          "waterPlants": {
             "lvl1": 6,
             "lvl2": 0,
@@ -8685,29 +6430,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8719,8 +6441,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "hersi007": {
          "plots": {
@@ -8748,8 +6471,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -8761,29 +6483,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8795,8 +6494,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "acne": {
          "plots": {
@@ -8824,8 +6524,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -8837,29 +6536,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8871,8 +6547,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "sanchezro": {
          "plots": {
@@ -8907,8 +6584,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
-         "waterCount": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -8920,29 +6596,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -8954,8 +6607,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "tongostar": {
          "plots": {
@@ -8983,8 +6637,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -8996,29 +6649,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9030,8 +6660,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       },
       "casilokodesing": {
          "plots": {
@@ -9059,8 +6690,7 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
-         "waterCount": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -9072,29 +6702,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9106,8 +6713,9 @@ module.exports = {
             "waxJoint": 0,
             "blunt": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motastake": 0,
+         "buds": 0
       }
    },
    "cs": {
