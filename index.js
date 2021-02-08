@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51144188; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51145432; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51144188;
+const ago = ENV.ago || 51145432;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -255,7 +255,7 @@ function hivePriceConversion(amount) {
     })
 })}
 
-function reporting() {
+function reporting(ourUser) {
     contract.getReport(axios).then((res) => {
         
 
@@ -270,6 +270,26 @@ function reporting() {
         let mexicoTotal = res[1].Mexico
         let southAmericaTotal = res[1]['South America']
 
+        let totalAsiaSupply = 40
+        let totalJamaicaSupply = 116
+        let totalAfricaSupply = 300
+        let totalAfghanistanSupply = 500
+        let totalMexicoSupply = 750
+        let totalSouthAmericaSupply = 1300
+
+        state.stats.supply.land.asia = totalAsiaSupply - asiaTotal
+        state.stats.supply.land.asiaC = asiaTotal
+        state.stats.supply.land.jamaica = totalJamaicaSupply - jamaicaTotal
+        state.stats.supply.land.jamaicaC = jamaicaTotal
+        state.stats.supply.land.africa = totalAfricaSupply - africaTotal
+        state.stats.supply.land.africaC = africaTotal
+        state.stats.supply.land.afghanistan = totalAfghanistanSupply - afghanistanTotal
+        state.stats.supply.land.afghanistanC = afghanistanTotal
+        state.stats.supply.land.mexico = totalMexicoSupply - mexicoTotal
+        state.stats.supply.land.mexicoC = mexicoTotal
+        state.stats.supply.land.southAmerica = totalSouthAmericaSupply - southAmericaTotal
+        state.stats.supply.land.southAmericaC = southAmericaTotal
+
         console.log("-------------")
         console.log("the land total is " + landTotal)
         console.log("the water tower total is " + waterTotal)
@@ -281,6 +301,7 @@ function reporting() {
         console.log("the afghanistan total is " + afghanistanTotal)
         console.log("the mexico total is " + mexicoTotal)
         console.log("the south america total is " + southAmericaTotal)
+
         console.log("-------------")
     }
     )}
@@ -465,7 +486,7 @@ function startApp() {
                     console.log('------------------------');
                 })
 
-                reporting();
+                reporting(username);
         }
 
         //saves state to ipfs hash
