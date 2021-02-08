@@ -262,8 +262,8 @@ function reporting() {
         console.log(res)
         console.log("-------------")
 
-        const { data } = res
-        let landTotal = JSON.parse(res.json).totalAllPlots
+        
+        let landTotal = res[2].totalAllPlots
         //let landTotal = totals.totalAllPlots
         
         console.log("the land total is" + landTotal)
