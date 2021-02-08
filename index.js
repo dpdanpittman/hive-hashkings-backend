@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51143762; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51144188; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51143762;
+const ago = ENV.ago || 51144188;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -257,16 +257,31 @@ function hivePriceConversion(amount) {
 
 function reporting() {
     contract.getReport(axios).then((res) => {
-        console.log("-------------")
-        console.log("report below")
-        console.log(res)
-        console.log("-------------")
+        
 
-        
         let landTotal = res[2].totalAllPlots
-        //let landTotal = totals.totalAllPlots
+        let waterTotal = res[2].totalAllWater
+        let seedTotal = res[2].totalAllSeeds
         
-        console.log("the land total is" + landTotal)
+        let asiaTotal = res[1].Asia
+        let jamaicaTotal = res[1].Jamaica
+        let africaTotal = res[1].Africa
+        let afghanistanTotal = res[1].Afghanistan
+        let mexicoTotal = res[1].Mexico
+        let southAmericaTotal = res[1]['South America']
+
+        console.log("-------------")
+        console.log("the land total is " + landTotal)
+        console.log("the water tower total is " + waterTotal)
+        console.log("the seed total is " + seedTotal)
+
+        console.log("the asia total is " + asiaTotal)
+        console.log("the jamaica total is " + jamaicaTotal)
+        console.log("the africa total is " + africaTotal)
+        console.log("the afghanistan total is " + afghanistanTotal)
+        console.log("the mexico total is " + mexicoTotal)
+        console.log("the south america total is " + southAmericaTotal)
+        console.log("-------------")
     }
     )}
 
