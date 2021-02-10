@@ -6,8 +6,8 @@ module.exports = {
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmYGW6sYJKrYFbGiZXvcEStKdUA83ipwTCneVC1pgQGxru",
-      "bi": 51173401,
+      "bu": "QmdSuiR3qW8iYT3JsbpxxiaqxGnRuYqjHxy1BnQchGrQzy",
+      "bi": 51208101,
       "prices": {
          "bundles": {
             "asiaBundle": 165,
