@@ -875,100 +875,147 @@ async function queryContract(axios, { contract, table, query = {} }, offset = 0)
 
 async function getReport(axios) {
 
-    return new Promise( async (resolve, reject) => {
+    return new Promise(async (resolve, reject) => {
 
-(async () => {
-        let complete = false;
-        let nfts = [];
-        let offset = 0;
+        (async () => {
+            let complete = false;
+            let nfts = [];
+            let offset = 0;
 
-        while (!complete) {
-            let get_nfts = await queryContract(axios, { contract: CONTRACT, table: NFT_SYMBOL + TABLE_POSTFIX }, offset);
-            if (get_nfts !== false) {
-                nfts = nfts.concat(get_nfts);
-                offset += 1000;
+            while (!complete) {
+                let get_nfts = await queryContract(axios, { contract: CONTRACT, table: NFT_SYMBOL + TABLE_POSTFIX }, offset);
+                if (get_nfts !== false) {
+                    nfts = nfts.concat(get_nfts);
+                    offset += 1000;
 
-                if (get_nfts.length !== 1000) {
+                    if (get_nfts.length !== 1000) {
+                        complete = true;
+                    }
+                } else {
                     complete = true;
                 }
-            } else {
-                complete = true;
             }
-        }
 
-        let owners = {};
+            let owners = {};
 
-        let plot = {};
+            let plot = {};
 
-        let totalPlot = {
-            totalAllPlots: 0,
-            totalAllSeeds: 0,
-            totalAllWater: 0
-        }
+            let totalPlot = {
+                totalAllPlots: 0,
+                totalAllSeeds: 0,
+                totalAllWater: 0
+            }
+
+            let accounts = {};
+
+            let onlyAcconts = [];
 
 
-        for (let i = 0; i < nfts.length; i++) {
-            if (limiter("plot", nfts[i])) {
+            for (let i = 0; i < nfts.length; i++) {
+
+                if (!accounts.hasOwnProperty(nfts[i].account)) {
+                    onlyAcconts.push(nfts[i].account);
+
+                } 
+                if (limiter("plot", nfts[i])) {
+
+                    if (!accounts.hasOwnProperty(nfts[i].account)) {
+                        accounts[nfts[i].account] = {
+                            seeds: [],
+                            plots: []
+                        };
+                        accounts[nfts[i].account].plots.push({
+                            id: nfts[i].id,
+                            properties: nfts[i].properties
+                        })
+
+                    } else {
+                        accounts[nfts[i].account].plots.push({
+                            id: nfts[i].id,
+                            properties: nfts[i].properties
+                        })
+                    }
 
 
-                if (plot.hasOwnProperty(grouper(nfts[i]))) {
-                    plot[grouper(nfts[i])] += 1;
-                } else {
-                    plot[grouper(nfts[i])] = 1;
+
+                    if (plot.hasOwnProperty(grouper(nfts[i]))) {
+                        plot[grouper(nfts[i])] += 1;
+                    } else {
+                        plot[grouper(nfts[i])] = 1;
+                    }
+
+                    if (owners.hasOwnProperty(nfts[i].account)) {
+                        owners[nfts[i].account].totalPlot += 1;
+                        totalPlot.totalAllPlots += 1;
+
+                    } else {
+
+                        totalPlot.totalAllPlots += 1;
+                        owners[nfts[i].account] = { "totalPlot": 1, "totalSeed": 0, "totalWater": 0 };
+                    }
                 }
 
+            }
+
+            for (let j = 0; j < nfts.length; j++) {
+                if (limiter("seed", nfts[j])) {
+
+                    if (!accounts.hasOwnProperty(nfts[j].account)) {
+                        accounts[nfts[j].account] = {
+                            seeds: [],
+                            plots: []
+                        };
+                        accounts[nfts[j].account].seeds.push({
+                            id: nfts[j].id,
+                            properties: nfts[j].properties
+                        })
+
+                    } else {
+                        accounts[nfts[j].account].seeds.push({
+                            id: nfts[j].id,
+                            properties: nfts[j].properties
+                        })
+                    }
 
 
-                if (owners.hasOwnProperty(nfts[i].account)) {
-                    owners[nfts[i].account].totalPlot += 1;
-                    totalPlot.totalAllPlots += 1;
 
+                    try {
+                        totalPlot.totalAllSeeds += 1;
+                        owners[nfts[j].account].totalSeed += 1;
+                    } catch (e) {
+                        totalPlot.totalAllSeeds += 1;
+                        owners[nfts[j].account] = { "totalPlot": 0, "totalSeed": 1, "totalWater": 0 };
+                    }
 
-
-                } else {
-
-                    totalPlot.totalAllPlots += 1;
-                    owners[nfts[i].account] = { "totalPlot": 1, "totalSeed": 0, "totalWater": 0 };
                 }
             }
-        }
 
-        for (let j = 0; j < nfts.length; j++) {
-            if (limiter("seed", nfts[j])) {
-                try {
-                    totalPlot.totalAllSeeds += 1;
-                    owners[nfts[j].account].totalSeed += 1;
-                } catch (e) {
-                    totalPlot.totalAllSeeds += 1;
-                    owners[nfts[j].account] = { "totalPlot": 0, "totalSeed": 1, "totalWater": 0 };
+            for (let k = 0; k < nfts.length; k++) {
+                if (limiter("water", nfts[k])) {
+
+                    try {
+                        totalPlot.totalAllWater += 1;
+                        owners[nfts[k].account].totalWater += 1;
+                    } catch (e) {
+                        totalPlot.totalAllWater += 1;
+                        owners[nfts[k].account] = { "totalPlot": 0, "totalSeed": 0, "totalWater": 1 };
+                    }
+
+
+
                 }
-
             }
-        }
 
-        for (let k = 0; k < nfts.length; k++) {
-            if (limiter("water", nfts[k])) {
+            let report = [owners,
+                plot,
+                totalPlot,
+                onlyAcconts,
+                accounts
+            ]
 
-                try {
-                    totalPlot.totalAllWater += 1;
-                    owners[nfts[k].account].totalWater += 1;
-                } catch (e) {
-                    totalPlot.totalAllWater += 1;
-                    owners[nfts[k].account] = { "totalPlot": 0, "totalSeed": 0, "totalWater": 1 };
-                }
+            resolve(report);
 
-
-
-            }
-        }
-
-        let report = [owners,
-            plot,
-            totalPlot]
-
-        resolve(report);
-
-})()
+        })()
 
     })
 
@@ -976,6 +1023,116 @@ async function getReport(axios) {
 }
 
 
+async function getTokens(ssc, user) {
+
+
+    return new Promise(async (resolve, reject) => {
+        let data = {
+            buds: {
+                balance: 0,
+                stake: 0
+            },
+            mota: {
+                balance: 0,
+                stake: 0
+            },
+            hkwater: {
+                balance: 0,
+                stake: 0
+            }
+        }
+        ssc.find('tokens', 'balances', { account: user }, 1000, 0, [], (err, result) => {
+
+
+            if (err) {
+                reject(err);
+            }
+
+            for (let index = 0; index < result.length; index++) {
+                const token = result[index];
+                if (token.symbol == 'BUDS') {
+                    data.buds.balance = token.balance
+                    data.buds.stake = token.stake
+                }
+
+                if (token.symbol == 'HKWATER') {
+                    data.hkwater.balance = token.balance
+                    data.hkwater.stake = token.stake
+                }
+
+                if (token.symbol == 'MOTA') {
+                    data.mota.balance = token.balance
+                    data.mota.stake = token.stake
+                }
+            }
+
+            resolve(data)
+
+
+        })
+
+    })
+
+}
+
+
+const generateToken = async (hive, token, quantity, user) => {
+
+
+
+    let json = {
+        contractName: "tokens",
+        contractAction: "issue",
+        contractPayload: {
+            "symbol": token,
+            "to": user,
+            "quantity": quantity
+        }
+    }
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
+
+};
+
+
+const updateNft = async (hive, idnft, properties) => {
+
+
+
+    let json = {
+        contractName: "nft",
+        contractAction: "setProperties",
+        contractPayload: {
+            "symbol": UTILITY_TOKEN_SYMBOL,
+            "nfts": [
+                {
+                    "id": idnft, "properties": properties
+                }
+            ]
+        }
+    }
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
+
+};
 
 module.exports = contract = {
     createSeed,
@@ -985,5 +1142,8 @@ module.exports = contract = {
     createWater,
     createBud,
     generateBundle,
-    getReport
+    getReport,
+    getTokens,
+    generateToken,
+    updateNft
 }

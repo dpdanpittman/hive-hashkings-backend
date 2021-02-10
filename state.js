@@ -6,16 +6,16 @@ module.exports = {
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmdSuiR3qW8iYT3JsbpxxiaqxGnRuYqjHxy1BnQchGrQzy",
-      "bi": 51208101,
+      "bu": "QmQWn81KVFqEWokVDJAMpHDEUve1vUw7UDZjwPQweGVJ1x",
+      "bi": 51222001,
       "prices": {
          "bundles": {
-            "asiaBundle": 165,
-            "africaBundle": 83,
-            "afghanistanBundle": 55,
-            "jamaicaBundle": 110,
-            "mexicoBundle": 42,
-            "southAmericaBundle": 28
+            "asiaBundle": 142,
+            "africaBundle": 71,
+            "afghanistanBundle": 48,
+            "jamaicaBundle": 95,
+            "mexicoBundle": 36,
+            "southAmericaBundle": 24
          },
          "waterPlants": {
             "LVL1": {
@@ -131,28 +131,28 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 83,
-               "token": 830
+               "price": 71,
+               "token": 710
             },
             "africa": {
-               "price": 42,
-               "token": 420
+               "price": 36,
+               "token": 360
             },
             "afghanistan": {
-               "price": 28,
-               "token": 280
+               "price": 24,
+               "token": 240
             },
             "southAmerica": {
-               "price": 10,
-               "token": 100
+               "price": 9,
+               "token": 90
             },
             "jamaica": {
-               "price": 54,
-               "token": 540
+               "price": 47,
+               "token": 470
             },
             "mexico": {
-               "price": 20,
-               "token": 200
+               "price": 17,
+               "token": 170
             }
          }
       },
@@ -160,16 +160,16 @@ module.exports = {
          "land": {
             "asia": 0,
             "asiaC": 40,
-            "africa": 227,
-            "africaC": 73,
-            "afghanistan": 446,
-            "afghanistanC": 54,
-            "southAmerica": 1078,
-            "southAmericaC": 222,
+            "africa": 221,
+            "africaC": 79,
+            "afghanistan": 437,
+            "afghanistanC": 63,
+            "southAmerica": 1043,
+            "southAmericaC": 257,
             "jamaica": 0,
             "jamaicaC": 116,
-            "mexico": 696,
-            "mexicoC": 54
+            "mexico": 688,
+            "mexicoC": 62
          },
          "waterTowers": 17000
       },

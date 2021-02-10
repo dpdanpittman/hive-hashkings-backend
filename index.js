@@ -42,7 +42,7 @@
 //contract.createWater(hive,"Water",1,"chocolatoso") <----- done (needs pricing in db)
 //--------------------------------------------------------------------------------
 
-
+require('dotenv').config()
 var dhive = require("@hiveio/dhive");
 var hivejs = require('@hiveio/hive-js');
 var axios = require('axios');
@@ -170,10 +170,10 @@ app.get('/u/:user', (req, res, next) => {
 
 app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51219832; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51222150; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51219832;
+const ago = ENV.ago || 51222150;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -430,7 +430,7 @@ function startApp() {
         }
 
         //used to catch up on replay
-        if (num % 100 === 0 && !processor.isStreaming()) {
+        if (num % 5 === 0 && !processor.isStreaming()) {
             client.database.getDynamicGlobalProperties().then(function(result) {
                 console.log('At block', num, 'with', result.head_block_number - num, 'left until real-time.')
             });
