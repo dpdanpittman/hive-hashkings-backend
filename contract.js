@@ -1,3 +1,4 @@
+require('dotenv').config();
 const ENV = process.env;
 
 const CONTRACT_CREATOR = 'hashkings';
