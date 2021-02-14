@@ -69,7 +69,7 @@ var level = require('level');
 
 var store = new Pathwise(level('./db', { createIfEmpty: true }));
 const app = express();
-const port = ENV.PORT || 3000;
+const port = ENV.PORT || 443;
 const wkey = ENV.wkey;
 const skey = dhive.PrivateKey.from(ENV.skey);
 const streamname = ENV.streamname;
