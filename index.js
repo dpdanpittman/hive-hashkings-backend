@@ -68,7 +68,7 @@ var Pathwise = require('./pathwise');
 var level = require('level');
 
 var store = new Pathwise(level('./db', { createIfEmpty: true }));
-const app = express();
+//const app = express();
 //const port = ENV.PORT || 443;
 const wkey = ENV.wkey;
 const skey = dhive.PrivateKey.from(ENV.skey);
