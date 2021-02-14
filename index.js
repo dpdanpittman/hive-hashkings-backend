@@ -69,10 +69,46 @@ var level = require('level');
 
 var store = new Pathwise(level('./db', { createIfEmpty: true }));
 const app = express();
-const port = ENV.PORT || 443;
+//const port = ENV.PORT || 443;
 const wkey = ENV.wkey;
 const skey = dhive.PrivateKey.from(ENV.skey);
 const streamname = ENV.streamname;
+
+
+/******************* Server *************************/
+
+// Dependencies
+const http = require('http');
+const https = require('https');
+
+const app = express();
+
+// Certificate
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/cert.pem', 'utf8');
+const ca = fs.readFileSync('/etc/letsencrypt/live/yourdomain.com/chain.pem', 'utf8');
+
+const credentials = {
+	key: privateKey,
+	cert: certificate,
+	ca: ca
+};
+
+// Starting both http & https servers
+const httpServer = http.createServer(app);
+const httpsServer = https.createServer(credentials, app);
+
+httpServer.listen(80, () => {
+	console.log('HTTP Server running on port 80');
+});
+
+httpsServer.listen(443, () => {
+	console.log('HTTPS Server running on port 443');
+});
+
+
+/***************** End Server ************************/
+
 
 app.use(cors());
 
@@ -168,7 +204,7 @@ app.get('/u/:user', (req, res, next) => {
     res.send(JSON.stringify(state.users[user], null, 3))
 });
 
-app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
+//app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
 var startingBlock = ENV.STARTINGBLOCK || 51328646; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
