@@ -534,7 +534,7 @@ function startApp() {
                 })
 
                 reporting(username);
-                userList();
+                
         }
 
         //saves state to ipfs hash
