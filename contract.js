@@ -1,4 +1,3 @@
-require('dotenv').config();
 const ENV = process.env;
 
 const CONTRACT_CREATOR = 'hashkings';
@@ -914,7 +913,7 @@ async function getReport(axios) {
 
             for (let i = 0; i < nfts.length; i++) {
 
-                if (!accounts.hasOwnProperty(nfts[i].account)) {
+                if (!(onlyAcconts.find(nfts[i].account))) {
                     onlyAcconts.push(nfts[i].account);
 
                 } 
