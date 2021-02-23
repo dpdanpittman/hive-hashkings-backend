@@ -1,4 +1,3 @@
-require('dotenv').config();
 const ENV = process.env;
 
 const CONTRACT_CREATOR = 'hashkings';
@@ -914,10 +913,13 @@ async function getReport(axios) {
 
             for (let i = 0; i < nfts.length; i++) {
 
-                if (!accounts.hasOwnProperty(nfts[i].account)) {
+                let acc = await (onlyAcconts.find(function (element) {
+                    return element == nfts[i].account;
+                }));
+                if (!acc) {
                     onlyAcconts.push(nfts[i].account);
+                }
 
-                } 
                 if (limiter("plot", nfts[i])) {
 
                     if (!accounts.hasOwnProperty(nfts[i].account)) {
@@ -1025,7 +1027,6 @@ async function getReport(axios) {
 
 
 async function getTokens(ssc, user) {
-
 
     return new Promise(async (resolve, reject) => {
         let data = {
