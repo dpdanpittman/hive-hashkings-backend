@@ -911,6 +911,8 @@ async function getReport(axios) {
             let onlyAcconts = [];
 
 
+            //console.log("cheking nft" , nfts[0]);
+
             for (let i = 0; i < nfts.length; i++) {
 
                 let acc = await (onlyAcconts.find(function (element) {
@@ -969,13 +971,13 @@ async function getReport(axios) {
                             plots: []
                         };
                         accounts[nfts[j].account].seeds.push({
-                            id: nfts[j].id,
+                            id: nfts[j]._id,
                             properties: nfts[j].properties
                         })
 
                     } else {
                         accounts[nfts[j].account].seeds.push({
-                            id: nfts[j].id,
+                            id: nfts[j]._id,
                             properties: nfts[j].properties
                         })
                     }
@@ -1027,6 +1029,7 @@ async function getReport(axios) {
 
 
 async function getTokens(ssc, user) {
+
 
     return new Promise(async (resolve, reject) => {
         let data = {

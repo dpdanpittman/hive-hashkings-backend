@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51568700; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51716057; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51568700;
+const ago = ENV.ago || 51716057;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -338,21 +338,6 @@ function reporting(ourUser) {
 
         state.stats.farmerList = res[3]
         state.stats.farmers = state.stats.farmerList.length
-
-        console.log("-------------")
-        console.log("the land total is " + landTotal)
-        console.log("the water tower total is " + waterTotal)
-        console.log("the seed total is " + seedTotal)
-
-        console.log("the asia total is " + asiaTotal)
-        console.log("the jamaica total is " + jamaicaTotal)
-        console.log("the africa total is " + africaTotal)
-        console.log("the afghanistan total is " + afghanistanTotal)
-        console.log("the mexico total is " + mexicoTotal)
-        console.log("the south america total is " + southAmericaTotal)
-
-        console.log("-------------")
-        console.log(res[3])
     }
     )}
 

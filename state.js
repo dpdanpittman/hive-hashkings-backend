@@ -1,21 +1,21 @@
 module.exports = {
    "stats": {
-      "seedCount": 827,
+      "seedCount": 972,
       "roles": {
          "1": "farmer",
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "Qmc4dwbnfWZ53fTSBELecw5uDuU9CGGds825HxArArcJA1",
-      "bi": 51568201,
+      "bu": "QmT3VXr5DxgNrjgE3auZLicUEVaqnRkDgXyVinEmygaMGF",
+      "bi": 51715901,
       "prices": {
          "bundles": {
-            "asiaBundle": 112,
-            "africaBundle": 56,
-            "afghanistanBundle": 38,
-            "jamaicaBundle": 75,
-            "mexicoBundle": 28,
-            "southAmericaBundle": 19
+            "asiaBundle": 98,
+            "africaBundle": 49,
+            "afghanistanBundle": 33,
+            "jamaicaBundle": 65,
+            "mexicoBundle": 25,
+            "southAmericaBundle": 17
          },
          "waterPlants": {
             "LVL1": {
@@ -96,12 +96,12 @@ module.exports = {
             }
          },
          "joints": {
-            "splif": 50,
-            "joint": 200,
-            "cone": 1000,
-            "kiefJoint": 2500,
+            "pinner": 50,
+            "hempWrappedJoint": 200,
+            "crossJoint": 1000,
+            "blunt": 2500,
             "waxJoint": 5000,
-            "blunt": 10000
+            "twaxJoint": 10000
          },
          "recollector": {
             "lvl1": {
@@ -131,28 +131,28 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 56,
-               "token": 560
+               "price": 49,
+               "token": 490
             },
             "africa": {
-               "price": 28,
-               "token": 280
+               "price": 25,
+               "token": 250
             },
             "afghanistan": {
-               "price": 19,
-               "token": 190
+               "price": 17,
+               "token": 170
             },
             "southAmerica": {
-               "price": 7,
-               "token": 70
+               "price": 6,
+               "token": 60
             },
             "jamaica": {
-               "price": 37,
-               "token": 370
+               "price": 32,
+               "token": 320
             },
             "mexico": {
-               "price": 14,
-               "token": 140
+               "price": 12,
+               "token": 120
             }
          }
       },
@@ -162,94 +162,104 @@ module.exports = {
             "asiaC": 40,
             "africa": 0,
             "africaC": 300,
-            "afghanistan": 342,
-            "afghanistanC": 158,
-            "southAmerica": 868,
-            "southAmericaC": 432,
+            "afghanistan": 291,
+            "afghanistanC": 209,
+            "southAmerica": 801,
+            "southAmericaC": 499,
             "jamaica": 0,
             "jamaicaC": 116,
-            "mexico": 578,
-            "mexicoC": 172
+            "mexico": 549,
+            "mexicoC": 201
          },
          "waterTowers": 17000
       },
-      "farmers": 248,
+      "farmers": 289,
       "farmerList": [
          "qwoyn",
-         "r0um3n1987",
-         "boyobevan",
-         "academialibertad",
-         "abztraxxx",
-         "audiomancer",
-         "cryptounicorn420",
-         "dolp",
-         "xplora4253",
-         "ricarox",
-         "edtorr704",
-         "marcoss21",
+         "abrockman",
          "foxon",
-         "meanbees",
-         "degranoengrano",
-         "ibanezense",
-         "ejmh",
-         "toxicmen01",
+         "cadawg",
+         "abztraxxx",
+         "aries02",
+         "audiomancer",
+         "bigkidstuff",
+         "boyobevan",
+         "cireth",
          "cratic",
          "criptojones",
-         "bigkidstuff",
-         "dominic23",
-         "electru",
-         "lozadakb",
-         "hodltoday",
-         "fdeflash",
-         "pedroozj",
-         "facugaba",
-         "luisveco88",
-         "aries02",
-         "medicenw1",
-         "quefe",
-         "mejiasclaudia",
-         "cadawg",
-         "ecuaminte",
-         "abrockman",
-         "supremdsm",
-         "darthslaver",
-         "juanchuzx",
-         "dobro2020",
          "dantejcs",
-         "the-mister7",
-         "reward.app",
-         "oblivioncubed",
-         "yoclensavilan",
+         "darthslaver",
+         "degranoengrano",
+         "dobro2020",
+         "dolp",
+         "dominic23",
+         "ecuaminte",
+         "edtorr704",
+         "electru",
          "elprutest",
+         "facugaba",
+         "fdeflash",
+         "g0nzal0t",
+         "hodltoday",
+         "ibanezense",
+         "juanchuzx",
          "khan.dayyanz",
+         "luisveco88",
+         "luffy1737",
+         "lozadakb",
+         "marcoss21",
+         "meanbees",
+         "medicenw1",
+         "mejiasclaudia",
+         "pedroozj",
+         "r0um3n1987",
+         "ricarox",
+         "the-mister7",
+         "xplora4253",
+         "cryptounicorn420",
+         "nftmart.cards",
+         "alfa16",
+         "toxicmen01",
+         "oblivioncubed",
          "xbladex",
-         "cireth",
+         "supremdsm",
+         "pepeymeli",
+         "nataxsnakex1",
+         "casilokodesing",
          "infernalcoliseum",
          "anarcist69",
          "jmsansan.leo",
          "jinmori",
+         "dhodl",
+         "rishi556",
          "nemesis29ff",
-         "mafia.wallet",
          "cesarg",
          "davedickeyyall",
          "gooba",
+         "hissing1",
+         "psycodelic",
          "hexflex",
+         "mermaidvampire",
+         "gamewatch",
+         "academialibertad",
          "proto26",
-         "nataxsnakex1",
+         "nobutsd1974",
          "skippyza",
          "udabeu",
          "luisdavid17",
-         "mermaidvampire",
          "bwar",
          "yova22",
          "seravilop",
+         "nupulse",
+         "badpupper",
+         "nftmarket",
          "krakolito",
          "mooncrab88",
+         "ejmh",
          "silverxdpro",
          "gamsam",
          "shmoogleosukami",
          "wagginston",
-         "nupulse",
          "bhoa",
          "bitandi",
          "steinreich",
@@ -260,20 +270,22 @@ module.exports = {
          "aubryd",
          "treefiddybruh",
          "definitelyn0tme",
+         "yoclensavilan",
          "elricmoonslayer",
          "quantumnachos",
          "mulletwang",
          "saboin",
          "molovelly",
+         "anarcist",
          "simgirl",
          "guiltyparties",
          "prettynicevideo",
          "meowgan",
          "enginewitty",
+         "smigirl",
          "christoryan",
          "choosefreedom",
          "bauloewe",
-         "egamers",
          "news-today",
          "heremonium",
          "rachaeldwatson",
@@ -282,7 +294,6 @@ module.exports = {
          "schlees",
          "altonos",
          "bibdieufr",
-         "gamewatch",
          "mickvir",
          "buckydurddle",
          "disregardfiat",
@@ -299,30 +310,34 @@ module.exports = {
          "malonn",
          "swashcoldsteel",
          "uganzadranje",
-         "honey-swap",
          "nathanpieters",
          "willsaldeno",
          "hosherama",
+         "ceheran",
+         "ooakosimo",
          "turb0nen",
-         "psycodelic",
-         "badpupper",
+         "bad-goyim",
+         "dannychain",
          "hersi007",
          "acne",
          "sanchezro",
          "tongostar",
-         "casilokodesing",
          "heikki1337",
          "w0nd3rgrip",
          "mako07",
+         "drugwar",
+         "caprisk",
+         "rahul.stan",
          "cryptixmlonwax",
          "chubb149",
          "tremou922",
-         "caprisk",
          "criptosectadepit",
          "jacksonrj",
          "jarkillo",
          "xmuguenx",
          "kratosn2",
+         "silverlining1",
+         "marcss19",
          "rokimv87",
          "alter13",
          "spinvest",
@@ -342,7 +357,6 @@ module.exports = {
          "zeusdy",
          "boitata",
          "drisinger",
-         "luffy1737",
          "zanrsc",
          "rnldjose31",
          "docarmoedu",
@@ -355,7 +369,6 @@ module.exports = {
          "anyeloert",
          "pelayin999",
          "olgerv1",
-         "hissing1",
          "joseph77",
          "sureng11",
          "heybertu",
@@ -417,12 +430,40 @@ module.exports = {
          "jeanzz",
          "stiven1044000000",
          "surajbhattarai",
+         "chronocrypto",
+         "kinggo9",
          "benhaleymade",
          "gallito",
          "zpablo",
          "weirdestwolf",
          "ddamiandonis",
-         "eldudu"
+         "eldudu",
+         "christian7urquia",
+         "ellocohugo",
+         "jacielxy",
+         "sirbogavante",
+         "asas96",
+         "procash1",
+         "davidtradefx",
+         "oldmans",
+         "tupacdre82",
+         "perezcan",
+         "ronny2721",
+         "mundoencriptado",
+         "bmck117",
+         "martinezams",
+         "netaterra",
+         "jerrysstyle",
+         "weedgood",
+         "materrila14",
+         "razyel24",
+         "infinito2021",
+         "melcaya",
+         "largouuu",
+         "cryptosfera",
+         "hazeudon",
+         "canna-curate",
+         "victorycoin23"
       ]
    },
    "bal": {
@@ -510,12 +551,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0.0001,
          "MOTAstake": 0,
@@ -605,12 +646,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -651,12 +692,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -704,12 +745,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -749,12 +790,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -830,12 +871,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -884,12 +925,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1105,12 +1146,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1151,12 +1192,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1196,12 +1237,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1241,12 +1282,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1258,7 +1299,7 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 0,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 1,
             "afghanistanUsed": 0,
             "southAmerica": 0,
             "southAmericaUsed": 0,
@@ -1267,12 +1308,20 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Lashkar Gah",
+               "spt": 5,
+               "water": 43,
+               "pr": 911,
+               "planted": false
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1286,16 +1335,17 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
-         "buds": 0
+         "buds": 0,
+         "water": null
       },
       "foxon": {
          "plots": {
@@ -1303,17 +1353,17 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 1,
             "africaUsed": 0,
-            "afghanistan": 3,
+            "afghanistan": 5,
             "afghanistanUsed": 0,
-            "southAmerica": 3,
+            "southAmerica": 5,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
-            "mexico": 3,
+            "mexico": 5,
             "mexicoUsed": 0
          },
-         "plotCount": 10,
-         "seedCount": 10,
+         "plotCount": 16,
+         "seedCount": 16,
          "seeds": [
             {
                "name": "Panama Red",
@@ -1384,11 +1434,53 @@ module.exports = {
                "water": 137,
                "pr": 3506,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 275,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 491,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1735,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 43,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 428,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 692,
+               "planted": false
             }
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 16,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1402,17 +1494,17 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
          "buds": 0,
-         "water": null
+         "water": 180
       },
       "meanbees": {
          "plots": {
@@ -1484,12 +1576,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1545,12 +1637,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1591,12 +1683,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1610,15 +1702,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 1,
             "jamaicaUsed": 0,
             "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "name": "King’s Bread",
@@ -1640,11 +1732,18 @@ module.exports = {
                "water": 168,
                "pr": 4732,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 155,
+               "planted": false
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1658,17 +1757,17 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
          "buds": 0,
-         "water": null
+         "water": 30
       },
       "toxicmen01": {
          "plots": {
@@ -1733,12 +1832,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1751,7 +1850,7 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 0,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 1,
             "afghanistanUsed": 0,
             "southAmerica": 2,
             "southAmericaUsed": 0,
@@ -1760,8 +1859,8 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "name": "Colombian Gold",
@@ -1776,11 +1875,18 @@ module.exports = {
                "water": 10,
                "pr": 196,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 612,
+               "planted": false
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1794,17 +1900,17 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
          "buds": 0,
-         "water": null
+         "water": 30
       },
       "criptojones": {
          "plots": {
@@ -1840,12 +1946,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1893,12 +1999,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -1939,12 +2045,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2013,12 +2119,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2059,12 +2165,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2112,12 +2218,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2173,12 +2279,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2219,12 +2325,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2272,12 +2378,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2318,12 +2424,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2363,12 +2469,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2408,12 +2514,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2453,12 +2559,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2498,12 +2604,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2614,12 +2720,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2659,12 +2765,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2712,12 +2818,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2758,12 +2864,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2803,12 +2909,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2856,12 +2962,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2901,12 +3007,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -2954,12 +3060,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3007,12 +3113,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3053,12 +3159,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3098,12 +3204,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3151,12 +3257,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3260,12 +3366,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3313,12 +3419,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3387,12 +3493,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3441,12 +3547,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3494,12 +3600,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3575,12 +3681,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3628,12 +3734,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3688,12 +3794,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3748,12 +3854,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3815,12 +3921,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3868,12 +3974,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3921,12 +4027,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -3938,7 +4044,7 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 0,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 1,
             "afghanistanUsed": 0,
             "southAmerica": 1,
             "southAmericaUsed": 0,
@@ -3947,8 +4053,8 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "name": "Panama Red",
@@ -3956,11 +4062,18 @@ module.exports = {
                "water": 9,
                "pr": 191,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 679,
+               "planted": false
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3974,16 +4087,17 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
-         "buds": 0
+         "buds": 0,
+         "water": null
       },
       "hexflex": {
          "plots": {
@@ -4090,12 +4204,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4143,12 +4257,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4203,12 +4317,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4256,12 +4370,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4273,7 +4387,7 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 0,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 1,
             "afghanistanUsed": 0,
             "southAmerica": 0,
             "southAmericaUsed": 0,
@@ -4282,8 +4396,8 @@ module.exports = {
             "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "name": "Acapulco Gold",
@@ -4291,11 +4405,18 @@ module.exports = {
                "water": 23,
                "pr": 419,
                "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1714,
+               "planted": false
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4309,16 +4430,17 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
-         "buds": 0
+         "buds": 0,
+         "water": null
       },
       "luisdavid17": {
          "plots": {
@@ -4362,12 +4484,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4436,12 +4558,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4481,12 +4603,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4611,12 +4733,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4672,12 +4794,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4746,12 +4868,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4800,12 +4922,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4867,12 +4989,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4941,12 +5063,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -4995,12 +5117,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5356,12 +5478,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5416,12 +5538,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5476,12 +5598,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5529,12 +5651,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5582,12 +5704,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5642,12 +5764,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5696,12 +5818,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5756,12 +5878,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5880,12 +6002,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5934,12 +6056,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -5957,11 +6079,11 @@ module.exports = {
             "southAmericaUsed": 0,
             "jamaica": 1,
             "jamaicaUsed": 0,
-            "mexico": 0,
+            "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "name": "King’s Bread",
@@ -5983,11 +6105,18 @@ module.exports = {
                "water": 10,
                "pr": 317,
                "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 549,
+               "planted": false
             }
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6001,17 +6130,17 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
          "buds": 0,
-         "water": null
+         "water": 30
       },
       "definitelyn0tme": {
          "plots": {
@@ -6104,12 +6233,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6157,12 +6286,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6308,12 +6437,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6375,12 +6504,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6435,12 +6564,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6488,12 +6617,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6548,12 +6677,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6622,12 +6751,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6667,12 +6796,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6720,12 +6849,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6773,12 +6902,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6889,12 +7018,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -6971,12 +7100,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -7087,12 +7216,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -7260,12 +7389,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -7321,12 +7450,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -7375,12 +7504,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -7435,12 +7564,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -7488,12 +7617,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -7541,12 +7670,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "mota": 0,
          "motastake": 0,
@@ -7618,12 +7747,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -7764,12 +7893,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -7903,12 +8032,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -7979,12 +8108,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8055,12 +8184,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8131,12 +8260,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8228,12 +8357,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8388,12 +8517,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8464,12 +8593,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8540,12 +8669,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8644,12 +8773,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8776,12 +8905,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8792,17 +8921,17 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 3,
             "africaUsed": 0,
-            "afghanistan": 1,
+            "afghanistan": 2,
             "afghanistanUsed": 0,
-            "southAmerica": 3,
+            "southAmerica": 4,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
-            "mexico": 0,
+            "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 7,
-         "seedCount": 7,
+         "plotCount": 10,
+         "seedCount": 10,
          "seeds": [
             {
                "name": "Durban Poison",
@@ -8852,12 +8981,19 @@ module.exports = {
                "water": 9,
                "pr": 227,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 629,
+               "planted": false
             }
          ],
-         "water": 210,
+         "water": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 7,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8894,12 +9030,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -8970,12 +9106,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -9081,12 +9217,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -9157,12 +9293,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -9254,12 +9390,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -9337,12 +9473,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -9413,12 +9549,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -9496,12 +9632,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -9670,12 +9806,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -9949,12 +10085,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10081,12 +10217,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10199,12 +10335,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10275,12 +10411,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10351,12 +10487,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10490,12 +10626,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10706,12 +10842,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10722,7 +10858,7 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 4,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 6,
             "afghanistanUsed": 0,
             "southAmerica": 0,
             "southAmericaUsed": 0,
@@ -10731,8 +10867,8 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 4,
-         "seedCount": 4,
+         "plotCount": 10,
+         "seedCount": 10,
          "seeds": [
             {
                "name": "Malawi",
@@ -10761,12 +10897,54 @@ module.exports = {
                "water": 93,
                "pr": 2224,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 708,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 681,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 733,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 678,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 772,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 728,
+               "planted": false
             }
          ],
-         "water": 120,
+         "water": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10803,12 +10981,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10893,12 +11071,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -10969,12 +11147,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11045,12 +11223,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11121,12 +11299,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11211,12 +11389,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11301,12 +11479,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11377,12 +11555,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11460,12 +11638,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11536,12 +11714,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11696,12 +11874,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11863,12 +12041,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -11960,12 +12138,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12036,12 +12214,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12133,12 +12311,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12251,12 +12429,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12376,12 +12554,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12487,12 +12665,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12570,12 +12748,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12744,12 +12922,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12827,12 +13005,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12903,12 +13081,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -12979,12 +13157,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13069,12 +13247,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13201,12 +13379,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13312,12 +13490,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13423,12 +13601,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13499,12 +13677,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13589,12 +13767,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13665,12 +13843,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13762,12 +13940,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13845,12 +14023,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -13949,12 +14127,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14109,12 +14287,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14192,12 +14370,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14275,12 +14453,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14372,12 +14550,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14448,12 +14626,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14538,12 +14716,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14663,12 +14841,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14739,12 +14917,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14829,12 +15007,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -14940,12 +15118,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15030,12 +15208,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15113,12 +15291,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15196,12 +15374,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15363,12 +15541,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15446,12 +15624,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15585,12 +15763,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15661,12 +15839,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15751,12 +15929,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -15925,12 +16103,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16008,12 +16186,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16084,12 +16262,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16167,12 +16345,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16250,12 +16428,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16326,12 +16504,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16430,12 +16608,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16520,12 +16698,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16603,12 +16781,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16686,12 +16864,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16762,12 +16940,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16845,12 +17023,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -16942,12 +17120,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17032,12 +17210,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17115,12 +17293,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17191,12 +17369,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17288,12 +17466,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17378,12 +17556,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17461,12 +17639,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17544,12 +17722,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17627,12 +17805,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17710,12 +17888,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17786,12 +17964,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17862,12 +18040,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -17945,12 +18123,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -18021,12 +18199,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -18097,12 +18275,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -18173,12 +18351,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -18382,12 +18560,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -18472,12 +18650,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -18555,12 +18733,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -18645,12 +18823,12 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
@@ -18721,38 +18899,2902 @@ module.exports = {
          "lvl": 1,
          "role": 1,
          "joints": {
-            "splif": 0,
-            "joint": 0,
-            "cone": 0,
-            "kiefJoint": 0,
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
             "waxJoint": 0,
-            "blunt": 0
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "christian7urquia": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1591,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "ellocohugo": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 745,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "jacielxy": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 2,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 3,
+            "mexicoUsed": 0
+         },
+         "plotCount": 6,
+         "seedCount": 6,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 767,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 643,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 526,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 436,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 520,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 321,
+               "planted": false
+            }
+         ],
+         "water": 180,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "sirbogavante": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 689,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 511,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 50,
+               "planted": false
+            }
+         ],
+         "water": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "asas96": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1780,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 444,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 216,
+               "planted": false
+            }
+         ],
+         "water": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "procash1": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 826,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 519,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "davidtradefx": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 518,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1498,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 272,
+               "planted": false
+            }
+         ],
+         "water": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "oldmans": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 4,
+            "afghanistanUsed": 0,
+            "southAmerica": 3,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 8,
+         "seedCount": 8,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 667,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1525,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 682,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 740,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 416,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 74,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 332,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 271,
+               "planted": false
+            }
+         ],
+         "water": 240,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 8,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "tupacdre82": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 338,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "perezcan": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 777,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "ronny2721": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 2,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 116,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 768,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 283,
+               "planted": false
+            }
+         ],
+         "water": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "mundoencriptado": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 813,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 196,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "bmck117": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 3,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 586,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 269,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 60,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1690,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 145,
+               "planted": false
+            }
+         ],
+         "water": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "martinezams": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 2,
+            "afghanistanUsed": 0,
+            "southAmerica": 2,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "name": "Hindu Kush",
+               "spt": 4,
+               "water": 82,
+               "pr": 1900,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 835,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 442,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 126,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 159,
+               "planted": false
+            }
+         ],
+         "water": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "netaterra": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 331,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1483,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "jerrysstyle": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 366,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "weedgood": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 172,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 589,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "materrila14": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 841,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 421,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "kinggo9": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 322,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 552,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 807,
+               "planted": false
+            }
+         ],
+         "water": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "razyel24": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1500,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 202,
+               "planted": false
+            }
+         ],
+         "water": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "infinito2021": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 3,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 297,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 510,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 804,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 240,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 187,
+               "planted": false
+            }
+         ],
+         "water": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "melcaya": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 356,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "largouuu": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 9,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 3,
+            "mexicoUsed": 0
+         },
+         "plotCount": 12,
+         "seedCount": 12,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 791,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 755,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 697,
+               "planted": false
+            },
+            {
+               "name": "Hindu Kush",
+               "spt": 4,
+               "water": 82,
+               "pr": 1990,
+               "planted": false
+            },
+            {
+               "name": "Lashkar Gah",
+               "spt": 5,
+               "water": 43,
+               "pr": 880,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 441,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 527,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 549,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 617,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 664,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 723,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 761,
+               "planted": false
+            }
+         ],
+         "water": 360,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 12,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "pippex": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "water": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "cryptosfera": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 2,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 4,
+         "seedCount": 4,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 648,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 595,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 233,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 685,
+               "planted": false
+            }
+         ],
+         "water": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "nobutsd1974": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 777,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 525,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 56,
+               "planted": false
+            }
+         ],
+         "water": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "hazeudon": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 2,
+            "afghanistanUsed": 0,
+            "southAmerica": 37,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 4,
+            "mexicoUsed": 0
+         },
+         "plotCount": 43,
+         "seedCount": 43,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 291,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 533,
+               "planted": false
+            },
+            {
+               "name": "Lashkar Gah",
+               "spt": 5,
+               "water": 43,
+               "pr": 867,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 232,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 650,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 169,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 108,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 414,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 490,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 359,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 183,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 235,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 53,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 320,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 123,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 33,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 330,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 74,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 101,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 262,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 246,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 262,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 175,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 173,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 258,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 99,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 73,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 119,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 270,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 199,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 179,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 146,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 339,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 242,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 99,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 150,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 287,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 62,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 315,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 37,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 324,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 318,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 83,
+               "planted": false
+            }
+         ],
+         "water": 1290,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 43,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "canna-curate": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 380,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "MOTA": 0,
+         "MOTAstake": 0
+      },
+      "victorycoin23": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 619,
+               "planted": false
+            }
+         ],
+         "water": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "recollectors": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "vl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
          },
          "MOTA": 0,
          "MOTAstake": 0
       }
    },
    "cs": {
-      "51546701:mec45": "mec45 purchased an africa bundle",
-      "51546703:mec45": "mec45 purchased an africa bundle",
-      "51547895:zpablo": "zpablo purchased an africa bundle",
-      "51548445:zpablo": "zpablo purchased south america bundle",
-      "51549117:zpablo": "zpablo purchased an afghanistan bundle",
-      "51553524:weirdestwolf": "weirdestwolf purchased an africa bundle",
-      "51553569:weirdestwolf": "weirdestwolf purchased south america bundle",
-      "51553664:javikalimar": "javikalimar purchased an africa bundle",
-      "51554385:criptosectadepit": "criptosectadepit purchased an africa bundle",
-      "51554523:criptosectadepit": "criptosectadepit purchased an afghanistan bundle",
-      "51554526:criptosectadepit": "criptosectadepit purchased a mexico bundle",
-      "51554530:criptosectadepit": "criptosectadepit purchased south america bundle",
-      "51554533:criptosectadepit": "criptosectadepit purchased south america bundle",
-      "51557865:buritica": "buritica purchased a mexico bundle",
-      "51557868:buritica": "buritica purchased south america bundle",
-      "51558664:cryptomilovat": "cryptomilovat purchased an afghanistan bundle",
-      "51560862:ddamiandonis": "ddamiandonis purchased a mexico bundle",
-      "51560868:ddamiandonis": "ddamiandonis purchased an afghanistan bundle",
-      "51560872:ddamiandonis": "ddamiandonis purchased a mexico bundle",
-      "51565356:eldudu": "eldudu purchased an afghanistan bundle",
-      "51566775:krakolito": "krakolito purchased an afghanistan bundle"
+      "51709023:udabeu": "udabeu purchased an afghanistan bundle",
+      "51710152:canna-curate": "canna-curate purchased a mexico bundle",
+      "51715029:victorycoin23": "victorycoin23 purchased an afghanistan bundle"
    }
 }
