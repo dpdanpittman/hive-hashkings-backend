@@ -157,6 +157,11 @@ module.exports = {
          }
       },
       "supply": {
+         "totalPlots": 0,
+         "totalPlotsC": 3016,
+         "totalSeeds": 0,
+         "totalWaterTowers": 0,
+         "totalWaterTowersC": 19000,
          "land": {
             "asia": 0,
             "asiaC": 40,
@@ -171,7 +176,6 @@ module.exports = {
             "mexico": 549,
             "mexicoC": 201
          },
-         "waterTowers": 17000
       },
       "farmers": 289,
       "farmerList": [

@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51716057; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51716866; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51716057;
+const ago = ENV.ago || 51716866;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -338,8 +338,16 @@ function reporting(ourUser) {
 
         state.stats.farmerList = res[3]
         state.stats.farmers = state.stats.farmerList.length
+
+        state.stats.supply.totalPlots = landTotal
+        state.stats.supply.totalPlotsC = 3016 - landTotal
+
+        state.stats.supply.totalSeeds = seedTotal
+
+        state.stats.supply.totalWaterTowers = waterTotal
+        state.stats.supply.totalWaterTowersC = 19000 - waterTotal
     }
-    )}
+)}
 
 function landPriceConversion() {
     return new Promise ((resolve, reject) => {
@@ -361,14 +369,6 @@ function landPriceConversion() {
         const conversionJamaica = hivePriceOfJamaica / theLastPrice
         const conversionAfrica = hivePriceOfAfrica / theLastPrice
         const conversionSouthAmerica = hivePriceOfSouthAmerica / theLastPrice
-        console.log("-------------------------------------")
-        console.log("Price of asia in MOTA is " + conversionAsia)
-        console.log("Price of afghanistan in MOTA is " + conversionAfghanistan) 
-        console.log("Price of mexico in MOTA is " + conversionMexico)
-        console.log("Price of jamaica in MOTA is " + conversionJamaica) 
-        console.log("Price of africa in MOTA is " + conversionAfrica)
-        console.log("Price of south america in MOTA is " + conversionSouthAmerica)
-        console.log("-------------------------------------")
         state.stats.prices.land.asia.token = conversionAsia
         state.stats.prices.land.afghanistan.token = conversionAfghanistan
         state.stats.prices.land.mexico.token = conversionMexico
@@ -472,10 +472,7 @@ function startApp() {
         }
 
         //sets asset prices
-        if (num % 5 === 0 && processor.isStreaming()) {              
-            //logging for testing will remove after a while
-            console.log('------------------------');
-            console.log('bal.c is ' + state.bal.c);
+        if (num % 5 === 0 && processor.isStreaming()) {
         
             hivePriceConversion(1).then(price => {
 
@@ -490,15 +487,6 @@ function startApp() {
                 //sets cut to 0 because bal.c is deprecated
                 state.bal.c = 0
 
-                //logging for testing will remove after a while
-                console.log('------------------------');
-                console.log('Asia hive price is ' + state.stats.prices.land.asia.price);
-                console.log('Africa hive price is ' + state.stats.prices.land.africa.price);
-                console.log('Afghanistan hive price is ' + state.stats.prices.land.afghanistan.price);
-                console.log('South America hive price is ' + state.stats.prices.land.southAmerica.price);
-                console.log('Jamaica hive price is ' + state.stats.prices.land.jamaica.price);
-                console.log('Mexico hive price is ' + state.stats.prices.land.mexico.price);
-                console.log('------------------------');
                 })
                 landPriceConversion();
                 hivePriceConversion(1).then(prices => {
@@ -510,22 +498,15 @@ function startApp() {
                     state.stats.prices.bundles.southAmericaBundle = Math.ceil((bundlePrice * 4.99));
                     state.stats.prices.bundles.jamaicaBundle = Math.ceil((bundlePrice * 19.99));
                     state.stats.prices.bundles.mexicoBundle = Math.ceil((bundlePrice * 7.49));
-
-                    console.log('------------------------');
-                    console.log('Asia bundle price is ' + state.stats.prices.bundles.asiaBundle);
-                    console.log('Africa bundle price is ' + state.stats.prices.bundles.africaBundle);
-                    console.log('Afghanistan bundle price is ' + state.stats.prices.bundles.afghanistanBundle);
-                    console.log('South America bundle price is ' + state.stats.prices.bundles.southAmericaBundle);
-                    console.log('Jamaica bundle price is ' + state.stats.prices.bundles.jamaicaBundle);
-                    console.log('Mexico bundle price is ' + state.stats.prices.bundles.mexicoBundle);
-                    console.log('------------------------');
-                })
-
-                reporting();
-                
+                })                
         }
 
-        //saves state to ipfs hash
+        // makes sure database is up to date every 5 minutes
+        if (num % 100 === 0 && processor.isStreaming()) {
+            reporting();
+        }
+
+        //saves state to ipfs hash every 5 minutes
         if (num % 100 === 1) {
             store.get([], function(err, data) {
                 const blockState = Buffer.from(JSON.stringify([num, data]))
