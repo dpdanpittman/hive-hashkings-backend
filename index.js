@@ -506,6 +506,11 @@ function startApp() {
             reporting();
         }
 
+        // makes sure database is up to date every 5 minutes
+        if (num % 1 === 0 && processor.isStreaming()) {
+            console.log(num);
+        }
+
         //saves state to ipfs hash every 5 minutes
         if (num % 100 === 1) {
             store.get([], function(err, data) {
