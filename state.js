@@ -18,52 +18,52 @@ module.exports = {
             "southAmericaBundle": 17
          },
          "waterPlants": {
-            "LVL1": {
+            "lvl1": {
                "price": 100000,
                "water": 30,
                "token": 1000
             },
-            "LVL2": {
+            "lvl2": {
                "price": 100000,
                "water": 45,
                "token": 1000
             },
-            "LVL3": {
+            "lvl3": {
                "price": 100000,
                "water": 75,
                "token": 1000
             },
-            "LVL4": {
+            "lvl4": {
                "price": 100000,
                "water": 120,
                "token": 1000
             },
-            "LVL5": {
+            "lvl5": {
                "price": 100000,
                "water": 180,
                "token": 1000
             },
-            "LVL6": {
+            "lvl6": {
                "price": 100000,
                "water": 255,
                "token": 1000
             },
-            "LVL7": {
+            "lvl7": {
                "price": 100000,
                "water": 345,
                "token": 1000
             },
-            "LVL8": {
+            "lvl8": {
                "price": 100000,
                "water": 450,
                "token": 1000
             },
-            "LVL9": {
+            "lvl9": {
                "price": 100000,
                "water": 570,
                "token": 1000
             },
-            "LVL10": {
+            "lvl10": {
                "price": 100000,
                "water": 705,
                "token": 1000
@@ -71,88 +71,68 @@ module.exports = {
          },
          "timeBooster": {
             "lvl1": {
-               "buds": 10,
+               "buds": 50,
                "boost": 5
             },
             "lvl2": {
-               "buds": 50,
+               "buds": 250,
                "boost": 10
             },
             "lvl3": {
-               "buds": 210,
+               "buds": 1000,
                "boost": 15
             },
             "lvl4": {
-               "buds": 750,
+               "buds": 3000,
                "boost": 20
             },
             "lvl5": {
-               "buds": 2000,
+               "buds": 4000,
                "boost": 25
             },
             "lvl6": {
-               "buds": 2500,
+               "buds": 5000,
                "boost": 30
             }
          },
          "joints": {
             "pinner": 50,
+            "pinnerXP": 15,
             "hempWrappedJoint": 200,
+            "hempWrappedJointXP": 75,
             "crossJoint": 1000,
+            "crossJointXP": 400,
             "blunt": 2500,
+            "bluntXP": 400, 
             "waxJoint": 5000,
-            "twaxJoint": 10000
-         },
-         "recollector": {
-            "lvl1": {
-               "buds": 20,
-               "boost": 50
-            },
-            "lvl2": {
-               "buds": 40,
-               "boost": 60
-            },
-            "lvl3": {
-               "buds": 60,
-               "boost": 70
-            },
-            "lvl4": {
-               "buds": 80,
-               "boost": 80
-            },
-            "lvl5": {
-               "buds": 100,
-               "boost": 90
-            },
-            "lvl6": {
-               "buds": 150,
-               "boost": 100
-            }
+            "waxJointXP": 2500,
+            "twaxJoint": 10000,
+            "twaxJointXP": 6000,
          },
          "land": {
             "asia": {
-               "price": 49,
-               "token": 490
+               "price": 10000,
+               "token": 10000
             },
             "africa": {
-               "price": 25,
-               "token": 250
+               "price": 10000,
+               "token": 10000
             },
             "afghanistan": {
-               "price": 17,
-               "token": 170
+               "price": 10000,
+               "token": 10000
             },
             "southAmerica": {
-               "price": 6,
-               "token": 60
+               "price": 10000,
+               "token": 10000
             },
             "jamaica": {
-               "price": 32,
-               "token": 320
+               "price": 10000,
+               "token": 100000
             },
             "mexico": {
-               "price": 12,
-               "token": 120
+               "price": 10000,
+               "token": 1000000
             }
          }
       },
@@ -562,8 +542,9 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0.0001,
-         "MOTAstake": 0,
+         "mota": 0.0001,
+         "motaStake": 0,
+         "buds": 0,
          "water": null
       },
       "r0um3n1987": {
@@ -7758,8 +7739,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "w0nd3rgrip": {
          "plots": {
@@ -7904,8 +7885,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "mako07": {
          "plots": {
@@ -8043,8 +8024,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "cryptixmlonwax": {
          "plots": {
@@ -8119,8 +8100,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "chubb149": {
          "plots": {
@@ -8195,8 +8176,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "tremou922": {
          "plots": {
@@ -8271,8 +8252,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "caprisk": {
          "plots": {
@@ -8368,8 +8349,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "criptosectadepit": {
          "plots": {
@@ -8528,8 +8509,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jacksonrj": {
          "plots": {
@@ -8604,8 +8585,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jarkillo": {
          "plots": {
@@ -8680,8 +8661,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "xmuguenx": {
          "plots": {
@@ -8784,8 +8765,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "kratosn2": {
          "plots": {
@@ -8916,8 +8897,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "rokimv87": {
          "plots": {
@@ -9041,8 +9022,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "alter13": {
          "plots": {
@@ -9117,8 +9098,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "spinvest": {
          "plots": {
@@ -9228,8 +9209,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "forykw": {
          "plots": {
@@ -9304,8 +9285,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "naxter1998": {
          "plots": {
@@ -9401,8 +9382,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "paulstark27": {
          "plots": {
@@ -9484,8 +9465,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "chito1": {
          "plots": {
@@ -9560,8 +9541,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "benjaaa": {
          "plots": {
@@ -9643,8 +9624,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "grinselion": {
          "plots": {
@@ -9817,8 +9798,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "spi-steemcity": {
          "plots": {
@@ -10096,8 +10077,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "lerage": {
          "plots": {
@@ -10228,8 +10209,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "brofundholdings": {
          "plots": {
@@ -10346,8 +10327,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jfang003": {
          "plots": {
@@ -10422,8 +10403,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "marjanko": {
          "plots": {
@@ -10498,8 +10479,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "buritica": {
          "plots": {
@@ -10637,8 +10618,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "mec45": {
          "plots": {
@@ -10853,8 +10834,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "zeusdy": {
          "plots": {
@@ -10992,8 +10973,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "boitata": {
          "plots": {
@@ -11082,8 +11063,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "drisinger": {
          "plots": {
@@ -11158,8 +11139,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "luffy1737": {
          "plots": {
@@ -11234,8 +11215,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "zanrsc": {
          "plots": {
@@ -11310,8 +11291,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "rnldjose31": {
          "plots": {
@@ -11400,8 +11381,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "docarmoedu": {
          "plots": {
@@ -11490,8 +11471,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "kayser191": {
          "plots": {
@@ -11566,8 +11547,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "chemams19": {
          "plots": {
@@ -11649,8 +11630,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "lolobonilla": {
          "plots": {
@@ -11725,8 +11706,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "eduarz150792": {
          "plots": {
@@ -11885,8 +11866,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "largo24": {
          "plots": {
@@ -12052,8 +12033,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "duaystive": {
          "plots": {
@@ -12149,8 +12130,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "anyeloert": {
          "plots": {
@@ -12225,8 +12206,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "pelayin999": {
          "plots": {
@@ -12322,8 +12303,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "olgerv1": {
          "plots": {
@@ -12440,8 +12421,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "hissing1": {
          "plots": {
@@ -12565,8 +12546,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "joseph77": {
          "plots": {
@@ -12676,8 +12657,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "sureng11": {
          "plots": {
@@ -12759,8 +12740,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "heybertu": {
          "plots": {
@@ -12933,8 +12914,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jagerocker": {
          "plots": {
@@ -13016,8 +12997,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "dgon": {
          "plots": {
@@ -13092,8 +13073,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "kokebo": {
          "plots": {
@@ -13168,8 +13149,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "davidagn79": {
          "plots": {
@@ -13258,8 +13239,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "inek18": {
          "plots": {
@@ -13390,8 +13371,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "leaisx": {
          "plots": {
@@ -13501,8 +13482,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "tatovzla": {
          "plots": {
@@ -13612,8 +13593,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "leon95": {
          "plots": {
@@ -13688,8 +13669,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "ksyuca007": {
          "plots": {
@@ -13778,8 +13759,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "atarxix": {
          "plots": {
@@ -13854,8 +13835,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "ilidangrx": {
          "plots": {
@@ -13951,8 +13932,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "wsgrupoespanol": {
          "plots": {
@@ -14034,8 +14015,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "elbakalah": {
          "plots": {
@@ -14138,8 +14119,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "eduardro": {
          "plots": {
@@ -14298,8 +14279,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "thejc50": {
          "plots": {
@@ -14381,8 +14362,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "ejercol": {
          "plots": {
@@ -14464,8 +14445,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "sek1g": {
          "plots": {
@@ -14561,8 +14542,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "marisenpai": {
          "plots": {
@@ -14637,8 +14618,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jonramirez": {
          "plots": {
@@ -14727,8 +14708,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "yudai": {
          "plots": {
@@ -14852,8 +14833,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "chuchunorris": {
          "plots": {
@@ -14928,8 +14909,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "maurojx": {
          "plots": {
@@ -15018,8 +14999,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "davjaimes10": {
          "plots": {
@@ -15129,8 +15110,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "masterwarclash": {
          "plots": {
@@ -15219,8 +15200,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "vixda": {
          "plots": {
@@ -15302,8 +15283,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "richardmt95": {
          "plots": {
@@ -15385,8 +15366,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "planchero": {
          "plots": {
@@ -15552,8 +15533,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "graceathenas": {
          "plots": {
@@ -15635,8 +15616,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "hasted": {
          "plots": {
@@ -15774,8 +15755,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jeffx09": {
          "plots": {
@@ -15850,8 +15831,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "lalogg13": {
          "plots": {
@@ -15940,8 +15921,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "emqcripto": {
          "plots": {
@@ -16114,8 +16095,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "kiro12": {
          "plots": {
@@ -16197,8 +16178,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "altercristian": {
          "plots": {
@@ -16273,8 +16254,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "leoking1985": {
          "plots": {
@@ -16356,8 +16337,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "zxion": {
          "plots": {
@@ -16439,8 +16420,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "lulisway": {
          "plots": {
@@ -16515,8 +16496,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "obando": {
          "plots": {
@@ -16619,8 +16600,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "kalocaj": {
          "plots": {
@@ -16709,8 +16690,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "roypadron": {
          "plots": {
@@ -16792,8 +16773,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "alexander1975": {
          "plots": {
@@ -16875,8 +16856,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "xkaliburx": {
          "plots": {
@@ -16951,8 +16932,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "dani1884": {
          "plots": {
@@ -17034,8 +17015,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "gabriiq": {
          "plots": {
@@ -17131,8 +17112,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "javikalimar": {
          "plots": {
@@ -17221,8 +17202,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "edinsonoro": {
          "plots": {
@@ -17304,8 +17285,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "terrible93": {
          "plots": {
@@ -17380,8 +17361,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jarrical0506": {
          "plots": {
@@ -17477,8 +17458,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "cryptomilovat": {
          "plots": {
@@ -17567,8 +17548,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "mpock": {
          "plots": {
@@ -17650,8 +17631,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "fernandohg11": {
          "plots": {
@@ -17733,8 +17714,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "ozkar13": {
          "plots": {
@@ -17816,8 +17797,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "ozono": {
          "plots": {
@@ -17899,8 +17880,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "dchicaiza5": {
          "plots": {
@@ -17975,8 +17956,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "warzone2100": {
          "plots": {
@@ -18051,8 +18032,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jeanzz": {
          "plots": {
@@ -18134,8 +18115,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "stiven1044000000": {
          "plots": {
@@ -18210,8 +18191,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "surajbhattarai": {
          "plots": {
@@ -18286,8 +18267,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "benhaleymade": {
          "plots": {
@@ -18362,8 +18343,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "gallito": {
          "plots": {
@@ -18571,8 +18552,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "zpablo": {
          "plots": {
@@ -18661,8 +18642,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "weirdestwolf": {
          "plots": {
@@ -18744,8 +18725,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "ddamiandonis": {
          "plots": {
@@ -18834,8 +18815,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "eldudu": {
          "plots": {
@@ -18910,8 +18891,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "christian7urquia": {
          "plots": {
@@ -18986,8 +18967,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "ellocohugo": {
          "plots": {
@@ -19062,8 +19043,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jacielxy": {
          "plots": {
@@ -19173,8 +19154,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "sirbogavante": {
          "plots": {
@@ -19263,8 +19244,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "asas96": {
          "plots": {
@@ -19353,8 +19334,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "procash1": {
          "plots": {
@@ -19436,8 +19417,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "davidtradefx": {
          "plots": {
@@ -19526,8 +19507,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "oldmans": {
          "plots": {
@@ -19651,8 +19632,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "tupacdre82": {
          "plots": {
@@ -19727,8 +19708,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "perezcan": {
          "plots": {
@@ -19803,8 +19784,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "ronny2721": {
          "plots": {
@@ -19893,8 +19874,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "mundoencriptado": {
          "plots": {
@@ -19976,8 +19957,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "bmck117": {
          "plots": {
@@ -20080,8 +20061,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "martinezams": {
          "plots": {
@@ -20184,8 +20165,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "netaterra": {
          "plots": {
@@ -20267,8 +20248,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "jerrysstyle": {
          "plots": {
@@ -20343,8 +20324,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "weedgood": {
          "plots": {
@@ -20426,8 +20407,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "materrila14": {
          "plots": {
@@ -20509,8 +20490,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "kinggo9": {
          "plots": {
@@ -20599,8 +20580,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "razyel24": {
          "plots": {
@@ -20682,8 +20663,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "infinito2021": {
          "plots": {
@@ -20786,8 +20767,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "melcaya": {
          "plots": {
@@ -20862,8 +20843,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "largouuu": {
          "plots": {
@@ -21015,8 +20996,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "pippex": {
          "plots": {
@@ -21083,8 +21064,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "cryptosfera": {
          "plots": {
@@ -21180,8 +21161,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "nobutsd1974": {
          "plots": {
@@ -21270,8 +21251,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "hazeudon": {
          "plots": {
@@ -21640,8 +21621,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "canna-curate": {
          "plots": {
@@ -21716,8 +21697,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       },
       "victorycoin23": {
          "plots": {
@@ -21792,8 +21773,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "MOTA": 0,
-         "MOTAstake": 0
+         "mota": 0,
+         "motaStake": 0
       }
    },
    "cs": {

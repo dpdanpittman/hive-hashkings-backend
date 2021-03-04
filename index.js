@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51716866; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51833651; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51716866;
+const ago = ENV.ago || 51833651;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -346,6 +346,8 @@ function reporting(ourUser) {
 
         state.stats.supply.totalWaterTowers = waterTotal
         state.stats.supply.totalWaterTowersC = 19000 - waterTotal
+
+
     }
 )}
 
@@ -478,12 +480,12 @@ function startApp() {
 
                 let assetPrice = price;
 
-                state.stats.prices.land.asia.price = Math.ceil((assetPrice * 15));
-                state.stats.prices.land.africa.price = Math.ceil((assetPrice * 7.5));
-                state.stats.prices.land.afghanistan.price = Math.ceil((assetPrice * 5));
-                state.stats.prices.land.southAmerica.price = Math.ceil((assetPrice * 1.75));
-                state.stats.prices.land.jamaica.price = Math.ceil((assetPrice * 9.75));
-                state.stats.prices.land.mexico.price = Math.ceil((assetPrice * 3.50));
+                state.stats.prices.land.asia.price = Math.ceil((assetPrice * 45));
+                state.stats.prices.land.africa.price = Math.ceil((assetPrice * 22.50));
+                state.stats.prices.land.afghanistan.price = Math.ceil((assetPrice * 15));
+                state.stats.prices.land.southAmerica.price = Math.ceil((assetPrice * 7.50));
+                state.stats.prices.land.jamaica.price = Math.ceil((assetPrice * 30));
+                state.stats.prices.land.mexico.price = Math.ceil((assetPrice * 11.25));
                 //sets cut to 0 because bal.c is deprecated
                 state.bal.c = 0
 
@@ -498,7 +500,21 @@ function startApp() {
                     state.stats.prices.bundles.southAmericaBundle = Math.ceil((bundlePrice * 4.99));
                     state.stats.prices.bundles.jamaicaBundle = Math.ceil((bundlePrice * 19.99));
                     state.stats.prices.bundles.mexicoBundle = Math.ceil((bundlePrice * 7.49));
-                })                
+                })      
+                hivePriceConversion(1).then(prices => {
+                    let bundlePrice = prices;
+
+                    state.stats.prices.waterPlants.lvl1.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl2.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl3.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl4.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl5.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl6.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl7.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl8.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl9.price = Math.ceil((bundlePrice * 1));
+                    state.stats.prices.waterPlants.lvl10.price = Math.ceil((bundlePrice * 1));
+                })                       
         }
 
         // makes sure database is up to date every 5 minutes
@@ -520,106 +536,63 @@ function startApp() {
         }
     })
     
+    /*------------------------------- Farm Actions ---------------------------*/
+
+        // checks for qwoyn_plant and plants the seed
+        processor.on('plant_plot', function(json, from) {
+            let seedID = id.json,
+                region = plot.json,
+                seedSpt = spt.json,
+                seedWater = water.json,
+                seedPr = pr.json
+
+            /*if(theuserexists && theplotexists && theseedexists? && theplotisnotoccupied){
+                //remove seed from user inventory
+                //add seed data to user plot -- data includes how much water, seed production and sprouting time push it
+                //subtract 1 from user region inventory
+
+            }*/
+            
+        });
+
+        // checks for qwoyn_plant and plants the seed
+        processor.on('plant_subdivison', function(json, from) {
+            let seedID = id.json,
+                region = sub.json,
+                seedSpt = spt.json,
+                seedWater = water.json,
+                seedPr = pr.json
+
+        /*if(theuserexists && theplotexists && theseedexists? && theplotisnotoccupied){
+            //remove seed from user inventory
+            //add seed data to user subdivision -- data includes how much water, seed production and sprouting time push it
+            //subtract 1 from user region inventory
+
+        }*/
+            
+        });
+
     //called when qwoyn_harvest is detected
-    processor.on('harvest', function(json, from) {
-        let plot = json.plots,
-            plant = json.plants,
-            seed = json.seed
-            plantnames = ''
-        for (var i = 0; i < plants.length; i++) {
-            try {
-                if (state.users[from] === from) {
-                    //harvest buds
-                    try {
-                        if (state.users.from[plot] === plot && state.users.from[plot][plant] === plant 
-                            && state.users.from[plot][plant][seed].water < 1 
-                            && state.users.from[plot][plant][seed].spt < 1) {
-                            const parcel = {
-                                owner: state.land[plants[i]].owner,
-                                strain: '',
-                                care: [
-                                    [processor.getCurrentBlockNumber(), 'tilled']
-                                ],
-                                aff: [],
-                                stage: -1,
-                                substage: 0,
-                                traits: [],
-                                terps: [],
-                                stats: [],
-                                pollinated: false
-                            }
-                            state.land[plants[i]] = parcel;
+    processor.on('harvest_plot', function(json, from) {
+        let plot = json.plots
+        let plotName = json.region
 
-                            contract.createBud(hivejs, "ricabud", 1, from)
-                            state.users[state.land[plants[i]].owner].xps += 25;
+        if(state.users[from] && state.users[from].plot.planted === true && state.users[from].plot.water <= 0 && state.users[from].plot.spt <= 0){
+            
+            state.users[from].plot.planted = false
+            state.users[from].plot.water = 0
+            state.users[from].plot.spt = 0
 
-                        }
-                    } catch (e) {
-                        console.log('buds harvested', e.message)
-                    }
+            let amountOfBuds = state.users[from].plot.pr
 
-                    //pollen at harvest if male
-                    try {
-                        if (state.land[plants[i]].sex === 'male' && state.land[plants[i]].stage > 3) {
-                            var pollen1 = {
-                                strain: state.land[plants[i]].strain,
-                                owner: state.land[plants[i]].owner,
-                                traits: ['Beta Pollen'],
-                                terps: [],
-                                thc: 'coming soon',
-                                cbd: 'coming soon',
-                                familyTree: state.land[plants[i]].strain,
-                                father: 'Sensimilla',
-                                hybrid: false
-                            }
-                            var pollen2 = {
-                                strain: state.land[plants[i]].strain,
-                                owner: state.land[plants[i]].owner,
-                                traits: ['Beta Pollen'],
-                                terps: [],
-                                thc: 'coming soon',
-                                cbd: 'coming soon',
-                                familyTree: state.land[plants[i]].strain,
-                                father: 'Sensimilla',
-                                hybrid: false
-                            }
-
-                            const parcel = {
-                                owner: state.land[plants[i]].owner,
-                                strain: '',
-                                xp: 0,
-                                care: [
-                                    [processor.getCurrentBlockNumber(), 'tilled']
-                                ],
-                                aff: [],
-                                terps: [],
-                                stats: [],
-                                stage: -1,
-                                substage: 0,
-                                pollinated: false
-                            }
-                            state.land[plants[i]] = parcel;
-
-                            state.users[state.land[plants[i]].owner].pollen.push(pollen1)
-                            state.users[state.land[plants[i]].owner].pollen.push(pollen2)
-                            state.users[state.land[plants[i]].owner].xps += 25;
-
-                        }
-                    } catch (e) {
-                        console.log('pollen harvested', e.message)
-                    }
-                }
-            } catch (e) {
-                state.cs[`${json.block_num}:${from}`] = `${from} can't harvest what is not theirs`
-            }
+            //createbuds
+            contract.createBud(hivejs, amountOfBuds, from)
         }
 
-        ///----------------------------------------------------------------------------------------
-
-        state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plantnames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} harvested ${plot} in ${plotName}`
     });
 
-    // search for qwoyn_water from user on blockchain since genesis
+        // search for qwoyn_water from user on blockchain since genesis
     //steemconnect link
     //https://app.steemconnect.com/sign/custom-json?required_auths=%5B%5D&required_posting_auths=%5B%22USERNAME%22%5D&id=qwoyn_water&json=%7B%22plants%22%3A%5B%22c35%22%5D%7D
     processor.on('water', function(json, from) {
@@ -638,217 +611,298 @@ function startApp() {
         state.cs[`${json.block_num}:${from}`] = `${from} watered ${plantnames}`
     });
 
-    // search for qwoyn_kief from user on blockchain since genesis
-    processor.on('craft_kief', function(json, from) {
-        let buds = json.buds,
-            budNames = '',
-            dateCreated = json.block_num
-        var bud = ''
+    //called when qwoyn_harvest is detected
+    processor.on('harvest_subdivision', function(json, from) {
+        let subdivisions = json.plots
+        let subName = json.region
 
-        try {
-            for (var i = 0; i < state.users[from].buds.length; i++) {
-                if (state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99) { bud = state.users[from].buds.splice(i, 1)[0]; break; }
-            }
-        } catch (e) {}
-        if (!bud) {
-            try {
-                if (state.users[from].buds.length) bud == state.users[from].buds.splice(0, 1)[0]
-            } catch (e) {}
+        if(state.users[from] && state.users[from].subdivision.planted === true && state.users[from].subdivision.water <= 0 && state.users[from].subdivision.spt <= 0){
+            
+            state.users[from].subdivision.id.planted = false
+            state.users[from].subdivision.id.water = 0
+            state.users[from].subdivision.id.spt = 0
+
+            let amountOfBuds = state.users[from].subdivision.id.pr
+
+            //createbuds
+            contract.createBud(hivejs, amountOfBuds, from)
         }
 
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_kief']);
-            budNames += `${buds}`;
+        state.cs[`${json.block_num}:${from}`] = `${from} harvested ${subdivisions} in ${subName}`
+    });
 
-            state.users[from].kiefbox--;
+    //called when qwoyn_harvest is detected
+    processor.on('subdivide_asia', function(json, from) {
+        let plot = json.plots
+        let region = json.region
 
-            var kief = {
-                strain: buds,
-                createdBy: from,
-                createdOn: dateCreated
-            }
-            if (state.users[from].xps > 99) {
-                state.users[from].kief.push(kief)
-            }
+        if(state.users[from] && state.users[from].plot && state.users[from].plot.subdivided === false){
+            
+            state.users[from].plot.subdivided = true
+            state.users[from].subdivision.asia += 1
+
+            //createbuds
+            contract.createSubdivision(hivejs, region, from)
         }
 
-        state.users[from].xps += 50;
-        state.cs[`${json.block_num}:${from}`] = `${from} crafted kief with ${budNames}`
+        state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
     });
 
-    // search for qwoyn_joint from user on blockchain since genesis
-    processor.on('craft_joint', function(json, from) {
-        let buds = json.buds,
-            budNames = '',
-            dateCreated = json.block_num
-        var bud = ''
+    //called when qwoyn_harvest is detected
+    processor.on('subdivide_jamaica', function(json, from) {
+        let subdivisions = json.plots
+        let subName = json.region
 
-        try {
-            for (var i = 0; i < state.users[from].buds.length; i++) {
-                if (state.users[from].buds[i].strain == json.buds && state.users[from].xps > 99) { bud = state.users[from].buds.splice(i, 1)[0]; break; }
-            }
-        } catch (e) {}
-        if (!bud) {
-            try {
-                if (state.users[from].buds.length) bud == state.users[from].buds.splice(0, 1)[0]
-            } catch (e) {}
+        if(state.users[from] && state.users[from].plot && state.users[from].plot.subdivided === false){
+            
+            state.users[from].plot.subdivided = true
+            state.users[from].subdivision.jamaica += 1
+
+            //createbuds
+            contract.createSubdivision(hivejs, region, from)
         }
 
-        for (var i = 0; i < 1; i++) {
-            state.users[from].stats.unshift([processor.getCurrentBlockNumber(), 'crafted_joint']);
-            budNames += `${buds}`;
+        state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
+    });
 
-            state.users[from].papers--;
+    //called when qwoyn_harvest is detected
+    processor.on('subdivide_africa', function(json, from) {
+    let plot = json.plots
+    let region = json.region
 
-            var joint = {
-                strain: buds,
-                createdBy: from,
-                createdOn: dateCreated
-            }
+    if(state.users[from] && state.users[from].plot && state.users[from].plot.subdivided === false){
+            
+        state.users[from].plot.subdivided = true
+        state.users[from].subdivision.africa += 1
 
-            if (state.users[from].xps > 99) {
-                state.users[from].joints.push(joint)
-            }
+        //createbuds
+        contract.createSubdivision(hivejs, region, from)
+    }
+
+    state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
+    });
+
+    //called when qwoyn_harvest is detected
+    processor.on('subdivide_afghanistan', function(json, from) {
+        let plot = json.plots
+        let region = json.region
+
+        if(state.users[from] && state.users[from].plot && state.users[from].plot.subdivided === false){
+            
+            state.users[from].plot.subdivided = true
+            state.users[from].subdivision.afghanistan += 1
+
+            //createbuds
+            contract.createSubdivision(hivejs, region, from)
         }
-        state.users[from].xps += 25;
-        state.cs[`${json.block_num}:${from}`] = `${from} crafted edibles with ${budNames}`
+
+        state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
     });
 
-    // search for qwoyn_joint from user on blockchain since genesis
-    processor.on('craft_blunt', function(json, from) {
-        let buds = json.buds,
-            budNames = ''
-        dateCreated = json.block_num
-        var bud = ''
+    //called when qwoyn_harvest is detected
+    processor.on('subdivide_mexico', function(json, from) {
+        let plot = json.plots
+        let region = json.region
 
-        try {
-            for (var i = 0; i < state.users[from].buds.length; i++) {
-                if (state.users[from].buds[i].strain == json.buds && state.users[from].xps > 4999) { bud = state.users[from].buds.splice(i, 1)[0]; break; }
-            }
-        } catch (e) {}
-        
-        state.cs[`${json.block_num}:${from}`] = `${from} crafted a blunt with ${budNames}`
+        if(state.users[from] && state.users[from].plot && state.users[from].plot.subdivided === false){
+            
+            state.users[from].plot.subdivided = true
+            state.users[from].subdivision.mexico += 1
+
+            //createbuds
+            contract.createSubdivision(hivejs, region, from)
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
     });
 
-    // search for qwoyn_pollinate from user on blockchain since genesis
-    processor.on('craft_pinner_joint', function(json, from) {
-        let buds = json.buds,
-            budNames = '',
-            oil = json.oil,
-            oilNames = '',
-            kief = json.kief,
-            kiefNames = ''
-        for (var i = 0; i < 1; i++) {}
-        state.cs[`${json.block_num}:${from}`] = `${from} created a moonrock from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
+    //called when qwoyn_harvest is detected
+    processor.on('subdivide_southAmerica', function(json, from) {
+        let plot = json.plots
+        let region = json.region
+
+        if(state.users[from] && state.users[from].plot && state.users[from].plot.subdivided === false){
+            
+            state.users[from].plot.subdivided = true
+            state.users[from].subdivision.southAmerica += 1
+
+            //createbuds
+            contract.createSubdivision(hivejs, plot, from)
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
     });
 
-    // search for qwoyn_craft_moonrocks from user on blockchain since genesis
-    processor.on('craft_wax_joint', function(json, from) {
-        let buds = json.buds,
-            budNames = '',
-            oil = json.oil,
-            oilNames = '',
-            kief = json.kief,
-            kiefNames = ''
-        
-        state.cs[`${json.block_num}:${from}`] = `${from} created a dipped joint from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
+
+    /*-------------------------- CRAFTING ----------------------------*/
+
+    // search for qwoyn_pinner from user on blockchain since genesis
+    processor.on('pinner', function(json, from) {
+        let type = json.type
+
+        if(state.users[from] && state.users[from].buds > state.stats.joints.pinner) {
+            //mint pinner and send to user
+            contract.createConsumable(hivejs,"Pinner", from)
+            state.users[from].buds -= state.stats.joints.pinner
+            state.users[from].joints.pinner += 1
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted ${type}`
     });
 
-    // search for qwoyn_craft_cannagar from user on blockchain since genesis
-    processor.on('craft_kief_joint', function(json, from) {
-        let buds = json.buds,
-            budNames = '',
-            oil = json.oil,
-            oilNames = '',
-            kief = json.kief,
-            kiefNames = ''
+    // search for qwoyn_pinner from user on blockchain since genesis
+    processor.on('cross_joint', function(json, from) {
+        let type = json.type
 
-        
-        state.cs[`${json.block_num}:${from}`] = `${from} created a cannagar from ${budNames} bud, ${oilNames} oil and ${kiefNames} kief`
+        if(state.users[from] && state.users[from].buds > state.stats.joints.crossJoint) {
+            //mint cross joint and send to user
+            contract.createConsumable(hivejs,"Cross Joint", from)
+            state.users[from].buds -= state.stats.joints.crossJoint
+            state.users[from].joints.crossJoint += 1
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted ${type}`
+    });
+
+    // search for qwoyn_pinner from user on blockchain since genesis
+    processor.on('hemp_wrapped_blunt', function(json, from) {
+        let type = json.type
+
+        if(state.users[from] && state.users[from].buds > state.stats.joints.hempWrappedBlunt) {
+            //mint pinner and send to user
+            contract.createConsumable(hivejs,"Hemp Wrapped Blunt", from)
+            state.users[from].buds -= state.stats.joints.hempWrappedBlunt
+            state.users[from].joints.hempWrappedBlunt += 1
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted ${type}`
+    });
+
+    // search for qwoyn_pinner from user on blockchain since genesis
+    processor.on('hemp_wrapped_joint', function(json, from) {
+        let type = json.type
+
+        if(state.users[from] && state.users[from].buds > state.stats.joints.hempWrappedJoint) {
+            //mint pinner and send to user
+            contract.createConsumable(hivejs,"Hemp Wrapped Joint", from)
+            state.users[from].buds -= state.stats.joints.hempWrappedJoint
+            state.users[from].joints.hempWrappedJoint += 1
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted ${type}`
+    });
+
+    // search for qwoyn_pinner from user on blockchain since genesis
+    processor.on('twax_joint', function(json, from) {
+        let type = json.type
+
+        if(state.users[from] && state.users[from].buds > state.stats.joints.twaxJoint) {
+            //mint pinner and send to user
+            contract.createConsumable(hivejs,"Twax Joint", from)
+            state.users[from].buds -= state.stats.joints.twaxJoint
+            state.users[from].joints.twaxJoint += 1
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted ${type}`
+    });
+
+    // search for qwoyn_pinner from user on blockchain since genesis
+    processor.on('blunt', function(json, from) {
+        let type = json.type
+
+        if(state.users[from] && state.users[from].buds > state.stats.joints.blunt) {
+            //mint pinner and send to user
+            contract.createConsumable(hivejs,"Blunt", from)
+            state.users[from].buds -= state.stats.joints.blunt
+            state.users[from].joints.blunt += 1
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} crafted ${type}`
+    });
+
+    /*------------------------ Consumables ------------------------- */
+
+    // search for qwoyn_smoke_joint from user on blockchain since genesis
+    processor.on('smoke_pinner', function(json, from) {
+        let type = json.type
+
+        if(state.users[from].joints.pinner > 0){
+
+        state.users[from].xp += 15
+        state.users[from].joints.pinner -= 1
+
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${type}`
     });
 
     // search for qwoyn_smoke_joint from user on blockchain since genesis
-    processor.on('smoke_joint', function(json, from) {
-        let joint = json.joint,
-            jointName = '',
-            friend1 = json.friend1,
-            friend1Name = '',
-            friend2 = json.friend2,
-            friend2Name = '',
-            friend3 = json.friend3,
-            friend3Name = '',
-            friend4 = json.friend4,
-            friend4Name = '',
-            friend5 = json.friend5,
-            friend5Name = ''
-        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${jointName} joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
+    processor.on('smoke_hemp_wrapped_joint', function(json, from) {
+        let type = json.type
+
+        if(state.users[from].joints.hempWrappedJoint > 0){
+
+        state.users[from].xp += 75
+        state.users[from].joints.hempWrappedJoint -= 1
+        
+        }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${type}`
     });
 
-    // search for qwoyn_smoke_blunt from user on blockchain since genesis
+    // search for qwoyn_smoke_joint from user on blockchain since genesis
+    processor.on('smoke_cross_joint', function(json, from) {
+        let type = json.type
+
+        if(state.users[from].joints.crossJoint > 0){
+
+            state.users[from].xp += 400
+            state.users[from].joints.crossJoint -= 1
+            
+            }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${type}`
+    });
+
+    // search for qwoyn_smoke_joint from user on blockchain since genesis
     processor.on('smoke_blunt', function(json, from) {
-        let blunt = json.blunt,
-            bluntName = '',
-            friend1 = json.friend1,
-            friend1Name = '',
-            friend2 = json.friend2,
-            friend2Name = '',
-            friend3 = json.friend3,
-            friend3Name = '',
-            friend4 = json.friend4,
-            friend4Name = '',
-            friend5 = json.friend5,
-            friend5Name = ''
-        
-        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${bluntName} joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
+        let type = json.type
+
+        if(state.users[from].joints.blunt > 0){
+
+            state.users[from].xp += 1100
+            state.users[from].joints.blunt -= 1
+            }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${type}`
     });
 
     // search for qwoyn_smoke_joint from user on blockchain since genesis
-    processor.on('smoke_kief_joint', function(json, from) {
-        let edibles = json.edibles,
-            ediblesName = '',
-            friend1 = json.friend1,
-            friend1Name = '',
-            friend2 = json.friend2
-       
-        state.cs[`${json.block_num}:${from}`] = `${from} ate a ${ediblesName} brownie with ${friend1Name} and ${friend2Name}`
+    processor.on('smoke_hemp_wrapped_blunt', function(json, from) {
+        let type = json.type
+
+        if(state.users[from].joints.hempWrappedBlunt > 0){
+
+            state.users[from].xp += 5000
+            state.users[from].joints.hempWrappedBlunt -= 1
+            }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${type}`
     });
 
-    // search for qwoyn_smoke_blunt from user on blockchain since genesis
-    processor.on('smoked_wax_joint', function(json, from) {
-        let dippedJoint = json.dippedJoint,
-            dippedJointName = '',
-            friend1 = json.friend1,
-            friend1Name = '',
-            friend2 = json.friend2,
-            friend2Name = '',
-            friend3 = json.friend3,
-            friend3Name = '',
-            friend4 = json.friend4,
-            friend4Name = '',
-            friend5 = json.friend5,
-            friend5Name = ''
-       
-        
-        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${dippedJointName} dipped joint with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
+    // search for qwoyn_smoke_joint from user on blockchain since genesis
+    processor.on('smoke_twax_joint', function(json, from) {
+        let type = json.type
+
+        if(state.users[from].joints.twaxJoint > 0){
+
+            state.users[from].xp += 1100
+            state.users[from].joints.twaxJoint -= 1
+            }
+
+        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${type}`
     });
 
-    // search for qwoyn_smoke_blunt from user on blockchain since genesis
-    processor.on('smoked_splif_joint', function(json, from) {
-        let cannagar = json.cannagar,
-            cannagarName = '',
-            friend1 = json.friend1,
-            friend1Name = '',
-            friend2 = json.friend2,
-            friend2Name = '',
-            friend3 = json.friend3,
-            friend3Name = '',
-            friend4 = json.friend4,
-            friend4Name = '',
-            friend5 = json.friend5,
-            friend5Name = ''
-        
-        state.cs[`${json.block_num}:${from}`] = `${from} smoked a ${cannagarName} cannagar with ${friend1Name}, ${friend2Name}, ${friend3Name}, ${friend4Name} and ${friend5Name}`
-    });
 
     processor.on('adjust', function(json, from) {
         if (from == username && json.dust > 1) state.stats.dust = json.dust
@@ -866,496 +920,256 @@ function startApp() {
     });
     
 
-    // checks for qwoyn_plant and plants the seed
-    processor.on('plant', function(json, from) {
-        var index, seed = ''
-        if (!seed) {
-            try {
-                if (state.users[from].seeds.length) seed == state.users[from].seeds.splice(0, 1)[0]
-            } catch (e) {}
-        }
-        if (index >= 0 && seed) {
-            if (!state.land[json.addr]) {
-                const parcel = {
-                    owner: from,
-                    strain: seed.strain,
-                    xp: seed.xp,
-                    care: [],
-                    aff: [],
-                    inv: [],
-                    terps: [seed.terps],
-                    traits: [seed.traits],
-                    planted: processor.getCurrentBlockNumber(),
-                    stage: 1,
-                    substage: 0,
-                    pollinated: seed.pollinated,
-                    father: seed.father,
-                    hybrid: seed.hybrid
-                }
-                state.land[json.addr] = parcel
-            } else if (state.land[json.addr].stage < 0) {
-                state.cs[`${json.block_num}:${from}`] = `planted on harvested plot ${json.addr} `
-                state.land[json.addr].strain = seed.strain
-                state.land[json.addr].xp = seed.xp
-                state.land[json.addr].care = []
-                state.land[json.addr].aff = []
-                state.land[json.addr].inv = []
-                state.land[json.addr].traits = seed.traits || []
-                state.land[json.addr].terps = seed.terps || []
-                state.land[json.addr].planted = processor.getCurrentBlockNumber()
-                state.land[json.addr].stage = 1
-                state.land[json.addr].substage = 0
-                state.land[json.addr].pollinated = seed.pollinated
-                state.land[json.addr].father = seed.father
-                state.land[json.addr].hybrid = seed.hybrid
-            } else {
-                state.users[from].seeds.unshift(seed);
-                state.cs[`${json.block_num}:${from}`] = `${from} can't plant that.`
-            }
-        } else if (seed) {
-            state.users[from].seeds.unshift(seed);
-            state.cs[`${json.block_num}:${from}`] = `${from} doesn't own that plot`
-        } else {
-            state.cs[`${json.block_num}:${from}`] = `${from} did something unexpected with a plant!`
-        }
-    });
-
     processor.onOperation('transfer', function(json, from) {
         if (json.to === username && json.amount.split(' ')[1] === 'HIVE') {
-            console.log("entered 1st if statement")
-                                        //if user does not exist in db create user and db entry
-                                        if (!state.users[json.from]) {
-                                            state.users[json.from] = {
-                                                plots: {
-                                                    asia: 0,
-                                                    asiaUsed: 0,
-                                                    africa: 0,
-                                                    africaUsed: 0,
-                                                    afghanistan: 0,
-                                                    afghanistanUsed: 0,
-                                                    southAmerica: 0,
-                                                    southAmericaUsed: 0,
-                                                    jamaica: 0,
-                                                    jamaicaUsed: 0,
-                                                    mexico: 0,
-                                                    mexicoUsed: 0
-                                                },
-                                                plotCount: 0,
-                                                seedCount: 0,
-                                                seeds: [],
-                                                water: 0,
-                                                waterCount: 0,
-                                                waterPlants:{
-                                                    lvl1: 0,
-                                                    lvl2: 0,
-                                                    lvl3: 0,
-                                                    lvl4: 0,
-                                                    lvl5: 0,
-                                                    lvl7: 0,
-                                                    lvl8: 0,
-                                                    lvl9: 0,
-                                                    lvl10: 0
-                                                },
-                                                timeBoosters: {
-                                                    lvl1: 0,
-                                                    lvl2: 0,
-                                                    lvl3: 0,
-                                                    lvl4: 0,
-                                                    lvl5: 0,
-                                                    lvl7: 0,
-                                                    lvl8: 0,
-                                                    lvl9: 0,
-                                                    lvl10: 0
-                                                },
-                                                recollectors: {
-                                                    lvl1: 0,
-                                                    lvl2: 0,
-                                                    lvl3: 0,
-                                                    lvl4: 0,
-                                                    lvl5: 0,
-                                                    lvl7: 0,
-                                                    lvl8: 0,
-                                                    vl9: 0,
-                                                    lvl10: 0
-                                                },
-                                                buds: 0,
-                                                xp: 0,
-                                                lvl: 1,
-                                                role: 1,
-                                                joints: {
-                                                    splif: 0,
-                                                    joint: 0,
-                                                    cone: 0,
-                                                    kiefJoint: 0,
-                                                    waxJoint: 0,
-                                                    blunt: 0
-                                                },
-                                                MOTA: 0,
-                                                MOTAstake: 0
-                                            }
 
-                                            state.stats.farmers++
-                                            state.stats.farmerList.push(json.from)
-                                        }
+            //if user does not exist in db create user and db entry
+            if (!state.users[json.from]) {
+                state.users[json.from] = {
+                    subdivisions: {
+                        asia: 0,
+                        jamaica: 0,
+                        africa: 0,
+                        afghanistan: 0,
+                        mexico: 0,
+                        southAmerica: 0,
+                        asiaC: 0,
+                        jamaicaC: 0,
+                        africaC: 0,
+                        afghanistanC: 0,
+                        mexicoC: 0,
+                        southAmericaC: 0
+                    },
+                    plots: {
+                        asia: 0,
+                        asiaUsed: 0,
+                        africa: 0,
+                        africaUsed: 0,
+                        afghanistan: 0,
+                        afghanistanUsed: 0,
+                        southAmerica: 0,
+                        southAmericaUsed: 0,
+                        jamaica: 0,
+                        jamaicaUsed: 0,
+                        mexico: 0,
+                        mexicoUsed: 0
+                    },
+                    farm:[],
+                    plotCount: 0,
+                    seedCount: 0,
+                    seeds: [],
+                    water: 0,
+                    waterCount: 0,
+                    waterPlants:{
+                        lvl1: 0,
+                        lvl2: 0,
+                        lvl3: 0,
+                        lvl4: 0,
+                        lvl5: 0,
+                        lvl7: 0,
+                        lvl8: 0,
+                        lvl9: 0,
+                        lvl10: 0
+                    },
+                    timeBoosters: {
+                        lvl1: 0,
+                        lvl2: 0,
+                        lvl3: 0,
+                        lvl4: 0,
+                        lvl5: 0,
+                        lvl7: 0,
+                        lvl8: 0,
+                        lvl9: 0,
+                        lvl10: 0
+                    },
+                    buds: 0,
+                    xp: 0,
+                    lvl: 1,
+                    role: 1,
+                    joints: {
+                        pinner: 0,
+                        hempWrappedJoint: 0,
+                        crossJoint: 0,
+                        blunt: 0,
+                        hempWrappedBlunt: 0,
+                        twaxJoint: 0
+                    },
+                    mota: 0,
+                    motaStake: 0
+                }
 
-                                //purchasing
-                                const amount = parseInt(parseFloat(json.amount) * 1000)
-                                var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
-                                    type = json.memo.split(" ")[1] || ''
-                                /*if (want === 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia >= 1
-                                || want === 'afghanistan' && amount > (state.stats.prices.land.afghanistan.price * 1000) - 3000 &&  amount < (state.stats.prices.land.afghanistan.price * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1
-                                || want === 'africa' && amount > (state.stats.prices.land.africa.price * 1000) - 3000 &&  amount < (state.stats.prices.land.africa.price * 1000) + 3000 && state.stats.supply.land.africa >= 1
-                                || want === 'jamaica' && amount > (state.stats.prices.land.jamaica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.jamaica.price * 1000) + 3000 && state.stats.supply.land.jamaica >= 1
-                                || want === 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 3000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 3000 && state.stats.supply.land.mexico >= 1
-                                || want === 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1
-                                || want === 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.land.asia >= 1
-                                || want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1
-                                || want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.frica >= 1
-                                || want === 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.jamaicaBundle * 1000) + 3000 && state.stats.supply.land.jamaica >= 1
-                                || want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico >= 1
-                                || want === 'southAmerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1
-                                || want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1' 
-                                || want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.stats.users[json.from].lvl >= 10
-                                || want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.stats.users[json.from].lvl >= 20
-                                || want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && type === '4' && state.stats.users[json.from].lvl >= 30
-                                || want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && type === '5' && state.stats.users[json.from].lvl >= 40
-                                || want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && type === '6' && state.stats.users[json.from].lvl >= 50
-                                || want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && type === '7' && state.stats.users[json.from].lvl >= 60
-                                || want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && type === '8' && state.stats.users[json.from].lvl >= 70
-                                || want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && type === '9' && state.stats.users[json.from].lvl >= 80
-                                || want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && type === '10' && state.stats.users[json.from].lvl >= 90) {
-                                   if (want === 'asia_bundle' && amount > (state.stats.prices.bundles.asiaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.asiaBundle * 1000) + 3000 && state.stats.supply.land.asia >= 0) {
+                state.stats.farmers++
+                state.stats.farmerList.push(json.from)
+            }
+
+            //purchasing
+            const amount = parseInt(parseFloat(json.amount) * 1000)
+            var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
+                type = json.memo.split(" ")[1] || ''
+            if (want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 && amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1) {
+                        
+                // update total number of plots
+                state.users[json.from].plotCount++
+
+                // add 1 plot to user inventory
+                state.users[json.from].plots.afghanistan++
+
+                //add 1 water to user inventory
+                state.users[json.from].waterPlants.lvl1++
+
+                // subtracts 1 plot from total land supply
+                state.stats.supply.land.afghanistan -= 1
+
+                // adds 1 plot to plots used count
+                state.stats.supply.land.afghanistanC += 1
+
+                // adds water to users water supply
+                state.users[json.from].water += 30
+
+                // adds 1 seed to users seedCount
+                state.users[json.from].seedCount++
+
+                // create one seed nft and return type of seed
+                contract.generateBundle(hivejs, 4, "Afghanistan", 30, json.from).then(res => {
+                    const seedData4 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+
+                    //update total seed count since genesis
+                    state.stats.seedCount++
+
+                    let strain4 = seedData4.NAME
+
+                    if(strain4 === "Hindu Kush") { 
+                        strain4 = "hk"
+                    } else if(strain4 === "Afghani") { 
+                        strain4 = "afg"
+                    } else if(strain4 === "Lashkar Gah") { 
+                        strain4 = "lg"
+                    } else if(strain4 === "Mazar I Sharif") { 
+                        strain4 = "mis"
+                    }
+
+                    var seedName4 = {
+                        name: seedData4.NAME,
+                        spt: seedData4.SPT,
+                        water: seedData4.WATER, 
+                        pr: seedData4.PR,
+                        planted: false
+                    }
+
+                        state.users[json.from].seeds.push(seedName4)
+                    })
+
+                    const c = parseInt(amount)
+                    state.bal.c += c
+                    state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an afghanistan bundle`
+                    
+                } else if (want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico >= 1) {
+                            
+                    // update total number of plots
+                    state.users[json.from].plotCount++
+
+                    // add 1 plot to user inventory
+                    state.users[json.from].plots.mexico++
+
+                    //add 1 water to user inventory
+                    state.users[json.from].waterPlants.lvl1++
+
+                    // subtracts 1 plot from total land supply
+                    state.stats.supply.land.mexico -= 1
+
+                    // adds 1 plot to plots used count
+                    state.stats.supply.land.mexicoC += 1
+
+                    // adds water to users water supply
+                    state.users[json.from].water += 30
+
+                    // adds 1 seed to users seedCount
+                    state.users[json.from].seedCount++
+
+                    // create one seed nft and return type of seed
+                    contract.generateBundle(hivejs, 5, "Mexico", 30, json.from).then((res) => {
+                        const seedData5 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+
+                        //update total seed count since genesis
+                        state.stats.seedCount++
+
+                        let strain5 = seedData5.NAME
+
+                        if(strain5 === "Acapulco Gold") { 
+                            strain5 = "aca"
+                        }
+
+                        var seedName5 = {
+                            name: seedData5.NAME,
+                            spt: seedData5.SPT,
+                            water: seedData5.WATER, 
+                            pr: seedData5.PR,
+                            planted: false
+                        }
+
+                            state.users[json.from].seeds.push(seedName5)
+                        })
+
+                        const c = parseInt(amount)
+                        state.bal.c += c
+                        state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a mexico bundle`
+                        
+                    } else if (want === 'southamerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1) {
                                 
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.asia++
-
-                                //add 1 water to user inventory
-                                state.users[json.from].waterPlants.lvl1++
-
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.asia -= 1
-
-                                // adds 1 plot to plots used count
-                                state.stats.supply.land.asiaC +=1
-
-                                // adds water to users water supply
-                                state.users[json.from].water += 30
-
-                                // adds 1 seed to users seedCount
-                                state.users[json.from].seedCount++
-
-                                // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 1, "Asia", 30, json.from).then(res => {
-                                    const seedData1 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
-
-                                    //update total seed count since genesis
-                                    state.stats.seedCount++
-
-                                    let strain1 = seedData1.NAME
-
-                                    if(strain1 === "Aceh"){ 
-                                        strain1 = "ach"
-                                    } else if(strain1 === "Thai"){ 
-                                        strain1 = "tha"
-                                    } else if(strain1 === "Thai Chocolate"){ 
-                                        strain1 = "cht"
-                                    } 
-
-                                    var seedName1 = {
-                                        name: seedData1.NAME,
-                                        spt: seedData1.SPT,
-                                        water: seedData1.WATER, 
-                                        pr: seedData1.PR,
-                                        planted: false
-                                    }
-
-                                    state.users[json.from].seeds.push(seedName1)
-                                })
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an asia bundle`
-                             
-                                } else if (want === 'jamaica_bundle' && amount > (state.stats.prices.bundles.jamaicaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.jamaicaBundle * 1000) + 3000 && state.stats.supply.land.jamaica >= 1) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-                                
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.jamaica++
-
-                                //add 1 water to user inventory
-                                state.users[json.from].waterPlants.lvl1++
-
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.jamaica -= 1
-
-                                // adds 1 plot to plots used count
-                                state.stats.supply.land.jamaicaC += 1
-
-                                // adds water to users water supply
-                                state.users[json.from].water += 30
-
-                                // adds 1 seed to users seedCount
-                                state.users[json.from].seedCount++
-
-                                // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 2, "Jamaica", 30, json.from).then(res => {
-                                    const seedData2 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
-
-                                    //update total seed count since genesis
-                                    state.stats.seedCount++
-
-                                    let strain2 = seedData2.NAME
-                                    
-                                    if(strain2 === "Lamb's Bread")
-                                    { 
-                                        strain2 = "lb"
-                                    } else if(strain2 === "King's Bread")
-                                    { 
-                                        strain2 = "kbr"
-                                    } 
-
-                                    var seedName2 = {
-                                        name: seedData2.NAME,
-                                        spt: seedData2.SPT,
-                                        water: seedData2.WATER, 
-                                        pr: seedData2.PR,
-                                        planted: false
-                                    }
-
-                                    state.users[json.from].seeds.push(seedName2)
-                                })
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a jamaica bundle`
-                             
-                                } else*/ if (want === 'africa_bundle' && amount > (state.stats.prices.bundles.africaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.africaBundle * 1000) + 3000 && state.stats.supply.land.africa >= 1) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-                                
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.africa++
-
-                                //add 1 water tower to user inventory
-                                state.users[json.from].waterPlants.lvl1++
-
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.africa -= 1
-
-                                // adds 1 plot to plots used count
-                                state.stats.supply.land.africaC += 1
-
-                                // adds water to users water supply
-                                state.users[json.from].water += 30
-
-                                // adds 1 seed to users seedCount
-                                state.users[json.from].seedCount++
-
-                                // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 3, "Africa", 30, json.from).then(res => {
-                                    const seedData3 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
-
-                                    //update total seed count since genesis
-                                    state.stats.seedCount++
-
-                                    let strain3 = seedData3.NAME
-                                    
-                                    if(strain3 === "Swazi Gold")
-                                    { 
-                                        strain3 = "sg"
-                                    } else if(strain3 === "Kilimanjaro") { 
-                                        strain3 = "kmj"
-                                    } else if(strain3 === "Durban Poison") { 
-                                        strain3 = "dp"
-                                    } else if(strain3 === "Malawi") { 
-                                        strain3 = "mal"
-                                    }
-
-                                    var seedName3 = {
-                                        name: seedData3.NAME,
-                                        spt: seedData3.SPT,
-                                        water: seedData3.WATER, 
-                                        pr: seedData3.PR,
-                                        planted: false
-                                    }
-
-                                    state.users[json.from].seeds.push(seedName3)
-                                })
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an africa bundle`
-                             
-                                } else if (want === 'afghanistan_bundle' && amount > (state.stats.prices.bundles.afghanistanBundle * 1000) - 3000 && amount < (state.stats.prices.bundles.afghanistanBundle * 1000) + 3000 && state.stats.supply.land.afghanistan >= 1) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.afghanistan++
-
-                                //add 1 water to user inventory
-                                state.users[json.from].waterPlants.lvl1++
-
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.afghanistan -= 1
-
-                                // adds 1 plot to plots used count
-                                state.stats.supply.land.afghanistanC += 1
-
-                                // adds water to users water supply
-                                state.users[json.from].water += 30
-
-                                // adds 1 seed to users seedCount
-                                state.users[json.from].seedCount++
-
-                                // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 4, "Afghanistan", 30, json.from).then(res => {
-                                    const seedData4 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
-
-                                    //update total seed count since genesis
-                                    state.stats.seedCount++
-
-                                    let strain4 = seedData4.NAME
-
-                                    if(strain4 === "Hindu Kush") { 
-                                        strain4 = "hk"
-                                    } else if(strain4 === "Afghani") { 
-                                        strain4 = "afg"
-                                    } else if(strain4 === "Lashkar Gah") { 
-                                        strain4 = "lg"
-                                    } else if(strain4 === "Mazar I Sharif") { 
-                                        strain4 = "mis"
-                                    }
-
-                                    var seedName4 = {
-                                        name: seedData4.NAME,
-                                        spt: seedData4.SPT,
-                                        water: seedData4.WATER, 
-                                        pr: seedData4.PR,
-                                        planted: false
-                                    }
-
-                                    state.users[json.from].seeds.push(seedName4)
-                                })
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased an afghanistan bundle`
-                             
-                                } else if (want === 'mexico_bundle' && amount > (state.stats.prices.bundles.mexicoBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.mexicoBundle * 1000) + 3000 && state.stats.supply.land.mexico >= 1) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.mexico++
-
-                                //add 1 water to user inventory
-                                state.users[json.from].waterPlants.lvl1++
-
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.mexico -= 1
-
-                                // adds 1 plot to plots used count
-                                state.stats.supply.land.mexicoC += 1
-
-                                // adds water to users water supply
-                                state.users[json.from].water += 30
-
-                                // adds 1 seed to users seedCount
-                                state.users[json.from].seedCount++
-
-                                // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 5, "Mexico", 30, json.from).then((res) => {
-                                    const seedData5 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
-
-                                    //update total seed count since genesis
-                                    state.stats.seedCount++
-
-                                    let strain5 = seedData5.NAME
-
-                                    if(strain5 === "Acapulco Gold") { 
-                                        strain5 = "aca"
-                                    }
-
-                                    var seedName5 = {
-                                        name: seedData5.NAME,
-                                        spt: seedData5.SPT,
-                                        water: seedData5.WATER, 
-                                        pr: seedData5.PR,
-                                        planted: false
-                                    }
-
-                                    state.users[json.from].seeds.push(seedName5)
-                                })
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased a mexico bundle`
-                             
-                                } else if (want === 'southamerica_bundle' && amount > (state.stats.prices.bundles.southAmericaBundle * 1000) - 3000 &&  amount < (state.stats.prices.bundles.southAmericaBundle * 1000) + 3000 && state.stats.supply.land.southAmerica >= 1) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.southAmerica++
-
-                                //add 1 water to user inventory
-                                state.users[json.from].waterPlants.lvl1++
-
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.southAmerica -= 1
-
-                                // adds 1 plot to plots used count
-                                state.stats.supply.land.southAmericaC += 1
-
-                                // adds water to users water supply
-                                state.users[json.from].water += 30
-
-                                // adds 1 seed to users seedCount
-                                state.users[json.from].seedCount++
-
-                                // create one seed nft and return type of seed
-                                contract.generateBundle(hivejs, 6, "South America", 30, json.from).then(res => {
-                                    const seedData6 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
-
-                                    //update total seed count since genesis
-                                    state.stats.seedCount++
-
-                                    let strain6 = seedData6.NAME
-
-                                    if(strain6 === "Colombian Gold")
-                                    { 
-                                        strain6 = "cg"
-                                    } else if(strain6 === "Panama Red")
-                                    { 
-                                        strain6 = "pr"
-                                    } 
-
-                                    var seedName6 = {
-                                        name: seedData6.NAME,
-                                        spt: seedData6.SPT,
-                                        water: seedData6.WATER, 
-                                        pr: seedData6.PR,
-                                        planted: false
-                                    }
-
-                                    state.users[json.from].seeds.push(seedName6)
-                                })
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased south america bundle`
-                             
-                                } else if (want == 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia != 0) {
+                        // update total number of plots
+                        state.users[json.from].plotCount++
+
+                        // add 1 plot to user inventory
+                        state.users[json.from].plots.southAmerica++
+
+                        //add 1 water to user inventory
+                        state.users[json.from].waterPlants.lvl1++
+
+                        // subtracts 1 plot from total land supply
+                        state.stats.supply.land.southAmerica -= 1
+
+                        // adds 1 plot to plots used count
+                        state.stats.supply.land.southAmericaC += 1
+
+                        // adds water to users water supply
+                        state.users[json.from].water += 30
+
+                        // adds 1 seed to users seedCount
+                        state.users[json.from].seedCount++
+
+                        // create one seed nft and return type of seed
+                        contract.generateBundle(hivejs, 6, "South America", 30, json.from).then(res => {
+                            const seedData6 = JSON.parse(res.operations[0][1].json).contractPayload.instances[0].properties
+
+                            //update total seed count since genesis
+                            state.stats.seedCount++
+
+                            let strain6 = seedData6.NAME
+
+                            if(strain6 === "Colombian Gold")
+                            { 
+                                strain6 = "cg"
+                            } else if(strain6 === "Panama Red")
+                            { 
+                                strain6 = "pr"
+                            } 
+
+                            var seedName6 = {
+                                name: seedData6.NAME,
+                                spt: seedData6.SPT,
+                                water: seedData6.WATER, 
+                                pr: seedData6.PR,
+                                planted: false
+                            }
+
+                                state.users[json.from].seeds.push(seedName6)
+                            })
+
+                            const c = parseInt(amount)
+                            state.bal.c += c
+                            state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased south america bundle`
+                            
+                        } else if (want == 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1760,7 +1574,7 @@ var bot = {
 }
 
 function daily(addr) {
-    var grown = false
+    /*var grown = false
     if (state.land[addr]) {
         for (var i = 0; i < state.land[addr].care.length; i++) {
             if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
@@ -1783,5 +1597,7 @@ function daily(addr) {
                 }
             }
         }
-    }
+    }*/
+
+
 }
