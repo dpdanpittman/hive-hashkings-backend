@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51948308; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51948527; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51948308;
+const ago = ENV.ago || 51948527;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -591,10 +591,10 @@ function startApp() {
                 })                       
         }
 
-        // makes sure database is up to date every 5 minutes
+       /* // makes sure database is up to date every 5 minutes
         if (num % 10 === 0 && processor.isStreaming()) {
             userList()
-        }
+        }*/
 
         // makes sure database is up to date every 5 minutes
         if (num % 100 === 0 && processor.isStreaming()) {
