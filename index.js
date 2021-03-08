@@ -305,7 +305,7 @@ function userList() {
                 for (const property in report) {
                     if(property == username) {
                         data = report[property].seeds
-                        state.users[username] = data
+                        state.users[username].seeds = data
                     }
                 }
             }
