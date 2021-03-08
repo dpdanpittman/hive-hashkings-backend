@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51949086; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51949579; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51949086;
+const ago = ENV.ago || 51949579;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -298,6 +298,24 @@ function userList() {
     var arrayLength = farmerArray.length
     for(let i = 0; i < arrayLength; i++) {
         let username = farmerArray[i]
+        if (state.users[username]){
+            contract.getReport(axios).then((res) => {
+                let report = res[4];
+                for (const property in report) {
+                data = report[property].seeds[username]
+                console.log(data)
+                    //state.users.seeds = data
+            }
+            })
+        }
+    }
+}
+
+/*function userList() {
+    let farmerArray = state.stats.farmerList
+    var arrayLength = farmerArray.length
+    for(let i = 0; i < arrayLength; i++) {
+        let username = farmerArray[i]
     if (!state.users[username]){
         state.users[username] = {
             subdivisions: {
@@ -374,7 +392,7 @@ function userList() {
         }
     }
     }
-}
+}*/
 
 function reporting() {
     contract.getReport(axios).then((res) => {
@@ -592,10 +610,10 @@ function startApp() {
                 })                       
         }
 
-       /* // makes sure database is up to date every 5 minutes
+        // makes sure database is up to date every 5 minutes
         if (num % 10 === 0 && processor.isStreaming()) {
             userList()
-        }*/
+        }
 
         // makes sure database is up to date every 5 minutes
         if (num % 100 === 0 && processor.isStreaming()) {
