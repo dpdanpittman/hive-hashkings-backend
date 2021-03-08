@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51948225; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51948308; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51948225;
+const ago = ENV.ago || 51948308;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -298,12 +298,84 @@ function userList() {
     var arrayLength = farmerArray.length
     for(let i = 0; i < arrayLength; i++) {
     if (!state.users[i]){
-        console.log(farmerArray[i])
+        state.users[i] = {
+            subdivisions: {
+                asia: 0,
+                jamaica: 0,
+                africa: 0,
+                afghanistan: 0,
+                mexico: 0,
+                southAmerica: 0,
+                asiaC: 0,
+                jamaicaC: 0,
+                africaC: 0,
+                afghanistanC: 0,
+                mexicoC: 0,
+                southAmericaC: 0
+            },
+            plots: {
+                asia: 0,
+                asiaUsed: 0,
+                africa: 0,
+                africaUsed: 0,
+                afghanistan: 0,
+                afghanistanUsed: 0,
+                southAmerica: 0,
+                southAmericaUsed: 0,
+                jamaica: 0,
+                jamaicaUsed: 0,
+                mexico: 0,
+                mexicoUsed: 0
+            },
+            farm:[],
+            plotCount: 0,
+            seedCount: 0,
+            seeds: [],
+            hkwater: 0,
+            waterCount: 0,
+            waterPlants:{
+                lvl1: 0,
+                lvl2: 0,
+                lvl3: 0,
+                lvl4: 0,
+                lvl5: 0,
+                lvl7: 0,
+                lvl8: 0,
+                lvl9: 0,
+                lvl10: 0
+            },
+            timeBoosters: {
+                lvl1: 0,
+                lvl2: 0,
+                lvl3: 0,
+                lvl4: 0,
+                lvl5: 0,
+                lvl7: 0,
+                lvl8: 0,
+                lvl9: 0,
+                lvl10: 0
+            },
+            buds: 0,
+            dailyBudDeposit: 0,
+            xp: 0,
+            lvl: 1,
+            role: 1,
+            joints: {
+                pinner: 0,
+                hempWrappedJoint: 0,
+                crossJoint: 0,
+                blunt: 0,
+                hempWrappedBlunt: 0,
+                twaxJoint: 0
+            },
+            mota: 0,
+            motaStake: 0
+        }
     }
     }
 }
 
-function reporting(ourUser) {
+function reporting() {
     contract.getReport(axios).then((res) => {
         
 
