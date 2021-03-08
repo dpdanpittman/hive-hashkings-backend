@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51947420; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51947864; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51947420;
+const ago = ENV.ago || 51947864;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -276,6 +276,8 @@ function dynStart(account) {
     });
 }
 
+
+
 // gets hive in usd
 function hivePriceConversion(amount) {
     return new Promise((resolve, reject) => {
@@ -291,15 +293,15 @@ function hivePriceConversion(amount) {
     })
 })}
 
-function userList(ourUser) {
-    contract.getReport(axios).then((res) => {
-        let userCount = res[3].length
-        let userList = res[3]
-
-        state.stats.farmers = userCount
-        state.stats.farmerList = userList
+function userList() {
+    let farmerArray = state.stats.farmerList
+    var arrayLength = myStringArray.length
+    for(let i = 0; i < arrayLength; i++) {
+    if (!farmerArray[i]){
+        console.log(farmerArray[i])
+    }
+    }
 }
-)}
 
 function reporting(ourUser) {
     contract.getReport(axios).then((res) => {
@@ -515,6 +517,11 @@ function startApp() {
                     state.stats.prices.waterPlants.lvl9.price = Math.ceil((bundlePrice * 1));
                     state.stats.prices.waterPlants.lvl10.price = Math.ceil((bundlePrice * 1));
                 })                       
+        }
+
+        // makes sure database is up to date every 5 minutes
+        if (num % 10 === 0 && processor.isStreaming()) {
+            userList()
         }
 
         // makes sure database is up to date every 5 minutes
