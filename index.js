@@ -592,10 +592,10 @@ function startApp() {
                 })                       
         }
 
-       /* // makes sure database is up to date every 5 minutes
+        // makes sure database is up to date every 5 minutes
         if (num % 10 === 0 && processor.isStreaming()) {
             userList()
-        }*/
+        }
 
         // makes sure database is up to date every 5 minutes
         if (num % 100 === 0 && processor.isStreaming()) {
