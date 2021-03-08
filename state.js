@@ -1,70 +1,71 @@
 module.exports = {
    "stats": {
-      "seedCount": 972,
+      "seedCount": 1105,
+      "time": 28000,
       "roles": {
          "1": "farmer",
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmT3VXr5DxgNrjgE3auZLicUEVaqnRkDgXyVinEmygaMGF",
-      "bi": 51715901,
+      "bu": "QmNP8AL9Ck3Smz3P2j9B5GSWLFzi4tjnL63yemFQQPHYWN",
+      "bi": 51946901,
       "prices": {
          "bundles": {
-            "asiaBundle": 98,
-            "africaBundle": 49,
+            "asiaBundle": 99,
+            "africaBundle": 50,
             "afghanistanBundle": 33,
-            "jamaicaBundle": 65,
+            "jamaicaBundle": 66,
             "mexicoBundle": 25,
             "southAmericaBundle": 17
          },
          "waterPlants": {
             "lvl1": {
-               "price": 100000,
+               "price": 4,
                "water": 30,
                "token": 1000
             },
             "lvl2": {
-               "price": 100000,
+               "price": 4,
                "water": 45,
                "token": 1000
             },
             "lvl3": {
-               "price": 100000,
+               "price": 4,
                "water": 75,
                "token": 1000
             },
             "lvl4": {
-               "price": 100000,
+               "price": 4,
                "water": 120,
                "token": 1000
             },
             "lvl5": {
-               "price": 100000,
+               "price": 4,
                "water": 180,
                "token": 1000
             },
             "lvl6": {
-               "price": 100000,
+               "price": 4,
                "water": 255,
                "token": 1000
             },
             "lvl7": {
-               "price": 100000,
+               "price": 4,
                "water": 345,
                "token": 1000
             },
             "lvl8": {
-               "price": 100000,
+               "price": 4,
                "water": 450,
                "token": 1000
             },
             "lvl9": {
-               "price": 100000,
+               "price": 4,
                "water": 570,
                "token": 1000
             },
             "lvl10": {
-               "price": 100000,
+               "price": 4,
                "water": 705,
                "token": 1000
             }
@@ -103,61 +104,61 @@ module.exports = {
             "crossJoint": 1000,
             "crossJointXP": 400,
             "blunt": 2500,
-            "bluntXP": 400, 
+            "bluntXP": 400,
             "waxJoint": 5000,
             "waxJointXP": 2500,
             "twaxJoint": 10000,
-            "twaxJointXP": 6000,
+            "twaxJointXP": 6000
          },
          "land": {
             "asia": {
-               "price": 10000,
-               "token": 10000
+               "price": 149,
+               "token": 1490
             },
             "africa": {
-               "price": 10000,
-               "token": 10000
+               "price": 75,
+               "token": 750
             },
             "afghanistan": {
-               "price": 10000,
-               "token": 10000
+               "price": 50,
+               "token": 500
             },
             "southAmerica": {
-               "price": 10000,
-               "token": 10000
+               "price": 25,
+               "token": 250
             },
             "jamaica": {
-               "price": 10000,
-               "token": 100000
+               "price": 99,
+               "token": 990
             },
             "mexico": {
-               "price": 10000,
-               "token": 1000000
+               "price": 38,
+               "token": 380
             }
          }
       },
       "supply": {
-         "totalPlots": 0,
-         "totalPlotsC": 3016,
-         "totalSeeds": 0,
-         "totalWaterTowers": 0,
-         "totalWaterTowersC": 19000,
+         "totalPlots": 1575,
+         "totalPlotsC": 1441,
+         "totalSeeds": 1856,
+         "totalWaterTowers": 1627,
+         "totalWaterTowersC": 17373,
          "land": {
             "asia": 0,
             "asiaC": 40,
             "africa": 0,
             "africaC": 300,
-            "afghanistan": 291,
-            "afghanistanC": 209,
-            "southAmerica": 801,
-            "southAmericaC": 499,
+            "afghanistan": 227,
+            "afghanistanC": 273,
+            "southAmerica": 708,
+            "southAmericaC": 592,
             "jamaica": 0,
             "jamaicaC": 116,
-            "mexico": 549,
-            "mexicoC": 201
-         },
+            "mexico": 497,
+            "mexicoC": 253
+         }
       },
-      "farmers": 289,
+      "farmers": 329,
       "farmerList": [
          "qwoyn",
          "abrockman",
@@ -201,6 +202,7 @@ module.exports = {
          "the-mister7",
          "xplora4253",
          "cryptounicorn420",
+         "nobutsd1974",
          "nftmart.cards",
          "alfa16",
          "toxicmen01",
@@ -227,7 +229,6 @@ module.exports = {
          "gamewatch",
          "academialibertad",
          "proto26",
-         "nobutsd1974",
          "skippyza",
          "udabeu",
          "luisdavid17",
@@ -447,7 +448,47 @@ module.exports = {
          "cryptosfera",
          "hazeudon",
          "canna-curate",
-         "victorycoin23"
+         "victorycoin23",
+         "gatticus",
+         "monsterbuster",
+         "mariorojas",
+         "elsith80",
+         "frijolitomx",
+         "thebeardflex",
+         "huzzah",
+         "whoismyhero",
+         "luisx22",
+         "domeownik",
+         "brazuk",
+         "angy2882",
+         "zerokdark",
+         "andresito9522",
+         "franvit1979",
+         "junkfeathers",
+         "supablaza",
+         "javieruscu69",
+         "javier42",
+         "robin-nrs",
+         "sachique23",
+         "danny198",
+         "flakkaseagulls",
+         "unschool",
+         "automaton",
+         "emsenn0",
+         "aniol77",
+         "harolac",
+         "hivetrending",
+         "drowel",
+         "apzyx",
+         "crishor",
+         "funnel",
+         "tr4ktrotacielo5",
+         "aguilax",
+         "migueldavidor",
+         "brad12",
+         "fxish",
+         "ctdub406",
+         "skylinebuds"
       ]
    },
    "bal": {
@@ -521,7 +562,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -544,8 +596,8 @@ module.exports = {
          },
          "mota": 0.0001,
          "motaStake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "r0um3n1987": {
          "plots": {
@@ -617,7 +669,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 7,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -640,8 +703,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "boyobevan": {
          "plots": {
@@ -673,6 +736,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -686,6 +760,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "academialibertad": {
@@ -716,7 +791,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -739,6 +825,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "abztraxxx": {
@@ -771,6 +858,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -784,6 +882,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "audiomancer": {
@@ -842,7 +941,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -865,8 +975,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "cryptounicorn420": {
          "plots": {
@@ -896,7 +1006,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -919,6 +1040,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "dolp": {
@@ -1117,7 +1239,18 @@ module.exports = {
          ],
          "hkwater": 450,
          "waterPlants": {
-            "lvl1": 25,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1140,8 +1273,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "xplora4253": {
          "plots": {
@@ -1173,6 +1306,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1186,6 +1330,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "ricarox": {
@@ -1218,6 +1363,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1231,6 +1387,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "edtorr704": {
@@ -1263,6 +1420,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1276,6 +1444,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "marcoss21": {
@@ -1306,7 +1475,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1329,8 +1509,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "foxon": {
          "plots": {
@@ -1465,7 +1645,18 @@ module.exports = {
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 16,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1488,6 +1679,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
          "water": 180
       },
@@ -1547,7 +1739,18 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1570,8 +1773,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "degranoengrano": {
          "plots": {
@@ -1608,7 +1811,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1631,8 +1845,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "ibanezense": {
          "plots": {
@@ -1664,6 +1878,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1677,6 +1902,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "ejmh": {
@@ -1728,7 +1954,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1751,6 +1988,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
          "water": 30
       },
@@ -1803,7 +2041,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1826,6 +2075,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
          "water": 60
       },
@@ -1871,7 +2121,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1894,6 +2155,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
          "water": 30
       },
@@ -1927,6 +2189,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -1940,6 +2213,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "bigkidstuff": {
@@ -1970,7 +2244,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1993,8 +2278,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "dominic23": {
          "plots": {
@@ -2026,6 +2311,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2039,6 +2335,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "electru": {
@@ -2090,7 +2387,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2113,8 +2421,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "lozadakb": {
          "plots": {
@@ -2146,6 +2454,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2159,6 +2478,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "hodltoday": {
@@ -2189,7 +2509,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2212,8 +2543,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "fdeflash": {
          "plots": {
@@ -2250,7 +2581,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2273,8 +2615,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "pedroozj": {
          "plots": {
@@ -2306,6 +2648,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2319,6 +2672,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "facugaba": {
@@ -2349,7 +2703,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2372,8 +2737,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "luisveco88": {
          "plots": {
@@ -2405,6 +2770,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2418,6 +2794,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "aries02": {
@@ -2450,6 +2827,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2463,6 +2851,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "medicenw1": {
@@ -2495,6 +2884,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2508,6 +2908,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "quefe": {
@@ -2540,6 +2941,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2553,6 +2965,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "mejiasclaudia": {
@@ -2585,6 +2998,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2598,6 +3022,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "cadawg": {
@@ -2606,17 +3031,17 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 1,
             "africaUsed": 0,
-            "afghanistan": 2,
+            "afghanistan": 3,
             "afghanistanUsed": 0,
-            "southAmerica": 5,
+            "southAmerica": 6,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 2,
             "mexicoUsed": 0
          },
-         "plotCount": 10,
-         "seedCount": 10,
+         "plotCount": 12,
+         "seedCount": 12,
          "seeds": [
             {
                "name": "Colombian Gold",
@@ -2687,11 +3112,36 @@ module.exports = {
                "water": 10,
                "pr": 214,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 696,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 324,
+               "planted": false
             }
          ],
          "hkwater": 300,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2714,7 +3164,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
-         "buds": 0
+         "dailyBudDeposit": 0,
+         "buds": 0,
       },
       "ecuaminte": {
          "plots": {
@@ -2746,6 +3197,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2759,6 +3221,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "abrockman": {
@@ -2789,7 +3252,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2812,8 +3286,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "supremdsm": {
          "plots": {
@@ -2845,6 +3319,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2858,6 +3343,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "darthslaver": {
@@ -2890,6 +3376,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -2903,6 +3400,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "juanchuzx": {
@@ -2933,7 +3431,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2956,6 +3465,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "dobro2020": {
@@ -2988,50 +3498,8 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "xp": 0,
-         "lvl": 1,
-         "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "waxJoint": 0,
-            "twaxJoint": 0
-         },
-         "mota": 0,
-         "motastake": 0,
-         "buds": 0
-      },
-      "dantejcs": {
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 0,
-            "africaUsed": 0,
-            "afghanistan": 0,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 1,
-            "mexicoUsed": 0
-         },
-         "plotCount": 1,
-         "seedCount": 1,
-         "seeds": [
-            {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 589,
-               "planted": false
-            }
-         ],
-         "hkwater": 30,
-         "waterPlants": {
-            "lvl1": 1,
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3054,7 +3522,94 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
+      },
+      "dantejcs": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 2,
+            "mexicoUsed": 0
+         },
+         "plotCount": 4,
+         "seedCount": 4,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 589,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 193,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 760,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 434,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motastake": 0,
+         "dailyBudDeposit": 0,
+         "buds": 0,
       },
       "the-mister7": {
          "plots": {
@@ -3084,7 +3639,18 @@ module.exports = {
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3107,8 +3673,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "reward.app": {
          "plots": {
@@ -3140,6 +3706,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3153,6 +3730,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "oblivioncubed": {
@@ -3185,6 +3763,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -3198,6 +3787,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "yoclensavilan": {
@@ -3228,7 +3818,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3251,6 +3852,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "elprutest": {
@@ -3265,11 +3867,11 @@ module.exports = {
             "southAmericaUsed": 0,
             "jamaica": 3,
             "jamaicaUsed": 0,
-            "mexico": 1,
+            "mexico": 4,
             "mexicoUsed": 0
          },
-         "plotCount": 9,
-         "seedCount": 9,
+         "plotCount": 12,
+         "seedCount": 12,
          "seeds": [
             {
                "name": "Colombian Gold",
@@ -3333,11 +3935,43 @@ module.exports = {
                "water": 205,
                "pr": 6310,
                "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 391,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 369,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 580,
+               "planted": false
             }
          ],
          "hkwater": 270,
          "waterPlants": {
-            "lvl1": 9,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3360,7 +3994,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
-         "buds": 0
+         "dailyBudDeposit": 0,
+         "buds": 0,
       },
       "khan.dayyanz": {
          "plots": {
@@ -3390,7 +4025,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3413,6 +4059,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "xbladex": {
@@ -3421,17 +4068,17 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 2,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 1,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 2,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 4,
-         "seedCount": 4,
+         "plotCount": 6,
+         "seedCount": 6,
          "seeds": [
             {
                "name": "Lamb’s Bread",
@@ -3460,11 +4107,36 @@ module.exports = {
                "water": 93,
                "pr": 2350,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 646,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 258,
+               "planted": false
             }
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3487,8 +4159,9 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
+         "water": 60
       },
       "cireth": {
          "plots": {
@@ -3518,7 +4191,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3541,6 +4225,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "infernalcoliseum": {
@@ -3571,7 +4256,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3594,6 +4290,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "anarcist69": {
@@ -3652,7 +4349,18 @@ module.exports = {
          ],
          "hkwater": 150,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3675,6 +4383,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "jmsansan.leo": {
@@ -3705,7 +4414,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3728,6 +4448,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "jinmori": {
@@ -3765,7 +4486,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3788,6 +4520,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "nemesis29ff": {
@@ -3825,7 +4558,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3848,6 +4592,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "mafia.wallet": {
@@ -3892,7 +4637,18 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3915,6 +4671,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "cesarg": {
@@ -3945,7 +4702,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3968,6 +4736,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "davedickeyyall": {
@@ -3998,7 +4767,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4021,6 +4801,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "gooba": {
@@ -4058,7 +4839,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4081,8 +4873,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "hexflex": {
          "plots": {
@@ -4175,7 +4967,18 @@ module.exports = {
          ],
          "hkwater": 300,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4198,6 +5001,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "proto26": {
@@ -4228,7 +5032,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4251,6 +5066,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "nataxsnakex1": {
@@ -4288,7 +5104,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4311,6 +5138,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "skippyza": {
@@ -4341,7 +5169,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4364,6 +5203,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "udabeu": {
@@ -4401,7 +5241,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4424,8 +5275,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "luisdavid17": {
          "plots": {
@@ -4455,7 +5306,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4478,6 +5340,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "mermaidvampire": {
@@ -4529,7 +5392,18 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4552,6 +5426,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "bwar": {
@@ -4584,6 +5459,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -4597,6 +5483,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "yova22": {
@@ -4704,7 +5591,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 12,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4727,8 +5625,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "seravilop": {
          "plots": {
@@ -4765,7 +5663,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4788,6 +5697,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "krakolito": {
@@ -4839,7 +5749,18 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4862,8 +5783,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "mooncrab88": {
          "plots": {
@@ -4893,7 +5814,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4916,6 +5848,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "silverxdpro": {
@@ -4960,7 +5893,18 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4983,6 +5927,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "gamsam": {
@@ -5034,7 +5979,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5057,6 +6013,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
          "water": 60
       },
@@ -5088,7 +6045,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5111,6 +6079,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "wagginston": {
@@ -5449,7 +6418,18 @@ module.exports = {
          ],
          "hkwater": 1350,
          "waterPlants": {
-            "lvl1": 45,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5472,6 +6452,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "nupulse": {
@@ -5509,7 +6490,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5532,6 +6524,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "bhoa": {
@@ -5569,7 +6562,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5592,6 +6596,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "bitandi": {
@@ -5622,7 +6627,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5645,6 +6661,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "steinreich": {
@@ -5675,7 +6692,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5698,6 +6726,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "bassman077": {
@@ -5708,15 +6737,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
-            "southAmerica": 2,
+            "southAmerica": 3,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "name": "Colombian Gold",
@@ -5731,11 +6760,29 @@ module.exports = {
                "water": 9,
                "pr": 76,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 37,
+               "planted": false
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5758,8 +6805,9 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
+         "water": 30
       },
       "condeas": {
          "plots": {
@@ -5767,17 +6815,17 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 0,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 1,
             "afghanistanUsed": 0,
-            "southAmerica": 1,
+            "southAmerica": 2,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
-            "mexico": 0,
+            "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "name": "Colombian Gold",
@@ -5785,11 +6833,43 @@ module.exports = {
                "water": 10,
                "pr": 77,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 162,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 582,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 847,
+               "planted": false
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5812,7 +6892,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
-         "buds": 0
+         "dailyBudDeposit": 0,
+         "buds": 0,
       },
       "joebabana": {
          "plots": {
@@ -5849,7 +6930,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5872,8 +6964,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "virusfx": {
          "plots": {
@@ -5973,7 +7065,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 11,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5996,8 +7099,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "aubryd": {
          "plots": {
@@ -6027,7 +7130,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6050,6 +7164,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "treefiddybruh": {
@@ -6101,7 +7216,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6124,6 +7250,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
          "water": 30
       },
@@ -6133,17 +7260,17 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 3,
             "africaUsed": 0,
-            "afghanistan": 1,
+            "afghanistan": 2,
             "afghanistanUsed": 0,
-            "southAmerica": 1,
+            "southAmerica": 2,
             "southAmericaUsed": 0,
             "jamaica": 2,
             "jamaicaUsed": 0,
-            "mexico": 1,
+            "mexico": 2,
             "mexicoUsed": 0
          },
-         "plotCount": 8,
-         "seedCount": 8,
+         "plotCount": 11,
+         "seedCount": 11,
          "seeds": [
             {
                "name": "King’s Bread",
@@ -6200,11 +7327,43 @@ module.exports = {
                "water": 9,
                "pr": 324,
                "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1538,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 526,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 86,
+               "planted": false
             }
          ],
          "hkwater": 240,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6227,7 +7386,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
-         "buds": 0
+         "dailyBudDeposit": 0,
+         "buds": 0,
       },
       "elricmoonslayer": {
          "plots": {
@@ -6257,7 +7417,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6280,6 +7451,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "quantumnachos": {
@@ -6290,15 +7462,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 1,
             "afghanistanUsed": 0,
-            "southAmerica": 5,
+            "southAmerica": 6,
             "southAmericaUsed": 0,
             "jamaica": 6,
             "jamaicaUsed": 0,
             "mexico": 2,
             "mexicoUsed": 0
          },
-         "plotCount": 15,
-         "seedCount": 15,
+         "plotCount": 16,
+         "seedCount": 16,
          "seeds": [
             {
                "name": "Panama Red",
@@ -6404,11 +7576,29 @@ module.exports = {
                "water": 205,
                "pr": 6050,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 262,
+               "planted": false
             }
          ],
          "hkwater": 450,
          "waterPlants": {
-            "lvl1": 15,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6431,7 +7621,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
-         "buds": 0
+         "dailyBudDeposit": 0,
+         "buds": 0,
       },
       "reeeheee": {
          "plots": {
@@ -6475,7 +7666,18 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6498,6 +7700,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "sinerjji": {
@@ -6535,7 +7738,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6558,6 +7772,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "malonn": {
@@ -6588,7 +7803,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6611,6 +7837,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "swashcoldsteel": {
@@ -6648,7 +7875,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6671,6 +7909,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "uganzadranje": {
@@ -6722,7 +7961,18 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6745,6 +7995,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "honey-swap": {
@@ -6777,6 +8028,17 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -6790,6 +8052,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "nathanpieters": {
@@ -6820,7 +8083,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6843,6 +8117,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "willsaldeno": {
@@ -6873,7 +8148,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6896,6 +8182,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "hosherama": {
@@ -6989,7 +8276,18 @@ module.exports = {
          ],
          "hkwater": 210,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7012,8 +8310,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "turb0nen": {
          "plots": {
@@ -7071,7 +8369,18 @@ module.exports = {
          ],
          "hkwater": 150,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7094,6 +8403,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "psycodelic": {
@@ -7187,7 +8497,18 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7210,8 +8531,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "badpupper": {
          "plots": {
@@ -7219,7 +8540,7 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 3,
             "africaUsed": 0,
-            "afghanistan": 5,
+            "afghanistan": 6,
             "afghanistanUsed": 0,
             "southAmerica": 5,
             "southAmericaUsed": 0,
@@ -7228,8 +8549,8 @@ module.exports = {
             "mexico": 5,
             "mexicoUsed": 0
          },
-         "plotCount": 18,
-         "seedCount": 18,
+         "plotCount": 19,
+         "seedCount": 19,
          "seeds": [
             {
                "name": "Acapulco Gold",
@@ -7356,11 +8677,29 @@ module.exports = {
                "water": 33,
                "pr": 629,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 762,
+               "planted": false
             }
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 18,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7383,8 +8722,9 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
+         "water": 30
       },
       "hersi007": {
          "plots": {
@@ -7421,7 +8761,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7444,8 +8795,8 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0,
-         "water": null
       },
       "acne": {
          "plots": {
@@ -7475,7 +8826,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7498,6 +8860,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "sanchezro": {
@@ -7535,7 +8898,18 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7558,6 +8932,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "tongostar": {
@@ -7588,7 +8963,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7611,6 +8997,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "casilokodesing": {
@@ -7641,7 +9028,18 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7664,6 +9062,7 @@ module.exports = {
          },
          "mota": 0,
          "motastake": 0,
+         "dailyBudDeposit": 0,
          "buds": 0
       },
       "heikki1337": {
@@ -7692,10 +9091,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7716,17 +9115,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -7838,10 +9227,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 330,
+         "hkwater": 330,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 11,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7862,17 +9251,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -7977,10 +9356,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 300,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8001,17 +9380,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8053,10 +9422,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8077,17 +9446,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8129,10 +9488,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8153,17 +9512,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8205,10 +9554,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8229,17 +9578,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8302,10 +9641,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8326,17 +9665,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8360,15 +9689,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 2,
             "afghanistanUsed": 0,
-            "southAmerica": 6,
+            "southAmerica": 8,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 2,
             "mexicoUsed": 0
          },
-         "plotCount": 13,
-         "seedCount": 13,
+         "plotCount": 15,
+         "seedCount": 15,
          "seeds": [
             {
                "name": "Malawi",
@@ -8460,12 +9789,26 @@ module.exports = {
                "water": 10,
                "pr": 227,
                "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 345,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 108,
+               "planted": false
             }
          ],
-         "water": 390,
+         "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 13,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8486,17 +9829,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8538,10 +9871,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8562,17 +9895,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8614,10 +9937,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8638,17 +9961,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8718,10 +10031,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 150,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8742,17 +10055,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8850,10 +10153,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 270,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 9,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8874,17 +10177,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -8908,15 +10201,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 2,
             "afghanistanUsed": 0,
-            "southAmerica": 4,
+            "southAmerica": 6,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 10,
-         "seedCount": 10,
+         "plotCount": 12,
+         "seedCount": 12,
          "seeds": [
             {
                "name": "Durban Poison",
@@ -8973,12 +10266,26 @@ module.exports = {
                "water": 33,
                "pr": 629,
                "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 309,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 132,
+               "planted": false
             }
          ],
-         "water": 300,
+         "hkwater": 360,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8999,17 +10306,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -9051,10 +10348,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9075,17 +10372,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -9162,10 +10449,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 180,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9186,17 +10473,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -9238,10 +10515,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9262,17 +10539,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -9335,10 +10602,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9359,17 +10626,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -9418,10 +10675,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9442,17 +10699,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -9494,10 +10741,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9518,17 +10765,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -9577,10 +10814,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9601,17 +10838,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -9751,10 +10978,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 450,
+         "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 15,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9775,17 +11002,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -10030,10 +11247,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 900,
+         "hkwater": 900,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 30,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10054,17 +11271,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -10162,10 +11369,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 270,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 9,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10186,17 +11393,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -10280,10 +11477,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 210,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 7,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10304,17 +11501,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -10356,10 +11543,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10380,17 +11567,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -10432,10 +11609,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10456,17 +11633,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -10571,10 +11738,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 300,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10595,17 +11762,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -10787,10 +11944,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 630,
+         "hkwater": 630,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 21,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10811,17 +11968,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -10926,10 +12073,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 300,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10950,17 +12097,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11016,10 +12153,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11040,17 +12177,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11074,15 +12201,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
-            "southAmerica": 1,
+            "southAmerica": 4,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "name": "Panama Red",
@@ -11090,12 +12217,33 @@ module.exports = {
                "water": 9,
                "pr": 54,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 157,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 211,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 131,
+               "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11116,17 +12264,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11168,10 +12306,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11192,17 +12330,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11224,17 +12352,17 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 1,
             "africaUsed": 0,
-            "afghanistan": 0,
+            "afghanistan": 1,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "name": "Kilimanjaro",
@@ -11242,12 +12370,26 @@ module.exports = {
                "water": 137,
                "pr": 3684,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 673,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 321,
+               "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11268,17 +12410,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11334,10 +12466,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11358,17 +12490,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11424,10 +12546,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11448,17 +12570,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11500,10 +12612,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11524,17 +12636,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11583,10 +12685,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11607,17 +12709,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11659,10 +12751,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11683,17 +12775,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11819,10 +12901,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 390,
+         "hkwater": 390,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 13,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11843,17 +12925,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -11986,10 +13058,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 420,
+         "hkwater": 420,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 14,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12010,17 +13082,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12083,10 +13145,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12107,17 +13169,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12159,10 +13211,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12183,17 +13235,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12256,10 +13298,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12280,17 +13322,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12374,10 +13406,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 210,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 7,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12398,17 +13430,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12499,10 +13521,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 240,
+         "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12523,17 +13545,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12610,10 +13622,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 180,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12634,17 +13646,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12693,10 +13695,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12717,17 +13719,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12867,10 +13859,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 450,
+         "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 15,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12891,17 +13883,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -12950,10 +13932,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12974,17 +13956,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13026,10 +13998,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13050,17 +14022,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13102,10 +14064,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13126,17 +14088,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13192,10 +14144,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13216,17 +14168,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13324,10 +14266,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 270,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 9,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13348,17 +14290,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13435,10 +14367,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 180,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13459,17 +14391,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13546,10 +14468,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 180,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13570,17 +14492,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13622,10 +14534,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13646,17 +14558,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13712,10 +14614,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13736,17 +14638,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13788,10 +14680,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13812,17 +14704,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13885,10 +14767,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13909,17 +14791,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -13968,10 +14840,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13992,17 +14864,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14072,10 +14934,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 150,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14096,17 +14958,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14232,10 +15084,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 390,
+         "hkwater": 390,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 13,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14256,17 +15108,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14315,10 +15157,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14339,17 +15181,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14398,10 +15230,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14422,17 +15254,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14495,10 +15317,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14519,17 +15341,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14571,10 +15383,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14595,17 +15407,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14661,10 +15463,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14685,17 +15487,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14786,10 +15578,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 240,
+         "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14810,17 +15602,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14862,10 +15644,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14886,17 +15668,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -14952,10 +15724,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14976,17 +15748,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15063,10 +15825,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 180,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15087,17 +15849,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15153,10 +15905,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15177,17 +15929,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15236,10 +15978,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15260,17 +16002,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15319,10 +16051,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15343,17 +16075,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15486,10 +16208,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 420,
+         "hkwater": 420,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 14,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15510,17 +16232,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15569,10 +16281,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15593,17 +16305,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15708,10 +16410,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 300,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15732,17 +16434,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15784,10 +16476,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15808,17 +16500,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -15874,10 +16556,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15898,17 +16580,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16048,10 +16720,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 450,
+         "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 15,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16072,17 +16744,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16131,10 +16793,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16155,17 +16817,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16207,10 +16859,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16231,17 +16883,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16290,10 +16932,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16314,17 +16956,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16373,10 +17005,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16397,17 +17029,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16449,10 +17071,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16473,17 +17095,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16553,10 +17165,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 150,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16577,17 +17189,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16643,10 +17245,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16667,17 +17269,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16726,10 +17318,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16750,17 +17342,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16809,10 +17391,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16833,17 +17415,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16885,10 +17457,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16909,17 +17481,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -16968,10 +17530,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16992,17 +17554,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17065,10 +17617,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17089,17 +17641,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17155,10 +17697,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17179,17 +17721,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17238,10 +17770,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17262,17 +17794,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17314,10 +17836,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17338,17 +17860,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17372,15 +17884,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 1,
             "afghanistanUsed": 0,
-            "southAmerica": 1,
+            "southAmerica": 4,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
-            "mexico": 1,
+            "mexico": 2,
             "mexicoUsed": 0
          },
-         "plotCount": 4,
-         "seedCount": 4,
+         "plotCount": 8,
+         "seedCount": 8,
          "seeds": [
             {
                "name": "Malawi",
@@ -17409,12 +17921,40 @@ module.exports = {
                "water": 9,
                "pr": 31,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 238,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 221,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 362,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 93,
+               "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17435,17 +17975,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17469,15 +17999,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 1,
             "afghanistanUsed": 0,
-            "southAmerica": 2,
+            "southAmerica": 3,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "name": "Colombian Gold",
@@ -17499,12 +18029,19 @@ module.exports = {
                "water": 33,
                "pr": 794,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 233,
+               "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17525,17 +18062,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17584,10 +18111,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17608,17 +18135,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17667,10 +18184,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17691,17 +18208,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17750,10 +18257,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17774,17 +18281,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17833,10 +18330,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17857,17 +18354,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17909,10 +18396,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17933,17 +18420,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -17985,10 +18462,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18009,17 +18486,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18068,10 +18535,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18092,17 +18559,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18144,10 +18601,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18168,17 +18625,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18220,10 +18667,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18244,17 +18691,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18296,10 +18733,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18320,17 +18757,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18505,10 +18932,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 600,
+         "hkwater": 600,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 20,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18529,17 +18956,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18595,10 +19012,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18619,17 +19036,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18678,10 +19085,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18702,17 +19109,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18768,10 +19165,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18792,17 +19189,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18824,7 +19211,7 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 0,
             "africaUsed": 0,
-            "afghanistan": 1,
+            "afghanistan": 2,
             "afghanistanUsed": 0,
             "southAmerica": 0,
             "southAmericaUsed": 0,
@@ -18833,8 +19220,8 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "name": "Mazar I Sharif",
@@ -18842,12 +19229,19 @@ module.exports = {
                "water": 33,
                "pr": 634,
                "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 651,
+               "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18868,17 +19262,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18920,10 +19304,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18944,17 +19328,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -18996,10 +19370,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19020,17 +19394,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19107,10 +19471,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 180,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19131,17 +19495,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19197,10 +19551,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19221,17 +19575,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19287,10 +19631,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19311,17 +19655,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19370,10 +19704,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19394,17 +19728,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19460,10 +19784,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19484,17 +19808,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19585,10 +19899,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 240,
+         "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19609,17 +19923,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19661,10 +19965,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19685,17 +19989,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19719,15 +20013,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 1,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
-            "mexico": 0,
+            "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "name": "Mazar I Sharif",
@@ -19735,12 +20029,26 @@ module.exports = {
                "water": 33,
                "pr": 777,
                "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 455,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 144,
+               "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19761,17 +20069,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19827,10 +20125,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19851,17 +20149,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -19910,10 +20198,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19934,17 +20222,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20014,10 +20292,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 150,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20038,17 +20316,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20118,10 +20386,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 150,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20142,17 +20410,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20201,10 +20459,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20225,17 +20483,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20277,10 +20525,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20301,17 +20549,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20360,10 +20598,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20384,17 +20622,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20443,10 +20671,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20467,17 +20695,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20533,10 +20751,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20557,17 +20775,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20616,10 +20824,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 60,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20640,17 +20848,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20720,10 +20918,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 150,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20744,17 +20942,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20796,10 +20984,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20820,17 +21008,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -20854,15 +21032,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 9,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 3,
             "mexicoUsed": 0
          },
-         "plotCount": 12,
-         "seedCount": 12,
+         "plotCount": 13,
+         "seedCount": 13,
          "seeds": [
             {
                "name": "Mazar I Sharif",
@@ -20947,12 +21125,19 @@ module.exports = {
                "water": 33,
                "pr": 761,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 313,
+               "planted": false
             }
          ],
-         "water": 360,
+         "hkwater": 390,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 12,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20973,17 +21158,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -21017,7 +21192,7 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "water": 0,
+         "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -21041,17 +21216,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -21114,10 +21279,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 120,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21138,17 +21303,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -21204,10 +21359,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 90,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21228,17 +21383,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -21574,10 +21719,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 1290,
+         "hkwater": 1290,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 43,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21598,17 +21743,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -21650,10 +21785,10 @@ module.exports = {
                "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21674,17 +21809,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -21708,15 +21833,15 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 1,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "name": "Mazar I Sharif",
@@ -21724,12 +21849,19 @@ module.exports = {
                "water": 33,
                "pr": 619,
                "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 87,
+               "planted": false
             }
          ],
-         "water": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 0,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21750,17 +21882,7 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "recollectors": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "vl9": 0,
-            "lvl10": 0
-         },
+         "dailyBudDeposit": 0,
          "buds": 0,
          "xp": 0,
          "lvl": 1,
@@ -21775,11 +21897,2300 @@ module.exports = {
          },
          "mota": 0,
          "motaStake": 0
+      },
+      "javier42": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 2,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 219,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 198,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 666,
+               "planted": false
+            }
+         ],
+         "hkwater": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "javieruscu69": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 515,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 100,
+               "planted": false
+            }
+         ],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "robin-nrs": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 90,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 578,
+               "planted": false
+            }
+         ],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "sachique23": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 2,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 4,
+         "seedCount": 4,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 283,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 359,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 691,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 60,
+               "planted": false
+            }
+         ],
+         "hkwater": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "danny198": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 2,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 686,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 639,
+               "planted": false
+            }
+         ],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "flakkaseagulls": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 468,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "unschool": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 189,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "automaton": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 509,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "emsenn0": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 282,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "aniol77": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 505,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 264,
+               "planted": false
+            }
+         ],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "harolac": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 2,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 4,
+         "seedCount": 4,
+         "seeds": [
+            {
+               "name": "Lashkar Gah",
+               "spt": 5,
+               "water": 43,
+               "pr": 899,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 373,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 140,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 105,
+               "planted": false
+            }
+         ],
+         "hkwater": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "hivetrending": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 102,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "drowel": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 6,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 2,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 9,
+         "seedCount": 9,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 39,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 489,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 834,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 215,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 124,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 180,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 479,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 312,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 144,
+               "planted": false
+            }
+         ],
+         "hkwater": 270,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "apzyx": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 2,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 4,
+         "seedCount": 4,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 281,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 366,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 812,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 337,
+               "planted": false
+            }
+         ],
+         "hkwater": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "funnel": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 399,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "tr4ktrotacielo5": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Hindu Kush",
+               "spt": 4,
+               "water": 82,
+               "pr": 2112,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "aguilax": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 3,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 614,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1587,
+               "planted": false
+            },
+            {
+               "name": "Hindu Kush",
+               "spt": 4,
+               "water": 82,
+               "pr": 2029,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 150,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 405,
+               "planted": false
+            }
+         ],
+         "hkwater": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "migueldavidor": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 320,
+               "planted": false
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "brad12": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 420,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 41,
+               "planted": false
+            }
+         ],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "fxish": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 10,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 10,
+         "seedCount": 10,
+         "seeds": [
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 800,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 768,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1474,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 737,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 764,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 837,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 774,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 712,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 618,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 757,
+               "planted": false
+            }
+         ],
+         "hkwater": 300,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "ctdub406": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 13,
+            "afghanistanUsed": 0,
+            "southAmerica": 13,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 13,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 39,
+         "seedCount": 39,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 293,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 465,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 685,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 290,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 480,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 695,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 201,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 461,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 699,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 182,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 563,
+               "planted": false
+            },
+            {
+               "name": "Afghani",
+               "spt": 5,
+               "water": 70,
+               "pr": 1586,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 839,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 401,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 31,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 674,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 469,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 305,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 784,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 533,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 242,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 638,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 549,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 236,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 696,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 438,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 94,
+               "planted": false
+            },
+            {
+               "name": "Lashkar Gah",
+               "spt": 5,
+               "water": 43,
+               "pr": 950,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 744,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 538,
+               "planted": false
+            },
+            {
+               "name": "Colombian Gold",
+               "spt": 7,
+               "water": 10,
+               "pr": 59,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 411,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 200,
+               "planted": false
+            },
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 159,
+               "planted": false
+            },
+            {
+               "name": "Acapulco Gold",
+               "spt": 6,
+               "water": 23,
+               "pr": 573,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 789,
+               "planted": false
+            }
+         ],
+         "hkwater": 1170,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
+      },
+      "skylinebuds": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "name": "Panama Red",
+               "spt": 7,
+               "water": 9,
+               "pr": 139,
+               "planted": false
+            },
+            {
+               "name": "Mazar I Sharif",
+               "spt": 6,
+               "water": 33,
+               "pr": 773,
+               "planted": false
+            }
+         ],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "buds": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0
       }
    },
-   "cs": {
-      "51709023:udabeu": "udabeu purchased an afghanistan bundle",
-      "51710152:canna-curate": "canna-curate purchased a mexico bundle",
-      "51715029:victorycoin23": "victorycoin23 purchased an afghanistan bundle"
-   }
+   "cs": {}
 }
