@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51979141; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51995282; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51979141;
+const ago = ENV.ago || 51995282;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -630,7 +630,7 @@ function startApp() {
         }
 
         // makes sure database is up to date every 5 minutes
-        if (num % 10 === 0 && processor.isStreaming()) {
+        if (num % 105 === 0 && processor.isStreaming()) {
             userList()
         }
 
@@ -654,7 +654,27 @@ function startApp() {
     })
     
     /*--------------------------------Claim Goodies---------------------------*/
-    
+            // checks for qwoyn_plant and plants the seed
+            processor.on('claim_water', function(json, from) {
+
+                if(state.user[from] && state.user[from].claimed.water === false){
+                    //check how much water they get
+                    //set hkwater to that number
+                    //send water
+                    //set hkwater to 0
+                    //set claimed.water to true
+                }                
+            });
+
+            // checks for qwoyn_plant and plants the seed
+            processor.on('claim_avatar', function(json, from) {
+
+                if(state.user[from] && state.user[from].claimed.avatar === false){
+                    //send avatar 1 and 2
+                    //set claimed avatar to true
+                }                
+            });
+
 
 
     /*------------------------------- Farm Actions ---------------------------*/
