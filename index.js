@@ -309,7 +309,7 @@ function userList() {
                         plotData = report[property].plots
                         jointData = report[property].consumables
                         boosterData = report[property].booster
-                        boosterData = report[property].avatar
+                        avatarData = report[property].avatar
 
                         //set nft data
                         state.users[username].avatars = avatarData
