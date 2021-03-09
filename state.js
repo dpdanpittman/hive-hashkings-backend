@@ -1,20 +1,20 @@
 module.exports = {
    "stats": {
-      "seedCount": 1105,
+      "seedCount": 1159,
       "time": 28000,
       "roles": {
          "1": "farmer",
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmcTMuYuCR97tfBLRLArufwG2WcPd3TGdJjbc3Xobdejff",
-      "bi": 51949001,
+      "bu": "QmSVp5a8bUtfrMfzpN1Z5yscbfZvzfhir8hG9HPboXDqoi",
+      "bi": 51978001,
       "prices": {
          "bundles": {
-            "asiaBundle": 100,
-            "africaBundle": 50,
-            "afghanistanBundle": 34,
-            "jamaicaBundle": 67,
+            "asiaBundle": 98,
+            "africaBundle": 49,
+            "afghanistanBundle": 33,
+            "jamaicaBundle": 65,
             "mexicoBundle": 25,
             "southAmericaBundle": 17
          },
@@ -112,53 +112,53 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 149,
-               "token": 1490
+               "price": 146,
+               "token": 1460
             },
             "africa": {
-               "price": 75,
-               "token": 750
+               "price": 73,
+               "token": 730
             },
             "afghanistan": {
-               "price": 50,
-               "token": 500
+               "price": 49,
+               "token": 490
             },
             "southAmerica": {
                "price": 25,
                "token": 250
             },
             "jamaica": {
-               "price": 100,
-               "token": 1000
+               "price": 98,
+               "token": 980
             },
             "mexico": {
-               "price": 38,
-               "token": 380
+               "price": 37,
+               "token": 370
             }
          }
       },
       "supply": {
-         "totalPlots": 1577,
-         "totalPlotsC": 1439,
-         "totalSeeds": 1858,
-         "totalWaterTowers": 1629,
-         "totalWaterTowersC": 17371,
+         "totalPlots": 1633,
+         "totalPlotsC": 1383,
+         "totalSeeds": 1914,
+         "totalWaterTowers": 1685,
+         "totalWaterTowersC": 17315,
          "land": {
             "asia": 0,
             "asiaC": 40,
             "africa": 0,
             "africaC": 300,
-            "afghanistan": 227,
-            "afghanistanC": 273,
-            "southAmerica": 706,
-            "southAmericaC": 594,
+            "afghanistan": 203,
+            "afghanistanC": 297,
+            "southAmerica": 688,
+            "southAmericaC": 612,
             "jamaica": 0,
             "jamaicaC": 116,
-            "mexico": 497,
-            "mexicoC": 253
+            "mexico": 483,
+            "mexicoC": 267
          }
       },
-      "farmers": 329,
+      "farmers": 341,
       "farmerList": [
          "qwoyn",
          "abrockman",
@@ -488,7 +488,19 @@ module.exports = {
          "brad12",
          "fxish",
          "ctdub406",
-         "skylinebuds"
+         "skylinebuds",
+         "ankatu1",
+         "smokerings",
+         "bhaiyas",
+         "roshansuares",
+         "sushanthanchan",
+         "rohansuares",
+         "felsum",
+         "footballpedia",
+         "jackofcrows",
+         "innyc",
+         "derangedvisions",
+         "meyxxyz"
       ]
    },
    "bal": {
@@ -497,7 +509,16 @@ module.exports = {
       "b": 0,
       "p": 0
    },
-   "refund": [],
+   "refund": [
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmSVp5a8bUtfrMfzpN1Z5yscbfZvzfhir8hG9HPboXDqoi",
+            "block": 51978001
+         }
+      ]
+   ],
    "users": {
       "qwoyn": {
          "plots": {
@@ -518,46 +539,74 @@ module.exports = {
          "seedCount": 6,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 158,
-               "planted": false
+               "id": 1,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7407
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 180,
-               "planted": false
+               "id": 514,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 158
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2405,
-               "planted": false
+               "id": 1607,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 180
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 63,
-               "planted": false
+               "id": 3597,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2405
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 403,
-               "planted": false
+               "id": 3600,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 63
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 689,
-               "planted": false
+               "id": 3603,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 403
+               }
+            },
+            {
+               "id": 3606,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 689
+               }
             }
          ],
          "hkwater": 60,
@@ -595,9 +644,8 @@ module.exports = {
             "twaxJoint": 0
          },
          "mota": 0.0001,
-         "motaStake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "r0um3n1987": {
          "plots": {
@@ -618,53 +666,114 @@ module.exports = {
          "seedCount": 7,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2470,
-               "planted": false
+               "id": 394,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 130
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 119,
-               "planted": false
+               "id": 457,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7416
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 170,
-               "planted": false
+               "id": 469,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 718
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 285,
-               "planted": false
+               "id": 484,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 474
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 162,
-               "planted": false
+               "id": 2931,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2470
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 528,
-               "planted": false
+               "id": 2934,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 119
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 507,
-               "planted": false
+               "id": 2937,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 170
+               }
+            },
+            {
+               "id": 2940,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 285
+               }
+            },
+            {
+               "id": 2943,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 162
+               }
+            },
+            {
+               "id": 2946,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 528
+               }
+            },
+            {
+               "id": 2949,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 507
+               }
             }
          ],
          "hkwater": 0,
@@ -701,10 +810,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "boyobevan": {
          "plots": {
@@ -723,7 +830,158 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 97,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Aceh",
+                  "SPT": 1,
+                  "WATER": 235,
+                  "PR": 7636
+               }
+            },
+            {
+               "id": 100,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7574
+               }
+            },
+            {
+               "id": 103,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7232
+               }
+            },
+            {
+               "id": 106,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7078
+               }
+            },
+            {
+               "id": 109,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7212
+               }
+            },
+            {
+               "id": 112,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7274
+               }
+            },
+            {
+               "id": 115,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7141
+               }
+            },
+            {
+               "id": 118,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6262
+               }
+            },
+            {
+               "id": 121,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6354
+               }
+            },
+            {
+               "id": 124,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2355
+               }
+            },
+            {
+               "id": 127,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 715
+               }
+            },
+            {
+               "id": 130,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 830
+               }
+            },
+            {
+               "id": 133,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 475
+               }
+            },
+            {
+               "id": 136,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 175
+               }
+            },
+            {
+               "id": 139,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 201
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -758,10 +1016,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "academialibertad": {
          "plots": {
@@ -782,11 +1038,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 31,
-               "planted": false
+               "id": 622,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7622
+               }
+            },
+            {
+               "id": 625,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 271
+               }
             }
          ],
          "hkwater": 30,
@@ -823,10 +1092,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "abztraxxx": {
          "plots": {
@@ -845,7 +1112,38 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 40,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7207
+               }
+            },
+            {
+               "id": 43,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2374
+               }
+            },
+            {
+               "id": 46,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 282
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -880,10 +1178,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "audiomancer": {
          "plots": {
@@ -904,39 +1200,184 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6252,
-               "planted": false
+               "id": 55,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7024
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2245,
-               "planted": false
+               "id": 58,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7381
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 738,
-               "planted": false
+               "id": 61,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7189
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 356,
-               "planted": false
+               "id": 64,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6094
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 150,
-               "planted": false
+               "id": 67,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6348
+               }
+            },
+            {
+               "id": 70,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3705
+               }
+            },
+            {
+               "id": 73,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2400
+               }
+            },
+            {
+               "id": 76,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 758
+               }
+            },
+            {
+               "id": 79,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1624
+               }
+            },
+            {
+               "id": 82,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 502
+               }
+            },
+            {
+               "id": 85,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 596
+               }
+            },
+            {
+               "id": 88,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 85
+               }
+            },
+            {
+               "id": 91,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 212
+               }
+            },
+            {
+               "id": 1604,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6252
+               }
+            },
+            {
+               "id": 2601,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2245
+               }
+            },
+            {
+               "id": 2604,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 738
+               }
+            },
+            {
+               "id": 2607,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 356
+               }
+            },
+            {
+               "id": 2610,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 150
+               }
             }
          ],
          "hkwater": 30,
@@ -973,10 +1414,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "cryptounicorn420": {
          "plots": {
@@ -997,11 +1436,144 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5668,
-               "planted": false
+               "id": 412,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 206
+               }
+            },
+            {
+               "id": 415,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7110
+               }
+            },
+            {
+               "id": 418,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6392
+               }
+            },
+            {
+               "id": 421,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6002
+               }
+            },
+            {
+               "id": 424,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2199
+               }
+            },
+            {
+               "id": 427,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1988
+               }
+            },
+            {
+               "id": 430,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1054
+               }
+            },
+            {
+               "id": 433,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 497
+               }
+            },
+            {
+               "id": 436,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 415
+               }
+            },
+            {
+               "id": 439,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 443
+               }
+            },
+            {
+               "id": 442,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 535
+               }
+            },
+            {
+               "id": 445,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 489
+               }
+            },
+            {
+               "id": 959,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5668
+               }
+            },
+            {
+               "id": 3783,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 546
+               }
             }
          ],
          "hkwater": 30,
@@ -1038,10 +1610,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "dolp": {
          "plots": {
@@ -1062,179 +1632,824 @@ module.exports = {
          "seedCount": 25,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2334,
-               "planted": false
+               "id": 193,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7026
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2242,
-               "planted": false
+               "id": 196,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7270
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 614,
-               "planted": false
+               "id": 199,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7134
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1672,
-               "planted": false
+               "id": 202,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7534
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 700,
-               "planted": false
+               "id": 205,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Aceh",
+                  "SPT": 1,
+                  "WATER": 235,
+                  "PR": 7611
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 231,
-               "planted": false
+               "id": 208,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7088
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 69,
-               "planted": false
+               "id": 211,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5889
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5952,
-               "planted": false
+               "id": 214,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 428
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 517,
-               "planted": false
+               "id": 217,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 132
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6931,
-               "planted": false
+               "id": 220,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 306
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2779,
-               "planted": false
+               "id": 223,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 310
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2345,
-               "planted": false
+               "id": 226,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 188
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 69,
-               "planted": false
+               "id": 229,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 249
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 427,
-               "planted": false
+               "id": 646,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2217
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 515,
-               "planted": false
+               "id": 649,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3557
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2308,
-               "planted": false
+               "id": 652,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 807
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3676,
-               "planted": false
+               "id": 655,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 702
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3755,
-               "planted": false
+               "id": 658,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 720
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3775,
-               "planted": false
+               "id": 661,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 188
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2423,
-               "planted": false
+               "id": 664,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 254
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2487,
-               "planted": false
+               "id": 718,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2334
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2437,
-               "planted": false
+               "id": 721,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2242
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2329,
-               "planted": false
+               "id": 724,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 614
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2610,
-               "planted": false
+               "id": 727,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 700
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2399,
-               "planted": false
+               "id": 730,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1672
+               }
+            },
+            {
+               "id": 733,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 231
+               }
+            },
+            {
+               "id": 736,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 69
+               }
+            },
+            {
+               "id": 962,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5952
+               }
+            },
+            {
+               "id": 965,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 517
+               }
+            },
+            {
+               "id": 1634,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6931
+               }
+            },
+            {
+               "id": 1637,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2779
+               }
+            },
+            {
+               "id": 1640,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2345
+               }
+            },
+            {
+               "id": 1643,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 69
+               }
+            },
+            {
+               "id": 1649,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 427
+               }
+            },
+            {
+               "id": 1652,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 515
+               }
+            },
+            {
+               "id": 1751,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 572
+               }
+            },
+            {
+               "id": 1754,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 591
+               }
+            },
+            {
+               "id": 1995,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 82
+               }
+            },
+            {
+               "id": 1998,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 289
+               }
+            },
+            {
+               "id": 2001,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 42
+               }
+            },
+            {
+               "id": 2004,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 324
+               }
+            },
+            {
+               "id": 2007,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 340
+               }
+            },
+            {
+               "id": 2010,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 925
+               }
+            },
+            {
+               "id": 2013,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 763
+               }
+            },
+            {
+               "id": 2016,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1969
+               }
+            },
+            {
+               "id": 2019,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 835
+               }
+            },
+            {
+               "id": 2022,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 335
+               }
+            },
+            {
+               "id": 2025,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 285
+               }
+            },
+            {
+               "id": 2028,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 67
+               }
+            },
+            {
+               "id": 2031,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 173
+               }
+            },
+            {
+               "id": 2034,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 167
+               }
+            },
+            {
+               "id": 2037,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 498
+               }
+            },
+            {
+               "id": 2040,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 484
+               }
+            },
+            {
+               "id": 2043,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 486
+               }
+            },
+            {
+               "id": 2046,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 440
+               }
+            },
+            {
+               "id": 2049,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 415
+               }
+            },
+            {
+               "id": 2052,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 89
+               }
+            },
+            {
+               "id": 2055,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 234
+               }
+            },
+            {
+               "id": 2058,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 321
+               }
+            },
+            {
+               "id": 2079,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 276
+               }
+            },
+            {
+               "id": 2082,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 302
+               }
+            },
+            {
+               "id": 2085,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 204
+               }
+            },
+            {
+               "id": 2088,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 212
+               }
+            },
+            {
+               "id": 2091,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 31
+               }
+            },
+            {
+               "id": 2094,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 91
+               }
+            },
+            {
+               "id": 2097,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 55
+               }
+            },
+            {
+               "id": 2100,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 230
+               }
+            },
+            {
+               "id": 2103,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 72
+               }
+            },
+            {
+               "id": 2106,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 289
+               }
+            },
+            {
+               "id": 2109,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 98
+               }
+            },
+            {
+               "id": 2112,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 112
+               }
+            },
+            {
+               "id": 2115,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 194
+               }
+            },
+            {
+               "id": 3135,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2308
+               }
+            },
+            {
+               "id": 3138,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3676
+               }
+            },
+            {
+               "id": 3141,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3755
+               }
+            },
+            {
+               "id": 3144,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3775
+               }
+            },
+            {
+               "id": 3147,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2423
+               }
+            },
+            {
+               "id": 3150,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2487
+               }
+            },
+            {
+               "id": 3153,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2437
+               }
+            },
+            {
+               "id": 3156,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2329
+               }
+            },
+            {
+               "id": 3159,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2610
+               }
+            },
+            {
+               "id": 3162,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2399
+               }
             }
          ],
          "hkwater": 450,
@@ -1271,10 +2486,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "xplora4253": {
          "plots": {
@@ -1293,184 +2506,46 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
-         "hkwater": 0,
-         "waterPlants": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "xp": 0,
-         "lvl": 1,
-         "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "waxJoint": 0,
-            "twaxJoint": 0
-         },
-         "mota": 0,
-         "motastake": 0,
-         "dailyBudDeposit": 0,
-         "buds": 0
-      },
-      "ricarox": {
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 0,
-            "africaUsed": 0,
-            "afghanistan": 0,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 0,
-            "mexicoUsed": 0
-         },
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 0,
-         "waterPlants": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "xp": 0,
-         "lvl": 1,
-         "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "waxJoint": 0,
-            "twaxJoint": 0
-         },
-         "mota": 0,
-         "motastake": 0,
-         "dailyBudDeposit": 0,
-         "buds": 0
-      },
-      "edtorr704": {
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 0,
-            "africaUsed": 0,
-            "afghanistan": 0,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 0,
-            "mexicoUsed": 0
-         },
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 0,
-         "waterPlants": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "xp": 0,
-         "lvl": 1,
-         "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "waxJoint": 0,
-            "twaxJoint": 0
-         },
-         "mota": 0,
-         "motastake": 0,
-         "dailyBudDeposit": 0,
-         "buds": 0
-      },
-      "marcoss21": {
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 0,
-            "africaUsed": 0,
-            "afghanistan": 1,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 0,
-            "mexicoUsed": 0
-         },
-         "plotCount": 1,
-         "seedCount": 1,
          "seeds": [
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 911,
-               "planted": false
+               "id": 403,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 188
+               }
+            },
+            {
+               "id": 406,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 239
+               }
+            },
+            {
+               "id": 409,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 235
+               }
+            },
+            {
+               "id": 460,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7383
+               }
             }
          ],
          "hkwater": 0,
@@ -1507,10 +2582,286 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
+      },
+      "ricarox": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [
+            {
+               "id": 397,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 254
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "dailyBudDeposit": 0,
+      },
+      "edtorr704": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [
+            {
+               "id": 256,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7265
+               }
+            },
+            {
+               "id": 259,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1038
+               }
+            },
+            {
+               "id": 262,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 504
+               }
+            },
+            {
+               "id": 265,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 199
+               }
+            },
+            {
+               "id": 268,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 220
+               }
+            },
+            {
+               "id": 271,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 292
+               }
+            },
+            {
+               "id": 274,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7270
+               }
+            },
+            {
+               "id": 277,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 214
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "dailyBudDeposit": 0,
+      },
+      "marcoss21": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 376,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 32
+               }
+            },
+            {
+               "id": 4266,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 911
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "dailyBudDeposit": 0,
       },
       "foxon": {
          "plots": {
@@ -1531,116 +2882,234 @@ module.exports = {
          "seedCount": 16,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 52,
-               "planted": false
+               "id": 22,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7025
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 423,
-               "planted": false
+               "id": 25,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7296
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 794,
-               "planted": false
+               "id": 31,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7028
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 529,
-               "planted": false
+               "id": 34,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5856
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 845,
-               "planted": false
+               "id": 37,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3560
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 255,
-               "planted": false
+               "id": 550,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 52
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 258,
-               "planted": false
+               "id": 559,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 794
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 594,
-               "planted": false
+               "id": 562,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 529
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 663,
-               "planted": false
+               "id": 565,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 845
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3506,
-               "planted": false
+               "id": 568,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 255
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 275,
-               "planted": false
+               "id": 1551,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 589
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 491,
-               "planted": false
+               "id": 1553,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 524
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1735,
-               "planted": false
+               "id": 1556,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6141
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 43,
-               "planted": false
+               "id": 2565,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 258
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 428,
-               "planted": false
+               "id": 2568,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 594
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 692,
-               "planted": false
+               "id": 2571,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 663
+               }
+            },
+            {
+               "id": 2574,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3506
+               }
+            },
+            {
+               "id": 4029,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 275
+               }
+            },
+            {
+               "id": 4032,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 491
+               }
+            },
+            {
+               "id": 4035,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1735
+               }
+            },
+            {
+               "id": 4038,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 43
+               }
+            },
+            {
+               "id": 4041,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 428
+               }
+            },
+            {
+               "id": 4044,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 692
+               }
             }
          ],
          "hkwater": 180,
@@ -1677,10 +3146,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
          "water": 180
       },
       "meanbees": {
@@ -1702,39 +3169,134 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5952,
-               "planted": false
+               "id": 379,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 207
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2401,
-               "planted": false
+               "id": 382,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 197
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 362,
-               "planted": false
+               "id": 448,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7111
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 834,
-               "planted": false
+               "id": 466,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 645
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2334,
-               "planted": false
+               "id": 607,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 158
+               }
+            },
+            {
+               "id": 613,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 94
+               }
+            },
+            {
+               "id": 950,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5952
+               }
+            },
+            {
+               "id": 1598,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2401
+               }
+            },
+            {
+               "id": 1601,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 362
+               }
+            },
+            {
+               "id": 1658,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 834
+               }
+            },
+            {
+               "id": 1766,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3744
+               }
+            },
+            {
+               "id": 1862,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4612
+               }
+            },
+            {
+               "id": 2577,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2334
+               }
             }
          ],
          "hkwater": 120,
@@ -1771,10 +3333,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "degranoengrano": {
          "plots": {
@@ -1795,18 +3355,144 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6753,
-               "planted": false
+               "id": 178,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7141
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 561,
-               "planted": false
+               "id": 181,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 406
+               }
+            },
+            {
+               "id": 184,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 293
+               }
+            },
+            {
+               "id": 187,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 243
+               }
+            },
+            {
+               "id": 1616,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6753
+               }
+            },
+            {
+               "id": 2139,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 57
+               }
+            },
+            {
+               "id": 2142,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2267
+               }
+            },
+            {
+               "id": 2145,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 685
+               }
+            },
+            {
+               "id": 2148,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 193
+               }
+            },
+            {
+               "id": 2151,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 162
+               }
+            },
+            {
+               "id": 2154,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 61
+               }
+            },
+            {
+               "id": 2157,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 277
+               }
+            },
+            {
+               "id": 2160,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 115
+               }
+            },
+            {
+               "id": 2580,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 561
+               }
             }
          ],
          "hkwater": 30,
@@ -1843,10 +3529,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "ibanezense": {
          "plots": {
@@ -1865,7 +3549,38 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 328,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 624
+               }
+            },
+            {
+               "id": 331,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 77
+               }
+            },
+            {
+               "id": 334,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 112
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -1900,10 +3615,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "ejmh": {
          "plots": {
@@ -1924,32 +3637,84 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5867,
-               "planted": false
+               "id": 781,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Aceh",
+                  "SPT": 1,
+                  "WATER": 235,
+                  "PR": 7588
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 474,
-               "planted": false
+               "id": 783,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 161
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4732,
-               "planted": false
+               "id": 1610,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5867
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 155,
-               "planted": false
+               "id": 2979,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 474
+               }
+            },
+            {
+               "id": 3489,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4732
+               }
+            },
+            {
+               "id": 3972,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 155
+               }
+            },
+            {
+               "id": 4455,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2108
+               }
+            },
+            {
+               "id": 4458,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 97
+               }
             }
          ],
          "hkwater": 30,
@@ -1986,10 +3751,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
          "water": 30
       },
       "toxicmen01": {
@@ -2011,32 +3774,54 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1611,
-               "planted": false
+               "id": 463,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7654
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 63,
-               "planted": false
+               "id": 1986,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1611
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2825,
-               "planted": false
+               "id": 1989,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 63
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 462,
-               "planted": false
+               "id": 2394,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2825
+               }
+            },
+            {
+               "id": 2880,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 462
+               }
             }
          ],
          "hkwater": 0,
@@ -2073,10 +3858,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
          "water": 60
       },
       "cratic": {
@@ -2098,25 +3881,54 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 326,
-               "planted": false
+               "id": 157,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 241
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 196,
-               "planted": false
+               "id": 160,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7261
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 612,
-               "planted": false
+               "id": 983,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 326
+               }
+            },
+            {
+               "id": 1983,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 196
+               }
+            },
+            {
+               "id": 4230,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 612
+               }
             }
          ],
          "hkwater": 30,
@@ -2153,10 +3965,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
          "water": 30
       },
       "criptojones": {
@@ -2176,7 +3986,28 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 163,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 90
+               }
+            },
+            {
+               "id": 166,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 151
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -2211,10 +4042,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "bigkidstuff": {
          "plots": {
@@ -2235,11 +4064,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 554,
-               "planted": false
+               "id": 94,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 260
+               }
+            },
+            {
+               "id": 2817,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 554
+               }
             }
          ],
          "hkwater": 0,
@@ -2276,10 +4118,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "dominic23": {
          "plots": {
@@ -2298,7 +4138,48 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 232,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7724
+               }
+            },
+            {
+               "id": 235,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6960
+               }
+            },
+            {
+               "id": 238,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 206
+               }
+            },
+            {
+               "id": 241,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 87
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -2333,10 +4214,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "electru": {
          "plots": {
@@ -2357,32 +4236,64 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2521,
-               "planted": false
+               "id": 280,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7598
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3834,
-               "planted": false
+               "id": 283,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 158
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1611,
-               "planted": false
+               "id": 2421,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2521
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1695,
-               "planted": false
+               "id": 2424,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3834
+               }
+            },
+            {
+               "id": 2427,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1611
+               }
+            },
+            {
+               "id": 2430,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1695
+               }
             }
          ],
          "hkwater": 0,
@@ -2419,10 +4330,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "lozadakb": {
          "plots": {
@@ -2441,7 +4350,88 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 352,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7051
+               }
+            },
+            {
+               "id": 355,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5980
+               }
+            },
+            {
+               "id": 358,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2236
+               }
+            },
+            {
+               "id": 361,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 712
+               }
+            },
+            {
+               "id": 364,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 560
+               }
+            },
+            {
+               "id": 367,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 528
+               }
+            },
+            {
+               "id": 370,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 297
+               }
+            },
+            {
+               "id": 373,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 215
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -2476,10 +4466,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "hodltoday": {
          "plots": {
@@ -2500,11 +4488,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 49,
-               "planted": false
+               "id": 325,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2293
+               }
+            },
+            {
+               "id": 3588,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 49
+               }
             }
          ],
          "hkwater": 0,
@@ -2541,10 +4542,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "fdeflash": {
          "plots": {
@@ -2565,18 +4564,74 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6234,
-               "planted": false
+               "id": 313,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7015
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4674,
-               "planted": false
+               "id": 316,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 399
+               }
+            },
+            {
+               "id": 319,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 263
+               }
+            },
+            {
+               "id": 989,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6234
+               }
+            },
+            {
+               "id": 2136,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 746
+               }
+            },
+            {
+               "id": 2736,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4674
+               }
+            },
+            {
+               "id": 3786,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 200
+               }
             }
          ],
          "hkwater": 30,
@@ -2613,10 +4668,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "pedroozj": {
          "plots": {
@@ -2635,70 +4688,26 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
-         "hkwater": 0,
-         "waterPlants": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "xp": 0,
-         "lvl": 1,
-         "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "waxJoint": 0,
-            "twaxJoint": 0
-         },
-         "mota": 0,
-         "motastake": 0,
-         "dailyBudDeposit": 0,
-         "buds": 0
-      },
-      "facugaba": {
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 1,
-            "africaUsed": 0,
-            "afghanistan": 0,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 0,
-            "mexicoUsed": 0
-         },
-         "plotCount": 1,
-         "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2508,
-               "planted": false
+               "id": 391,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 220
+               }
+            },
+            {
+               "id": 478,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6415
+               }
             }
          ],
          "hkwater": 0,
@@ -2735,10 +4744,144 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
+      },
+      "facugaba": {
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 1,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 307,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 299
+               }
+            },
+            {
+               "id": 310,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7353
+               }
+            },
+            {
+               "id": 1907,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2670
+               }
+            },
+            {
+               "id": 1910,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 574
+               }
+            },
+            {
+               "id": 2070,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 746
+               }
+            },
+            {
+               "id": 3828,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2508
+               }
+            },
+            {
+               "id": 5034,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 222
+               }
+            },
+            {
+               "id": 5037,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 80
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "waxJoint": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "dailyBudDeposit": 0,
       },
       "luisveco88": {
          "plots": {
@@ -2757,7 +4900,18 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 346,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 200
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -2792,10 +4946,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "aries02": {
          "plots": {
@@ -2814,7 +4966,28 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 49,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 126
+               }
+            },
+            {
+               "id": 52,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 337
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -2849,10 +5022,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "medicenw1": {
          "plots": {
@@ -2871,7 +5042,18 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 385,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 247
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -2906,10 +5088,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "quefe": {
          "plots": {
@@ -2919,19 +5099,19 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 0,
             "mexicoUsed": 0
          },
-         "plotCount": 0,
-         "seedCount": 0,
+         "plotCount": 1,
+         "seedCount": 1,
          "seeds": [],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2963,10 +5143,9 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
+         "water": null
       },
       "mejiasclaudia": {
          "plots": {
@@ -2985,7 +5164,28 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 388,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 290
+               }
+            },
+            {
+               "id": 451,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7543
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -3020,10 +5220,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "cadawg": {
          "plots": {
@@ -3044,88 +5242,144 @@ module.exports = {
          "seedCount": 12,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 356,
-               "planted": false
+               "id": 28,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7194
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 1161,
-               "planted": false
+               "id": 142,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6350
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 578,
-               "planted": false
+               "id": 145,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2264
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 270,
-               "planted": false
+               "id": 148,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1679
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4881,
-               "planted": false
+               "id": 151,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 182
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 184,
-               "planted": false
+               "id": 535,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 578
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 462,
-               "planted": false
+               "id": 1691,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4881
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 796,
-               "planted": false
+               "id": 1694,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 184
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 294,
-               "planted": false
+               "id": 1697,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 462
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 214,
-               "planted": false
+               "id": 1700,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 796
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 696,
-               "planted": false
+               "id": 1703,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 294
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 324,
-               "planted": false
+               "id": 1706,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 214
+               }
+            },
+            {
+               "id": 4653,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 696
+               }
+            },
+            {
+               "id": 4656,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 324
+               }
             }
          ],
          "hkwater": 300,
@@ -3162,10 +5416,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "ecuaminte": {
          "plots": {
@@ -3184,7 +5436,68 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 244,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6420
+               }
+            },
+            {
+               "id": 247,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 767
+               }
+            },
+            {
+               "id": 250,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 295
+               }
+            },
+            {
+               "id": 253,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 266
+               }
+            },
+            {
+               "id": 553,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 270
+               }
+            },
+            {
+               "id": 574,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 353
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -3219,10 +5532,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "abrockman": {
          "plots": {
@@ -3243,11 +5554,1114 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2512,
-               "planted": false
+               "id": 4,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7544
+               }
+            },
+            {
+               "id": 7,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7084
+               }
+            },
+            {
+               "id": 10,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Aceh",
+                  "SPT": 1,
+                  "WATER": 235,
+                  "PR": 7822
+               }
+            },
+            {
+               "id": 13,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7194
+               }
+            },
+            {
+               "id": 16,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7286
+               }
+            },
+            {
+               "id": 19,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 289
+               }
+            },
+            {
+               "id": 1046,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 267
+               }
+            },
+            {
+               "id": 1194,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Aceh",
+                  "SPT": 1,
+                  "WATER": 235,
+                  "PR": 7817
+               }
+            },
+            {
+               "id": 1195,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7050
+               }
+            },
+            {
+               "id": 1196,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7512
+               }
+            },
+            {
+               "id": 1197,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7653
+               }
+            },
+            {
+               "id": 1198,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7083
+               }
+            },
+            {
+               "id": 1199,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7216
+               }
+            },
+            {
+               "id": 1200,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7270
+               }
+            },
+            {
+               "id": 1201,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7269
+               }
+            },
+            {
+               "id": 1202,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7105
+               }
+            },
+            {
+               "id": 1203,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Aceh",
+                  "SPT": 1,
+                  "WATER": 235,
+                  "PR": 7577
+               }
+            },
+            {
+               "id": 1204,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7126
+               }
+            },
+            {
+               "id": 1205,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7077
+               }
+            },
+            {
+               "id": 1206,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6257
+               }
+            },
+            {
+               "id": 1207,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5545
+               }
+            },
+            {
+               "id": 1208,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6975
+               }
+            },
+            {
+               "id": 1209,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5849
+               }
+            },
+            {
+               "id": 1210,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5620
+               }
+            },
+            {
+               "id": 1211,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6368
+               }
+            },
+            {
+               "id": 1212,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5536
+               }
+            },
+            {
+               "id": 1213,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6331
+               }
+            },
+            {
+               "id": 1214,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5972
+               }
+            },
+            {
+               "id": 1215,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6186
+               }
+            },
+            {
+               "id": 1216,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6103
+               }
+            },
+            {
+               "id": 1217,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5896
+               }
+            },
+            {
+               "id": 1218,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6116
+               }
+            },
+            {
+               "id": 1219,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5850
+               }
+            },
+            {
+               "id": 1220,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4786
+               }
+            },
+            {
+               "id": 1221,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2234
+               }
+            },
+            {
+               "id": 1222,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2179
+               }
+            },
+            {
+               "id": 1223,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2309
+               }
+            },
+            {
+               "id": 1224,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2425
+               }
+            },
+            {
+               "id": 1225,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2353
+               }
+            },
+            {
+               "id": 1226,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2359
+               }
+            },
+            {
+               "id": 1227,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2480
+               }
+            },
+            {
+               "id": 1228,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2260
+               }
+            },
+            {
+               "id": 1229,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2283
+               }
+            },
+            {
+               "id": 1230,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2193
+               }
+            },
+            {
+               "id": 1231,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2774
+               }
+            },
+            {
+               "id": 1232,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2259
+               }
+            },
+            {
+               "id": 1233,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2476
+               }
+            },
+            {
+               "id": 1234,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2383
+               }
+            },
+            {
+               "id": 1235,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2226
+               }
+            },
+            {
+               "id": 1236,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2302
+               }
+            },
+            {
+               "id": 1237,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3783
+               }
+            },
+            {
+               "id": 1238,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 844
+               }
+            },
+            {
+               "id": 1239,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1686
+               }
+            },
+            {
+               "id": 1240,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 652
+               }
+            },
+            {
+               "id": 1241,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 803
+               }
+            },
+            {
+               "id": 1242,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 632
+               }
+            },
+            {
+               "id": 1243,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 628
+               }
+            },
+            {
+               "id": 1244,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 605
+               }
+            },
+            {
+               "id": 1245,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 626
+               }
+            },
+            {
+               "id": 1246,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 847
+               }
+            },
+            {
+               "id": 1247,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 621
+               }
+            },
+            {
+               "id": 1248,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 621
+               }
+            },
+            {
+               "id": 1249,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 788
+               }
+            },
+            {
+               "id": 1250,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 771
+               }
+            },
+            {
+               "id": 1251,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 616
+               }
+            },
+            {
+               "id": 1252,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 647
+               }
+            },
+            {
+               "id": 1253,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 632
+               }
+            },
+            {
+               "id": 1254,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 705
+               }
+            },
+            {
+               "id": 1255,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 693
+               }
+            },
+            {
+               "id": 1256,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 780
+               }
+            },
+            {
+               "id": 1257,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 703
+               }
+            },
+            {
+               "id": 1258,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 674
+               }
+            },
+            {
+               "id": 1259,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1457
+               }
+            },
+            {
+               "id": 1260,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 739
+               }
+            },
+            {
+               "id": 1261,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 840
+               }
+            },
+            {
+               "id": 1262,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 758
+               }
+            },
+            {
+               "id": 1263,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2151
+               }
+            },
+            {
+               "id": 1264,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 475
+               }
+            },
+            {
+               "id": 1265,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 577
+               }
+            },
+            {
+               "id": 1266,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 579
+               }
+            },
+            {
+               "id": 1267,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 591
+               }
+            },
+            {
+               "id": 1268,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 554
+               }
+            },
+            {
+               "id": 1269,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 504
+               }
+            },
+            {
+               "id": 1270,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 440
+               }
+            },
+            {
+               "id": 1271,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 411
+               }
+            },
+            {
+               "id": 1272,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 590
+               }
+            },
+            {
+               "id": 1273,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 533
+               }
+            },
+            {
+               "id": 1274,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 372
+               }
+            },
+            {
+               "id": 1275,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 472
+               }
+            },
+            {
+               "id": 1276,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 527
+               }
+            },
+            {
+               "id": 1277,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 463
+               }
+            },
+            {
+               "id": 1278,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 596
+               }
+            },
+            {
+               "id": 1279,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 550
+               }
+            },
+            {
+               "id": 1280,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 390
+               }
+            },
+            {
+               "id": 1281,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 421
+               }
+            },
+            {
+               "id": 1282,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 64
+               }
+            },
+            {
+               "id": 1283,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 289
+               }
+            },
+            {
+               "id": 1284,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 226
+               }
+            },
+            {
+               "id": 1285,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 238
+               }
+            },
+            {
+               "id": 1286,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 95
+               }
+            },
+            {
+               "id": 1287,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 109
+               }
+            },
+            {
+               "id": 1288,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 321
+               }
+            },
+            {
+               "id": 1289,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 237
+               }
+            },
+            {
+               "id": 1290,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 77
+               }
+            },
+            {
+               "id": 1291,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 207
+               }
+            },
+            {
+               "id": 1292,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 110
+               }
+            },
+            {
+               "id": 1293,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 87
+               }
+            },
+            {
+               "id": 1294,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 329
+               }
+            },
+            {
+               "id": 1295,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 197
+               }
+            },
+            {
+               "id": 1296,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 130
+               }
+            },
+            {
+               "id": 3840,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2512
+               }
             }
          ],
          "hkwater": 0,
@@ -3284,10 +6698,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "supremdsm": {
          "plots": {
@@ -3306,7 +6718,18 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 487,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 432
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -3341,10 +6764,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "darthslaver": {
          "plots": {
@@ -3363,7 +6784,18 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 175,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 538
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -3398,10 +6830,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "juanchuzx": {
          "plots": {
@@ -3422,11 +6852,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 831,
-               "planted": false
+               "id": 337,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1667
+               }
+            },
+            {
+               "id": 340,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 219
+               }
             }
          ],
          "hkwater": 30,
@@ -3463,10 +6906,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "dobro2020": {
          "plots": {
@@ -3485,7 +6926,18 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 190,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 317
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -3520,10 +6972,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "dantejcs": {
          "plots": {
@@ -3544,32 +6994,34 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 589,
-               "planted": false
+               "id": 169,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5729
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 193,
-               "planted": false
+               "id": 172,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 216
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 760,
-               "planted": false
-            },
-            {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 434,
-               "planted": false
+               "id": 547,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 589
+               }
             }
          ],
          "hkwater": 30,
@@ -3606,10 +7058,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "the-mister7": {
          "plots": {
@@ -3630,11 +7080,64 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 202,
-               "planted": false
+               "id": 400,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 67
+               }
+            },
+            {
+               "id": 472,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 945
+               }
+            },
+            {
+               "id": 490,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 371
+               }
+            },
+            {
+               "id": 496,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 324
+               }
+            },
+            {
+               "id": 2259,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2327
+               }
+            },
+            {
+               "id": 2658,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 202
+               }
             }
          ],
          "hkwater": 0,
@@ -3671,10 +7174,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "reward.app": {
          "plots": {
@@ -3728,10 +7229,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "oblivioncubed": {
          "plots": {
@@ -3750,7 +7249,18 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 475,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5677
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -3785,10 +7295,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "yoclensavilan": {
          "plots": {
@@ -3809,11 +7317,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 283,
-               "planted": false
+               "id": 992,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 283
+               }
+            },
+            {
+               "id": 2163,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2865
+               }
             }
          ],
          "hkwater": 30,
@@ -3850,10 +7371,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "elprutest": {
          "plots": {
@@ -3874,88 +7393,134 @@ module.exports = {
          "seedCount": 12,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 281,
-               "planted": false
+               "id": 286,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6223
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 217,
-               "planted": false
+               "id": 289,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2368
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 739,
-               "planted": false
+               "id": 292,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 712
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 1413,
-               "planted": false
+               "id": 295,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 503
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 3615,
-               "planted": false
+               "id": 298,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 268
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 238,
-               "planted": false
+               "id": 301,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 39
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6176,
-               "planted": false
+               "id": 304,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 342
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5515,
-               "planted": false
+               "id": 1619,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6176
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6310,
-               "planted": false
+               "id": 1622,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5515
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 391,
-               "planted": false
+               "id": 1625,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6310
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 369,
-               "planted": false
+               "id": 4890,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 391
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 580,
-               "planted": false
+               "id": 4893,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 369
+               }
+            },
+            {
+               "id": 4896,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 580
+               }
             }
          ],
          "hkwater": 270,
@@ -3992,10 +7557,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "khan.dayyanz": {
          "plots": {
@@ -4016,11 +7579,44 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 216,
-               "planted": false
+               "id": 343,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 75
+               }
+            },
+            {
+               "id": 2127,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 605
+               }
+            },
+            {
+               "id": 2130,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 522
+               }
+            },
+            {
+               "id": 2169,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2500
+               }
             }
          ],
          "hkwater": 30,
@@ -4057,10 +7653,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "xbladex": {
          "plots": {
@@ -4081,46 +7675,104 @@ module.exports = {
          "seedCount": 6,
          "seeds": [
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 9097,
-               "planted": false
+               "id": 481,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6029
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5935,
-               "planted": false
+               "id": 941,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5935
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4849,
-               "planted": false
+               "id": 1646,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4849
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2350,
-               "planted": false
+               "id": 1805,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 738
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 646,
-               "planted": false
+               "id": 1992,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 488
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 258,
-               "planted": false
+               "id": 2076,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 547
+               }
+            },
+            {
+               "id": 2124,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 237
+               }
+            },
+            {
+               "id": 3789,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2350
+               }
+            },
+            {
+               "id": 4740,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 646
+               }
+            },
+            {
+               "id": 4743,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 258
+               }
             }
          ],
          "hkwater": 90,
@@ -4157,10 +7809,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
          "water": 60
       },
       "cireth": {
@@ -4182,11 +7832,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 52,
-               "planted": false
+               "id": 154,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 277
+               }
             }
          ],
          "hkwater": 30,
@@ -4223,10 +7876,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "infernalcoliseum": {
          "plots": {
@@ -4247,11 +7898,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 121,
-               "planted": false
+               "id": 517,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 121
+               }
             }
          ],
          "hkwater": 30,
@@ -4288,10 +7942,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "anarcist69": {
          "plots": {
@@ -4312,39 +7964,184 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4761,
-               "planted": false
+               "id": 520,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4761
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6469,
-               "planted": false
+               "id": 523,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6469
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 843,
-               "planted": false
+               "id": 526,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 843
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 491,
-               "planted": false
+               "id": 529,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 491
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 252,
-               "planted": false
+               "id": 532,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 252
+               }
+            },
+            {
+               "id": 1049,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 102
+               }
+            },
+            {
+               "id": 1332,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2389
+               }
+            },
+            {
+               "id": 1333,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3846
+               }
+            },
+            {
+               "id": 1335,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2402
+               }
+            },
+            {
+               "id": 1337,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3780
+               }
+            },
+            {
+               "id": 1340,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2294
+               }
+            },
+            {
+               "id": 1342,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2188
+               }
+            },
+            {
+               "id": 1344,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3607
+               }
+            },
+            {
+               "id": 1346,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2280
+               }
+            },
+            {
+               "id": 1347,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6376
+               }
+            },
+            {
+               "id": 1350,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 667
+               }
+            },
+            {
+               "id": 1352,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 381
+               }
+            },
+            {
+               "id": 1354,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 297
+               }
             }
          ],
          "hkwater": 150,
@@ -4381,10 +8178,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "jmsansan.leo": {
          "plots": {
@@ -4405,11 +8200,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5687,
-               "planted": false
+               "id": 538,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5687
+               }
             }
          ],
          "hkwater": 30,
@@ -4446,10 +8244,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "jinmori": {
          "plots": {
@@ -4470,18 +8266,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2292,
-               "planted": false
+               "id": 541,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2292
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6538,
-               "planted": false
+               "id": 544,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6538
+               }
             }
          ],
          "hkwater": 60,
@@ -4518,10 +8320,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "nemesis29ff": {
          "plots": {
@@ -4542,18 +8342,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 732,
-               "planted": false
+               "id": 571,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 732
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 61,
-               "planted": false
+               "id": 577,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 61
+               }
             }
          ],
          "hkwater": 60,
@@ -4590,10 +8396,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "mafia.wallet": {
          "plots": {
@@ -4669,10 +8473,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "cesarg": {
          "plots": {
@@ -4693,11 +8495,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6817,
-               "planted": false
+               "id": 580,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6817
+               }
             }
          ],
          "hkwater": 30,
@@ -4734,10 +8539,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "davedickeyyall": {
          "plots": {
@@ -4758,11 +8561,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 72,
-               "planted": false
+               "id": 583,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 72
+               }
             }
          ],
          "hkwater": 30,
@@ -4799,10 +8605,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "gooba": {
          "plots": {
@@ -4823,18 +8627,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 191,
-               "planted": false
+               "id": 586,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 191
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 679,
-               "planted": false
+               "id": 4248,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 679
+               }
             }
          ],
          "hkwater": 30,
@@ -4871,10 +8681,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "hexflex": {
          "plots": {
@@ -4895,74 +8703,144 @@ module.exports = {
          "seedCount": 10,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 227,
-               "planted": false
+               "id": 592,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 227
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 212,
-               "planted": false
+               "id": 598,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 317
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 317,
-               "planted": false
+               "id": 601,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 67
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 67,
-               "planted": false
+               "id": 619,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 35
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 79,
-               "planted": false
+               "id": 1661,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 148
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 158,
-               "planted": false
+               "id": 1664,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 130
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 284,
-               "planted": false
+               "id": 1667,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 248
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 94,
-               "planted": false
+               "id": 1670,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 77
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 177,
-               "planted": false
+               "id": 1673,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 321
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 35,
-               "planted": false
+               "id": 1676,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 106
+               }
+            },
+            {
+               "id": 1679,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 256
+               }
+            },
+            {
+               "id": 1682,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 251
+               }
+            },
+            {
+               "id": 1685,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 80
+               }
+            },
+            {
+               "id": 1688,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 224
+               }
             }
          ],
          "hkwater": 300,
@@ -4999,10 +8877,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "proto26": {
          "plots": {
@@ -5023,11 +8899,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 204,
-               "planted": false
+               "id": 628,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 204
+               }
             }
          ],
          "hkwater": 30,
@@ -5064,10 +8943,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "nataxsnakex1": {
          "plots": {
@@ -5088,18 +8965,74 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 202,
-               "planted": false
+               "id": 499,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 247
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 226,
-               "planted": false
+               "id": 502,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3684
+               }
+            },
+            {
+               "id": 505,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2597
+               }
+            },
+            {
+               "id": 634,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 68
+               }
+            },
+            {
+               "id": 637,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 88
+               }
+            },
+            {
+               "id": 706,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 202
+               }
+            },
+            {
+               "id": 709,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 226
+               }
             }
          ],
          "hkwater": 60,
@@ -5136,10 +9069,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "skippyza": {
          "plots": {
@@ -5160,11 +9091,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 189,
-               "planted": false
+               "id": 640,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 114
+               }
+            },
+            {
+               "id": 712,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 189
+               }
             }
          ],
          "hkwater": 30,
@@ -5201,10 +9145,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "udabeu": {
          "plots": {
@@ -5225,18 +9167,44 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 419,
-               "planted": false
+               "id": 643,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 463
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1714,
-               "planted": false
+               "id": 715,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 419
+               }
+            },
+            {
+               "id": 4398,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1714
+               }
+            },
+            {
+               "id": 4434,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 214
+               }
             }
          ],
          "hkwater": 30,
@@ -5273,10 +9241,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "luisdavid17": {
          "plots": {
@@ -5297,11 +9263,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 246,
-               "planted": false
+               "id": 667,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 193
+               }
+            },
+            {
+               "id": 739,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 246
+               }
             }
          ],
          "hkwater": 30,
@@ -5338,10 +9317,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "mermaidvampire": {
          "plots": {
@@ -5362,32 +9339,144 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2519,
-               "planted": false
+               "id": 595,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 212
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 841,
-               "planted": false
+               "id": 604,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 79
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 287,
-               "planted": false
+               "id": 610,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 284
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 374,
-               "planted": false
+               "id": 616,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 177
+               }
+            },
+            {
+               "id": 670,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5795
+               }
+            },
+            {
+               "id": 673,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6050
+               }
+            },
+            {
+               "id": 676,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2381
+               }
+            },
+            {
+               "id": 679,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 826
+               }
+            },
+            {
+               "id": 682,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 393
+               }
+            },
+            {
+               "id": 685,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 193
+               }
+            },
+            {
+               "id": 742,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2519
+               }
+            },
+            {
+               "id": 745,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 841
+               }
+            },
+            {
+               "id": 748,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 374
+               }
+            },
+            {
+               "id": 751,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 287
+               }
             }
          ],
          "hkwater": 120,
@@ -5424,10 +9513,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "bwar": {
          "plots": {
@@ -5446,7 +9533,18 @@ module.exports = {
          },
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 688,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6277
+               }
+            }
+         ],
          "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -5481,10 +9579,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "yova22": {
          "plots": {
@@ -5505,88 +9601,154 @@ module.exports = {
          "seedCount": 12,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 733,
-               "planted": false
+               "id": 691,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5697
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 66,
-               "planted": false
+               "id": 694,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 681
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2379,
-               "planted": false
+               "id": 697,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 59
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2492,
-               "planted": false
+               "id": 757,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 733
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 486,
-               "planted": false
+               "id": 760,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 66
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 535,
-               "planted": false
+               "id": 2628,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2379
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 444,
-               "planted": false
+               "id": 2631,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2492
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 464,
-               "planted": false
+               "id": 2634,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 486
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 457,
-               "planted": false
+               "id": 2637,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 535
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 170,
-               "planted": false
+               "id": 2640,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 444
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 245,
-               "planted": false
+               "id": 2643,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 464
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 79,
-               "planted": false
+               "id": 2646,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 457
+               }
+            },
+            {
+               "id": 2649,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 170
+               }
+            },
+            {
+               "id": 2652,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 245
+               }
+            },
+            {
+               "id": 2655,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 79
+               }
             }
          ],
          "hkwater": 60,
@@ -5623,10 +9785,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "seravilop": {
          "plots": {
@@ -5647,18 +9807,44 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2521,
-               "planted": false
+               "id": 700,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2461
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 72,
-               "planted": false
+               "id": 703,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 282
+               }
+            },
+            {
+               "id": 763,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2521
+               }
+            },
+            {
+               "id": 766,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 72
+               }
             }
          ],
          "hkwater": 60,
@@ -5695,10 +9881,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "krakolito": {
          "plots": {
@@ -5719,32 +9903,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 84,
-               "planted": false
+               "id": 772,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 84
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 136,
-               "planted": false
+               "id": 775,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 136
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5912,
-               "planted": false
+               "id": 974,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5912
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 747,
-               "planted": false
+               "id": 3963,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 747
+               }
             }
          ],
          "hkwater": 90,
@@ -5781,10 +9977,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "mooncrab88": {
          "plots": {
@@ -5805,11 +9999,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 103,
-               "planted": false
+               "id": 778,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 103
+               }
             }
          ],
          "hkwater": 30,
@@ -5846,10 +10043,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "silverxdpro": {
          "plots": {
@@ -5870,25 +10065,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5502,
-               "planted": false
+               "id": 785,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5502
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 270,
-               "planted": false
+               "id": 1898,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 270
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 37,
-               "planted": false
+               "id": 1901,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 37
+               }
             }
          ],
          "hkwater": 90,
@@ -5925,10 +10129,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "gamsam": {
          "plots": {
@@ -5949,32 +10151,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 164,
-               "planted": false
+               "id": 788,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 164
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 115,
-               "planted": false
+               "id": 2223,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 115
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2343,
-               "planted": false
+               "id": 3729,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2343
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2393,
-               "planted": false
+               "id": 3822,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2393
+               }
             }
          ],
          "hkwater": 30,
@@ -6011,10 +10225,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
          "water": 60
       },
       "shmoogleosukami": {
@@ -6036,11 +10248,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5587,
-               "planted": false
+               "id": 791,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5587
+               }
             }
          ],
          "hkwater": 30,
@@ -6077,10 +10292,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "wagginston": {
          "plots": {
@@ -6101,319 +10314,454 @@ module.exports = {
          "seedCount": 45,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6455,
-               "planted": false
+               "id": 794,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6455
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5893,
-               "planted": false
+               "id": 797,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5893
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6134,
-               "planted": false
+               "id": 800,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6134
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6203,
-               "planted": false
+               "id": 803,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6203
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6452,
-               "planted": false
+               "id": 806,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6452
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6121,
-               "planted": false
+               "id": 809,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6121
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5993,
-               "planted": false
+               "id": 812,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5993
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5984,
-               "planted": false
+               "id": 815,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5984
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6450,
-               "planted": false
+               "id": 818,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6450
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5912,
-               "planted": false
+               "id": 821,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5912
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6101,
-               "planted": false
+               "id": 824,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6101
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6622,
-               "planted": false
+               "id": 827,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6622
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6143,
-               "planted": false
+               "id": 830,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6143
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5910,
-               "planted": false
+               "id": 833,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5910
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5711,
-               "planted": false
+               "id": 836,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5711
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6861,
-               "planted": false
+               "id": 839,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6861
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5922,
-               "planted": false
+               "id": 842,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5922
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6336,
-               "planted": false
+               "id": 845,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6336
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6240,
-               "planted": false
+               "id": 848,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6240
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6185,
-               "planted": false
+               "id": 851,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6185
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6304,
-               "planted": false
+               "id": 854,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6304
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6865,
-               "planted": false
+               "id": 857,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6865
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6423,
-               "planted": false
+               "id": 860,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6423
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5782,
-               "planted": false
+               "id": 863,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5782
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6383,
-               "planted": false
+               "id": 866,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6383
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5884,
-               "planted": false
+               "id": 869,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5884
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6666,
-               "planted": false
+               "id": 872,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6666
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6320,
-               "planted": false
+               "id": 875,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6320
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6431,
-               "planted": false
+               "id": 878,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6431
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6412,
-               "planted": false
+               "id": 881,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6412
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6495,
-               "planted": false
+               "id": 884,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6495
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6171,
-               "planted": false
+               "id": 887,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6171
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6316,
-               "planted": false
+               "id": 890,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6316
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6097,
-               "planted": false
+               "id": 893,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6097
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6190,
-               "planted": false
+               "id": 896,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6190
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6676,
-               "planted": false
+               "id": 899,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6676
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5764,
-               "planted": false
+               "id": 902,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5764
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6633,
-               "planted": false
+               "id": 905,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6633
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5933,
-               "planted": false
+               "id": 908,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5933
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6221,
-               "planted": false
+               "id": 911,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6221
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6326,
-               "planted": false
+               "id": 914,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6326
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6775,
-               "planted": false
+               "id": 917,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6775
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6724,
-               "planted": false
+               "id": 920,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6724
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6490,
-               "planted": false
+               "id": 923,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6490
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5841,
-               "planted": false
+               "id": 926,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5841
+               }
             }
          ],
          "hkwater": 1350,
@@ -6450,10 +10798,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "nupulse": {
          "plots": {
@@ -6474,18 +10820,34 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 535,
-               "planted": false
+               "id": 754,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 111
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1755,
-               "planted": false
+               "id": 929,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 535
+               }
+            },
+            {
+               "id": 932,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1755
+               }
             }
          ],
          "hkwater": 60,
@@ -6522,10 +10884,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "bhoa": {
          "plots": {
@@ -6546,18 +10906,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 297,
-               "planted": false
+               "id": 935,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 297
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 79,
-               "planted": false
+               "id": 1712,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 79
+               }
             }
          ],
          "hkwater": 60,
@@ -6594,10 +10960,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "bitandi": {
          "plots": {
@@ -6618,11 +10982,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 73,
-               "planted": false
+               "id": 938,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 73
+               }
             }
          ],
          "hkwater": 30,
@@ -6659,10 +11026,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "steinreich": {
          "plots": {
@@ -6683,11 +11048,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 293,
-               "planted": false
+               "id": 944,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 293
+               }
             }
          ],
          "hkwater": 30,
@@ -6724,10 +11092,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "bassman077": {
          "plots": {
@@ -6748,25 +11114,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 254,
-               "planted": false
+               "id": 947,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 254
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 76,
-               "planted": false
+               "id": 3834,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 76
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 37,
-               "planted": false
+               "id": 4905,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 37
+               }
             }
          ],
          "hkwater": 30,
@@ -6803,10 +11178,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
          "water": 30
       },
       "condeas": {
@@ -6828,32 +11201,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 77,
-               "planted": false
+               "id": 953,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 77
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 162,
-               "planted": false
+               "id": 4701,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 162
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 582,
-               "planted": false
+               "id": 4704,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 582
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 847,
-               "planted": false
+               "id": 4707,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 847
+               }
             }
          ],
          "hkwater": 30,
@@ -6890,10 +11275,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "joebabana": {
          "plots": {
@@ -6914,18 +11297,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 137,
-               "planted": false
+               "id": 956,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 137
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2388,
-               "planted": false
+               "id": 2364,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2388
+               }
             }
          ],
          "hkwater": 30,
@@ -6962,10 +11351,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "virusfx": {
          "plots": {
@@ -6986,81 +11373,114 @@ module.exports = {
          "seedCount": 11,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 275,
-               "planted": false
+               "id": 968,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 275
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2187,
-               "planted": false
+               "id": 3792,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2187
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2515,
-               "planted": false
+               "id": 3795,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2515
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2264,
-               "planted": false
+               "id": 3798,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2264
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2315,
-               "planted": false
+               "id": 3801,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2315
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2298,
-               "planted": false
+               "id": 3804,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2298
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2228,
-               "planted": false
+               "id": 3807,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2228
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3738,
-               "planted": false
+               "id": 3810,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3738
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2313,
-               "planted": false
+               "id": 3813,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2313
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2453,
-               "planted": false
+               "id": 3816,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2453
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2504,
-               "planted": false
+               "id": 3819,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2504
+               }
             }
          ],
          "hkwater": 30,
@@ -7097,10 +11517,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "aubryd": {
          "plots": {
@@ -7121,11 +11539,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 845,
-               "planted": false
+               "id": 971,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 845
+               }
             }
          ],
          "hkwater": 30,
@@ -7162,10 +11583,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "treefiddybruh": {
          "plots": {
@@ -7186,32 +11605,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6341,
-               "planted": false
+               "id": 977,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6341
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 620,
-               "planted": false
+               "id": 980,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 620
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 317,
-               "planted": false
+               "id": 3108,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 317
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 549,
-               "planted": false
+               "id": 4227,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 549
+               }
             }
          ],
          "hkwater": 60,
@@ -7248,10 +11679,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
          "water": 30
       },
       "definitelyn0tme": {
@@ -7260,99 +11689,272 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 3,
             "africaUsed": 0,
-            "afghanistan": 2,
+            "afghanistan": 5,
             "afghanistanUsed": 0,
-            "southAmerica": 2,
+            "southAmerica": 5,
             "southAmericaUsed": 0,
             "jamaica": 2,
             "jamaicaUsed": 0,
-            "mexico": 2,
+            "mexico": 5,
             "mexicoUsed": 0
          },
-         "plotCount": 11,
-         "seedCount": 11,
+         "plotCount": 20,
+         "seedCount": 20,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5570,
-               "planted": false
+               "id": 986,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5570
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5981,
-               "planted": false
+               "id": 1595,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5981
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2285,
-               "planted": false
+               "id": 1709,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2285
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2501,
-               "planted": false
+               "id": 1730,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2501
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2277,
-               "planted": false
+               "id": 1733,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2277
+               }
             },
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 1847,
-               "planted": false
+               "id": 1736,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1847
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 354,
-               "planted": false
+               "id": 1739,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 354
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 324,
-               "planted": false
+               "id": 1742,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 324
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1538,
-               "planted": false
+               "id": 1775,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2435
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 526,
-               "planted": false
+               "id": 1778,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3579
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 86,
-               "planted": false
+               "id": 1781,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 746
+               }
+            },
+            {
+               "id": 1817,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2307
+               }
+            },
+            {
+               "id": 1820,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4697
+               }
+            },
+            {
+               "id": 4674,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1538
+               }
+            },
+            {
+               "id": 4677,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 526
+               }
+            },
+            {
+               "id": 4680,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 86
+               }
+            },
+            {
+               "id": 5166,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 848
+               }
+            },
+            {
+               "id": 5169,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 632
+               }
+            },
+            {
+               "id": 5172,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 678
+               }
+            },
+            {
+               "id": 5175,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 564
+               }
+            },
+            {
+               "id": 5178,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 506
+               }
+            },
+            {
+               "id": 5181,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 559
+               }
+            },
+            {
+               "id": 5184,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 251
+               }
+            },
+            {
+               "id": 5187,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 225
+               }
+            },
+            {
+               "id": 5190,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 142
+               }
             }
          ],
          "hkwater": 240,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7384,10 +11986,9 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
+         "water": null
       },
       "elricmoonslayer": {
          "plots": {
@@ -7408,11 +12009,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 96,
-               "planted": false
+               "id": 995,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 96
+               }
             }
          ],
          "hkwater": 30,
@@ -7449,10 +12053,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "quantumnachos": {
          "plots": {
@@ -7473,116 +12075,154 @@ module.exports = {
          "seedCount": 16,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 71,
-               "planted": false
+               "id": 998,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 71
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 37,
-               "planted": false
+               "id": 1001,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 37
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 252,
-               "planted": false
+               "id": 1004,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 252
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6003,
-               "planted": false
+               "id": 1007,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6003
+               }
             },
             {
-               "name": "Lamb’s Bread",
-               "spt": 2,
-               "water": 215,
-               "pr": 6641,
-               "planted": false
+               "id": 1010,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6641
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2254,
-               "planted": false
+               "id": 1013,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2254
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 1012,
-               "planted": false
+               "id": 1016,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1012
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 357,
-               "planted": false
+               "id": 1019,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 357
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6365,
-               "planted": false
+               "id": 1022,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6365
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 227,
-               "planted": false
+               "id": 1025,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 227
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 147,
-               "planted": false
+               "id": 1028,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 147
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 399,
-               "planted": false
+               "id": 1031,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 399
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6138,
-               "planted": false
+               "id": 1613,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6138
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5998,
-               "planted": false
+               "id": 1628,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5998
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6050,
-               "planted": false
-            },
-            {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 262,
-               "planted": false
+               "id": 1631,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6050
+               }
             }
          ],
          "hkwater": 450,
@@ -7619,10 +12259,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "reeeheee": {
          "plots": {
@@ -7643,25 +12281,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5980,
-               "planted": false
+               "id": 1559,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5980
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5785,
-               "planted": false
+               "id": 1562,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5785
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 679,
-               "planted": false
+               "id": 1565,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 679
+               }
             }
          ],
          "hkwater": 90,
@@ -7698,10 +12345,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "sinerjji": {
          "plots": {
@@ -7722,18 +12367,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5679,
-               "planted": false
+               "id": 1568,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5679
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5586,
-               "planted": false
+               "id": 1580,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5586
+               }
             }
          ],
          "hkwater": 60,
@@ -7770,10 +12421,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "malonn": {
          "plots": {
@@ -7794,11 +12443,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5652,
-               "planted": false
+               "id": 1571,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5652
+               }
             }
          ],
          "hkwater": 30,
@@ -7835,10 +12487,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "swashcoldsteel": {
          "plots": {
@@ -7859,18 +12509,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5990,
-               "planted": false
+               "id": 1574,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5990
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5651,
-               "planted": false
+               "id": 1586,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5651
+               }
             }
          ],
          "hkwater": 60,
@@ -7907,10 +12563,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "uganzadranje": {
          "plots": {
@@ -7931,32 +12585,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 6171,
-               "planted": false
+               "id": 1577,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6171
+               }
             },
             {
-               "name": "King’s Bread",
-               "spt": 3,
-               "water": 205,
-               "pr": 5586,
-               "planted": false
+               "id": 1583,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5586
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2428,
-               "planted": false
+               "id": 1589,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2428
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 835,
-               "planted": false
+               "id": 1592,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 835
+               }
             }
          ],
          "hkwater": 120,
@@ -7993,10 +12659,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "honey-swap": {
          "plots": {
@@ -8050,10 +12714,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "nathanpieters": {
          "plots": {
@@ -8074,11 +12736,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 299,
-               "planted": false
+               "id": 1655,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 299
+               }
             }
          ],
          "hkwater": 30,
@@ -8115,10 +12780,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "willsaldeno": {
          "plots": {
@@ -8139,11 +12802,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 324,
-               "planted": false
+               "id": 1715,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 324
+               }
+            },
+            {
+               "id": 1769,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2428
+               }
             }
          ],
          "hkwater": 30,
@@ -8180,10 +12856,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "hosherama": {
          "plots": {
@@ -8204,74 +12878,104 @@ module.exports = {
          "seedCount": 10,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2499,
-               "planted": false
+               "id": 1718,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2499
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2330,
-               "planted": false
+               "id": 1721,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2330
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 646,
-               "planted": false
+               "id": 1724,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 646
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 624,
-               "planted": false
+               "id": 1727,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 624
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 427,
-               "planted": false
+               "id": 1745,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 427
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 314,
-               "planted": false
+               "id": 1748,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 314
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3541,
-               "planted": false
+               "id": 1856,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3541
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2221,
-               "planted": false
+               "id": 2175,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2221
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2177,
-               "planted": false
+               "id": 2178,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2177
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 803,
-               "planted": false
+               "id": 2181,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 803
+               }
             }
          ],
          "hkwater": 210,
@@ -8308,10 +13012,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "turb0nen": {
          "plots": {
@@ -8332,39 +13034,94 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 1087,
-               "planted": false
+               "id": 1796,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2195
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 479,
-               "planted": false
+               "id": 1799,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2758
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 537,
-               "planted": false
+               "id": 1802,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 748
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2406,
-               "planted": false
+               "id": 1829,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1087
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2220,
-               "planted": false
+               "id": 1832,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 479
+               }
+            },
+            {
+               "id": 1835,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 537
+               }
+            },
+            {
+               "id": 1838,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2406
+               }
+            },
+            {
+               "id": 1841,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2220
+               }
+            },
+            {
+               "id": 1904,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 416
+               }
             }
          ],
          "hkwater": 150,
@@ -8401,10 +13158,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "psycodelic": {
          "plots": {
@@ -8425,74 +13180,174 @@ module.exports = {
          "seedCount": 10,
          "seeds": [
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3842,
-               "planted": false
+               "id": 1763,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4731
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3886,
-               "planted": false
+               "id": 1784,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3722
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 781,
-               "planted": false
+               "id": 1787,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2194
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 520,
-               "planted": false
+               "id": 1790,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 119
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2427,
-               "planted": false
+               "id": 1793,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 81
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2349,
-               "planted": false
+               "id": 1823,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 265
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2471,
-               "planted": false
+               "id": 1826,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 140
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2381,
-               "planted": false
+               "id": 1844,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3842
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2314,
-               "planted": false
+               "id": 1847,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3886
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2231,
-               "planted": false
+               "id": 1850,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 781
+               }
+            },
+            {
+               "id": 1853,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 520
+               }
+            },
+            {
+               "id": 1913,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2427
+               }
+            },
+            {
+               "id": 1916,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2349
+               }
+            },
+            {
+               "id": 1919,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2471
+               }
+            },
+            {
+               "id": 1922,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2381
+               }
+            },
+            {
+               "id": 1925,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2314
+               }
+            },
+            {
+               "id": 1928,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2231
+               }
             }
          ],
          "hkwater": 120,
@@ -8529,10 +13384,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "badpupper": {
          "plots": {
@@ -8546,149 +13399,226 @@ module.exports = {
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
-            "mexico": 5,
+            "mexico": 6,
             "mexicoUsed": 0
          },
-         "plotCount": 19,
-         "seedCount": 19,
+         "plotCount": 20,
+         "seedCount": 20,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 516,
-               "planted": false
+               "id": 769,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5848
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 245,
-               "planted": false
+               "id": 1859,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 516
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2355,
-               "planted": false
+               "id": 1865,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 245
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 676,
-               "planted": false
+               "id": 1868,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2355
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2242,
-               "planted": false
+               "id": 1871,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 676
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 662,
-               "planted": false
+               "id": 1874,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2242
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2522,
-               "planted": false
+               "id": 1877,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 662
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 647,
-               "planted": false
+               "id": 3240,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2522
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 561,
-               "planted": false
+               "id": 3243,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 647
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 37,
-               "planted": false
+               "id": 3246,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 561
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 190,
-               "planted": false
+               "id": 3249,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 37
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 144,
-               "planted": false
+               "id": 3252,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 190
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 302,
-               "planted": false
+               "id": 3255,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 144
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 554,
-               "planted": false
+               "id": 3258,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 302
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 423,
-               "planted": false
+               "id": 3261,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 554
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 393,
-               "planted": false
+               "id": 3264,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 423
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 786,
-               "planted": false
+               "id": 3267,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 393
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 629,
-               "planted": false
+               "id": 3270,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 786
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 762,
-               "planted": false
+               "id": 3273,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 629
+               }
+            },
+            {
+               "id": 4710,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 762
+               }
+            },
+            {
+               "id": 5163,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 503
+               }
             }
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8720,11 +13650,9 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0,
-         "water": 30
+         "water": 60
       },
       "hersi007": {
          "plots": {
@@ -8734,34 +13662,50 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 1,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2322,
-               "planted": false
+               "id": 1880,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2322
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 431,
-               "planted": false
+               "id": 3030,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 431
+               }
+            },
+            {
+               "id": 5106,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 238
+               }
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8793,10 +13737,9 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
+         "water": null
       },
       "acne": {
          "plots": {
@@ -8817,11 +13760,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 546,
-               "planted": false
+               "id": 1883,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 546
+               }
             }
          ],
          "hkwater": 30,
@@ -8858,10 +13804,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "sanchezro": {
          "plots": {
@@ -8882,18 +13826,34 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 483,
-               "planted": false
+               "id": 1886,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 483
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 304,
-               "planted": false
+               "id": 1889,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 304
+               }
+            },
+            {
+               "id": 2073,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1837
+               }
             }
          ],
          "hkwater": 60,
@@ -8930,10 +13890,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "tongostar": {
          "plots": {
@@ -8954,11 +13912,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 156,
-               "planted": false
+               "id": 1892,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 156
+               }
             }
          ],
          "hkwater": 30,
@@ -8995,10 +13956,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "casilokodesing": {
          "plots": {
@@ -9019,11 +13978,44 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 605,
-               "planted": false
+               "id": 508,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 144
+               }
+            },
+            {
+               "id": 511,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2347
+               }
+            },
+            {
+               "id": 1895,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 605
+               }
+            },
+            {
+               "id": 3780,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 800
+               }
             }
          ],
          "hkwater": 30,
@@ -9060,10 +14052,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motastake": 0,
+         "tokens": {},
          "dailyBudDeposit": 0,
-         "buds": 0
       },
       "heikki1337": {
          "plots": {
@@ -9084,11 +14074,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2473,
-               "planted": false
+               "id": 1932,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2473
+               }
             }
          ],
          "hkwater": 30,
@@ -9116,7 +14109,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9128,7 +14120,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "w0nd3rgrip": {
@@ -9150,81 +14142,164 @@ module.exports = {
          "seedCount": 11,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2303,
-               "planted": false
+               "id": 1935,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2303
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2311,
-               "planted": false
+               "id": 1938,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2311
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2289,
-               "planted": false
+               "id": 1941,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2289
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2254,
-               "planted": false
+               "id": 1944,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2254
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2418,
-               "planted": false
+               "id": 1947,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2418
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 788,
-               "planted": false
+               "id": 1950,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 788
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2277,
-               "planted": false
+               "id": 2061,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4815
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3744,
-               "planted": false
+               "id": 2118,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2200
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4874,
-               "planted": false
+               "id": 2121,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2323
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2334,
-               "planted": false
+               "id": 2166,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2511
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2395,
-               "planted": false
+               "id": 2187,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2277
+               }
+            },
+            {
+               "id": 2247,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2798
+               }
+            },
+            {
+               "id": 3654,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3744
+               }
+            },
+            {
+               "id": 3657,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4874
+               }
+            },
+            {
+               "id": 3741,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2334
+               }
+            },
+            {
+               "id": 3744,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2395
+               }
             }
          ],
          "hkwater": 330,
@@ -9252,7 +14327,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9264,7 +14338,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "mako07": {
@@ -9286,74 +14360,104 @@ module.exports = {
          "seedCount": 10,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2431,
-               "planted": false
+               "id": 1953,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2431
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2414,
-               "planted": false
+               "id": 1956,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2414
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2404,
-               "planted": false
+               "id": 1959,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2404
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 695,
-               "planted": false
+               "id": 1962,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 695
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 688,
-               "planted": false
+               "id": 1965,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 688
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 390,
-               "planted": false
+               "id": 1968,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 390
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 378,
-               "planted": false
+               "id": 1971,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 378
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 260,
-               "planted": false
+               "id": 1974,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 260
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 176,
-               "planted": false
+               "id": 1977,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 176
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 158,
-               "planted": false
+               "id": 1980,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 158
+               }
             }
          ],
          "hkwater": 300,
@@ -9381,7 +14485,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9393,7 +14496,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "cryptixmlonwax": {
@@ -9415,11 +14518,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 631,
-               "planted": false
+               "id": 2172,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 631
+               }
             }
          ],
          "hkwater": 30,
@@ -9447,7 +14553,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9459,7 +14564,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "chubb149": {
@@ -9481,11 +14586,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 138,
-               "planted": false
+               "id": 2184,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 138
+               }
             }
          ],
          "hkwater": 30,
@@ -9513,7 +14621,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9525,7 +14632,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "tremou922": {
@@ -9547,11 +14654,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 81,
-               "planted": false
+               "id": 2190,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 81
+               }
             }
          ],
          "hkwater": 30,
@@ -9579,7 +14689,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9591,7 +14700,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "caprisk": {
@@ -9613,32 +14722,54 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 380,
-               "planted": false
+               "id": 2067,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 141
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 191,
-               "planted": false
+               "id": 2193,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 380
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1695,
-               "planted": false
+               "id": 2196,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 191
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 116,
-               "planted": false
+               "id": 2301,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1695
+               }
+            },
+            {
+               "id": 2316,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 116
+               }
             }
          ],
          "hkwater": 120,
@@ -9666,7 +14797,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9678,7 +14808,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "criptosectadepit": {
@@ -9700,109 +14830,154 @@ module.exports = {
          "seedCount": 15,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2200,
-               "planted": false
+               "id": 2199,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2200
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 273,
-               "planted": false
+               "id": 2202,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 273
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 763,
-               "planted": false
+               "id": 2205,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 763
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 505,
-               "planted": false
+               "id": 2208,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 505
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 201,
-               "planted": false
+               "id": 2211,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 201
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2319,
-               "planted": false
+               "id": 2214,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2319
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 97,
-               "planted": false
+               "id": 2217,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 97
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 159,
-               "planted": false
+               "id": 2220,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 159
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2363,
-               "planted": false
+               "id": 3927,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2363
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1720,
-               "planted": false
+               "id": 3930,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1720
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 468,
-               "planted": false
+               "id": 3933,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 468
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 108,
-               "planted": false
+               "id": 3936,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 108
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 227,
-               "planted": false
+               "id": 3939,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 227
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 345,
-               "planted": false
+               "id": 4908,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 345
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 108,
-               "planted": false
+               "id": 4914,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 108
+               }
             }
          ],
          "hkwater": 450,
@@ -9830,7 +15005,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9842,7 +15016,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jacksonrj": {
@@ -9864,11 +15038,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 752,
-               "planted": false
+               "id": 2226,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 752
+               }
             }
          ],
          "hkwater": 30,
@@ -9896,7 +15073,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9908,7 +15084,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jarkillo": {
@@ -9930,11 +15106,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 237,
-               "planted": false
+               "id": 2229,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 237
+               }
             }
          ],
          "hkwater": 30,
@@ -9962,7 +15141,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -9974,7 +15152,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "xmuguenx": {
@@ -9996,39 +15174,54 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3745,
-               "planted": false
+               "id": 2232,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3745
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 578,
-               "planted": false
+               "id": 2235,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 578
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 497,
-               "planted": false
+               "id": 2238,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 497
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 147,
-               "planted": false
+               "id": 2241,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 147
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 112,
-               "planted": false
+               "id": 2244,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 112
+               }
             }
          ],
          "hkwater": 150,
@@ -10056,7 +15249,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10068,7 +15260,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "kratosn2": {
@@ -10090,67 +15282,174 @@ module.exports = {
          "seedCount": 9,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 750,
-               "planted": false
+               "id": 2250,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 561
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2261,
-               "planted": false
+               "id": 2253,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2452
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3653,
-               "planted": false
+               "id": 2256,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 304
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 836,
-               "planted": false
+               "id": 2262,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2184
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 229,
-               "planted": false
+               "id": 2271,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2349
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 59,
-               "planted": false
+               "id": 2274,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 523
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 194,
-               "planted": false
+               "id": 2277,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3813
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 48,
-               "planted": false
+               "id": 2280,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 148
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 170,
-               "planted": false
+               "id": 2295,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 750
+               }
+            },
+            {
+               "id": 3165,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2261
+               }
+            },
+            {
+               "id": 3168,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3653
+               }
+            },
+            {
+               "id": 3171,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 836
+               }
+            },
+            {
+               "id": 3174,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 229
+               }
+            },
+            {
+               "id": 3180,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 59
+               }
+            },
+            {
+               "id": 3189,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 194
+               }
+            },
+            {
+               "id": 3192,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 48
+               }
+            },
+            {
+               "id": 3195,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 170
+               }
             }
          ],
          "hkwater": 270,
@@ -10178,7 +15477,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10190,7 +15488,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "rokimv87": {
@@ -10212,74 +15510,144 @@ module.exports = {
          "seedCount": 12,
          "seeds": [
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2638,
-               "planted": false
+               "id": 2298,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2638
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 969,
-               "planted": false
+               "id": 2304,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 969
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2290,
-               "planted": false
+               "id": 2307,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2290
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 239,
-               "planted": false
+               "id": 2310,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 239
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 192,
-               "planted": false
+               "id": 2313,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 192
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2322,
-               "planted": false
+               "id": 2586,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3851
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 227,
-               "planted": false
+               "id": 2589,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2708
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 629,
-               "planted": false
+               "id": 2592,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 374
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 309,
-               "planted": false
+               "id": 2595,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 100
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 132,
-               "planted": false
+               "id": 3672,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2322
+               }
+            },
+            {
+               "id": 3675,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 227
+               }
+            },
+            {
+               "id": 4233,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 629
+               }
+            },
+            {
+               "id": 4797,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 309
+               }
+            },
+            {
+               "id": 4800,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 132
+               }
             }
          ],
          "hkwater": 360,
@@ -10307,7 +15675,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10319,7 +15686,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "alter13": {
@@ -10341,11 +15708,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 102,
-               "planted": false
+               "id": 2319,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 102
+               }
             }
          ],
          "hkwater": 30,
@@ -10373,7 +15743,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10385,7 +15754,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "spinvest": {
@@ -10407,46 +15776,64 @@ module.exports = {
          "seedCount": 6,
          "seeds": [
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3793,
-               "planted": false
+               "id": 2322,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3793
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2238,
-               "planted": false
+               "id": 2325,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2238
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 804,
-               "planted": false
+               "id": 2328,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 804
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 601,
-               "planted": false
+               "id": 2331,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 601
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 389,
-               "planted": false
+               "id": 2334,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 389
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 169,
-               "planted": false
+               "id": 2337,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 169
+               }
             }
          ],
          "hkwater": 180,
@@ -10474,7 +15861,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10486,7 +15872,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "forykw": {
@@ -10508,11 +15894,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3667,
-               "planted": false
+               "id": 2340,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3667
+               }
             }
          ],
          "hkwater": 30,
@@ -10540,7 +15929,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10552,7 +15940,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "naxter1998": {
@@ -10574,32 +15962,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2396,
-               "planted": false
+               "id": 2343,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2396
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 153,
-               "planted": false
+               "id": 2358,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 153
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 662,
-               "planted": false
+               "id": 2760,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 662
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 534,
-               "planted": false
+               "id": 2763,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 534
+               }
             }
          ],
          "hkwater": 120,
@@ -10627,7 +16027,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10639,7 +16038,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "paulstark27": {
@@ -10661,18 +16060,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2360,
-               "planted": false
+               "id": 2346,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2360
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 536,
-               "planted": false
+               "id": 2349,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 536
+               }
             }
          ],
          "hkwater": 60,
@@ -10700,7 +16105,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10712,7 +16116,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "chito1": {
@@ -10734,11 +16138,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2426,
-               "planted": false
+               "id": 2352,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2426
+               }
             }
          ],
          "hkwater": 30,
@@ -10766,7 +16173,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10778,7 +16184,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "benjaaa": {
@@ -10800,18 +16206,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2669,
-               "planted": false
+               "id": 2355,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2669
+               }
             },
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 1841,
-               "planted": false
+               "id": 2361,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1841
+               }
             }
          ],
          "hkwater": 60,
@@ -10839,7 +16251,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -10851,7 +16262,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "grinselion": {
@@ -10873,109 +16284,154 @@ module.exports = {
          "seedCount": 15,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2468,
-               "planted": false
+               "id": 2367,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2468
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2459,
-               "planted": false
+               "id": 2370,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2459
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 123,
-               "planted": false
+               "id": 2373,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 123
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 177,
-               "planted": false
+               "id": 2376,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 177
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 280,
-               "planted": false
+               "id": 2379,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 280
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 136,
-               "planted": false
+               "id": 2382,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 136
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 254,
-               "planted": false
+               "id": 2385,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 254
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 150,
-               "planted": false
+               "id": 2388,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 150
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 192,
-               "planted": false
+               "id": 2391,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 192
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 322,
-               "planted": false
+               "id": 2397,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 322
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 435,
-               "planted": false
+               "id": 2400,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 357
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 357,
-               "planted": false
+               "id": 2403,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 435
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 767,
-               "planted": false
+               "id": 2406,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 767
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1724,
-               "planted": false
+               "id": 2409,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1724
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 441,
-               "planted": false
+               "id": 2412,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 441
+               }
             }
          ],
          "hkwater": 450,
@@ -11003,7 +16459,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -11015,7 +16470,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "spi-steemcity": {
@@ -11037,214 +16492,304 @@ module.exports = {
          "seedCount": 30,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2269,
-               "planted": false
+               "id": 2415,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2269
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2253,
-               "planted": false
+               "id": 2418,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2253
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2492,
-               "planted": false
+               "id": 2433,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2492
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2372,
-               "planted": false
+               "id": 2436,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2372
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2265,
-               "planted": false
+               "id": 2439,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2265
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2185,
-               "planted": false
+               "id": 2442,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2185
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2402,
-               "planted": false
+               "id": 2445,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2402
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4883,
-               "planted": false
+               "id": 2448,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4883
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2485,
-               "planted": false
+               "id": 2451,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2485
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2637,
-               "planted": false
+               "id": 2454,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2637
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2499,
-               "planted": false
+               "id": 2457,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2499
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4819,
-               "planted": false
+               "id": 2460,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4819
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3892,
-               "planted": false
+               "id": 2463,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3892
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2375,
-               "planted": false
+               "id": 2466,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2375
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2394,
-               "planted": false
+               "id": 2469,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2394
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2795,
-               "planted": false
+               "id": 2472,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2795
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2276,
-               "planted": false
+               "id": 2475,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2276
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4624,
-               "planted": false
+               "id": 2478,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4624
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2360,
-               "planted": false
+               "id": 2481,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2360
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2383,
-               "planted": false
+               "id": 2484,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2383
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2377,
-               "planted": false
+               "id": 2487,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2377
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2301,
-               "planted": false
+               "id": 2490,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2301
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2349,
-               "planted": false
+               "id": 2493,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2349
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2204,
-               "planted": false
+               "id": 2496,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2204
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2266,
-               "planted": false
+               "id": 2499,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2266
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2711,
-               "planted": false
+               "id": 2502,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2711
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4614,
-               "planted": false
+               "id": 2505,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4614
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2333,
-               "planted": false
+               "id": 2508,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2333
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2504,
-               "planted": false
+               "id": 2511,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2504
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2200,
-               "planted": false
+               "id": 2514,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2200
+               }
             }
          ],
          "hkwater": 900,
@@ -11272,7 +16817,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -11284,7 +16828,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "lerage": {
@@ -11306,67 +16850,84 @@ module.exports = {
          "seedCount": 9,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2473,
-               "planted": false
+               "id": 2517,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2473
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 671,
-               "planted": false
+               "id": 2520,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 671
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 653,
-               "planted": false
+               "id": 2523,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 653
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2333,
-               "planted": false
+               "id": 2529,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 385
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 385,
-               "planted": false
+               "id": 2532,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 357
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 357,
-               "planted": false
+               "id": 2535,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 481
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 481,
-               "planted": false
+               "id": 2538,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 381
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 381,
-               "planted": false
-            },
-            {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 318,
-               "planted": false
+               "id": 2541,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 318
+               }
             }
          ],
          "hkwater": 270,
@@ -11394,7 +16955,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -11406,7 +16966,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "brofundholdings": {
@@ -11428,53 +16988,74 @@ module.exports = {
          "seedCount": 7,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2337,
-               "planted": false
+               "id": 2544,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2337
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2203,
-               "planted": false
+               "id": 2547,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2203
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2259,
-               "planted": false
+               "id": 2550,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2259
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2175,
-               "planted": false
+               "id": 2553,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2175
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4864,
-               "planted": false
+               "id": 2556,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4864
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2330,
-               "planted": false
+               "id": 2559,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2330
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2924,
-               "planted": false
+               "id": 2562,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2924
+               }
             }
          ],
          "hkwater": 210,
@@ -11502,7 +17083,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -11514,7 +17094,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jfang003": {
@@ -11536,11 +17116,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 251,
-               "planted": false
+               "id": 2583,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 251
+               }
             }
          ],
          "hkwater": 30,
@@ -11568,7 +17151,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -11580,7 +17162,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "marjanko": {
@@ -11602,11 +17184,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 298,
-               "planted": false
+               "id": 2598,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 298
+               }
             }
          ],
          "hkwater": 30,
@@ -11634,7 +17219,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -11646,7 +17230,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "buritica": {
@@ -11655,93 +17239,143 @@ module.exports = {
             "asiaUsed": 0,
             "africa": 2,
             "africaUsed": 0,
-            "afghanistan": 1,
+            "afghanistan": 2,
             "afghanistanUsed": 0,
             "southAmerica": 4,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
-            "mexico": 3,
+            "mexico": 4,
             "mexicoUsed": 0
          },
-         "plotCount": 10,
-         "seedCount": 10,
+         "plotCount": 12,
+         "seedCount": 12,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 54,
-               "planted": false
+               "id": 2613,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 54
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2455,
-               "planted": false
+               "id": 2616,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2455
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 370,
-               "planted": false
+               "id": 2619,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 370
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 543,
-               "planted": false
+               "id": 2622,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 543
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 638,
-               "planted": false
+               "id": 2625,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 638
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2424,
-               "planted": false
+               "id": 2748,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2424
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 157,
-               "planted": false
+               "id": 2751,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 157
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 163,
-               "planted": false
+               "id": 2754,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 163
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 591,
-               "planted": false
+               "id": 3942,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 591
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 185,
-               "planted": false
+               "id": 3945,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 185
+               }
+            },
+            {
+               "id": 5091,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 830
+               }
+            },
+            {
+               "id": 5094,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 568
+               }
             }
          ],
          "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11763,7 +17397,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -11775,8 +17408,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motaStake": 0
+         "tokens": {},
+         "water": null
       },
       "mec45": {
          "plots": {
@@ -11797,151 +17430,214 @@ module.exports = {
          "seedCount": 21,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 149,
-               "planted": false
+               "id": 2661,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 149
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 588,
-               "planted": false
+               "id": 2664,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 588
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2304,
-               "planted": false
+               "id": 2667,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2304
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2391,
-               "planted": false
+               "id": 2670,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2391
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2332,
-               "planted": false
+               "id": 2673,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2332
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1560,
-               "planted": false
+               "id": 2676,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1560
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 532,
-               "planted": false
+               "id": 2679,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 532
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 207,
-               "planted": false
+               "id": 2682,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 207
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2305,
-               "planted": false
+               "id": 2685,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2305
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2252,
-               "planted": false
+               "id": 2688,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2252
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 600,
-               "planted": false
+               "id": 2691,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 600
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2420,
-               "planted": false
+               "id": 2694,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2420
+               }
             },
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2098,
-               "planted": false
+               "id": 2697,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2098
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3639,
-               "planted": false
+               "id": 2700,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3639
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2340,
-               "planted": false
+               "id": 3549,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2340
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2466,
-               "planted": false
+               "id": 3552,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2466
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2378,
-               "planted": false
+               "id": 3555,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2378
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3725,
-               "planted": false
+               "id": 3558,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3725
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2310,
-               "planted": false
+               "id": 3591,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2310
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2372,
-               "planted": false
+               "id": 3903,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2372
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4622,
-               "planted": false
+               "id": 3906,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4622
+               }
             }
          ],
          "hkwater": 630,
@@ -11969,7 +17665,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -11981,7 +17676,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "zeusdy": {
@@ -12003,74 +17698,104 @@ module.exports = {
          "seedCount": 10,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2222,
-               "planted": false
+               "id": 2703,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2222
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3701,
-               "planted": false
+               "id": 2709,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3701
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2500,
-               "planted": false
+               "id": 2712,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2500
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2224,
-               "planted": false
+               "id": 2715,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2224
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 708,
-               "planted": false
+               "id": 4002,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 708
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 681,
-               "planted": false
+               "id": 4005,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 681
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 733,
-               "planted": false
+               "id": 4008,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 733
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 678,
-               "planted": false
+               "id": 4011,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 678
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 772,
-               "planted": false
+               "id": 4014,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 772
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 728,
-               "planted": false
+               "id": 4017,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 728
+               }
             }
          ],
          "hkwater": 300,
@@ -12098,7 +17823,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12110,7 +17834,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "boitata": {
@@ -12132,25 +17856,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2176,
-               "planted": false
+               "id": 2706,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2176
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 154,
-               "planted": false
+               "id": 2721,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 154
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 297,
-               "planted": false
+               "id": 2724,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 297
+               }
             }
          ],
          "hkwater": 90,
@@ -12178,7 +17911,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12190,7 +17922,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "drisinger": {
@@ -12212,32 +17944,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 54,
-               "planted": false
+               "id": 2718,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 54
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 157,
-               "planted": false
+               "id": 4827,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 157
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 211,
-               "planted": false
+               "id": 4830,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 211
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 131,
-               "planted": false
+               "id": 4833,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 131
+               }
             }
          ],
          "hkwater": 120,
@@ -12265,7 +18009,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12277,7 +18020,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "luffy1737": {
@@ -12299,11 +18042,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 135,
-               "planted": false
+               "id": 349,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 275
+               }
+            },
+            {
+               "id": 2727,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 135
+               }
             }
          ],
          "hkwater": 30,
@@ -12331,7 +18087,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12343,7 +18098,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "zanrsc": {
@@ -12365,25 +18120,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3684,
-               "planted": false
+               "id": 2730,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3684
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 673,
-               "planted": false
+               "id": 4734,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 673
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 321,
-               "planted": false
+               "id": 4737,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 321
+               }
             }
          ],
          "hkwater": 90,
@@ -12411,7 +18175,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12423,7 +18186,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "rnldjose31": {
@@ -12445,25 +18208,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 161,
-               "planted": false
+               "id": 2733,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 161
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 62,
-               "planted": false
+               "id": 3561,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 62
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1750,
-               "planted": false
+               "id": 3564,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1750
+               }
             }
          ],
          "hkwater": 90,
@@ -12491,7 +18263,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12503,7 +18274,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "docarmoedu": {
@@ -12525,25 +18296,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2319,
-               "planted": false
+               "id": 2739,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2319
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 919,
-               "planted": false
+               "id": 2742,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 919
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 595,
-               "planted": false
+               "id": 2745,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 595
+               }
             }
          ],
          "hkwater": 90,
@@ -12571,7 +18351,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12583,7 +18362,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "kayser191": {
@@ -12605,11 +18384,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 427,
-               "planted": false
+               "id": 2757,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 427
+               }
             }
          ],
          "hkwater": 30,
@@ -12637,7 +18419,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12649,7 +18430,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "chemams19": {
@@ -12671,18 +18452,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 120,
-               "planted": false
+               "id": 2766,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 120
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 364,
-               "planted": false
+               "id": 3399,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 364
+               }
             }
          ],
          "hkwater": 60,
@@ -12710,7 +18497,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12722,7 +18508,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "lolobonilla": {
@@ -12744,11 +18530,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 172,
-               "planted": false
+               "id": 2769,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 172
+               }
             }
          ],
          "hkwater": 30,
@@ -12776,7 +18565,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12788,7 +18576,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "eduarz150792": {
@@ -12810,95 +18598,134 @@ module.exports = {
          "seedCount": 13,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 267,
-               "planted": false
+               "id": 2772,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 267
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 180,
-               "planted": false
+               "id": 2775,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 180
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 70,
-               "planted": false
+               "id": 2778,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 70
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3656,
-               "planted": false
+               "id": 2781,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3656
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3540,
-               "planted": false
+               "id": 2784,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3540
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 461,
-               "planted": false
+               "id": 2787,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 461
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 537,
-               "planted": false
+               "id": 2790,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 537
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 777,
-               "planted": false
+               "id": 2793,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 777
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 808,
-               "planted": false
+               "id": 2796,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 808
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2381,
-               "planted": false
+               "id": 2835,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2381
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2346,
-               "planted": false
+               "id": 2838,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2346
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2307,
-               "planted": false
+               "id": 2841,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2307
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 557,
-               "planted": false
+               "id": 2844,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 557
+               }
             }
          ],
          "hkwater": 390,
@@ -12926,7 +18753,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -12938,7 +18764,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "largo24": {
@@ -12960,102 +18786,144 @@ module.exports = {
          "seedCount": 14,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2367,
-               "planted": false
+               "id": 2799,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2367
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2322,
-               "planted": false
+               "id": 2814,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2322
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 801,
-               "planted": false
+               "id": 2820,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 801
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 392,
-               "planted": false
+               "id": 2823,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 392
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 248,
-               "planted": false
+               "id": 2826,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 248
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 104,
-               "planted": false
+               "id": 2829,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 104
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 506,
-               "planted": false
+               "id": 2832,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 506
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 744,
-               "planted": false
+               "id": 2847,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 744
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2258,
-               "planted": false
+               "id": 2883,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2258
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 212,
-               "planted": false
+               "id": 2889,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 212
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 1026,
-               "planted": false
+               "id": 2895,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1026
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 239,
-               "planted": false
+               "id": 2922,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 239
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2519,
-               "planted": false
+               "id": 2925,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2519
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 891,
-               "planted": false
+               "id": 2928,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 891
+               }
             }
          ],
          "hkwater": 420,
@@ -13083,7 +18951,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13095,7 +18962,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "duaystive": {
@@ -13117,32 +18984,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2464,
-               "planted": false
+               "id": 2802,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2464
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 815,
-               "planted": false
+               "id": 2805,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 815
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 425,
-               "planted": false
+               "id": 2808,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 425
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 187,
-               "planted": false
+               "id": 2811,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 187
+               }
             }
          ],
          "hkwater": 120,
@@ -13170,7 +19049,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13182,7 +19060,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "anyeloert": {
@@ -13204,11 +19082,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2073,
-               "planted": false
+               "id": 2850,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2073
+               }
             }
          ],
          "hkwater": 30,
@@ -13236,7 +19117,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13248,7 +19128,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "pelayin999": {
@@ -13270,32 +19150,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4630,
-               "planted": false
+               "id": 2853,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4630
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 114,
-               "planted": false
+               "id": 2859,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 114
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 438,
-               "planted": false
+               "id": 2865,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 438
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1470,
-               "planted": false
+               "id": 2868,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1470
+               }
             }
          ],
          "hkwater": 120,
@@ -13323,7 +19215,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13335,7 +19226,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "olgerv1": {
@@ -13357,53 +19248,74 @@ module.exports = {
          "seedCount": 7,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2393,
-               "planted": false
+               "id": 2856,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2393
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 612,
-               "planted": false
+               "id": 2862,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 612
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 409,
-               "planted": false
+               "id": 2871,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 409
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 183,
-               "planted": false
+               "id": 2874,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 183
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3610,
-               "planted": false
+               "id": 2877,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3610
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2369,
-               "planted": false
+               "id": 2886,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2369
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 625,
-               "planted": false
+               "id": 2892,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 625
+               }
             }
          ],
          "hkwater": 210,
@@ -13431,7 +19343,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13443,7 +19354,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "hissing1": {
@@ -13465,60 +19376,94 @@ module.exports = {
          "seedCount": 8,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 455,
-               "planted": false
+               "id": 589,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 281
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 136,
-               "planted": false
+               "id": 2898,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 455
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4734,
-               "planted": false
+               "id": 2901,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 136
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 824,
-               "planted": false
+               "id": 2904,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4734
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 439,
-               "planted": false
+               "id": 2907,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 824
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2239,
-               "planted": false
+               "id": 2910,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 439
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 470,
-               "planted": false
+               "id": 2913,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2239
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 593,
-               "planted": false
+               "id": 2916,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 470
+               }
+            },
+            {
+               "id": 2919,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 593
+               }
             }
          ],
          "hkwater": 240,
@@ -13546,7 +19491,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13558,7 +19502,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "joseph77": {
@@ -13580,46 +19524,64 @@ module.exports = {
          "seedCount": 6,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2412,
-               "planted": false
+               "id": 2952,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2412
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 723,
-               "planted": false
+               "id": 2961,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 723
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 573,
-               "planted": false
+               "id": 2964,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 573
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 308,
-               "planted": false
+               "id": 2967,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 308
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 66,
-               "planted": false
+               "id": 2970,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 66
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2392,
-               "planted": false
+               "id": 2973,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2392
+               }
             }
          ],
          "hkwater": 180,
@@ -13647,7 +19609,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13659,7 +19620,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "sureng11": {
@@ -13681,18 +19642,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 700,
-               "planted": false
+               "id": 2955,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 700
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 582,
-               "planted": false
+               "id": 2958,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 582
+               }
             }
          ],
          "hkwater": 60,
@@ -13720,7 +19687,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13732,7 +19698,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "heybertu": {
@@ -13754,109 +19720,154 @@ module.exports = {
          "seedCount": 15,
          "seeds": [
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4667,
-               "planted": false
+               "id": 2976,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4667
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2366,
-               "planted": false
+               "id": 2982,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2366
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2520,
-               "planted": false
+               "id": 2985,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2520
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2461,
-               "planted": false
+               "id": 2988,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2461
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2370,
-               "planted": false
+               "id": 2991,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2370
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 773,
-               "planted": false
+               "id": 2994,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 773
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1747,
-               "planted": false
+               "id": 2997,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2111
+               }
             },
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2111,
-               "planted": false
+               "id": 3000,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1747
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 567,
-               "planted": false
+               "id": 3003,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 567
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 533,
-               "planted": false
+               "id": 3006,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 533
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 388,
-               "planted": false
+               "id": 3009,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 388
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 268,
-               "planted": false
+               "id": 3012,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 268
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 323,
-               "planted": false
+               "id": 3015,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 323
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 314,
-               "planted": false
+               "id": 3018,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 314
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 688,
-               "planted": false
+               "id": 3021,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 688
+               }
             }
          ],
          "hkwater": 450,
@@ -13884,7 +19895,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13896,7 +19906,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jagerocker": {
@@ -13918,18 +19928,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 192,
-               "planted": false
+               "id": 3024,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 192
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 354,
-               "planted": false
+               "id": 3027,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 354
+               }
             }
          ],
          "hkwater": 60,
@@ -13957,7 +19973,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -13969,7 +19984,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "dgon": {
@@ -13991,11 +20006,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 765,
-               "planted": false
+               "id": 3033,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 765
+               }
             }
          ],
          "hkwater": 30,
@@ -14023,7 +20041,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14035,7 +20052,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "kokebo": {
@@ -14057,11 +20074,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2446,
-               "planted": false
+               "id": 3036,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2446
+               }
             }
          ],
          "hkwater": 30,
@@ -14089,7 +20109,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14101,7 +20120,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "davidagn79": {
@@ -14123,25 +20142,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2150,
-               "planted": false
+               "id": 3039,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2150
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 386,
-               "planted": false
+               "id": 3042,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 386
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 201,
-               "planted": false
+               "id": 3045,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 201
+               }
             }
          ],
          "hkwater": 90,
@@ -14169,7 +20197,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14181,7 +20208,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "inek18": {
@@ -14203,67 +20230,94 @@ module.exports = {
          "seedCount": 9,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2230,
-               "planted": false
+               "id": 3048,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2230
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 446,
-               "planted": false
+               "id": 3051,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 446
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 647,
-               "planted": false
+               "id": 3054,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 647
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3555,
-               "planted": false
+               "id": 3057,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3555
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 573,
-               "planted": false
+               "id": 3060,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 573
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 676,
-               "planted": false
+               "id": 3063,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 676
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2184,
-               "planted": false
+               "id": 3066,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2184
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2192,
-               "planted": false
+               "id": 3069,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2192
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 262,
-               "planted": false
+               "id": 3075,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 262
+               }
             }
          ],
          "hkwater": 270,
@@ -14291,7 +20345,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14303,7 +20356,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "leaisx": {
@@ -14325,46 +20378,64 @@ module.exports = {
          "seedCount": 6,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 213,
-               "planted": false
+               "id": 3072,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 213
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2517,
-               "planted": false
+               "id": 3078,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2517
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 294,
-               "planted": false
+               "id": 3084,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 294
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 749,
-               "planted": false
+               "id": 3087,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 749
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 379,
-               "planted": false
+               "id": 3090,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 379
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 321,
-               "planted": false
+               "id": 3825,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 321
+               }
             }
          ],
          "hkwater": 180,
@@ -14392,7 +20463,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14404,7 +20474,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "tatovzla": {
@@ -14426,46 +20496,64 @@ module.exports = {
          "seedCount": 6,
          "seeds": [
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2826,
-               "planted": false
+               "id": 3081,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2826
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 217,
-               "planted": false
+               "id": 3117,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 217
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 203,
-               "planted": false
+               "id": 3120,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 203
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 252,
-               "planted": false
+               "id": 3123,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 252
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 289,
-               "planted": false
+               "id": 3126,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 289
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 117,
-               "planted": false
+               "id": 3129,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 117
+               }
             }
          ],
          "hkwater": 180,
@@ -14493,7 +20581,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14505,7 +20592,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "leon95": {
@@ -14527,11 +20614,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1695,
-               "planted": false
+               "id": 3093,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1695
+               }
             }
          ],
          "hkwater": 30,
@@ -14559,7 +20649,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14571,7 +20660,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ksyuca007": {
@@ -14593,25 +20682,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 754,
-               "planted": false
+               "id": 3096,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 754
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 847,
-               "planted": false
+               "id": 3099,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 847
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 727,
-               "planted": false
+               "id": 3102,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 727
+               }
             }
          ],
          "hkwater": 90,
@@ -14639,7 +20737,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14651,7 +20748,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "atarxix": {
@@ -14673,11 +20770,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 420,
-               "planted": false
+               "id": 3105,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 420
+               }
             }
          ],
          "hkwater": 30,
@@ -14705,7 +20805,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14717,7 +20816,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ilidangrx": {
@@ -14739,32 +20838,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2012,
-               "planted": false
+               "id": 3111,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2012
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 594,
-               "planted": false
+               "id": 3114,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 594
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2284,
-               "planted": false
+               "id": 3312,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2284
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 107,
-               "planted": false
+               "id": 3315,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 107
+               }
             }
          ],
          "hkwater": 120,
@@ -14792,7 +20903,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14804,7 +20914,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "wsgrupoespanol": {
@@ -14826,18 +20936,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 1875,
-               "planted": false
+               "id": 3132,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1875
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 194,
-               "planted": false
+               "id": 3651,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 194
+               }
             }
          ],
          "hkwater": 60,
@@ -14865,7 +20981,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14877,7 +20992,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "elbakalah": {
@@ -14899,39 +21014,54 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2512,
-               "planted": false
+               "id": 3177,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2512
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 488,
-               "planted": false
+               "id": 3183,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 488
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 343,
-               "planted": false
+               "id": 3186,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 343
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 835,
-               "planted": false
+               "id": 3198,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 835
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3647,
-               "planted": false
+               "id": 3288,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3647
+               }
             }
          ],
          "hkwater": 150,
@@ -14959,7 +21089,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -14971,7 +21100,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "eduardro": {
@@ -14993,95 +21122,134 @@ module.exports = {
          "seedCount": 13,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2339,
-               "planted": false
+               "id": 3201,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2339
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2243,
-               "planted": false
+               "id": 3204,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2243
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2334,
-               "planted": false
+               "id": 3207,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2334
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 786,
-               "planted": false
+               "id": 3210,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 786
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 612,
-               "planted": false
+               "id": 3213,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 612
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 355,
-               "planted": false
+               "id": 3216,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 355
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 398,
-               "planted": false
+               "id": 3219,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 398
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 366,
-               "planted": false
+               "id": 3222,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 366
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 364,
-               "planted": false
+               "id": 3225,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 364
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 218,
-               "planted": false
+               "id": 3228,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 218
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 257,
-               "planted": false
+               "id": 3231,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 257
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 89,
-               "planted": false
+               "id": 3234,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 89
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 322,
-               "planted": false
+               "id": 3237,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 322
+               }
             }
          ],
          "hkwater": 390,
@@ -15109,7 +21277,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15121,7 +21288,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "thejc50": {
@@ -15143,18 +21310,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 746,
-               "planted": false
+               "id": 3276,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 746
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 212,
-               "planted": false
+               "id": 3279,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 212
+               }
             }
          ],
          "hkwater": 60,
@@ -15182,7 +21355,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15194,7 +21366,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ejercol": {
@@ -15216,18 +21388,44 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2348,
-               "planted": false
+               "id": 3282,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2348
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2242,
-               "planted": false
+               "id": 3285,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2242
+               }
+            },
+            {
+               "id": 4554,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 138
+               }
+            },
+            {
+               "id": 4557,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 439
+               }
             }
          ],
          "hkwater": 60,
@@ -15255,7 +21453,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15267,7 +21464,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "sek1g": {
@@ -15289,32 +21486,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2478,
-               "planted": false
+               "id": 3291,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2478
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2357,
-               "planted": false
+               "id": 3294,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2357
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 162,
-               "planted": false
+               "id": 3297,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 162
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 154,
-               "planted": false
+               "id": 3300,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 154
+               }
             }
          ],
          "hkwater": 120,
@@ -15342,7 +21551,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15354,7 +21562,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "marisenpai": {
@@ -15376,11 +21584,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2405,
-               "planted": false
+               "id": 3303,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2405
+               }
+            },
+            {
+               "id": 4536,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 124
+               }
             }
          ],
          "hkwater": 30,
@@ -15408,7 +21629,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15420,7 +21640,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jonramirez": {
@@ -15442,25 +21662,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 81,
-               "planted": false
+               "id": 3306,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 81
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 651,
-               "planted": false
+               "id": 3309,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 651
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2336,
-               "planted": false
+               "id": 3666,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2336
+               }
             }
          ],
          "hkwater": 90,
@@ -15488,7 +21717,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15500,7 +21728,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "yudai": {
@@ -15522,60 +21750,84 @@ module.exports = {
          "seedCount": 8,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2410,
-               "planted": false
+               "id": 3318,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2410
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 107,
-               "planted": false
+               "id": 3321,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 107
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 126,
-               "planted": false
+               "id": 3324,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 126
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 230,
-               "planted": false
+               "id": 3327,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 230
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 313,
-               "planted": false
+               "id": 3330,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 313
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 102,
-               "planted": false
+               "id": 3333,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 102
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 140,
-               "planted": false
+               "id": 3336,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 140
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 280,
-               "planted": false
+               "id": 3339,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 280
+               }
             }
          ],
          "hkwater": 240,
@@ -15603,7 +21855,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15615,7 +21866,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "chuchunorris": {
@@ -15637,11 +21888,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 151,
-               "planted": false
+               "id": 3342,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 151
+               }
             }
          ],
          "hkwater": 30,
@@ -15669,7 +21923,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15681,7 +21934,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "maurojx": {
@@ -15703,25 +21956,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2384,
-               "planted": false
+               "id": 3345,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2384
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 203,
-               "planted": false
+               "id": 3348,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 203
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 176,
-               "planted": false
+               "id": 3351,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 176
+               }
             }
          ],
          "hkwater": 90,
@@ -15749,7 +22011,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15761,7 +22022,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "davjaimes10": {
@@ -15783,46 +22044,64 @@ module.exports = {
          "seedCount": 6,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 494,
-               "planted": false
+               "id": 3354,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 494
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 645,
-               "planted": false
+               "id": 3357,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 645
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 556,
-               "planted": false
+               "id": 3360,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 556
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1630,
-               "planted": false
+               "id": 3363,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1630
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 837,
-               "planted": false
+               "id": 3366,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 837
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 494,
-               "planted": false
+               "id": 3369,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 494
+               }
             }
          ],
          "hkwater": 180,
@@ -15850,7 +22129,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15862,7 +22140,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "masterwarclash": {
@@ -15884,25 +22162,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 223,
-               "planted": false
+               "id": 3372,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 223
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 286,
-               "planted": false
+               "id": 3375,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 286
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 306,
-               "planted": false
+               "id": 3378,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 306
+               }
             }
          ],
          "hkwater": 90,
@@ -15930,7 +22217,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -15942,7 +22228,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "vixda": {
@@ -15964,18 +22250,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 386,
-               "planted": false
+               "id": 3381,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 386
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2440,
-               "planted": false
+               "id": 3384,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2440
+               }
             }
          ],
          "hkwater": 60,
@@ -16003,7 +22295,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16015,7 +22306,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "richardmt95": {
@@ -16037,18 +22328,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 385,
-               "planted": false
+               "id": 3387,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 385
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 169,
-               "planted": false
+               "id": 3390,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 169
+               }
             }
          ],
          "hkwater": 60,
@@ -16076,7 +22373,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16088,7 +22384,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "planchero": {
@@ -16110,102 +22406,144 @@ module.exports = {
          "seedCount": 14,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 75,
-               "planted": false
+               "id": 3393,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 75
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 529,
-               "planted": false
+               "id": 3396,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 529
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 160,
-               "planted": false
+               "id": 3408,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 160
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 329,
-               "planted": false
+               "id": 3411,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 329
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 461,
-               "planted": false
+               "id": 3414,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 461
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 374,
-               "planted": false
+               "id": 3417,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 374
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 684,
-               "planted": false
+               "id": 3420,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 684
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 786,
-               "planted": false
+               "id": 3423,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 786
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 628,
-               "planted": false
+               "id": 3426,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 628
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2473,
-               "planted": false
+               "id": 3429,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2473
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3687,
-               "planted": false
+               "id": 3432,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3687
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2383,
-               "planted": false
+               "id": 3435,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2383
+               }
             },
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3851,
-               "planted": false
+               "id": 3438,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3851
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2497,
-               "planted": false
+               "id": 3441,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2497
+               }
             }
          ],
          "hkwater": 420,
@@ -16233,7 +22571,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16245,7 +22582,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "graceathenas": {
@@ -16267,18 +22604,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Kilimanjaro",
-               "spt": 3,
-               "water": 137,
-               "pr": 3731,
-               "planted": false
+               "id": 3402,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3731
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 356,
-               "planted": false
+               "id": 3405,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 356
+               }
             }
          ],
          "hkwater": 60,
@@ -16306,7 +22649,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16318,7 +22660,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "hasted": {
@@ -16340,74 +22682,104 @@ module.exports = {
          "seedCount": 10,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2445,
-               "planted": false
+               "id": 3444,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2445
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2382,
-               "planted": false
+               "id": 3447,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2382
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2466,
-               "planted": false
+               "id": 3450,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2466
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2185,
-               "planted": false
+               "id": 3453,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2185
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2598,
-               "planted": false
+               "id": 3456,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2598
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 138,
-               "planted": false
+               "id": 3459,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 138
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 30,
-               "planted": false
+               "id": 3462,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 30
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 591,
-               "planted": false
+               "id": 3465,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 591
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 447,
-               "planted": false
+               "id": 3468,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 447
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 691,
-               "planted": false
+               "id": 3471,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 691
+               }
             }
          ],
          "hkwater": 300,
@@ -16435,7 +22807,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16447,7 +22818,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jeffx09": {
@@ -16469,11 +22840,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 576,
-               "planted": false
+               "id": 3474,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 576
+               }
+            },
+            {
+               "id": 3615,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2467
+               }
             }
          ],
          "hkwater": 30,
@@ -16501,7 +22885,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16513,7 +22896,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "lalogg13": {
@@ -16535,25 +22918,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2429,
-               "planted": false
+               "id": 3477,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2429
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 404,
-               "planted": false
+               "id": 3480,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 404
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 175,
-               "planted": false
+               "id": 3483,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 175
+               }
             }
          ],
          "hkwater": 90,
@@ -16581,7 +22973,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16593,7 +22984,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "emqcripto": {
@@ -16615,109 +23006,154 @@ module.exports = {
          "seedCount": 15,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 321,
-               "planted": false
+               "id": 3486,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 321
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 618,
-               "planted": false
+               "id": 3498,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 618
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 561,
-               "planted": false
+               "id": 3501,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 561
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2312,
-               "planted": false
+               "id": 3504,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2312
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2198,
-               "planted": false
+               "id": 3507,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2198
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 78,
-               "planted": false
+               "id": 3510,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 78
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 255,
-               "planted": false
+               "id": 3513,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 255
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 256,
-               "planted": false
+               "id": 3516,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 256
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 86,
-               "planted": false
+               "id": 3519,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 86
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 203,
-               "planted": false
+               "id": 3522,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 203
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 42,
-               "planted": false
+               "id": 3525,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 42
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 230,
-               "planted": false
+               "id": 3528,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 230
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 204,
-               "planted": false
+               "id": 3531,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 204
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 202,
-               "planted": false
+               "id": 3534,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 202
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 262,
-               "planted": false
+               "id": 3537,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 262
+               }
             }
          ],
          "hkwater": 450,
@@ -16745,7 +23181,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16757,7 +23192,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "kiro12": {
@@ -16779,18 +23214,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 532,
-               "planted": false
+               "id": 3492,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 532
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 501,
-               "planted": false
+               "id": 3495,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 501
+               }
             }
          ],
          "hkwater": 60,
@@ -16818,7 +23259,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16830,7 +23270,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "altercristian": {
@@ -16852,11 +23292,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4842,
-               "planted": false
+               "id": 3540,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4842
+               }
             }
          ],
          "hkwater": 30,
@@ -16884,7 +23327,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16896,7 +23338,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "leoking1985": {
@@ -16918,18 +23360,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2263,
-               "planted": false
+               "id": 3543,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2263
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 121,
-               "planted": false
+               "id": 3546,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 121
+               }
             }
          ],
          "hkwater": 60,
@@ -16957,7 +23405,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -16969,7 +23416,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "zxion": {
@@ -16991,18 +23438,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2034,
-               "planted": false
+               "id": 3567,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2034
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 122,
-               "planted": false
+               "id": 3678,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 122
+               }
             }
          ],
          "hkwater": 60,
@@ -17030,7 +23483,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17042,7 +23494,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "lulisway": {
@@ -17064,11 +23516,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2286,
-               "planted": false
+               "id": 3570,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2286
+               }
             }
          ],
          "hkwater": 30,
@@ -17096,7 +23551,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17108,7 +23562,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "obando": {
@@ -17130,39 +23584,54 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 92,
-               "planted": false
+               "id": 3573,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 92
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 135,
-               "planted": false
+               "id": 3576,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 135
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 102,
-               "planted": false
+               "id": 3579,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 102
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 223,
-               "planted": false
+               "id": 3582,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 223
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 128,
-               "planted": false
+               "id": 3585,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 128
+               }
             }
          ],
          "hkwater": 150,
@@ -17190,7 +23659,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17202,7 +23670,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "kalocaj": {
@@ -17224,25 +23692,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 225,
-               "planted": false
+               "id": 3594,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 225
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 476,
-               "planted": false
+               "id": 3609,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 476
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 1020,
-               "planted": false
+               "id": 3612,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1020
+               }
             }
          ],
          "hkwater": 90,
@@ -17270,7 +23747,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17282,7 +23758,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "roypadron": {
@@ -17304,18 +23780,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1781,
-               "planted": false
+               "id": 3618,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1781
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 437,
-               "planted": false
+               "id": 3621,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 437
+               }
             }
          ],
          "hkwater": 60,
@@ -17343,7 +23825,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17355,7 +23836,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "alexander1975": {
@@ -17377,18 +23858,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 94,
-               "planted": false
+               "id": 3624,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 94
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 575,
-               "planted": false
+               "id": 3627,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 575
+               }
             }
          ],
          "hkwater": 60,
@@ -17416,7 +23903,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17428,7 +23914,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "xkaliburx": {
@@ -17450,11 +23936,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 254,
-               "planted": false
+               "id": 3630,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 254
+               }
             }
          ],
          "hkwater": 30,
@@ -17482,7 +23971,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17494,7 +23982,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "dani1884": {
@@ -17516,18 +24004,24 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4766,
-               "planted": false
+               "id": 3633,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4766
+               }
             },
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4779,
-               "planted": false
+               "id": 3636,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4779
+               }
             }
          ],
          "hkwater": 90,
@@ -17555,7 +24049,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17567,7 +24060,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "gabriiq": {
@@ -17589,32 +24082,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 84,
-               "planted": false
+               "id": 3639,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 84
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 497,
-               "planted": false
+               "id": 3642,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 497
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 372,
-               "planted": false
+               "id": 3645,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 372
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 577,
-               "planted": false
+               "id": 3648,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 577
+               }
             }
          ],
          "hkwater": 120,
@@ -17642,7 +24147,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17654,7 +24158,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "javikalimar": {
@@ -17676,25 +24180,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1670,
-               "planted": false
+               "id": 3660,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1670
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2186,
-               "planted": false
+               "id": 3732,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2186
+               }
             },
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2856,
-               "planted": false
+               "id": 3924,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2856
+               }
             }
          ],
          "hkwater": 90,
@@ -17722,7 +24235,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17734,7 +24246,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "edinsonoro": {
@@ -17756,18 +24268,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 560,
-               "planted": false
+               "id": 3663,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 560
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 168,
-               "planted": false
+               "id": 3669,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 168
+               }
             }
          ],
          "hkwater": 60,
@@ -17795,7 +24313,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17807,7 +24324,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "terrible93": {
@@ -17829,11 +24346,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2425,
-               "planted": false
+               "id": 3681,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2425
+               }
             }
          ],
          "hkwater": 30,
@@ -17861,7 +24381,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17873,7 +24392,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jarrical0506": {
@@ -17895,60 +24414,84 @@ module.exports = {
          "seedCount": 8,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2437,
-               "planted": false
+               "id": 3684,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2437
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 602,
-               "planted": false
+               "id": 3687,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 602
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 408,
-               "planted": false
+               "id": 3690,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 408
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 31,
-               "planted": false
+               "id": 3693,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 31
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 238,
-               "planted": false
+               "id": 4806,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 238
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 221,
-               "planted": false
+               "id": 4809,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 221
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 362,
-               "planted": false
+               "id": 4815,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 362
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 93,
-               "planted": false
+               "id": 4818,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 93
+               }
             }
          ],
          "hkwater": 240,
@@ -17976,7 +24519,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -17988,7 +24530,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "cryptomilovat": {
@@ -18010,32 +24552,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 299,
-               "planted": false
+               "id": 3696,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 299
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 135,
-               "planted": false
+               "id": 3837,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 135
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 794,
-               "planted": false
+               "id": 3948,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 794
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 233,
-               "planted": false
+               "id": 4917,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 233
+               }
             }
          ],
          "hkwater": 120,
@@ -18063,7 +24617,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18075,7 +24628,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "mpock": {
@@ -18097,18 +24650,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2197,
-               "planted": false
+               "id": 3699,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2197
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 328,
-               "planted": false
+               "id": 3702,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 328
+               }
             }
          ],
          "hkwater": 60,
@@ -18136,7 +24695,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18148,7 +24706,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "fernandohg11": {
@@ -18170,18 +24728,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 180,
-               "planted": false
+               "id": 3705,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 180
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 268,
-               "planted": false
+               "id": 3708,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 268
+               }
             }
          ],
          "hkwater": 60,
@@ -18209,7 +24773,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18221,7 +24784,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ozkar13": {
@@ -18243,18 +24806,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2238,
-               "planted": false
+               "id": 3711,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2238
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 406,
-               "planted": false
+               "id": 3714,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 406
+               }
             }
          ],
          "hkwater": 60,
@@ -18282,7 +24851,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18294,7 +24862,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ozono": {
@@ -18316,18 +24884,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 527,
-               "planted": false
+               "id": 3717,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 527
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 814,
-               "planted": false
+               "id": 3720,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 814
+               }
             }
          ],
          "hkwater": 60,
@@ -18355,7 +24929,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18367,7 +24940,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "dchicaiza5": {
@@ -18389,11 +24962,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 667,
-               "planted": false
+               "id": 3723,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 667
+               }
             }
          ],
          "hkwater": 30,
@@ -18421,7 +24997,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18433,7 +25008,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "warzone2100": {
@@ -18455,11 +25030,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2326,
-               "planted": false
+               "id": 3726,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2326
+               }
             }
          ],
          "hkwater": 30,
@@ -18487,7 +25065,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18499,7 +25076,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jeanzz": {
@@ -18521,18 +25098,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2275,
-               "planted": false
+               "id": 3735,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2275
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 234,
-               "planted": false
+               "id": 3738,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 234
+               }
             }
          ],
          "hkwater": 60,
@@ -18560,7 +25143,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18572,7 +25154,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "stiven1044000000": {
@@ -18594,11 +25176,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1656,
-               "planted": false
+               "id": 3747,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1656
+               }
             }
          ],
          "hkwater": 30,
@@ -18626,7 +25211,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18638,7 +25222,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "surajbhattarai": {
@@ -18660,11 +25244,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4648,
-               "planted": false
+               "id": 3750,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4648
+               }
             }
          ],
          "hkwater": 30,
@@ -18692,7 +25279,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18704,7 +25290,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "benhaleymade": {
@@ -18726,11 +25312,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2192,
-               "planted": false
+               "id": 3831,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2192
+               }
             }
          ],
          "hkwater": 30,
@@ -18758,7 +25347,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18770,7 +25358,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "gallito": {
@@ -18792,144 +25380,204 @@ module.exports = {
          "seedCount": 20,
          "seeds": [
             {
-               "name": "Swazi Gold",
-               "spt": 3,
-               "water": 168,
-               "pr": 4640,
-               "planted": false
+               "id": 3843,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4640
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2413,
-               "planted": false
+               "id": 3846,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2413
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 119,
-               "planted": false
+               "id": 3849,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 119
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 568,
-               "planted": false
+               "id": 3852,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 568
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 618,
-               "planted": false
+               "id": 3855,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 618
+               }
             },
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2164,
-               "planted": false
+               "id": 3858,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2164
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 367,
-               "planted": false
+               "id": 3861,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 367
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 254,
-               "planted": false
+               "id": 3864,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 254
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2422,
-               "planted": false
+               "id": 3867,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2422
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 699,
-               "planted": false
+               "id": 3870,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 699
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 155,
-               "planted": false
+               "id": 3873,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 155
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 447,
-               "planted": false
+               "id": 3876,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 447
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2205,
-               "planted": false
+               "id": 3879,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2205
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 1005,
-               "planted": false
+               "id": 3882,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1005
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 488,
-               "planted": false
+               "id": 3885,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 488
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 276,
-               "planted": false
+               "id": 3888,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 276
+               }
             },
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2499,
-               "planted": false
+               "id": 3891,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2499
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1607,
-               "planted": false
+               "id": 3894,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1607
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 541,
-               "planted": false
+               "id": 3897,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 541
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 521,
-               "planted": false
+               "id": 3900,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 521
+               }
             }
          ],
          "hkwater": 600,
@@ -18957,7 +25605,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -18969,7 +25616,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "zpablo": {
@@ -18991,25 +25638,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Durban Poison",
-               "spt": 4,
-               "water": 104,
-               "pr": 2843,
-               "planted": false
+               "id": 3909,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2843
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 112,
-               "planted": false
+               "id": 3912,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 112
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 691,
-               "planted": false
+               "id": 3915,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 691
+               }
             }
          ],
          "hkwater": 90,
@@ -19037,7 +25693,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19049,7 +25704,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "weirdestwolf": {
@@ -19071,18 +25726,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Malawi",
-               "spt": 4,
-               "water": 93,
-               "pr": 2282,
-               "planted": false
+               "id": 3918,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2282
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 179,
-               "planted": false
+               "id": 3921,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 179
+               }
             }
          ],
          "hkwater": 60,
@@ -19110,7 +25771,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19122,7 +25782,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ddamiandonis": {
@@ -19144,25 +25804,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 413,
-               "planted": false
+               "id": 3951,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 413
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 604,
-               "planted": false
+               "id": 3954,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 604
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 519,
-               "planted": false
+               "id": 3957,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 519
+               }
             }
          ],
          "hkwater": 90,
@@ -19190,7 +25859,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19202,7 +25870,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "eldudu": {
@@ -19224,18 +25892,34 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 634,
-               "planted": false
+               "id": 3960,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 634
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 651,
-               "planted": false
+               "id": 4446,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 712
+               }
+            },
+            {
+               "id": 4746,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 651
+               }
             }
          ],
          "hkwater": 60,
@@ -19263,7 +25947,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19275,7 +25958,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "christian7urquia": {
@@ -19297,11 +25980,34 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1591,
-               "planted": false
+               "id": 3966,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1591
+               }
+            },
+            {
+               "id": 4587,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 221
+               }
+            },
+            {
+               "id": 4590,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 197
+               }
             }
          ],
          "hkwater": 30,
@@ -19329,7 +26035,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19341,7 +26046,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ellocohugo": {
@@ -19363,11 +26068,24 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 745,
-               "planted": false
+               "id": 3969,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 745
+               }
+            },
+            {
+               "id": 4422,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 272
+               }
             }
          ],
          "hkwater": 30,
@@ -19395,7 +26113,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19407,7 +26124,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jacielxy": {
@@ -19429,46 +26146,64 @@ module.exports = {
          "seedCount": 6,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 767,
-               "planted": false
+               "id": 3975,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 767
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 643,
-               "planted": false
+               "id": 3978,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 643
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 526,
-               "planted": false
+               "id": 3981,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 526
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 436,
-               "planted": false
+               "id": 3984,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 436
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 520,
-               "planted": false
+               "id": 3987,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 520
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 321,
-               "planted": false
+               "id": 3990,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 321
+               }
             }
          ],
          "hkwater": 180,
@@ -19496,7 +26231,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19508,7 +26242,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "sirbogavante": {
@@ -19530,25 +26264,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 689,
-               "planted": false
+               "id": 3993,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 689
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 511,
-               "planted": false
+               "id": 3996,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 511
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 50,
-               "planted": false
+               "id": 3999,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 50
+               }
             }
          ],
          "hkwater": 90,
@@ -19576,7 +26319,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19588,7 +26330,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "asas96": {
@@ -19610,25 +26352,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1780,
-               "planted": false
+               "id": 4020,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1780
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 444,
-               "planted": false
+               "id": 4023,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 444
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 216,
-               "planted": false
+               "id": 4026,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 216
+               }
             }
          ],
          "hkwater": 90,
@@ -19656,7 +26407,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19668,7 +26418,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "procash1": {
@@ -19690,18 +26440,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 826,
-               "planted": false
+               "id": 4047,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 826
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 519,
-               "planted": false
+               "id": 4050,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 519
+               }
             }
          ],
          "hkwater": 60,
@@ -19729,7 +26485,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19741,7 +26496,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "davidtradefx": {
@@ -19763,25 +26518,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 518,
-               "planted": false
+               "id": 4053,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 518
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1498,
-               "planted": false
+               "id": 4056,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1498
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 272,
-               "planted": false
+               "id": 4059,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 272
+               }
             }
          ],
          "hkwater": 90,
@@ -19809,7 +26573,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19821,7 +26584,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "oldmans": {
@@ -19843,60 +26606,104 @@ module.exports = {
          "seedCount": 8,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 667,
-               "planted": false
+               "id": 4062,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 667
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1525,
-               "planted": false
+               "id": 4065,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1525
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 682,
-               "planted": false
+               "id": 4068,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 682
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 740,
-               "planted": false
+               "id": 4071,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 740
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 416,
-               "planted": false
+               "id": 4119,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 416
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 74,
-               "planted": false
+               "id": 4122,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 74
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 332,
-               "planted": false
+               "id": 4125,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 332
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 271,
-               "planted": false
+               "id": 4128,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 271
+               }
+            },
+            {
+               "id": 4515,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 656
+               }
+            },
+            {
+               "id": 4518,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 915
+               }
             }
          ],
          "hkwater": 240,
@@ -19924,7 +26731,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -19936,7 +26742,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "tupacdre82": {
@@ -19958,11 +26764,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 338,
-               "planted": false
+               "id": 4074,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 338
+               }
             }
          ],
          "hkwater": 30,
@@ -19990,7 +26799,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20002,7 +26810,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "perezcan": {
@@ -20024,25 +26832,44 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 777,
-               "planted": false
+               "id": 4077,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 777
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 455,
-               "planted": false
+               "id": 4443,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 443
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 144,
-               "planted": false
+               "id": 4899,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 455
+               }
+            },
+            {
+               "id": 4902,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 144
+               }
             }
          ],
          "hkwater": 90,
@@ -20070,7 +26897,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20082,7 +26908,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ronny2721": {
@@ -20104,25 +26930,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 116,
-               "planted": false
+               "id": 4080,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 116
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 768,
-               "planted": false
+               "id": 4083,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 768
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 283,
-               "planted": false
+               "id": 4086,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 283
+               }
             }
          ],
          "hkwater": 90,
@@ -20150,7 +26985,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20162,7 +26996,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "mundoencriptado": {
@@ -20184,18 +27018,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 813,
-               "planted": false
+               "id": 4089,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 813
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 196,
-               "planted": false
+               "id": 4137,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 196
+               }
             }
          ],
          "hkwater": 60,
@@ -20223,7 +27063,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20235,7 +27074,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "bmck117": {
@@ -20257,39 +27096,54 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 586,
-               "planted": false
+               "id": 4092,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 586
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 269,
-               "planted": false
+               "id": 4095,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 269
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 60,
-               "planted": false
+               "id": 4098,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 60
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1690,
-               "planted": false
+               "id": 4260,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1690
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 145,
-               "planted": false
+               "id": 4263,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 145
+               }
             }
          ],
          "hkwater": 150,
@@ -20317,7 +27171,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20329,7 +27182,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "martinezams": {
@@ -20351,39 +27204,54 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 1900,
-               "planted": false
+               "id": 4101,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1900
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 835,
-               "planted": false
+               "id": 4104,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 835
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 442,
-               "planted": false
+               "id": 4107,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 442
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 126,
-               "planted": false
+               "id": 4161,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 126
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 159,
-               "planted": false
+               "id": 4164,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 159
+               }
             }
          ],
          "hkwater": 150,
@@ -20411,7 +27279,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20423,7 +27290,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "netaterra": {
@@ -20445,18 +27312,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 331,
-               "planted": false
+               "id": 4110,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 331
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1483,
-               "planted": false
+               "id": 4113,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1483
+               }
             }
          ],
          "hkwater": 60,
@@ -20484,7 +27357,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20496,7 +27368,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jerrysstyle": {
@@ -20518,11 +27390,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 366,
-               "planted": false
+               "id": 4116,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 366
+               }
             }
          ],
          "hkwater": 30,
@@ -20550,7 +27425,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20562,7 +27436,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "weedgood": {
@@ -20584,18 +27458,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 172,
-               "planted": false
+               "id": 4131,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 172
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 589,
-               "planted": false
+               "id": 4134,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 589
+               }
             }
          ],
          "hkwater": 60,
@@ -20623,7 +27503,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20635,7 +27514,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "materrila14": {
@@ -20657,18 +27536,44 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 841,
-               "planted": false
+               "id": 4149,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 218
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 421,
-               "planted": false
+               "id": 4152,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 68
+               }
+            },
+            {
+               "id": 4155,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 841
+               }
+            },
+            {
+               "id": 4158,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 421
+               }
             }
          ],
          "hkwater": 60,
@@ -20696,7 +27601,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20708,7 +27612,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "kinggo9": {
@@ -20730,25 +27634,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 322,
-               "planted": false
+               "id": 4140,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 322
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 552,
-               "planted": false
+               "id": 4143,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 552
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 807,
-               "planted": false
+               "id": 4146,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 807
+               }
             }
          ],
          "hkwater": 90,
@@ -20776,7 +27689,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20788,7 +27700,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "razyel24": {
@@ -20810,18 +27722,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1500,
-               "planted": false
+               "id": 4167,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1500
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 202,
-               "planted": false
+               "id": 4170,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 202
+               }
             }
          ],
          "hkwater": 60,
@@ -20849,7 +27767,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20861,7 +27778,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "infinito2021": {
@@ -20883,39 +27800,54 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 297,
-               "planted": false
+               "id": 4173,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 297
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 510,
-               "planted": false
+               "id": 4176,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 510
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 804,
-               "planted": false
+               "id": 4179,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 804
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 240,
-               "planted": false
+               "id": 4182,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 240
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 187,
-               "planted": false
+               "id": 4185,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 187
+               }
             }
          ],
          "hkwater": 150,
@@ -20943,7 +27875,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -20955,7 +27886,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "melcaya": {
@@ -20966,28 +27897,111 @@ module.exports = {
             "africaUsed": 0,
             "afghanistan": 0,
             "afghanistanUsed": 0,
-            "southAmerica": 0,
+            "southAmerica": 3,
             "southAmericaUsed": 0,
             "jamaica": 0,
             "jamaicaUsed": 0,
             "mexico": 1,
             "mexicoUsed": 0
          },
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 356,
-               "planted": false
+               "id": 4188,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 356
+               }
+            },
+            {
+               "id": 4473,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 746
+               }
+            },
+            {
+               "id": 4476,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 78
+               }
+            },
+            {
+               "id": 4488,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1545
+               }
+            },
+            {
+               "id": 4491,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 209
+               }
+            },
+            {
+               "id": 4494,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 458
+               }
+            },
+            {
+               "id": 5112,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 80
+               }
+            },
+            {
+               "id": 5115,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 188
+               }
+            },
+            {
+               "id": 5118,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 336
+               }
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21009,7 +28023,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21021,8 +28034,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
-         "motaStake": 0
+         "tokens": {},
+         "water": null
       },
       "largouuu": {
          "plots": {
@@ -21043,95 +28056,134 @@ module.exports = {
          "seedCount": 13,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 791,
-               "planted": false
+               "id": 4191,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 791
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 755,
-               "planted": false
+               "id": 4194,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 755
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 697,
-               "planted": false
+               "id": 4197,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 697
+               }
             },
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 1990,
-               "planted": false
+               "id": 4200,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1990
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 880,
-               "planted": false
+               "id": 4203,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 880
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 441,
-               "planted": false
+               "id": 4206,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 441
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 527,
-               "planted": false
+               "id": 4209,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 527
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 549,
-               "planted": false
+               "id": 4212,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 549
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 617,
-               "planted": false
+               "id": 4215,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 617
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 664,
-               "planted": false
+               "id": 4218,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 664
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 723,
-               "planted": false
+               "id": 4221,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 723
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 761,
-               "planted": false
+               "id": 4224,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 761
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 313,
-               "planted": false
+               "id": 4803,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 313
+               }
             }
          ],
          "hkwater": 390,
@@ -21159,7 +28211,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21171,7 +28222,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "pippex": {
@@ -21217,7 +28268,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21229,7 +28279,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "cryptosfera": {
@@ -21251,32 +28301,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 648,
-               "planted": false
+               "id": 4236,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 648
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 595,
-               "planted": false
+               "id": 4239,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 595
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 233,
-               "planted": false
+               "id": 4242,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 233
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 685,
-               "planted": false
+               "id": 4245,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 685
+               }
             }
          ],
          "hkwater": 120,
@@ -21304,7 +28366,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21316,7 +28377,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "nobutsd1974": {
@@ -21338,25 +28399,154 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 777,
-               "planted": false
+               "id": 454,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7124
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 525,
-               "planted": false
+               "id": 631,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 231
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 56,
-               "planted": false
+               "id": 2526,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2333
+               }
+            },
+            {
+               "id": 4251,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 777
+               }
+            },
+            {
+               "id": 4254,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 525
+               }
+            },
+            {
+               "id": 4257,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 56
+               }
+            },
+            {
+               "id": 4407,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 224
+               }
+            },
+            {
+               "id": 4410,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 438
+               }
+            },
+            {
+               "id": 4413,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 760
+               }
+            },
+            {
+               "id": 4464,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 246
+               }
+            },
+            {
+               "id": 4467,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 599
+               }
+            },
+            {
+               "id": 4470,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1693
+               }
+            },
+            {
+               "id": 4479,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 183
+               }
+            },
+            {
+               "id": 4482,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 505
+               }
+            },
+            {
+               "id": 4485,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 642
+               }
             }
          ],
          "hkwater": 90,
@@ -21384,7 +28574,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21396,7 +28585,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "hazeudon": {
@@ -21418,305 +28607,434 @@ module.exports = {
          "seedCount": 43,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 291,
-               "planted": false
+               "id": 4269,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 291
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 533,
-               "planted": false
+               "id": 4272,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 533
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 867,
-               "planted": false
+               "id": 4275,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 867
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 232,
-               "planted": false
+               "id": 4278,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 232
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 650,
-               "planted": false
+               "id": 4281,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 650
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 169,
-               "planted": false
+               "id": 4284,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 169
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 108,
-               "planted": false
+               "id": 4287,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 108
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 414,
-               "planted": false
+               "id": 4290,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 414
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 490,
-               "planted": false
+               "id": 4293,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 490
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 359,
-               "planted": false
+               "id": 4296,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 359
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 183,
-               "planted": false
+               "id": 4299,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 183
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 235,
-               "planted": false
+               "id": 4302,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 235
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 53,
-               "planted": false
+               "id": 4305,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 53
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 320,
-               "planted": false
+               "id": 4308,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 320
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 123,
-               "planted": false
+               "id": 4311,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 123
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 33,
-               "planted": false
+               "id": 4314,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 33
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 330,
-               "planted": false
+               "id": 4317,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 330
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 74,
-               "planted": false
+               "id": 4320,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 101
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 101,
-               "planted": false
+               "id": 4323,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 74
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 262,
-               "planted": false
+               "id": 4326,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 262
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 246,
-               "planted": false
+               "id": 4329,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 246
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 262,
-               "planted": false
+               "id": 4332,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 262
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 175,
-               "planted": false
+               "id": 4335,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 175
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 173,
-               "planted": false
+               "id": 4338,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 173
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 258,
-               "planted": false
+               "id": 4341,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 258
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 99,
-               "planted": false
+               "id": 4344,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 99
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 73,
-               "planted": false
+               "id": 4347,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 73
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 119,
-               "planted": false
+               "id": 4350,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 119
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 270,
-               "planted": false
+               "id": 4353,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 270
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 199,
-               "planted": false
+               "id": 4356,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 199
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 179,
-               "planted": false
+               "id": 4359,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 179
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 146,
-               "planted": false
+               "id": 4362,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 146
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 339,
-               "planted": false
+               "id": 4365,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 339
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 242,
-               "planted": false
+               "id": 4368,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 242
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 99,
-               "planted": false
+               "id": 4371,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 99
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 150,
-               "planted": false
+               "id": 4374,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 150
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 287,
-               "planted": false
+               "id": 4377,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 287
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 62,
-               "planted": false
+               "id": 4380,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 62
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 315,
-               "planted": false
+               "id": 4383,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 315
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 37,
-               "planted": false
+               "id": 4386,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 37
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 324,
-               "planted": false
+               "id": 4389,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 324
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 318,
-               "planted": false
+               "id": 4392,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 318
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 83,
-               "planted": false
+               "id": 4395,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 83
+               }
             }
          ],
          "hkwater": 1290,
@@ -21744,7 +29062,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21756,7 +29073,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "canna-curate": {
@@ -21778,11 +29095,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 380,
-               "planted": false
+               "id": 4401,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 380
+               }
             }
          ],
          "hkwater": 30,
@@ -21810,7 +29130,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21822,7 +29141,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "victorycoin23": {
@@ -21844,18 +29163,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 619,
-               "planted": false
+               "id": 4404,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 619
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 87,
-               "planted": false
+               "id": 4650,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 87
+               }
             }
          ],
          "hkwater": 60,
@@ -21883,7 +29208,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21895,7 +29219,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "javier42": {
@@ -21932,25 +29256,34 @@ module.exports = {
          "seedCount": 3,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 219,
-               "planted": false
+               "id": 4623,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 219
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 198,
-               "planted": false
+               "id": 4812,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 198
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 666,
-               "planted": false
+               "id": 4911,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 666
+               }
             }
          ],
          "hkwater": 90,
@@ -21978,7 +29311,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -21990,7 +29322,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "javieruscu69": {
@@ -22027,18 +29359,44 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 515,
-               "planted": false
+               "id": 4617,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 666
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 100,
-               "planted": false
+               "id": 4620,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 674
+               }
+            },
+            {
+               "id": 4626,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 515
+               }
+            },
+            {
+               "id": 4629,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 100
+               }
             }
          ],
          "hkwater": 60,
@@ -22066,7 +29424,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22078,7 +29435,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "robin-nrs": {
@@ -22115,18 +29472,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 90,
-               "planted": false
+               "id": 4632,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 90
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 578,
-               "planted": false
+               "id": 4635,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 578
+               }
             }
          ],
          "hkwater": 60,
@@ -22154,7 +29517,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22166,7 +29528,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "sachique23": {
@@ -22203,32 +29565,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 283,
-               "planted": false
+               "id": 4659,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 283
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 359,
-               "planted": false
+               "id": 4662,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 359
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 691,
-               "planted": false
+               "id": 4665,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 691
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 60,
-               "planted": false
+               "id": 4668,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 60
+               }
             }
          ],
          "hkwater": 120,
@@ -22256,7 +29630,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22268,7 +29641,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "danny198": {
@@ -22305,18 +29678,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 686,
-               "planted": false
+               "id": 4683,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 686
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 639,
-               "planted": false
+               "id": 4686,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 639
+               }
             }
          ],
          "hkwater": 60,
@@ -22344,7 +29723,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22356,7 +29734,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "flakkaseagulls": {
@@ -22393,11 +29771,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 468,
-               "planted": false
+               "id": 4689,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 468
+               }
             }
          ],
          "hkwater": 30,
@@ -22425,7 +29806,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22437,7 +29817,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "unschool": {
@@ -22474,11 +29854,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 189,
-               "planted": false
+               "id": 4692,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 189
+               }
             }
          ],
          "hkwater": 30,
@@ -22506,7 +29889,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22518,7 +29900,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "automaton": {
@@ -22555,11 +29937,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 509,
-               "planted": false
+               "id": 4695,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 509
+               }
             }
          ],
          "hkwater": 30,
@@ -22587,7 +29972,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22599,7 +29983,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "emsenn0": {
@@ -22636,11 +30020,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 282,
-               "planted": false
+               "id": 4698,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 282
+               }
             }
          ],
          "hkwater": 30,
@@ -22668,7 +30055,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22680,7 +30066,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "aniol77": {
@@ -22717,18 +30103,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 505,
-               "planted": false
+               "id": 4713,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 505
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 264,
-               "planted": false
+               "id": 4716,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 264
+               }
             }
          ],
          "hkwater": 60,
@@ -22756,7 +30148,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22768,7 +30159,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "harolac": {
@@ -22805,32 +30196,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 899,
-               "planted": false
+               "id": 4719,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 899
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 373,
-               "planted": false
+               "id": 4722,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 373
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 140,
-               "planted": false
+               "id": 4725,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 140
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 105,
-               "planted": false
+               "id": 4728,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 105
+               }
             }
          ],
          "hkwater": 120,
@@ -22858,7 +30261,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22870,7 +30272,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "hivetrending": {
@@ -22907,11 +30309,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 102,
-               "planted": false
+               "id": 4731,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 102
+               }
             }
          ],
          "hkwater": 30,
@@ -22939,7 +30344,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -22951,7 +30355,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "drowel": {
@@ -22988,67 +30392,94 @@ module.exports = {
          "seedCount": 9,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 39,
-               "planted": false
+               "id": 4749,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 39
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 489,
-               "planted": false
+               "id": 4752,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 489
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 834,
-               "planted": false
+               "id": 4755,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 834
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 215,
-               "planted": false
+               "id": 4758,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 215
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 124,
-               "planted": false
+               "id": 4761,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 124
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 180,
-               "planted": false
+               "id": 4764,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 180
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 479,
-               "planted": false
+               "id": 4767,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 479
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 312,
-               "planted": false
+               "id": 4770,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 312
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 144,
-               "planted": false
+               "id": 4773,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 144
+               }
             }
          ],
          "hkwater": 270,
@@ -23076,7 +30507,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -23088,7 +30518,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "apzyx": {
@@ -23125,32 +30555,44 @@ module.exports = {
          "seedCount": 4,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 281,
-               "planted": false
+               "id": 4776,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 281
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 366,
-               "planted": false
+               "id": 4779,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 366
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 812,
-               "planted": false
+               "id": 4782,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 812
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 337,
-               "planted": false
+               "id": 4785,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 337
+               }
             }
          ],
          "hkwater": 120,
@@ -23178,7 +30620,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -23190,7 +30631,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "funnel": {
@@ -23227,11 +30668,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 399,
-               "planted": false
+               "id": 4821,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 399
+               }
             }
          ],
          "hkwater": 30,
@@ -23259,7 +30703,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -23271,7 +30714,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "tr4ktrotacielo5": {
@@ -23308,11 +30751,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2112,
-               "planted": false
+               "id": 4824,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2112
+               }
             }
          ],
          "hkwater": 30,
@@ -23340,7 +30786,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -23352,7 +30797,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "aguilax": {
@@ -23389,39 +30834,54 @@ module.exports = {
          "seedCount": 5,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 614,
-               "planted": false
+               "id": 4836,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 614
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1587,
-               "planted": false
+               "id": 4839,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1587
+               }
             },
             {
-               "name": "Hindu Kush",
-               "spt": 4,
-               "water": 82,
-               "pr": 2029,
-               "planted": false
+               "id": 4842,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2029
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 150,
-               "planted": false
+               "id": 4845,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 150
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 405,
-               "planted": false
+               "id": 4848,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 405
+               }
             }
          ],
          "hkwater": 150,
@@ -23449,7 +30909,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -23461,7 +30920,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "migueldavidor": {
@@ -23498,11 +30957,14 @@ module.exports = {
          "seedCount": 1,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 320,
-               "planted": false
+               "id": 4851,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 320
+               }
             }
          ],
          "hkwater": 30,
@@ -23530,7 +30992,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -23542,7 +31003,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "brad12": {
@@ -23579,18 +31040,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 420,
-               "planted": false
+               "id": 4854,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 420
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 41,
-               "planted": false
+               "id": 4857,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 41
+               }
             }
          ],
          "hkwater": 60,
@@ -23618,7 +31085,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -23630,7 +31096,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "fxish": {
@@ -23667,74 +31133,104 @@ module.exports = {
          "seedCount": 10,
          "seeds": [
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 800,
-               "planted": false
+               "id": 4860,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 800
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 768,
-               "planted": false
+               "id": 4863,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 768
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1474,
-               "planted": false
+               "id": 4866,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1474
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 737,
-               "planted": false
+               "id": 4869,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 737
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 764,
-               "planted": false
+               "id": 4872,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 764
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 837,
-               "planted": false
+               "id": 4875,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 837
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 774,
-               "planted": false
+               "id": 4878,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 774
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 712,
-               "planted": false
+               "id": 4881,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 712
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 618,
-               "planted": false
+               "id": 4884,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 618
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 757,
-               "planted": false
+               "id": 4887,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 757
+               }
             }
          ],
          "hkwater": 300,
@@ -23762,7 +31258,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -23774,7 +31269,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ctdub406": {
@@ -23811,256 +31306,364 @@ module.exports = {
          "seedCount": 39,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 293,
-               "planted": false
+               "id": 4920,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 293
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 465,
-               "planted": false
+               "id": 4923,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 465
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 685,
-               "planted": false
+               "id": 4926,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 685
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 290,
-               "planted": false
+               "id": 4929,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 290
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 480,
-               "planted": false
+               "id": 4932,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 480
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 695,
-               "planted": false
+               "id": 4935,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 695
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 201,
-               "planted": false
+               "id": 4938,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 201
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 461,
-               "planted": false
+               "id": 4941,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 461
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 699,
-               "planted": false
+               "id": 4944,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 699
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 182,
-               "planted": false
+               "id": 4947,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 182
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 563,
-               "planted": false
+               "id": 4950,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 563
+               }
             },
             {
-               "name": "Afghani",
-               "spt": 5,
-               "water": 70,
-               "pr": 1586,
-               "planted": false
+               "id": 4953,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1586
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 839,
-               "planted": false
+               "id": 4956,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 839
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 401,
-               "planted": false
+               "id": 4959,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 401
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 31,
-               "planted": false
+               "id": 4962,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 31
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 674,
-               "planted": false
+               "id": 4965,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 674
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 469,
-               "planted": false
+               "id": 4968,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 469
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 305,
-               "planted": false
+               "id": 4971,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 305
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 784,
-               "planted": false
+               "id": 4974,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 784
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 533,
-               "planted": false
+               "id": 4977,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 533
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 242,
-               "planted": false
+               "id": 4980,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 242
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 638,
-               "planted": false
+               "id": 4983,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 638
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 549,
-               "planted": false
+               "id": 4986,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 549
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 236,
-               "planted": false
+               "id": 4989,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 236
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 696,
-               "planted": false
+               "id": 4992,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 696
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 438,
-               "planted": false
+               "id": 4995,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 438
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 94,
-               "planted": false
+               "id": 4998,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 94
+               }
             },
             {
-               "name": "Lashkar Gah",
-               "spt": 5,
-               "water": 43,
-               "pr": 950,
-               "planted": false
+               "id": 5001,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 950
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 744,
-               "planted": false
+               "id": 5004,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 744
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 538,
-               "planted": false
+               "id": 5007,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 538
+               }
             },
             {
-               "name": "Colombian Gold",
-               "spt": 7,
-               "water": 10,
-               "pr": 59,
-               "planted": false
+               "id": 5010,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 59
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 411,
-               "planted": false
+               "id": 5013,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 411
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 200,
-               "planted": false
+               "id": 5016,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 200
+               }
             },
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 159,
-               "planted": false
+               "id": 5019,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 159
+               }
             },
             {
-               "name": "Acapulco Gold",
-               "spt": 6,
-               "water": 23,
-               "pr": 573,
-               "planted": false
+               "id": 5022,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 573
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 789,
-               "planted": false
+               "id": 5025,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 789
+               }
             }
          ],
          "hkwater": 1170,
@@ -24088,7 +31691,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -24100,7 +31702,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "skylinebuds": {
@@ -24137,18 +31739,24 @@ module.exports = {
          "seedCount": 2,
          "seeds": [
             {
-               "name": "Panama Red",
-               "spt": 7,
-               "water": 9,
-               "pr": 139,
-               "planted": false
+               "id": 5028,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 139
+               }
             },
             {
-               "name": "Mazar I Sharif",
-               "spt": 6,
-               "water": 33,
-               "pr": 773,
-               "planted": false
+               "id": 5031,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 773
+               }
             }
          ],
          "hkwater": 60,
@@ -24176,7 +31784,6 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "buds": 0,
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -24188,7 +31795,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "g0nzal0t": {
@@ -24223,7 +31830,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 322,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 242
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24248,7 +31866,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24261,7 +31878,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "nftmart.cards": {
@@ -24296,7 +31913,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 5109,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 266
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24321,7 +31949,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24334,7 +31961,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "alfa16": {
@@ -24369,7 +31996,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1500,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 238
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24394,7 +32032,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24407,7 +32044,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "pepeymeli": {
@@ -24442,7 +32079,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 493,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 444
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24467,7 +32115,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24480,7 +32127,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "dhodl": {
@@ -24540,7 +32187,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24553,7 +32199,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "rishi556": {
@@ -24588,7 +32234,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 556,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 423
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24613,7 +32270,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24626,7 +32282,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "gamewatch": {
@@ -24661,7 +32317,58 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1498,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 68
+               }
+            },
+            {
+               "id": 1502,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1558
+               }
+            },
+            {
+               "id": 1503,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 771
+               }
+            },
+            {
+               "id": 1504,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2377
+               }
+            },
+            {
+               "id": 1505,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2918
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24686,7 +32393,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24699,7 +32405,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "nftmarket": {
@@ -24759,7 +32465,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24772,7 +32477,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "mulletwang": {
@@ -24807,7 +32512,738 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1050,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 258
+               }
+            },
+            {
+               "id": 1112,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7290
+               }
+            },
+            {
+               "id": 1113,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7124
+               }
+            },
+            {
+               "id": 1114,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7142
+               }
+            },
+            {
+               "id": 1115,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7405
+               }
+            },
+            {
+               "id": 1116,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7051
+               }
+            },
+            {
+               "id": 1117,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7249
+               }
+            },
+            {
+               "id": 1118,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6379
+               }
+            },
+            {
+               "id": 1119,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6594
+               }
+            },
+            {
+               "id": 1121,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6480
+               }
+            },
+            {
+               "id": 1123,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5890
+               }
+            },
+            {
+               "id": 1124,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6187
+               }
+            },
+            {
+               "id": 1126,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6479
+               }
+            },
+            {
+               "id": 1128,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5793
+               }
+            },
+            {
+               "id": 1130,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5545
+               }
+            },
+            {
+               "id": 1132,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6981
+               }
+            },
+            {
+               "id": 1134,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6224
+               }
+            },
+            {
+               "id": 1137,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6086
+               }
+            },
+            {
+               "id": 1138,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6245
+               }
+            },
+            {
+               "id": 1140,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4674
+               }
+            },
+            {
+               "id": 1141,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2371
+               }
+            },
+            {
+               "id": 1142,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2447
+               }
+            },
+            {
+               "id": 1143,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2805
+               }
+            },
+            {
+               "id": 1144,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2473
+               }
+            },
+            {
+               "id": 1145,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2424
+               }
+            },
+            {
+               "id": 1146,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2405
+               }
+            },
+            {
+               "id": 1147,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2251
+               }
+            },
+            {
+               "id": 1148,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2340
+               }
+            },
+            {
+               "id": 1149,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2236
+               }
+            },
+            {
+               "id": 1150,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2262
+               }
+            },
+            {
+               "id": 1151,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 799
+               }
+            },
+            {
+               "id": 1152,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 727
+               }
+            },
+            {
+               "id": 1153,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1715
+               }
+            },
+            {
+               "id": 1154,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 773
+               }
+            },
+            {
+               "id": 1155,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1597
+               }
+            },
+            {
+               "id": 1156,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 885
+               }
+            },
+            {
+               "id": 1157,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 656
+               }
+            },
+            {
+               "id": 1158,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 631
+               }
+            },
+            {
+               "id": 1159,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1773
+               }
+            },
+            {
+               "id": 1160,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 800
+               }
+            },
+            {
+               "id": 1161,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 562
+               }
+            },
+            {
+               "id": 1162,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 512
+               }
+            },
+            {
+               "id": 1163,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 455
+               }
+            },
+            {
+               "id": 1164,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 460
+               }
+            },
+            {
+               "id": 1165,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 378
+               }
+            },
+            {
+               "id": 1166,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 558
+               }
+            },
+            {
+               "id": 1167,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 460
+               }
+            },
+            {
+               "id": 1168,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 470
+               }
+            },
+            {
+               "id": 1169,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 567
+               }
+            },
+            {
+               "id": 1170,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 407
+               }
+            },
+            {
+               "id": 1171,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 478
+               }
+            },
+            {
+               "id": 1172,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 397
+               }
+            },
+            {
+               "id": 1173,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 390
+               }
+            },
+            {
+               "id": 1174,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 428
+               }
+            },
+            {
+               "id": 1175,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 132
+               }
+            },
+            {
+               "id": 1176,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 166
+               }
+            },
+            {
+               "id": 1177,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 167
+               }
+            },
+            {
+               "id": 1178,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 271
+               }
+            },
+            {
+               "id": 1179,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 339
+               }
+            },
+            {
+               "id": 1180,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 190
+               }
+            },
+            {
+               "id": 1181,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 33
+               }
+            },
+            {
+               "id": 1182,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 222
+               }
+            },
+            {
+               "id": 1183,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 78
+               }
+            },
+            {
+               "id": 1184,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 210
+               }
+            },
+            {
+               "id": 1185,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 194
+               }
+            },
+            {
+               "id": 1186,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 242
+               }
+            },
+            {
+               "id": 1187,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 236
+               }
+            },
+            {
+               "id": 1188,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 181
+               }
+            },
+            {
+               "id": 1189,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 195
+               }
+            },
+            {
+               "id": 1190,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 201
+               }
+            },
+            {
+               "id": 1191,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 109
+               }
+            },
+            {
+               "id": 1192,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 263
+               }
+            },
+            {
+               "id": 1193,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 179
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24832,7 +33268,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24845,7 +33280,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "saboin": {
@@ -24880,7 +33315,258 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1048,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 67
+               }
+            },
+            {
+               "id": 1297,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 193
+               }
+            },
+            {
+               "id": 1298,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 134
+               }
+            },
+            {
+               "id": 1299,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 174
+               }
+            },
+            {
+               "id": 1300,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 152
+               }
+            },
+            {
+               "id": 1301,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 60
+               }
+            },
+            {
+               "id": 1302,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 175
+               }
+            },
+            {
+               "id": 1303,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 79
+               }
+            },
+            {
+               "id": 1304,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 191
+               }
+            },
+            {
+               "id": 1305,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 308
+               }
+            },
+            {
+               "id": 1306,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 93
+               }
+            },
+            {
+               "id": 1307,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6452
+               }
+            },
+            {
+               "id": 1308,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6230
+               }
+            },
+            {
+               "id": 1309,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6469
+               }
+            },
+            {
+               "id": 1310,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5911
+               }
+            },
+            {
+               "id": 1311,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5858
+               }
+            },
+            {
+               "id": 1312,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6496
+               }
+            },
+            {
+               "id": 1313,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6069
+               }
+            },
+            {
+               "id": 1314,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6693
+               }
+            },
+            {
+               "id": 1315,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2426
+               }
+            },
+            {
+               "id": 1316,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2479
+               }
+            },
+            {
+               "id": 1317,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2448
+               }
+            },
+            {
+               "id": 1318,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2515
+               }
+            },
+            {
+               "id": 1319,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3555
+               }
+            },
+            {
+               "id": 1320,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4629
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24905,7 +33591,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24918,7 +33603,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "molovelly": {
@@ -24953,7 +33638,118 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1356,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5884
+               }
+            },
+            {
+               "id": 1357,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 217
+               }
+            },
+            {
+               "id": 1360,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2351
+               }
+            },
+            {
+               "id": 1361,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 94
+               }
+            },
+            {
+               "id": 1362,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 74
+               }
+            },
+            {
+               "id": 1364,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 138
+               }
+            },
+            {
+               "id": 1365,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 271
+               }
+            },
+            {
+               "id": 1367,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 132
+               }
+            },
+            {
+               "id": 1370,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 190
+               }
+            },
+            {
+               "id": 1371,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 154
+               }
+            },
+            {
+               "id": 1373,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 104
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -24978,7 +33774,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -24991,7 +33786,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "anarcist": {
@@ -25051,7 +33846,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25064,7 +33858,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "simgirl": {
@@ -25099,7 +33893,68 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1389,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 281
+               }
+            },
+            {
+               "id": 1390,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 124
+               }
+            },
+            {
+               "id": 1391,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 87
+               }
+            },
+            {
+               "id": 1392,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 163
+               }
+            },
+            {
+               "id": 1393,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 232
+               }
+            },
+            {
+               "id": 1394,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 296
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25124,7 +33979,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25137,7 +33991,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "guiltyparties": {
@@ -25172,7 +34026,68 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1395,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 101
+               }
+            },
+            {
+               "id": 1397,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 240
+               }
+            },
+            {
+               "id": 1400,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 175
+               }
+            },
+            {
+               "id": 1402,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 309
+               }
+            },
+            {
+               "id": 1403,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 290
+               }
+            },
+            {
+               "id": 1405,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 330
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25197,7 +34112,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25210,7 +34124,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "prettynicevideo": {
@@ -25245,7 +34159,68 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1408,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 191
+               }
+            },
+            {
+               "id": 1409,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 242
+               }
+            },
+            {
+               "id": 1411,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 270
+               }
+            },
+            {
+               "id": 1412,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 39
+               }
+            },
+            {
+               "id": 1415,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 118
+               }
+            },
+            {
+               "id": 1417,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 63
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25270,7 +34245,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25283,7 +34257,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "meowgan": {
@@ -25318,7 +34292,58 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1418,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 184
+               }
+            },
+            {
+               "id": 1421,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 207
+               }
+            },
+            {
+               "id": 1423,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 252
+               }
+            },
+            {
+               "id": 1424,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 262
+               }
+            },
+            {
+               "id": 1426,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 249
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25343,7 +34368,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25356,7 +34380,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "enginewitty": {
@@ -25391,7 +34415,98 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1429,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 173
+               }
+            },
+            {
+               "id": 1431,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 215
+               }
+            },
+            {
+               "id": 1432,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 140
+               }
+            },
+            {
+               "id": 1434,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 109
+               }
+            },
+            {
+               "id": 1435,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 321
+               }
+            },
+            {
+               "id": 1437,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 101
+               }
+            },
+            {
+               "id": 1439,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 312
+               }
+            },
+            {
+               "id": 1441,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 244
+               }
+            },
+            {
+               "id": 1443,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 225
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25416,7 +34531,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25429,7 +34543,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "smigirl": {
@@ -25464,7 +34578,78 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1376,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 309
+               }
+            },
+            {
+               "id": 1377,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 228
+               }
+            },
+            {
+               "id": 1379,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 270
+               }
+            },
+            {
+               "id": 1382,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 99
+               }
+            },
+            {
+               "id": 1384,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 221
+               }
+            },
+            {
+               "id": 1386,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 134
+               }
+            },
+            {
+               "id": 1388,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 129
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25489,7 +34674,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25502,7 +34686,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "christoryan": {
@@ -25537,7 +34721,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1445,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6332
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25562,7 +34757,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25575,7 +34769,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "choosefreedom": {
@@ -25610,7 +34804,88 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1447,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6197
+               }
+            },
+            {
+               "id": 1449,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2182
+               }
+            },
+            {
+               "id": 1450,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2366
+               }
+            },
+            {
+               "id": 1451,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 652
+               }
+            },
+            {
+               "id": 1452,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 782
+               }
+            },
+            {
+               "id": 1453,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 611
+               }
+            },
+            {
+               "id": 1454,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 37
+               }
+            },
+            {
+               "id": 1455,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 164
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25635,7 +34910,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25648,7 +34922,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "bauloewe": {
@@ -25683,7 +34957,108 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1456,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5519
+               }
+            },
+            {
+               "id": 1458,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6425
+               }
+            },
+            {
+               "id": 1461,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5772
+               }
+            },
+            {
+               "id": 1463,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2468
+               }
+            },
+            {
+               "id": 1465,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2340
+               }
+            },
+            {
+               "id": 1467,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2416
+               }
+            },
+            {
+               "id": 1468,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2330
+               }
+            },
+            {
+               "id": 1471,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2504
+               }
+            },
+            {
+               "id": 1472,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5667
+               }
+            },
+            {
+               "id": 1475,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 161
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25708,7 +35083,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25721,7 +35095,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "news-today": {
@@ -25756,7 +35130,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1477,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 147
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25781,7 +35166,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25794,7 +35178,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "heremonium": {
@@ -25829,7 +35213,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1478,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 212
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25854,7 +35249,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25867,7 +35261,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "rachaeldwatson": {
@@ -25902,7 +35296,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1481,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 222
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -25927,7 +35332,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -25940,7 +35344,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "myanmarbook": {
@@ -25975,7 +35379,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1483,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 122
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26000,7 +35415,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26013,7 +35427,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "jbsharkey": {
@@ -26048,7 +35462,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1485,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 235
+               }
+            },
+            {
+               "id": 1486,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 96
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26073,7 +35508,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26086,7 +35520,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "schlees": {
@@ -26121,7 +35555,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1489,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 175
+               }
+            },
+            {
+               "id": 1491,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 204
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26146,7 +35601,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26159,7 +35613,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "altonos": {
@@ -26194,7 +35648,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1492,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 309
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26219,7 +35684,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26232,7 +35696,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "bibdieufr": {
@@ -26267,7 +35731,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1495,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 136
+               }
+            },
+            {
+               "id": 1496,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 148
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26292,7 +35777,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26305,7 +35789,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "mickvir": {
@@ -26340,7 +35824,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1507,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Kilimanjaro",
+                  "SPT": 3,
+                  "WATER": 137,
+                  "PR": 3830
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26365,7 +35860,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26378,7 +35872,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "buckydurddle": {
@@ -26413,7 +35907,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1509,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2325
+               }
+            },
+            {
+               "id": 1510,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2454
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26438,7 +35953,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26451,7 +35965,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "disregardfiat": {
@@ -26486,7 +36000,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1512,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2336
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26511,7 +36036,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26524,7 +36048,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "psyo": {
@@ -26559,7 +36083,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1514,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4663
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26584,7 +36119,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26597,7 +36131,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ghosthunter1": {
@@ -26632,7 +36166,78 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1517,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2204
+               }
+            },
+            {
+               "id": 1519,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2254
+               }
+            },
+            {
+               "id": 1520,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6212
+               }
+            },
+            {
+               "id": 1522,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 5934
+               }
+            },
+            {
+               "id": 1525,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6346
+               }
+            },
+            {
+               "id": 1527,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 531
+               }
+            },
+            {
+               "id": 1528,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 571
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26657,7 +36262,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26670,7 +36274,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ericwilson": {
@@ -26705,7 +36309,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1530,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 393
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26730,7 +36345,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26743,7 +36357,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "songokubg": {
@@ -26778,7 +36392,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1531,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 541
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26803,7 +36428,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26816,7 +36440,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "muru": {
@@ -26851,7 +36475,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1533,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 387
+               }
+            },
+            {
+               "id": 1536,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 497
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26876,7 +36521,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26889,7 +36533,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "vibrasphere": {
@@ -26924,7 +36568,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1538,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 458
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -26949,7 +36604,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -26962,7 +36616,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "nutritree": {
@@ -26997,7 +36651,88 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1541,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 246
+               }
+            },
+            {
+               "id": 1543,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 321
+               }
+            },
+            {
+               "id": 1545,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 184
+               }
+            },
+            {
+               "id": 1546,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 206
+               }
+            },
+            {
+               "id": 1547,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2254
+               }
+            },
+            {
+               "id": 1548,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2281
+               }
+            },
+            {
+               "id": 1549,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 361
+               }
+            },
+            {
+               "id": 1550,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 378
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27022,7 +36757,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27035,7 +36769,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "perceval": {
@@ -27070,7 +36804,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1558,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 205,
+                  "PR": 6317
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27095,7 +36840,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27108,7 +36852,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ceheran": {
@@ -27143,7 +36887,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1757,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 45
+               }
+            },
+            {
+               "id": 1760,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 242
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27168,7 +36933,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27181,7 +36945,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "ooakosimo": {
@@ -27216,7 +36980,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1772,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2471
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27241,7 +37016,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27254,7 +37028,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "bad-goyim": {
@@ -27289,7 +37063,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1808,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 505
+               }
+            },
+            {
+               "id": 1811,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 269
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27314,7 +37109,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27327,7 +37121,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "dannychain": {
@@ -27362,7 +37156,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 1814,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 165
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27387,7 +37192,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27400,7 +37204,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "drugwar": {
@@ -27435,7 +37239,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 2064,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 168,
+                  "PR": 4607
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27460,7 +37275,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27473,7 +37287,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "rahul.stan": {
@@ -27508,7 +37322,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 2133,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2396
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27533,7 +37358,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27546,7 +37370,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "silverlining1": {
@@ -27581,7 +37405,58 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 2265,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 305
+               }
+            },
+            {
+               "id": 4638,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 137
+               }
+            },
+            {
+               "id": 4641,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 192
+               }
+            },
+            {
+               "id": 4644,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 410
+               }
+            },
+            {
+               "id": 4647,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 679
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27606,7 +37481,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27619,7 +37493,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "marcss19": {
@@ -27654,7 +37528,58 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 2268,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 235
+               }
+            },
+            {
+               "id": 2283,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 99
+               }
+            },
+            {
+               "id": 2286,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2178
+               }
+            },
+            {
+               "id": 2289,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 265
+               }
+            },
+            {
+               "id": 2292,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 718
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27679,7 +37604,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27692,7 +37616,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "chronocrypto": {
@@ -27727,7 +37651,98 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 3753,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2310
+               }
+            },
+            {
+               "id": 3756,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2338
+               }
+            },
+            {
+               "id": 3759,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1917
+               }
+            },
+            {
+               "id": 3762,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1685
+               }
+            },
+            {
+               "id": 3765,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 518
+               }
+            },
+            {
+               "id": 3768,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 97
+               }
+            },
+            {
+               "id": 3771,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 274
+               }
+            },
+            {
+               "id": 3774,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 117
+               }
+            },
+            {
+               "id": 3777,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 120
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27752,7 +37767,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27765,7 +37779,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "gatticus": {
@@ -27800,7 +37814,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4416,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 161
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27825,7 +37850,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27838,7 +37862,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "monsterbuster": {
@@ -27873,7 +37897,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4419,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 256
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27898,7 +37933,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27911,7 +37945,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "mariorojas": {
@@ -27946,7 +37980,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4425,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 82
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -27971,7 +38016,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -27984,7 +38028,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "elsith80": {
@@ -28019,7 +38063,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4428,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 986
+               }
+            },
+            {
+               "id": 4431,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 507
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28044,7 +38109,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28057,7 +38121,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "frijolitomx": {
@@ -28092,7 +38156,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4437,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 597
+               }
+            },
+            {
+               "id": 4440,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 537
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28117,7 +38202,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28130,7 +38214,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "thebeardflex": {
@@ -28165,7 +38249,48 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4449,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 818
+               }
+            },
+            {
+               "id": 4461,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 447
+               }
+            },
+            {
+               "id": 4560,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 220
+               }
+            },
+            {
+               "id": 4671,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 262
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28190,7 +38315,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28203,7 +38327,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "huzzah": {
@@ -28238,7 +38362,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4452,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 366
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28263,7 +38398,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28276,7 +38410,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "whoismyhero": {
@@ -28311,7 +38445,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4497,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 661
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28336,7 +38481,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28349,7 +38493,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "luisx22": {
@@ -28384,7 +38528,28 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4500,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 625
+               }
+            },
+            {
+               "id": 4503,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 309
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28409,7 +38574,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28422,7 +38586,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "domeownik": {
@@ -28457,7 +38621,38 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4506,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 151
+               }
+            },
+            {
+               "id": 4509,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 96
+               }
+            },
+            {
+               "id": 4512,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 52
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28482,7 +38677,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28495,7 +38689,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "brazuk": {
@@ -28530,7 +38724,58 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4521,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 155
+               }
+            },
+            {
+               "id": 4524,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 532
+               }
+            },
+            {
+               "id": 4527,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 151
+               }
+            },
+            {
+               "id": 4530,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 198
+               }
+            },
+            {
+               "id": 4533,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 540
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28555,7 +38800,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28568,7 +38812,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "angy2882": {
@@ -28603,7 +38847,58 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4539,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 525
+               }
+            },
+            {
+               "id": 4542,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 414
+               }
+            },
+            {
+               "id": 4545,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 588
+               }
+            },
+            {
+               "id": 4548,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 686
+               }
+            },
+            {
+               "id": 4551,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 814
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28628,7 +38923,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28641,7 +38935,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "zerokdark": {
@@ -28676,7 +38970,78 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4563,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 645
+               }
+            },
+            {
+               "id": 4566,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1706
+               }
+            },
+            {
+               "id": 4569,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 594
+               }
+            },
+            {
+               "id": 4572,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 176
+               }
+            },
+            {
+               "id": 4575,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 114
+               }
+            },
+            {
+               "id": 4578,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 71
+               }
+            },
+            {
+               "id": 4581,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 227
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28701,7 +39066,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28714,7 +39078,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "andresito9522": {
@@ -28749,7 +39113,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4584,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 156
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28774,7 +39149,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28787,7 +39161,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "franvit1979": {
@@ -28822,7 +39196,38 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4593,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 284
+               }
+            },
+            {
+               "id": 4599,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 652
+               }
+            },
+            {
+               "id": 4602,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 141
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28847,7 +39252,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28860,7 +39264,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "junkfeathers": {
@@ -28895,7 +39299,18 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4596,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 108
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28920,7 +39335,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -28933,7 +39347,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "supablaza": {
@@ -28968,7 +39382,48 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4605,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 288
+               }
+            },
+            {
+               "id": 4608,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 547
+               }
+            },
+            {
+               "id": 4611,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1695
+               }
+            },
+            {
+               "id": 4614,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 48
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -28993,7 +39448,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -29006,7 +39460,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
       },
       "crishor": {
@@ -29041,7 +39495,38 @@ module.exports = {
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
-         "seeds": [],
+         "seeds": [
+            {
+               "id": 4788,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 193
+               }
+            },
+            {
+               "id": 4791,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 760
+               }
+            },
+            {
+               "id": 4794,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 434
+               }
+            }
+         ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
@@ -29066,7 +39551,6 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
-         "buds": 0,
          "dailyBudDeposit": 0,
          "xp": 0,
          "lvl": 1,
@@ -29079,9 +39563,1237 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "mota": 0,
+         "tokens": {},
          "motaStake": 0
+      },
+      "smokerings": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 2,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 4,
+         "seedCount": 4,
+         "seeds": [
+            {
+               "id": 5046,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 700
+               }
+            },
+            {
+               "id": 5049,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 978
+               }
+            },
+            {
+               "id": 5052,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 328
+               }
+            },
+            {
+               "id": 5058,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 423
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "bhaiyas": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 5055,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 527
+               }
+            },
+            {
+               "id": 5082,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 204
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "roshansuares": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 3,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 5061,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 135
+               }
+            },
+            {
+               "id": 5076,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 523
+               }
+            },
+            {
+               "id": 5079,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 751
+               }
+            },
+            {
+               "id": 5097,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 846
+               }
+            },
+            {
+               "id": 5100,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 695
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "sushanthanchan": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 5064,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 79
+               }
+            },
+            {
+               "id": 5067,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 499
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "rohansuares": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 5070,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 260
+               }
+            },
+            {
+               "id": 5073,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 663
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "felsum": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 2,
+            "afghanistanUsed": 0,
+            "southAmerica": 2,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 5085,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 457
+               }
+            },
+            {
+               "id": 5088,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 816
+               }
+            },
+            {
+               "id": 5199,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 85
+               }
+            },
+            {
+               "id": 5202,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 278
+               }
+            },
+            {
+               "id": 5205,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1515
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "footballpedia": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 5103,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 364
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "jackofcrows": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 10,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 10,
+         "seedCount": 10,
+         "seeds": [
+            {
+               "id": 5121,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1453
+               }
+            },
+            {
+               "id": 5124,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 796
+               }
+            },
+            {
+               "id": 5127,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 709
+               }
+            },
+            {
+               "id": 5130,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 820
+               }
+            },
+            {
+               "id": 5133,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 759
+               }
+            },
+            {
+               "id": 5136,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1664
+               }
+            },
+            {
+               "id": 5139,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 781
+               }
+            },
+            {
+               "id": 5142,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 840
+               }
+            },
+            {
+               "id": 5145,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 614
+               }
+            },
+            {
+               "id": 5148,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 910
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 10,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "innyc": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 5151,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 807
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "derangedvisions": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 1,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 5154,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1645
+               }
+            },
+            {
+               "id": 5157,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 549
+               }
+            },
+            {
+               "id": 5160,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 282
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
+      },
+      "meyxxyz": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 1,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 1,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 5193,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 295
+               }
+            },
+            {
+               "id": 5196,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 581
+               }
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "tokens": {},
+         "water": null
       }
    },
-   "cs": {}
+   "cs": {
+      "51952852:smokerings": "smokerings purchased an afghanistan bundle",
+      "51953098:smokerings": "smokerings purchased an afghanistan bundle",
+      "51953154:smokerings": "smokerings purchased south america bundle",
+      "51953305:bhaiyas": "bhaiyas purchased a mexico bundle",
+      "51953707:smokerings": "smokerings purchased a mexico bundle",
+      "51954379:roshansuares": "roshansuares purchased south america bundle",
+      "51954878:sushanthanchan": "sushanthanchan purchased south america bundle",
+      "51955218:sushanthanchan": "sushanthanchan purchased a mexico bundle",
+      "51955276:rohansuares": "rohansuares purchased south america bundle",
+      "51955407:rohansuares": "rohansuares purchased an afghanistan bundle",
+      "51955520:roshansuares": "roshansuares purchased a mexico bundle",
+      "51956050:roshansuares": "roshansuares purchased an afghanistan bundle",
+      "51959353:bhaiyas": "bhaiyas purchased south america bundle",
+      "51959812:felsum": "felsum purchased a mexico bundle",
+      "51959873:felsum": "felsum purchased an afghanistan bundle",
+      "51960094:buritica": "buritica purchased an afghanistan bundle",
+      "51960099:buritica": "buritica purchased a mexico bundle",
+      "51960525:roshansuares": "roshansuares purchased an afghanistan bundle",
+      "51960620:roshansuares": "roshansuares purchased an afghanistan bundle",
+      "51960632:footballpedia": "footballpedia purchased a mexico bundle",
+      "51962396:hersi007": "hersi007 purchased south america bundle",
+      "51963634:quefe": "quefe purchased south america bundle",
+      "51964991:melcaya": "melcaya purchased south america bundle",
+      "51964996:melcaya": "melcaya purchased south america bundle",
+      "51965000:melcaya": "melcaya purchased south america bundle",
+      "51966745:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966747:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966749:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966751:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966753:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966755:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966757:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966763:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966765:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51966767:jackofcrows": "jackofcrows purchased an afghanistan bundle",
+      "51967291:innyc": "innyc purchased an afghanistan bundle",
+      "51970759:derangedvisions": "derangedvisions purchased an afghanistan bundle",
+      "51970770:derangedvisions": "derangedvisions purchased a mexico bundle",
+      "51970773:derangedvisions": "derangedvisions purchased south america bundle",
+      "51972152:badpupper": "badpupper purchased a mexico bundle",
+      "51972159:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "51972161:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "51972163:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "51972165:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "51972167:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "51972169:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "51972173:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "51972175:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "51972177:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "51973347:meyxxyz": "meyxxyz purchased south america bundle",
+      "51973355:meyxxyz": "meyxxyz purchased a mexico bundle",
+      "51976174:felsum": "felsum purchased south america bundle",
+      "51976176:felsum": "felsum purchased south america bundle",
+      "51976178:felsum": "felsum purchased an afghanistan bundle"
+   }
 }
