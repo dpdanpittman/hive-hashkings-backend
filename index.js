@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 51978166; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 51978281; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 51978166;
+const ago = ENV.ago || 51978281;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -301,8 +301,6 @@ function userList() {
         for (let i = 0; i < arrayLength; i++) {
             let username = farmerArray[i]
             if (state.users[username]) {
-                //get the users tokens and set in db
-                contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
                 for (const property in report) {
                     if(property == username) {
                         //get nft data
@@ -324,6 +322,8 @@ function userList() {
                         state.users[username].plotCount = plotData.length
                     }
                 }
+                //get the users tokens and set in db
+                contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
             }
         }
     })
@@ -652,6 +652,10 @@ function startApp() {
         }
     })
     
+    /*--------------------------------Claim Goodies---------------------------*/
+    
+
+
     /*------------------------------- Farm Actions ---------------------------*/
 
         // checks for qwoyn_plant and plants the seed
