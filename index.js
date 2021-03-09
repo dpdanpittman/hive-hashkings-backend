@@ -323,7 +323,7 @@ function userList() {
                     }
                 }
                 //get the users tokens and set in db
-                contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
+                //contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
             }
         }
     })
