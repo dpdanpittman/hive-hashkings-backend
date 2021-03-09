@@ -623,8 +623,8 @@ const CreatePlot = (location, to) => {
     const properties = {
         NAME: location,
         TYPE: "plot",
-        SUBDIVIDED: "false",
-        OCCUPIED: "false"
+        SUBDIVIDED: false,
+        OCCUPIED: false
     };
 
     const instance = {
@@ -982,7 +982,8 @@ async function getReport(axios) {
                             plots: [],
                             consumable: [],
                             booster: [],
-                            avatar: []
+                            avatar: [],
+                            water:[]
                         };
                         accounts[nfts[i].account].plots.push({
                             id: nfts[i]._id,
@@ -1028,7 +1029,8 @@ async function getReport(axios) {
                             plots: [],
                             consumable: [],
                             booster: [],
-                            avatar: []
+                            avatar: [],
+                            water:[]
                         };
                         accounts[nfts[j].account].seeds.push({
                             id: nfts[j]._id,
@@ -1066,7 +1068,8 @@ async function getReport(axios) {
                             plots: [],
                             consumable: [],
                             booster: [],
-                            avatar: []
+                            avatar: [],
+                            water:[]
                         };
                         accounts[nfts[j].account].consumable.push({
                             id: nfts[j]._id,
@@ -1104,7 +1107,8 @@ async function getReport(axios) {
                             plots: [],
                             consumable: [],
                             booster: [],
-                            avatar: []
+                            avatar: [],
+                            water:[]
                         };
                         accounts[nfts[j].account].booster.push({
                             id: nfts[j]._id,
@@ -1142,7 +1146,8 @@ async function getReport(axios) {
                             plots: [],
                             consumable: [],
                             booster: [],
-                            avatar: []
+                            avatar: [],
+                            water:[]
                         };
                         accounts[nfts[j].account].avatar.push({
                             id: nfts[j]._id,
