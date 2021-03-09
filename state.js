@@ -644,7 +644,7 @@ module.exports = {
             "twaxJoint": 0
          },
          "mota": 0.0001,
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "r0um3n1987": {
@@ -810,7 +810,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "boyobevan": {
@@ -1016,7 +1016,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "academialibertad": {
@@ -1092,7 +1092,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "abztraxxx": {
@@ -1178,7 +1178,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "audiomancer": {
@@ -1414,7 +1414,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "cryptounicorn420": {
@@ -1610,7 +1610,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "dolp": {
@@ -2486,7 +2486,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "xplora4253": {
@@ -2582,7 +2582,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "ricarox": {
@@ -2648,7 +2648,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "edtorr704": {
@@ -2784,7 +2784,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "marcoss21": {
@@ -2860,7 +2860,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "foxon": {
@@ -3146,7 +3146,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 180
       },
@@ -3333,7 +3333,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "degranoengrano": {
@@ -3529,7 +3529,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "ibanezense": {
@@ -3615,7 +3615,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "ejmh": {
@@ -3751,7 +3751,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 30
       },
@@ -3858,7 +3858,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 60
       },
@@ -3965,7 +3965,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 30
       },
@@ -4042,7 +4042,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "bigkidstuff": {
@@ -4118,7 +4118,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "dominic23": {
@@ -4214,7 +4214,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "electru": {
@@ -4330,7 +4330,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "lozadakb": {
@@ -4466,7 +4466,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "hodltoday": {
@@ -4542,7 +4542,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "fdeflash": {
@@ -4668,7 +4668,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "pedroozj": {
@@ -4744,7 +4744,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "facugaba": {
@@ -4880,7 +4880,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "luisveco88": {
@@ -4946,7 +4946,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "aries02": {
@@ -5022,7 +5022,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "medicenw1": {
@@ -5088,7 +5088,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "quefe": {
@@ -5143,9 +5143,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
-         "water": null
       },
       "mejiasclaudia": {
          "plots": {
@@ -5220,7 +5219,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "cadawg": {
@@ -5416,7 +5415,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "ecuaminte": {
@@ -5532,7 +5531,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "abrockman": {
@@ -6698,7 +6697,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "supremdsm": {
@@ -6764,7 +6763,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "darthslaver": {
@@ -6830,7 +6829,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "juanchuzx": {
@@ -6906,7 +6905,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "dobro2020": {
@@ -6972,7 +6971,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "dantejcs": {
@@ -7058,7 +7057,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "the-mister7": {
@@ -7174,7 +7173,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "reward.app": {
@@ -7229,7 +7228,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "oblivioncubed": {
@@ -7295,7 +7294,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "yoclensavilan": {
@@ -7371,7 +7370,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "elprutest": {
@@ -7557,7 +7556,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "khan.dayyanz": {
@@ -7653,7 +7652,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "xbladex": {
@@ -7809,7 +7808,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 60
       },
@@ -7876,7 +7875,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "infernalcoliseum": {
@@ -7942,7 +7941,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "anarcist69": {
@@ -8178,7 +8177,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "jmsansan.leo": {
@@ -8244,7 +8243,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "jinmori": {
@@ -8320,7 +8319,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "nemesis29ff": {
@@ -8396,7 +8395,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "mafia.wallet": {
@@ -8473,7 +8472,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "cesarg": {
@@ -8539,7 +8538,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "davedickeyyall": {
@@ -8605,7 +8604,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "gooba": {
@@ -8681,7 +8680,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "hexflex": {
@@ -8877,7 +8876,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "proto26": {
@@ -8943,7 +8942,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "nataxsnakex1": {
@@ -9069,7 +9068,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "skippyza": {
@@ -9145,7 +9144,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "udabeu": {
@@ -9241,7 +9240,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "luisdavid17": {
@@ -9317,7 +9316,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "mermaidvampire": {
@@ -9513,7 +9512,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "bwar": {
@@ -9579,7 +9578,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "yova22": {
@@ -9785,7 +9784,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "seravilop": {
@@ -9881,7 +9880,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "krakolito": {
@@ -9977,7 +9976,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "mooncrab88": {
@@ -10043,7 +10042,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "silverxdpro": {
@@ -10129,7 +10128,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "gamsam": {
@@ -10225,7 +10224,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 60
       },
@@ -10292,7 +10291,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "wagginston": {
@@ -10798,7 +10797,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "nupulse": {
@@ -10884,7 +10883,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "bhoa": {
@@ -10960,7 +10959,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "bitandi": {
@@ -11026,7 +11025,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "steinreich": {
@@ -11092,7 +11091,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "bassman077": {
@@ -11178,7 +11177,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 30
       },
@@ -11275,7 +11274,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "joebabana": {
@@ -11351,7 +11350,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "virusfx": {
@@ -11517,7 +11516,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "aubryd": {
@@ -11583,7 +11582,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "treefiddybruh": {
@@ -11679,7 +11678,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 30
       },
@@ -11986,9 +11985,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
-         "water": null
       },
       "elricmoonslayer": {
          "plots": {
@@ -12053,7 +12051,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "quantumnachos": {
@@ -12259,7 +12257,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "reeeheee": {
@@ -12345,7 +12343,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "sinerjji": {
@@ -12421,7 +12419,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "malonn": {
@@ -12487,7 +12485,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "swashcoldsteel": {
@@ -12563,7 +12561,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "uganzadranje": {
@@ -12659,7 +12657,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "honey-swap": {
@@ -12714,7 +12712,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "nathanpieters": {
@@ -12780,7 +12778,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "willsaldeno": {
@@ -12856,7 +12854,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "hosherama": {
@@ -13012,7 +13010,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "turb0nen": {
@@ -13158,7 +13156,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "psycodelic": {
@@ -13384,7 +13382,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "badpupper": {
@@ -13650,7 +13648,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
          "water": 60
       },
@@ -13737,9 +13735,8 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
-         "water": null
       },
       "acne": {
          "plots": {
@@ -13804,7 +13801,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "sanchezro": {
@@ -13890,7 +13887,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "tongostar": {
@@ -13956,7 +13953,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "casilokodesing": {
@@ -14052,7 +14049,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "dailyBudDeposit": 0,
       },
       "heikki1337": {
@@ -14120,7 +14117,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "w0nd3rgrip": {
@@ -14338,7 +14335,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "mako07": {
@@ -14496,7 +14493,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "cryptixmlonwax": {
@@ -14564,7 +14561,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "chubb149": {
@@ -14632,7 +14629,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "tremou922": {
@@ -14700,7 +14697,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "caprisk": {
@@ -14808,7 +14805,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "criptosectadepit": {
@@ -15016,7 +15013,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jacksonrj": {
@@ -15084,7 +15081,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jarkillo": {
@@ -15152,7 +15149,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "xmuguenx": {
@@ -15260,7 +15257,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "kratosn2": {
@@ -15488,7 +15485,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "rokimv87": {
@@ -15686,7 +15683,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "alter13": {
@@ -15754,7 +15751,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "spinvest": {
@@ -15872,7 +15869,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "forykw": {
@@ -15940,7 +15937,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "naxter1998": {
@@ -16038,7 +16035,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "paulstark27": {
@@ -16116,7 +16113,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "chito1": {
@@ -16184,7 +16181,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "benjaaa": {
@@ -16262,7 +16259,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "grinselion": {
@@ -16470,7 +16467,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "spi-steemcity": {
@@ -16828,7 +16825,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "lerage": {
@@ -16966,7 +16963,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "brofundholdings": {
@@ -17094,7 +17091,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jfang003": {
@@ -17162,7 +17159,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "marjanko": {
@@ -17230,7 +17227,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "buritica": {
@@ -17408,8 +17405,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "mec45": {
          "plots": {
@@ -17676,7 +17672,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "zeusdy": {
@@ -17834,7 +17830,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "boitata": {
@@ -17922,7 +17918,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "drisinger": {
@@ -18020,7 +18016,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "luffy1737": {
@@ -18098,7 +18094,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "zanrsc": {
@@ -18186,7 +18182,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "rnldjose31": {
@@ -18274,7 +18270,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "docarmoedu": {
@@ -18362,7 +18358,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "kayser191": {
@@ -18430,7 +18426,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "chemams19": {
@@ -18508,7 +18504,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "lolobonilla": {
@@ -18576,7 +18572,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "eduarz150792": {
@@ -18764,7 +18760,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "largo24": {
@@ -18962,7 +18958,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "duaystive": {
@@ -19060,7 +19056,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "anyeloert": {
@@ -19128,7 +19124,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "pelayin999": {
@@ -19226,7 +19222,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "olgerv1": {
@@ -19354,7 +19350,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "hissing1": {
@@ -19502,7 +19498,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "joseph77": {
@@ -19620,7 +19616,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "sureng11": {
@@ -19698,7 +19694,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "heybertu": {
@@ -19906,7 +19902,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jagerocker": {
@@ -19984,7 +19980,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "dgon": {
@@ -20052,7 +20048,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "kokebo": {
@@ -20120,7 +20116,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "davidagn79": {
@@ -20208,7 +20204,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "inek18": {
@@ -20356,7 +20352,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "leaisx": {
@@ -20474,7 +20470,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "tatovzla": {
@@ -20592,7 +20588,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "leon95": {
@@ -20660,7 +20656,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ksyuca007": {
@@ -20748,7 +20744,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "atarxix": {
@@ -20816,7 +20812,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ilidangrx": {
@@ -20914,7 +20910,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "wsgrupoespanol": {
@@ -20992,7 +20988,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "elbakalah": {
@@ -21100,7 +21096,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "eduardro": {
@@ -21288,7 +21284,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "thejc50": {
@@ -21366,7 +21362,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ejercol": {
@@ -21464,7 +21460,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "sek1g": {
@@ -21562,7 +21558,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "marisenpai": {
@@ -21640,7 +21636,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jonramirez": {
@@ -21728,7 +21724,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "yudai": {
@@ -21866,7 +21862,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "chuchunorris": {
@@ -21934,7 +21930,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "maurojx": {
@@ -22022,7 +22018,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "davjaimes10": {
@@ -22140,7 +22136,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "masterwarclash": {
@@ -22228,7 +22224,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "vixda": {
@@ -22306,7 +22302,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "richardmt95": {
@@ -22384,7 +22380,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "planchero": {
@@ -22582,7 +22578,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "graceathenas": {
@@ -22660,7 +22656,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "hasted": {
@@ -22818,7 +22814,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jeffx09": {
@@ -22896,7 +22892,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "lalogg13": {
@@ -22984,7 +22980,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "emqcripto": {
@@ -23192,7 +23188,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "kiro12": {
@@ -23270,7 +23266,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "altercristian": {
@@ -23338,7 +23334,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "leoking1985": {
@@ -23416,7 +23412,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "zxion": {
@@ -23494,7 +23490,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "lulisway": {
@@ -23562,7 +23558,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "obando": {
@@ -23670,7 +23666,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "kalocaj": {
@@ -23758,7 +23754,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "roypadron": {
@@ -23836,7 +23832,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "alexander1975": {
@@ -23914,7 +23910,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "xkaliburx": {
@@ -23982,7 +23978,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "dani1884": {
@@ -24060,7 +24056,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "gabriiq": {
@@ -24158,7 +24154,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "javikalimar": {
@@ -24246,7 +24242,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "edinsonoro": {
@@ -24324,7 +24320,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "terrible93": {
@@ -24392,7 +24388,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jarrical0506": {
@@ -24530,7 +24526,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "cryptomilovat": {
@@ -24628,7 +24624,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "mpock": {
@@ -24706,7 +24702,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "fernandohg11": {
@@ -24784,7 +24780,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ozkar13": {
@@ -24862,7 +24858,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ozono": {
@@ -24940,7 +24936,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "dchicaiza5": {
@@ -25008,7 +25004,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "warzone2100": {
@@ -25076,7 +25072,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jeanzz": {
@@ -25154,7 +25150,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "stiven1044000000": {
@@ -25222,7 +25218,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "surajbhattarai": {
@@ -25290,7 +25286,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "benhaleymade": {
@@ -25358,7 +25354,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "gallito": {
@@ -25616,7 +25612,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "zpablo": {
@@ -25704,7 +25700,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "weirdestwolf": {
@@ -25782,7 +25778,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ddamiandonis": {
@@ -25870,7 +25866,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "eldudu": {
@@ -25958,7 +25954,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "christian7urquia": {
@@ -26046,7 +26042,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ellocohugo": {
@@ -26124,7 +26120,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jacielxy": {
@@ -26242,7 +26238,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "sirbogavante": {
@@ -26330,7 +26326,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "asas96": {
@@ -26418,7 +26414,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "procash1": {
@@ -26496,7 +26492,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "davidtradefx": {
@@ -26584,7 +26580,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "oldmans": {
@@ -26742,7 +26738,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "tupacdre82": {
@@ -26810,7 +26806,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "perezcan": {
@@ -26908,7 +26904,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ronny2721": {
@@ -26996,7 +26992,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "mundoencriptado": {
@@ -27074,7 +27070,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "bmck117": {
@@ -27182,7 +27178,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "martinezams": {
@@ -27290,7 +27286,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "netaterra": {
@@ -27368,7 +27364,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jerrysstyle": {
@@ -27436,7 +27432,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "weedgood": {
@@ -27514,7 +27510,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "materrila14": {
@@ -27612,7 +27608,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "kinggo9": {
@@ -27700,7 +27696,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "razyel24": {
@@ -27778,7 +27774,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "infinito2021": {
@@ -27886,7 +27882,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "melcaya": {
@@ -28034,8 +28030,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "largouuu": {
          "plots": {
@@ -28222,7 +28217,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "pippex": {
@@ -28279,7 +28274,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "cryptosfera": {
@@ -28377,7 +28372,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "nobutsd1974": {
@@ -28585,7 +28580,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "hazeudon": {
@@ -29073,7 +29068,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "canna-curate": {
@@ -29141,7 +29136,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "victorycoin23": {
@@ -29219,7 +29214,7 @@ module.exports = {
             "waxJoint": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "javier42": {
@@ -29322,7 +29317,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "javieruscu69": {
@@ -29435,7 +29430,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "robin-nrs": {
@@ -29528,7 +29523,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "sachique23": {
@@ -29641,7 +29636,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "danny198": {
@@ -29734,7 +29729,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "flakkaseagulls": {
@@ -29817,7 +29812,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "unschool": {
@@ -29900,7 +29895,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "automaton": {
@@ -29983,7 +29978,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "emsenn0": {
@@ -30066,7 +30061,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "aniol77": {
@@ -30159,7 +30154,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "harolac": {
@@ -30272,7 +30267,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "hivetrending": {
@@ -30355,7 +30350,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "drowel": {
@@ -30518,7 +30513,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "apzyx": {
@@ -30631,7 +30626,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "funnel": {
@@ -30714,7 +30709,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "tr4ktrotacielo5": {
@@ -30797,7 +30792,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "aguilax": {
@@ -30920,7 +30915,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "migueldavidor": {
@@ -31003,7 +30998,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "brad12": {
@@ -31096,7 +31091,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "fxish": {
@@ -31269,7 +31264,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ctdub406": {
@@ -31702,7 +31697,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "skylinebuds": {
@@ -31795,7 +31790,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "g0nzal0t": {
@@ -31878,7 +31873,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "nftmart.cards": {
@@ -31961,7 +31956,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "alfa16": {
@@ -32044,7 +32039,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "pepeymeli": {
@@ -32127,7 +32122,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "dhodl": {
@@ -32199,7 +32194,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "rishi556": {
@@ -32282,7 +32277,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "gamewatch": {
@@ -32405,7 +32400,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "nftmarket": {
@@ -32477,7 +32472,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "mulletwang": {
@@ -33280,7 +33275,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "saboin": {
@@ -33603,7 +33598,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "molovelly": {
@@ -33786,7 +33781,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "anarcist": {
@@ -33858,7 +33853,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "simgirl": {
@@ -33991,7 +33986,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "guiltyparties": {
@@ -34124,7 +34119,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "prettynicevideo": {
@@ -34257,7 +34252,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "meowgan": {
@@ -34380,7 +34375,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "enginewitty": {
@@ -34543,7 +34538,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "smigirl": {
@@ -34686,7 +34681,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "christoryan": {
@@ -34769,7 +34764,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "choosefreedom": {
@@ -34922,7 +34917,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "bauloewe": {
@@ -35095,7 +35090,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "news-today": {
@@ -35178,7 +35173,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "heremonium": {
@@ -35261,7 +35256,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "rachaeldwatson": {
@@ -35344,7 +35339,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "myanmarbook": {
@@ -35427,7 +35422,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "jbsharkey": {
@@ -35520,7 +35515,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "schlees": {
@@ -35613,7 +35608,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "altonos": {
@@ -35696,7 +35691,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "bibdieufr": {
@@ -35789,7 +35784,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "mickvir": {
@@ -35872,7 +35867,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "buckydurddle": {
@@ -35965,7 +35960,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "disregardfiat": {
@@ -36048,7 +36043,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "psyo": {
@@ -36131,7 +36126,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ghosthunter1": {
@@ -36274,7 +36269,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ericwilson": {
@@ -36357,7 +36352,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "songokubg": {
@@ -36440,7 +36435,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "muru": {
@@ -36533,7 +36528,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "vibrasphere": {
@@ -36616,7 +36611,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "nutritree": {
@@ -36769,7 +36764,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "perceval": {
@@ -36852,7 +36847,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ceheran": {
@@ -36945,7 +36940,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "ooakosimo": {
@@ -37028,7 +37023,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "bad-goyim": {
@@ -37121,7 +37116,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "dannychain": {
@@ -37204,7 +37199,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "drugwar": {
@@ -37287,7 +37282,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "rahul.stan": {
@@ -37370,7 +37365,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "silverlining1": {
@@ -37493,7 +37488,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "marcss19": {
@@ -37616,7 +37611,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "chronocrypto": {
@@ -37779,7 +37774,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "gatticus": {
@@ -37862,7 +37857,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "monsterbuster": {
@@ -37945,7 +37940,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "mariorojas": {
@@ -38028,7 +38023,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "elsith80": {
@@ -38121,7 +38116,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "frijolitomx": {
@@ -38214,7 +38209,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "thebeardflex": {
@@ -38327,7 +38322,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "huzzah": {
@@ -38410,7 +38405,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "whoismyhero": {
@@ -38493,7 +38488,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "luisx22": {
@@ -38586,7 +38581,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "domeownik": {
@@ -38689,7 +38684,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "brazuk": {
@@ -38812,7 +38807,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "angy2882": {
@@ -38935,7 +38930,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "zerokdark": {
@@ -39078,7 +39073,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "andresito9522": {
@@ -39161,7 +39156,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "franvit1979": {
@@ -39264,7 +39259,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "junkfeathers": {
@@ -39347,7 +39342,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "supablaza": {
@@ -39460,7 +39455,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "crishor": {
@@ -39563,7 +39558,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
+         "tokens": [],
          "motaStake": 0
       },
       "smokerings": {
@@ -39676,8 +39671,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "bhaiyas": {
          "subdivisions": {
@@ -39769,8 +39763,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "roshansuares": {
          "subdivisions": {
@@ -39892,8 +39885,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "sushanthanchan": {
          "subdivisions": {
@@ -39985,8 +39977,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "rohansuares": {
          "subdivisions": {
@@ -40078,8 +40069,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "felsum": {
          "subdivisions": {
@@ -40201,8 +40191,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "footballpedia": {
          "subdivisions": {
@@ -40284,8 +40273,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "jackofcrows": {
          "subdivisions": {
@@ -40457,8 +40445,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "innyc": {
          "subdivisions": {
@@ -40540,8 +40527,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "derangedvisions": {
          "subdivisions": {
@@ -40643,8 +40629,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       },
       "meyxxyz": {
          "subdivisions": {
@@ -40736,8 +40721,7 @@ module.exports = {
             "hempWrappedBlunt": 0,
             "twaxJoint": 0
          },
-         "tokens": {},
-         "water": null
+         "tokens": [],
       }
    },
    "cs": {
