@@ -1,71 +1,71 @@
 module.exports = {
    "stats": {
-      "seedCount": 1174,
+      "seedCount": 1739,
       "time": 28000,
       "roles": {
          "1": "farmer",
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmVKZ3qPmfApDFyZP6SMvEfcNjKirMUPJk2ctwgzPhbDRQ",
-      "bi": 51995201,
+      "bu": "QmUfUqrkHxnWxYVBPhDfHnmvaTqjpwC4yGULYdPw6ZrDbD",
+      "bi": 52094301,
       "prices": {
          "bundles": {
-            "asiaBundle": 94,
-            "africaBundle": 47,
-            "afghanistanBundle": 32,
-            "jamaicaBundle": 63,
-            "mexicoBundle": 24,
-            "southAmericaBundle": 16
+            "asiaBundle": 77,
+            "africaBundle": 39,
+            "afghanistanBundle": 26,
+            "jamaicaBundle": 51,
+            "mexicoBundle": 20,
+            "southAmericaBundle": 13
          },
          "waterPlants": {
             "lvl1": {
-               "price": 4,
+               "price": 3,
                "water": 30,
                "token": 1000
             },
             "lvl2": {
-               "price": 4,
+               "price": 3,
                "water": 45,
                "token": 1000
             },
             "lvl3": {
-               "price": 4,
+               "price": 3,
                "water": 75,
                "token": 1000
             },
             "lvl4": {
-               "price": 4,
+               "price": 3,
                "water": 120,
                "token": 1000
             },
             "lvl5": {
-               "price": 4,
+               "price": 3,
                "water": 180,
                "token": 1000
             },
             "lvl6": {
-               "price": 4,
+               "price": 3,
                "water": 255,
                "token": 1000
             },
             "lvl7": {
-               "price": 4,
+               "price": 3,
                "water": 345,
                "token": 1000
             },
             "lvl8": {
-               "price": 4,
+               "price": 3,
                "water": 450,
                "token": 1000
             },
             "lvl9": {
-               "price": 4,
+               "price": 3,
                "water": 570,
                "token": 1000
             },
             "lvl10": {
-               "price": 4,
+               "price": 3,
                "water": 705,
                "token": 1000
             }
@@ -112,53 +112,53 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 141,
-               "token": 1410
+               "price": 115,
+               "token": 1150
             },
             "africa": {
-               "price": 71,
-               "token": 710
+               "price": 58,
+               "token": 580
             },
             "afghanistan": {
-               "price": 47,
-               "token": 470
+               "price": 39,
+               "token": 390
             },
             "southAmerica": {
-               "price": 24,
-               "token": 240
+               "price": 20,
+               "token": 200
             },
             "jamaica": {
-               "price": 94,
-               "token": 940
+               "price": 77,
+               "token": 770
             },
             "mexico": {
-               "price": 36,
-               "token": 360
+               "price": 29,
+               "token": 290
             }
          }
       },
       "supply": {
-         "totalPlots": 1633,
-         "totalPlotsC": 1383,
-         "totalSeeds": 1931,
-         "totalWaterTowers": 1700,
-         "totalWaterTowersC": 17300,
+         "totalPlots": 2259,
+         "totalPlotsC": 757,
+         "totalSeeds": 2540,
+         "totalWaterTowers": 2311,
+         "totalWaterTowersC": 16689,
          "land": {
             "asia": 0,
             "asiaC": 40,
             "africa": 0,
             "africaC": 300,
-            "afghanistan": 203,
-            "afghanistanC": 297,
-            "southAmerica": 688,
-            "southAmericaC": 612,
+            "afghanistan": 0,
+            "afghanistanC": 500,
+            "southAmerica": 413,
+            "southAmericaC": 887,
             "jamaica": 0,
             "jamaicaC": 116,
-            "mexico": 483,
-            "mexicoC": 267
+            "mexico": 335,
+            "mexicoC": 415
          }
       },
-      "farmers": 343,
+      "farmers": 391,
       "farmerList": [
          "qwoyn",
          "abrockman",
@@ -333,6 +333,7 @@ module.exports = {
          "benjaaa",
          "grinselion",
          "spi-steemcity",
+         "thebeardflex",
          "lerage",
          "brofundholdings",
          "jfang003",
@@ -375,7 +376,7 @@ module.exports = {
          "ejercol",
          "sek1g",
          "marisenpai",
-         "jonramirez",
+         "jonhive",
          "yudai",
          "chuchunorris",
          "maurojx",
@@ -454,7 +455,6 @@ module.exports = {
          "mariorojas",
          "elsith80",
          "frijolitomx",
-         "thebeardflex",
          "huzzah",
          "whoismyhero",
          "luisx22",
@@ -502,7 +502,55 @@ module.exports = {
          "derangedvisions",
          "meyxxyz",
          "matheus9",
-         "quefe"
+         "quefe",
+         "mogroff",
+         "gr33nm4ster",
+         "aurosofi",
+         "moonwalker7788",
+         "tussar11",
+         "agramon",
+         "jonnybanana",
+         "labriego",
+         "ilazramusic",
+         "arlettemsalase",
+         "tronquito",
+         "hellene8",
+         "timetraveljesus",
+         "dvelandiaa",
+         "robvector",
+         "luiios",
+         "saachi",
+         "earthboy75",
+         "kiritoccs",
+         "sgerhart",
+         "anyelp888",
+         "quijay",
+         "jesusalejos",
+         "artiic97",
+         "angelportu",
+         "cjavi99",
+         "alfer",
+         "al-gaming",
+         "hoory22",
+         "emanon077",
+         "megarciab",
+         "jurbinaper",
+         "robz17",
+         "fenixazul",
+         "barbasoon",
+         "edisonjavier",
+         "laurapalmerr",
+         "luiscas2",
+         "vica1988",
+         "wilwaps32",
+         "ideagold",
+         "julste",
+         "alejoca",
+         "shirahoshi",
+         "godislovefl",
+         "eselihu",
+         "axelcj123",
+         "caina420"
       ]
    },
    "bal": {
@@ -554,10 +602,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "qwoyn"
+            },
+            {
+               "id": 6934,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "qwoyn"
             }
          ],
-         "plotCount": 5,
-         "seedCount": 7,
+         "plotCount": 6,
+         "seedCount": 8,
          "seeds": [
             {
                "id": 1,
@@ -635,11 +693,22 @@ module.exports = {
                   "PR": 689
                },
                "owner": "qwoyn"
+            },
+            {
+               "id": 6933,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 772
+               },
+               "owner": "qwoyn"
             }
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -680,7 +749,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "r0um3n1987": {
          "plots": [
@@ -1620,10 +1690,50 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "audiomancer"
+            },
+            {
+               "id": 7057,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "audiomancer"
+            },
+            {
+               "id": 7063,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "audiomancer"
+            },
+            {
+               "id": 7066,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "audiomancer"
+            },
+            {
+               "id": 7075,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "audiomancer"
             }
          ],
-         "plotCount": 18,
-         "seedCount": 18,
+         "plotCount": 22,
+         "seedCount": 22,
          "seeds": [
             {
                "id": 55,
@@ -1822,11 +1932,55 @@ module.exports = {
                   "PR": 150
                },
                "owner": "audiomancer"
+            },
+            {
+               "id": 7056,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 448
+               },
+               "owner": "audiomancer"
+            },
+            {
+               "id": 7062,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 301
+               },
+               "owner": "audiomancer"
+            },
+            {
+               "id": 7065,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 448
+               },
+               "owner": "audiomancer"
+            },
+            {
+               "id": 7074,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 54
+               },
+               "owner": "audiomancer"
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1866,7 +2020,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "cryptounicorn420": {
          "plots": [
@@ -3827,10 +3982,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "xplora4253"
+            },
+            {
+               "id": 6688,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "xplora4253"
             }
          ],
-         "plotCount": 4,
-         "seedCount": 4,
+         "plotCount": 5,
+         "seedCount": 5,
          "seeds": [
             {
                "id": 403,
@@ -3875,11 +4040,22 @@ module.exports = {
                   "PR": 7383
                },
                "owner": "xplora4253"
+            },
+            {
+               "id": 6687,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 200
+               },
+               "owner": "xplora4253"
             }
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -3919,7 +4095,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "ricarox": {
          "plots": [
@@ -4211,10 +4388,50 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "marcoss21"
+            },
+            {
+               "id": 5797,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "marcoss21"
+            },
+            {
+               "id": 5800,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "marcoss21"
+            },
+            {
+               "id": 5803,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "marcoss21"
+            },
+            {
+               "id": 5806,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "marcoss21"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 6,
+         "seedCount": 6,
          "seeds": [
             {
                "id": 376,
@@ -4237,11 +4454,55 @@ module.exports = {
                   "PR": 911
                },
                "owner": "marcoss21"
+            },
+            {
+               "id": 5796,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 759
+               },
+               "owner": "marcoss21"
+            },
+            {
+               "id": 5799,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 800
+               },
+               "owner": "marcoss21"
+            },
+            {
+               "id": 5802,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 549
+               },
+               "owner": "marcoss21"
+            },
+            {
+               "id": 5805,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 182
+               },
+               "owner": "marcoss21"
             }
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4281,7 +4542,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "foxon": {
          "plots": [
@@ -4452,10 +4714,80 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "foxon"
+            },
+            {
+               "id": 5257,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 5260,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6352,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6355,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6358,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6397,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6400,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "foxon"
             }
          ],
-         "plotCount": 21,
-         "seedCount": 23,
+         "plotCount": 28,
+         "seedCount": 30,
          "seeds": [
             {
                "id": 22,
@@ -4709,11 +5041,88 @@ module.exports = {
                   "PR": 692
                },
                "owner": "foxon"
+            },
+            {
+               "id": 5256,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 161
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 5259,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 299
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6351,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 309
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6354,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 329
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6357,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 508
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6396,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 503
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 6399,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 807
+               },
+               "owner": "foxon"
             }
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4752,7 +5161,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "water": 180,
+         "water": 330,
          "avatars": [],
          "boosters": []
       },
@@ -4845,10 +5254,140 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "meanbees"
+            },
+            {
+               "id": 5497,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5500,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5575,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5578,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5581,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5584,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5617,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5620,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 6967,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 6970,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 7018,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 7027,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 7039,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "meanbees"
             }
          ],
-         "plotCount": 11,
-         "seedCount": 13,
+         "plotCount": 24,
+         "seedCount": 26,
          "seeds": [
             {
                "id": 379,
@@ -4992,11 +5531,154 @@ module.exports = {
                   "PR": 2334
                },
                "owner": "meanbees"
+            },
+            {
+               "id": 5496,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1527
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5499,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1670
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5574,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 181
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5577,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 311
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5580,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 102
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5583,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 200
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5616,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1701
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 5619,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 787
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 6966,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 442
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 6969,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 115
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 7017,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 197
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 7026,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 157
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 7038,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 170
+               },
+               "owner": "meanbees"
             }
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 13,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5036,7 +5718,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "degranoengrano": {
          "plots": [
@@ -5576,10 +6259,80 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "ejmh"
+            },
+            {
+               "id": 6022,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6025,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6028,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6940,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6943,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6946,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6949,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ejmh"
             }
          ],
-         "plotCount": 8,
-         "seedCount": 8,
+         "plotCount": 15,
+         "seedCount": 15,
          "seeds": [
             {
                "id": 781,
@@ -5668,11 +6421,88 @@ module.exports = {
                   "PR": 97
                },
                "owner": "ejmh"
+            },
+            {
+               "id": 6021,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 717
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6024,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 556
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6027,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 68
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6939,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 75
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6942,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 514
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6945,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 124
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 6948,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 206
+               },
+               "owner": "ejmh"
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 18,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5711,7 +6541,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "water": 30,
+         "water": 570,
          "avatars": [],
          "boosters": []
       },
@@ -6220,9 +7050,49 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "dominic23"
+            },
+            {
+               "id": 5248,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dominic23"
+            },
+            {
+               "id": 5249,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dominic23"
+            },
+            {
+               "id": 5250,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dominic23"
+            },
+            {
+               "id": 5251,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dominic23"
             }
          ],
-         "plotCount": 4,
+         "plotCount": 8,
          "seedCount": 8,
          "seeds": [
             {
@@ -7162,10 +8032,100 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "facugaba"
+            },
+            {
+               "id": 5293,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 5743,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 5746,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 5749,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6049,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6052,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6055,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6268,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6271,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "facugaba"
             }
          ],
-         "plotCount": 9,
-         "seedCount": 8,
+         "plotCount": 18,
+         "seedCount": 17,
          "seeds": [
             {
                "id": 307,
@@ -7254,11 +8214,110 @@ module.exports = {
                   "PR": 80
                },
                "owner": "facugaba"
+            },
+            {
+               "id": 5292,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 616
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 5742,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 180
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 5745,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 290
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 5748,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 224
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6048,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 833
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6051,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 588
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6054,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 53
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6267,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 428
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 6270,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 239
+               },
+               "owner": "facugaba"
             }
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7298,7 +8357,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "luisveco88": {
          "plots": [
@@ -7530,9 +8590,40 @@ module.exports = {
          "boosters": []
       },
       "quefe": {
-         "plots": [],
-         "plotCount": 0,
-         "seedCount": 2,
+         "plots": [
+            {
+               "id": 5247,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "quefe"
+            },
+            {
+               "id": 5254,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "quefe"
+            },
+            {
+               "id": 5329,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "quefe"
+            }
+         ],
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 5220,
@@ -7553,6 +8644,17 @@ module.exports = {
                   "SPT": 6,
                   "WATER": 23,
                   "PR": 510
+               },
+               "owner": "quefe"
+            },
+            {
+               "id": 5328,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 630
                },
                "owner": "quefe"
             }
@@ -8049,10 +9151,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "ecuaminte"
+            },
+            {
+               "id": 5785,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ecuaminte"
+            },
+            {
+               "id": 5788,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ecuaminte"
             }
          ],
-         "plotCount": 5,
-         "seedCount": 6,
+         "plotCount": 7,
+         "seedCount": 8,
          "seeds": [
             {
                "id": 244,
@@ -8119,11 +9241,33 @@ module.exports = {
                   "PR": 353
                },
                "owner": "ecuaminte"
+            },
+            {
+               "id": 5784,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 200
+               },
+               "owner": "ecuaminte"
+            },
+            {
+               "id": 5787,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 576
+               },
+               "owner": "ecuaminte"
             }
          ],
          "hkwater": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8163,7 +9307,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "abrockman": {
          "plots": [
@@ -10448,10 +11593,210 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "elprutest"
+            },
+            {
+               "id": 5255,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5680,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5683,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5686,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5689,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5695,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5698,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5701,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5704,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5707,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5713,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5716,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5719,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5722,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5725,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5731,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5734,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5737,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5740,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 6031,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
             }
          ],
-         "plotCount": 13,
-         "seedCount": 14,
+         "plotCount": 33,
+         "seedCount": 33,
          "seeds": [
             {
                "id": 286,
@@ -10606,11 +11951,220 @@ module.exports = {
                   "PR": 344
                },
                "owner": "elprutest"
+            },
+            {
+               "id": 5679,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 769
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5682,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 769
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5685,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 804
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5688,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 710
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5694,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 377
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5697,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 401
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5700,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 533
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5703,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 362
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5706,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 356
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5712,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 177
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5715,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 269
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5718,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 219
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5721,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 106
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5724,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 161
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5730,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 533
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5733,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 81
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5736,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 152
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5739,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 38
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 6030,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 205
+               },
+               "owner": "elprutest"
             }
          ],
          "hkwater": 270,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 20,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10651,7 +12205,7 @@ module.exports = {
          "dailyBudDeposit": 0,
          "avatars": [],
          "boosters": [],
-         "water": null
+         "water": 570
       },
       "khan.dayyanz": {
          "plots": [
@@ -10861,10 +12415,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "xbladex"
+            },
+            {
+               "id": 6562,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "xbladex"
             }
          ],
-         "plotCount": 10,
-         "seedCount": 10,
+         "plotCount": 11,
+         "seedCount": 11,
          "seeds": [
             {
                "id": 481,
@@ -10975,11 +12539,22 @@ module.exports = {
                   "PR": 258
                },
                "owner": "xbladex"
+            },
+            {
+               "id": 6561,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 721
+               },
+               "owner": "xbladex"
             }
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11018,7 +12593,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "water": 60,
+         "water": 90,
          "avatars": [],
          "boosters": []
       },
@@ -13724,10 +15299,70 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "krakolito"
+            },
+            {
+               "id": 5911,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5914,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5917,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5920,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5923,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5926,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "krakolito"
             }
          ],
-         "plotCount": 4,
-         "seedCount": 4,
+         "plotCount": 10,
+         "seedCount": 10,
          "seeds": [
             {
                "id": 772,
@@ -13772,11 +15407,77 @@ module.exports = {
                   "PR": 747
                },
                "owner": "krakolito"
+            },
+            {
+               "id": 5910,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 422
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5913,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 803
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5916,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 156
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5919,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 211
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5922,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 296
+               },
+               "owner": "krakolito"
+            },
+            {
+               "id": 5925,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 171
+               },
+               "owner": "krakolito"
             }
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13816,7 +15517,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "mooncrab88": {
          "plots": [
@@ -14021,10 +15723,200 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "gamsam"
+            },
+            {
+               "id": 5590,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5593,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5596,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5599,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5602,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5608,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5611,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5614,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5623,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5626,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5629,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5638,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5653,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5656,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5659,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5710,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 6265,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 6325,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 6328,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "gamsam"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 4,
+         "plotCount": 22,
+         "seedCount": 23,
          "seeds": [
             {
                "id": 788,
@@ -14069,11 +15961,220 @@ module.exports = {
                   "PR": 2393
                },
                "owner": "gamsam"
+            },
+            {
+               "id": 5589,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1455
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5592,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 587
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5595,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 652
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5598,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 450
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5601,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 235
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5607,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 224
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5610,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 128
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5613,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 314
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5622,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 261
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5625,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 31
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5628,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 225
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5637,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 287
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5652,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 324
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5655,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 33
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5658,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 147
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 5709,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 224
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 6264,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 74
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 6324,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 78
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 6327,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 260
+               },
+               "owner": "gamsam"
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 19,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14112,7 +16213,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "water": 60,
+         "water": 630,
          "avatars": [],
          "boosters": []
       },
@@ -15217,10 +17318,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "bhoa"
+            },
+            {
+               "id": 7042,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "bhoa"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 935,
@@ -15243,11 +17354,22 @@ module.exports = {
                   "PR": 79
                },
                "owner": "bhoa"
+            },
+            {
+               "id": 7041,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 598
+               },
+               "owner": "bhoa"
             }
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15287,7 +17409,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "bitandi": {
          "plots": [
@@ -15454,9 +17577,19 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "bassman077"
+            },
+            {
+               "id": 5252,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "bassman077"
             }
          ],
-         "plotCount": 3,
+         "plotCount": 4,
          "seedCount": 4,
          "seeds": [
             {
@@ -15846,10 +17979,90 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "virusfx"
+            },
+            {
+               "id": 5872,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5875,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5878,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5881,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5884,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5887,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5890,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5893,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "virusfx"
             }
          ],
-         "plotCount": 10,
-         "seedCount": 11,
+         "plotCount": 18,
+         "seedCount": 19,
          "seeds": [
             {
                "id": 968,
@@ -15971,11 +18184,99 @@ module.exports = {
                   "PR": 2504
                },
                "owner": "virusfx"
+            },
+            {
+               "id": 5871,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1588
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5874,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 716
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5877,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 376
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5880,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 414
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5883,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 148
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5886,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 104
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5889,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 91
+               },
+               "owner": "virusfx"
+            },
+            {
+               "id": 5892,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 229
+               },
+               "owner": "virusfx"
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16015,7 +18316,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "aubryd": {
          "plots": [
@@ -16026,10 +18328,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "aubryd"
+            },
+            {
+               "id": 6937,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "aubryd"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "id": 971,
@@ -16041,11 +18353,22 @@ module.exports = {
                   "PR": 845
                },
                "owner": "aubryd"
+            },
+            {
+               "id": 6936,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 285
+               },
+               "owner": "aubryd"
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16085,7 +18408,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "treefiddybruh": {
          "plots": [
@@ -16416,10 +18740,910 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5389,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5392,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5395,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5398,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5401,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5404,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5407,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5410,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5413,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5416,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5419,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5422,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5425,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5428,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5431,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5434,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5437,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5440,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5443,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5446,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5449,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5452,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5455,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5458,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5461,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5929,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5932,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5935,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5938,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5941,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5944,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5947,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5950,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5953,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5956,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5959,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5962,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5965,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5968,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5971,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5974,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5977,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5980,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5983,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5986,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5989,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5992,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5995,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5998,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6001,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6004,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6007,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6010,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6013,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6016,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6571,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6574,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6577,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6580,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6583,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6586,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6589,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6592,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6595,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6598,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6601,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6793,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6796,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6799,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6802,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6805,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6808,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6811,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6814,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6817,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6820,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6976,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6979,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6982,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6985,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6988,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6991,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6994,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6997,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7000,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7003,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7006,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7009,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7012,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7015,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "definitelyn0tme"
             }
          ],
-         "plotCount": 25,
-         "seedCount": 25,
+         "plotCount": 115,
+         "seedCount": 115,
          "seeds": [
             {
                "id": 986,
@@ -16695,11 +19919,1001 @@ module.exports = {
                   "PR": 142
                },
                "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5388,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 753
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5391,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2075
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5394,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 803
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5397,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1094
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5400,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 538
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5403,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 518
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5406,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 523
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5409,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 242
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5412,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 266
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5415,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 275
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5418,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1523
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5421,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 651
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5424,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 805
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5427,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 589
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5430,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 531
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5433,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 216
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5436,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 344
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5439,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 636
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5442,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 800
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5445,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 416
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5448,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 432
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5451,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 248
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5454,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 114
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5457,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 836
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5460,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 507
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5928,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1575
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5931,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1451
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5934,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 818
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5937,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 844
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5940,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 818
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5943,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 622
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5946,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 704
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5949,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 654
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5952,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 664
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5955,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 762
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5958,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 352
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5961,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 422
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5964,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 432
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5967,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 571
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5970,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 551
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5973,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 565
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5976,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 405
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5979,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 545
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5982,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 483
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5985,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 370
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5988,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 283
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5991,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 264
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5994,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 86
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 5997,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 242
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6000,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 300
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6003,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 259
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6006,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 278
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6009,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 156
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6012,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 238
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6015,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 336
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6570,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2170
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6573,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 727
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6576,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 817
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6579,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 436
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6582,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 495
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6585,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 368
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6588,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 783
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6591,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 389
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6594,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 806
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6597,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1690
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6600,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 522
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6792,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1622
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6795,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 737
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6798,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 769
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6801,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 412
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6804,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 575
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6807,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 644
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6810,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 702
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6813,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 644
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6816,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 685
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6819,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 754
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6975,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 425
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6978,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 460
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6981,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 435
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6984,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 531
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6987,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 482
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6990,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 412
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6993,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 363
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6996,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 369
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 6999,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 534
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7002,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 540
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7005,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 102
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7008,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 444
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7011,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 423
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7014,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 77
+               },
+               "owner": "definitelyn0tme"
             }
          ],
          "hkwater": 240,
          "waterPlants": {
-            "lvl1": 9,
+            "lvl1": 100,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16739,7 +20953,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "elricmoonslayer": {
          "plots": [
@@ -17925,10 +22140,130 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "hosherama"
+            },
+            {
+               "id": 5668,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5671,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5674,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5677,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5794,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5809,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5812,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5815,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 6313,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 6316,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 6319,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 6322,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hosherama"
             }
          ],
-         "plotCount": 10,
-         "seedCount": 10,
+         "plotCount": 22,
+         "seedCount": 22,
          "seeds": [
             {
                "id": 1718,
@@ -18039,11 +22374,143 @@ module.exports = {
                   "PR": 803
                },
                "owner": "hosherama"
+            },
+            {
+               "id": 5667,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 747
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5670,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1995
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5673,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 481
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5676,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 186
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5793,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 345
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5808,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 771
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5811,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 599
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 5814,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 122
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 6312,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 198
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 6315,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 542
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 6318,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1577
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 6321,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 478
+               },
+               "owner": "hosherama"
             }
          ],
          "hkwater": 210,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 12,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18083,7 +22550,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "turb0nen": {
          "plots": [
@@ -18342,6 +22810,30 @@ module.exports = {
                "owner": "psycodelic"
             },
             {
+               "id": 1794,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "psycodelic"
+            },
+            {
+               "id": 1824,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "psycodelic"
+            },
+            {
+               "id": 1827,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "psycodelic"
+            },
+            {
                "id": 1845,
                "properties": {
                   "NAME": "Africa",
@@ -18353,6 +22845,14 @@ module.exports = {
                "id": 1848,
                "properties": {
                   "NAME": "Africa",
+                  "TYPE": "plot"
+               },
+               "owner": "psycodelic"
+            },
+            {
+               "id": 1851,
+               "properties": {
+                  "NAME": "Afghanistan",
                   "TYPE": "plot"
                },
                "owner": "psycodelic"
@@ -18414,7 +22914,7 @@ module.exports = {
                "owner": "psycodelic"
             }
          ],
-         "plotCount": 13,
+         "plotCount": 17,
          "seedCount": 17,
          "seeds": [
             {
@@ -18818,10 +23318,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "badpupper"
+            },
+            {
+               "id": 5494,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "badpupper"
             }
          ],
-         "plotCount": 21,
-         "seedCount": 21,
+         "plotCount": 22,
+         "seedCount": 22,
          "seeds": [
             {
                "id": 769,
@@ -19053,11 +23563,22 @@ module.exports = {
                   "PR": 503
                },
                "owner": "badpupper"
+            },
+            {
+               "id": 5493,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 324
+               },
+               "owner": "badpupper"
             }
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19096,7 +23617,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "water": 60,
+         "water": 90,
          "avatars": [],
          "boosters": []
       },
@@ -19125,10 +23646,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "hersi007"
+            },
+            {
+               "id": 5650,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hersi007"
+            },
+            {
+               "id": 6706,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hersi007"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 5,
+         "seedCount": 5,
          "seeds": [
             {
                "id": 1880,
@@ -19162,11 +23703,33 @@ module.exports = {
                   "PR": 238
                },
                "owner": "hersi007"
+            },
+            {
+               "id": 5649,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 739
+               },
+               "owner": "hersi007"
+            },
+            {
+               "id": 6705,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 209
+               },
+               "owner": "hersi007"
             }
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19206,7 +23769,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "acne": {
          "plots": [
@@ -19303,10 +23867,100 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "sanchezro"
+            },
+            {
+               "id": 5755,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5758,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5761,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5764,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5767,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5770,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5773,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5776,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5779,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sanchezro"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 12,
+         "seedCount": 12,
          "seeds": [
             {
                "id": 1886,
@@ -19340,11 +23994,110 @@ module.exports = {
                   "PR": 1837
                },
                "owner": "sanchezro"
+            },
+            {
+               "id": 5754,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 126
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5757,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 312
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5760,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 96
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5763,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 310
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5766,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 202
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5769,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 99
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5772,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 92
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5775,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 419
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 5778,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 581
+               },
+               "owner": "sanchezro"
             }
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19384,7 +24137,8 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "tongostar": {
          "plots": [
@@ -20408,10 +25162,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "tremou922"
+            },
+            {
+               "id": 6403,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "tremou922"
+            },
+            {
+               "id": 6406,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "tremou922"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 2190,
@@ -20423,12 +25197,34 @@ module.exports = {
                   "PR": 81
                },
                "owner": "tremou922"
+            },
+            {
+               "id": 6402,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 691
+               },
+               "owner": "tremou922"
+            },
+            {
+               "id": 6405,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 657
+               },
+               "owner": "tremou922"
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20469,7 +25265,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "caprisk": {
          "plots": [
@@ -20740,10 +25537,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "criptosectadepit"
+            },
+            {
+               "id": 6457,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "criptosectadepit"
+            },
+            {
+               "id": 6460,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "criptosectadepit"
             }
          ],
-         "plotCount": 15,
-         "seedCount": 15,
+         "plotCount": 17,
+         "seedCount": 17,
          "seeds": [
             {
                "id": 2199,
@@ -20909,12 +25726,34 @@ module.exports = {
                   "PR": 108
                },
                "owner": "criptosectadepit"
+            },
+            {
+               "id": 6456,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 35
+               },
+               "owner": "criptosectadepit"
+            },
+            {
+               "id": 6459,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 94
+               },
+               "owner": "criptosectadepit"
             }
          ],
          "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20955,7 +25794,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "jacksonrj": {
          "plots": [
@@ -21038,10 +25878,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "jarkillo"
+            },
+            {
+               "id": 5908,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jarkillo"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "id": 2229,
@@ -21053,12 +25903,23 @@ module.exports = {
                   "PR": 237
                },
                "owner": "jarkillo"
+            },
+            {
+               "id": 5907,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 313
+               },
+               "owner": "jarkillo"
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21099,7 +25960,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "xmuguenx": {
          "plots": [
@@ -21386,10 +26248,50 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "kratosn2"
+            },
+            {
+               "id": 5368,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kratosn2"
+            },
+            {
+               "id": 5371,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kratosn2"
+            },
+            {
+               "id": 5860,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kratosn2"
+            },
+            {
+               "id": 6040,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kratosn2"
             }
          ],
-         "plotCount": 17,
-         "seedCount": 17,
+         "plotCount": 21,
+         "seedCount": 21,
          "seeds": [
             {
                "id": 2250,
@@ -21577,12 +26479,56 @@ module.exports = {
                   "PR": 170
                },
                "owner": "kratosn2"
+            },
+            {
+               "id": 5367,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1073
+               },
+               "owner": "kratosn2"
+            },
+            {
+               "id": 5370,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1864
+               },
+               "owner": "kratosn2"
+            },
+            {
+               "id": 5859,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 599
+               },
+               "owner": "kratosn2"
+            },
+            {
+               "id": 6039,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 230
+               },
+               "owner": "kratosn2"
             }
          ],
          "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21623,7 +26569,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "rokimv87": {
          "plots": [
@@ -21738,10 +26685,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "rokimv87"
+            },
+            {
+               "id": 5238,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "rokimv87"
+            },
+            {
+               "id": 5240,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "rokimv87"
             }
          ],
-         "plotCount": 14,
-         "seedCount": 15,
+         "plotCount": 16,
+         "seedCount": 16,
          "seeds": [
             {
                "id": 2298,
@@ -21905,6 +26872,17 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 10,
                   "PR": 149
+               },
+               "owner": "rokimv87"
+            },
+            {
+               "id": 5239,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 181
                },
                "owner": "rokimv87"
             }
@@ -22496,10 +27474,50 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "chito1"
+            },
+            {
+               "id": 6922,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "chito1"
+            },
+            {
+               "id": 6925,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "chito1"
+            },
+            {
+               "id": 6928,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "chito1"
+            },
+            {
+               "id": 6931,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "chito1"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 5,
+         "seedCount": 5,
          "seeds": [
             {
                "id": 2352,
@@ -22511,12 +27529,56 @@ module.exports = {
                   "PR": 2426
                },
                "owner": "chito1"
+            },
+            {
+               "id": 6921,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1048
+               },
+               "owner": "chito1"
+            },
+            {
+               "id": 6924,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 675
+               },
+               "owner": "chito1"
+            },
+            {
+               "id": 6927,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 512
+               },
+               "owner": "chito1"
+            },
+            {
+               "id": 6930,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 31
+               },
+               "owner": "chito1"
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -22557,7 +27619,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "benjaaa": {
          "plots": [
@@ -22576,10 +27639,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "benjaaa"
+            },
+            {
+               "id": 5839,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "benjaaa"
+            },
+            {
+               "id": 5842,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "benjaaa"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "id": 2355,
@@ -22602,12 +27685,34 @@ module.exports = {
                   "PR": 1841
                },
                "owner": "benjaaa"
+            },
+            {
+               "id": 5838,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 353
+               },
+               "owner": "benjaaa"
+            },
+            {
+               "id": 5841,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 287
+               },
+               "owner": "benjaaa"
             }
          ],
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -22648,7 +27753,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "grinselion": {
          "plots": [
@@ -23671,19 +28777,8 @@ module.exports = {
             }
          ],
          "plotCount": 7,
-         "seedCount": 8,
+         "seedCount": 7,
          "seeds": [
-            {
-               "id": 2517,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Malawi",
-                  "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2473
-               },
-               "owner": "lerage"
-            },
             {
                "id": 2520,
                "properties": {
@@ -23765,7 +28860,7 @@ module.exports = {
          "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -23806,7 +28901,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "brofundholdings": {
          "plots": [
@@ -24587,10 +29683,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "mec45"
+            },
+            {
+               "id": 6766,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "mec45"
             }
          ],
-         "plotCount": 21,
-         "seedCount": 21,
+         "plotCount": 22,
+         "seedCount": 22,
          "seeds": [
             {
                "id": 2661,
@@ -24822,12 +29928,23 @@ module.exports = {
                   "PR": 4622
                },
                "owner": "mec45"
+            },
+            {
+               "id": 6765,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1450
+               },
+               "owner": "mec45"
             }
          ],
          "hkwater": 630,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -24868,7 +29985,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "zeusdy": {
          "plots": [
@@ -25468,10 +30586,50 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "zanrsc"
+            },
+            {
+               "id": 5464,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "zanrsc"
+            },
+            {
+               "id": 5467,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "zanrsc"
+            },
+            {
+               "id": 5470,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "zanrsc"
+            },
+            {
+               "id": 5473,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "zanrsc"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 7,
+         "seedCount": 7,
          "seeds": [
             {
                "id": 2730,
@@ -25505,12 +30663,56 @@ module.exports = {
                   "PR": 321
                },
                "owner": "zanrsc"
+            },
+            {
+               "id": 5463,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 109
+               },
+               "owner": "zanrsc"
+            },
+            {
+               "id": 5466,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 108
+               },
+               "owner": "zanrsc"
+            },
+            {
+               "id": 5469,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 347
+               },
+               "owner": "zanrsc"
+            },
+            {
+               "id": 5472,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 230
+               },
+               "owner": "zanrsc"
             }
          ],
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -25551,7 +30753,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "rnldjose31": {
          "plots": [
@@ -25578,10 +30781,50 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "rnldjose31"
+            },
+            {
+               "id": 6382,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "rnldjose31"
+            },
+            {
+               "id": 6385,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "rnldjose31"
+            },
+            {
+               "id": 6388,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "rnldjose31"
+            },
+            {
+               "id": 6391,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "rnldjose31"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 7,
+         "seedCount": 7,
          "seeds": [
             {
                "id": 2733,
@@ -25615,12 +30858,56 @@ module.exports = {
                   "PR": 1750
                },
                "owner": "rnldjose31"
+            },
+            {
+               "id": 6381,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 314
+               },
+               "owner": "rnldjose31"
+            },
+            {
+               "id": 6384,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 245
+               },
+               "owner": "rnldjose31"
+            },
+            {
+               "id": 6387,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 205
+               },
+               "owner": "rnldjose31"
+            },
+            {
+               "id": 6390,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 459
+               },
+               "owner": "rnldjose31"
             }
          ],
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -25661,7 +30948,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "docarmoedu": {
          "plots": [
@@ -26660,10 +31948,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "duaystive"
+            },
+            {
+               "id": 5383,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "duaystive"
             }
          ],
-         "plotCount": 4,
-         "seedCount": 4,
+         "plotCount": 5,
+         "seedCount": 5,
          "seeds": [
             {
                "id": 2802,
@@ -26708,12 +32006,23 @@ module.exports = {
                   "PR": 187
                },
                "owner": "duaystive"
+            },
+            {
+               "id": 5382,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 192
+               },
+               "owner": "duaystive"
             }
          ],
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -26754,7 +32063,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "anyeloert": {
          "plots": [
@@ -28207,10 +33517,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "davidagn79"
+            },
+            {
+               "id": 6682,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "davidagn79"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "id": 3039,
@@ -28244,12 +33564,23 @@ module.exports = {
                   "PR": 201
                },
                "owner": "davidagn79"
+            },
+            {
+               "id": 6681,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 265
+               },
+               "owner": "davidagn79"
             }
          ],
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -28290,7 +33621,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "inek18": {
          "plots": [
@@ -31504,10 +36836,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "graceathenas"
+            },
+            {
+               "id": 6736,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "graceathenas"
+            },
+            {
+               "id": 6739,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "graceathenas"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "id": 3402,
@@ -31530,12 +36882,34 @@ module.exports = {
                   "PR": 356
                },
                "owner": "graceathenas"
+            },
+            {
+               "id": 6735,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 237
+               },
+               "owner": "graceathenas"
+            },
+            {
+               "id": 6738,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 72
+               },
+               "owner": "graceathenas"
             }
          ],
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -31576,7 +36950,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "hasted": {
          "plots": [
@@ -31838,10 +37213,40 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "jeffx09"
+            },
+            {
+               "id": 6769,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jeffx09"
+            },
+            {
+               "id": 6772,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jeffx09"
+            },
+            {
+               "id": 6973,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jeffx09"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 5,
+         "seedCount": 5,
          "seeds": [
             {
                "id": 3474,
@@ -31864,12 +37269,45 @@ module.exports = {
                   "PR": 2467
                },
                "owner": "jeffx09"
+            },
+            {
+               "id": 6768,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 30
+               },
+               "owner": "jeffx09"
+            },
+            {
+               "id": 6771,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 463
+               },
+               "owner": "jeffx09"
+            },
+            {
+               "id": 6972,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 209
+               },
+               "owner": "jeffx09"
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -31910,7 +37348,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "lalogg13": {
          "plots": [
@@ -33226,10 +38665,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "xkaliburx"
+            },
+            {
+               "id": 6697,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "xkaliburx"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "id": 3630,
@@ -33241,12 +38690,23 @@ module.exports = {
                   "PR": 254
                },
                "owner": "xkaliburx"
+            },
+            {
+               "id": 6696,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 488
+               },
+               "owner": "xkaliburx"
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33287,7 +38747,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "dani1884": {
          "plots": [
@@ -33711,10 +39172,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "terrible93"
+            },
+            {
+               "id": 5244,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "terrible93"
+            },
+            {
+               "id": 5851,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "terrible93"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 3681,
@@ -33737,12 +39218,23 @@ module.exports = {
                   "PR": 206
                },
                "owner": "terrible93"
+            },
+            {
+               "id": 5850,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 73
+               },
+               "owner": "terrible93"
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33784,7 +39276,7 @@ module.exports = {
          "motaStake": 0,
          "avatars": [],
          "boosters": [],
-         "water": null
+         "water": 30
       },
       "jarrical0506": {
          "plots": [
@@ -34137,10 +39629,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "mpock"
+            },
+            {
+               "id": 6868,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "mpock"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 3699,
@@ -34163,12 +39665,23 @@ module.exports = {
                   "PR": 328
                },
                "owner": "mpock"
+            },
+            {
+               "id": 6867,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 241
+               },
+               "owner": "mpock"
             }
          ],
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -34209,7 +39722,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "fernandohg11": {
          "plots": [
@@ -34645,10 +40159,40 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "jeanzz"
+            },
+            {
+               "id": 7030,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jeanzz"
+            },
+            {
+               "id": 7033,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jeanzz"
+            },
+            {
+               "id": 7036,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jeanzz"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 5,
+         "seedCount": 5,
          "seeds": [
             {
                "id": 3735,
@@ -34671,12 +40215,45 @@ module.exports = {
                   "PR": 234
                },
                "owner": "jeanzz"
+            },
+            {
+               "id": 7029,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 279
+               },
+               "owner": "jeanzz"
+            },
+            {
+               "id": 7032,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 577
+               },
+               "owner": "jeanzz"
+            },
+            {
+               "id": 7035,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 123
+               },
+               "owner": "jeanzz"
             }
          ],
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -34717,7 +40294,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "stiven1044000000": {
          "plots": [
@@ -35704,9 +41282,29 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "eldudu"
+            },
+            {
+               "id": 5242,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "eldudu"
+            },
+            {
+               "id": 5243,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "eldudu"
             }
          ],
-         "plotCount": 3,
+         "plotCount": 5,
          "seedCount": 5,
          "seeds": [
             {
@@ -35837,10 +41435,50 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "christian7urquia"
+            },
+            {
+               "id": 6691,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "christian7urquia"
+            },
+            {
+               "id": 6694,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "christian7urquia"
+            },
+            {
+               "id": 6700,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "christian7urquia"
+            },
+            {
+               "id": 6724,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "christian7urquia"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 7,
+         "seedCount": 7,
          "seeds": [
             {
                "id": 3966,
@@ -35874,12 +41512,56 @@ module.exports = {
                   "PR": 197
                },
                "owner": "christian7urquia"
+            },
+            {
+               "id": 6690,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 418
+               },
+               "owner": "christian7urquia"
+            },
+            {
+               "id": 6693,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 216
+               },
+               "owner": "christian7urquia"
+            },
+            {
+               "id": 6699,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 220
+               },
+               "owner": "christian7urquia"
+            },
+            {
+               "id": 6723,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1540
+               },
+               "owner": "christian7urquia"
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -35920,7 +41602,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "ellocohugo": {
          "plots": [
@@ -36062,10 +41745,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "jacielxy"
+            },
+            {
+               "id": 6451,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jacielxy"
+            },
+            {
+               "id": 6454,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jacielxy"
             }
          ],
-         "plotCount": 6,
-         "seedCount": 6,
+         "plotCount": 8,
+         "seedCount": 8,
          "seeds": [
             {
                "id": 3975,
@@ -36132,12 +41835,34 @@ module.exports = {
                   "PR": 321
                },
                "owner": "jacielxy"
+            },
+            {
+               "id": 6450,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 609
+               },
+               "owner": "jacielxy"
+            },
+            {
+               "id": 6453,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 627
+               },
+               "owner": "jacielxy"
             }
          ],
          "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36178,7 +41903,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "sirbogavante": {
          "plots": [
@@ -36315,10 +42041,50 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "asas96"
+            },
+            {
+               "id": 5482,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "asas96"
+            },
+            {
+               "id": 5485,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "asas96"
+            },
+            {
+               "id": 5488,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "asas96"
+            },
+            {
+               "id": 5491,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "asas96"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 7,
+         "seedCount": 7,
          "seeds": [
             {
                "id": 4020,
@@ -36352,12 +42118,56 @@ module.exports = {
                   "PR": 216
                },
                "owner": "asas96"
+            },
+            {
+               "id": 5481,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 687
+               },
+               "owner": "asas96"
+            },
+            {
+               "id": 5484,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2073
+               },
+               "owner": "asas96"
+            },
+            {
+               "id": 5487,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 739
+               },
+               "owner": "asas96"
+            },
+            {
+               "id": 5490,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 658
+               },
+               "owner": "asas96"
             }
          ],
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36398,7 +42208,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "procash1": {
          "plots": [
@@ -36682,10 +42493,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "oldmans"
+            },
+            {
+               "id": 5863,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "oldmans"
             }
          ],
-         "plotCount": 10,
-         "seedCount": 10,
+         "plotCount": 11,
+         "seedCount": 11,
          "seeds": [
             {
                "id": 4062,
@@ -36796,12 +42617,23 @@ module.exports = {
                   "PR": 915
                },
                "owner": "oldmans"
+            },
+            {
+               "id": 5862,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 715
+               },
+               "owner": "oldmans"
             }
          ],
          "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36842,7 +42674,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "tupacdre82": {
          "plots": [
@@ -37958,10 +43791,460 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "kinggo9"
+            },
+            {
+               "id": 6463,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6466,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6469,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6472,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6475,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6478,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6481,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6484,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6487,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6490,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6493,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6496,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6499,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6502,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6505,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6604,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6607,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6610,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6616,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6619,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6622,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6625,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6628,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6631,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6634,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6637,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6640,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6643,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6670,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6673,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6886,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6889,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6892,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6895,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6898,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6901,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6904,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6907,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6910,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6913,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7060,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7072,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7078,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7081,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7084,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kinggo9"
             }
          ],
-         "plotCount": 4,
-         "seedCount": 3,
+         "plotCount": 49,
+         "seedCount": 48,
          "seeds": [
             {
                "id": 4140,
@@ -37995,12 +44278,507 @@ module.exports = {
                   "PR": 807
                },
                "owner": "kinggo9"
+            },
+            {
+               "id": 6462,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 630
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6465,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 684
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6468,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 684
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6471,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 629
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6474,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 824
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6477,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 723
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6480,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 990
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6483,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 750
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6486,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 741
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6489,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 724
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6492,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 770
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6495,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 609
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6498,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1704
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6501,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1713
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6504,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1741
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6603,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 177
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6606,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 134
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6609,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 185
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6615,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 375
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6618,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 386
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6621,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 551
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6624,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 584
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6627,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 97
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6630,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 421
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6633,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 260
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6636,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 486
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6639,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 320
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6642,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 165
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6669,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 562
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6672,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 34
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6885,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 54
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6888,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 94
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6891,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 241
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6894,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 223
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6897,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 171
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6900,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 221
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6903,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 261
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6906,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 161
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6909,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 201
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 6912,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 204
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7059,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 147
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7071,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 32
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7077,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 269
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7080,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 483
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7083,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 360
+               },
+               "owner": "kinggo9"
             }
          ],
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 45,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38041,7 +44819,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "razyel24": {
          "plots": [
@@ -38060,10 +44839,20 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "razyel24"
+            },
+            {
+               "id": 6361,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "razyel24"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 4167,
@@ -38086,12 +44875,23 @@ module.exports = {
                   "PR": 202
                },
                "owner": "razyel24"
+            },
+            {
+               "id": 6360,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 342
+               },
+               "owner": "razyel24"
             }
          ],
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38132,7 +44932,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "infinito2021": {
          "plots": [
@@ -38610,10 +45411,120 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "largouuu"
+            },
+            {
+               "id": 6256,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6283,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6286,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6289,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6292,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6295,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6298,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6301,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6304,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6307,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6310,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "largouuu"
             }
          ],
-         "plotCount": 13,
-         "seedCount": 13,
+         "plotCount": 24,
+         "seedCount": 24,
          "seeds": [
             {
                "id": 4191,
@@ -38757,12 +45668,133 @@ module.exports = {
                   "PR": 313
                },
                "owner": "largouuu"
+            },
+            {
+               "id": 6255,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 50
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6282,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 831
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6285,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 723
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6288,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 772
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6291,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 772
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6294,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 637
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6297,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 628
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6300,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1458
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6303,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 632
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6306,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2150
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 6309,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 257
+               },
+               "owner": "largouuu"
             }
          ],
          "hkwater": 390,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 11,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38803,7 +45835,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "pippex": {
          "plots": {
@@ -39104,10 +46137,30 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "nobutsd1974"
+            },
+            {
+               "id": 5632,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "nobutsd1974"
+            },
+            {
+               "id": 5635,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "nobutsd1974"
             }
          ],
-         "plotCount": 14,
-         "seedCount": 15,
+         "plotCount": 16,
+         "seedCount": 17,
          "seeds": [
             {
                "id": 454,
@@ -39273,12 +46326,34 @@ module.exports = {
                   "PR": 642
                },
                "owner": "nobutsd1974"
+            },
+            {
+               "id": 5631,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 710
+               },
+               "owner": "nobutsd1974"
+            },
+            {
+               "id": 5634,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 345
+               },
+               "owner": "nobutsd1974"
             }
          ],
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -39319,7 +46394,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "hazeudon": {
          "plots": [
@@ -41358,11 +48434,21 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "aniol77"
+            },
+            {
+               "id": 6331,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "aniol77"
             }
          ],
          "farm": [],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 4713,
@@ -41385,12 +48471,23 @@ module.exports = {
                   "PR": 264
                },
                "owner": "aniol77"
+            },
+            {
+               "id": 6330,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 777
+               },
+               "owner": "aniol77"
             }
          ],
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41431,7 +48528,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "harolac": {
          "subdivisions": {
@@ -42074,20 +49172,8 @@ module.exports = {
          ],
          "farm": [],
          "plotCount": 1,
-         "seedCount": 1,
-         "seeds": [
-            {
-               "id": 4821,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Acapulco Gold",
-                  "SPT": 6,
-                  "WATER": 23,
-                  "PR": 399
-               },
-               "owner": "funnel"
-            }
-         ],
+         "seedCount": 0,
+         "seeds": [],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
@@ -42407,11 +49493,31 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "migueldavidor"
+            },
+            {
+               "id": 5866,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "migueldavidor"
+            },
+            {
+               "id": 5869,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "migueldavidor"
             }
          ],
          "farm": [],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 4851,
@@ -42423,12 +49529,34 @@ module.exports = {
                   "PR": 320
                },
                "owner": "migueldavidor"
+            },
+            {
+               "id": 5865,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 741
+               },
+               "owner": "migueldavidor"
+            },
+            {
+               "id": 5868,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 579
+               },
+               "owner": "migueldavidor"
             }
          ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -42469,7 +49597,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "brad12": {
          "subdivisions": {
@@ -43821,46 +50950,6 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 1794,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 1824,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 1827,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 1851,
-               "properties": {
-                  "NAME": "Afghanistan",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 2518,
-               "properties": {
-                  "NAME": "Africa",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
                "id": 2917,
                "properties": {
                   "NAME": "Mexico",
@@ -43899,12 +50988,53 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "nftmart.cards"
+            },
+            {
+               "id": 6019,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 6649,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 6919,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "nftmart.cards"
             }
          ],
          "farm": [],
-         "plotCount": 14,
-         "seedCount": 1,
+         "plotCount": 12,
+         "seedCount": 4,
          "seeds": [
+            {
+               "id": 4821,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 399
+               },
+               "owner": "nftmart.cards"
+            },
             {
                "id": 5109,
                "properties": {
@@ -43913,6 +51043,28 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 10,
                   "PR": 266
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 6018,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 423
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 6918,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 617
                },
                "owner": "nftmart.cards"
             }
@@ -49448,11 +56600,31 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "ceheran"
+            },
+            {
+               "id": 5830,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ceheran"
+            },
+            {
+               "id": 6844,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ceheran"
             }
          ],
          "farm": [],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "id": 1757,
@@ -49475,12 +56647,34 @@ module.exports = {
                   "PR": 242
                },
                "owner": "ceheran"
+            },
+            {
+               "id": 5829,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 734
+               },
+               "owner": "ceheran"
+            },
+            {
+               "id": 6843,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1458
+               },
+               "owner": "ceheran"
             }
          ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -49521,7 +56715,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "ooakosimo": {
          "subdivisions": {
@@ -49546,11 +56741,41 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "ooakosimo"
+            },
+            {
+               "id": 5641,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ooakosimo"
+            },
+            {
+               "id": 5644,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ooakosimo"
+            },
+            {
+               "id": 5647,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ooakosimo"
             }
          ],
          "farm": [],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "id": 1772,
@@ -49562,12 +56787,45 @@ module.exports = {
                   "PR": 2471
                },
                "owner": "ooakosimo"
+            },
+            {
+               "id": 5640,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1852
+               },
+               "owner": "ooakosimo"
+            },
+            {
+               "id": 5643,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 598
+               },
+               "owner": "ooakosimo"
+            },
+            {
+               "id": 5646,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 65
+               },
+               "owner": "ooakosimo"
             }
          ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -49608,7 +56866,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "bad-goyim": {
          "subdivisions": {
@@ -51032,6 +58291,14 @@ module.exports = {
          },
          "plots": [
             {
+               "id": 2518,
+               "properties": {
+                  "NAME": "Africa",
+                  "TYPE": "plot"
+               },
+               "owner": "thebeardflex"
+            },
+            {
                "id": 4450,
                "properties": {
                   "NAME": "Afghanistan",
@@ -51062,12 +58329,123 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "thebeardflex"
+            },
+            {
+               "id": 5377,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 5479,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6058,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6064,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6067,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6070,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6364,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6379,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6613,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6703,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "thebeardflex"
             }
          ],
          "farm": [],
-         "plotCount": 4,
-         "seedCount": 4,
+         "plotCount": 15,
+         "seedCount": 15,
          "seeds": [
+            {
+               "id": 2517,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2473
+               },
+               "owner": "thebeardflex"
+            },
             {
                "id": 4449,
                "properties": {
@@ -51111,12 +58489,122 @@ module.exports = {
                   "PR": 262
                },
                "owner": "thebeardflex"
+            },
+            {
+               "id": 5376,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 664
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 5478,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 300
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6057,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1765
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6063,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 374
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6066,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 733
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6069,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 56
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6363,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 397
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6378,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 213
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6612,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 806
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 6702,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 132
+               },
+               "owner": "thebeardflex"
             }
          ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -51157,7 +58645,8 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "huzzah": {
          "subdivisions": {
@@ -52833,11 +60322,21 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "bhaiyas"
+            },
+            {
+               "id": 6709,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "bhaiyas"
             }
          ],
          "farm": [],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 5055,
@@ -52860,12 +60359,23 @@ module.exports = {
                   "PR": 204
                },
                "owner": "bhaiyas"
+            },
+            {
+               "id": 6708,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 98
+               },
+               "owner": "bhaiyas"
             }
          ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52905,7 +60415,8 @@ module.exports = {
             }
          },
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "roshansuares": {
          "subdivisions": {
@@ -53100,11 +60611,21 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "sushanthanchan"
+            },
+            {
+               "id": 6367,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sushanthanchan"
             }
          ],
          "farm": [],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 5064,
@@ -53127,12 +60648,23 @@ module.exports = {
                   "PR": 499
                },
                "owner": "sushanthanchan"
+            },
+            {
+               "id": 6366,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 630
+               },
+               "owner": "sushanthanchan"
             }
          ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53172,7 +60704,8 @@ module.exports = {
             }
          },
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "rohansuares": {
          "subdivisions": {
@@ -53205,11 +60738,31 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "rohansuares"
+            },
+            {
+               "id": 6679,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "rohansuares"
+            },
+            {
+               "id": 6685,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "rohansuares"
             }
          ],
          "farm": [],
-         "plotCount": 2,
-         "seedCount": 2,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
             {
                "id": 5070,
@@ -53232,12 +60785,34 @@ module.exports = {
                   "PR": 663
                },
                "owner": "rohansuares"
+            },
+            {
+               "id": 6678,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 701
+               },
+               "owner": "rohansuares"
+            },
+            {
+               "id": 6684,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 359
+               },
+               "owner": "rohansuares"
             }
          ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53277,7 +60852,8 @@ module.exports = {
             }
          },
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "felsum": {
          "subdivisions": {
@@ -53464,11 +61040,31 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "footballpedia"
+            },
+            {
+               "id": 5374,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "footballpedia"
+            },
+            {
+               "id": 5380,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "footballpedia"
             }
          ],
          "farm": [],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 3,
+         "seedCount": 3,
          "seeds": [
             {
                "id": 5103,
@@ -53480,12 +61076,34 @@ module.exports = {
                   "PR": 364
                },
                "owner": "footballpedia"
+            },
+            {
+               "id": 5373,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 117
+               },
+               "owner": "footballpedia"
+            },
+            {
+               "id": 5379,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 237
+               },
+               "owner": "footballpedia"
             }
          ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53525,7 +61143,8 @@ module.exports = {
             }
          },
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "jackofcrows": {
          "subdivisions": {
@@ -53909,11 +61528,31 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "derangedvisions"
+            },
+            {
+               "id": 5833,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "derangedvisions"
+            },
+            {
+               "id": 5836,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "derangedvisions"
             }
          ],
          "farm": [],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 5,
+         "seedCount": 5,
          "seeds": [
             {
                "id": 5154,
@@ -53947,12 +61586,34 @@ module.exports = {
                   "PR": 282
                },
                "owner": "derangedvisions"
+            },
+            {
+               "id": 5832,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 308
+               },
+               "owner": "derangedvisions"
+            },
+            {
+               "id": 5835,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 441
+               },
+               "owner": "derangedvisions"
             }
          ],
          "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53992,7 +61653,8 @@ module.exports = {
             }
          },
          "avatars": [],
-         "boosters": []
+         "boosters": [],
+         "water": null
       },
       "meyxxyz": {
          "subdivisions": {
@@ -54114,10 +61776,141 @@ module.exports = {
             "mexicoC": 0,
             "southAmericaC": 0
          },
-         "plots": [],
+         "plots": [
+            {
+               "id": 5245,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5246,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5253,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5263,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5266,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5269,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5272,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5275,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5278,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5281,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5284,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5287,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5290,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "matheus9"
+            }
+         ],
          "farm": [],
-         "plotCount": 0,
-         "seedCount": 3,
+         "plotCount": 13,
+         "seedCount": 13,
          "seeds": [
             {
                "id": 5216,
@@ -54151,6 +61944,7710 @@ module.exports = {
                   "PR": 1771
                },
                "owner": "matheus9"
+            },
+            {
+               "id": 5262,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 234
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5265,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 504
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5268,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 585
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5271,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1714
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5274,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 214
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5277,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 777
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5280,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 471
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5283,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 750
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5286,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 729
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 5289,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 606
+               },
+               "owner": "matheus9"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "agramon": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5365,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "agramon"
+            },
+            {
+               "id": 5386,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "agramon"
+            },
+            {
+               "id": 5665,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "agramon"
+            }
+         ],
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 5364,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 665
+               },
+               "owner": "agramon"
+            },
+            {
+               "id": 5385,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 445
+               },
+               "owner": "agramon"
+            },
+            {
+               "id": 5664,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 184
+               },
+               "owner": "agramon"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "jonnybanana": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5476,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jonnybanana"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 5475,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 292
+               },
+               "owner": "jonnybanana"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "labriego": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5503,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5506,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5509,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5512,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5515,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5518,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5521,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5524,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5527,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5530,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5533,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5536,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5539,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5542,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5545,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5548,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5551,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5554,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5557,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5560,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5563,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5566,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5569,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5572,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5896,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5899,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5902,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6034,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6343,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6346,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6718,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6721,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "labriego"
+            }
+         ],
+         "farm": [],
+         "plotCount": 32,
+         "seedCount": 32,
+         "seeds": [
+            {
+               "id": 5502,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 426
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5505,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 216
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5508,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 613
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5511,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 324
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5514,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 265
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5517,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 224
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5520,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 262
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5523,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 32
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5526,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 444
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5529,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 813
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5532,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 84
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5535,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 95
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5538,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 89
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5541,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 251
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5544,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 314
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5547,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 219
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5550,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 184
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5553,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 312
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5556,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 313
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5559,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 97
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5562,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 305
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5565,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 127
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5568,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 107
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5571,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 173
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5895,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 254
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5898,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 164
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 5901,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 81
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6033,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 75
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6342,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Lashkar Gah",
+                  "SPT": 5,
+                  "WATER": 43,
+                  "PR": 1084
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6345,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 325
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6717,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 472
+               },
+               "owner": "labriego"
+            },
+            {
+               "id": 6720,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 71
+               },
+               "owner": "labriego"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 33,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "ilazramusic": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5587,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ilazramusic"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 5586,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 62
+               },
+               "owner": "ilazramusic"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "arlettemsalase": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5605,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "arlettemsalase"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 5604,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 107
+               },
+               "owner": "arlettemsalase"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "tronquito": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5662,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "tronquito"
+            },
+            {
+               "id": 7045,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "tronquito"
+            }
+         ],
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 5661,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 711
+               },
+               "owner": "tronquito"
+            },
+            {
+               "id": 7044,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 270
+               },
+               "owner": "tronquito"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "jonhive": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 3307,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 3310,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot"
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 3667,
+               "properties": {
+                  "NAME": "Africa",
+                  "TYPE": "plot"
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 5692,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 5728,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jonhive"
+            }
+         ],
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 3306,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 81
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 3309,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 651
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 3666,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2336
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 5691,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 595
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 5727,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 277
+               },
+               "owner": "jonhive"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "hellene8": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5752,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hellene8"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 5751,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 321
+               },
+               "owner": "hellene8"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "timetraveljesus": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5782,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5791,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5818,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5821,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5824,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5827,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 6274,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 6277,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 6280,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 7069,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "timetraveljesus"
+            }
+         ],
+         "farm": [],
+         "plotCount": 10,
+         "seedCount": 10,
+         "seeds": [
+            {
+               "id": 5781,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 494
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5790,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 49
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5817,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 587
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5820,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 701
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5823,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 589
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 5826,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 774
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 6273,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1568
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 6276,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 630
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 6279,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 69
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 7068,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 324
+               },
+               "owner": "timetraveljesus"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "dvelandiaa": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5845,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 5848,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 5854,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 5857,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 6952,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 6964,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "dvelandiaa"
+            }
+         ],
+         "farm": [],
+         "plotCount": 6,
+         "seedCount": 6,
+         "seeds": [
+            {
+               "id": 5844,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 300
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 5847,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1591
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 5853,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 496
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 5856,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 699
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 6951,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 97
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 6963,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 315
+               },
+               "owner": "dvelandiaa"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "robvector": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 5905,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "robvector"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 5904,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 195
+               },
+               "owner": "robvector"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "luiios": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6037,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 6046,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 6061,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 7021,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 7024,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "luiios"
+            }
+         ],
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 6036,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1612
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 6045,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 800
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 6060,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 723
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 7020,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 142
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 7023,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 142
+               },
+               "owner": "luiios"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "saachi": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6043,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "saachi"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6042,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 263
+               },
+               "owner": "saachi"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "earthboy75": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6073,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6076,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6079,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6082,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6085,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6088,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6091,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6094,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6097,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6100,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6103,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6106,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6109,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6112,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6115,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6118,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6121,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6124,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6127,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6130,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6133,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6136,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6139,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6142,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6145,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6148,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6151,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6154,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6157,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6160,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6163,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6166,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6169,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6172,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6175,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6178,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6181,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6184,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6187,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6190,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6193,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6196,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6199,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6202,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6205,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6208,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6211,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6214,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6217,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6220,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6223,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6226,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6229,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6232,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6235,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6238,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6241,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6244,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6247,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6250,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6253,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6259,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6262,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "earthboy75"
+            }
+         ],
+         "farm": [],
+         "plotCount": 63,
+         "seedCount": 63,
+         "seeds": [
+            {
+               "id": 6072,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 698
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6075,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 353
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6078,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 139
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6081,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 684
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6084,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 590
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6087,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 234
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6090,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1673
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6093,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 431
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6096,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 31
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6099,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 824
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6102,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 489
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6105,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 312
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6108,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1734
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6111,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 567
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6114,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 78
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6117,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 808
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6120,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 389
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6123,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 296
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6126,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1602
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6129,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 423
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6132,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 197
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6135,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 708
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6138,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 571
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6141,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 262
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6144,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1543
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6147,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 375
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6150,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 295
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6153,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 798
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6156,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 599
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6159,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 53
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6162,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 677
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6165,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 378
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6168,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 60
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6171,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 695
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6174,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 520
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6177,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 87
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6180,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 797
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6183,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 352
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6186,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 262
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6189,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 680
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6192,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 402
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6195,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 306
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6198,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 618
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6201,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 422
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6204,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 99
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6207,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1577
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6210,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 464
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6213,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 298
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6216,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1513
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6219,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 472
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6222,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 126
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6225,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 792
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6228,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 424
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6231,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 803
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6234,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 438
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6237,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 217
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6240,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 829
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6243,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 571
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6246,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 166
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6249,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 700
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6252,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 698
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6258,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 803
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 6261,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2045
+               },
+               "owner": "earthboy75"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 63,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "kiritoccs": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6334,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kiritoccs"
+            },
+            {
+               "id": 6337,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kiritoccs"
+            },
+            {
+               "id": 6340,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "kiritoccs"
+            }
+         ],
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 6333,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 588
+               },
+               "owner": "kiritoccs"
+            },
+            {
+               "id": 6336,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 400
+               },
+               "owner": "kiritoccs"
+            },
+            {
+               "id": 6339,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 96
+               },
+               "owner": "kiritoccs"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "sgerhart": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6349,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "sgerhart"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6348,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 497
+               },
+               "owner": "sgerhart"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "anyelp888": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6370,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "anyelp888"
+            },
+            {
+               "id": 6373,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "anyelp888"
+            },
+            {
+               "id": 6376,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "anyelp888"
+            }
+         ],
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 6369,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 615
+               },
+               "owner": "anyelp888"
+            },
+            {
+               "id": 6372,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 618
+               },
+               "owner": "anyelp888"
+            },
+            {
+               "id": 6375,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 551
+               },
+               "owner": "anyelp888"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "quijay": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6394,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "quijay"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6393,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 745
+               },
+               "owner": "quijay"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "jesusalejos": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6409,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jesusalejos"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6408,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1764
+               },
+               "owner": "jesusalejos"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "artiic97": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6412,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "artiic97"
+            },
+            {
+               "id": 6418,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "artiic97"
+            },
+            {
+               "id": 6433,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "artiic97"
+            },
+            {
+               "id": 6436,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "artiic97"
+            },
+            {
+               "id": 6439,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "artiic97"
+            }
+         ],
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 6411,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 837
+               },
+               "owner": "artiic97"
+            },
+            {
+               "id": 6417,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 716
+               },
+               "owner": "artiic97"
+            },
+            {
+               "id": 6432,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 294
+               },
+               "owner": "artiic97"
+            },
+            {
+               "id": 6435,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 289
+               },
+               "owner": "artiic97"
+            },
+            {
+               "id": 6438,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 279
+               },
+               "owner": "artiic97"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "angelportu": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6415,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6421,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6424,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6427,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6430,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6883,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "angelportu"
+            }
+         ],
+         "farm": [],
+         "plotCount": 6,
+         "seedCount": 6,
+         "seeds": [
+            {
+               "id": 6414,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1790
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6420,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 842
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6423,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 309
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6426,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 274
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6429,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 370
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 6882,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 279
+               },
+               "owner": "angelportu"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "cjavi99": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6442,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "cjavi99"
+            },
+            {
+               "id": 6445,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "cjavi99"
+            },
+            {
+               "id": 6448,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "cjavi99"
+            }
+         ],
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 6441,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 371
+               },
+               "owner": "cjavi99"
+            },
+            {
+               "id": 6444,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 89
+               },
+               "owner": "cjavi99"
+            },
+            {
+               "id": 6447,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 174
+               },
+               "owner": "cjavi99"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "alfer": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6508,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 6511,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 6514,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 6517,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 6520,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alfer"
+            }
+         ],
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 6507,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 630
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 6510,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 532
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 6513,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 96
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 6516,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 253
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 6519,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 202
+               },
+               "owner": "alfer"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "al-gaming": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6523,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "al-gaming"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6522,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 260
+               },
+               "owner": "al-gaming"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "hoory22": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6526,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6529,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6532,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6535,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6538,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6541,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6544,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6547,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6550,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6553,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "hoory22"
+            }
+         ],
+         "farm": [],
+         "plotCount": 10,
+         "seedCount": 10,
+         "seeds": [
+            {
+               "id": 6525,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 101
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6528,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 232
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6531,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 163
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6534,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 240
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6537,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 157
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6540,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 333
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6543,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 339
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6546,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 208
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6549,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 111
+               },
+               "owner": "hoory22"
+            },
+            {
+               "id": 6552,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 388
+               },
+               "owner": "hoory22"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 10,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "emanon077": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6556,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "emanon077"
+            },
+            {
+               "id": 6559,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "emanon077"
+            }
+         ],
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 6555,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 76
+               },
+               "owner": "emanon077"
+            },
+            {
+               "id": 6558,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 466
+               },
+               "owner": "emanon077"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "megarciab": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6565,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "megarciab"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6564,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 682
+               },
+               "owner": "megarciab"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "jurbinaper": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6568,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jurbinaper"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6567,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 185
+               },
+               "owner": "jurbinaper"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "robz17": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6646,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "robz17"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 6645,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 311
+               },
+               "owner": "robz17"
+            },
+            {
+               "id": 6648,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 97
+               },
+               "owner": "robz17"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "fenixazul": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6652,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "fenixazul"
+            },
+            {
+               "id": 6655,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "fenixazul"
+            }
+         ],
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 6651,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 310
+               },
+               "owner": "fenixazul"
+            },
+            {
+               "id": 6654,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 605
+               },
+               "owner": "fenixazul"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "barbasoon": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6658,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "barbasoon"
+            },
+            {
+               "id": 6661,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "barbasoon"
+            },
+            {
+               "id": 6664,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "barbasoon"
+            },
+            {
+               "id": 6667,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "barbasoon"
+            },
+            {
+               "id": 6676,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "barbasoon"
+            }
+         ],
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 6657,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 813
+               },
+               "owner": "barbasoon"
+            },
+            {
+               "id": 6660,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 240
+               },
+               "owner": "barbasoon"
+            },
+            {
+               "id": 6663,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 240
+               },
+               "owner": "barbasoon"
+            },
+            {
+               "id": 6666,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 298
+               },
+               "owner": "barbasoon"
+            },
+            {
+               "id": 6675,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 348
+               },
+               "owner": "barbasoon"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "avatars": [],
+         "boosters": []
+      },
+      "edisonjavier": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6712,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "edisonjavier"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6711,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 110
+               },
+               "owner": "edisonjavier"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "laurapalmerr": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6715,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "laurapalmerr"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6714,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 153
+               },
+               "owner": "laurapalmerr"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "luiscas2": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6727,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "luiscas2"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6726,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 477
+               },
+               "owner": "luiscas2"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "vica1988": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6730,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "vica1988"
+            },
+            {
+               "id": 6733,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "vica1988"
+            }
+         ],
+         "farm": [],
+         "plotCount": 2,
+         "seedCount": 2,
+         "seeds": [
+            {
+               "id": 6729,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1505
+               },
+               "owner": "vica1988"
+            },
+            {
+               "id": 6732,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 196
+               },
+               "owner": "vica1988"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "wilwaps32": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6742,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6745,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6748,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6751,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6754,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6757,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "wilwaps32"
+            }
+         ],
+         "farm": [],
+         "plotCount": 6,
+         "seedCount": 6,
+         "seeds": [
+            {
+               "id": 6741,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 2163
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6744,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 836
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6747,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1598
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6750,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 552
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6753,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 344
+               },
+               "owner": "wilwaps32"
+            },
+            {
+               "id": 6756,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 191
+               },
+               "owner": "wilwaps32"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "ideagold": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6760,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ideagold"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6759,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 237
+               },
+               "owner": "ideagold"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "julste": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6763,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "julste"
+            }
+         ],
+         "farm": [],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6762,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 650
+               },
+               "owner": "julste"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "alejoca": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6775,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6778,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6781,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6784,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6787,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6790,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "alejoca"
+            }
+         ],
+         "farm": [],
+         "plotCount": 6,
+         "seedCount": 6,
+         "seeds": [
+            {
+               "id": 6774,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Hindu Kush",
+                  "SPT": 4,
+                  "WATER": 82,
+                  "PR": 1926
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6777,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 849
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6780,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1712
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6783,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 665
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6786,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 489
+               },
+               "owner": "alejoca"
+            },
+            {
+               "id": 6789,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 231
+               },
+               "owner": "alejoca"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "shirahoshi": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6823,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 6826,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 6865,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 6877,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 6916,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "shirahoshi"
+            }
+         ],
+         "farm": [],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 6822,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Afghani",
+                  "SPT": 5,
+                  "WATER": 70,
+                  "PR": 1550
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 6825,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 395
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 6864,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 722
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 6876,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 191
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 6915,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 686
+               },
+               "owner": "shirahoshi"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "eselihu": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6862,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "eselihu"
+            },
+            {
+               "id": 6874,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "eselihu"
+            },
+            {
+               "id": 6880,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "eselihu"
+            }
+         ],
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 6861,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 302
+               },
+               "owner": "eselihu"
+            },
+            {
+               "id": 6873,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 157
+               },
+               "owner": "eselihu"
+            },
+            {
+               "id": 6879,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 310
+               },
+               "owner": "eselihu"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "axelcj123": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 6955,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "axelcj123"
+            },
+            {
+               "id": 6958,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "axelcj123"
+            },
+            {
+               "id": 6961,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "axelcj123"
+            }
+         ],
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 6954,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 389
+               },
+               "owner": "axelcj123"
+            },
+            {
+               "id": 6957,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 433
+               },
+               "owner": "axelcj123"
+            },
+            {
+               "id": 6960,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 362
+               },
+               "owner": "axelcj123"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "water": null,
+         "avatars": [],
+         "boosters": [],
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
+      },
+      "caina420": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [
+            {
+               "id": 7048,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "caina420"
+            },
+            {
+               "id": 7051,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "caina420"
+            },
+            {
+               "id": 7054,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "caina420"
+            }
+         ],
+         "farm": [],
+         "plotCount": 3,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 7047,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 422
+               },
+               "owner": "caina420"
+            },
+            {
+               "id": 7050,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 41
+               },
+               "owner": "caina420"
+            },
+            {
+               "id": 7053,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 230
+               },
+               "owner": "caina420"
             }
          ],
          "hkwater": 0,
@@ -54272,6 +69769,574 @@ module.exports = {
       "51992342:bassman077": "bassman077 purchased a mexico bundle",
       "51993180:matheus9": "matheus9 purchased an afghanistan bundle",
       "51993407:quefe": "quefe purchased a mexico bundle",
-      "51994725:elprutest": "elprutest purchased south america bundle"
+      "51994725:elprutest": "elprutest purchased south america bundle",
+      "52018088:footballpedia": "footballpedia purchased south america bundle",
+      "52018163:thebeardflex": "thebeardflex purchased an afghanistan bundle",
+      "52018227:footballpedia": "footballpedia purchased south america bundle",
+      "52018695:duaystive": "duaystive purchased south america bundle",
+      "52019542:agramon": "agramon purchased a mexico bundle",
+      "52023439:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023452:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023454:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023456:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023472:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52023474:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52023476:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52023478:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52023481:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52023483:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52023505:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023508:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023514:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023518:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52023520:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52023523:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52023525:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52023582:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023585:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023590:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52023593:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52023596:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52023599:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52023613:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52023631:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52025521:zanrsc": "zanrsc purchased south america bundle",
+      "52025525:zanrsc": "zanrsc purchased south america bundle",
+      "52025530:zanrsc": "zanrsc purchased south america bundle",
+      "52025533:zanrsc": "zanrsc purchased south america bundle",
+      "52027209:jonnybanana": "jonnybanana purchased south america bundle",
+      "52029524:thebeardflex": "thebeardflex purchased south america bundle",
+      "52029617:asas96": "asas96 purchased an afghanistan bundle",
+      "52029629:asas96": "asas96 purchased an afghanistan bundle",
+      "52029643:asas96": "asas96 purchased an afghanistan bundle",
+      "52029786:asas96": "asas96 purchased an afghanistan bundle",
+      "52031098:badpupper": "badpupper purchased south america bundle",
+      "52031472:meanbees": "meanbees purchased an afghanistan bundle",
+      "52031660:meanbees": "meanbees purchased an afghanistan bundle",
+      "52033028:labriego": "labriego purchased a mexico bundle",
+      "52033149:labriego": "labriego purchased south america bundle",
+      "52033152:labriego": "labriego purchased an afghanistan bundle",
+      "52033181:labriego": "labriego purchased south america bundle",
+      "52033183:labriego": "labriego purchased south america bundle",
+      "52033217:labriego": "labriego purchased south america bundle",
+      "52033219:labriego": "labriego purchased south america bundle",
+      "52033221:labriego": "labriego purchased south america bundle",
+      "52033223:labriego": "labriego purchased a mexico bundle",
+      "52033230:labriego": "labriego purchased an afghanistan bundle",
+      "52033233:labriego": "labriego purchased south america bundle",
+      "52033261:labriego": "labriego purchased south america bundle",
+      "52033263:labriego": "labriego purchased south america bundle",
+      "52033265:labriego": "labriego purchased south america bundle",
+      "52033279:labriego": "labriego purchased south america bundle",
+      "52033281:labriego": "labriego purchased south america bundle",
+      "52033285:labriego": "labriego purchased south america bundle",
+      "52033287:labriego": "labriego purchased south america bundle",
+      "52033289:labriego": "labriego purchased south america bundle",
+      "52033291:labriego": "labriego purchased south america bundle",
+      "52033293:labriego": "labriego purchased south america bundle",
+      "52033295:labriego": "labriego purchased south america bundle",
+      "52033297:labriego": "labriego purchased south america bundle",
+      "52033304:labriego": "labriego purchased south america bundle",
+      "52033949:meanbees": "meanbees purchased south america bundle",
+      "52033955:meanbees": "meanbees purchased south america bundle",
+      "52033959:meanbees": "meanbees purchased south america bundle",
+      "52033996:meanbees": "meanbees purchased south america bundle",
+      "52034769:ilazramusic": "ilazramusic purchased south america bundle",
+      "52035035:gamsam": "gamsam purchased an afghanistan bundle",
+      "52035092:gamsam": "gamsam purchased a mexico bundle",
+      "52035120:gamsam": "gamsam purchased an afghanistan bundle",
+      "52035129:gamsam": "gamsam purchased a mexico bundle",
+      "52035162:gamsam": "gamsam purchased south america bundle",
+      "52035214:arlettemsalase": "arlettemsalase purchased south america bundle",
+      "52035413:gamsam": "gamsam purchased south america bundle",
+      "52035432:gamsam": "gamsam purchased south america bundle",
+      "52035596:gamsam": "gamsam purchased south america bundle",
+      "52035600:meanbees": "meanbees purchased an afghanistan bundle",
+      "52035605:meanbees": "meanbees purchased an afghanistan bundle",
+      "52035607:gamsam": "gamsam purchased south america bundle",
+      "52035621:gamsam": "gamsam purchased south america bundle",
+      "52035636:gamsam": "gamsam purchased south america bundle",
+      "52035728:nobutsd1974": "nobutsd1974 purchased an afghanistan bundle",
+      "52035774:nobutsd1974": "nobutsd1974 purchased south america bundle",
+      "52035800:gamsam": "gamsam purchased south america bundle",
+      "52039165:ooakosimo": "ooakosimo purchased an afghanistan bundle",
+      "52039171:ooakosimo": "ooakosimo purchased a mexico bundle",
+      "52039186:ooakosimo": "ooakosimo purchased south america bundle",
+      "52040116:hersi007": "hersi007 purchased an afghanistan bundle",
+      "52040870:gamsam": "gamsam purchased south america bundle",
+      "52040890:gamsam": "gamsam purchased south america bundle",
+      "52040938:gamsam": "gamsam purchased south america bundle",
+      "52042380:tronquito": "tronquito purchased an afghanistan bundle",
+      "52042621:agramon": "agramon purchased south america bundle",
+      "52043568:hosherama": "hosherama purchased an afghanistan bundle",
+      "52043575:hosherama": "hosherama purchased an afghanistan bundle",
+      "52043579:hosherama": "hosherama purchased a mexico bundle",
+      "52043594:hosherama": "hosherama purchased south america bundle",
+      "52046402:elprutest": "elprutest purchased an afghanistan bundle",
+      "52046404:elprutest": "elprutest purchased an afghanistan bundle",
+      "52046406:elprutest": "elprutest purchased an afghanistan bundle",
+      "52046408:elprutest": "elprutest purchased an afghanistan bundle",
+      "52046424:jonhive": "jonhive purchased a mexico bundle",
+      "52046427:elprutest": "elprutest purchased a mexico bundle",
+      "52046430:elprutest": "elprutest purchased a mexico bundle",
+      "52046432:elprutest": "elprutest purchased a mexico bundle",
+      "52046434:elprutest": "elprutest purchased a mexico bundle",
+      "52046436:elprutest": "elprutest purchased a mexico bundle",
+      "52046475:gamsam": "gamsam purchased south america bundle",
+      "52046487:elprutest": "elprutest purchased south america bundle",
+      "52046489:elprutest": "elprutest purchased south america bundle",
+      "52046491:elprutest": "elprutest purchased south america bundle",
+      "52046493:elprutest": "elprutest purchased south america bundle",
+      "52046495:elprutest": "elprutest purchased south america bundle",
+      "52046571:jonhive": "jonhive purchased south america bundle",
+      "52046575:elprutest": "elprutest purchased a mexico bundle",
+      "52046597:elprutest": "elprutest purchased south america bundle",
+      "52046613:elprutest": "elprutest purchased south america bundle",
+      "52046626:elprutest": "elprutest purchased south america bundle",
+      "52046996:facugaba": "facugaba purchased south america bundle",
+      "52047014:facugaba": "facugaba purchased south america bundle",
+      "52047045:facugaba": "facugaba purchased south america bundle",
+      "52047147:hellene8": "hellene8 purchased south america bundle",
+      "52047585:sanchezro": "sanchezro purchased south america bundle",
+      "52047637:sanchezro": "sanchezro purchased south america bundle",
+      "52047640:sanchezro": "sanchezro purchased south america bundle",
+      "52047653:sanchezro": "sanchezro purchased south america bundle",
+      "52047655:sanchezro": "sanchezro purchased south america bundle",
+      "52047658:sanchezro": "sanchezro purchased south america bundle",
+      "52047662:sanchezro": "sanchezro purchased south america bundle",
+      "52047665:sanchezro": "sanchezro purchased a mexico bundle",
+      "52047667:sanchezro": "sanchezro purchased a mexico bundle",
+      "52047895:timetraveljesus": "timetraveljesus purchased a mexico bundle",
+      "52048092:ecuaminte": "ecuaminte purchased south america bundle",
+      "52048112:ecuaminte": "ecuaminte purchased a mexico bundle",
+      "52048308:hosherama": "hosherama purchased south america bundle",
+      "52048311:marcoss21": "marcoss21 purchased an afghanistan bundle",
+      "52048317:marcoss21": "marcoss21 purchased an afghanistan bundle",
+      "52048320:marcoss21": "marcoss21 purchased a mexico bundle",
+      "52048322:marcoss21": "marcoss21 purchased south america bundle",
+      "52048325:hosherama": "hosherama purchased an afghanistan bundle",
+      "52048329:hosherama": "hosherama purchased a mexico bundle",
+      "52048332:hosherama": "hosherama purchased south america bundle",
+      "52048554:timetraveljesus": "timetraveljesus purchased an afghanistan bundle",
+      "52049383:ceheran": "ceheran purchased an afghanistan bundle",
+      "52049610:derangedvisions": "derangedvisions purchased south america bundle",
+      "52049612:derangedvisions": "derangedvisions purchased a mexico bundle",
+      "52051551:benjaaa": "benjaaa purchased a mexico bundle",
+      "52051557:benjaaa": "benjaaa purchased south america bundle",
+      "52051995:dvelandiaa": "dvelandiaa purchased south america bundle",
+      "52052275:dvelandiaa": "dvelandiaa purchased an afghanistan bundle",
+      "52052315:terrible93": "terrible93 purchased south america bundle",
+      "52052373:dvelandiaa": "dvelandiaa purchased a mexico bundle",
+      "52052592:dvelandiaa": "dvelandiaa purchased an afghanistan bundle",
+      "52052815:kratosn2": "kratosn2 purchased a mexico bundle",
+      "52053261:oldmans": "oldmans purchased an afghanistan bundle",
+      "52053350:migueldavidor": "migueldavidor purchased an afghanistan bundle",
+      "52053352:migueldavidor": "migueldavidor purchased a mexico bundle",
+      "52053606:virusfx": "virusfx purchased an afghanistan bundle",
+      "52053622:virusfx": "virusfx purchased an afghanistan bundle",
+      "52053626:virusfx": "virusfx purchased a mexico bundle",
+      "52053628:virusfx": "virusfx purchased a mexico bundle",
+      "52053714:virusfx": "virusfx purchased south america bundle",
+      "52053716:virusfx": "virusfx purchased south america bundle",
+      "52053718:virusfx": "virusfx purchased south america bundle",
+      "52053720:virusfx": "virusfx purchased south america bundle",
+      "52055915:labriego": "labriego purchased south america bundle",
+      "52055918:labriego": "labriego purchased south america bundle",
+      "52055921:labriego": "labriego purchased south america bundle",
+      "52056079:labriego": "labriego purchased a mexico bundle",
+      "52056165:xkaliburx": "xkaliburx purchased a mexico bundle",
+      "52056939:robvector": "robvector purchased south america bundle",
+      "52057368:jarkillo": "jarkillo purchased south america bundle",
+      "52058354:krakolito": "krakolito purchased a mexico bundle",
+      "52058601:krakolito": "krakolito purchased an afghanistan bundle",
+      "52058604:krakolito": "krakolito purchased south america bundle",
+      "52058612:krakolito": "krakolito purchased south america bundle",
+      "52058626:krakolito": "krakolito purchased south america bundle",
+      "52058628:krakolito": "krakolito purchased south america bundle",
+      "52058743:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058745:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058747:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058749:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058751:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058753:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058755:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058757:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058759:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058761:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52058774:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058776:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058778:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058780:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058782:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058784:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058786:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058788:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058790:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058792:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52058808:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058810:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058812:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058814:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058816:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058821:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058823:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058825:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058827:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058829:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52058842:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52059551:ejmh": "ejmh purchased an afghanistan bundle",
+      "52059555:ejmh": "ejmh purchased a mexico bundle",
+      "52059560:ejmh": "ejmh purchased south america bundle",
+      "52059859:elprutest": "elprutest purchased south america bundle",
+      "52060586:labriego": "labriego purchased south america bundle",
+      "52061691:luiios": "luiios purchased an afghanistan bundle",
+      "52061841:kratosn2": "kratosn2 purchased south america bundle",
+      "52062017:saachi": "saachi purchased south america bundle",
+      "52062081:luiios": "luiios purchased an afghanistan bundle",
+      "52062264:facugaba": "facugaba purchased an afghanistan bundle",
+      "52062278:facugaba": "facugaba purchased a mexico bundle",
+      "52062287:facugaba": "facugaba purchased south america bundle",
+      "52062314:thebeardflex": "thebeardflex purchased an afghanistan bundle",
+      "52062318:luiios": "luiios purchased an afghanistan bundle",
+      "52062355:thebeardflex": "thebeardflex purchased a mexico bundle",
+      "52062373:thebeardflex": "thebeardflex purchased an afghanistan bundle",
+      "52062375:thebeardflex": "thebeardflex purchased south america bundle",
+      "52062679:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062682:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062685:earthboy75": "earthboy75 purchased south america bundle",
+      "52062687:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062689:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062691:earthboy75": "earthboy75 purchased south america bundle",
+      "52062693:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062695:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062697:earthboy75": "earthboy75 purchased south america bundle",
+      "52062699:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062701:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062703:earthboy75": "earthboy75 purchased south america bundle",
+      "52062705:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062707:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062709:earthboy75": "earthboy75 purchased south america bundle",
+      "52062711:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062713:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062715:earthboy75": "earthboy75 purchased south america bundle",
+      "52062717:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062720:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062722:earthboy75": "earthboy75 purchased south america bundle",
+      "52062730:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062734:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062736:earthboy75": "earthboy75 purchased south america bundle",
+      "52062738:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062740:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062742:earthboy75": "earthboy75 purchased south america bundle",
+      "52062744:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062746:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062748:earthboy75": "earthboy75 purchased south america bundle",
+      "52062752:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062754:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062756:earthboy75": "earthboy75 purchased south america bundle",
+      "52062758:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062760:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062763:earthboy75": "earthboy75 purchased south america bundle",
+      "52062765:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062767:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062769:earthboy75": "earthboy75 purchased south america bundle",
+      "52062771:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062773:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062775:earthboy75": "earthboy75 purchased south america bundle",
+      "52062777:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062779:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062781:earthboy75": "earthboy75 purchased south america bundle",
+      "52062784:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062786:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062788:earthboy75": "earthboy75 purchased south america bundle",
+      "52062790:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062792:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062794:earthboy75": "earthboy75 purchased south america bundle",
+      "52062796:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062798:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062802:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062804:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062806:earthboy75": "earthboy75 purchased south america bundle",
+      "52062808:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062810:earthboy75": "earthboy75 purchased a mexico bundle",
+      "52062812:earthboy75": "earthboy75 purchased south america bundle",
+      "52062814:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062816:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062818:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062818:largouuu": "largouuu purchased south america bundle",
+      "52062820:earthboy75": "earthboy75 purchased an afghanistan bundle",
+      "52062935:gamsam": "gamsam purchased south america bundle",
+      "52063193:facugaba": "facugaba purchased a mexico bundle",
+      "52063199:facugaba": "facugaba purchased south america bundle",
+      "52065191:timetraveljesus": "timetraveljesus purchased an afghanistan bundle",
+      "52065193:timetraveljesus": "timetraveljesus purchased an afghanistan bundle",
+      "52065197:timetraveljesus": "timetraveljesus purchased south america bundle",
+      "52065944:largouuu": "largouuu purchased an afghanistan bundle",
+      "52065976:largouuu": "largouuu purchased an afghanistan bundle",
+      "52066003:largouuu": "largouuu purchased an afghanistan bundle",
+      "52066016:largouuu": "largouuu purchased an afghanistan bundle",
+      "52066026:largouuu": "largouuu purchased an afghanistan bundle",
+      "52066040:largouuu": "largouuu purchased an afghanistan bundle",
+      "52066052:largouuu": "largouuu purchased an afghanistan bundle",
+      "52066063:largouuu": "largouuu purchased an afghanistan bundle",
+      "52066092:largouuu": "largouuu purchased an afghanistan bundle",
+      "52066110:largouuu": "largouuu purchased south america bundle",
+      "52066549:hosherama": "hosherama purchased south america bundle",
+      "52066599:hosherama": "hosherama purchased a mexico bundle",
+      "52066604:hosherama": "hosherama purchased an afghanistan bundle",
+      "52066837:hosherama": "hosherama purchased a mexico bundle",
+      "52069192:gamsam": "gamsam purchased south america bundle",
+      "52069202:gamsam": "gamsam purchased south america bundle",
+      "52069867:aniol77": "aniol77 purchased an afghanistan bundle",
+      "52070533:kiritoccs": "kiritoccs purchased a mexico bundle",
+      "52070577:kiritoccs": "kiritoccs purchased a mexico bundle",
+      "52070653:kiritoccs": "kiritoccs purchased south america bundle",
+      "52071219:labriego": "labriego purchased an afghanistan bundle",
+      "52071222:labriego": "labriego purchased south america bundle",
+      "52072256:sgerhart": "sgerhart purchased a mexico bundle",
+      "52073281:foxon": "foxon purchased south america bundle",
+      "52073284:foxon": "foxon purchased south america bundle",
+      "52074087:foxon": "foxon purchased a mexico bundle",
+      "52075340:razyel24": "razyel24 purchased south america bundle",
+      "52076131:thebeardflex": "thebeardflex purchased a mexico bundle",
+      "52076398:sushanthanchan": "sushanthanchan purchased an afghanistan bundle",
+      "52076631:anyelp888": "anyelp888 purchased an afghanistan bundle",
+      "52076642:anyelp888": "anyelp888 purchased an afghanistan bundle",
+      "52076648:anyelp888": "anyelp888 purchased a mexico bundle",
+      "52076670:thebeardflex": "thebeardflex purchased south america bundle",
+      "52076906:rnldjose31": "rnldjose31 purchased south america bundle",
+      "52076909:rnldjose31": "rnldjose31 purchased south america bundle",
+      "52076913:rnldjose31": "rnldjose31 purchased south america bundle",
+      "52076919:rnldjose31": "rnldjose31 purchased a mexico bundle",
+      "52076965:quijay": "quijay purchased an afghanistan bundle",
+      "52077083:foxon": "foxon purchased a mexico bundle",
+      "52077093:foxon": "foxon purchased an afghanistan bundle",
+      "52077831:tremou922": "tremou922 purchased an afghanistan bundle",
+      "52077834:tremou922": "tremou922 purchased an afghanistan bundle",
+      "52078157:jesusalejos": "jesusalejos purchased an afghanistan bundle",
+      "52078190:artiic97": "artiic97 purchased an afghanistan bundle",
+      "52078192:angelportu": "angelportu purchased an afghanistan bundle",
+      "52078195:artiic97": "artiic97 purchased an afghanistan bundle",
+      "52078196:angelportu": "angelportu purchased an afghanistan bundle",
+      "52078202:angelportu": "angelportu purchased south america bundle",
+      "52078310:angelportu": "angelportu purchased south america bundle",
+      "52078312:angelportu": "angelportu purchased a mexico bundle",
+      "52078351:artiic97": "artiic97 purchased south america bundle",
+      "52078356:artiic97": "artiic97 purchased south america bundle",
+      "52078362:artiic97": "artiic97 purchased south america bundle",
+      "52078548:cjavi99": "cjavi99 purchased a mexico bundle",
+      "52078555:cjavi99": "cjavi99 purchased south america bundle",
+      "52078560:cjavi99": "cjavi99 purchased south america bundle",
+      "52078789:jacielxy": "jacielxy purchased an afghanistan bundle",
+      "52078812:jacielxy": "jacielxy purchased an afghanistan bundle",
+      "52078939:criptosectadepit": "criptosectadepit purchased south america bundle",
+      "52078943:criptosectadepit": "criptosectadepit purchased south america bundle",
+      "52079190:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079193:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079195:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079197:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079199:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079201:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079203:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079205:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079207:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079209:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079211:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079213:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079215:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079217:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079228:kinggo9": "kinggo9 purchased an afghanistan bundle",
+      "52079257:alfer": "alfer purchased an afghanistan bundle",
+      "52079277:alfer": "alfer purchased a mexico bundle",
+      "52079280:alfer": "alfer purchased south america bundle",
+      "52079413:alfer": "alfer purchased south america bundle",
+      "52079417:alfer": "alfer purchased south america bundle",
+      "52079527:al-gaming": "al-gaming purchased south america bundle",
+      "52080014:hoory22": "hoory22 purchased south america bundle",
+      "52080036:hoory22": "hoory22 purchased south america bundle",
+      "52080040:hoory22": "hoory22 purchased south america bundle",
+      "52080042:hoory22": "hoory22 purchased south america bundle",
+      "52080058:hoory22": "hoory22 purchased south america bundle",
+      "52080061:hoory22": "hoory22 purchased south america bundle",
+      "52080063:hoory22": "hoory22 purchased south america bundle",
+      "52080067:hoory22": "hoory22 purchased south america bundle",
+      "52080070:hoory22": "hoory22 purchased south america bundle",
+      "52080082:hoory22": "hoory22 purchased a mexico bundle",
+      "52080309:emanon077": "emanon077 purchased south america bundle",
+      "52080313:emanon077": "emanon077 purchased a mexico bundle",
+      "52080545:xbladex": "xbladex purchased an afghanistan bundle",
+      "52080774:megarciab": "megarciab purchased an afghanistan bundle",
+      "52081361:jurbinaper": "jurbinaper purchased south america bundle",
+      "52081427:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52081436:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52081438:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52081441:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52081443:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52081445:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52081481:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52081493:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52081505:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52081507:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52081509:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52081842:kinggo9": "kinggo9 purchased south america bundle",
+      "52081898:kinggo9": "kinggo9 purchased south america bundle",
+      "52081900:kinggo9": "kinggo9 purchased south america bundle",
+      "52081907:thebeardflex": "thebeardflex purchased an afghanistan bundle",
+      "52081960:kinggo9": "kinggo9 purchased a mexico bundle",
+      "52081963:kinggo9": "kinggo9 purchased a mexico bundle",
+      "52081965:kinggo9": "kinggo9 purchased a mexico bundle",
+      "52081967:kinggo9": "kinggo9 purchased a mexico bundle",
+      "52081969:kinggo9": "kinggo9 purchased south america bundle",
+      "52081983:kinggo9": "kinggo9 purchased a mexico bundle",
+      "52081985:kinggo9": "kinggo9 purchased south america bundle",
+      "52081987:kinggo9": "kinggo9 purchased a mexico bundle",
+      "52081989:kinggo9": "kinggo9 purchased south america bundle",
+      "52081991:kinggo9": "kinggo9 purchased south america bundle",
+      "52082035:robz17": "robz17 purchased south america bundle",
+      "52082038:robz17": "robz17 purchased south america bundle",
+      "52082383:fenixazul": "fenixazul purchased south america bundle",
+      "52082481:fenixazul": "fenixazul purchased an afghanistan bundle",
+      "52082627:barbasoon": "barbasoon purchased an afghanistan bundle",
+      "52082632:barbasoon": "barbasoon purchased south america bundle",
+      "52082635:barbasoon": "barbasoon purchased south america bundle",
+      "52082638:barbasoon": "barbasoon purchased south america bundle",
+      "52082646:kinggo9": "kinggo9 purchased a mexico bundle",
+      "52082648:kinggo9": "kinggo9 purchased south america bundle",
+      "52082885:barbasoon": "barbasoon purchased south america bundle",
+      "52083422:rohansuares": "rohansuares purchased an afghanistan bundle",
+      "52083596:davidagn79": "davidagn79 purchased south america bundle",
+      "52083769:rohansuares": "rohansuares purchased a mexico bundle",
+      "52083784:xplora4253": "xplora4253 purchased south america bundle",
+      "52083895:christian7urquia": "christian7urquia purchased a mexico bundle",
+      "52083902:christian7urquia": "christian7urquia purchased south america bundle",
+      "52083944:christian7urquia": "christian7urquia purchased south america bundle",
+      "52084112:thebeardflex": "thebeardflex purchased south america bundle",
+      "52084222:hersi007": "hersi007 purchased south america bundle",
+      "52084275:bhaiyas": "bhaiyas purchased south america bundle",
+      "52084353:edisonjavier": "edisonjavier purchased south america bundle",
+      "52084456:laurapalmerr": "laurapalmerr purchased south america bundle",
+      "52084592:labriego": "labriego purchased a mexico bundle",
+      "52084594:labriego": "labriego purchased south america bundle",
+      "52084731:christian7urquia": "christian7urquia purchased an afghanistan bundle",
+      "52084824:luiscas2": "luiscas2 purchased a mexico bundle",
+      "52084944:vica1988": "vica1988 purchased an afghanistan bundle",
+      "52084947:vica1988": "vica1988 purchased south america bundle",
+      "52085053:graceathenas": "graceathenas purchased south america bundle",
+      "52085057:graceathenas": "graceathenas purchased south america bundle",
+      "52085244:wilwaps32": "wilwaps32 purchased an afghanistan bundle",
+      "52085248:wilwaps32": "wilwaps32 purchased an afghanistan bundle",
+      "52085251:wilwaps32": "wilwaps32 purchased an afghanistan bundle",
+      "52085253:wilwaps32": "wilwaps32 purchased a mexico bundle",
+      "52085255:wilwaps32": "wilwaps32 purchased south america bundle",
+      "52085258:wilwaps32": "wilwaps32 purchased south america bundle",
+      "52085293:ideagold": "ideagold purchased south america bundle",
+      "52085908:julste": "julste purchased an afghanistan bundle",
+      "52086284:mec45": "mec45 purchased an afghanistan bundle",
+      "52086446:jeffx09": "jeffx09 purchased south america bundle",
+      "52086521:jeffx09": "jeffx09 purchased a mexico bundle",
+      "52086715:alejoca": "alejoca purchased an afghanistan bundle",
+      "52086718:alejoca": "alejoca purchased an afghanistan bundle",
+      "52086722:alejoca": "alejoca purchased an afghanistan bundle",
+      "52086726:alejoca": "alejoca purchased an afghanistan bundle",
+      "52086736:alejoca": "alejoca purchased a mexico bundle",
+      "52086738:alejoca": "alejoca purchased south america bundle",
+      "52086999:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52087001:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52087005:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52087015:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52087016:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52087028:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52087030:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52087034:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52087045:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52087089:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
+      "52087419:shirahoshi": "shirahoshi purchased an afghanistan bundle",
+      "52087470:shirahoshi": "shirahoshi purchased a mexico bundle",
+      "52087544:ejmh": "ejmh purchased an afghanistan bundle",
+      "52087549:ejmh": "ejmh purchased an afghanistan bundle",
+      "52087553:ejmh": "ejmh purchased an afghanistan bundle",
+      "52087557:ejmh": "ejmh purchased an afghanistan bundle",
+      "52087560:ejmh": "ejmh purchased an afghanistan bundle",
+      "52087659:ceheran": "ceheran purchased an afghanistan bundle",
+      "52087791:ejmh": "ejmh purchased an afghanistan bundle",
+      "52087803:ejmh": "ejmh purchased an afghanistan bundle",
+      "52087820:ejmh": "ejmh purchased an afghanistan bundle",
+      "52087824:ejmh": "ejmh purchased south america bundle",
+      "52087828:ejmh": "ejmh purchased south america bundle",
+      "52087830:eselihu": "eselihu purchased south america bundle",
+      "52087837:shirahoshi": "shirahoshi purchased an afghanistan bundle",
+      "52087844:mpock": "mpock purchased south america bundle",
+      "52087862:ejmh": "ejmh purchased a mexico bundle",
+      "52087863:eselihu": "eselihu purchased south america bundle",
+      "52087970:shirahoshi": "shirahoshi purchased south america bundle",
+      "52088164:eselihu": "eselihu purchased south america bundle",
+      "52088467:angelportu": "angelportu purchased south america bundle",
+      "52088592:kinggo9": "kinggo9 purchased south america bundle",
+      "52088594:kinggo9": "kinggo9 purchased south america bundle",
+      "52088598:kinggo9": "kinggo9 purchased south america bundle",
+      "52088624:kinggo9": "kinggo9 purchased south america bundle",
+      "52088627:kinggo9": "kinggo9 purchased south america bundle",
+      "52088629:kinggo9": "kinggo9 purchased south america bundle",
+      "52088631:kinggo9": "kinggo9 purchased south america bundle",
+      "52088633:kinggo9": "kinggo9 purchased south america bundle",
+      "52088651:kinggo9": "kinggo9 purchased south america bundle",
+      "52088654:kinggo9": "kinggo9 purchased south america bundle",
+      "52088678:shirahoshi": "shirahoshi purchased an afghanistan bundle",
+      "52089055:lerage": "lerage purchased an afghanistan bundle",
+      "52089073:chito1": "chito1 purchased an afghanistan bundle",
+      "52089087:chito1": "chito1 purchased an afghanistan bundle",
+      "52089115:chito1": "chito1 purchased a mexico bundle",
+      "52089118:chito1": "chito1 purchased south america bundle",
+      "52089146:qwoyn": "qwoyn purchased an afghanistan bundle",
+      "52089651:aubryd": "aubryd purchased south america bundle",
+      "52089773:ejmh": "ejmh purchased south america bundle",
+      "52089912:ejmh": "ejmh purchased a mexico bundle",
+      "52089916:ejmh": "ejmh purchased south america bundle",
+      "52089919:ejmh": "ejmh purchased south america bundle",
+      "52090206:dvelandiaa": "dvelandiaa purchased south america bundle",
+      "52090266:axelcj123": "axelcj123 purchased a mexico bundle",
+      "52090268:axelcj123": "axelcj123 purchased a mexico bundle",
+      "52090270:axelcj123": "axelcj123 purchased a mexico bundle",
+      "52090316:dvelandiaa": "dvelandiaa purchased south america bundle",
+      "52090490:meanbees": "meanbees purchased a mexico bundle",
+      "52090527:meanbees": "meanbees purchased south america bundle",
+      "52090559:jeffx09": "jeffx09 purchased south america bundle",
+      "52090628:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090638:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090640:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090647:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090649:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090651:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090653:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090655:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090666:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090668:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090677:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52090692:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090694:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
+      "52090697:definitelyn0tme": "definitelyn0tme purchased south america bundle",
+      "52091463:meanbees": "meanbees purchased south america bundle",
+      "52091768:luiios": "luiios purchased south america bundle",
+      "52091800:luiios": "luiios purchased south america bundle",
+      "52092028:meanbees": "meanbees purchased south america bundle",
+      "52092070:jeanzz": "jeanzz purchased south america bundle",
+      "52092111:jeanzz": "jeanzz purchased a mexico bundle",
+      "52092119:jeanzz": "jeanzz purchased south america bundle",
+      "52092173:meanbees": "meanbees purchased south america bundle",
+      "52092868:bhoa": "bhoa purchased a mexico bundle",
+      "52092891:tronquito": "tronquito purchased south america bundle",
+      "52093241:caina420": "caina420 purchased a mexico bundle",
+      "52093304:caina420": "caina420 purchased south america bundle",
+      "52093326:caina420": "caina420 purchased south america bundle",
+      "52093794:audiomancer": "audiomancer purchased a mexico bundle",
+      "52093817:kinggo9": "kinggo9 purchased south america bundle",
+      "52093818:audiomancer": "audiomancer purchased south america bundle",
+      "52093823:audiomancer": "audiomancer purchased a mexico bundle",
+      "52093824:timetraveljesus": "timetraveljesus purchased south america bundle",
+      "52093825:kinggo9": "kinggo9 purchased south america bundle",
+      "52093826:audiomancer": "audiomancer purchased south america bundle",
+      "52093829:kinggo9": "kinggo9 purchased south america bundle",
+      "52093833:kinggo9": "kinggo9 purchased a mexico bundle",
+      "52093859:kinggo9": "kinggo9 purchased a mexico bundle"
    }
 }
