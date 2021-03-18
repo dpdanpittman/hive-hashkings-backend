@@ -750,7 +750,7 @@ module.exports = {
          "dailyBudDeposit": 0,
          "claimed" : {
             "water": false,
-            "avatar": false,
+            "avatar": true,
             "bud": false
          },
          "avatars": [],
@@ -21739,7 +21739,7 @@ module.exports = {
          "dailyBudDeposit": 0,
          "claimed" : {
             "water": false,
-            "avatar": false,
+            "avatar": true,
             "bud": false
          },
          "avatars": [],
