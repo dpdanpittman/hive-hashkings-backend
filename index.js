@@ -584,7 +584,7 @@ function startApp() {
                     //check how much water they get
                     let totalWaterCount = state.user[from].hkwater
                     //send water
-                    contract.generateToken = (hivejs, "hkwater", totalWaterCount, from)
+                    contract.generateToken(hivejs, "hkwater", totalWaterCount, from)
                     //set claimed.water to true
                     state.user[from].claimed.water = true
                 }                
@@ -595,8 +595,8 @@ function startApp() {
 
                 if(state.users[from] && state.users[from].claimed.avatar === false){
                     //send avatar 1 and 2
-                    contract.createAvatar = (hivejs, "Magical Male", from)
-                    contract.createAvatar = (hivejs, "Magical Female", from)
+                    contract.createAvatar(hivejs, "Magical Male", from)
+                    contract.createAvatar(hivejs, "Magical Female", from)
                     //set claimed avatar to true
                     state.users[from].claimed.avatar = true
                 }                
@@ -607,7 +607,7 @@ function startApp() {
 
                 if(state.user[from] && state.user[from].claimed.bud === false){
                     //send bud
-                    contract.generateToken = (hivejs, "buds", 1, from)
+                    contract.generateToken(hivejs, "buds", 1, from)
                     //set claimed avatar to true
                     state.user[from].claimed.bud = true
                 }                
