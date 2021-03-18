@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52233718; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52233906; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52233718;
+const ago = ENV.ago || 52233906;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -584,7 +584,7 @@ function startApp() {
                     //check how much water they get
                     let totalWaterCount = state.users[from].hkwater
                     //send water
-                    let waterString = totalWaterCount.toString
+                    let waterString = ""+totalWaterCount
                     contract.generateToken(hivejs, "HKWATER", waterString, from)
                     //set claimed.water to true
                     state.users[from].claimed.water = true
