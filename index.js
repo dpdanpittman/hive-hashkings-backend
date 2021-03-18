@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52232523; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52233049; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52232523;
+const ago = ENV.ago || 52233049;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -580,13 +580,13 @@ function startApp() {
             // checks for qwoyn_plant and plants the seed
             processor.on('claim_water', function(json, from) {
 
-                if(state.user[from] && state.user[from].claimed.water === false){
+                if(state.users[from] && state.users[from].claimed.water === false){
                     //check how much water they get
-                    let totalWaterCount = state.user[from].hkwater
+                    let totalWaterCount = state.users[from].hkwater
                     //send water
                     contract.generateToken(hivejs, "hkwater", totalWaterCount, from)
                     //set claimed.water to true
-                    state.user[from].claimed.water = true
+                    state.users[from].claimed.water = true
                 }                
             });
 
@@ -605,11 +605,11 @@ function startApp() {
             // checks for qwoyn_plant and plants the seed
             processor.on('claim_bud', function(json, from) {
 
-                if(state.user[from] && state.user[from].claimed.bud === false){
+                if(state.users[from] && state.users[from].claimed.bud === false){
                     //send bud
                     contract.generateToken(hivejs, "buds", 1, from)
                     //set claimed avatar to true
-                    state.user[from].claimed.bud = true
+                    state.users[from].claimed.bud = true
                 }                
             });
 
