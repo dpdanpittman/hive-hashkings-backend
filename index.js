@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52094456; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52231240; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52094456;
+const ago = ENV.ago || 52231240;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -310,6 +310,7 @@ function userList() {
                         jointData = report[property].consumables
                         boosterData = report[property].booster
                         avatarData = report[property].avatar
+                        waterTowerData = report[property].waterTemp
 
                         //set nft data
                         state.users[username].avatars = avatarData
@@ -321,6 +322,11 @@ function userList() {
                         //set number of seeds and plots for user
                         state.users[username].seedCount = seedData.length
                         state.users[username].plotCount = plotData.length
+
+                        //set hkwater for claiming
+                        let waterTowerNumber = waterTemp.length
+                        let HKwater = waterTowerNumber * 30
+                        state.users[username].hkwater = HKwater
                     }
                 }
                 //get the users tokens and set in db
@@ -329,89 +335,6 @@ function userList() {
         }
     })
 }
-
-/*function userList() {
-    let farmerArray = state.stats.farmerList
-    var arrayLength = farmerArray.length
-    for(let i = 0; i < arrayLength; i++) {
-        let username = farmerArray[i]
-    if (!state.users[username]){
-        state.users[username] = {
-            subdivisions: {
-                asia: 0,
-                jamaica: 0,
-                africa: 0,
-                afghanistan: 0,
-                mexico: 0,
-                southAmerica: 0,
-                asiaC: 0,
-                jamaicaC: 0,
-                africaC: 0,
-                afghanistanC: 0,
-                mexicoC: 0,
-                southAmericaC: 0
-            },
-            plots: {
-                asia: 0,
-                asiaUsed: 0,
-                africa: 0,
-                africaUsed: 0,
-                afghanistan: 0,
-                afghanistanUsed: 0,
-                southAmerica: 0,
-                southAmericaUsed: 0,
-                jamaica: 0,
-                jamaicaUsed: 0,
-                mexico: 0,
-                mexicoUsed: 0
-            },
-            farm:[],
-            plotCount: 0,
-            seedCount: 0,
-            seeds: [],
-            hkwater: 0,
-            waterCount: 0,
-            waterPlants:{
-                lvl1: 0,
-                lvl2: 0,
-                lvl3: 0,
-                lvl4: 0,
-                lvl5: 0,
-                lvl7: 0,
-                lvl8: 0,
-                lvl9: 0,
-                lvl10: 0
-            },
-            timeBoosters: {
-                lvl1: 0,
-                lvl2: 0,
-                lvl3: 0,
-                lvl4: 0,
-                lvl5: 0,
-                lvl7: 0,
-                lvl8: 0,
-                lvl9: 0,
-                lvl10: 0
-            },
-            buds: 0,
-            dailyBudDeposit: 0,
-            xp: 0,
-            lvl: 1,
-            role: 1,
-            joints: {
-                pinner: 0,
-                hempWrappedJoint: 0,
-                crossJoint: 0,
-                blunt: 0,
-                hempWrappedBlunt: 0,
-                twaxJoint: 0
-            },
-            mota: 0,
-            motaStake: 0
-        }
-    }
-    }
-}*/
 
 function reporting() {
     contract.getReport(axios).then((res) => {
@@ -659,10 +582,11 @@ function startApp() {
 
                 if(state.user[from] && state.user[from].claimed.water === false){
                     //check how much water they get
-                    //set hkwater to that number
+                    let totalWaterCount = state.user[from].hkwater
                     //send water
-                    //set hkwater to 0
+                    contract.generateToken = (hivejs, "hkwater", totalWaterCount, from)
                     //set claimed.water to true
+                    state.user[from].claimed.water = true
                 }                
             });
 
@@ -671,9 +595,24 @@ function startApp() {
 
                 if(state.user[from] && state.user[from].claimed.avatar === false){
                     //send avatar 1 and 2
+                    contract.createAvatar = (hivejs, "Magical Male", from)
+                    contract.createAvatar = (hivejs, "Magical Female", from)
                     //set claimed avatar to true
+                    state.user[from].claimed.avatar = true
                 }                
             });
+
+            // checks for qwoyn_plant and plants the seed
+            processor.on('claim_bud', function(json, from) {
+
+                if(state.user[from] && state.user[from].claimed.bud === false){
+                    //send bud
+                    contract.generateToken = (hivejs, "buds", 1, from)
+                    //set claimed avatar to true
+                    state.user[from].claimed.bud = true
+                }                
+            });
+
 
 
 

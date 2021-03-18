@@ -7,14 +7,14 @@ module.exports = {
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmUfUqrkHxnWxYVBPhDfHnmvaTqjpwC4yGULYdPw6ZrDbD",
-      "bi": 52094301,
+      "bu": "QmeKju7UJc7vDiH3CiS5QCvLBS1F7HhKUptYNpdHWirdCF",
+      "bi": 52144101,
       "prices": {
          "bundles": {
             "asiaBundle": 77,
             "africaBundle": 39,
             "afghanistanBundle": 26,
-            "jamaicaBundle": 51,
+            "jamaicaBundle": 52,
             "mexicoBundle": 20,
             "southAmericaBundle": 13
          },
@@ -112,8 +112,8 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 115,
-               "token": 1150
+               "price": 116,
+               "token": 1160
             },
             "africa": {
                "price": 58,
@@ -748,6 +748,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -1009,6 +1014,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -1345,6 +1355,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -1434,6 +1449,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -1542,6 +1562,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -2019,6 +2044,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -2337,6 +2367,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -3946,6 +3981,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -4094,6 +4134,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -4165,6 +4210,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -4368,6 +4418,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -4541,6 +4596,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -5161,6 +5221,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 330,
          "avatars": [],
          "boosters": []
@@ -5717,6 +5782,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -6083,6 +6153,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -6191,6 +6266,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -6541,6 +6621,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 570,
          "avatars": [],
          "boosters": []
@@ -6688,6 +6773,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 60,
          "avatars": [],
          "boosters": []
@@ -6835,6 +6925,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 30,
          "avatars": [],
          "boosters": []
@@ -6925,6 +7020,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -7014,6 +7114,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -7225,6 +7330,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -7391,6 +7501,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -7594,6 +7709,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -7683,6 +7803,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -7867,6 +7992,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -7956,6 +8086,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -8356,6 +8491,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -8427,6 +8567,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -8516,6 +8661,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -8586,6 +8736,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -8700,6 +8855,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": null,
          "avatars": [],
          "boosters": []
@@ -8790,6 +8950,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -9107,6 +9272,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -9306,6 +9476,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -10699,6 +10874,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -10769,6 +10949,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -10839,6 +11024,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -10928,6 +11118,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -10998,6 +11193,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -11106,6 +11306,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -11271,6 +11476,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -11396,6 +11606,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -11485,6 +11700,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -11773,30 +11993,10 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "elprutest"
-            },
-            {
-               "id": 5740,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "elprutest"
-            },
-            {
-               "id": 6031,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "elprutest"
             }
          ],
-         "plotCount": 33,
-         "seedCount": 33,
+         "plotCount": 31,
+         "seedCount": 31,
          "seeds": [
             {
                "id": 286,
@@ -12129,28 +12329,6 @@ module.exports = {
                "owner": "elprutest"
             },
             {
-               "id": 5736,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
-                  "PR": 152
-               },
-               "owner": "elprutest"
-            },
-            {
-               "id": 5739,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
-                  "PR": 38
-               },
-               "owner": "elprutest"
-            },
-            {
                "id": 6030,
                "properties": {
                   "TYPE": "seed",
@@ -12203,6 +12381,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": 570
@@ -12331,6 +12514,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -12593,6 +12781,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 90,
          "avatars": [],
          "boosters": []
@@ -12664,6 +12857,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -12734,6 +12932,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13039,6 +13242,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13109,6 +13317,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13198,6 +13411,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13287,6 +13505,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13434,6 +13657,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13504,6 +13732,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13593,6 +13826,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13878,6 +14116,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -13948,6 +14191,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -14132,6 +14380,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -14221,6 +14474,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -14348,6 +14606,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -14437,6 +14700,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -14730,6 +14998,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -14800,6 +15073,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -15136,6 +15414,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -15263,6 +15546,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -15516,6 +15804,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -15587,6 +15880,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -15695,6 +15993,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -16213,6 +16516,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 630,
          "avatars": [],
          "boosters": []
@@ -16284,6 +16592,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -17190,6 +17503,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -17298,6 +17616,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -17408,6 +17731,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -17479,6 +17807,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -17549,6 +17882,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -17678,6 +18016,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 60,
          "avatars": [],
          "boosters": []
@@ -17806,6 +18149,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -17895,6 +18243,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -18315,6 +18668,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -18407,6 +18765,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -18535,6 +18898,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 30,
          "avatars": [],
          "boosters": []
@@ -20952,6 +21320,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -21023,6 +21396,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -21359,6 +21737,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -21467,6 +21850,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -21556,6 +21944,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -21626,6 +22019,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -21715,6 +22113,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -21842,6 +22245,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -21967,6 +22375,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -22056,6 +22469,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -22549,6 +22967,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -22772,6 +23195,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -22803,30 +23231,6 @@ module.exports = {
             },
             {
                "id": 1791,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "psycodelic"
-            },
-            {
-               "id": 1794,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "psycodelic"
-            },
-            {
-               "id": 1824,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "psycodelic"
-            },
-            {
-               "id": 1827,
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot"
@@ -22914,7 +23318,7 @@ module.exports = {
                "owner": "psycodelic"
             }
          ],
-         "plotCount": 17,
+         "plotCount": 14,
          "seedCount": 17,
          "seeds": [
             {
@@ -23146,6 +23550,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -23617,6 +24026,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "water": 90,
          "avatars": [],
          "boosters": []
@@ -23768,6 +24182,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -23839,6 +24258,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -24136,6 +24560,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": [],
          "water": null
@@ -24207,6 +24636,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -24334,6 +24768,11 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "avatars": [],
          "boosters": []
       },
@@ -24388,6 +24827,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -24745,6 +25189,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -24988,6 +25437,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -25060,6 +25514,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -25132,6 +25591,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -25246,6 +25710,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -25395,6 +25864,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -25775,6 +26249,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -25848,6 +26327,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -25941,6 +26425,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -26090,6 +26579,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -26550,6 +27044,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -26912,6 +27411,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -26985,6 +27489,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -27152,6 +27661,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -27224,6 +27738,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -27353,6 +27872,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -27444,6 +27968,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -27600,6 +28129,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -27734,6 +28268,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -28073,6 +28612,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -28696,6 +29240,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -28777,7 +29326,7 @@ module.exports = {
             }
          ],
          "plotCount": 7,
-         "seedCount": 7,
+         "seedCount": 8,
          "seeds": [
             {
                "id": 2520,
@@ -28855,6 +29404,17 @@ module.exports = {
                   "PR": 318
                },
                "owner": "lerage"
+            },
+            {
+               "id": 6918,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 617
+               },
+               "owner": "lerage"
             }
          ],
          "hkwater": 270,
@@ -28882,6 +29442,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -29069,6 +29634,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -29141,6 +29711,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -29213,6 +29788,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -29494,6 +30074,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -29966,6 +30551,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -30210,6 +30800,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -30320,6 +30915,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -30449,6 +31049,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -30540,6 +31145,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -30734,6 +31344,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -30929,6 +31544,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -31040,6 +31660,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -31112,6 +31737,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -31203,6 +31833,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -31275,6 +31910,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -31575,6 +32215,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -31894,6 +32539,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -32044,6 +32694,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -32117,6 +32772,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -32246,6 +32906,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -32432,6 +33097,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -32640,6 +33310,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -32807,6 +33482,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -32898,6 +33578,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -33236,6 +33921,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -33327,6 +34017,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -33399,6 +34094,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -33471,6 +34171,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -33602,6 +34307,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -33827,6 +34537,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -33994,6 +34709,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -34161,6 +34881,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -34233,6 +34958,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -34343,6 +35073,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -34415,6 +35150,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -34544,6 +35284,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -34635,6 +35380,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -34783,6 +35533,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -35083,6 +35838,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -35174,6 +35934,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -35303,6 +36068,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -35432,6 +36202,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -35523,6 +36298,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -35633,6 +36413,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -35838,6 +36623,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -35910,6 +36700,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -36020,6 +36815,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -36187,6 +36987,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -36297,6 +37102,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -36388,6 +37198,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -36479,6 +37294,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -36798,6 +37618,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -36931,6 +37756,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -37175,6 +38005,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -37329,6 +38164,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -37440,6 +38280,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -37778,6 +38623,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -37869,6 +38719,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -37941,6 +38796,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38032,6 +38892,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38123,6 +38988,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38195,6 +39065,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38343,6 +39218,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38453,6 +39333,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38544,6 +39429,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38635,6 +39525,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38728,6 +39623,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38820,6 +39720,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -38949,6 +39854,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39051,6 +39961,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39142,6 +40057,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39256,6 +40176,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39462,6 +40387,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39591,6 +40521,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39703,6 +40638,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39795,6 +40735,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39886,6 +40831,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -39977,6 +40927,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -40049,6 +41004,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -40121,6 +41081,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -40275,6 +41240,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -40348,6 +41318,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -40420,6 +41395,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -40492,6 +41472,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -40925,6 +41910,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -41035,6 +42025,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -41126,6 +42121,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -41236,6 +42236,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -41388,6 +42393,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -41583,6 +42593,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -41675,6 +42690,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -41884,6 +42904,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -41995,6 +43020,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -42189,6 +43219,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -42281,6 +43316,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -42391,6 +43431,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -42655,6 +43700,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -42728,6 +43778,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -42857,6 +43912,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -42967,6 +44027,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -43058,6 +44123,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -43206,6 +44276,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -43354,6 +44429,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -43445,6 +44525,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -43517,6 +44602,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -43608,6 +44698,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -43737,6 +44832,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -44800,6 +45900,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -44913,6 +46018,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -45062,6 +46172,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -45286,6 +46401,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -45816,6 +46936,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -45881,6 +47006,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -46003,6 +47133,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -46375,6 +47510,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -47246,6 +48386,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -47318,6 +48463,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -47409,6 +48559,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -47534,6 +48689,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -47678,6 +48838,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -47784,6 +48949,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -47928,6 +49098,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48034,6 +49209,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48121,6 +49301,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48208,6 +49393,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48295,6 +49485,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48382,6 +49577,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48509,6 +49709,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48654,6 +49859,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48741,6 +49951,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -48980,6 +50195,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -49124,6 +50344,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -49199,6 +50424,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -49286,6 +50516,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -49449,6 +50684,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -49578,6 +50818,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -49685,6 +50930,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -49943,6 +51193,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -50695,6 +51950,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -50793,6 +52053,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -50880,6 +52145,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -50950,6 +52220,30 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
+               "id": 1794,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 1824,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 1827,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
                "id": 2917,
                "properties": {
                   "NAME": "Mexico",
@@ -50990,6 +52284,16 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
+               "id": 5740,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "nftmart.cards"
+            },
+            {
                "id": 6019,
                "properties": {
                   "NAME": "Mexico",
@@ -51000,7 +52304,7 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 6649,
+               "id": 6031,
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
@@ -51021,8 +52325,8 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 12,
-         "seedCount": 4,
+         "plotCount": 16,
+         "seedCount": 5,
          "seeds": [
             {
                "id": 4821,
@@ -51047,6 +52351,28 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
+               "id": 5736,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 152
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 5739,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 38
+               },
+               "owner": "nftmart.cards"
+            },
+            {
                "id": 6018,
                "properties": {
                   "TYPE": "seed",
@@ -51054,17 +52380,6 @@ module.exports = {
                   "SPT": 6,
                   "WATER": 23,
                   "PR": 423
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 6918,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Mazar I Sharif",
-                  "SPT": 6,
-                  "WATER": 33,
-                  "PR": 617
                },
                "owner": "nftmart.cards"
             }
@@ -51094,6 +52409,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -51172,6 +52492,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -51259,6 +52584,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -51338,6 +52668,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -51422,6 +52757,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -51569,6 +52909,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -51648,6 +52993,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -52589,6 +53939,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -52996,6 +54351,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -53249,6 +54609,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -53364,6 +54729,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -53546,6 +54916,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -53728,6 +55103,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -53910,6 +55290,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -54081,6 +55466,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -54296,6 +55686,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -54440,6 +55835,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -54518,6 +55918,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -54673,6 +56078,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -54850,6 +56260,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -54928,6 +56343,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55006,6 +56426,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55084,6 +56509,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55162,6 +56592,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55251,6 +56686,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55340,6 +56780,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55418,6 +56863,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55507,6 +56957,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55585,6 +57040,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55674,6 +57134,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55752,6 +57217,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55830,6 +57300,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -55983,6 +57458,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56061,6 +57541,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56139,6 +57624,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56228,6 +57718,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56306,6 +57801,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56470,6 +57970,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56548,6 +58053,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56696,6 +58206,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56847,6 +58362,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -56954,6 +58474,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -57041,6 +58566,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -57128,6 +58658,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -57215,6 +58750,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -57378,6 +58918,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -57541,6 +59086,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -57780,6 +59330,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -57867,6 +59422,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -57954,6 +59514,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -58041,6 +59606,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -58147,6 +59717,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -58253,6 +59828,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -58626,6 +60206,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -58714,6 +60299,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -58801,6 +60391,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -58907,6 +60502,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -59032,6 +60632,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -59195,6 +60800,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -59358,6 +60968,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -59559,6 +61174,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -59646,6 +61266,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -59771,6 +61396,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -59858,6 +61488,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -60002,6 +61637,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -60127,6 +61767,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -60271,6 +61916,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -60397,6 +62047,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -60560,6 +62215,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -60686,6 +62346,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -60834,6 +62499,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -60997,6 +62667,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -61125,6 +62800,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -61383,6 +63063,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -61469,6 +63154,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -61635,6 +63325,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -61741,6 +63436,11 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -62082,6 +63782,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -62216,6 +63921,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -62308,6 +64018,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -63051,6 +64766,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -63143,6 +64863,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -63235,6 +64960,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -63348,6 +65078,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -63518,6 +65253,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -63610,6 +65350,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -63891,6 +65636,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -64088,6 +65838,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -64180,6 +65935,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -64356,6 +66116,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -64448,6 +66213,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -65842,6 +67612,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -65976,6 +67751,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -66068,6 +67848,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -66202,6 +67987,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -66294,6 +68084,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -66386,6 +68181,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -66562,6 +68362,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -66759,6 +68564,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -66893,6 +68703,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -67069,6 +68884,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -67161,6 +68981,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -67442,6 +69267,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -67555,6 +69385,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -67647,6 +69482,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -67739,6 +69579,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -67787,10 +69632,20 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "robz17"
+            },
+            {
+               "id": 6649,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "robz17"
             }
          ],
          "farm": [],
-         "plotCount": 1,
+         "plotCount": 2,
          "seedCount": 2,
          "seeds": [
             {
@@ -67842,6 +69697,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -67955,6 +69815,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -68131,6 +69996,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -68223,6 +70093,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -68315,6 +70190,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -68407,6 +70287,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -68520,6 +70405,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -68717,6 +70607,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -68809,6 +70704,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -68901,6 +70801,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -69098,6 +71003,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -69274,6 +71184,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -69408,6 +71323,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -69542,6 +71462,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -69676,6 +71601,11 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
          "xp": 0,
          "lvl": 1,
          "role": 1,
@@ -69698,645 +71628,99 @@ module.exports = {
                "stake": 0
             }
          }
+      },
+      "dcalsot": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": {
+            "asia": 0,
+            "asiaUsed": 0,
+            "africa": 0,
+            "africaUsed": 0,
+            "afghanistan": 0,
+            "afghanistanUsed": 0,
+            "southAmerica": 0,
+            "southAmericaUsed": 0,
+            "jamaica": 0,
+            "jamaicaUsed": 0,
+            "mexico": 0,
+            "mexicoUsed": 0
+         },
+         "farm": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "claimed" : {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "joints": {
+            "pinner": 0,
+            "hempWrappedJoint": 0,
+            "crossJoint": 0,
+            "blunt": 0,
+            "hempWrappedBlunt": 0,
+            "twaxJoint": 0
+         },
+         "mota": 0,
+         "motaStake": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         }
       }
    },
-   "cs": {
-      "51952852:smokerings": "smokerings purchased an afghanistan bundle",
-      "51953098:smokerings": "smokerings purchased an afghanistan bundle",
-      "51953154:smokerings": "smokerings purchased south america bundle",
-      "51953305:bhaiyas": "bhaiyas purchased a mexico bundle",
-      "51953707:smokerings": "smokerings purchased a mexico bundle",
-      "51954379:roshansuares": "roshansuares purchased south america bundle",
-      "51954878:sushanthanchan": "sushanthanchan purchased south america bundle",
-      "51955218:sushanthanchan": "sushanthanchan purchased a mexico bundle",
-      "51955276:rohansuares": "rohansuares purchased south america bundle",
-      "51955407:rohansuares": "rohansuares purchased an afghanistan bundle",
-      "51955520:roshansuares": "roshansuares purchased a mexico bundle",
-      "51956050:roshansuares": "roshansuares purchased an afghanistan bundle",
-      "51959353:bhaiyas": "bhaiyas purchased south america bundle",
-      "51959812:felsum": "felsum purchased a mexico bundle",
-      "51959873:felsum": "felsum purchased an afghanistan bundle",
-      "51960094:buritica": "buritica purchased an afghanistan bundle",
-      "51960099:buritica": "buritica purchased a mexico bundle",
-      "51960525:roshansuares": "roshansuares purchased an afghanistan bundle",
-      "51960620:roshansuares": "roshansuares purchased an afghanistan bundle",
-      "51960632:footballpedia": "footballpedia purchased a mexico bundle",
-      "51962396:hersi007": "hersi007 purchased south america bundle",
-      "51963634:quefe": "quefe purchased south america bundle",
-      "51964991:melcaya": "melcaya purchased south america bundle",
-      "51964996:melcaya": "melcaya purchased south america bundle",
-      "51965000:melcaya": "melcaya purchased south america bundle",
-      "51966745:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966747:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966749:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966751:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966753:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966755:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966757:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966763:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966765:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51966767:jackofcrows": "jackofcrows purchased an afghanistan bundle",
-      "51967291:innyc": "innyc purchased an afghanistan bundle",
-      "51970759:derangedvisions": "derangedvisions purchased an afghanistan bundle",
-      "51970770:derangedvisions": "derangedvisions purchased a mexico bundle",
-      "51970773:derangedvisions": "derangedvisions purchased south america bundle",
-      "51972152:badpupper": "badpupper purchased a mexico bundle",
-      "51972159:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "51972161:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "51972163:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "51972165:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "51972167:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "51972169:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "51972173:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "51972175:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "51972177:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "51973347:meyxxyz": "meyxxyz purchased south america bundle",
-      "51973355:meyxxyz": "meyxxyz purchased a mexico bundle",
-      "51976174:felsum": "felsum purchased south america bundle",
-      "51976176:felsum": "felsum purchased south america bundle",
-      "51976178:felsum": "felsum purchased an afghanistan bundle",
-      "51985160:rokimv87": "rokimv87 purchased south america bundle",
-      "51987774:eldudu": "eldudu purchased an afghanistan bundle",
-      "51987779:eldudu": "eldudu purchased an afghanistan bundle",
-      "51989503:terrible93": "terrible93 purchased south america bundle",
-      "51991187:matheus9": "matheus9 purchased south america bundle",
-      "51991818:matheus9": "matheus9 purchased a mexico bundle",
-      "51992139:quefe": "quefe purchased south america bundle",
-      "51992192:dominic23": "dominic23 purchased an afghanistan bundle",
-      "51992195:dominic23": "dominic23 purchased an afghanistan bundle",
-      "51992198:dominic23": "dominic23 purchased south america bundle",
-      "51992200:dominic23": "dominic23 purchased south america bundle",
-      "51992342:bassman077": "bassman077 purchased a mexico bundle",
-      "51993180:matheus9": "matheus9 purchased an afghanistan bundle",
-      "51993407:quefe": "quefe purchased a mexico bundle",
-      "51994725:elprutest": "elprutest purchased south america bundle",
-      "52018088:footballpedia": "footballpedia purchased south america bundle",
-      "52018163:thebeardflex": "thebeardflex purchased an afghanistan bundle",
-      "52018227:footballpedia": "footballpedia purchased south america bundle",
-      "52018695:duaystive": "duaystive purchased south america bundle",
-      "52019542:agramon": "agramon purchased a mexico bundle",
-      "52023439:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023452:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023454:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023456:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023472:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52023474:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52023476:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52023478:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52023481:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52023483:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52023505:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023508:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023514:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023518:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52023520:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52023523:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52023525:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52023582:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023585:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023590:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52023593:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52023596:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52023599:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52023613:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52023631:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52025521:zanrsc": "zanrsc purchased south america bundle",
-      "52025525:zanrsc": "zanrsc purchased south america bundle",
-      "52025530:zanrsc": "zanrsc purchased south america bundle",
-      "52025533:zanrsc": "zanrsc purchased south america bundle",
-      "52027209:jonnybanana": "jonnybanana purchased south america bundle",
-      "52029524:thebeardflex": "thebeardflex purchased south america bundle",
-      "52029617:asas96": "asas96 purchased an afghanistan bundle",
-      "52029629:asas96": "asas96 purchased an afghanistan bundle",
-      "52029643:asas96": "asas96 purchased an afghanistan bundle",
-      "52029786:asas96": "asas96 purchased an afghanistan bundle",
-      "52031098:badpupper": "badpupper purchased south america bundle",
-      "52031472:meanbees": "meanbees purchased an afghanistan bundle",
-      "52031660:meanbees": "meanbees purchased an afghanistan bundle",
-      "52033028:labriego": "labriego purchased a mexico bundle",
-      "52033149:labriego": "labriego purchased south america bundle",
-      "52033152:labriego": "labriego purchased an afghanistan bundle",
-      "52033181:labriego": "labriego purchased south america bundle",
-      "52033183:labriego": "labriego purchased south america bundle",
-      "52033217:labriego": "labriego purchased south america bundle",
-      "52033219:labriego": "labriego purchased south america bundle",
-      "52033221:labriego": "labriego purchased south america bundle",
-      "52033223:labriego": "labriego purchased a mexico bundle",
-      "52033230:labriego": "labriego purchased an afghanistan bundle",
-      "52033233:labriego": "labriego purchased south america bundle",
-      "52033261:labriego": "labriego purchased south america bundle",
-      "52033263:labriego": "labriego purchased south america bundle",
-      "52033265:labriego": "labriego purchased south america bundle",
-      "52033279:labriego": "labriego purchased south america bundle",
-      "52033281:labriego": "labriego purchased south america bundle",
-      "52033285:labriego": "labriego purchased south america bundle",
-      "52033287:labriego": "labriego purchased south america bundle",
-      "52033289:labriego": "labriego purchased south america bundle",
-      "52033291:labriego": "labriego purchased south america bundle",
-      "52033293:labriego": "labriego purchased south america bundle",
-      "52033295:labriego": "labriego purchased south america bundle",
-      "52033297:labriego": "labriego purchased south america bundle",
-      "52033304:labriego": "labriego purchased south america bundle",
-      "52033949:meanbees": "meanbees purchased south america bundle",
-      "52033955:meanbees": "meanbees purchased south america bundle",
-      "52033959:meanbees": "meanbees purchased south america bundle",
-      "52033996:meanbees": "meanbees purchased south america bundle",
-      "52034769:ilazramusic": "ilazramusic purchased south america bundle",
-      "52035035:gamsam": "gamsam purchased an afghanistan bundle",
-      "52035092:gamsam": "gamsam purchased a mexico bundle",
-      "52035120:gamsam": "gamsam purchased an afghanistan bundle",
-      "52035129:gamsam": "gamsam purchased a mexico bundle",
-      "52035162:gamsam": "gamsam purchased south america bundle",
-      "52035214:arlettemsalase": "arlettemsalase purchased south america bundle",
-      "52035413:gamsam": "gamsam purchased south america bundle",
-      "52035432:gamsam": "gamsam purchased south america bundle",
-      "52035596:gamsam": "gamsam purchased south america bundle",
-      "52035600:meanbees": "meanbees purchased an afghanistan bundle",
-      "52035605:meanbees": "meanbees purchased an afghanistan bundle",
-      "52035607:gamsam": "gamsam purchased south america bundle",
-      "52035621:gamsam": "gamsam purchased south america bundle",
-      "52035636:gamsam": "gamsam purchased south america bundle",
-      "52035728:nobutsd1974": "nobutsd1974 purchased an afghanistan bundle",
-      "52035774:nobutsd1974": "nobutsd1974 purchased south america bundle",
-      "52035800:gamsam": "gamsam purchased south america bundle",
-      "52039165:ooakosimo": "ooakosimo purchased an afghanistan bundle",
-      "52039171:ooakosimo": "ooakosimo purchased a mexico bundle",
-      "52039186:ooakosimo": "ooakosimo purchased south america bundle",
-      "52040116:hersi007": "hersi007 purchased an afghanistan bundle",
-      "52040870:gamsam": "gamsam purchased south america bundle",
-      "52040890:gamsam": "gamsam purchased south america bundle",
-      "52040938:gamsam": "gamsam purchased south america bundle",
-      "52042380:tronquito": "tronquito purchased an afghanistan bundle",
-      "52042621:agramon": "agramon purchased south america bundle",
-      "52043568:hosherama": "hosherama purchased an afghanistan bundle",
-      "52043575:hosherama": "hosherama purchased an afghanistan bundle",
-      "52043579:hosherama": "hosherama purchased a mexico bundle",
-      "52043594:hosherama": "hosherama purchased south america bundle",
-      "52046402:elprutest": "elprutest purchased an afghanistan bundle",
-      "52046404:elprutest": "elprutest purchased an afghanistan bundle",
-      "52046406:elprutest": "elprutest purchased an afghanistan bundle",
-      "52046408:elprutest": "elprutest purchased an afghanistan bundle",
-      "52046424:jonhive": "jonhive purchased a mexico bundle",
-      "52046427:elprutest": "elprutest purchased a mexico bundle",
-      "52046430:elprutest": "elprutest purchased a mexico bundle",
-      "52046432:elprutest": "elprutest purchased a mexico bundle",
-      "52046434:elprutest": "elprutest purchased a mexico bundle",
-      "52046436:elprutest": "elprutest purchased a mexico bundle",
-      "52046475:gamsam": "gamsam purchased south america bundle",
-      "52046487:elprutest": "elprutest purchased south america bundle",
-      "52046489:elprutest": "elprutest purchased south america bundle",
-      "52046491:elprutest": "elprutest purchased south america bundle",
-      "52046493:elprutest": "elprutest purchased south america bundle",
-      "52046495:elprutest": "elprutest purchased south america bundle",
-      "52046571:jonhive": "jonhive purchased south america bundle",
-      "52046575:elprutest": "elprutest purchased a mexico bundle",
-      "52046597:elprutest": "elprutest purchased south america bundle",
-      "52046613:elprutest": "elprutest purchased south america bundle",
-      "52046626:elprutest": "elprutest purchased south america bundle",
-      "52046996:facugaba": "facugaba purchased south america bundle",
-      "52047014:facugaba": "facugaba purchased south america bundle",
-      "52047045:facugaba": "facugaba purchased south america bundle",
-      "52047147:hellene8": "hellene8 purchased south america bundle",
-      "52047585:sanchezro": "sanchezro purchased south america bundle",
-      "52047637:sanchezro": "sanchezro purchased south america bundle",
-      "52047640:sanchezro": "sanchezro purchased south america bundle",
-      "52047653:sanchezro": "sanchezro purchased south america bundle",
-      "52047655:sanchezro": "sanchezro purchased south america bundle",
-      "52047658:sanchezro": "sanchezro purchased south america bundle",
-      "52047662:sanchezro": "sanchezro purchased south america bundle",
-      "52047665:sanchezro": "sanchezro purchased a mexico bundle",
-      "52047667:sanchezro": "sanchezro purchased a mexico bundle",
-      "52047895:timetraveljesus": "timetraveljesus purchased a mexico bundle",
-      "52048092:ecuaminte": "ecuaminte purchased south america bundle",
-      "52048112:ecuaminte": "ecuaminte purchased a mexico bundle",
-      "52048308:hosherama": "hosherama purchased south america bundle",
-      "52048311:marcoss21": "marcoss21 purchased an afghanistan bundle",
-      "52048317:marcoss21": "marcoss21 purchased an afghanistan bundle",
-      "52048320:marcoss21": "marcoss21 purchased a mexico bundle",
-      "52048322:marcoss21": "marcoss21 purchased south america bundle",
-      "52048325:hosherama": "hosherama purchased an afghanistan bundle",
-      "52048329:hosherama": "hosherama purchased a mexico bundle",
-      "52048332:hosherama": "hosherama purchased south america bundle",
-      "52048554:timetraveljesus": "timetraveljesus purchased an afghanistan bundle",
-      "52049383:ceheran": "ceheran purchased an afghanistan bundle",
-      "52049610:derangedvisions": "derangedvisions purchased south america bundle",
-      "52049612:derangedvisions": "derangedvisions purchased a mexico bundle",
-      "52051551:benjaaa": "benjaaa purchased a mexico bundle",
-      "52051557:benjaaa": "benjaaa purchased south america bundle",
-      "52051995:dvelandiaa": "dvelandiaa purchased south america bundle",
-      "52052275:dvelandiaa": "dvelandiaa purchased an afghanistan bundle",
-      "52052315:terrible93": "terrible93 purchased south america bundle",
-      "52052373:dvelandiaa": "dvelandiaa purchased a mexico bundle",
-      "52052592:dvelandiaa": "dvelandiaa purchased an afghanistan bundle",
-      "52052815:kratosn2": "kratosn2 purchased a mexico bundle",
-      "52053261:oldmans": "oldmans purchased an afghanistan bundle",
-      "52053350:migueldavidor": "migueldavidor purchased an afghanistan bundle",
-      "52053352:migueldavidor": "migueldavidor purchased a mexico bundle",
-      "52053606:virusfx": "virusfx purchased an afghanistan bundle",
-      "52053622:virusfx": "virusfx purchased an afghanistan bundle",
-      "52053626:virusfx": "virusfx purchased a mexico bundle",
-      "52053628:virusfx": "virusfx purchased a mexico bundle",
-      "52053714:virusfx": "virusfx purchased south america bundle",
-      "52053716:virusfx": "virusfx purchased south america bundle",
-      "52053718:virusfx": "virusfx purchased south america bundle",
-      "52053720:virusfx": "virusfx purchased south america bundle",
-      "52055915:labriego": "labriego purchased south america bundle",
-      "52055918:labriego": "labriego purchased south america bundle",
-      "52055921:labriego": "labriego purchased south america bundle",
-      "52056079:labriego": "labriego purchased a mexico bundle",
-      "52056165:xkaliburx": "xkaliburx purchased a mexico bundle",
-      "52056939:robvector": "robvector purchased south america bundle",
-      "52057368:jarkillo": "jarkillo purchased south america bundle",
-      "52058354:krakolito": "krakolito purchased a mexico bundle",
-      "52058601:krakolito": "krakolito purchased an afghanistan bundle",
-      "52058604:krakolito": "krakolito purchased south america bundle",
-      "52058612:krakolito": "krakolito purchased south america bundle",
-      "52058626:krakolito": "krakolito purchased south america bundle",
-      "52058628:krakolito": "krakolito purchased south america bundle",
-      "52058743:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058745:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058747:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058749:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058751:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058753:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058755:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058757:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058759:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058761:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52058774:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058776:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058778:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058780:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058782:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058784:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058786:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058788:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058790:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058792:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52058808:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058810:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058812:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058814:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058816:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058821:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058823:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058825:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058827:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058829:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52058842:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52059551:ejmh": "ejmh purchased an afghanistan bundle",
-      "52059555:ejmh": "ejmh purchased a mexico bundle",
-      "52059560:ejmh": "ejmh purchased south america bundle",
-      "52059859:elprutest": "elprutest purchased south america bundle",
-      "52060586:labriego": "labriego purchased south america bundle",
-      "52061691:luiios": "luiios purchased an afghanistan bundle",
-      "52061841:kratosn2": "kratosn2 purchased south america bundle",
-      "52062017:saachi": "saachi purchased south america bundle",
-      "52062081:luiios": "luiios purchased an afghanistan bundle",
-      "52062264:facugaba": "facugaba purchased an afghanistan bundle",
-      "52062278:facugaba": "facugaba purchased a mexico bundle",
-      "52062287:facugaba": "facugaba purchased south america bundle",
-      "52062314:thebeardflex": "thebeardflex purchased an afghanistan bundle",
-      "52062318:luiios": "luiios purchased an afghanistan bundle",
-      "52062355:thebeardflex": "thebeardflex purchased a mexico bundle",
-      "52062373:thebeardflex": "thebeardflex purchased an afghanistan bundle",
-      "52062375:thebeardflex": "thebeardflex purchased south america bundle",
-      "52062679:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062682:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062685:earthboy75": "earthboy75 purchased south america bundle",
-      "52062687:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062689:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062691:earthboy75": "earthboy75 purchased south america bundle",
-      "52062693:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062695:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062697:earthboy75": "earthboy75 purchased south america bundle",
-      "52062699:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062701:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062703:earthboy75": "earthboy75 purchased south america bundle",
-      "52062705:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062707:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062709:earthboy75": "earthboy75 purchased south america bundle",
-      "52062711:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062713:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062715:earthboy75": "earthboy75 purchased south america bundle",
-      "52062717:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062720:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062722:earthboy75": "earthboy75 purchased south america bundle",
-      "52062730:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062734:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062736:earthboy75": "earthboy75 purchased south america bundle",
-      "52062738:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062740:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062742:earthboy75": "earthboy75 purchased south america bundle",
-      "52062744:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062746:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062748:earthboy75": "earthboy75 purchased south america bundle",
-      "52062752:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062754:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062756:earthboy75": "earthboy75 purchased south america bundle",
-      "52062758:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062760:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062763:earthboy75": "earthboy75 purchased south america bundle",
-      "52062765:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062767:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062769:earthboy75": "earthboy75 purchased south america bundle",
-      "52062771:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062773:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062775:earthboy75": "earthboy75 purchased south america bundle",
-      "52062777:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062779:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062781:earthboy75": "earthboy75 purchased south america bundle",
-      "52062784:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062786:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062788:earthboy75": "earthboy75 purchased south america bundle",
-      "52062790:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062792:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062794:earthboy75": "earthboy75 purchased south america bundle",
-      "52062796:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062798:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062802:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062804:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062806:earthboy75": "earthboy75 purchased south america bundle",
-      "52062808:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062810:earthboy75": "earthboy75 purchased a mexico bundle",
-      "52062812:earthboy75": "earthboy75 purchased south america bundle",
-      "52062814:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062816:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062818:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062818:largouuu": "largouuu purchased south america bundle",
-      "52062820:earthboy75": "earthboy75 purchased an afghanistan bundle",
-      "52062935:gamsam": "gamsam purchased south america bundle",
-      "52063193:facugaba": "facugaba purchased a mexico bundle",
-      "52063199:facugaba": "facugaba purchased south america bundle",
-      "52065191:timetraveljesus": "timetraveljesus purchased an afghanistan bundle",
-      "52065193:timetraveljesus": "timetraveljesus purchased an afghanistan bundle",
-      "52065197:timetraveljesus": "timetraveljesus purchased south america bundle",
-      "52065944:largouuu": "largouuu purchased an afghanistan bundle",
-      "52065976:largouuu": "largouuu purchased an afghanistan bundle",
-      "52066003:largouuu": "largouuu purchased an afghanistan bundle",
-      "52066016:largouuu": "largouuu purchased an afghanistan bundle",
-      "52066026:largouuu": "largouuu purchased an afghanistan bundle",
-      "52066040:largouuu": "largouuu purchased an afghanistan bundle",
-      "52066052:largouuu": "largouuu purchased an afghanistan bundle",
-      "52066063:largouuu": "largouuu purchased an afghanistan bundle",
-      "52066092:largouuu": "largouuu purchased an afghanistan bundle",
-      "52066110:largouuu": "largouuu purchased south america bundle",
-      "52066549:hosherama": "hosherama purchased south america bundle",
-      "52066599:hosherama": "hosherama purchased a mexico bundle",
-      "52066604:hosherama": "hosherama purchased an afghanistan bundle",
-      "52066837:hosherama": "hosherama purchased a mexico bundle",
-      "52069192:gamsam": "gamsam purchased south america bundle",
-      "52069202:gamsam": "gamsam purchased south america bundle",
-      "52069867:aniol77": "aniol77 purchased an afghanistan bundle",
-      "52070533:kiritoccs": "kiritoccs purchased a mexico bundle",
-      "52070577:kiritoccs": "kiritoccs purchased a mexico bundle",
-      "52070653:kiritoccs": "kiritoccs purchased south america bundle",
-      "52071219:labriego": "labriego purchased an afghanistan bundle",
-      "52071222:labriego": "labriego purchased south america bundle",
-      "52072256:sgerhart": "sgerhart purchased a mexico bundle",
-      "52073281:foxon": "foxon purchased south america bundle",
-      "52073284:foxon": "foxon purchased south america bundle",
-      "52074087:foxon": "foxon purchased a mexico bundle",
-      "52075340:razyel24": "razyel24 purchased south america bundle",
-      "52076131:thebeardflex": "thebeardflex purchased a mexico bundle",
-      "52076398:sushanthanchan": "sushanthanchan purchased an afghanistan bundle",
-      "52076631:anyelp888": "anyelp888 purchased an afghanistan bundle",
-      "52076642:anyelp888": "anyelp888 purchased an afghanistan bundle",
-      "52076648:anyelp888": "anyelp888 purchased a mexico bundle",
-      "52076670:thebeardflex": "thebeardflex purchased south america bundle",
-      "52076906:rnldjose31": "rnldjose31 purchased south america bundle",
-      "52076909:rnldjose31": "rnldjose31 purchased south america bundle",
-      "52076913:rnldjose31": "rnldjose31 purchased south america bundle",
-      "52076919:rnldjose31": "rnldjose31 purchased a mexico bundle",
-      "52076965:quijay": "quijay purchased an afghanistan bundle",
-      "52077083:foxon": "foxon purchased a mexico bundle",
-      "52077093:foxon": "foxon purchased an afghanistan bundle",
-      "52077831:tremou922": "tremou922 purchased an afghanistan bundle",
-      "52077834:tremou922": "tremou922 purchased an afghanistan bundle",
-      "52078157:jesusalejos": "jesusalejos purchased an afghanistan bundle",
-      "52078190:artiic97": "artiic97 purchased an afghanistan bundle",
-      "52078192:angelportu": "angelportu purchased an afghanistan bundle",
-      "52078195:artiic97": "artiic97 purchased an afghanistan bundle",
-      "52078196:angelportu": "angelportu purchased an afghanistan bundle",
-      "52078202:angelportu": "angelportu purchased south america bundle",
-      "52078310:angelportu": "angelportu purchased south america bundle",
-      "52078312:angelportu": "angelportu purchased a mexico bundle",
-      "52078351:artiic97": "artiic97 purchased south america bundle",
-      "52078356:artiic97": "artiic97 purchased south america bundle",
-      "52078362:artiic97": "artiic97 purchased south america bundle",
-      "52078548:cjavi99": "cjavi99 purchased a mexico bundle",
-      "52078555:cjavi99": "cjavi99 purchased south america bundle",
-      "52078560:cjavi99": "cjavi99 purchased south america bundle",
-      "52078789:jacielxy": "jacielxy purchased an afghanistan bundle",
-      "52078812:jacielxy": "jacielxy purchased an afghanistan bundle",
-      "52078939:criptosectadepit": "criptosectadepit purchased south america bundle",
-      "52078943:criptosectadepit": "criptosectadepit purchased south america bundle",
-      "52079190:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079193:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079195:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079197:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079199:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079201:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079203:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079205:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079207:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079209:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079211:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079213:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079215:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079217:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079228:kinggo9": "kinggo9 purchased an afghanistan bundle",
-      "52079257:alfer": "alfer purchased an afghanistan bundle",
-      "52079277:alfer": "alfer purchased a mexico bundle",
-      "52079280:alfer": "alfer purchased south america bundle",
-      "52079413:alfer": "alfer purchased south america bundle",
-      "52079417:alfer": "alfer purchased south america bundle",
-      "52079527:al-gaming": "al-gaming purchased south america bundle",
-      "52080014:hoory22": "hoory22 purchased south america bundle",
-      "52080036:hoory22": "hoory22 purchased south america bundle",
-      "52080040:hoory22": "hoory22 purchased south america bundle",
-      "52080042:hoory22": "hoory22 purchased south america bundle",
-      "52080058:hoory22": "hoory22 purchased south america bundle",
-      "52080061:hoory22": "hoory22 purchased south america bundle",
-      "52080063:hoory22": "hoory22 purchased south america bundle",
-      "52080067:hoory22": "hoory22 purchased south america bundle",
-      "52080070:hoory22": "hoory22 purchased south america bundle",
-      "52080082:hoory22": "hoory22 purchased a mexico bundle",
-      "52080309:emanon077": "emanon077 purchased south america bundle",
-      "52080313:emanon077": "emanon077 purchased a mexico bundle",
-      "52080545:xbladex": "xbladex purchased an afghanistan bundle",
-      "52080774:megarciab": "megarciab purchased an afghanistan bundle",
-      "52081361:jurbinaper": "jurbinaper purchased south america bundle",
-      "52081427:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52081436:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52081438:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52081441:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52081443:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52081445:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52081481:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52081493:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52081505:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52081507:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52081509:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52081842:kinggo9": "kinggo9 purchased south america bundle",
-      "52081898:kinggo9": "kinggo9 purchased south america bundle",
-      "52081900:kinggo9": "kinggo9 purchased south america bundle",
-      "52081907:thebeardflex": "thebeardflex purchased an afghanistan bundle",
-      "52081960:kinggo9": "kinggo9 purchased a mexico bundle",
-      "52081963:kinggo9": "kinggo9 purchased a mexico bundle",
-      "52081965:kinggo9": "kinggo9 purchased a mexico bundle",
-      "52081967:kinggo9": "kinggo9 purchased a mexico bundle",
-      "52081969:kinggo9": "kinggo9 purchased south america bundle",
-      "52081983:kinggo9": "kinggo9 purchased a mexico bundle",
-      "52081985:kinggo9": "kinggo9 purchased south america bundle",
-      "52081987:kinggo9": "kinggo9 purchased a mexico bundle",
-      "52081989:kinggo9": "kinggo9 purchased south america bundle",
-      "52081991:kinggo9": "kinggo9 purchased south america bundle",
-      "52082035:robz17": "robz17 purchased south america bundle",
-      "52082038:robz17": "robz17 purchased south america bundle",
-      "52082383:fenixazul": "fenixazul purchased south america bundle",
-      "52082481:fenixazul": "fenixazul purchased an afghanistan bundle",
-      "52082627:barbasoon": "barbasoon purchased an afghanistan bundle",
-      "52082632:barbasoon": "barbasoon purchased south america bundle",
-      "52082635:barbasoon": "barbasoon purchased south america bundle",
-      "52082638:barbasoon": "barbasoon purchased south america bundle",
-      "52082646:kinggo9": "kinggo9 purchased a mexico bundle",
-      "52082648:kinggo9": "kinggo9 purchased south america bundle",
-      "52082885:barbasoon": "barbasoon purchased south america bundle",
-      "52083422:rohansuares": "rohansuares purchased an afghanistan bundle",
-      "52083596:davidagn79": "davidagn79 purchased south america bundle",
-      "52083769:rohansuares": "rohansuares purchased a mexico bundle",
-      "52083784:xplora4253": "xplora4253 purchased south america bundle",
-      "52083895:christian7urquia": "christian7urquia purchased a mexico bundle",
-      "52083902:christian7urquia": "christian7urquia purchased south america bundle",
-      "52083944:christian7urquia": "christian7urquia purchased south america bundle",
-      "52084112:thebeardflex": "thebeardflex purchased south america bundle",
-      "52084222:hersi007": "hersi007 purchased south america bundle",
-      "52084275:bhaiyas": "bhaiyas purchased south america bundle",
-      "52084353:edisonjavier": "edisonjavier purchased south america bundle",
-      "52084456:laurapalmerr": "laurapalmerr purchased south america bundle",
-      "52084592:labriego": "labriego purchased a mexico bundle",
-      "52084594:labriego": "labriego purchased south america bundle",
-      "52084731:christian7urquia": "christian7urquia purchased an afghanistan bundle",
-      "52084824:luiscas2": "luiscas2 purchased a mexico bundle",
-      "52084944:vica1988": "vica1988 purchased an afghanistan bundle",
-      "52084947:vica1988": "vica1988 purchased south america bundle",
-      "52085053:graceathenas": "graceathenas purchased south america bundle",
-      "52085057:graceathenas": "graceathenas purchased south america bundle",
-      "52085244:wilwaps32": "wilwaps32 purchased an afghanistan bundle",
-      "52085248:wilwaps32": "wilwaps32 purchased an afghanistan bundle",
-      "52085251:wilwaps32": "wilwaps32 purchased an afghanistan bundle",
-      "52085253:wilwaps32": "wilwaps32 purchased a mexico bundle",
-      "52085255:wilwaps32": "wilwaps32 purchased south america bundle",
-      "52085258:wilwaps32": "wilwaps32 purchased south america bundle",
-      "52085293:ideagold": "ideagold purchased south america bundle",
-      "52085908:julste": "julste purchased an afghanistan bundle",
-      "52086284:mec45": "mec45 purchased an afghanistan bundle",
-      "52086446:jeffx09": "jeffx09 purchased south america bundle",
-      "52086521:jeffx09": "jeffx09 purchased a mexico bundle",
-      "52086715:alejoca": "alejoca purchased an afghanistan bundle",
-      "52086718:alejoca": "alejoca purchased an afghanistan bundle",
-      "52086722:alejoca": "alejoca purchased an afghanistan bundle",
-      "52086726:alejoca": "alejoca purchased an afghanistan bundle",
-      "52086736:alejoca": "alejoca purchased a mexico bundle",
-      "52086738:alejoca": "alejoca purchased south america bundle",
-      "52086999:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52087001:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52087005:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52087015:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52087016:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52087028:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52087030:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52087034:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52087045:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52087089:definitelyn0tme": "definitelyn0tme purchased an afghanistan bundle",
-      "52087419:shirahoshi": "shirahoshi purchased an afghanistan bundle",
-      "52087470:shirahoshi": "shirahoshi purchased a mexico bundle",
-      "52087544:ejmh": "ejmh purchased an afghanistan bundle",
-      "52087549:ejmh": "ejmh purchased an afghanistan bundle",
-      "52087553:ejmh": "ejmh purchased an afghanistan bundle",
-      "52087557:ejmh": "ejmh purchased an afghanistan bundle",
-      "52087560:ejmh": "ejmh purchased an afghanistan bundle",
-      "52087659:ceheran": "ceheran purchased an afghanistan bundle",
-      "52087791:ejmh": "ejmh purchased an afghanistan bundle",
-      "52087803:ejmh": "ejmh purchased an afghanistan bundle",
-      "52087820:ejmh": "ejmh purchased an afghanistan bundle",
-      "52087824:ejmh": "ejmh purchased south america bundle",
-      "52087828:ejmh": "ejmh purchased south america bundle",
-      "52087830:eselihu": "eselihu purchased south america bundle",
-      "52087837:shirahoshi": "shirahoshi purchased an afghanistan bundle",
-      "52087844:mpock": "mpock purchased south america bundle",
-      "52087862:ejmh": "ejmh purchased a mexico bundle",
-      "52087863:eselihu": "eselihu purchased south america bundle",
-      "52087970:shirahoshi": "shirahoshi purchased south america bundle",
-      "52088164:eselihu": "eselihu purchased south america bundle",
-      "52088467:angelportu": "angelportu purchased south america bundle",
-      "52088592:kinggo9": "kinggo9 purchased south america bundle",
-      "52088594:kinggo9": "kinggo9 purchased south america bundle",
-      "52088598:kinggo9": "kinggo9 purchased south america bundle",
-      "52088624:kinggo9": "kinggo9 purchased south america bundle",
-      "52088627:kinggo9": "kinggo9 purchased south america bundle",
-      "52088629:kinggo9": "kinggo9 purchased south america bundle",
-      "52088631:kinggo9": "kinggo9 purchased south america bundle",
-      "52088633:kinggo9": "kinggo9 purchased south america bundle",
-      "52088651:kinggo9": "kinggo9 purchased south america bundle",
-      "52088654:kinggo9": "kinggo9 purchased south america bundle",
-      "52088678:shirahoshi": "shirahoshi purchased an afghanistan bundle",
-      "52089055:lerage": "lerage purchased an afghanistan bundle",
-      "52089073:chito1": "chito1 purchased an afghanistan bundle",
-      "52089087:chito1": "chito1 purchased an afghanistan bundle",
-      "52089115:chito1": "chito1 purchased a mexico bundle",
-      "52089118:chito1": "chito1 purchased south america bundle",
-      "52089146:qwoyn": "qwoyn purchased an afghanistan bundle",
-      "52089651:aubryd": "aubryd purchased south america bundle",
-      "52089773:ejmh": "ejmh purchased south america bundle",
-      "52089912:ejmh": "ejmh purchased a mexico bundle",
-      "52089916:ejmh": "ejmh purchased south america bundle",
-      "52089919:ejmh": "ejmh purchased south america bundle",
-      "52090206:dvelandiaa": "dvelandiaa purchased south america bundle",
-      "52090266:axelcj123": "axelcj123 purchased a mexico bundle",
-      "52090268:axelcj123": "axelcj123 purchased a mexico bundle",
-      "52090270:axelcj123": "axelcj123 purchased a mexico bundle",
-      "52090316:dvelandiaa": "dvelandiaa purchased south america bundle",
-      "52090490:meanbees": "meanbees purchased a mexico bundle",
-      "52090527:meanbees": "meanbees purchased south america bundle",
-      "52090559:jeffx09": "jeffx09 purchased south america bundle",
-      "52090628:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090638:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090640:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090647:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090649:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090651:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090653:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090655:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090666:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090668:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090677:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52090692:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090694:definitelyn0tme": "definitelyn0tme purchased a mexico bundle",
-      "52090697:definitelyn0tme": "definitelyn0tme purchased south america bundle",
-      "52091463:meanbees": "meanbees purchased south america bundle",
-      "52091768:luiios": "luiios purchased south america bundle",
-      "52091800:luiios": "luiios purchased south america bundle",
-      "52092028:meanbees": "meanbees purchased south america bundle",
-      "52092070:jeanzz": "jeanzz purchased south america bundle",
-      "52092111:jeanzz": "jeanzz purchased a mexico bundle",
-      "52092119:jeanzz": "jeanzz purchased south america bundle",
-      "52092173:meanbees": "meanbees purchased south america bundle",
-      "52092868:bhoa": "bhoa purchased a mexico bundle",
-      "52092891:tronquito": "tronquito purchased south america bundle",
-      "52093241:caina420": "caina420 purchased a mexico bundle",
-      "52093304:caina420": "caina420 purchased south america bundle",
-      "52093326:caina420": "caina420 purchased south america bundle",
-      "52093794:audiomancer": "audiomancer purchased a mexico bundle",
-      "52093817:kinggo9": "kinggo9 purchased south america bundle",
-      "52093818:audiomancer": "audiomancer purchased south america bundle",
-      "52093823:audiomancer": "audiomancer purchased a mexico bundle",
-      "52093824:timetraveljesus": "timetraveljesus purchased south america bundle",
-      "52093825:kinggo9": "kinggo9 purchased south america bundle",
-      "52093826:audiomancer": "audiomancer purchased south america bundle",
-      "52093829:kinggo9": "kinggo9 purchased south america bundle",
-      "52093833:kinggo9": "kinggo9 purchased a mexico bundle",
-      "52093859:kinggo9": "kinggo9 purchased a mexico bundle"
-   }
+   "cs": {}
 }

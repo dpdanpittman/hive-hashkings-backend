@@ -623,8 +623,8 @@ const CreatePlot = (location, to) => {
     const properties = {
         NAME: location,
         TYPE: "plot",
-        SUBDIVIDED: false,
-        OCCUPIED: false
+        SUBDIVIDED: "false",
+        OCCUPIED: "false"
     };
 
     const instance = {
@@ -663,6 +663,42 @@ const CreateConsumable = (name, consumableType, to) => {
         NAME: name,
         TYPE: "consumable",
         CONSUMABLETYPE: consumableType,
+        LVL: 0
+    };
+
+    const instance = {
+        symbol: UTILITY_TOKEN_SYMBOL,
+        to,
+        feeSymbol: "BEE",
+        properties,
+    };
+
+    return instance;
+}
+
+const CreateAvatar = (name, to) => {
+
+    const properties = {
+        NAME: name,
+        TYPE: "avatar",
+    };
+
+    const instance = {
+        symbol: UTILITY_TOKEN_SYMBOL,
+        to,
+        feeSymbol: "BEE",
+        properties,
+    };
+
+    return instance;
+}
+
+
+const CreateWaterTower = (name, to) => {
+
+    const properties = {
+        NAME: name,
+        TYPE: "water tower",
         LVL: 0
     };
 
@@ -828,6 +864,65 @@ const createConsumable = async (hive, name, consumableType, userBuyer) => {
 };
 
 
+const createAvatar = async (hive, name, userBuyer) => {
+
+    let instances = [];
+
+    instances.push(CreateAvatar(name, userBuyer));
+
+    let json = {
+        contractName: "nft",
+        contractAction: "issueMultiple",
+        contractPayload: {
+            instances: instances
+        }
+    }
+
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
+
+
+};
+
+
+const createWaterTower = async (hive, name, userBuyer) => {
+
+    let instances = [];
+
+    instances.push(CreateWaterTower(name, userBuyer));
+
+    let json = {
+        contractName: "nft",
+        contractAction: "issueMultiple",
+        contractPayload: {
+            instances: instances
+        }
+    }
+
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
+
+
+};
+
 const createSeed = async (hive, packs, userBuyer) => {
 
     let instances = [];
@@ -955,7 +1050,8 @@ async function getReport(axios) {
                 totalAllConsumable: 0,
                 totalAllBooster: 0,
                 totalAllBooster: 0,
-                totalAllAvatar: 0
+                totalAllAvatar: 0,
+                totalAllWaterTemp: 0
             }
 
             let accounts = {};
@@ -983,7 +1079,8 @@ async function getReport(axios) {
                             consumable: [],
                             booster: [],
                             avatar: [],
-                            water:[]
+                            water: [],
+                            waterTemp:[]
                         };
                         accounts[nfts[i].account].plots.push({
                             id: nfts[i]._id,
@@ -1030,7 +1127,8 @@ async function getReport(axios) {
                             consumable: [],
                             booster: [],
                             avatar: [],
-                            water:[]
+                            water: [],
+                            waterTemp:[]
                         };
                         accounts[nfts[j].account].seeds.push({
                             id: nfts[j]._id,
@@ -1069,7 +1167,8 @@ async function getReport(axios) {
                             consumable: [],
                             booster: [],
                             avatar: [],
-                            water:[]
+                            water: [],
+                            waterTemp:[]
                         };
                         accounts[nfts[j].account].consumable.push({
                             id: nfts[j]._id,
@@ -1108,7 +1207,8 @@ async function getReport(axios) {
                             consumable: [],
                             booster: [],
                             avatar: [],
-                            water:[]
+                            water: [],
+                            waterTemp:[]
                         };
                         accounts[nfts[j].account].booster.push({
                             id: nfts[j]._id,
@@ -1147,7 +1247,8 @@ async function getReport(axios) {
                             consumable: [],
                             booster: [],
                             avatar: [],
-                            water:[]
+                            water: [],
+                            waterTemp:[]
                         };
                         accounts[nfts[j].account].avatar.push({
                             id: nfts[j]._id,
@@ -1176,21 +1277,86 @@ async function getReport(axios) {
                 }
             }
 
-            for (let k = 0; k < nfts.length; k++) {
-                if (limiter("water", nfts[k])) {
+            for (let j = 0; j < nfts.length; j++) {
+                if (limiter("water tower", nfts[j])) {
 
-                    try {
-                        totalPlot.totalAllWater += 1;
-                        owners[nfts[k].account].totalWater += 1;
-                    } catch (e) {
-                        totalPlot.totalAllWater += 1;
-                        owners[nfts[k].account] = { "totalAllConsumable": 0, "totalPlot": 0, "totalSeed": 0, "totalWater": 1 };
+                    if (!accounts.hasOwnProperty(nfts[j].account)) {
+                        accounts[nfts[j].account] = {
+                            seeds: [],
+                            plots: [],
+                            consumable: [],
+                            booster: [],
+                            avatar: [],
+                            water: [],
+                            waterTemp:[]
+                        };
+                        accounts[nfts[j].account].water.push({
+                            id: nfts[j]._id,
+                            properties: nfts[j].properties,
+                            owner: nfts[j].account
+                        })
+
+                    } else {
+                        accounts[nfts[j].account].water.push({
+                            id: nfts[j]._id,
+                            properties: nfts[j].properties,
+                            owner: nfts[j].account
+                        })
                     }
 
 
 
+                    try {
+                        totalPlot.totalAllWater += 1;
+                        owners[nfts[j].account].totalWater += 1;
+                    } catch (e) {
+                        totalPlot.totalAllWater += 1;
+                        owners[nfts[j].account] = { "totalAllAvatar": 0, "totalAllBooster": 0, "totalAllConsumable": 0, "totalPlot": 0, "totalSeed": 0, "totalWater": 1 };
+                    }
+
                 }
             }
+
+            for (let j = 0; j < nfts.length; j++) {
+                if (limiter("water", nfts[j])) {
+
+                    if (!accounts.hasOwnProperty(nfts[j].account)) {
+                        accounts[nfts[j].account] = {
+                            seeds: [],
+                            plots: [],
+                            consumable: [],
+                            booster: [],
+                            avatar: [],
+                            water: [],
+                            waterTemp:[]
+                        };
+                        accounts[nfts[j].account].waterTemp.push({
+                            id: nfts[j]._id,
+                            properties: nfts[j].properties,
+                            owner: nfts[j].account
+                        })
+
+                    } else {
+                        accounts[nfts[j].account].waterTemp.push({
+                            id: nfts[j]._id,
+                            properties: nfts[j].properties,
+                            owner: nfts[j].account
+                        })
+                    }
+
+
+
+                    try {
+                        totalPlot.totalAllwaterTemp += 1;
+                        owners[nfts[j].account].totalwaterTemp += 1;
+                    } catch (e) {
+                        totalPlot.totalAllwaterTemp += 1;
+                        owners[nfts[j].account] = { "totalAllwaterTemp": 1,"totalAllAvatar": 0, "totalAllBooster": 0, "totalAllConsumable": 0, "totalPlot": 0, "totalSeed": 0, "totalWater": 0 };
+                    }
+
+                }
+            }
+
 
             let report = [owners,
                 plot,
@@ -1226,9 +1392,9 @@ async function getTokens(ssc, user) {
                 stake: 0
             }
         }
-        let result = await ssc.find('tokens', 'balances', { account: user }, 1000, 0, [], (err, result) => { if(err) { return null} })
+        let result = await ssc.find('tokens', 'balances', { account: user }, 1000, 0, [], (err, result) => { if (err) { return null } })
 
-        if(!result) {
+        if (!result) {
             reject([]);
         }
 
@@ -1326,5 +1492,7 @@ module.exports = contract = {
     getTokens,
     generateToken,
     updateNft,
-    createConsumable
+    createConsumable,
+    createAvatar,
+    createWaterTower
 }
