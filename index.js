@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52233378; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52233562; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52233378;
+const ago = ENV.ago || 52233562;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -582,9 +582,9 @@ function startApp() {
 
                 if(state.users[from] && state.users[from].claimed.water === false){
                     //check how much water they get
-                    let totalWaterCount = state.users[from].hkwater.toString
+                    let totalWaterCount = state.users[from].hkwater
                     //send water
-                    contract.generateToken(hivejs, "hkwater", totalWaterCount, from)
+                    contract.generateToken(hivejs, "HKWATER", totalWaterCount.toString, from)
                     //set claimed.water to true
                     state.users[from].claimed.water = true
                 }                
@@ -607,7 +607,7 @@ function startApp() {
 
                 if(state.users[from] && state.users[from].claimed.bud === false){
                     //send bud
-                    contract.generateToken(hivejs, "buds", "1", from)
+                    contract.generateToken(hivejs, "BUDS", "1", from)
                     //set claimed avatar to true
                     state.users[from].claimed.bud = true
                 }                
