@@ -593,12 +593,12 @@ function startApp() {
             // checks for qwoyn_plant and plants the seed
             processor.on('claim_avatar', function(json, from) {
 
-                if(state.users[json.from] && state.users[from].claimed.avatar === false){
+                if(state.users[from] && state.users[from].claimed.avatar === false){
                     //send avatar 1 and 2
-                    contract.createAvatar = (hivejs, "Magical Male", json.from)
-                    contract.createAvatar = (hivejs, "Magical Female", json.from)
+                    contract.createAvatar = (hivejs, "Magical Male", from)
+                    contract.createAvatar = (hivejs, "Magical Female", from)
                     //set claimed avatar to true
-                    state.users[json.from].claimed.avatar = true
+                    state.users[from].claimed.avatar = true
                 }                
             });
 
