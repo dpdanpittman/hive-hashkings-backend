@@ -21740,7 +21740,7 @@ module.exports = {
          "claimed" : {
             "water": false,
             "avatar": true,
-            "bud": false
+            "bud": true
          },
          "avatars": [],
          "boosters": []
