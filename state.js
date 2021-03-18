@@ -7,16 +7,16 @@ module.exports = {
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmeKju7UJc7vDiH3CiS5QCvLBS1F7HhKUptYNpdHWirdCF",
-      "bi": 52144101,
+      "bu": "QmSy1xxpAsnhFtswdS8v8un6d1XCpwsFnjpHRYULwhwzrC",
+      "bi": 52254201,
       "prices": {
          "bundles": {
-            "asiaBundle": 77,
-            "africaBundle": 39,
-            "afghanistanBundle": 26,
-            "jamaicaBundle": 52,
-            "mexicoBundle": 20,
-            "southAmericaBundle": 13
+            "asiaBundle": 70,
+            "africaBundle": 35,
+            "afghanistanBundle": 24,
+            "jamaicaBundle": 47,
+            "mexicoBundle": 18,
+            "southAmericaBundle": 12
          },
          "waterPlants": {
             "lvl1": {
@@ -112,28 +112,28 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 116,
-               "token": 1160
+               "price": 105,
+               "token": 1050
             },
             "africa": {
-               "price": 58,
-               "token": 580
+               "price": 53,
+               "token": 530
             },
             "afghanistan": {
-               "price": 39,
-               "token": 390
+               "price": 35,
+               "token": 350
             },
             "southAmerica": {
-               "price": 20,
-               "token": 200
+               "price": 18,
+               "token": 180
             },
             "jamaica": {
-               "price": 77,
-               "token": 770
+               "price": 70,
+               "token": 700
             },
             "mexico": {
-               "price": 29,
-               "token": 290
+               "price": 27,
+               "token": 270
             }
          }
       },
@@ -141,8 +141,8 @@ module.exports = {
          "totalPlots": 2259,
          "totalPlotsC": 757,
          "totalSeeds": 2540,
-         "totalWaterTowers": 2311,
-         "totalWaterTowersC": 16689,
+         "totalWaterTowers": 0,
+         "totalWaterTowersC": 19000,
          "land": {
             "asia": 0,
             "asiaC": 40,
@@ -158,7 +158,7 @@ module.exports = {
             "mexicoC": 415
          }
       },
-      "farmers": 391,
+      "farmers": 394,
       "farmerList": [
          "qwoyn",
          "abrockman",
@@ -497,12 +497,12 @@ module.exports = {
          "rohansuares",
          "felsum",
          "footballpedia",
+         "quefe",
          "jackofcrows",
          "innyc",
          "derangedvisions",
          "meyxxyz",
          "matheus9",
-         "quefe",
          "mogroff",
          "gr33nm4ster",
          "aurosofi",
@@ -517,6 +517,7 @@ module.exports = {
          "hellene8",
          "timetraveljesus",
          "dvelandiaa",
+         "dviljin",
          "robvector",
          "luiios",
          "saachi",
@@ -550,7 +551,9 @@ module.exports = {
          "godislovefl",
          "eselihu",
          "axelcj123",
-         "caina420"
+         "caina420",
+         "pippex",
+         "dcalsot"
       ]
    },
    "bal": {
@@ -706,7 +709,7 @@ module.exports = {
                "owner": "qwoyn"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 330,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -735,25 +738,50 @@ module.exports = {
          "mota": 0.0001,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "0",
+               "stake": "0"
             },
             "mota": {
                "balance": "0.0001",
                "stake": "0"
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "330",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
+         "claimed": {
+            "water": true,
             "avatar": true,
-            "bud": false
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7086,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "qwoyn"
+            },
+            {
+               "id": 7087,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "qwoyn"
+            },
+            {
+               "id": 7088,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "qwoyn"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -973,7 +1001,7 @@ module.exports = {
                "owner": "r0um3n1987"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 330,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1014,7 +1042,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -1314,7 +1342,7 @@ module.exports = {
                "owner": "boyobevan"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 450,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1342,25 +1370,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "450",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7315,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "boyobevan"
+            },
+            {
+               "id": 7316,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "boyobevan"
+            }
+         ],
          "boosters": []
       },
       "academialibertad": {
@@ -1408,7 +1453,7 @@ module.exports = {
                "owner": "academialibertad"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1436,25 +1481,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7167,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "academialibertad"
+            },
+            {
+               "id": 7168,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "academialibertad"
+            }
+         ],
          "boosters": []
       },
       "abztraxxx": {
@@ -1521,7 +1583,7 @@ module.exports = {
                "owner": "abztraxxx"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1562,7 +1624,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -2003,7 +2065,7 @@ module.exports = {
                "owner": "audiomancer"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 660,
          "waterPlants": {
             "lvl1": 4,
             "lvl2": 0,
@@ -2044,7 +2106,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -2326,7 +2388,7 @@ module.exports = {
                "owner": "cryptounicorn420"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 420,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2354,25 +2416,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "420",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7217,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "cryptounicorn420"
+            },
+            {
+               "id": 7218,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "cryptounicorn420"
+            }
+         ],
          "boosters": []
       },
       "dolp": {
@@ -3940,7 +4019,7 @@ module.exports = {
                "owner": "dolp"
             }
          ],
-         "hkwater": 450,
+         "hkwater": 2460,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -3968,25 +4047,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "2460",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7161,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "dolp"
+            },
+            {
+               "id": 7162,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "dolp"
+            }
+         ],
          "boosters": []
       },
       "xplora4253": {
@@ -4093,7 +4189,7 @@ module.exports = {
                "owner": "xplora4253"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -4121,25 +4217,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "100.0000",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7353,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "xplora4253"
+            },
+            {
+               "id": 7354,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "xplora4253"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -4169,7 +4282,7 @@ module.exports = {
                "owner": "ricarox"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -4210,7 +4323,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -4377,7 +4490,7 @@ module.exports = {
                "owner": "edtorr704"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 240,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -4418,7 +4531,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -4555,7 +4668,7 @@ module.exports = {
                "owner": "marcoss21"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 180,
          "waterPlants": {
             "lvl1": 4,
             "lvl2": 0,
@@ -4583,25 +4696,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "180",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7253,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "marcoss21"
+            },
+            {
+               "id": 7254,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "marcoss21"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -5180,7 +5310,7 @@ module.exports = {
                "owner": "foxon"
             }
          ],
-         "hkwater": 180,
+         "hkwater": 960,
          "waterPlants": {
             "lvl1": 5,
             "lvl2": 0,
@@ -5208,26 +5338,43 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "960",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "water": 330,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7223,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "foxon"
+            },
+            {
+               "id": 7224,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "foxon"
+            }
+         ],
          "boosters": []
       },
       "meanbees": {
@@ -5741,7 +5888,7 @@ module.exports = {
                "owner": "meanbees"
             }
          ],
-         "hkwater": 120,
+         "hkwater": 780,
          "waterPlants": {
             "lvl1": 13,
             "lvl2": 0,
@@ -5769,25 +5916,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "680.0000",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7115,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 7116,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "meanbees"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -6112,7 +6276,7 @@ module.exports = {
                "owner": "degranoengrano"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 420,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -6140,25 +6304,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "420",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7299,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "degranoengrano"
+            },
+            {
+               "id": 7300,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "degranoengrano"
+            }
+         ],
          "boosters": []
       },
       "ibanezense": {
@@ -6225,7 +6406,7 @@ module.exports = {
                "owner": "ibanezense"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -6253,25 +6434,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7113,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ibanezense"
+            },
+            {
+               "id": 7114,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ibanezense"
+            }
+         ],
          "boosters": []
       },
       "ejmh": {
@@ -6580,7 +6778,7 @@ module.exports = {
                "owner": "ejmh"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 450,
          "waterPlants": {
             "lvl1": 18,
             "lvl2": 0,
@@ -6608,26 +6806,43 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "450",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "water": 570,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7375,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ejmh"
+            },
+            {
+               "id": 7376,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ejmh"
+            }
+         ],
          "boosters": []
       },
       "toxicmen01": {
@@ -6732,7 +6947,7 @@ module.exports = {
                "owner": "toxicmen01"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -6760,26 +6975,43 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "water": 60,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7255,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "toxicmen01"
+            },
+            {
+               "id": 7256,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "toxicmen01"
+            }
+         ],
          "boosters": []
       },
       "cratic": {
@@ -6884,7 +7116,7 @@ module.exports = {
                "owner": "cratic"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 150,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -6912,26 +7144,43 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "water": 30,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7129,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "cratic"
+            },
+            {
+               "id": 7130,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "cratic"
+            }
+         ],
          "boosters": []
       },
       "criptojones": {
@@ -6979,7 +7228,7 @@ module.exports = {
                "owner": "criptojones"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7020,7 +7269,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -7073,7 +7322,7 @@ module.exports = {
                "owner": "bigkidstuff"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7101,23 +7350,23 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
+         "claimed": {
+            "water": true,
             "avatar": false,
-            "bud": false
+            "bud": true
          },
          "avatars": [],
          "boosters": []
@@ -7289,7 +7538,7 @@ module.exports = {
                "owner": "dominic23"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 240,
          "waterPlants": {
             "lvl1": 4,
             "lvl2": 0,
@@ -7330,7 +7579,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -7460,7 +7709,7 @@ module.exports = {
                "owner": "electru"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 180,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7488,25 +7737,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "180",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7333,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "electru"
+            },
+            {
+               "id": 7334,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "electru"
+            }
+         ],
          "boosters": []
       },
       "lozadakb": {
@@ -7668,7 +7934,7 @@ module.exports = {
                "owner": "lozadakb"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 240,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7696,25 +7962,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "240",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7213,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "lozadakb"
+            },
+            {
+               "id": 7214,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "lozadakb"
+            }
+         ],
          "boosters": []
       },
       "hodltoday": {
@@ -7762,7 +8045,7 @@ module.exports = {
                "owner": "hodltoday"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7790,25 +8073,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7343,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "hodltoday"
+            },
+            {
+               "id": 7344,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "hodltoday"
+            }
+         ],
          "boosters": []
       },
       "fdeflash": {
@@ -7951,7 +8251,7 @@ module.exports = {
                "owner": "fdeflash"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 210,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7992,7 +8292,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -8045,7 +8345,7 @@ module.exports = {
                "owner": "pedroozj"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -8086,7 +8386,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -8450,7 +8750,7 @@ module.exports = {
                "owner": "facugaba"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 540,
          "waterPlants": {
             "lvl1": 8,
             "lvl2": 0,
@@ -8478,25 +8778,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "540",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7267,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "facugaba"
+            },
+            {
+               "id": 7268,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "facugaba"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -8526,7 +8843,7 @@ module.exports = {
                "owner": "luisveco88"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -8567,7 +8884,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -8620,7 +8937,7 @@ module.exports = {
                "owner": "aries02"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -8648,25 +8965,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7319,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "aries02"
+            },
+            {
+               "id": 7320,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "aries02"
+            }
+         ],
          "boosters": []
       },
       "medicenw1": {
@@ -8695,7 +9029,7 @@ module.exports = {
                "owner": "medicenw1"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -8736,7 +9070,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -8746,6 +9080,14 @@ module.exports = {
       },
       "quefe": {
          "plots": [
+            {
+               "id": 5110,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "quefe"
+            },
             {
                "id": 5247,
                "properties": {
@@ -8777,9 +9119,20 @@ module.exports = {
                "owner": "quefe"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 4,
+         "seedCount": 4,
          "seeds": [
+            {
+               "id": 5109,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 266
+               },
+               "owner": "quefe"
+            },
             {
                "id": 5220,
                "properties": {
@@ -8814,7 +9167,7 @@ module.exports = {
                "owner": "quefe"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 3,
             "lvl2": 0,
@@ -8842,26 +9195,43 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7335,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "quefe"
+            },
+            {
+               "id": 7336,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "quefe"
+            }
+         ],
          "boosters": []
       },
       "mejiasclaudia": {
@@ -8909,7 +9279,7 @@ module.exports = {
                "owner": "mejiasclaudia"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -8950,7 +9320,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -9231,7 +9601,7 @@ module.exports = {
                "owner": "cadawg"
             }
          ],
-         "hkwater": 300,
+         "hkwater": 420,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -9259,25 +9629,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "420",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7227,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "cadawg"
+            },
+            {
+               "id": 7228,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "cadawg"
+            }
+         ],
          "boosters": []
       },
       "ecuaminte": {
@@ -9435,7 +9822,7 @@ module.exports = {
                "owner": "ecuaminte"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 210,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -9463,25 +9850,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "210",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7271,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ecuaminte"
+            },
+            {
+               "id": 7272,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ecuaminte"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -10833,7 +11237,7 @@ module.exports = {
                "owner": "abrockman"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 540,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -10861,25 +11265,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "540",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7135,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "abrockman"
+            },
+            {
+               "id": 7136,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "abrockman"
+            }
+         ],
          "boosters": []
       },
       "supremdsm": {
@@ -10908,7 +11329,7 @@ module.exports = {
                "owner": "supremdsm"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -10949,7 +11370,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -10983,7 +11404,7 @@ module.exports = {
                "owner": "darthslaver"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -11024,7 +11445,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -11077,6 +11498,81 @@ module.exports = {
                "owner": "juanchuzx"
             }
          ],
+         "hkwater": 60,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "dailyBudDeposit": 0,
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "avatars": [],
+         "boosters": []
+      },
+      "dobro2020": {
+         "plots": [
+            {
+               "id": 191,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "dobro2020"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 190,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 317
+               },
+               "owner": "dobro2020"
+            }
+         ],
          "hkwater": 30,
          "waterPlants": {
             "lvl1": 0,
@@ -11118,82 +11614,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
-         },
-         "avatars": [],
-         "boosters": []
-      },
-      "dobro2020": {
-         "plots": [
-            {
-               "id": 191,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "dobro2020"
-            }
-         ],
-         "plotCount": 1,
-         "seedCount": 1,
-         "seeds": [
-            {
-               "id": 190,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Colombian Gold",
-                  "SPT": 7,
-                  "WATER": 10,
-                  "PR": 317
-               },
-               "owner": "dobro2020"
-            }
-         ],
-         "hkwater": 0,
-         "waterPlants": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "xp": 0,
-         "lvl": 1,
-         "role": 1,
-         "tokens": {
-            "buds": {
-               "balance": 0,
-               "stake": 0
-            },
-            "mota": {
-               "balance": 0,
-               "stake": 0
-            },
-            "hkwater": {
-               "balance": 0,
-               "stake": 0
-            }
-         },
-         "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -11265,7 +11686,7 @@ module.exports = {
                "owner": "dantejcs"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -11293,25 +11714,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7377,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "dantejcs"
+            },
+            {
+               "id": 7378,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "dantejcs"
+            }
+         ],
          "boosters": []
       },
       "the-mister7": {
@@ -11435,7 +11873,7 @@ module.exports = {
                "owner": "the-mister7"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 180,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -11463,25 +11901,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "180",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7329,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "the-mister7"
+            },
+            {
+               "id": 7330,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "the-mister7"
+            }
+         ],
          "boosters": []
       },
       "reward.app": {
@@ -11565,7 +12020,7 @@ module.exports = {
                "owner": "oblivioncubed"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -11606,7 +12061,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -11659,7 +12114,7 @@ module.exports = {
                "owner": "yoclensavilan"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -11700,7 +12155,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -11993,10 +12448,30 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "elprutest"
+            },
+            {
+               "id": 5740,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 6031,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elprutest"
             }
          ],
-         "plotCount": 31,
-         "seedCount": 31,
+         "plotCount": 33,
+         "seedCount": 33,
          "seeds": [
             {
                "id": 286,
@@ -12329,6 +12804,28 @@ module.exports = {
                "owner": "elprutest"
             },
             {
+               "id": 5736,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 152
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 5739,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 38
+               },
+               "owner": "elprutest"
+            },
+            {
                "id": 6030,
                "properties": {
                   "TYPE": "seed",
@@ -12340,7 +12837,7 @@ module.exports = {
                "owner": "elprutest"
             }
          ],
-         "hkwater": 270,
+         "hkwater": 990,
          "waterPlants": {
             "lvl1": 20,
             "lvl2": 0,
@@ -12368,25 +12865,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "990",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7239,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "elprutest"
+            },
+            {
+               "id": 7240,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "elprutest"
+            }
+         ],
          "boosters": [],
          "water": 570
       },
@@ -12473,7 +12987,7 @@ module.exports = {
                "owner": "khan.dayyanz"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -12501,25 +13015,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7121,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "khan.dayyanz"
+            },
+            {
+               "id": 7122,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "khan.dayyanz"
+            }
+         ],
          "boosters": []
       },
       "xbladex": {
@@ -12740,7 +13271,7 @@ module.exports = {
                "owner": "xbladex"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 330,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -12768,26 +13299,43 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "330",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "water": 90,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7155,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "xbladex"
+            },
+            {
+               "id": 7156,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "xbladex"
+            }
+         ],
          "boosters": []
       },
       "cireth": {
@@ -12857,7 +13405,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -12932,12 +13480,29 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7093,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "infernalcoliseum"
+            },
+            {
+               "id": 7094,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "infernalcoliseum"
+            }
+         ],
          "boosters": []
       },
       "anarcist69": {
@@ -13201,7 +13766,7 @@ module.exports = {
                "owner": "anarcist69"
             }
          ],
-         "hkwater": 150,
+         "hkwater": 540,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -13242,7 +13807,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -13304,25 +13869,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7291,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jmsansan.leo"
+            },
+            {
+               "id": 7292,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jmsansan.leo"
+            }
+         ],
          "boosters": []
       },
       "jinmori": {
@@ -13411,7 +13993,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -13505,7 +14087,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -13657,7 +14239,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -13732,7 +14314,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -13785,7 +14367,7 @@ module.exports = {
                "owner": "gooba"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -13813,25 +14395,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7119,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "gooba"
+            },
+            {
+               "id": 7120,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "gooba"
+            }
+         ],
          "boosters": []
       },
       "hexflex": {
@@ -14075,7 +14674,7 @@ module.exports = {
                "owner": "hexflex"
             }
          ],
-         "hkwater": 300,
+         "hkwater": 360,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14116,7 +14715,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -14191,7 +14790,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -14339,7 +14938,7 @@ module.exports = {
                "owner": "nataxsnakex1"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 210,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14380,7 +14979,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -14433,7 +15032,7 @@ module.exports = {
                "owner": "skippyza"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14461,25 +15060,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7341,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "skippyza"
+            },
+            {
+               "id": 7342,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "skippyza"
+            }
+         ],
          "boosters": []
       },
       "udabeu": {
@@ -14565,7 +15181,7 @@ module.exports = {
                "owner": "udabeu"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14593,25 +15209,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7209,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "udabeu"
+            },
+            {
+               "id": 7210,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "udabeu"
+            }
+         ],
          "boosters": []
       },
       "luisdavid17": {
@@ -14659,7 +15292,7 @@ module.exports = {
                "owner": "luisdavid17"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14700,7 +15333,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -14957,7 +15590,7 @@ module.exports = {
                "owner": "mermaidvampire"
             }
          ],
-         "hkwater": 120,
+         "hkwater": 360,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14998,7 +15631,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -15032,7 +15665,7 @@ module.exports = {
                "owner": "bwar"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -15073,7 +15706,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -15373,7 +16006,7 @@ module.exports = {
                "owner": "yova22"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 450,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -15401,25 +16034,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "450",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7179,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "yova22"
+            },
+            {
+               "id": 7180,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "yova22"
+            }
+         ],
          "boosters": []
       },
       "seravilop": {
@@ -15505,7 +16155,7 @@ module.exports = {
                "owner": "seravilop"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -15546,7 +16196,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -15763,7 +16413,7 @@ module.exports = {
                "owner": "krakolito"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 300,
          "waterPlants": {
             "lvl1": 6,
             "lvl2": 0,
@@ -15804,7 +16454,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -15880,7 +16530,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -15980,25 +16630,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7327,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "silverxdpro"
+            },
+            {
+               "id": 7328,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "silverxdpro"
+            }
+         ],
          "boosters": []
       },
       "gamsam": {
@@ -16475,7 +17142,7 @@ module.exports = {
                "owner": "gamsam"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 690,
          "waterPlants": {
             "lvl1": 19,
             "lvl2": 0,
@@ -16503,26 +17170,43 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "690",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "water": 630,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7331,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "gamsam"
+            },
+            {
+               "id": 7332,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "gamsam"
+            }
+         ],
          "boosters": []
       },
       "shmoogleosukami": {
@@ -16592,7 +17276,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -17503,7 +18187,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -17575,7 +18259,7 @@ module.exports = {
                "owner": "nupulse"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -17616,7 +18300,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -17690,7 +18374,7 @@ module.exports = {
                "owner": "bhoa"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 90,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -17731,7 +18415,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -17807,7 +18491,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -17882,7 +18566,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -17975,7 +18659,7 @@ module.exports = {
                "owner": "bassman077"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -18003,26 +18687,43 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "water": 60,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7205,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "bassman077"
+            },
+            {
+               "id": 7206,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "bassman077"
+            }
+         ],
          "boosters": []
       },
       "condeas": {
@@ -18108,7 +18809,7 @@ module.exports = {
                "owner": "condeas"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -18149,7 +18850,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -18202,7 +18903,7 @@ module.exports = {
                "owner": "joebabana"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -18230,25 +18931,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7159,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "joebabana"
+            },
+            {
+               "id": 7160,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "joebabana"
+            }
+         ],
          "boosters": []
       },
       "virusfx": {
@@ -18627,7 +19345,7 @@ module.exports = {
                "owner": "virusfx"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 570,
          "waterPlants": {
             "lvl1": 8,
             "lvl2": 0,
@@ -18655,23 +19373,23 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "520.0000",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "avatars": [],
          "boosters": [],
@@ -18724,7 +19442,7 @@ module.exports = {
                "owner": "aubryd"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 1,
             "lvl2": 0,
@@ -18765,7 +19483,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -18857,7 +19575,7 @@ module.exports = {
                "owner": "treefiddybruh"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -18898,7 +19616,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -21279,7 +21997,7 @@ module.exports = {
                "owner": "definitelyn0tme"
             }
          ],
-         "hkwater": 240,
+         "hkwater": 3450,
          "waterPlants": {
             "lvl1": 100,
             "lvl2": 0,
@@ -21307,25 +22025,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "3450",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7313,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "definitelyn0tme"
+            },
+            {
+               "id": 7314,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "definitelyn0tme"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -21396,7 +22131,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -21724,25 +22459,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "450",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
+         "claimed": {
+            "water": true,
             "avatar": true,
             "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7089,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "quantumnachos"
+            },
+            {
+               "id": 7090,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "quantumnachos"
+            }
+         ],
          "boosters": []
       },
       "reeeheee": {
@@ -21850,7 +22602,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -21944,7 +22696,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -22019,7 +22771,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -22113,7 +22865,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -22245,7 +22997,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -22375,7 +23127,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -22428,7 +23180,7 @@ module.exports = {
                "owner": "willsaldeno"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -22469,7 +23221,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -22926,7 +23678,7 @@ module.exports = {
                "owner": "hosherama"
             }
          ],
-         "hkwater": 210,
+         "hkwater": 660,
          "waterPlants": {
             "lvl1": 12,
             "lvl2": 0,
@@ -22954,25 +23706,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "660",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7191,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "hosherama"
+            },
+            {
+               "id": 7192,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "hosherama"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -23154,7 +23923,7 @@ module.exports = {
                "owner": "turb0nen"
             }
          ],
-         "hkwater": 150,
+         "hkwater": 270,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -23182,25 +23951,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "270",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7175,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "turb0nen"
+            },
+            {
+               "id": 7176,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "turb0nen"
+            }
+         ],
          "boosters": []
       },
       "psycodelic": {
@@ -23509,7 +24295,7 @@ module.exports = {
                "owner": "psycodelic"
             }
          ],
-         "hkwater": 120,
+         "hkwater": 420,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -23537,25 +24323,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "420",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7127,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "psycodelic"
+            },
+            {
+               "id": 7128,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "psycodelic"
+            }
+         ],
          "boosters": []
       },
       "badpupper": {
@@ -23985,7 +24788,7 @@ module.exports = {
                "owner": "badpupper"
             }
          ],
-         "hkwater": 180,
+         "hkwater": 660,
          "waterPlants": {
             "lvl1": 2,
             "lvl2": 0,
@@ -24026,7 +24829,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -24141,7 +24944,7 @@ module.exports = {
                "owner": "hersi007"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 150,
          "waterPlants": {
             "lvl1": 3,
             "lvl2": 0,
@@ -24169,25 +24972,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7215,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "hersi007"
+            },
+            {
+               "id": 7216,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "hersi007"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -24258,7 +25078,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -24519,7 +25339,7 @@ module.exports = {
                "owner": "sanchezro"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 360,
          "waterPlants": {
             "lvl1": 9,
             "lvl2": 0,
@@ -24547,25 +25367,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "360",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7141,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "sanchezro"
+            },
+            {
+               "id": 7142,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "sanchezro"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -24623,25 +25460,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7237,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "tongostar"
+            },
+            {
+               "id": 7238,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "tongostar"
+            }
+         ],
          "boosters": []
       },
       "casilokodesing": {
@@ -24727,7 +25581,7 @@ module.exports = {
                "owner": "casilokodesing"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -24768,7 +25622,7 @@ module.exports = {
             }
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -24827,7 +25681,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -25164,7 +26018,7 @@ module.exports = {
                "owner": "w0nd3rgrip"
             }
          ],
-         "hkwater": 330,
+         "hkwater": 480,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -25189,30 +26043,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "480",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7177,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "w0nd3rgrip"
+            },
+            {
+               "id": 7178,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "w0nd3rgrip"
+            }
+         ],
          "boosters": []
       },
       "mako07": {
@@ -25437,7 +26308,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -25514,7 +26385,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -25591,7 +26462,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -25685,7 +26556,7 @@ module.exports = {
                "owner": "tremou922"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -25710,7 +26581,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -25839,7 +26710,7 @@ module.exports = {
                "owner": "caprisk"
             }
          ],
-         "hkwater": 120,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -25864,7 +26735,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -26224,7 +27095,7 @@ module.exports = {
                "owner": "criptosectadepit"
             }
          ],
-         "hkwater": 450,
+         "hkwater": 510,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -26249,7 +27120,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -26327,7 +27198,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -26400,7 +27271,7 @@ module.exports = {
                "owner": "jarkillo"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -26425,30 +27296,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7165,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jarkillo"
+            },
+            {
+               "id": 7166,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jarkillo"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -26579,7 +27467,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -27019,7 +27907,7 @@ module.exports = {
                "owner": "kratosn2"
             }
          ],
-         "hkwater": 270,
+         "hkwater": 630,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -27044,30 +27932,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "630",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7133,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "kratosn2"
+            },
+            {
+               "id": 7134,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "kratosn2"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -27386,7 +28291,7 @@ module.exports = {
                "owner": "rokimv87"
             }
          ],
-         "hkwater": 360,
+         "hkwater": 480,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -27411,7 +28316,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -27489,7 +28394,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -27661,7 +28566,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -27738,7 +28643,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -27872,7 +28777,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -27968,30 +28873,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7283,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "paulstark27"
+            },
+            {
+               "id": 7284,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "paulstark27"
+            }
+         ],
          "boosters": []
       },
       "chito1": {
@@ -28104,7 +29026,7 @@ module.exports = {
                "owner": "chito1"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 4,
@@ -28129,7 +29051,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -28243,7 +29165,7 @@ module.exports = {
                "owner": "benjaaa"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -28268,30 +29190,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7295,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "benjaaa"
+            },
+            {
+               "id": 7296,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "benjaaa"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -28612,7 +29551,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -29240,30 +30179,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "900",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7297,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "spi-steemcity"
+            },
+            {
+               "id": 7298,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "spi-steemcity"
+            }
+         ],
          "boosters": []
       },
       "lerage": {
@@ -29417,7 +30373,7 @@ module.exports = {
                "owner": "lerage"
             }
          ],
-         "hkwater": 270,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -29442,30 +30398,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "300",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7149,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "lerage"
+            },
+            {
+               "id": 7150,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "lerage"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -29634,7 +30607,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -29711,30 +30684,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7111,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jfang003"
+            },
+            {
+               "id": 7112,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jfang003"
+            }
+         ],
          "boosters": []
       },
       "marjanko": {
@@ -29788,7 +30778,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -30049,7 +31039,7 @@ module.exports = {
                "owner": "buritica"
             }
          ],
-         "hkwater": 300,
+         "hkwater": 360,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -30074,29 +31064,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "360",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7281,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "buritica"
+            },
+            {
+               "id": 7282,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "buritica"
+            }
+         ],
          "boosters": []
       },
       "mec45": {
@@ -30526,7 +31533,7 @@ module.exports = {
                "owner": "mec45"
             }
          ],
-         "hkwater": 630,
+         "hkwater": 660,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -30551,30 +31558,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "660",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7301,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "mec45"
+            },
+            {
+               "id": 7302,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "mec45"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -30800,30 +31824,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "300",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7181,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "zeusdy"
+            },
+            {
+               "id": 7182,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "zeusdy"
+            }
+         ],
          "boosters": []
       },
       "boitata": {
@@ -30915,7 +31956,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -31049,30 +32090,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7367,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "drisinger"
+            },
+            {
+               "id": 7368,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "drisinger"
+            }
+         ],
          "boosters": []
       },
       "luffy1737": {
@@ -31120,7 +32178,7 @@ module.exports = {
                "owner": "luffy1737"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -31145,30 +32203,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7345,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "luffy1737"
+            },
+            {
+               "id": 7346,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "luffy1737"
+            }
+         ],
          "boosters": []
       },
       "zanrsc": {
@@ -31319,7 +32394,7 @@ module.exports = {
                "owner": "zanrsc"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 4,
@@ -31344,7 +32419,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -31519,7 +32594,7 @@ module.exports = {
                "owner": "rnldjose31"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 4,
@@ -31544,30 +32619,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "210",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7183,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "rnldjose31"
+            },
+            {
+               "id": 7184,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "rnldjose31"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -31660,7 +32752,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -31737,7 +32829,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -31833,7 +32925,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -31910,30 +33002,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7105,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "lolobonilla"
+            },
+            {
+               "id": 7106,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "lolobonilla"
+            }
+         ],
          "boosters": []
       },
       "eduarz150792": {
@@ -32215,7 +33324,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -32539,7 +33648,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -32669,7 +33778,7 @@ module.exports = {
                "owner": "duaystive"
             }
          ],
-         "hkwater": 120,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -32694,7 +33803,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -32772,7 +33881,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -32906,7 +34015,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -33097,7 +34206,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -33310,7 +34419,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -33482,7 +34591,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -33578,7 +34687,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -33921,30 +35030,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "450",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7211,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "heybertu"
+            },
+            {
+               "id": 7212,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "heybertu"
+            }
+         ],
          "boosters": []
       },
       "jagerocker": {
@@ -34017,7 +35143,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -34094,7 +35220,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -34171,7 +35297,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -34282,7 +35408,7 @@ module.exports = {
                "owner": "davidagn79"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -34307,7 +35433,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -34537,7 +35663,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -34709,7 +35835,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -34881,30 +36007,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "180",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7362,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "tatovzla"
+            },
+            {
+               "id": 7363,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "tatovzla"
+            }
+         ],
          "boosters": []
       },
       "leon95": {
@@ -34958,7 +36101,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -35073,7 +36216,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -35150,7 +36293,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -35284,7 +36427,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -35380,7 +36523,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -35533,30 +36676,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7349,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "elbakalah"
+            },
+            {
+               "id": 7350,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "elbakalah"
+            }
+         ],
          "boosters": []
       },
       "eduardro": {
@@ -35838,7 +36998,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -35934,7 +37094,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -36043,7 +37203,7 @@ module.exports = {
                "owner": "ejercol"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -36068,7 +37228,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -36202,30 +37362,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7249,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "sek1g"
+            },
+            {
+               "id": 7250,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "sek1g"
+            }
+         ],
          "boosters": []
       },
       "marisenpai": {
@@ -36273,7 +37450,7 @@ module.exports = {
                "owner": "marisenpai"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -36298,7 +37475,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -36325,70 +37502,11 @@ module.exports = {
          "boosters": []
       },
       "jonramirez": {
-         "plots": [
-            {
-               "id": 3307,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "jonramirez"
-            },
-            {
-               "id": 3310,
-               "properties": {
-                  "NAME": "Afghanistan",
-                  "TYPE": "plot"
-               },
-               "owner": "jonramirez"
-            },
-            {
-               "id": 3667,
-               "properties": {
-                  "NAME": "Africa",
-                  "TYPE": "plot"
-               },
-               "owner": "jonramirez"
-            }
-         ],
-         "plotCount": 3,
-         "seedCount": 3,
-         "seeds": [
-            {
-               "id": 3306,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Colombian Gold",
-                  "SPT": 7,
-                  "WATER": 10,
-                  "PR": 81
-               },
-               "owner": "jonramirez"
-            },
-            {
-               "id": 3309,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Mazar I Sharif",
-                  "SPT": 6,
-                  "WATER": 33,
-                  "PR": 651
-               },
-               "owner": "jonramirez"
-            },
-            {
-               "id": 3666,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Malawi",
-                  "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2336
-               },
-               "owner": "jonramirez"
-            }
-         ],
-         "hkwater": 90,
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -36413,30 +37531,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7143,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jonramirez"
+            },
+            {
+               "id": 7144,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jonramirez"
+            }
+         ],
          "boosters": []
       },
       "yudai": {
@@ -36623,7 +37758,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -36700,30 +37835,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7357,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "chuchunorris"
+            },
+            {
+               "id": 7358,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "chuchunorris"
+            }
+         ],
          "boosters": []
       },
       "maurojx": {
@@ -36815,7 +37967,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -36987,7 +38139,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -37102,30 +38254,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7355,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "masterwarclash"
+            },
+            {
+               "id": 7356,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "masterwarclash"
+            }
+         ],
          "boosters": []
       },
       "vixda": {
@@ -37198,7 +38367,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -37294,7 +38463,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -37618,7 +38787,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -37731,7 +38900,7 @@ module.exports = {
                "owner": "graceathenas"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -37756,7 +38925,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -38005,30 +39174,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "300",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7263,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "hasted"
+            },
+            {
+               "id": 7264,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "hasted"
+            }
+         ],
          "boosters": []
       },
       "jeffx09": {
@@ -38139,7 +39325,7 @@ module.exports = {
                "owner": "jeffx09"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -38164,30 +39350,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
+         "claimed": {
+            "water": true,
             "avatar": false,
-            "bud": false
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7097,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jeffx09"
+            },
+            {
+               "id": 7098,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jeffx09"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -38280,7 +39483,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -38623,7 +39826,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -38719,30 +39922,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7101,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "kiro12"
+            },
+            {
+               "id": 7102,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "kiro12"
+            }
+         ],
          "boosters": []
       },
       "altercristian": {
@@ -38796,7 +40016,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -38892,7 +40112,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -38988,7 +40208,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -39065,7 +40285,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -39218,7 +40438,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -39333,30 +40553,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7243,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "kalocaj"
+            },
+            {
+               "id": 7244,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "kalocaj"
+            }
+         ],
          "boosters": []
       },
       "roypadron": {
@@ -39429,30 +40666,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7359,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "roypadron"
+            },
+            {
+               "id": 7360,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "roypadron"
+            }
+         ],
          "boosters": []
       },
       "alexander1975": {
@@ -39525,7 +40779,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -39598,7 +40852,7 @@ module.exports = {
                "owner": "xkaliburx"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -39623,30 +40877,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7125,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "xkaliburx"
+            },
+            {
+               "id": 7126,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "xkaliburx"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -39695,7 +40966,7 @@ module.exports = {
                "owner": "dani1884"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -39720,7 +40991,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -39854,30 +41125,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7265,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "gabriiq"
+            },
+            {
+               "id": 7266,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "gabriiq"
+            }
+         ],
          "boosters": []
       },
       "javikalimar": {
@@ -39897,9 +41185,17 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "javikalimar"
+            },
+            {
+               "id": 3925,
+               "properties": {
+                  "NAME": "Africa",
+                  "TYPE": "plot"
+               },
+               "owner": "javikalimar"
             }
          ],
-         "plotCount": 2,
+         "plotCount": 3,
          "seedCount": 3,
          "seeds": [
             {
@@ -39961,30 +41257,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7229,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "javikalimar"
+            },
+            {
+               "id": 7230,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "javikalimar"
+            }
+         ],
          "boosters": []
       },
       "edinsonoro": {
@@ -40057,7 +41370,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -40102,20 +41415,10 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "terrible93"
-            },
-            {
-               "id": 5851,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "terrible93"
             }
          ],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "id": 3681,
@@ -40138,20 +41441,9 @@ module.exports = {
                   "PR": 206
                },
                "owner": "terrible93"
-            },
-            {
-               "id": 5850,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Colombian Gold",
-                  "SPT": 7,
-                  "WATER": 10,
-                  "PR": 73
-               },
-               "owner": "terrible93"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -40176,30 +41468,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7199,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "terrible93"
+            },
+            {
+               "id": 7200,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "terrible93"
+            }
+         ],
          "boosters": [],
          "water": 30
       },
@@ -40387,30 +41696,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "240",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7225,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jarrical0506"
+            },
+            {
+               "id": 7226,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jarrical0506"
+            }
+         ],
          "boosters": []
       },
       "cryptomilovat": {
@@ -40521,7 +41847,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -40613,7 +41939,7 @@ module.exports = {
                "owner": "mpock"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -40638,7 +41964,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -40735,30 +42061,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7311,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "fernandohg11"
+            },
+            {
+               "id": 7312,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "fernandohg11"
+            }
+         ],
          "boosters": []
       },
       "ozkar13": {
@@ -40831,7 +42174,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -40927,7 +42270,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -41004,30 +42347,39 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7318,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "dchicaiza5"
+            }
+         ],
          "boosters": []
       },
       "warzone2100": {
@@ -41081,7 +42433,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -41215,7 +42567,7 @@ module.exports = {
                "owner": "jeanzz"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -41240,30 +42592,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7245,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jeanzz"
+            },
+            {
+               "id": 7246,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jeanzz"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -41318,7 +42687,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -41395,7 +42764,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -41472,7 +42841,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -41910,7 +43279,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -42025,7 +43394,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -42121,7 +43490,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -42236,7 +43605,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -42368,7 +43737,7 @@ module.exports = {
                "owner": "eldudu"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -42393,7 +43762,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -42568,7 +43937,7 @@ module.exports = {
                "owner": "christian7urquia"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 4,
@@ -42593,30 +43962,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "210",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7251,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "christian7urquia"
+            },
+            {
+               "id": 7252,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "christian7urquia"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -42665,7 +44051,7 @@ module.exports = {
                "owner": "ellocohugo"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -42690,7 +44076,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -42879,7 +44265,7 @@ module.exports = {
                "owner": "jacielxy"
             }
          ],
-         "hkwater": 180,
+         "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -42904,7 +44290,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -43020,7 +44406,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -43194,7 +44580,7 @@ module.exports = {
                "owner": "asas96"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 4,
@@ -43219,30 +44605,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "210",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7287,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "asas96"
+            },
+            {
+               "id": 7288,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "asas96"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -43316,7 +44719,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -43431,7 +44834,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -43675,7 +45078,7 @@ module.exports = {
                "owner": "oldmans"
             }
          ],
-         "hkwater": 240,
+         "hkwater": 330,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -43700,30 +45103,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "330",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7219,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "oldmans"
+            },
+            {
+               "id": 7220,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "oldmans"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -43778,7 +45198,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -43887,7 +45307,7 @@ module.exports = {
                "owner": "perezcan"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -43912,30 +45332,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7379,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "perezcan"
+            },
+            {
+               "id": 7380,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "perezcan"
+            }
+         ],
          "boosters": []
       },
       "ronny2721": {
@@ -44027,30 +45464,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7197,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ronny2721"
+            },
+            {
+               "id": 7198,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ronny2721"
+            }
+         ],
          "boosters": []
       },
       "mundoencriptado": {
@@ -44123,7 +45577,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -44276,7 +45730,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -44429,7 +45883,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -44525,7 +45979,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -44602,7 +46056,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -44698,7 +46152,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -44807,7 +46261,7 @@ module.exports = {
                "owner": "materrila14"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -44832,7 +46286,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -45875,7 +47329,7 @@ module.exports = {
                "owner": "kinggo9"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 1440,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 45,
@@ -45900,30 +47354,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1440",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7195,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "kinggo9"
+            },
+            {
+               "id": 7196,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "kinggo9"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -45993,7 +47464,7 @@ module.exports = {
                "owner": "razyel24"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -46018,30 +47489,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7269,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "razyel24"
+            },
+            {
+               "id": 7270,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "razyel24"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -46172,7 +47660,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -46376,7 +47864,7 @@ module.exports = {
                "owner": "melcaya"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -46401,29 +47889,38 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "270",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7174,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "melcaya"
+            }
+         ],
          "boosters": []
       },
       "largouuu": {
@@ -46911,7 +48408,7 @@ module.exports = {
                "owner": "largouuu"
             }
          ],
-         "hkwater": 390,
+         "hkwater": 720,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 11,
@@ -46936,48 +48433,52 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "720",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7147,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 7148,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "largouuu"
+            }
+         ],
          "boosters": [],
          "water": null
       },
       "pippex": {
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 0,
-            "africaUsed": 0,
-            "afghanistan": 0,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 0,
-            "mexicoUsed": 0
-         },
+         "plots": [],
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
@@ -47006,24 +48507,48 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "waxJoint": 0,
-            "twaxJoint": 0
+         "tokens": {
+            "buds": {
+               "balance": "1",
+               "stake": "0"
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
          },
-         "tokens": [],
-         "motaStake": 0
+         "motaStake": 0,
+         "avatars": [
+            {
+               "id": 7307,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "pippex"
+            },
+            {
+               "id": 7308,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "pippex"
+            }
+         ],
+         "boosters": []
       },
       "cryptosfera": {
          "plots": [
@@ -47133,7 +48658,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -47485,7 +49010,7 @@ module.exports = {
                "owner": "nobutsd1974"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -47510,30 +49035,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "450",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7131,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "nobutsd1974"
+            },
+            {
+               "id": 7132,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nobutsd1974"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -48386,7 +49928,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -48463,7 +50005,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -48559,7 +50101,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -48689,30 +50231,63 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7095,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "javier42"
+            },
+            {
+               "id": 7096,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "javier42"
+            },
+            {
+               "id": 7109,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "javier42"
+            },
+            {
+               "id": 7110,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "javier42"
+            }
+         ],
          "boosters": []
       },
       "javieruscu69": {
@@ -48813,7 +50388,7 @@ module.exports = {
                "owner": "javieruscu69"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -48838,30 +50413,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7293,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "javieruscu69"
+            },
+            {
+               "id": 7294,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "javieruscu69"
+            }
+         ],
          "boosters": []
       },
       "robin-nrs": {
@@ -48949,7 +50541,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -49098,30 +50690,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7347,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "sachique23"
+            },
+            {
+               "id": 7348,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "sachique23"
+            }
+         ],
          "boosters": []
       },
       "danny198": {
@@ -49209,7 +50818,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -49301,7 +50910,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -49393,7 +51002,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -49485,7 +51094,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -49577,7 +51186,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -49684,7 +51293,7 @@ module.exports = {
                "owner": "aniol77"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -49709,30 +51318,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7163,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "aniol77"
+            },
+            {
+               "id": 7164,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "aniol77"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -49859,30 +51485,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7285,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "harolac"
+            },
+            {
+               "id": 7286,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "harolac"
+            }
+         ],
          "boosters": []
       },
       "hivetrending": {
@@ -49951,7 +51594,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -50195,7 +51838,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -50344,30 +51987,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7337,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "apzyx"
+            },
+            {
+               "id": 7338,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "apzyx"
+            }
+         ],
          "boosters": []
       },
       "funnel": {
@@ -50424,30 +52084,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7187,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "funnel"
+            },
+            {
+               "id": 7188,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "funnel"
+            }
+         ],
          "boosters": []
       },
       "tr4ktrotacielo5": {
@@ -50516,7 +52193,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -50684,30 +52361,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7275,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "aguilax"
+            },
+            {
+               "id": 7276,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "aguilax"
+            }
+         ],
          "boosters": []
       },
       "migueldavidor": {
@@ -50793,7 +52487,7 @@ module.exports = {
                "owner": "migueldavidor"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -50818,30 +52512,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7221,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "migueldavidor"
+            },
+            {
+               "id": 7222,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "migueldavidor"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -50930,30 +52641,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7289,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "brad12"
+            },
+            {
+               "id": 7290,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "brad12"
+            }
+         ],
          "boosters": []
       },
       "fxish": {
@@ -51193,30 +52921,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "300",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7325,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "fxish"
+            },
+            {
+               "id": 7326,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "fxish"
+            }
+         ],
          "boosters": []
       },
       "ctdub406": {
@@ -51925,7 +53670,7 @@ module.exports = {
                "owner": "ctdub406"
             }
          ],
-         "hkwater": 1170,
+         "hkwater": 1080,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -51950,30 +53695,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1080",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7107,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ctdub406"
+            },
+            {
+               "id": 7108,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ctdub406"
+            }
+         ],
          "boosters": []
       },
       "skylinebuds": {
@@ -52053,7 +53815,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -52120,7 +53882,7 @@ module.exports = {
                "owner": "g0nzal0t"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -52145,7 +53907,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -52260,14 +54022,6 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 3925,
-               "properties": {
-                  "NAME": "Africa",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
                "id": 5032,
                "properties": {
                   "NAME": "Afghanistan",
@@ -52276,37 +54030,9 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 5110,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5740,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "nftmart.cards"
-            },
-            {
                "id": 6019,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 6031,
-               "properties": {
-                  "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
                   "OCCUPIED": false
@@ -52325,8 +54051,8 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 16,
-         "seedCount": 5,
+         "plotCount": 12,
+         "seedCount": 2,
          "seeds": [
             {
                "id": 4821,
@@ -52336,39 +54062,6 @@ module.exports = {
                   "SPT": 6,
                   "WATER": 23,
                   "PR": 399
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5109,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Colombian Gold",
-                  "SPT": 7,
-                  "WATER": 10,
-                  "PR": 266
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5736,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
-                  "PR": 152
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5739,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
-                  "PR": 38
                },
                "owner": "nftmart.cards"
             },
@@ -52384,7 +54077,7 @@ module.exports = {
                "owner": "nftmart.cards"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -52409,7 +54102,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -52432,7 +54125,56 @@ module.exports = {
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7099,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7100,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7143,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7144,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7173,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7317,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            }
+         ],
          "boosters": []
       },
       "alfa16": {
@@ -52467,7 +54209,7 @@ module.exports = {
                "owner": "alfa16"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -52492,7 +54234,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -52559,7 +54301,7 @@ module.exports = {
                "owner": "pepeymeli"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -52584,7 +54326,95 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "tokens": {
+            "buds": {
+               "balance": "1",
+               "stake": "0"
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": "30",
+               "stake": "0"
+            }
+         },
+         "motaStake": 0,
+         "avatars": [
+            {
+               "id": 7309,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "pepeymeli"
+            },
+            {
+               "id": 7310,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "pepeymeli"
+            }
+         ],
+         "boosters": []
+      },
+      "dhodl": {
+         "subdivisions": {
+            "asia": 0,
+            "jamaica": 0,
+            "africa": 0,
+            "afghanistan": 0,
+            "mexico": 0,
+            "southAmerica": 0,
+            "asiaC": 0,
+            "jamaicaC": 0,
+            "africaC": 0,
+            "afghanistanC": 0,
+            "mexicoC": 0,
+            "southAmericaC": 0
+         },
+         "plots": [],
+         "farm": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "dailyBudDeposit": 0,
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -52609,96 +54439,6 @@ module.exports = {
          "motaStake": 0,
          "avatars": [],
          "boosters": []
-      },
-      "dhodl": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 0,
-            "africaUsed": 0,
-            "afghanistan": 0,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 0,
-            "mexicoUsed": 0
-         },
-         "farm": [],
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 0,
-         "waterCount": 0,
-         "waterPlants": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "timeBoosters": {
-            "lvl1": 0,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
-         },
-         "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
-         },
-         "xp": 0,
-         "lvl": 1,
-         "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "hempWrappedBlunt": 0,
-            "twaxJoint": 0
-         },
-         "tokens": {
-            "buds": {
-               "balance": 0,
-               "stake": 0
-            },
-            "mota": {
-               "balance": 0,
-               "stake": 0
-            },
-            "hkwater": {
-               "balance": 0,
-               "stake": 0
-            }
-         },
-         "motaStake": 0
       },
       "rishi556": {
          "subdivisions": {
@@ -52757,7 +54497,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -52884,7 +54624,7 @@ module.exports = {
                "owner": "gamewatch"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -52909,7 +54649,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -52950,25 +54690,12 @@ module.exports = {
             "mexicoC": 0,
             "southAmericaC": 0
          },
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 0,
-            "africaUsed": 0,
-            "afghanistan": 0,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 0,
-            "mexicoUsed": 0
-         },
+         "plots": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -52993,7 +54720,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -53001,14 +54728,6 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "hempWrappedBlunt": 0,
-            "twaxJoint": 0
-         },
          "tokens": {
             "buds": {
                "balance": 0,
@@ -53023,7 +54742,26 @@ module.exports = {
                "stake": 0
             }
          },
-         "motaStake": 0
+         "motaStake": 0,
+         "avatars": [
+            {
+               "id": 7091,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmarket"
+            },
+            {
+               "id": 7092,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmarket"
+            }
+         ],
+         "boosters": []
       },
       "mulletwang": {
          "subdivisions": {
@@ -53914,7 +55652,7 @@ module.exports = {
                "owner": "mulletwang"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -53939,7 +55677,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -54326,7 +56064,7 @@ module.exports = {
                "owner": "saboin"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -54351,7 +56089,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -54584,7 +56322,7 @@ module.exports = {
                "owner": "molovelly"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -54609,7 +56347,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -54729,7 +56467,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -54891,7 +56629,7 @@ module.exports = {
                "owner": "simgirl"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -54916,7 +56654,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -55078,7 +56816,7 @@ module.exports = {
                "owner": "guiltyparties"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -55103,7 +56841,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -55265,7 +57003,7 @@ module.exports = {
                "owner": "prettynicevideo"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -55290,7 +57028,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -55441,7 +57179,7 @@ module.exports = {
                "owner": "meowgan"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -55466,7 +57204,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -55661,7 +57399,7 @@ module.exports = {
                "owner": "enginewitty"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -55686,7 +57424,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -55835,7 +57573,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -55893,7 +57631,7 @@ module.exports = {
                "owner": "christoryan"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -55918,7 +57656,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56053,7 +57791,7 @@ module.exports = {
                "owner": "choosefreedom"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56078,7 +57816,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56235,7 +57973,7 @@ module.exports = {
                "owner": "bauloewe"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56260,7 +57998,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56318,7 +58056,7 @@ module.exports = {
                "owner": "news-today"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56343,7 +58081,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56401,7 +58139,7 @@ module.exports = {
                "owner": "heremonium"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56426,7 +58164,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56484,7 +58222,7 @@ module.exports = {
                "owner": "rachaeldwatson"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56509,7 +58247,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56567,7 +58305,7 @@ module.exports = {
                "owner": "myanmarbook"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56592,7 +58330,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56661,7 +58399,7 @@ module.exports = {
                "owner": "jbsharkey"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56686,7 +58424,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56755,7 +58493,7 @@ module.exports = {
                "owner": "schlees"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56780,7 +58518,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56838,7 +58576,7 @@ module.exports = {
                "owner": "altonos"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56863,7 +58601,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -56932,7 +58670,7 @@ module.exports = {
                "owner": "bibdieufr"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56957,7 +58695,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57015,7 +58753,7 @@ module.exports = {
                "owner": "mickvir"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57040,7 +58778,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57109,7 +58847,7 @@ module.exports = {
                "owner": "buckydurddle"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57134,7 +58872,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57192,7 +58930,7 @@ module.exports = {
                "owner": "disregardfiat"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57217,7 +58955,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57275,7 +59013,7 @@ module.exports = {
                "owner": "psyo"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57300,7 +59038,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57433,7 +59171,7 @@ module.exports = {
                "owner": "ghosthunter1"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57458,7 +59196,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57516,7 +59254,7 @@ module.exports = {
                "owner": "ericwilson"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57541,7 +59279,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57599,7 +59337,7 @@ module.exports = {
                "owner": "songokubg"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57624,7 +59362,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57693,7 +59431,7 @@ module.exports = {
                "owner": "muru"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57718,7 +59456,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57776,7 +59514,7 @@ module.exports = {
                "owner": "vibrasphere"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57801,7 +59539,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -57945,7 +59683,7 @@ module.exports = {
                "owner": "nutritree"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -57970,7 +59708,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -58053,7 +59791,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -58181,7 +59919,7 @@ module.exports = {
                "owner": "ceheran"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -58206,30 +59944,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7189,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ceheran"
+            },
+            {
+               "id": 7190,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ceheran"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -58337,7 +60092,7 @@ module.exports = {
                "owner": "ooakosimo"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -58362,30 +60117,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7207,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ooakosimo"
+            },
+            {
+               "id": 7208,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ooakosimo"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -58449,7 +60221,7 @@ module.exports = {
                "owner": "bad-goyim"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -58474,30 +60246,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7247,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "bad-goyim"
+            },
+            {
+               "id": 7248,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "bad-goyim"
+            }
+         ],
          "boosters": []
       },
       "dannychain": {
@@ -58541,7 +60330,7 @@ module.exports = {
                "owner": "dannychain"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -58566,7 +60355,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -58633,7 +60422,7 @@ module.exports = {
                "owner": "drugwar"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -58658,7 +60447,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -58725,7 +60514,7 @@ module.exports = {
                "owner": "rahul.stan"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -58750,7 +60539,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -58893,7 +60682,7 @@ module.exports = {
                "owner": "silverlining1"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -58918,30 +60707,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7231,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "silverlining1"
+            },
+            {
+               "id": 7232,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "silverlining1"
+            }
+         ],
          "boosters": []
       },
       "marcss19": {
@@ -59061,7 +60867,7 @@ module.exports = {
                "owner": "marcss19"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -59086,7 +60892,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -59305,7 +61111,7 @@ module.exports = {
                "owner": "chronocrypto"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -59330,7 +61136,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -59397,7 +61203,7 @@ module.exports = {
                "owner": "gatticus"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -59422,7 +61228,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -59489,7 +61295,7 @@ module.exports = {
                "owner": "monsterbuster"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -59514,7 +61320,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -59581,7 +61387,7 @@ module.exports = {
                "owner": "mariorojas"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -59606,7 +61412,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -59692,7 +61498,7 @@ module.exports = {
                "owner": "elsith80"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -59717,30 +61523,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7371,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "elsith80"
+            },
+            {
+               "id": 7372,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "elsith80"
+            }
+         ],
          "boosters": []
       },
       "frijolitomx": {
@@ -59803,7 +61626,7 @@ module.exports = {
                "owner": "frijolitomx"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -59828,7 +61651,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -60181,7 +62004,7 @@ module.exports = {
                "owner": "thebeardflex"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 420,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 10,
@@ -60206,30 +62029,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "420",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7235,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "thebeardflex"
+            },
+            {
+               "id": 7236,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "thebeardflex"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -60274,7 +62114,7 @@ module.exports = {
                "owner": "huzzah"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -60299,30 +62139,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7373,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "huzzah"
+            },
+            {
+               "id": 7374,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "huzzah"
+            }
+         ],
          "boosters": []
       },
       "whoismyhero": {
@@ -60366,7 +62223,7 @@ module.exports = {
                "owner": "whoismyhero"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -60391,7 +62248,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -60477,7 +62334,7 @@ module.exports = {
                "owner": "luisx22"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -60502,7 +62359,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -60607,7 +62464,7 @@ module.exports = {
                "owner": "domeownik"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -60632,7 +62489,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -60775,7 +62632,7 @@ module.exports = {
                "owner": "brazuk"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -60800,7 +62657,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -60943,7 +62800,7 @@ module.exports = {
                "owner": "angy2882"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -60968,7 +62825,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -61149,7 +63006,7 @@ module.exports = {
                "owner": "zerokdark"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -61174,7 +63031,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -61241,7 +63098,7 @@ module.exports = {
                "owner": "andresito9522"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -61266,30 +63123,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7117,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "andresito9522"
+            },
+            {
+               "id": 7118,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "andresito9522"
+            }
+         ],
          "boosters": []
       },
       "franvit1979": {
@@ -61371,7 +63245,7 @@ module.exports = {
                "owner": "franvit1979"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -61396,30 +63270,47 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7351,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "franvit1979"
+            },
+            {
+               "id": 7352,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "franvit1979"
+            }
+         ],
          "boosters": []
       },
       "junkfeathers": {
@@ -61463,7 +63354,7 @@ module.exports = {
                "owner": "junkfeathers"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -61488,7 +63379,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -61612,7 +63503,7 @@ module.exports = {
                "owner": "supablaza"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -61637,7 +63528,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -61742,7 +63633,7 @@ module.exports = {
                "owner": "crishor"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -61767,7 +63658,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -61891,7 +63782,7 @@ module.exports = {
                "owner": "smokerings"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 4,
@@ -61916,29 +63807,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7303,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "smokerings"
+            },
+            {
+               "id": 7304,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "smokerings"
+            }
+         ],
          "boosters": []
       },
       "bhaiyas": {
@@ -62022,7 +63930,7 @@ module.exports = {
                "owner": "bhaiyas"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -62047,29 +63955,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7257,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "bhaiyas"
+            },
+            {
+               "id": 7258,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "bhaiyas"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -62190,7 +64115,7 @@ module.exports = {
                "owner": "roshansuares"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 5,
@@ -62215,29 +64140,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7137,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "roshansuares"
+            },
+            {
+               "id": 7138,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "roshansuares"
+            }
+         ],
          "boosters": []
       },
       "sushanthanchan": {
@@ -62321,7 +64263,7 @@ module.exports = {
                "owner": "sushanthanchan"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -62346,7 +64288,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -62474,7 +64416,7 @@ module.exports = {
                "owner": "rohansuares"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 4,
@@ -62499,29 +64441,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "120",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7123,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "rohansuares"
+            },
+            {
+               "id": 7124,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "rohansuares"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -62642,7 +64601,7 @@ module.exports = {
                "owner": "felsum"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 5,
@@ -62667,7 +64626,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -62775,7 +64734,7 @@ module.exports = {
                "owner": "footballpedia"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -62800,29 +64759,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7305,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "footballpedia"
+            },
+            {
+               "id": 7306,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "footballpedia"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -63038,7 +65014,7 @@ module.exports = {
                "owner": "jackofcrows"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 10,
@@ -63063,29 +65039,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "300",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7185,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jackofcrows"
+            },
+            {
+               "id": 7186,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jackofcrows"
+            }
+         ],
          "boosters": []
       },
       "innyc": {
@@ -63129,7 +65122,7 @@ module.exports = {
                "owner": "innyc"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -63154,7 +65147,7 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -63300,7 +65293,7 @@ module.exports = {
                "owner": "derangedvisions"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 5,
@@ -63325,29 +65318,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7233,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "derangedvisions"
+            },
+            {
+               "id": 7234,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "derangedvisions"
+            }
+         ],
          "boosters": [],
          "water": null
       },
@@ -63411,7 +65421,7 @@ module.exports = {
                "owner": "meyxxyz"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -63436,29 +65446,46 @@ module.exports = {
             "lvl10": 0
          },
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7193,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "meyxxyz"
+            },
+            {
+               "id": 7194,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "meyxxyz"
+            }
+         ],
          "boosters": []
       },
       "matheus9": {
@@ -63756,7 +65783,7 @@ module.exports = {
                "owner": "matheus9"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 390,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -63782,10 +65809,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -63793,20 +65820,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7259,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "matheus9"
+            },
+            {
+               "id": 7260,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "matheus9"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "390",
+               "stake": "0"
             }
          }
       },
@@ -63895,7 +65939,7 @@ module.exports = {
                "owner": "agramon"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -63921,7 +65965,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -63992,7 +66036,7 @@ module.exports = {
                "owner": "jonnybanana"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -64018,7 +66062,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -64740,7 +66784,7 @@ module.exports = {
                "owner": "labriego"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 960,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 33,
@@ -64766,7 +66810,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -64837,7 +66881,7 @@ module.exports = {
                "owner": "ilazramusic"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -64863,7 +66907,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -64934,7 +66978,7 @@ module.exports = {
                "owner": "arlettemsalase"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -64960,10 +67004,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -64971,20 +67015,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7321,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "arlettemsalase"
+            },
+            {
+               "id": 7322,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "arlettemsalase"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          }
       },
@@ -65052,7 +67113,7 @@ module.exports = {
                "owner": "tronquito"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -65078,7 +67139,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -65227,7 +67288,7 @@ module.exports = {
                "owner": "jonhive"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -65253,10 +67314,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -65264,20 +67325,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7139,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jonhive"
+            },
+            {
+               "id": 7140,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jonhive"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "2",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "240.0000",
+               "stake": "0"
             }
          }
       },
@@ -65324,7 +67402,7 @@ module.exports = {
                "owner": "hellene8"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -65350,7 +67428,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -65610,7 +67688,7 @@ module.exports = {
                "owner": "timetraveljesus"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 6,
@@ -65636,10 +67714,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -65647,20 +67725,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7273,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "timetraveljesus"
+            },
+            {
+               "id": 7274,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "timetraveljesus"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "300",
+               "stake": "0"
             }
          }
       },
@@ -65812,7 +67907,7 @@ module.exports = {
                "owner": "dvelandiaa"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 6,
@@ -65838,10 +67933,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -65849,20 +67944,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7261,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "dvelandiaa"
+            },
+            {
+               "id": 7262,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "dvelandiaa"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "180",
+               "stake": "0"
             }
          }
       },
@@ -65909,7 +68021,7 @@ module.exports = {
                "owner": "robvector"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -65935,7 +68047,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -66090,7 +68202,7 @@ module.exports = {
                "owner": "luiios"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 5,
@@ -66116,10 +68228,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -66127,20 +68239,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7361,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "luiios"
+            },
+            {
+               "id": 7364,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "luiios"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          }
       },
@@ -66187,7 +68316,7 @@ module.exports = {
                "owner": "saachi"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -66213,7 +68342,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -67586,7 +69715,7 @@ module.exports = {
                "owner": "earthboy75"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 1890,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 63,
@@ -67612,10 +69741,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -67623,20 +69752,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7103,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 7104,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "earthboy75"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1890",
+               "stake": "0"
             }
          }
       },
@@ -67725,7 +69871,7 @@ module.exports = {
                "owner": "kiritoccs"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -67751,10 +69897,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -67762,20 +69908,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7145,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "kiritoccs"
+            },
+            {
+               "id": 7146,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "kiritoccs"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          }
       },
@@ -67822,7 +69985,7 @@ module.exports = {
                "owner": "sgerhart"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -67848,7 +70011,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -67961,7 +70124,7 @@ module.exports = {
                "owner": "anyelp888"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -67987,10 +70150,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -67998,20 +70161,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7279,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "anyelp888"
+            },
+            {
+               "id": 7280,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "anyelp888"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          }
       },
@@ -68058,7 +70238,7 @@ module.exports = {
                "owner": "quijay"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -68084,10 +70264,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -68095,20 +70275,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7157,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "quijay"
+            },
+            {
+               "id": 7158,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "quijay"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          }
       },
@@ -68155,7 +70352,7 @@ module.exports = {
                "owner": "jesusalejos"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -68181,7 +70378,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -68336,7 +70533,7 @@ module.exports = {
                "owner": "artiic97"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 5,
@@ -68362,7 +70559,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -68538,7 +70735,7 @@ module.exports = {
                "owner": "angelportu"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 6,
@@ -68564,10 +70761,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -68575,20 +70772,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7153,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "angelportu"
+            },
+            {
+               "id": 7154,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "angelportu"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "180",
+               "stake": "0"
             }
          }
       },
@@ -68677,7 +70891,7 @@ module.exports = {
                "owner": "cjavi99"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -68703,10 +70917,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -68714,20 +70928,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7169,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "cjavi99"
+            },
+            {
+               "id": 7170,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "cjavi99"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          }
       },
@@ -68858,7 +71089,7 @@ module.exports = {
                "owner": "alfer"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 5,
@@ -68884,10 +71115,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -68895,20 +71126,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7171,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "alfer"
+            },
+            {
+               "id": 7172,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "alfer"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          }
       },
@@ -68955,7 +71203,7 @@ module.exports = {
                "owner": "al-gaming"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -68981,7 +71229,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -69241,7 +71489,7 @@ module.exports = {
                "owner": "hoory22"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 10,
@@ -69267,7 +71515,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -69359,7 +71607,7 @@ module.exports = {
                "owner": "emanon077"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -69385,10 +71633,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -69396,20 +71644,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7201,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "emanon077"
+            },
+            {
+               "id": 7202,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "emanon077"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          }
       },
@@ -69456,7 +71721,7 @@ module.exports = {
                "owner": "megarciab"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -69482,7 +71747,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -69553,7 +71818,7 @@ module.exports = {
                "owner": "jurbinaper"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -69579,10 +71844,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -69590,20 +71855,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7323,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jurbinaper"
+            },
+            {
+               "id": 7324,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jurbinaper"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          }
       },
@@ -69671,7 +71953,7 @@ module.exports = {
                "owner": "robz17"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -69697,7 +71979,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -69789,7 +72071,7 @@ module.exports = {
                "owner": "fenixazul"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -69815,10 +72097,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -69826,20 +72108,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7365,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "fenixazul"
+            },
+            {
+               "id": 7366,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "fenixazul"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          }
       },
@@ -69970,7 +72269,7 @@ module.exports = {
                "owner": "barbasoon"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 5,
@@ -69996,7 +72295,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -70067,7 +72366,7 @@ module.exports = {
                "owner": "edisonjavier"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -70093,7 +72392,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -70164,7 +72463,7 @@ module.exports = {
                "owner": "laurapalmerr"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -70190,7 +72489,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -70261,7 +72560,7 @@ module.exports = {
                "owner": "luiscas2"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -70287,7 +72586,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -70379,7 +72678,7 @@ module.exports = {
                "owner": "vica1988"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 2,
@@ -70405,10 +72704,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -70416,20 +72715,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7277,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "vica1988"
+            },
+            {
+               "id": 7278,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "vica1988"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "60",
+               "stake": "0"
             }
          }
       },
@@ -70581,7 +72897,7 @@ module.exports = {
                "owner": "wilwaps32"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 6,
@@ -70607,7 +72923,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -70678,7 +72994,7 @@ module.exports = {
                "owner": "ideagold"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -70704,7 +73020,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -70775,7 +73091,7 @@ module.exports = {
                "owner": "julste"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -70801,10 +73117,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -70812,20 +73128,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7339,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "julste"
+            },
+            {
+               "id": 7340,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "julste"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          }
       },
@@ -70977,7 +73310,7 @@ module.exports = {
                "owner": "alejoca"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 6,
@@ -71003,7 +73336,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -71158,7 +73491,7 @@ module.exports = {
                "owner": "shirahoshi"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 5,
@@ -71184,10 +73517,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -71195,20 +73528,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7241,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "shirahoshi"
+            },
+            {
+               "id": 7242,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "shirahoshi"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "150",
+               "stake": "0"
             }
          }
       },
@@ -71297,7 +73647,7 @@ module.exports = {
                "owner": "eselihu"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -71323,7 +73673,7 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
+         "claimed": {
             "water": false,
             "avatar": false,
             "bud": false
@@ -71436,7 +73786,7 @@ module.exports = {
                "owner": "axelcj123"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -71462,10 +73812,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -71473,20 +73823,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7203,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "axelcj123"
+            },
+            {
+               "id": 7204,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "axelcj123"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          }
       },
@@ -71575,7 +73942,7 @@ module.exports = {
                "owner": "caina420"
             }
          ],
-         "hkwater": 0,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -71601,10 +73968,10 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
@@ -71612,20 +73979,37 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "water": null,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7151,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "caina420"
+            },
+            {
+               "id": 7152,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "caina420"
+            }
+         ],
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          }
       },
@@ -71644,20 +74028,7 @@ module.exports = {
             "mexicoC": 0,
             "southAmericaC": 0
          },
-         "plots": {
-            "asia": 0,
-            "asiaUsed": 0,
-            "africa": 0,
-            "africaUsed": 0,
-            "afghanistan": 0,
-            "afghanistanUsed": 0,
-            "southAmerica": 0,
-            "southAmericaUsed": 0,
-            "jamaica": 0,
-            "jamaicaUsed": 0,
-            "mexico": 0,
-            "mexicoUsed": 0
-         },
+         "plots": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
@@ -71688,28 +74059,20 @@ module.exports = {
          },
          "buds": 0,
          "dailyBudDeposit": 0,
-         "claimed" : {
-            "water": false,
-            "avatar": false,
-            "bud": false
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {
-            "pinner": 0,
-            "hempWrappedJoint": 0,
-            "crossJoint": 0,
-            "blunt": 0,
-            "hempWrappedBlunt": 0,
-            "twaxJoint": 0
-         },
          "mota": 0,
          "motaStake": 0,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
@@ -71719,7 +74082,26 @@ module.exports = {
                "balance": 0,
                "stake": 0
             }
-         }
+         },
+         "avatars": [
+            {
+               "id": 7369,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "dcalsot"
+            },
+            {
+               "id": 7370,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "dcalsot"
+            }
+         ],
+         "boosters": []
       }
    },
    "cs": {}
