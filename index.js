@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52231240; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52232228; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52231240;
+const ago = ENV.ago || 52232228;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -593,12 +593,12 @@ function startApp() {
             // checks for qwoyn_plant and plants the seed
             processor.on('claim_avatar', function(json, from) {
 
-                if(state.user[from] && state.user[from].claimed.avatar === false){
+                if(state.user[json.from] && state.user[from].claimed.avatar === false){
                     //send avatar 1 and 2
-                    contract.createAvatar = (hivejs, "Magical Male", from)
-                    contract.createAvatar = (hivejs, "Magical Female", from)
+                    contract.createAvatar = (hivejs, "Magical Male", json.from)
+                    contract.createAvatar = (hivejs, "Magical Female", json.from)
                     //set claimed avatar to true
-                    state.user[from].claimed.avatar = true
+                    state.user[json.from].claimed.avatar = true
                 }                
             });
 
