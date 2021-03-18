@@ -585,7 +585,7 @@ function startApp() {
                     let totalWaterCount = state.users[from].hkwater
                     //send water
                     let waterString = totalWaterCount.toString
-                    contract.generateToken(hivejs, "HKWATER", totalWaterCount, from)
+                    contract.generateToken(hivejs, "HKWATER", waterString, from)
                     //set claimed.water to true
                     state.users[from].claimed.water = true
                 }                
