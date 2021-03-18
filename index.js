@@ -324,7 +324,7 @@ function userList() {
                         state.users[username].plotCount = plotData.length
 
                         //set hkwater for claiming
-                        let waterTowerNumber = waterTemp.length
+                        let waterTowerNumber = waterTowerData.length
                         let HKwater = waterTowerNumber * 30
                         state.users[username].hkwater = HKwater
                     }
