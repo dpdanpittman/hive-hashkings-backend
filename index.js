@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52291040; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52290900; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52291040;
+const ago = ENV.ago || 52290900;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -360,6 +360,7 @@ function userList() {
                     },
                     buds: 0,
                     dailyBudDeposit: 0,
+                    tokens: {},
                     claimed: {
                         water: false,
                         avatar: false,
@@ -382,7 +383,7 @@ function userList() {
             } else if (state.users[username]) {
                 let report = res[4]
                 for (const property in report) {
-                    if(property === username) {
+                    if(property == username) {
                         //get nft data
                         seedData = report[property].seeds
                         plotData = report[property].plots
@@ -414,10 +415,9 @@ function userList() {
                             state.users[username].claimed.bud = true
                         }
                     }
-                
+                }
                 //get the users tokens and set in db
                 contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
-            }
             } 
         }
     })
