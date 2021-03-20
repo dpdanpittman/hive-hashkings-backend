@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52291663; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52309681; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52291663;
+const ago = ENV.ago || 52309681;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -441,7 +441,7 @@ function reporting() {
         
 
         let landTotal = res[2].totalAllPlots
-        let waterTotal = res[2].totalAllWater
+        let waterTotal = res[4].qwoyn.waterTemp.length
         let seedTotal = res[2].totalAllSeeds
         
         let asiaTotal = res[1].Asia
@@ -808,6 +808,8 @@ function startApp() {
 
             //createbuds
             contract.createBud(hivejs, amountOfBuds, from)
+            
+            // set property to availabe on main subdivision
         }
 
         state.cs[`${json.block_num}:${from}`] = `${from} harvested ${subdivisions} in ${subName}`
@@ -825,6 +827,8 @@ function startApp() {
 
             //createbuds
             contract.createSubdivision(hivejs, region, from)
+            
+            // set property to subdivided on main plot
         }
 
         state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
@@ -842,6 +846,8 @@ function startApp() {
 
             //createbuds
             contract.createSubdivision(hivejs, region, from)
+            
+            // set property to subdivided on main plot
         }
 
         state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
@@ -859,6 +865,8 @@ function startApp() {
 
         //createbuds
         contract.createSubdivision(hivejs, region, from)
+        
+            // set property to subdivided on main plot
     }
 
     state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
@@ -876,6 +884,8 @@ function startApp() {
 
             //createbuds
             contract.createSubdivision(hivejs, region, from)
+            
+            // set property to subdivided on main plot
         }
 
         state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
@@ -893,6 +903,8 @@ function startApp() {
 
             //createbuds
             contract.createSubdivision(hivejs, region, from)
+            
+            // set property to subdivided on main plot
         }
 
         state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
@@ -910,10 +922,16 @@ function startApp() {
 
             //createbuds
             contract.createSubdivision(hivejs, plot, from)
+            
+            // set property to subdivided on main plot
         }
 
         state.cs[`${json.block_num}:${from}`] = `${from} subdivided ${plot} in ${region}`
     });
+
+    /*-------------------------- RENTALS  ---------------------------*/
+
+
 
 
     /*-------------------------- CRAFTING ----------------------------*/
