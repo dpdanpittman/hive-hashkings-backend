@@ -41212,7 +41212,7 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
+            "water": true,
             "avatar": false,
             "bud": false
          },
