@@ -300,45 +300,7 @@ function userList() {
         var arrayLength = farmerArray.length
         for (let i = 0; i < arrayLength; i++) {
             let username = farmerArray[i]
-            if (state.users[username]) {
-                let report = res[4]
-                for (const property in report) {
-                    if(property === username) {
-                        //get nft data
-                        seedData = report[property].seeds
-                        plotData = report[property].plots
-                        jointData = report[property].consumables
-                        boosterData = report[property].booster
-                        avatarData = report[property].avatar
-                        waterTowerData = report[property].waterTemp
-
-                        //set nft data
-                        state.users[username].avatars = avatarData
-                        state.users[username].boosters = boosterData
-                        state.users[username].joints = jointData
-                        state.users[username].seeds = seedData
-                        state.users[username].plots = plotData
-
-                        //set number of seeds and plots for user
-                        state.users[username].seedCount = seedData.length
-                        state.users[username].plotCount = plotData.length
-
-                        //set hkwater for claiming
-                        let waterTowerNumber = waterTowerData.length
-                        let HKwater = waterTowerNumber * 30
-                        state.users[username].hkwater = HKwater
-
-                        //if user doesnt exist, create them
-                        if(state.users[username].tokens.buds.balance > 0) {
-                            state.users[username].claimed.water = true
-                            state.users[username].claimed.avatar = true
-                            state.users[username].claimed.bud = true
-                        }
-                    }
-                }
-                //get the users tokens and set in db
-                contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
-            } else if(!state.users[username]) {
+            if(!state.users[username]) {
                 state.users[username] = {
                     subdivisions: {
                         asia: 0,
@@ -418,7 +380,45 @@ function userList() {
                     mota: 0,
                     motaStake: 0
                 }
-            }
+            } else if (state.users[username]) {
+                let report = res[4]
+                for (const property in report) {
+                    if(property === username) {
+                        //get nft data
+                        seedData = report[property].seeds
+                        plotData = report[property].plots
+                        jointData = report[property].consumables
+                        boosterData = report[property].booster
+                        avatarData = report[property].avatar
+                        waterTowerData = report[property].waterTemp
+
+                        //set nft data
+                        state.users[username].avatars = avatarData
+                        state.users[username].boosters = boosterData
+                        state.users[username].joints = jointData
+                        state.users[username].seeds = seedData
+                        state.users[username].plots = plotData
+
+                        //set number of seeds and plots for user
+                        state.users[username].seedCount = seedData.length
+                        state.users[username].plotCount = plotData.length
+
+                        //set hkwater for claiming
+                        let waterTowerNumber = waterTowerData.length
+                        let HKwater = waterTowerNumber * 30
+                        state.users[username].hkwater = HKwater
+
+                        //if user doesnt exist, create them
+                        if(state.users[username].tokens.buds.balance > 0) {
+                            state.users[username].claimed.water = true
+                            state.users[username].claimed.avatar = true
+                            state.users[username].claimed.bud = true
+                        }
+                    }
+                }
+                //get the users tokens and set in db
+                contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
+            } 
         }
     })
 }
