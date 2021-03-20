@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52290146; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52290488; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52290146;
+const ago = ENV.ago || 52290488;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://hive.roelandp.nl"
@@ -303,7 +303,7 @@ function userList() {
             if (state.users[username]) {
                 let report = res[4]
                 for (const property in report) {
-                    if(property == username) {
+                    if(property === username) {
                         //get nft data
                         seedData = report[property].seeds
                         plotData = report[property].plots
@@ -323,96 +323,96 @@ function userList() {
                         state.users[username].seedCount = seedData.length
                         state.users[username].plotCount = plotData.length
 
-                        /*//set hkwater for claiming
+                        //set hkwater for claiming
                         let waterTowerNumber = waterTowerData.length
                         let HKwater = waterTowerNumber * 30
-                        state.users[username].hkwater = HKwater*/
+                        state.users[username].hkwater = HKwater
+
+                        //if user doesnt exist, create them
                         if(state.users[username].tokens.buds.balance > 0) {
                             state.users[username].claimed.water = true
                             state.users[username].claimed.avatar = true
                             state.users[username].claimed.bud = true
                         }
-
-                        if(!state.users[username]) {
-                            state.users[username] = {
-                                subdivisions: {
-                                    asia: 0,
-                                    jamaica: 0,
-                                    africa: 0,
-                                    afghanistan: 0,
-                                    mexico: 0,
-                                    southAmerica: 0,
-                                    asiaC: 0,
-                                    jamaicaC: 0,
-                                    africaC: 0,
-                                    afghanistanC: 0,
-                                    mexicoC: 0,
-                                    southAmericaC: 0
-                                },
-                                plots: {
-                                    asia: 0,
-                                    asiaUsed: 0,
-                                    africa: 0,
-                                    africaUsed: 0,
-                                    afghanistan: 0,
-                                    afghanistanUsed: 0,
-                                    southAmerica: 0,
-                                    southAmericaUsed: 0,
-                                    jamaica: 0,
-                                    jamaicaUsed: 0,
-                                    mexico: 0,
-                                    mexicoUsed: 0
-                                },
-                                farm:[],
-                                plotCount: 0,
-                                seedCount: 0,
-                                seeds: [],
-                                hkwater: 0,
-                                waterCount: 0,
-                                waterPlants:{
-                                    lvl1: 0,
-                                    lvl2: 0,
-                                    lvl3: 0,
-                                    lvl4: 0,
-                                    lvl5: 0,
-                                    lvl7: 0,
-                                    lvl8: 0,
-                                    lvl9: 0,
-                                    lvl10: 0
-                                },
-                                timeBoosters: {
-                                    lvl1: 0,
-                                    lvl2: 0,
-                                    lvl3: 0,
-                                    lvl4: 0,
-                                    lvl5: 0,
-                                    lvl7: 0,
-                                    lvl8: 0,
-                                    lvl9: 0,
-                                    lvl10: 0
-                                },
-                                buds: 0,
-                                dailyBudDeposit: 0,
-                                xp: 0,
-                                lvl: 1,
-                                role: 1,
-                                tokens: [],
-                                joints: {
-                                    pinner: 0,
-                                    hempWrappedJoint: 0,
-                                    crossJoint: 0,
-                                    blunt: 0,
-                                    hempWrappedBlunt: 0,
-                                    twaxJoint: 0
-                                },
-                                mota: 0,
-                                motaStake: 0
-                            }
-                        }
                     }
                 }
                 //get the users tokens and set in db
                 contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
+            } else if(!state.users[username]) {
+                state.users[username] = {
+                    subdivisions: {
+                        asia: 0,
+                        jamaica: 0,
+                        africa: 0,
+                        afghanistan: 0,
+                        mexico: 0,
+                        southAmerica: 0,
+                        asiaC: 0,
+                        jamaicaC: 0,
+                        africaC: 0,
+                        afghanistanC: 0,
+                        mexicoC: 0,
+                        southAmericaC: 0
+                    },
+                    plots: {
+                        asia: 0,
+                        asiaUsed: 0,
+                        africa: 0,
+                        africaUsed: 0,
+                        afghanistan: 0,
+                        afghanistanUsed: 0,
+                        southAmerica: 0,
+                        southAmericaUsed: 0,
+                        jamaica: 0,
+                        jamaicaUsed: 0,
+                        mexico: 0,
+                        mexicoUsed: 0
+                    },
+                    farm:[],
+                    plotCount: 0,
+                    seedCount: 0,
+                    seeds: [],
+                    hkwater: 0,
+                    waterCount: 0,
+                    waterPlants:{
+                        lvl1: 0,
+                        lvl2: 0,
+                        lvl3: 0,
+                        lvl4: 0,
+                        lvl5: 0,
+                        lvl7: 0,
+                        lvl8: 0,
+                        lvl9: 0,
+                        lvl10: 0
+                    },
+                    timeBoosters: {
+                        lvl1: 0,
+                        lvl2: 0,
+                        lvl3: 0,
+                        lvl4: 0,
+                        lvl5: 0,
+                        lvl7: 0,
+                        lvl8: 0,
+                        lvl9: 0,
+                        lvl10: 0
+                    },
+                    buds: 0,
+                    dailyBudDeposit: 0,
+                    xp: 0,
+                    lvl: 1,
+                    role: 1,
+                    tokens: [],
+                    joints: {
+                        pinner: 0,
+                        hempWrappedJoint: 0,
+                        crossJoint: 0,
+                        blunt: 0,
+                        hempWrappedBlunt: 0,
+                        twaxJoint: 0
+                    },
+                    mota: 0,
+                    motaStake: 0
+                }
             }
         }
     })
