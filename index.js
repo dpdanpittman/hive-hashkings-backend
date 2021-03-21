@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52323060; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52323231; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52323060;
+const ago = ENV.ago || 52323231;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -741,15 +741,15 @@ function startApp() {
                 contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  true })
                 
                 //add seed data to user plot -- data includes how much water, seed production and sprouting time push it
-                let plantedPlotWater = state.users[from].seeds.id[seedID]//.properties.WATER
-                let plantedPlotSPT = state.users[from].seeds.id[seedID]//[properties].SPT
-                let plantedPlotProd = state.users[from].seeds.id[seedID]//[properties].PR
+                let plantedPlotWater = state.users[from].seeds.id[seedID][0].WATER
+                //let plantedPlotSPT = state.users[from].seeds.id[seedID]//[properties].SPT
+                //let plantedPlotProd = state.users[from].seeds.id[seedID]//[properties].PR
 
                 let usedPlotData = {
                     [plotID]: {
                         water: {plantedPlotWater},
-                        spt: {plantedPlotSPT},
-                        prod: {plantedPlotProd}
+                        //spt: {plantedPlotSPT},
+                        //prod: {plantedPlotProd}
                     }
                 }
 
