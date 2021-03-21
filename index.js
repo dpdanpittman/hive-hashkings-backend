@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52322266; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52322390; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52322266;
+const ago = ENV.ago || 52322390;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -722,8 +722,8 @@ function startApp() {
 
         // checks for qwoyn_plant and plants the seed
         processor.on('plant_plot', function(json, from) {
-            let seedID = seed.json
-            let plotID = plot.json
+            let seedID = json.seed
+            let plotID = json.plot
 
             let plotIDString = "" + plotID
             let seedIDString = "" + seedID
