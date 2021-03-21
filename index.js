@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52309681; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52321763; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52309681;
+const ago = ENV.ago || 52321763;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -722,18 +722,42 @@ function startApp() {
 
         // checks for qwoyn_plant and plants the seed
         processor.on('plant_plot', function(json, from) {
-            let seedID = id.json,
-                region = plot.json,
-                seedSpt = spt.json,
-                seedWater = water.json,
-                seedPr = pr.json
+            let seedID = seed.json
+            let plotID = plot.json
 
-            /*if(theuserexists && theplotexists && theseedexists? && theplotisnotoccupied){
-                //remove seed from user inventory
+            let plotIDString = "" + plotID
+            let seedIDString = "" + seedID
+
+            if(state.users[from] 
+                /*&& state.users[from].plots.id[plotID] 
+                && state.users[from].seeds.id[seedID]
+                && state.users[from].seeds.id[seedID].properties.USED === false
+                && state.users[from].plots[plotID].properties.OCCUPIED === false*/
+                ){
+                //make seed used
+                //contract.updateNft(hivejs, seedIDString, { "USED":  true })
+                
+                //make plot occupied
+                //contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  true })
+                
                 //add seed data to user plot -- data includes how much water, seed production and sprouting time push it
+                let plantedPlotWater = state.users[from].seeds.id[seedID][properties].WATER
+                let plantedPlotSPT = state.users[from].seeds.id[seedID][properties].SPT
+                let plantedPlotProd = state.users[from].seeds.id[seedID][properties].PR
+
+                let usedPlotData = {
+                    [{plotID}]: {
+                        water: {plantedPlotWater},
+                        spt: {plantedPlotSPT},
+                        prod: {plantedPlotProd}
+                    }
+                }
+
+                state.users[from].farm.push(usedPlotData);
+
                 //subtract 1 from user region inventory
 
-            }*/
+            }
             
         });
 

@@ -564,20 +564,7 @@ module.exports = {
    "refund": [],
    "users": {
       "qwoyn": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2,
@@ -630,6 +617,7 @@ module.exports = {
                "owner": "qwoyn"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 8,
          "seeds": [
@@ -799,20 +787,7 @@ module.exports = {
          "water": null
       },
       "r0um3n1987": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 395,
@@ -903,6 +878,7 @@ module.exports = {
                "owner": "r0um3n1987"
             }
          ],
+         "farm": [],
          "plotCount": 11,
          "seedCount": 11,
          "seeds": [
@@ -1078,20 +1054,7 @@ module.exports = {
          "boosters": []
       },
       "boyobevan": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 98,
@@ -1214,6 +1177,7 @@ module.exports = {
                "owner": "boyobevan"
             }
          ],
+         "farm": [],
          "plotCount": 15,
          "seedCount": 15,
          "seeds": [
@@ -1450,20 +1414,7 @@ module.exports = {
          "boosters": []
       },
       "academialibertad": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 623,
@@ -1482,6 +1433,7 @@ module.exports = {
                "owner": "academialibertad"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -1575,20 +1527,7 @@ module.exports = {
          "boosters": []
       },
       "abztraxxx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 41,
@@ -1615,6 +1554,7 @@ module.exports = {
                "owner": "abztraxxx"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -1702,20 +1642,7 @@ module.exports = {
          "boosters": []
       },
       "audiomancer": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 56,
@@ -1902,6 +1829,7 @@ module.exports = {
                "owner": "audiomancer"
             }
          ],
+         "farm": [],
          "plotCount": 22,
          "seedCount": 22,
          "seeds": [
@@ -2199,20 +2127,7 @@ module.exports = {
          "water": null
       },
       "cryptounicorn420": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 413,
@@ -2327,6 +2242,7 @@ module.exports = {
                "owner": "cryptounicorn420"
             }
          ],
+         "farm": [],
          "plotCount": 14,
          "seedCount": 14,
          "seeds": [
@@ -2552,20 +2468,7 @@ module.exports = {
          "boosters": []
       },
       "dolp": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 194,
@@ -3224,6 +3127,7 @@ module.exports = {
                "owner": "dolp"
             }
          ],
+         "farm": [],
          "plotCount": 82,
          "seedCount": 82,
          "seeds": [
@@ -4197,20 +4101,7 @@ module.exports = {
          "boosters": []
       },
       "xplora4253": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 404,
@@ -4255,6 +4146,7 @@ module.exports = {
                "owner": "xplora4253"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -4382,20 +4274,7 @@ module.exports = {
          "water": null
       },
       "ricarox": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 398,
@@ -4406,6 +4285,7 @@ module.exports = {
                "owner": "ricarox"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -4471,20 +4351,7 @@ module.exports = {
          "boosters": []
       },
       "edtorr704": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 257,
@@ -4551,6 +4418,7 @@ module.exports = {
                "owner": "edtorr704"
             }
          ],
+         "farm": [],
          "plotCount": 8,
          "seedCount": 8,
          "seeds": [
@@ -4693,20 +4561,7 @@ module.exports = {
          "boosters": []
       },
       "marcoss21": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 377,
@@ -4765,6 +4620,7 @@ module.exports = {
                "owner": "marcoss21"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 6,
          "seeds": [
@@ -4903,20 +4759,7 @@ module.exports = {
          "water": null
       },
       "foxon": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 23,
@@ -5157,6 +5000,7 @@ module.exports = {
                "owner": "foxon"
             }
          ],
+         "farm": [],
          "plotCount": 28,
          "seedCount": 30,
          "seeds": [
@@ -5559,20 +5403,7 @@ module.exports = {
          "boosters": []
       },
       "meanbees": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 380,
@@ -5793,6 +5624,7 @@ module.exports = {
                "owner": "meanbees"
             }
          ],
+         "farm": [],
          "plotCount": 24,
          "seedCount": 26,
          "seeds": [
@@ -6151,20 +5983,7 @@ module.exports = {
          "water": null
       },
       "degranoengrano": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 179,
@@ -6327,6 +6146,7 @@ module.exports = {
                "owner": "degranoengrano"
             }
          ],
+         "farm": [],
          "plotCount": 20,
          "seedCount": 14,
          "seeds": [
@@ -6552,20 +6372,7 @@ module.exports = {
          "boosters": []
       },
       "ibanezense": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 329,
@@ -6592,6 +6399,7 @@ module.exports = {
                "owner": "ibanezense"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -6696,20 +6504,7 @@ module.exports = {
          "boosters": []
       },
       "ejmh": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1034,
@@ -6866,6 +6661,7 @@ module.exports = {
                "owner": "ejmh"
             }
          ],
+         "farm": [],
          "plotCount": 17,
          "seedCount": 17,
          "seeds": [
@@ -7141,20 +6937,7 @@ module.exports = {
          "boosters": []
       },
       "toxicmen01": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 464,
@@ -7197,6 +6980,7 @@ module.exports = {
                "owner": "toxicmen01"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -7324,20 +7108,7 @@ module.exports = {
          "boosters": []
       },
       "cratic": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 158,
@@ -7380,6 +7151,7 @@ module.exports = {
                "owner": "cratic"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -7507,20 +7279,7 @@ module.exports = {
          "boosters": []
       },
       "criptojones": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 164,
@@ -7539,6 +7298,7 @@ module.exports = {
                "owner": "criptojones"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -7615,20 +7375,7 @@ module.exports = {
          "boosters": []
       },
       "bigkidstuff": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 95,
@@ -7647,6 +7394,7 @@ module.exports = {
                "owner": "bigkidstuff"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -7740,20 +7488,7 @@ module.exports = {
          "boosters": []
       },
       "dominic23": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 233,
@@ -7828,6 +7563,7 @@ module.exports = {
                "owner": "dominic23"
             }
          ],
+         "farm": [],
          "plotCount": 8,
          "seedCount": 8,
          "seeds": [
@@ -7988,20 +7724,7 @@ module.exports = {
          "water": null
       },
       "electru": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 281,
@@ -8052,6 +7775,7 @@ module.exports = {
                "owner": "electru"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 6,
          "seeds": [
@@ -8189,20 +7913,7 @@ module.exports = {
          "boosters": []
       },
       "lozadakb": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 353,
@@ -8269,6 +7980,7 @@ module.exports = {
                "owner": "lozadakb"
             }
          ],
+         "farm": [],
          "plotCount": 8,
          "seedCount": 8,
          "seeds": [
@@ -8428,20 +8140,7 @@ module.exports = {
          "boosters": []
       },
       "hodltoday": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 326,
@@ -8460,6 +8159,7 @@ module.exports = {
                "owner": "hodltoday"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -8553,20 +8253,7 @@ module.exports = {
          "boosters": []
       },
       "fdeflash": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 314,
@@ -8625,6 +8312,7 @@ module.exports = {
                "owner": "fdeflash"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 7,
          "seeds": [
@@ -8773,20 +8461,7 @@ module.exports = {
          "boosters": []
       },
       "pedroozj": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 392,
@@ -8805,6 +8480,7 @@ module.exports = {
                "owner": "pedroozj"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -8881,20 +8557,7 @@ module.exports = {
          "boosters": []
       },
       "facugaba": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 308,
@@ -9059,6 +8722,7 @@ module.exports = {
                "owner": "facugaba"
             }
          ],
+         "farm": [],
          "plotCount": 18,
          "seedCount": 17,
          "seeds": [
@@ -9318,20 +8982,7 @@ module.exports = {
          "water": null
       },
       "luisveco88": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 347,
@@ -9342,6 +8993,7 @@ module.exports = {
                "owner": "luisveco88"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -9424,20 +9076,7 @@ module.exports = {
          "boosters": []
       },
       "aries02": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 50,
@@ -9456,6 +9095,7 @@ module.exports = {
                "owner": "aries02"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -9549,20 +9189,7 @@ module.exports = {
          "boosters": []
       },
       "medicenw1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 386,
@@ -9573,6 +9200,7 @@ module.exports = {
                "owner": "medicenw1"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -9638,20 +9266,7 @@ module.exports = {
          "boosters": []
       },
       "quefe": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5110,
@@ -9692,6 +9307,7 @@ module.exports = {
                "owner": "quefe"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -9808,20 +9424,7 @@ module.exports = {
          "boosters": []
       },
       "mejiasclaudia": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 389,
@@ -9840,6 +9443,7 @@ module.exports = {
                "owner": "mejiasclaudia"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -9933,20 +9537,7 @@ module.exports = {
          "boosters": []
       },
       "cadawg": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 29,
@@ -10061,6 +9652,7 @@ module.exports = {
                "owner": "cadawg"
             }
          ],
+         "farm": [],
          "plotCount": 14,
          "seedCount": 14,
          "seeds": [
@@ -10286,20 +9878,7 @@ module.exports = {
          "boosters": []
       },
       "ecuaminte": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 245,
@@ -10362,6 +9941,7 @@ module.exports = {
                "owner": "ecuaminte"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 8,
          "seeds": [
@@ -10522,20 +10102,7 @@ module.exports = {
          "water": null
       },
       "abrockman": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5,
@@ -10658,6 +10225,7 @@ module.exports = {
                "owner": "abrockman"
             }
          ],
+         "farm": [],
          "plotCount": 15,
          "seedCount": 111,
          "seeds": [
@@ -11950,20 +11518,7 @@ module.exports = {
          "boosters": []
       },
       "supremdsm": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 488,
@@ -11974,6 +11529,7 @@ module.exports = {
                "owner": "supremdsm"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -12039,20 +11595,7 @@ module.exports = {
          "boosters": []
       },
       "darthslaver": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 176,
@@ -12063,6 +11606,7 @@ module.exports = {
                "owner": "darthslaver"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -12145,20 +11689,7 @@ module.exports = {
          "boosters": []
       },
       "juanchuzx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 338,
@@ -12177,6 +11708,7 @@ module.exports = {
                "owner": "juanchuzx"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -12270,20 +11802,7 @@ module.exports = {
          "boosters": []
       },
       "dobro2020": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 191,
@@ -12294,6 +11813,7 @@ module.exports = {
                "owner": "dobro2020"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -12359,20 +11879,7 @@ module.exports = {
          "boosters": []
       },
       "dantejcs": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 170,
@@ -12399,6 +11906,7 @@ module.exports = {
                "owner": "dantejcs"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -12503,20 +12011,7 @@ module.exports = {
          "boosters": []
       },
       "the-mister7": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 401,
@@ -12567,6 +12062,7 @@ module.exports = {
                "owner": "the-mister7"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 6,
          "seeds": [
@@ -12718,6 +12214,7 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
+         "farm": [],
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
@@ -12759,20 +12256,7 @@ module.exports = {
          "dailyBudDeposit": 0
       },
       "oblivioncubed": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 476,
@@ -12783,6 +12267,7 @@ module.exports = {
                "owner": "oblivioncubed"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -12848,20 +12333,7 @@ module.exports = {
          "boosters": []
       },
       "yoclensavilan": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 993,
@@ -12880,6 +12352,7 @@ module.exports = {
                "owner": "yoclensavilan"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -12973,20 +12446,7 @@ module.exports = {
          "boosters": []
       },
       "elprutest": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 287,
@@ -13293,6 +12753,7 @@ module.exports = {
                "owner": "elprutest"
             }
          ],
+         "farm": [],
          "plotCount": 33,
          "seedCount": 33,
          "seeds": [
@@ -13728,20 +13189,7 @@ module.exports = {
          "water": 570
       },
       "khan.dayyanz": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 344,
@@ -13776,6 +13224,7 @@ module.exports = {
                "owner": "khan.dayyanz"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -13891,20 +13340,7 @@ module.exports = {
          "boosters": []
       },
       "xbladex": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 482,
@@ -13997,6 +13433,7 @@ module.exports = {
                "owner": "xbladex"
             }
          ],
+         "farm": [],
          "plotCount": 11,
          "seedCount": 11,
          "seeds": [
@@ -14190,20 +13627,7 @@ module.exports = {
          "boosters": []
       },
       "cireth": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 155,
@@ -14214,6 +13638,7 @@ module.exports = {
                "owner": "cireth"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -14279,20 +13704,7 @@ module.exports = {
          "boosters": []
       },
       "infernalcoliseum": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 518,
@@ -14303,6 +13715,7 @@ module.exports = {
                "owner": "infernalcoliseum"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -14385,20 +13798,7 @@ module.exports = {
          "boosters": []
       },
       "anarcist69": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 521,
@@ -14457,6 +13857,7 @@ module.exports = {
                "owner": "anarcist69"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 18,
          "seeds": [
@@ -14709,20 +14110,7 @@ module.exports = {
          "boosters": []
       },
       "jmsansan.leo": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 539,
@@ -14733,6 +14121,7 @@ module.exports = {
                "owner": "jmsansan.leo"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -14815,20 +14204,7 @@ module.exports = {
          "boosters": []
       },
       "jinmori": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 542,
@@ -14847,6 +14223,7 @@ module.exports = {
                "owner": "jinmori"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -14940,20 +14317,7 @@ module.exports = {
          "boosters": []
       },
       "nemesis29ff": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 572,
@@ -14972,6 +14336,7 @@ module.exports = {
                "owner": "nemesis29ff"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -15062,6 +14427,7 @@ module.exports = {
             "mexico": 1,
             "mexicoUsed": 0
          },
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -15125,21 +14491,9 @@ module.exports = {
          "dailyBudDeposit": 0
       },
       "cesarg": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "plotCount": 0,
          "seedCount": 1,
          "seeds": [
@@ -15222,20 +14576,7 @@ module.exports = {
          "boosters": []
       },
       "davedickeyyall": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 584,
@@ -15246,6 +14587,7 @@ module.exports = {
                "owner": "davedickeyyall"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -15311,20 +14653,7 @@ module.exports = {
          "boosters": []
       },
       "gooba": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 587,
@@ -15343,6 +14672,7 @@ module.exports = {
                "owner": "gooba"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -15436,20 +14766,7 @@ module.exports = {
          "boosters": []
       },
       "hexflex": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1662,
@@ -15532,6 +14849,7 @@ module.exports = {
                "owner": "hexflex"
             }
          ],
+         "farm": [],
          "plotCount": 10,
          "seedCount": 14,
          "seeds": [
@@ -15740,20 +15058,7 @@ module.exports = {
          "boosters": []
       },
       "proto26": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 629,
@@ -15764,6 +15069,7 @@ module.exports = {
                "owner": "proto26"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -15829,20 +15135,7 @@ module.exports = {
          "boosters": []
       },
       "nataxsnakex1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 500,
@@ -15901,6 +15194,7 @@ module.exports = {
                "owner": "nataxsnakex1"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 7,
          "seeds": [
@@ -16032,20 +15326,7 @@ module.exports = {
          "boosters": []
       },
       "skippyza": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 641,
@@ -16064,6 +15345,7 @@ module.exports = {
                "owner": "skippyza"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -16157,20 +15439,7 @@ module.exports = {
          "boosters": []
       },
       "udabeu": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 644,
@@ -16205,6 +15474,7 @@ module.exports = {
                "owner": "udabeu"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -16320,20 +15590,7 @@ module.exports = {
          "boosters": []
       },
       "luisdavid17": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 668,
@@ -16352,6 +15609,7 @@ module.exports = {
                "owner": "luisdavid17"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -16428,20 +15686,7 @@ module.exports = {
          "boosters": []
       },
       "mermaidvampire": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 614,
@@ -16532,6 +15777,7 @@ module.exports = {
                "owner": "mermaidvampire"
             }
          ],
+         "farm": [],
          "plotCount": 11,
          "seedCount": 14,
          "seeds": [
@@ -16757,20 +16003,7 @@ module.exports = {
          "boosters": []
       },
       "bwar": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 689,
@@ -16781,6 +16014,7 @@ module.exports = {
                "owner": "bwar"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -16863,20 +16097,7 @@ module.exports = {
          "boosters": []
       },
       "yova22": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 692,
@@ -16999,6 +16220,7 @@ module.exports = {
                "owner": "yova22"
             }
          ],
+         "farm": [],
          "plotCount": 15,
          "seedCount": 15,
          "seeds": [
@@ -17235,20 +16457,7 @@ module.exports = {
          "boosters": []
       },
       "seravilop": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 701,
@@ -17283,6 +16492,7 @@ module.exports = {
                "owner": "seravilop"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -17381,20 +16591,7 @@ module.exports = {
          "boosters": []
       },
       "krakolito": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 773,
@@ -17489,6 +16686,7 @@ module.exports = {
                "owner": "krakolito"
             }
          ],
+         "farm": [],
          "plotCount": 10,
          "seedCount": 10,
          "seeds": [
@@ -17671,20 +16869,7 @@ module.exports = {
          "water": null
       },
       "mooncrab88": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 779,
@@ -17695,6 +16880,7 @@ module.exports = {
                "owner": "mooncrab88"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -17760,20 +16946,7 @@ module.exports = {
          "boosters": []
       },
       "silverxdpro": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 786,
@@ -17800,6 +16973,7 @@ module.exports = {
                "owner": "silverxdpro"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -17904,20 +17078,7 @@ module.exports = {
          "boosters": []
       },
       "gamsam": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 789,
@@ -18134,6 +17295,7 @@ module.exports = {
                "owner": "gamsam"
             }
          ],
+         "farm": [],
          "plotCount": 22,
          "seedCount": 23,
          "seeds": [
@@ -18459,20 +17621,7 @@ module.exports = {
          "boosters": []
       },
       "shmoogleosukami": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 792,
@@ -18483,6 +17632,7 @@ module.exports = {
                "owner": "shmoogleosukami"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -18548,20 +17698,7 @@ module.exports = {
          "boosters": []
       },
       "wagginston": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 795,
@@ -18924,6 +18061,7 @@ module.exports = {
                "owner": "wagginston"
             }
          ],
+         "farm": [],
          "plotCount": 45,
          "seedCount": 45,
          "seeds": [
@@ -19473,20 +18611,7 @@ module.exports = {
          "boosters": []
       },
       "nupulse": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 755,
@@ -19513,6 +18638,7 @@ module.exports = {
                "owner": "nupulse"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -19600,20 +18726,7 @@ module.exports = {
          "boosters": []
       },
       "bhoa": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 936,
@@ -19642,6 +18755,7 @@ module.exports = {
                "owner": "bhoa"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -19730,20 +18844,7 @@ module.exports = {
          "water": null
       },
       "bitandi": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 939,
@@ -19754,6 +18855,7 @@ module.exports = {
                "owner": "bitandi"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -19819,20 +18921,7 @@ module.exports = {
          "boosters": []
       },
       "steinreich": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 945,
@@ -19843,6 +18932,7 @@ module.exports = {
                "owner": "steinreich"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -19908,20 +18998,7 @@ module.exports = {
          "boosters": []
       },
       "bassman077": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3835,
@@ -19960,6 +19037,7 @@ module.exports = {
                "owner": "bassman077"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -20076,20 +19154,7 @@ module.exports = {
          "boosters": []
       },
       "condeas": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 954,
@@ -20124,6 +19189,7 @@ module.exports = {
                "owner": "condeas"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -20222,20 +19288,7 @@ module.exports = {
          "boosters": []
       },
       "joebabana": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 957,
@@ -20254,6 +19307,7 @@ module.exports = {
                "owner": "joebabana"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -20347,20 +19401,7 @@ module.exports = {
          "boosters": []
       },
       "virusfx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 969,
@@ -20523,6 +19564,7 @@ module.exports = {
                "owner": "virusfx"
             }
          ],
+         "farm": [],
          "plotCount": 18,
          "seedCount": 19,
          "seeds": [
@@ -20787,20 +19829,7 @@ module.exports = {
          "water": null
       },
       "aubryd": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 972,
@@ -20821,6 +19850,7 @@ module.exports = {
                "owner": "aubryd"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -20898,20 +19928,7 @@ module.exports = {
          "water": null
       },
       "treefiddybruh": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 978,
@@ -20946,6 +19963,7 @@ module.exports = {
                "owner": "treefiddybruh"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -21062,20 +20080,7 @@ module.exports = {
          "boosters": []
       },
       "definitelyn0tme": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 987,
@@ -22178,6 +21183,7 @@ module.exports = {
                "owner": "definitelyn0tme"
             }
          ],
+         "farm": [],
          "plotCount": 115,
          "seedCount": 115,
          "seeds": [
@@ -23515,20 +22521,7 @@ module.exports = {
          "water": null
       },
       "elricmoonslayer": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 996,
@@ -23539,6 +22532,7 @@ module.exports = {
                "owner": "elricmoonslayer"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -23604,20 +22598,7 @@ module.exports = {
          "boosters": []
       },
       "quantumnachos": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 999,
@@ -23740,6 +22721,7 @@ module.exports = {
                "owner": "quantumnachos"
             }
          ],
+         "farm": [],
          "plotCount": 15,
          "seedCount": 15,
          "seeds": [
@@ -23976,20 +22958,7 @@ module.exports = {
          "boosters": []
       },
       "reeeheee": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1560,
@@ -24016,6 +22985,7 @@ module.exports = {
                "owner": "reeeheee"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -24103,20 +23073,7 @@ module.exports = {
          "boosters": []
       },
       "sinerjji": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1569,
@@ -24135,6 +23092,7 @@ module.exports = {
                "owner": "sinerjji"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -24211,20 +23169,7 @@ module.exports = {
          "boosters": []
       },
       "malonn": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1572,
@@ -24235,6 +23180,7 @@ module.exports = {
                "owner": "malonn"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -24300,20 +23246,7 @@ module.exports = {
          "boosters": []
       },
       "swashcoldsteel": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1575,
@@ -24332,6 +23265,7 @@ module.exports = {
                "owner": "swashcoldsteel"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -24408,20 +23342,7 @@ module.exports = {
          "boosters": []
       },
       "uganzadranje": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1578,
@@ -24456,6 +23377,7 @@ module.exports = {
                "owner": "uganzadranje"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -24568,6 +23490,7 @@ module.exports = {
             "mexico": 0,
             "mexicoUsed": 0
          },
+         "farm": [],
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
@@ -24609,20 +23532,7 @@ module.exports = {
          "dailyBudDeposit": 0
       },
       "nathanpieters": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1656,
@@ -24633,6 +23543,7 @@ module.exports = {
                "owner": "nathanpieters"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -24698,20 +23609,7 @@ module.exports = {
          "boosters": []
       },
       "willsaldeno": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1716,
@@ -24730,6 +23628,7 @@ module.exports = {
                "owner": "willsaldeno"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -24806,20 +23705,7 @@ module.exports = {
          "boosters": []
       },
       "hosherama": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1719,
@@ -25022,6 +23908,7 @@ module.exports = {
                "owner": "hosherama"
             }
          ],
+         "farm": [],
          "plotCount": 22,
          "seedCount": 22,
          "seeds": [
@@ -25336,20 +24223,7 @@ module.exports = {
          "water": null
       },
       "turb0nen": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1797,
@@ -25416,6 +24290,7 @@ module.exports = {
                "owner": "turb0nen"
             }
          ],
+         "farm": [],
          "plotCount": 8,
          "seedCount": 9,
          "seeds": [
@@ -25586,20 +24461,7 @@ module.exports = {
          "boosters": []
       },
       "psycodelic": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1764,
@@ -25714,6 +24576,7 @@ module.exports = {
                "owner": "psycodelic"
             }
          ],
+         "farm": [],
          "plotCount": 14,
          "seedCount": 17,
          "seeds": [
@@ -25972,20 +24835,7 @@ module.exports = {
          "boosters": []
       },
       "badpupper": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 770,
@@ -26166,6 +25016,7 @@ module.exports = {
                "owner": "badpupper"
             }
          ],
+         "farm": [],
          "plotCount": 22,
          "seedCount": 22,
          "seeds": [
@@ -26480,20 +25331,7 @@ module.exports = {
          "boosters": []
       },
       "hersi007": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1881,
@@ -26540,6 +25378,7 @@ module.exports = {
                "owner": "hersi007"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -26667,20 +25506,7 @@ module.exports = {
          "water": null
       },
       "acne": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1884,
@@ -26691,6 +25517,7 @@ module.exports = {
                "owner": "acne"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -26773,20 +25600,7 @@ module.exports = {
          "boosters": []
       },
       "sanchezro": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1887,
@@ -26903,6 +25717,7 @@ module.exports = {
                "owner": "sanchezro"
             }
          ],
+         "farm": [],
          "plotCount": 12,
          "seedCount": 12,
          "seeds": [
@@ -27107,20 +25922,7 @@ module.exports = {
          "water": null
       },
       "tongostar": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1893,
@@ -27131,6 +25933,7 @@ module.exports = {
                "owner": "tongostar"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -27213,20 +26016,7 @@ module.exports = {
          "boosters": []
       },
       "casilokodesing": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 509,
@@ -27261,6 +26051,7 @@ module.exports = {
                "owner": "casilokodesing"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -27376,20 +26167,7 @@ module.exports = {
          "boosters": []
       },
       "heikki1337": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1933,
@@ -27400,6 +26178,7 @@ module.exports = {
                "owner": "heikki1337"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -27467,20 +26246,7 @@ module.exports = {
          "boosters": []
       },
       "w0nd3rgrip": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1936,
@@ -27611,6 +26377,7 @@ module.exports = {
                "owner": "w0nd3rgrip"
             }
          ],
+         "farm": [],
          "plotCount": 16,
          "seedCount": 16,
          "seeds": [
@@ -27860,20 +26627,7 @@ module.exports = {
          "boosters": []
       },
       "mako07": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1954,
@@ -27956,6 +26710,7 @@ module.exports = {
                "owner": "mako07"
             }
          ],
+         "farm": [],
          "plotCount": 10,
          "seedCount": 10,
          "seeds": [
@@ -28139,20 +26894,7 @@ module.exports = {
          "boosters": []
       },
       "cryptixmlonwax": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2173,
@@ -28163,6 +26905,7 @@ module.exports = {
                "owner": "cryptixmlonwax"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -28230,20 +26973,7 @@ module.exports = {
          "boosters": []
       },
       "chubb149": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2185,
@@ -28254,6 +26984,7 @@ module.exports = {
                "owner": "chubb149"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -28338,20 +27069,7 @@ module.exports = {
          "boosters": []
       },
       "tremou922": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2191,
@@ -28382,6 +27100,7 @@ module.exports = {
                "owner": "tremou922"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -28489,20 +27208,7 @@ module.exports = {
          "water": null
       },
       "caprisk": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2068,
@@ -28545,6 +27251,7 @@ module.exports = {
                "owner": "caprisk"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -28673,20 +27380,7 @@ module.exports = {
          "boosters": []
       },
       "criptosectadepit": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2200,
@@ -28829,6 +27523,7 @@ module.exports = {
                "owner": "criptosectadepit"
             }
          ],
+         "farm": [],
          "plotCount": 17,
          "seedCount": 17,
          "seeds": [
@@ -29090,20 +27785,7 @@ module.exports = {
          "water": null
       },
       "jacksonrj": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2227,
@@ -29114,6 +27796,7 @@ module.exports = {
                "owner": "jacksonrj"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -29181,20 +27864,7 @@ module.exports = {
          "boosters": []
       },
       "jarkillo": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2230,
@@ -29215,6 +27885,7 @@ module.exports = {
                "owner": "jarkillo"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -29311,20 +27982,7 @@ module.exports = {
          "water": null
       },
       "xmuguenx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2233,
@@ -29367,6 +28025,7 @@ module.exports = {
                "owner": "xmuguenx"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -29478,20 +28137,7 @@ module.exports = {
          "boosters": []
       },
       "kratosn2": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2251,
@@ -29670,6 +28316,7 @@ module.exports = {
                "owner": "kratosn2"
             }
          ],
+         "farm": [],
          "plotCount": 21,
          "seedCount": 21,
          "seeds": [
@@ -29975,20 +28622,7 @@ module.exports = {
          "water": null
       },
       "rokimv87": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2299,
@@ -30123,6 +28757,7 @@ module.exports = {
                "owner": "rokimv87"
             }
          ],
+         "farm": [],
          "plotCount": 16,
          "seedCount": 16,
          "seeds": [
@@ -30356,20 +28991,7 @@ module.exports = {
          "water": null
       },
       "alter13": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2320,
@@ -30380,6 +29002,7 @@ module.exports = {
                "owner": "alter13"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -30447,20 +29070,7 @@ module.exports = {
          "boosters": []
       },
       "spinvest": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2323,
@@ -30511,6 +29121,7 @@ module.exports = {
                "owner": "spinvest"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 6,
          "seeds": [
@@ -30650,20 +29261,7 @@ module.exports = {
          "boosters": []
       },
       "forykw": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2341,
@@ -30674,6 +29272,7 @@ module.exports = {
                "owner": "forykw"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -30741,20 +29340,7 @@ module.exports = {
          "boosters": []
       },
       "naxter1998": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2344,
@@ -30789,6 +29375,7 @@ module.exports = {
                "owner": "naxter1998"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -30906,20 +29493,7 @@ module.exports = {
          "boosters": []
       },
       "paulstark27": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2347,
@@ -30938,6 +29512,7 @@ module.exports = {
                "owner": "paulstark27"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -31033,20 +29608,7 @@ module.exports = {
          "boosters": []
       },
       "chito1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2353,
@@ -31097,6 +29659,7 @@ module.exports = {
                "owner": "chito1"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -31226,20 +29789,7 @@ module.exports = {
          "water": null
       },
       "benjaaa": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2356,
@@ -31278,6 +29828,7 @@ module.exports = {
                "owner": "benjaaa"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -31396,20 +29947,7 @@ module.exports = {
          "water": null
       },
       "grinselion": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2368,
@@ -31532,6 +30070,7 @@ module.exports = {
                "owner": "grinselion"
             }
          ],
+         "farm": [],
          "plotCount": 15,
          "seedCount": 15,
          "seeds": [
@@ -31770,20 +30309,7 @@ module.exports = {
          "boosters": []
       },
       "spi-steemcity": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2416,
@@ -32026,6 +30552,7 @@ module.exports = {
                "owner": "spi-steemcity"
             }
          ],
+         "farm": [],
          "plotCount": 30,
          "seedCount": 30,
          "seeds": [
@@ -32429,20 +30956,7 @@ module.exports = {
          "boosters": []
       },
       "lerage": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2521,
@@ -32501,6 +31015,7 @@ module.exports = {
                "owner": "lerage"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 8,
          "seeds": [
@@ -32663,20 +31178,7 @@ module.exports = {
          "water": null
       },
       "brofundholdings": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2545,
@@ -32735,6 +31237,7 @@ module.exports = {
                "owner": "brofundholdings"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 7,
          "seeds": [
@@ -32868,20 +31371,7 @@ module.exports = {
          "boosters": []
       },
       "jfang003": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2584,
@@ -32892,6 +31382,7 @@ module.exports = {
                "owner": "jfang003"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -32976,20 +31467,7 @@ module.exports = {
          "boosters": []
       },
       "marjanko": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2599,
@@ -33000,6 +31478,7 @@ module.exports = {
                "owner": "marjanko"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -33067,20 +31546,7 @@ module.exports = {
          "boosters": []
       },
       "buritica": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2614,
@@ -33179,6 +31645,7 @@ module.exports = {
                "owner": "buritica"
             }
          ],
+         "farm": [],
          "plotCount": 12,
          "seedCount": 12,
          "seeds": [
@@ -33383,20 +31850,7 @@ module.exports = {
          "boosters": []
       },
       "mec45": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2662,
@@ -33577,6 +32031,7 @@ module.exports = {
                "owner": "mec45"
             }
          ],
+         "farm": [],
          "plotCount": 22,
          "seedCount": 22,
          "seeds": [
@@ -33893,20 +32348,7 @@ module.exports = {
          "water": null
       },
       "zeusdy": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2704,
@@ -33989,6 +32431,7 @@ module.exports = {
                "owner": "zeusdy"
             }
          ],
+         "farm": [],
          "plotCount": 10,
          "seedCount": 10,
          "seeds": [
@@ -34172,20 +32615,7 @@ module.exports = {
          "boosters": []
       },
       "boitata": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2707,
@@ -34212,6 +32642,7 @@ module.exports = {
                "owner": "boitata"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -34301,20 +32732,7 @@ module.exports = {
          "boosters": []
       },
       "drisinger": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2719,
@@ -34349,6 +32767,7 @@ module.exports = {
                "owner": "drisinger"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -34466,20 +32885,7 @@ module.exports = {
          "boosters": []
       },
       "luffy1737": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 350,
@@ -34498,6 +32904,7 @@ module.exports = {
                "owner": "luffy1737"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -34593,20 +33000,7 @@ module.exports = {
          "boosters": []
       },
       "zanrsc": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2731,
@@ -34673,6 +33067,7 @@ module.exports = {
                "owner": "zanrsc"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 7,
          "seeds": [
@@ -34824,20 +33219,7 @@ module.exports = {
          "water": null
       },
       "rnldjose31": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2734,
@@ -34904,6 +33286,7 @@ module.exports = {
                "owner": "rnldjose31"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 7,
          "seeds": [
@@ -35055,20 +33438,7 @@ module.exports = {
          "water": null
       },
       "docarmoedu": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2740,
@@ -35095,6 +33465,7 @@ module.exports = {
                "owner": "docarmoedu"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -35184,20 +33555,7 @@ module.exports = {
          "boosters": []
       },
       "kayser191": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2758,
@@ -35208,6 +33566,7 @@ module.exports = {
                "owner": "kayser191"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -35275,20 +33634,7 @@ module.exports = {
          "boosters": []
       },
       "chemams19": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2767,
@@ -35307,6 +33653,7 @@ module.exports = {
                "owner": "chemams19"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -35402,20 +33749,7 @@ module.exports = {
          "boosters": []
       },
       "lolobonilla": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2770,
@@ -35426,6 +33760,7 @@ module.exports = {
                "owner": "lolobonilla"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -35510,20 +33845,7 @@ module.exports = {
          "boosters": []
       },
       "eduarz150792": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2773,
@@ -35630,6 +33952,7 @@ module.exports = {
                "owner": "eduarz150792"
             }
          ],
+         "farm": [],
          "plotCount": 13,
          "seedCount": 13,
          "seeds": [
@@ -35829,20 +34152,7 @@ module.exports = {
          "boosters": []
       },
       "largo24": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2800,
@@ -35957,6 +34267,7 @@ module.exports = {
                "owner": "largo24"
             }
          ],
+         "farm": [],
          "plotCount": 14,
          "seedCount": 14,
          "seeds": [
@@ -36167,20 +34478,7 @@ module.exports = {
          "boosters": []
       },
       "duaystive": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2803,
@@ -36225,6 +34523,7 @@ module.exports = {
                "owner": "duaystive"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -36354,20 +34653,7 @@ module.exports = {
          "water": null
       },
       "anyeloert": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2851,
@@ -36378,6 +34664,7 @@ module.exports = {
                "owner": "anyeloert"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -36445,20 +34732,7 @@ module.exports = {
          "boosters": []
       },
       "pelayin999": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2854,
@@ -36493,6 +34767,7 @@ module.exports = {
                "owner": "pelayin999"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -36593,20 +34868,7 @@ module.exports = {
          "boosters": []
       },
       "olgerv1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2857,
@@ -36665,6 +34927,7 @@ module.exports = {
                "owner": "olgerv1"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 7,
          "seeds": [
@@ -36815,20 +35078,7 @@ module.exports = {
          "boosters": []
       },
       "hissing1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2899,
@@ -36887,6 +35137,7 @@ module.exports = {
                "owner": "hissing1"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 9,
          "seeds": [
@@ -37059,20 +35310,7 @@ module.exports = {
          "boosters": []
       },
       "joseph77": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2953,
@@ -37123,6 +35361,7 @@ module.exports = {
                "owner": "joseph77"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 6,
          "seeds": [
@@ -37245,20 +35484,7 @@ module.exports = {
          "boosters": []
       },
       "sureng11": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2956,
@@ -37277,6 +35503,7 @@ module.exports = {
                "owner": "sureng11"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -37355,20 +35582,7 @@ module.exports = {
          "boosters": []
       },
       "heybertu": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2977,
@@ -37491,6 +35705,7 @@ module.exports = {
                "owner": "heybertu"
             }
          ],
+         "farm": [],
          "plotCount": 15,
          "seedCount": 15,
          "seeds": [
@@ -37729,20 +35944,7 @@ module.exports = {
          "boosters": []
       },
       "jagerocker": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3025,
@@ -37761,6 +35963,7 @@ module.exports = {
                "owner": "jagerocker"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -37856,20 +36059,7 @@ module.exports = {
          "boosters": []
       },
       "dgon": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3034,
@@ -37880,6 +36070,7 @@ module.exports = {
                "owner": "dgon"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -37947,20 +36138,7 @@ module.exports = {
          "boosters": []
       },
       "kokebo": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3037,
@@ -37971,6 +36149,7 @@ module.exports = {
                "owner": "kokebo"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -38038,20 +36217,7 @@ module.exports = {
          "boosters": []
       },
       "davidagn79": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3040,
@@ -38088,6 +36254,7 @@ module.exports = {
                "owner": "davidagn79"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -38206,20 +36373,7 @@ module.exports = {
          "water": null
       },
       "inek18": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3049,
@@ -38294,6 +36448,7 @@ module.exports = {
                "owner": "inek18"
             }
          ],
+         "farm": [],
          "plotCount": 9,
          "seedCount": 9,
          "seeds": [
@@ -38466,20 +36621,7 @@ module.exports = {
          "boosters": []
       },
       "leaisx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3073,
@@ -38530,6 +36672,7 @@ module.exports = {
                "owner": "leaisx"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 6,
          "seeds": [
@@ -38669,20 +36812,7 @@ module.exports = {
          "boosters": []
       },
       "tatovzla": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3082,
@@ -38733,6 +36863,7 @@ module.exports = {
                "owner": "tatovzla"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 6,
          "seeds": [
@@ -38872,20 +37003,7 @@ module.exports = {
          "boosters": []
       },
       "leon95": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3094,
@@ -38896,6 +37014,7 @@ module.exports = {
                "owner": "leon95"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -38963,20 +37082,7 @@ module.exports = {
          "boosters": []
       },
       "ksyuca007": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3097,
@@ -39003,6 +37109,7 @@ module.exports = {
                "owner": "ksyuca007"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -39092,20 +37199,7 @@ module.exports = {
          "boosters": []
       },
       "atarxix": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3106,
@@ -39116,6 +37210,7 @@ module.exports = {
                "owner": "atarxix"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -39183,20 +37278,7 @@ module.exports = {
          "boosters": []
       },
       "ilidangrx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3112,
@@ -39231,6 +37313,7 @@ module.exports = {
                "owner": "ilidangrx"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -39348,20 +37431,7 @@ module.exports = {
          "boosters": []
       },
       "wsgrupoespanol": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3133,
@@ -39380,6 +37450,7 @@ module.exports = {
                "owner": "wsgrupoespanol"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -39475,20 +37546,7 @@ module.exports = {
          "boosters": []
       },
       "elbakalah": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3178,
@@ -39531,6 +37589,7 @@ module.exports = {
                "owner": "elbakalah"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -39659,20 +37718,7 @@ module.exports = {
          "boosters": []
       },
       "eduardro": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3202,
@@ -39779,6 +37825,7 @@ module.exports = {
                "owner": "eduardro"
             }
          ],
+         "farm": [],
          "plotCount": 13,
          "seedCount": 13,
          "seeds": [
@@ -39995,20 +38042,7 @@ module.exports = {
          "boosters": []
       },
       "thejc50": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3277,
@@ -40027,6 +38061,7 @@ module.exports = {
                "owner": "thejc50"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -40105,20 +38140,7 @@ module.exports = {
          "boosters": []
       },
       "ejercol": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3283,
@@ -40153,6 +38175,7 @@ module.exports = {
                "owner": "ejercol"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -40270,20 +38293,7 @@ module.exports = {
          "boosters": []
       },
       "sek1g": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3292,
@@ -40318,6 +38328,7 @@ module.exports = {
                "owner": "sek1g"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -40435,20 +38446,7 @@ module.exports = {
          "boosters": []
       },
       "marisenpai": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3304,
@@ -40467,6 +38465,7 @@ module.exports = {
                "owner": "marisenpai"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -40562,21 +38561,9 @@ module.exports = {
          "boosters": []
       },
       "jonramirez": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
@@ -40649,20 +38636,7 @@ module.exports = {
          "boosters": []
       },
       "yudai": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3319,
@@ -40729,6 +38703,7 @@ module.exports = {
                "owner": "yudai"
             }
          ],
+         "farm": [],
          "plotCount": 8,
          "seedCount": 8,
          "seeds": [
@@ -40873,20 +38848,7 @@ module.exports = {
          "boosters": []
       },
       "chuchunorris": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3343,
@@ -40897,6 +38859,7 @@ module.exports = {
                "owner": "chuchunorris"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -40981,20 +38944,7 @@ module.exports = {
          "boosters": []
       },
       "maurojx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3346,
@@ -41021,6 +38971,7 @@ module.exports = {
                "owner": "maurojx"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -41127,20 +39078,7 @@ module.exports = {
          "boosters": []
       },
       "davjaimes10": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3355,
@@ -41191,6 +39129,7 @@ module.exports = {
                "owner": "davjaimes10"
             }
          ],
+         "farm": [],
          "plotCount": 6,
          "seedCount": 6,
          "seeds": [
@@ -41313,20 +39252,7 @@ module.exports = {
          "boosters": []
       },
       "masterwarclash": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3373,
@@ -41353,6 +39279,7 @@ module.exports = {
                "owner": "masterwarclash"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -41459,20 +39386,7 @@ module.exports = {
          "boosters": []
       },
       "vixda": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3382,
@@ -41491,6 +39405,7 @@ module.exports = {
                "owner": "vixda"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -41569,20 +39484,7 @@ module.exports = {
          "boosters": []
       },
       "richardmt95": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3388,
@@ -41601,6 +39503,7 @@ module.exports = {
                "owner": "richardmt95"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -41679,20 +39582,7 @@ module.exports = {
          "boosters": []
       },
       "planchero": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3394,
@@ -41807,6 +39697,7 @@ module.exports = {
                "owner": "planchero"
             }
          ],
+         "farm": [],
          "plotCount": 14,
          "seedCount": 14,
          "seeds": [
@@ -42034,20 +39925,7 @@ module.exports = {
          "boosters": []
       },
       "graceathenas": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3403,
@@ -42086,6 +39964,7 @@ module.exports = {
                "owner": "graceathenas"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -42204,20 +40083,7 @@ module.exports = {
          "water": null
       },
       "hasted": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3445,
@@ -42300,6 +40166,7 @@ module.exports = {
                "owner": "hasted"
             }
          ],
+         "farm": [],
          "plotCount": 10,
          "seedCount": 10,
          "seeds": [
@@ -42483,20 +40350,7 @@ module.exports = {
          "boosters": []
       },
       "jeffx09": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3475,
@@ -42545,6 +40399,7 @@ module.exports = {
                "owner": "jeffx09"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -42674,20 +40529,7 @@ module.exports = {
          "water": null
       },
       "lalogg13": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3478,
@@ -42714,6 +40556,7 @@ module.exports = {
                "owner": "lalogg13"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -42803,20 +40646,7 @@ module.exports = {
          "boosters": []
       },
       "emqcripto": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3487,
@@ -42939,6 +40769,7 @@ module.exports = {
                "owner": "emqcripto"
             }
          ],
+         "farm": [],
          "plotCount": 15,
          "seedCount": 15,
          "seeds": [
@@ -43160,20 +40991,7 @@ module.exports = {
          "boosters": []
       },
       "kiro12": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3493,
@@ -43192,6 +41010,7 @@ module.exports = {
                "owner": "kiro12"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -43287,20 +41106,7 @@ module.exports = {
          "boosters": []
       },
       "altercristian": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3541,
@@ -43311,6 +41117,7 @@ module.exports = {
                "owner": "altercristian"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -43378,20 +41185,7 @@ module.exports = {
          "boosters": []
       },
       "leoking1985": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3544,
@@ -43410,6 +41204,7 @@ module.exports = {
                "owner": "leoking1985"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -43488,20 +41283,7 @@ module.exports = {
          "boosters": []
       },
       "zxion": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3568,
@@ -43520,6 +41302,7 @@ module.exports = {
                "owner": "zxion"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -43598,20 +41381,7 @@ module.exports = {
          "boosters": []
       },
       "lulisway": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3571,
@@ -43622,6 +41392,7 @@ module.exports = {
                "owner": "lulisway"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -43689,20 +41460,7 @@ module.exports = {
          "boosters": []
       },
       "obando": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3574,
@@ -43745,6 +41503,7 @@ module.exports = {
                "owner": "obando"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -43856,20 +41615,7 @@ module.exports = {
          "boosters": []
       },
       "kalocaj": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3595,
@@ -43896,6 +41642,7 @@ module.exports = {
                "owner": "kalocaj"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -44002,20 +41749,7 @@ module.exports = {
          "boosters": []
       },
       "roypadron": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3619,
@@ -44034,6 +41768,7 @@ module.exports = {
                "owner": "roypadron"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -44129,20 +41864,7 @@ module.exports = {
          "boosters": []
       },
       "alexander1975": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3625,
@@ -44161,6 +41883,7 @@ module.exports = {
                "owner": "alexander1975"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -44256,20 +41979,7 @@ module.exports = {
          "boosters": []
       },
       "xkaliburx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3631,
@@ -44290,6 +42000,7 @@ module.exports = {
                "owner": "xkaliburx"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -44386,20 +42097,7 @@ module.exports = {
          "water": null
       },
       "dani1884": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3634,
@@ -44418,6 +42116,7 @@ module.exports = {
                "owner": "dani1884"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -44513,20 +42212,7 @@ module.exports = {
          "boosters": []
       },
       "gabriiq": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3640,
@@ -44561,6 +42247,7 @@ module.exports = {
                "owner": "gabriiq"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -44678,20 +42365,7 @@ module.exports = {
          "boosters": []
       },
       "javikalimar": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3661,
@@ -44718,6 +42392,7 @@ module.exports = {
                "owner": "javikalimar"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -44824,20 +42499,7 @@ module.exports = {
          "boosters": []
       },
       "edinsonoro": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3664,
@@ -44856,6 +42518,7 @@ module.exports = {
                "owner": "edinsonoro"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -44934,20 +42597,7 @@ module.exports = {
          "boosters": []
       },
       "terrible93": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3682,
@@ -44968,6 +42618,7 @@ module.exports = {
                "owner": "terrible93"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -45064,20 +42715,7 @@ module.exports = {
          "water": 30
       },
       "jarrical0506": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3685,
@@ -45144,6 +42782,7 @@ module.exports = {
                "owner": "jarrical0506"
             }
          ],
+         "farm": [],
          "plotCount": 8,
          "seedCount": 8,
          "seeds": [
@@ -45305,20 +42944,7 @@ module.exports = {
          "boosters": []
       },
       "cryptomilovat": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3697,
@@ -45353,6 +42979,7 @@ module.exports = {
                "owner": "cryptomilovat"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -45453,20 +43080,7 @@ module.exports = {
          "boosters": []
       },
       "mpock": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3700,
@@ -45495,6 +43109,7 @@ module.exports = {
                "owner": "mpock"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -45585,20 +43200,7 @@ module.exports = {
          "water": null
       },
       "fernandohg11": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3706,
@@ -45617,6 +43219,7 @@ module.exports = {
                "owner": "fernandohg11"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -45712,20 +43315,7 @@ module.exports = {
          "boosters": []
       },
       "ozkar13": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3712,
@@ -45744,6 +43334,7 @@ module.exports = {
                "owner": "ozkar13"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -45822,20 +43413,7 @@ module.exports = {
          "boosters": []
       },
       "ozono": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3718,
@@ -45854,6 +43432,7 @@ module.exports = {
                "owner": "ozono"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -45949,20 +43528,7 @@ module.exports = {
          "boosters": []
       },
       "dchicaiza5": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3724,
@@ -45973,6 +43539,7 @@ module.exports = {
                "owner": "dchicaiza5"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -46049,20 +43616,7 @@ module.exports = {
          "boosters": []
       },
       "warzone2100": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3727,
@@ -46073,6 +43627,7 @@ module.exports = {
                "owner": "warzone2100"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -46140,20 +43695,7 @@ module.exports = {
          "boosters": []
       },
       "jeanzz": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3736,
@@ -46202,6 +43744,7 @@ module.exports = {
                "owner": "jeanzz"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -46331,20 +43874,7 @@ module.exports = {
          "water": null
       },
       "stiven1044000000": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3748,
@@ -46355,6 +43885,7 @@ module.exports = {
                "owner": "stiven1044000000"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -46422,20 +43953,7 @@ module.exports = {
          "boosters": []
       },
       "surajbhattarai": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3751,
@@ -46446,6 +43964,7 @@ module.exports = {
                "owner": "surajbhattarai"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -46513,20 +44032,7 @@ module.exports = {
          "boosters": []
       },
       "benhaleymade": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3832,
@@ -46537,6 +44043,7 @@ module.exports = {
                "owner": "benhaleymade"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -46604,20 +44111,7 @@ module.exports = {
          "boosters": []
       },
       "gallito": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3844,
@@ -46780,6 +44274,7 @@ module.exports = {
                "owner": "gallito"
             }
          ],
+         "farm": [],
          "plotCount": 20,
          "seedCount": 20,
          "seeds": [
@@ -47073,20 +44568,7 @@ module.exports = {
          "boosters": []
       },
       "zpablo": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3910,
@@ -47113,6 +44595,7 @@ module.exports = {
                "owner": "zpablo"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -47202,20 +44685,7 @@ module.exports = {
          "boosters": []
       },
       "weirdestwolf": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3919,
@@ -47234,6 +44704,7 @@ module.exports = {
                "owner": "weirdestwolf"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -47312,20 +44783,7 @@ module.exports = {
          "boosters": []
       },
       "ddamiandonis": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3952,
@@ -47352,6 +44810,7 @@ module.exports = {
                "owner": "ddamiandonis"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -47458,20 +44917,7 @@ module.exports = {
          "boosters": []
       },
       "eldudu": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3961,
@@ -47518,6 +44964,7 @@ module.exports = {
                "owner": "eldudu"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -47647,20 +45094,7 @@ module.exports = {
          "water": null
       },
       "christian7urquia": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3967,
@@ -47727,6 +45161,7 @@ module.exports = {
                "owner": "christian7urquia"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 7,
          "seeds": [
@@ -47878,20 +45313,7 @@ module.exports = {
          "water": null
       },
       "ellocohugo": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3970,
@@ -47910,6 +45332,7 @@ module.exports = {
                "owner": "ellocohugo"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -48005,20 +45428,7 @@ module.exports = {
          "boosters": []
       },
       "jacielxy": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3976,
@@ -48089,6 +45499,7 @@ module.exports = {
                "owner": "jacielxy"
             }
          ],
+         "farm": [],
          "plotCount": 8,
          "seedCount": 8,
          "seeds": [
@@ -48251,20 +45662,7 @@ module.exports = {
          "water": null
       },
       "sirbogavante": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3994,
@@ -48291,6 +45689,7 @@ module.exports = {
                "owner": "sirbogavante"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -48380,20 +45779,7 @@ module.exports = {
          "boosters": []
       },
       "asas96": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4021,
@@ -48460,6 +45846,7 @@ module.exports = {
                "owner": "asas96"
             }
          ],
+         "farm": [],
          "plotCount": 7,
          "seedCount": 7,
          "seeds": [
@@ -48611,20 +45998,7 @@ module.exports = {
          "water": null
       },
       "procash1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4048,
@@ -48643,6 +46017,7 @@ module.exports = {
                "owner": "procash1"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -48721,20 +46096,7 @@ module.exports = {
          "boosters": []
       },
       "davidtradefx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4054,
@@ -48761,6 +46123,7 @@ module.exports = {
                "owner": "davidtradefx"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -48850,20 +46213,7 @@ module.exports = {
          "boosters": []
       },
       "oldmans": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4063,
@@ -48956,6 +46306,7 @@ module.exports = {
                "owner": "oldmans"
             }
          ],
+         "farm": [],
          "plotCount": 11,
          "seedCount": 11,
          "seeds": [
@@ -49151,20 +46502,7 @@ module.exports = {
          "water": null
       },
       "tupacdre82": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4075,
@@ -49175,6 +46513,7 @@ module.exports = {
                "owner": "tupacdre82"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -49259,20 +46598,7 @@ module.exports = {
          "boosters": []
       },
       "perezcan": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4078,
@@ -49307,6 +46633,7 @@ module.exports = {
                "owner": "perezcan"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -49424,20 +46751,7 @@ module.exports = {
          "boosters": []
       },
       "ronny2721": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4081,
@@ -49464,6 +46778,7 @@ module.exports = {
                "owner": "ronny2721"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -49570,20 +46885,7 @@ module.exports = {
          "boosters": []
       },
       "mundoencriptado": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4090,
@@ -49602,6 +46904,7 @@ module.exports = {
                "owner": "mundoencriptado"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -49680,20 +46983,7 @@ module.exports = {
          "boosters": []
       },
       "bmck117": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4093,
@@ -49736,6 +47026,7 @@ module.exports = {
                "owner": "bmck117"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -49847,20 +47138,7 @@ module.exports = {
          "boosters": []
       },
       "martinezams": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4102,
@@ -49903,6 +47181,7 @@ module.exports = {
                "owner": "martinezams"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -50014,20 +47293,7 @@ module.exports = {
          "boosters": []
       },
       "netaterra": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4111,
@@ -50046,6 +47312,7 @@ module.exports = {
                "owner": "netaterra"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -50124,20 +47391,7 @@ module.exports = {
          "boosters": []
       },
       "jerrysstyle": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4117,
@@ -50148,6 +47402,7 @@ module.exports = {
                "owner": "jerrysstyle"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -50215,20 +47470,7 @@ module.exports = {
          "boosters": []
       },
       "weedgood": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4132,
@@ -50247,6 +47489,7 @@ module.exports = {
                "owner": "weedgood"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -50325,20 +47568,7 @@ module.exports = {
          "boosters": []
       },
       "materrila14": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4150,
@@ -50373,6 +47603,7 @@ module.exports = {
                "owner": "materrila14"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -50473,20 +47704,7 @@ module.exports = {
          "boosters": []
       },
       "kinggo9": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3820,
@@ -50971,6 +48189,7 @@ module.exports = {
                "owner": "kinggo9"
             }
          ],
+         "farm": [],
          "plotCount": 49,
          "seedCount": 48,
          "seeds": [
@@ -51573,20 +48792,7 @@ module.exports = {
          "water": null
       },
       "razyel24": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4168,
@@ -51615,6 +48821,7 @@ module.exports = {
                "owner": "razyel24"
             }
          ],
+         "farm": [],
          "plotCount": 3,
          "seedCount": 3,
          "seeds": [
@@ -51722,20 +48929,7 @@ module.exports = {
          "water": null
       },
       "infinito2021": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4174,
@@ -51778,6 +48972,7 @@ module.exports = {
                "owner": "infinito2021"
             }
          ],
+         "farm": [],
          "plotCount": 5,
          "seedCount": 5,
          "seeds": [
@@ -51889,20 +49084,7 @@ module.exports = {
          "boosters": []
       },
       "melcaya": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4189,
@@ -51977,6 +49159,7 @@ module.exports = {
                "owner": "melcaya"
             }
          ],
+         "farm": [],
          "plotCount": 9,
          "seedCount": 9,
          "seeds": [
@@ -52148,20 +49331,7 @@ module.exports = {
          "boosters": []
       },
       "largouuu": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4192,
@@ -52378,6 +49548,7 @@ module.exports = {
                "owner": "largouuu"
             }
          ],
+         "farm": [],
          "plotCount": 24,
          "seedCount": 24,
          "seeds": [
@@ -52716,21 +49887,9 @@ module.exports = {
          "water": null
       },
       "pippex": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
@@ -52803,20 +49962,7 @@ module.exports = {
          "boosters": []
       },
       "cryptosfera": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4237,
@@ -52851,6 +49997,7 @@ module.exports = {
                "owner": "cryptosfera"
             }
          ],
+         "farm": [],
          "plotCount": 4,
          "seedCount": 4,
          "seeds": [
@@ -52951,20 +50098,7 @@ module.exports = {
          "boosters": []
       },
       "nobutsd1974": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2527,
@@ -53099,6 +50233,7 @@ module.exports = {
                "owner": "nobutsd1974"
             }
          ],
+         "farm": [],
          "plotCount": 16,
          "seedCount": 17,
          "seeds": [
@@ -53360,20 +50495,7 @@ module.exports = {
          "water": null
       },
       "hazeudon": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4270,
@@ -53720,6 +50842,7 @@ module.exports = {
                "owner": "hazeudon"
             }
          ],
+         "farm": [],
          "plotCount": 43,
          "seedCount": 43,
          "seeds": [
@@ -54266,20 +51389,7 @@ module.exports = {
          "boosters": []
       },
       "canna-curate": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4402,
@@ -54290,6 +51400,7 @@ module.exports = {
                "owner": "canna-curate"
             }
          ],
+         "farm": [],
          "plotCount": 1,
          "seedCount": 1,
          "seeds": [
@@ -54357,20 +51468,7 @@ module.exports = {
          "boosters": []
       },
       "victorycoin23": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4405,
@@ -54389,6 +51487,7 @@ module.exports = {
                "owner": "victorycoin23"
             }
          ],
+         "farm": [],
          "plotCount": 2,
          "seedCount": 2,
          "seeds": [
@@ -54484,20 +51583,7 @@ module.exports = {
          "boosters": []
       },
       "javier42": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4624,
@@ -54524,6 +51610,7 @@ module.exports = {
                "owner": "javier42"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -54647,20 +51734,7 @@ module.exports = {
          "boosters": []
       },
       "javieruscu69": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4618,
@@ -54695,6 +51769,7 @@ module.exports = {
                "owner": "javieruscu69"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -54813,20 +51888,7 @@ module.exports = {
          "boosters": []
       },
       "robin-nrs": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4633,
@@ -54845,6 +51907,7 @@ module.exports = {
                "owner": "robin-nrs"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -54924,20 +51987,7 @@ module.exports = {
          "boosters": []
       },
       "sachique23": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4660,
@@ -54972,6 +52022,7 @@ module.exports = {
                "owner": "sachique23"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -55090,20 +52141,7 @@ module.exports = {
          "boosters": []
       },
       "danny198": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4684,
@@ -55122,6 +52160,7 @@ module.exports = {
                "owner": "danny198"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -55201,20 +52240,7 @@ module.exports = {
          "boosters": []
       },
       "flakkaseagulls": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4690,
@@ -55225,6 +52251,7 @@ module.exports = {
                "owner": "flakkaseagulls"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -55293,20 +52320,7 @@ module.exports = {
          "boosters": []
       },
       "unschool": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4693,
@@ -55317,6 +52331,7 @@ module.exports = {
                "owner": "unschool"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -55385,20 +52400,7 @@ module.exports = {
          "boosters": []
       },
       "automaton": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4696,
@@ -55409,6 +52411,7 @@ module.exports = {
                "owner": "automaton"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -55477,20 +52480,7 @@ module.exports = {
          "boosters": []
       },
       "emsenn0": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4699,
@@ -55501,6 +52491,7 @@ module.exports = {
                "owner": "emsenn0"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -55569,20 +52560,7 @@ module.exports = {
          "boosters": []
       },
       "aniol77": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4714,
@@ -55611,6 +52589,7 @@ module.exports = {
                "owner": "aniol77"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -55719,20 +52698,7 @@ module.exports = {
          "water": null
       },
       "harolac": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4720,
@@ -55767,6 +52733,7 @@ module.exports = {
                "owner": "harolac"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -55885,20 +52852,7 @@ module.exports = {
          "boosters": []
       },
       "hivetrending": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4732,
@@ -55909,6 +52863,7 @@ module.exports = {
                "owner": "hivetrending"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -55977,20 +52932,7 @@ module.exports = {
          "boosters": []
       },
       "drowel": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4750,
@@ -56065,6 +53007,7 @@ module.exports = {
                "owner": "drowel"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 9,
          "seedCount": 9,
@@ -56221,20 +53164,7 @@ module.exports = {
          "boosters": []
       },
       "apzyx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4777,
@@ -56269,6 +53199,7 @@ module.exports = {
                "owner": "apzyx"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -56387,20 +53318,7 @@ module.exports = {
          "boosters": []
       },
       "funnel": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4822,
@@ -56411,6 +53329,7 @@ module.exports = {
                "owner": "funnel"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 0,
@@ -56484,20 +53403,7 @@ module.exports = {
          "boosters": []
       },
       "tr4ktrotacielo5": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4825,
@@ -56508,6 +53414,7 @@ module.exports = {
                "owner": "tr4ktrotacielo5"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -56576,20 +53483,7 @@ module.exports = {
          "boosters": []
       },
       "aguilax": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4837,
@@ -56632,6 +53526,7 @@ module.exports = {
                "owner": "aguilax"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -56761,20 +53656,7 @@ module.exports = {
          "boosters": []
       },
       "migueldavidor": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4852,
@@ -56805,6 +53687,7 @@ module.exports = {
                "owner": "migueldavidor"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -56913,20 +53796,7 @@ module.exports = {
          "water": null
       },
       "brad12": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4855,
@@ -56945,6 +53815,7 @@ module.exports = {
                "owner": "brad12"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -57041,20 +53912,7 @@ module.exports = {
          "boosters": []
       },
       "fxish": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4861,
@@ -57137,6 +53995,7 @@ module.exports = {
                "owner": "fxish"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 10,
          "seedCount": 10,
@@ -57321,20 +54180,7 @@ module.exports = {
          "boosters": []
       },
       "ctdub406": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4921,
@@ -57625,6 +54471,7 @@ module.exports = {
                "owner": "ctdub406"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 36,
          "seedCount": 36,
@@ -58095,20 +54942,7 @@ module.exports = {
          "boosters": []
       },
       "skylinebuds": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5029,
@@ -58119,6 +54953,7 @@ module.exports = {
                "owner": "skylinebuds"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 2,
@@ -58198,20 +55033,7 @@ module.exports = {
          "boosters": []
       },
       "g0nzal0t": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 323,
@@ -58222,6 +55044,7 @@ module.exports = {
                "owner": "g0nzal0t"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -58290,20 +55113,7 @@ module.exports = {
          "boosters": []
       },
       "nftmart.cards": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 455,
@@ -58422,6 +55232,7 @@ module.exports = {
                "owner": "nftmart.cards"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 14,
          "seedCount": 2,
@@ -58558,21 +55369,9 @@ module.exports = {
          "boosters": []
       },
       "alfa16": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -58658,20 +55457,7 @@ module.exports = {
          "boosters": []
       },
       "pepeymeli": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 494,
@@ -58682,6 +55468,7 @@ module.exports = {
                "owner": "pepeymeli"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -58767,21 +55554,9 @@ module.exports = {
          "boosters": []
       },
       "dhodl": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
@@ -58838,21 +55613,9 @@ module.exports = {
          "boosters": []
       },
       "rishi556": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -58938,20 +55701,7 @@ module.exports = {
          "boosters": []
       },
       "gamewatch": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 599,
@@ -58978,6 +55728,7 @@ module.exports = {
                "owner": "gamewatch"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 5,
@@ -59090,21 +55841,9 @@ module.exports = {
          "boosters": []
       },
       "nftmarket": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
@@ -59178,20 +55917,7 @@ module.exports = {
          "boosters": []
       },
       "mulletwang": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1035,
@@ -59258,6 +55984,7 @@ module.exports = {
                "owner": "mulletwang"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 8,
          "seedCount": 73,
@@ -60118,20 +56845,7 @@ module.exports = {
          "boosters": []
       },
       "saboin": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1039,
@@ -60198,6 +56912,7 @@ module.exports = {
                "owner": "saboin"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 8,
          "seedCount": 25,
@@ -60530,20 +57245,7 @@ module.exports = {
          "boosters": []
       },
       "molovelly": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1043,
@@ -60610,6 +57312,7 @@ module.exports = {
                "owner": "molovelly"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 8,
          "seedCount": 11,
@@ -60788,20 +57491,7 @@ module.exports = {
          "boosters": []
       },
       "anarcist": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1070,
@@ -60852,6 +57542,7 @@ module.exports = {
                "owner": "anarcist"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 0,
@@ -60908,20 +57599,7 @@ module.exports = {
          "boosters": []
       },
       "simgirl": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1082,
@@ -60972,6 +57650,7 @@ module.exports = {
                "owner": "simgirl"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 6,
@@ -61095,20 +57774,7 @@ module.exports = {
          "boosters": []
       },
       "guiltyparties": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1088,
@@ -61159,6 +57825,7 @@ module.exports = {
                "owner": "guiltyparties"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 6,
@@ -61282,20 +57949,7 @@ module.exports = {
          "boosters": []
       },
       "prettynicevideo": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1094,
@@ -61346,6 +58000,7 @@ module.exports = {
                "owner": "prettynicevideo"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 6,
@@ -61469,20 +58124,7 @@ module.exports = {
          "boosters": []
       },
       "meowgan": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1100,
@@ -61533,6 +58175,7 @@ module.exports = {
                "owner": "meowgan"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 5,
@@ -61645,20 +58288,7 @@ module.exports = {
          "boosters": []
       },
       "enginewitty": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1106,
@@ -61709,6 +58339,7 @@ module.exports = {
                "owner": "enginewitty"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 9,
@@ -61865,21 +58496,9 @@ module.exports = {
          "boosters": []
       },
       "smigirl": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 7,
@@ -62014,21 +58633,9 @@ module.exports = {
          "boosters": []
       },
       "christoryan": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -62097,21 +58704,9 @@ module.exports = {
          "boosters": []
       },
       "choosefreedom": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 8,
@@ -62257,21 +58852,9 @@ module.exports = {
          "boosters": []
       },
       "bauloewe": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 10,
@@ -62439,21 +59022,9 @@ module.exports = {
          "boosters": []
       },
       "news-today": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -62522,21 +59093,9 @@ module.exports = {
          "boosters": []
       },
       "heremonium": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -62605,21 +59164,9 @@ module.exports = {
          "boosters": []
       },
       "rachaeldwatson": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -62688,21 +59235,9 @@ module.exports = {
          "boosters": []
       },
       "myanmarbook": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -62771,21 +59306,9 @@ module.exports = {
          "boosters": []
       },
       "jbsharkey": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 2,
@@ -62865,21 +59388,9 @@ module.exports = {
          "boosters": []
       },
       "schlees": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 2,
@@ -62959,21 +59470,9 @@ module.exports = {
          "boosters": []
       },
       "altonos": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -63042,21 +59541,9 @@ module.exports = {
          "boosters": []
       },
       "bibdieufr": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 2,
@@ -63136,21 +59623,9 @@ module.exports = {
          "boosters": []
       },
       "mickvir": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -63219,21 +59694,9 @@ module.exports = {
          "boosters": []
       },
       "buckydurddle": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 2,
@@ -63313,21 +59776,9 @@ module.exports = {
          "boosters": []
       },
       "disregardfiat": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -63396,21 +59847,9 @@ module.exports = {
          "boosters": []
       },
       "psyo": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -63479,20 +59918,7 @@ module.exports = {
          "boosters": []
       },
       "ghosthunter1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1526,
@@ -63503,6 +59929,7 @@ module.exports = {
                "owner": "ghosthunter1"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 7,
@@ -63637,21 +60064,9 @@ module.exports = {
          "boosters": []
       },
       "ericwilson": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -63720,21 +60135,9 @@ module.exports = {
          "boosters": []
       },
       "songokubg": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -63803,21 +60206,9 @@ module.exports = {
          "boosters": []
       },
       "muru": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 2,
@@ -63897,21 +60288,9 @@ module.exports = {
          "boosters": []
       },
       "vibrasphere": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -63980,20 +60359,7 @@ module.exports = {
          "boosters": []
       },
       "nutritree": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1539,
@@ -64004,6 +60370,7 @@ module.exports = {
                "owner": "nutritree"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 8,
@@ -64149,21 +60516,9 @@ module.exports = {
          "boosters": []
       },
       "perceval": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 1,
@@ -64232,20 +60587,7 @@ module.exports = {
          "boosters": []
       },
       "ceheran": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1758,
@@ -64284,6 +60626,7 @@ module.exports = {
                "owner": "ceheran"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -64403,20 +60746,7 @@ module.exports = {
          "water": null
       },
       "ooakosimo": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1773,
@@ -64457,6 +60787,7 @@ module.exports = {
                "owner": "ooakosimo"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -64576,20 +60907,7 @@ module.exports = {
          "water": null
       },
       "bad-goyim": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1809,
@@ -64608,6 +60926,7 @@ module.exports = {
                "owner": "bad-goyim"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -64704,20 +61023,7 @@ module.exports = {
          "boosters": []
       },
       "dannychain": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 1815,
@@ -64728,6 +61034,7 @@ module.exports = {
                "owner": "dannychain"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -64796,20 +61103,7 @@ module.exports = {
          "boosters": []
       },
       "drugwar": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2065,
@@ -64820,6 +61114,7 @@ module.exports = {
                "owner": "drugwar"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -64888,20 +61183,7 @@ module.exports = {
          "boosters": []
       },
       "rahul.stan": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2134,
@@ -64912,6 +61194,7 @@ module.exports = {
                "owner": "rahul.stan"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -64980,20 +61263,7 @@ module.exports = {
          "boosters": []
       },
       "silverlining1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2266,
@@ -65036,6 +61306,7 @@ module.exports = {
                "owner": "silverlining1"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -65165,20 +61436,7 @@ module.exports = {
          "boosters": []
       },
       "marcss19": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2269,
@@ -65221,6 +61479,7 @@ module.exports = {
                "owner": "marcss19"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -65333,20 +61592,7 @@ module.exports = {
          "boosters": []
       },
       "chronocrypto": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3754,
@@ -65421,6 +61667,7 @@ module.exports = {
                "owner": "chronocrypto"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 9,
          "seedCount": 9,
@@ -65577,20 +61824,7 @@ module.exports = {
          "boosters": []
       },
       "gatticus": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4417,
@@ -65601,6 +61835,7 @@ module.exports = {
                "owner": "gatticus"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -65669,20 +61904,7 @@ module.exports = {
          "boosters": []
       },
       "monsterbuster": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4420,
@@ -65693,6 +61915,7 @@ module.exports = {
                "owner": "monsterbuster"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -65778,20 +62001,7 @@ module.exports = {
          "boosters": []
       },
       "mariorojas": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4426,
@@ -65802,6 +62012,7 @@ module.exports = {
                "owner": "mariorojas"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -65887,20 +62098,7 @@ module.exports = {
          "boosters": []
       },
       "elsith80": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4429,
@@ -65919,6 +62117,7 @@ module.exports = {
                "owner": "elsith80"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -66015,20 +62214,7 @@ module.exports = {
          "boosters": []
       },
       "frijolitomx": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4438,
@@ -66047,6 +62233,7 @@ module.exports = {
                "owner": "frijolitomx"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -66126,20 +62313,7 @@ module.exports = {
          "boosters": []
       },
       "thebeardflex": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 2518,
@@ -66282,6 +62456,7 @@ module.exports = {
                "owner": "thebeardflex"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 15,
          "seedCount": 15,
@@ -66522,20 +62697,7 @@ module.exports = {
          "water": null
       },
       "huzzah": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4453,
@@ -66546,6 +62708,7 @@ module.exports = {
                "owner": "huzzah"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -66631,20 +62794,7 @@ module.exports = {
          "boosters": []
       },
       "whoismyhero": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4498,
@@ -66655,6 +62805,7 @@ module.exports = {
                "owner": "whoismyhero"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -66723,20 +62874,7 @@ module.exports = {
          "boosters": []
       },
       "luisx22": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4501,
@@ -66755,6 +62893,7 @@ module.exports = {
                "owner": "luisx22"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -66851,20 +62990,7 @@ module.exports = {
          "boosters": []
       },
       "domeownik": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4507,
@@ -66891,6 +63017,7 @@ module.exports = {
                "owner": "domeownik"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -66981,20 +63108,7 @@ module.exports = {
          "boosters": []
       },
       "brazuk": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4522,
@@ -67037,6 +63151,7 @@ module.exports = {
                "owner": "brazuk"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -67149,20 +63264,7 @@ module.exports = {
          "boosters": []
       },
       "angy2882": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4540,
@@ -67205,6 +63307,7 @@ module.exports = {
                "owner": "angy2882"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -67317,20 +63420,7 @@ module.exports = {
          "boosters": []
       },
       "zerokdark": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4564,
@@ -67389,6 +63479,7 @@ module.exports = {
                "owner": "zerokdark"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 7,
          "seedCount": 7,
@@ -67523,20 +63614,7 @@ module.exports = {
          "boosters": []
       },
       "andresito9522": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4585,
@@ -67547,6 +63625,7 @@ module.exports = {
                "owner": "andresito9522"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -67632,20 +63711,7 @@ module.exports = {
          "boosters": []
       },
       "franvit1979": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4594,
@@ -67672,6 +63738,7 @@ module.exports = {
                "owner": "franvit1979"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -67779,20 +63846,7 @@ module.exports = {
          "boosters": []
       },
       "junkfeathers": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4597,
@@ -67803,6 +63857,7 @@ module.exports = {
                "owner": "junkfeathers"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -67871,20 +63926,7 @@ module.exports = {
          "boosters": []
       },
       "supablaza": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4606,
@@ -67919,6 +63961,7 @@ module.exports = {
                "owner": "supablaza"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -68020,20 +64063,7 @@ module.exports = {
          "boosters": []
       },
       "crishor": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 4789,
@@ -68060,6 +64090,7 @@ module.exports = {
                "owner": "crishor"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -68167,20 +64198,7 @@ module.exports = {
          "boosters": []
       },
       "smokerings": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5047,
@@ -68215,6 +64233,7 @@ module.exports = {
                "owner": "smokerings"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -68332,20 +64351,7 @@ module.exports = {
          "boosters": []
       },
       "bhaiyas": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5056,
@@ -68374,6 +64380,7 @@ module.exports = {
                "owner": "bhaiyas"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -68481,20 +64488,7 @@ module.exports = {
          "water": null
       },
       "roshansuares": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5062,
@@ -68537,6 +64531,7 @@ module.exports = {
                "owner": "roshansuares"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -68665,20 +64660,7 @@ module.exports = {
          "boosters": []
       },
       "sushanthanchan": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5065,
@@ -68707,6 +64689,7 @@ module.exports = {
                "owner": "sushanthanchan"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -68797,20 +64780,7 @@ module.exports = {
          "water": null
       },
       "rohansuares": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5071,
@@ -68849,6 +64819,7 @@ module.exports = {
                "owner": "rohansuares"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 4,
          "seedCount": 4,
@@ -68967,20 +64938,7 @@ module.exports = {
          "water": null
       },
       "felsum": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5086,
@@ -69023,6 +64981,7 @@ module.exports = {
                "owner": "felsum"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -69151,20 +65110,7 @@ module.exports = {
          "boosters": []
       },
       "footballpedia": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5104,
@@ -69195,6 +65141,7 @@ module.exports = {
                "owner": "footballpedia"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -69302,20 +65249,7 @@ module.exports = {
          "water": null
       },
       "jackofcrows": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5122,
@@ -69398,6 +65332,7 @@ module.exports = {
                "owner": "jackofcrows"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 10,
          "seedCount": 10,
@@ -69581,20 +65516,7 @@ module.exports = {
          "boosters": []
       },
       "innyc": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5152,
@@ -69605,6 +65527,7 @@ module.exports = {
                "owner": "innyc"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -69672,20 +65595,7 @@ module.exports = {
          "boosters": []
       },
       "derangedvisions": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5155,
@@ -69732,6 +65642,7 @@ module.exports = {
                "owner": "derangedvisions"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -69861,20 +65772,7 @@ module.exports = {
          "water": null
       },
       "meyxxyz": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5194,
@@ -69893,6 +65791,7 @@ module.exports = {
                "owner": "meyxxyz"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -69988,20 +65887,7 @@ module.exports = {
          "boosters": []
       },
       "matheus9": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5245,
@@ -70134,6 +66020,7 @@ module.exports = {
                "owner": "matheus9"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 13,
          "seedCount": 13,
@@ -70354,20 +66241,7 @@ module.exports = {
          }
       },
       "agramon": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5365,
@@ -70400,6 +66274,7 @@ module.exports = {
                "owner": "agramon"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -70510,20 +66385,7 @@ module.exports = {
          }
       },
       "jonnybanana": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5476,
@@ -70536,6 +66398,7 @@ module.exports = {
                "owner": "jonnybanana"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -70624,20 +66487,7 @@ module.exports = {
          }
       },
       "labriego": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5503,
@@ -70960,6 +66810,7 @@ module.exports = {
                "owner": "labriego"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 32,
          "seedCount": 32,
@@ -71389,20 +67240,7 @@ module.exports = {
          }
       },
       "ilazramusic": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5587,
@@ -71415,6 +67253,7 @@ module.exports = {
                "owner": "ilazramusic"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -71503,20 +67342,7 @@ module.exports = {
          }
       },
       "arlettemsalase": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5605,
@@ -71529,6 +67355,7 @@ module.exports = {
                "owner": "arlettemsalase"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -71617,20 +67444,7 @@ module.exports = {
          }
       },
       "tronquito": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5662,
@@ -71653,6 +67467,7 @@ module.exports = {
                "owner": "tronquito"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -71735,20 +67550,7 @@ module.exports = {
          }
       },
       "jonhive": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 3307,
@@ -71795,6 +67597,7 @@ module.exports = {
                "owner": "jonhive"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -71927,20 +67730,7 @@ module.exports = {
          }
       },
       "hellene8": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5752,
@@ -71953,6 +67743,7 @@ module.exports = {
                "owner": "hellene8"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -72024,20 +67815,7 @@ module.exports = {
          }
       },
       "timetraveljesus": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5782,
@@ -72140,6 +67918,7 @@ module.exports = {
                "owner": "timetraveljesus"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 10,
          "seedCount": 10,
@@ -72327,20 +68106,7 @@ module.exports = {
          }
       },
       "dvelandiaa": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5845,
@@ -72403,6 +68169,7 @@ module.exports = {
                "owner": "dvelandiaa"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 6,
@@ -72546,20 +68313,7 @@ module.exports = {
          }
       },
       "robvector": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5905,
@@ -72572,6 +68326,7 @@ module.exports = {
                "owner": "robvector"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -72643,20 +68398,7 @@ module.exports = {
          }
       },
       "luiios": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6037,
@@ -72709,6 +68451,7 @@ module.exports = {
                "owner": "luiios"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -72841,20 +68584,7 @@ module.exports = {
          }
       },
       "saachi": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6043,
@@ -72867,6 +68597,7 @@ module.exports = {
                "owner": "saachi"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -72938,20 +68669,7 @@ module.exports = {
          }
       },
       "earthboy75": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6073,
@@ -73584,6 +69302,7 @@ module.exports = {
                "owner": "earthboy75"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 63,
          "seedCount": 63,
@@ -74354,20 +70073,7 @@ module.exports = {
          }
       },
       "kiritoccs": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6334,
@@ -74400,6 +70106,7 @@ module.exports = {
                "owner": "kiritoccs"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -74510,20 +70217,7 @@ module.exports = {
          }
       },
       "sgerhart": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6349,
@@ -74536,6 +70230,7 @@ module.exports = {
                "owner": "sgerhart"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -74607,20 +70302,7 @@ module.exports = {
          }
       },
       "anyelp888": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6370,
@@ -74653,6 +70335,7 @@ module.exports = {
                "owner": "anyelp888"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -74763,20 +70446,7 @@ module.exports = {
          }
       },
       "quijay": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6394,
@@ -74789,6 +70459,7 @@ module.exports = {
                "owner": "quijay"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -74877,20 +70548,7 @@ module.exports = {
          }
       },
       "jesusalejos": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6409,
@@ -74903,6 +70561,7 @@ module.exports = {
                "owner": "jesusalejos"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -74991,20 +70650,7 @@ module.exports = {
          }
       },
       "artiic97": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6412,
@@ -75057,6 +70703,7 @@ module.exports = {
                "owner": "artiic97"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -75172,20 +70819,7 @@ module.exports = {
          }
       },
       "angelportu": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6415,
@@ -75248,6 +70882,7 @@ module.exports = {
                "owner": "angelportu"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 6,
@@ -75391,20 +71026,7 @@ module.exports = {
          }
       },
       "cjavi99": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6442,
@@ -75437,6 +71059,7 @@ module.exports = {
                "owner": "cjavi99"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -75547,20 +71170,7 @@ module.exports = {
          }
       },
       "alfer": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6508,
@@ -75613,6 +71223,7 @@ module.exports = {
                "owner": "alfer"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -75745,20 +71356,7 @@ module.exports = {
          }
       },
       "al-gaming": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6523,
@@ -75771,6 +71369,7 @@ module.exports = {
                "owner": "al-gaming"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -75842,20 +71441,7 @@ module.exports = {
          }
       },
       "hoory22": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6526,
@@ -75958,6 +71544,7 @@ module.exports = {
                "owner": "hoory22"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 10,
          "seedCount": 10,
@@ -76128,20 +71715,7 @@ module.exports = {
          }
       },
       "emanon077": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 948,
@@ -76162,6 +71736,7 @@ module.exports = {
                "owner": "emanon077"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -76261,20 +71836,7 @@ module.exports = {
          }
       },
       "megarciab": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6565,
@@ -76287,6 +71849,7 @@ module.exports = {
                "owner": "megarciab"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -76358,20 +71921,7 @@ module.exports = {
          }
       },
       "jurbinaper": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6568,
@@ -76384,6 +71934,7 @@ module.exports = {
                "owner": "jurbinaper"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -76472,20 +72023,7 @@ module.exports = {
          }
       },
       "robz17": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6646,
@@ -76508,6 +72046,7 @@ module.exports = {
                "owner": "robz17"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -76590,20 +72129,7 @@ module.exports = {
          }
       },
       "fenixazul": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6652,
@@ -76626,6 +72152,7 @@ module.exports = {
                "owner": "fenixazul"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -76725,20 +72252,7 @@ module.exports = {
          }
       },
       "barbasoon": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6658,
@@ -76791,6 +72305,7 @@ module.exports = {
                "owner": "barbasoon"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -76906,20 +72421,7 @@ module.exports = {
          "boosters": []
       },
       "edisonjavier": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6712,
@@ -76932,6 +72434,7 @@ module.exports = {
                "owner": "edisonjavier"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -77020,20 +72523,7 @@ module.exports = {
          }
       },
       "laurapalmerr": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6715,
@@ -77046,6 +72536,7 @@ module.exports = {
                "owner": "laurapalmerr"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -77134,20 +72625,7 @@ module.exports = {
          }
       },
       "luiscas2": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6727,
@@ -77160,6 +72638,7 @@ module.exports = {
                "owner": "luiscas2"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -77231,20 +72710,7 @@ module.exports = {
          }
       },
       "vica1988": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6730,
@@ -77267,6 +72733,7 @@ module.exports = {
                "owner": "vica1988"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -77366,20 +72833,7 @@ module.exports = {
          }
       },
       "wilwaps32": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6742,
@@ -77442,6 +72896,7 @@ module.exports = {
                "owner": "wilwaps32"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 6,
@@ -77585,20 +73040,7 @@ module.exports = {
          }
       },
       "ideagold": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6760,
@@ -77611,6 +73053,7 @@ module.exports = {
                "owner": "ideagold"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -77682,20 +73125,7 @@ module.exports = {
          }
       },
       "julste": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6763,
@@ -77708,6 +73138,7 @@ module.exports = {
                "owner": "julste"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -77796,20 +73227,7 @@ module.exports = {
          }
       },
       "alejoca": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6775,
@@ -77872,6 +73290,7 @@ module.exports = {
                "owner": "alejoca"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 6,
@@ -78015,20 +73434,7 @@ module.exports = {
          }
       },
       "shirahoshi": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6823,
@@ -78081,6 +73487,7 @@ module.exports = {
                "owner": "shirahoshi"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -78213,20 +73620,7 @@ module.exports = {
          }
       },
       "eselihu": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6862,
@@ -78259,6 +73653,7 @@ module.exports = {
                "owner": "eselihu"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -78352,20 +73747,7 @@ module.exports = {
          }
       },
       "axelcj123": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6955,
@@ -78398,6 +73780,7 @@ module.exports = {
                "owner": "axelcj123"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -78508,20 +73891,7 @@ module.exports = {
          }
       },
       "caina420": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 7048,
@@ -78554,6 +73924,7 @@ module.exports = {
                "owner": "caina420"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -78664,21 +74035,9 @@ module.exports = {
          }
       },
       "dcalsot": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [],
+         "farm": [],
          "farm": [],
          "plotCount": 0,
          "seedCount": 0,
@@ -78754,20 +74113,7 @@ module.exports = {
          "boosters": []
       },
       "ankatu1": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5041,
@@ -78786,6 +74132,7 @@ module.exports = {
                "owner": "ankatu1"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 2,
          "seedCount": 2,
@@ -78867,20 +74214,7 @@ module.exports = {
          "boosters": []
       },
       "mogroff": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5296,
@@ -78953,6 +74287,7 @@ module.exports = {
                "owner": "mogroff"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 7,
          "seedCount": 7,
@@ -79089,20 +74424,7 @@ module.exports = {
          "boosters": []
       },
       "gr33nm4ster": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5311,
@@ -79115,6 +74437,7 @@ module.exports = {
                "owner": "gr33nm4ster"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -79185,20 +74508,7 @@ module.exports = {
          "boosters": []
       },
       "aurosofi": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5320,
@@ -79231,6 +74541,7 @@ module.exports = {
                "owner": "aurosofi"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 3,
          "seedCount": 3,
@@ -79323,20 +74634,7 @@ module.exports = {
          "boosters": []
       },
       "moonwalker7788": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5332,
@@ -79389,6 +74687,7 @@ module.exports = {
                "owner": "moonwalker7788"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 5,
          "seedCount": 5,
@@ -79503,20 +74802,7 @@ module.exports = {
          "boosters": []
       },
       "tussar11": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5347,
@@ -79579,6 +74865,7 @@ module.exports = {
                "owner": "tussar11"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 6,
          "seedCount": 6,
@@ -79704,20 +74991,7 @@ module.exports = {
          "boosters": []
       },
       "dviljin": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 5851,
@@ -79730,6 +75004,7 @@ module.exports = {
                "owner": "dviljin"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 1,
          "seedCount": 1,
@@ -79800,20 +75075,7 @@ module.exports = {
          "boosters": []
       },
       "godislovefl": {
-         "subdivisions": {
-            "asia": 0,
-            "jamaica": 0,
-            "africa": 0,
-            "afghanistan": 0,
-            "mexico": 0,
-            "southAmerica": 0,
-            "asiaC": 0,
-            "jamaicaC": 0,
-            "africaC": 0,
-            "afghanistanC": 0,
-            "mexicoC": 0,
-            "southAmericaC": 0
-         },
+         "subdivisions": [],
          "plots": [
             {
                "id": 6829,
@@ -79926,6 +75188,7 @@ module.exports = {
                "owner": "godislovefl"
             }
          ],
+         "farm": [],
          "farm": [],
          "plotCount": 11,
          "seedCount": 11,
