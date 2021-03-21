@@ -206,10 +206,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52323746; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52324042; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52323746;
+const ago = ENV.ago || 52324042;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -735,12 +735,12 @@ function startApp() {
                 && state.users[from].plots[plotID].properties.OCCUPIED === false*/
                 ){
                 //make seed used and designate plot
-                contract.updateNft(hivejs, seedIDString, { "USED":  true })
-                contract.updateNft(hivejs, seedIDString, { "SEEDID":  seedID })
+                contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
+                contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
                 
                 //make plot occupied and designate seed
                 contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  true })
-                contract.updateNft(hivejs, plotIDString, { "PLOTID":  plotID })
+                contract.updateNft(hivejs, plotIDString, { "SEEDID":  seedID })
                 
                 //just an example
                 /*let usedPlotData = {
