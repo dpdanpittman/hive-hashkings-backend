@@ -1280,6 +1280,8 @@ function startApp() {
 
 function ipfsSaveState(blocknum, hashable) {
     ipfs.add(hashable, (err, IpFsHash) => {
+       try {
+           
         if (!err) {
             var hash = ''
             try {
@@ -1304,6 +1306,9 @@ function ipfsSaveState(blocknum, hashable) {
                 return;
             }
         }
+    } catch (error) {
+           console.log("there was an ipfs error")
+    }
     })
 };
 
