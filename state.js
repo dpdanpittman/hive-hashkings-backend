@@ -127,18 +127,30 @@ module.exports = {
             }
          },
          "joints": {
-            "pinner": 50,
-            "pinnerXP": 15,
-            "hempWrappedJoint": 200,
-            "hempWrappedJointXP": 75,
-            "crossJoint": 1000,
-            "crossJointXP": 400,
-            "blunt": 2500,
-            "bluntXP": 400,
-            "waxJoint": 5000,
-            "waxJointXP": 2500,
-            "twaxJoint": 10000,
-            "twaxJointXP": 6000
+            "pinner": {
+               "buds": 50,
+               "boost": 15
+            },
+            "hempWrappedJoint": {
+               "buds": 200,
+               "boost": 75
+            },
+            "crossJoint": {
+               "buds": 1000,
+               "boost": 400
+            },
+            "blunt": {
+               "buds": 2500,
+               "boost": 1000
+            },
+            "hempWrappedBlunt": {
+               "buds": 5000,
+               "boost": 2500
+            },
+            "twaxJoint": {
+               "buds": 10000,
+               "boost": 6000
+            },
          },
          "land": {
             "asia": {
