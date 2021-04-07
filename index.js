@@ -189,10 +189,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 52811482; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 52811879; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 52811482;
+const ago = ENV.ago || 52811879;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1067,7 +1067,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 3000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 3000 && state.stats.supply.land.mexico != 0) {
+                             } else if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1076,16 +1076,13 @@ function startApp() {
                                 state.stats.supply.land.mexico--
                                 state.stats.supply.land.mexicoC++
 
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.mexico++
-
                                 // create nft
                                 contract.createPlot(hivejs, "Mexico", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want == 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 3000 && state.stats.supply.land.southAmerica != 0) {
+                             } else if (want == 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica != 0) {
                                 
                                 // update total number of plots
                                 state.users[json.from].plotCount++
@@ -1093,9 +1090,6 @@ function startApp() {
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.land.southAmerica--
                                 state.stats.supply.land.southAmericaC++
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.southAmerica++
 
                                 // create nft
                                 contract.createPlot(hivejs, "South America", 1, json.from);
