@@ -154,28 +154,28 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 66,
-               "token": 660
+               "price": 500,
+               "token": 6600
             },
             "africa": {
-               "price": 33,
-               "token": 330
+               "price": 500,
+               "token": 3300
             },
             "afghanistan": {
-               "price": 22,
-               "token": 220
+               "price": 500,
+               "token": 2200
             },
             "southAmerica": {
-               "price": 11,
-               "token": 110
+               "price": 500,
+               "token": 1100
             },
             "jamaica": {
-               "price": 44,
-               "token": 440
+               "price": 500,
+               "token": 4400
             },
             "mexico": {
-               "price": 17,
-               "token": 170
+               "price": 500,
+               "token": 1700
             }
          }
       },
