@@ -11,7 +11,7 @@ const SEEDS_PER_PACK = 3;
 //new api for get all nfts 
 const URL = "https://api.hive-engine.com/rpc/contracts";
 const CONTRACT = "nft"; // Should be nft
-const TABLE_POSTFIX = "instances"; // Should be the same
+const TABLE_POSTFIX = "instances"; // ShoAuld be the same
 const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol
 const EXPORT = true; // Export to file? true = Export, false = no
 
@@ -623,8 +623,9 @@ const CreatePlot = (location, to) => {
     const properties = {
         NAME: location,
         TYPE: "plot",
-        SUBDIVIDED: "false",
-        OCCUPIED: "false"
+        SUBDIVIDED: false,
+        OCCUPIED: false,
+        SEEDID: 0
     };
 
     const instance = {
@@ -1080,7 +1081,7 @@ async function getReport(axios) {
                             booster: [],
                             avatar: [],
                             water: [],
-                            waterTemp:[]
+                            waterTemp: []
                         };
                         accounts[nfts[i].account].plots.push({
                             id: nfts[i]._id,
@@ -1128,7 +1129,7 @@ async function getReport(axios) {
                             booster: [],
                             avatar: [],
                             water: [],
-                            waterTemp:[]
+                            waterTemp: []
                         };
                         accounts[nfts[j].account].seeds.push({
                             id: nfts[j]._id,
@@ -1168,7 +1169,7 @@ async function getReport(axios) {
                             booster: [],
                             avatar: [],
                             water: [],
-                            waterTemp:[]
+                            waterTemp: []
                         };
                         accounts[nfts[j].account].consumable.push({
                             id: nfts[j]._id,
@@ -1208,7 +1209,7 @@ async function getReport(axios) {
                             booster: [],
                             avatar: [],
                             water: [],
-                            waterTemp:[]
+                            waterTemp: []
                         };
                         accounts[nfts[j].account].booster.push({
                             id: nfts[j]._id,
@@ -1248,7 +1249,7 @@ async function getReport(axios) {
                             booster: [],
                             avatar: [],
                             water: [],
-                            waterTemp:[]
+                            waterTemp: []
                         };
                         accounts[nfts[j].account].avatar.push({
                             id: nfts[j]._id,
@@ -1288,7 +1289,7 @@ async function getReport(axios) {
                             booster: [],
                             avatar: [],
                             water: [],
-                            waterTemp:[]
+                            waterTemp: []
                         };
                         accounts[nfts[j].account].water.push({
                             id: nfts[j]._id,
@@ -1328,7 +1329,7 @@ async function getReport(axios) {
                             booster: [],
                             avatar: [],
                             water: [],
-                            waterTemp:[]
+                            waterTemp: []
                         };
                         accounts[nfts[j].account].waterTemp.push({
                             id: nfts[j]._id,
@@ -1351,7 +1352,7 @@ async function getReport(axios) {
                         owners[nfts[j].account].totalwaterTemp += 1;
                     } catch (e) {
                         totalPlot.totalAllwaterTemp += 1;
-                        owners[nfts[j].account] = { "totalAllwaterTemp": 1,"totalAllAvatar": 0, "totalAllBooster": 0, "totalAllConsumable": 0, "totalPlot": 0, "totalSeed": 0, "totalWater": 0 };
+                        owners[nfts[j].account] = { "totalAllwaterTemp": 1, "totalAllAvatar": 0, "totalAllBooster": 0, "totalAllConsumable": 0, "totalPlot": 0, "totalSeed": 0, "totalWater": 0 };
                     }
 
                 }
@@ -1372,6 +1373,57 @@ async function getReport(axios) {
     })
 
 
+}
+
+
+async function getOnlyUsers(axios) {
+    return new Promise(async (resolve, reject) => {
+
+        (async () => {
+            let complete = false;
+            let nfts = [];
+            let offset = 0;
+
+            while (!complete) {
+                let get_nfts = await queryContract(axios, { contract: CONTRACT, table: NFT_SYMBOL + TABLE_POSTFIX }, offset);
+                if (get_nfts !== false) {
+                    nfts = nfts.concat(get_nfts);
+                    offset += 1000;
+
+                    if (get_nfts.length !== 1000) {
+                        complete = true;
+                    }
+                } else {
+                    complete = true;
+                }
+            }
+
+
+            let onlyAcconts = [];
+
+            for (let i = 0; i < nfts.length; i++) {
+
+                let acc = await (onlyAcconts.find(function (element) {
+                    return element == nfts[i].account;
+                }));
+                if (!acc) {
+                    onlyAcconts.push(nfts[i].account);
+                }
+
+
+            }
+
+
+
+
+            let report = onlyAcconts;
+
+
+            resolve(report);
+
+        })()
+
+    })
 }
 
 async function getTokens(ssc, user) {
@@ -1420,6 +1472,52 @@ async function getTokens(ssc, user) {
 
 
     })
+
+}
+
+
+async function distributeMota(ssc, axios, seedsUsedLastDay) {
+    let preRatio = seedsUsedLastDay * 1.10;
+    let usersNames = await getOnlyUsers(axios);
+    let userData = [];
+    let TOTALSTAKEDMOTAOFALLTHEPLAYERS = 0;
+
+
+
+    for (let i = 0; i < usersNames.length; i++) {
+        userData.push({ user: usersNames[i], data: await getTokens(ssc, usersNames[i]) });
+    }
+
+    for (let j = 0; j < userData.length; j++) {
+        TOTALSTAKEDMOTAOFALLTHEPLAYERS += userData[j].data.mota.stake
+    }
+
+
+    let ratio = preRatio / TOTALSTAKEDMOTAOFALLTHEPLAYERS;
+
+    for (let i = 0; i < userData.length; i++) {
+
+        console.log("username : " + userData[i].user +
+            " have " + userData[i].data.mota.stake + " ratio is " + ratio + " and user send " + (userData[i].data.mota.stake * ratio))
+    }
+
+}
+
+async function distributeBuds(amountToDistribute, listOfUsers, hive) {
+
+
+    let userQuantity = 0;
+    for (let i = 0; i < listOfUsers.length; i++) {
+        userQuantity += listOfUsers[i].depositedBuds
+    }
+    let ratio = amountToDistribute / userQuantity;
+
+    for (let i = 0; i < listOfUsers.length; i++) {
+        let userGet = ratio * listOfUsers[i].depositedBuds;
+        console.log("username " + listOfUsers[i].user + " staked buds " + listOfUsers[i].depositedBuds
+            + " and we distribute " + amountToDistribute + " this user get " + userGet);
+    }
+
 
 }
 
@@ -1494,5 +1592,7 @@ module.exports = contract = {
     updateNft,
     createConsumable,
     createAvatar,
-    createWaterTower
+    createWaterTower,
+    distributeMota,
+    distributeBuds
 }
