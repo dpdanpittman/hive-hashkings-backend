@@ -694,7 +694,6 @@ const CreateAvatar = (name, to) => {
     return instance;
 }
 
-
 const CreateWaterTower = (name, to) => {
 
     const properties = {
@@ -951,6 +950,30 @@ const createSeed = async (hive, packs, userBuyer) => {
             }
         });
     })
+
+};
+
+const createSeedT = async (hive, packs, userBuyer) => {
+
+    if (packs < 0) {
+        console.log("no send seed for ", userBuyer)
+        return;
+    }
+    let instances = [];
+    for (let i = 0; i < packs; i++) {
+        instances.push(generateOneRandomSeed(userBuyer, getPlot(), SEEDS));
+
+    }
+
+    let json = {
+        contractName: "nft",
+        contractAction: "issueMultiple",
+        contractPayload: {
+            instances: instances
+        }
+    }
+
+    console.log("SENDING ", JSON.stringify(json));
 
 };
 
@@ -1426,6 +1449,56 @@ async function getOnlyUsers(axios) {
     })
 }
 
+
+async function getOnlyUsersHaveMota(axios) {
+
+    return new Promise(async (resolve, reject) => {
+
+        (async () => {
+            let complete = false;
+            let nfts = [];
+            let offset = 0;
+
+            while (!complete) {
+                let get_nfts = await queryContract(axios, { contract: "tokens", table: "balances", query: { "symbol": "MOTA" } }, offset);
+                if (get_nfts !== false) {
+                    nfts = nfts.concat(get_nfts);
+                    offset += 1000;
+
+                    if (get_nfts.length !== 1000) {
+                        complete = true;
+                    }
+                } else {
+                    complete = true;
+                }
+            }
+
+
+            let onlyAcconts = [];
+
+            for (let i = 0; i < nfts.length; i++) {
+
+                let acc = await (onlyAcconts.find(function (element) {
+                    return element == nfts[i].account;
+                }));
+
+                if (!acc) {
+                    onlyAcconts.push({ user: nfts[i].account, stake: nfts[i].stake });
+                }
+
+            }
+
+
+            let report = onlyAcconts;
+
+
+            resolve(report);
+
+        })()
+
+    })
+}
+
 async function getTokens(ssc, user) {
 
 
@@ -1476,34 +1549,67 @@ async function getTokens(ssc, user) {
 }
 
 
-async function distributeMota(ssc, axios, seedsUsedLastDay) {
+async function distributeSeeds(axios, seedsUsedLastDay, hive) {
+    if (seedsUsedLastDay < 1) {
+        seedsUsedLastDay = 1;
+    }
     let preRatio = seedsUsedLastDay * 1.10;
-    let usersNames = await getOnlyUsers(axios);
+    let usersNames = await getOnlyUsersHaveMota(axios);
     let userData = [];
     let TOTALSTAKEDMOTAOFALLTHEPLAYERS = 0;
 
 
 
     for (let i = 0; i < usersNames.length; i++) {
-        userData.push({ user: usersNames[i], data: await getTokens(ssc, usersNames[i]) });
+
+        if (usersNames[i].stake > 0) {
+            userData.push(usersNames[i]);
+        }
+
     }
 
     for (let j = 0; j < userData.length; j++) {
-        TOTALSTAKEDMOTAOFALLTHEPLAYERS += userData[j].data.mota.stake
+        TOTALSTAKEDMOTAOFALLTHEPLAYERS += parseFloat(userData[j].stake)
     }
 
 
-    let ratio = preRatio / TOTALSTAKEDMOTAOFALLTHEPLAYERS;
+    let ratio = TOTALSTAKEDMOTAOFALLTHEPLAYERS  / preRatio;
 
     for (let i = 0; i < userData.length; i++) {
 
+        let seedsToSend = Math.ceil((parseFloat(userData[i].stake) / ratio));
         console.log("username : " + userData[i].user +
-            " have " + userData[i].data.mota.stake + " ratio is " + ratio + " and user send " + (userData[i].data.mota.stake * ratio))
+            " have MOTA " + userData[i].stake + " STAKED ratio is " + ratio + " and user send " + Math.ceil((parseFloat(userData[i].stake) / ratio)))
+
+        if (seedsToSend > 25) {
+
+            let toSend = seedsToSend;
+            while (toSend > 0) {
+
+                if (toSend > 25) {
+                    seedsToSend = toSend;
+                }
+                if (toSend == seedsToSend) {
+                    await createSeedT(hive, 25, userData[i].user);
+                } else {
+                    await createSeedT(hive, toSend, userData[i].user);
+                }
+
+                toSend = toSend - 25;
+
+            }
+
+        } else {
+            await createSeedT(hive, seedsToSend, userData[i].user);
+        }
+
+
+
     }
 
 }
 
-async function distributeBuds(amountToDistribute, listOfUsers, hive) {
+async function distributeMota(amountToDistribute, listOfUsers, hive) {
 
 
     let userQuantity = 0;
@@ -1513,9 +1619,11 @@ async function distributeBuds(amountToDistribute, listOfUsers, hive) {
     let ratio = amountToDistribute / userQuantity;
 
     for (let i = 0; i < listOfUsers.length; i++) {
-        let userGet = ratio * listOfUsers[i].depositedBuds;
+        let userGet = (ratio * listOfUsers[i].depositedBuds).toFixed(4);
         console.log("username " + listOfUsers[i].user + " staked buds " + listOfUsers[i].depositedBuds
             + " and we distribute " + amountToDistribute + " this user get " + userGet);
+
+        await generateToken(hive, "MOTA", userGet, listOfUsers[i].user)
     }
 
 
@@ -1531,7 +1639,7 @@ const generateToken = async (hive, token, quantity, user) => {
         contractPayload: {
             "symbol": token,
             "to": user,
-            "quantity": quantity
+            "quantity": "" + quantity
         }
     }
 
@@ -1594,5 +1702,5 @@ module.exports = contract = {
     createAvatar,
     createWaterTower,
     distributeMota,
-    distributeBuds
+    distributeSeeds
 }
