@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53200599; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53200799; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53200599;
+const ago = ENV.ago || 53200799;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -847,9 +847,15 @@ function startApp() {
 
         let plotIDString = "" + plotID
         let seedIDString = "" + seedID
-
-        var plotStatus = "" + jp.query(json, '$.state.users['+from+'].plots[?(@.id=='+plotID+')].properties.OCCUPIED');
-        var seedStatus = "" + jp.query(json, '$.state.users['+from+'].seeds[?(@.id=='+seedID+')].properties.PLANTED');
+        
+        try {
+            var plotStatus = jp.query(json, `$.state.users[${from}].plots[?(@.id==${plotID})].properties.OCCUPIED`);
+            var seedStatus = jp.query(json, `$.state.users[${from}].seeds[?(@.id==${seedID})].properties.PLANTED`);
+        } catch (error) {
+            console.log("an error when planting a seed occured " + from + " sent the request")
+            console.log(error)
+        }
+        
 
         if(state.users[from] && state.users[from].plots[plotID] && plotStatus === false || !plotStatus && seedStatus === false || !seedStatus){
             //make seed used and designate plot
