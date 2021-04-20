@@ -2,6 +2,14 @@ module.exports = {
    "stats": {
       "seedCount": 1739,
       "time": 28000,
+      "joints": {
+         "pinner": 15,
+         "hempWrappedJoint": 75,
+         "crossJoint": 400,
+         "blunt": 1000,
+         "hempWrappedBlunt": 2500,
+         "twaxJoint": 5000
+      },
       "regional": {
          "asia": [
            "aceh",

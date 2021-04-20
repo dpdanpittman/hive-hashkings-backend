@@ -34,6 +34,7 @@ var steemState = require('./processor');
 var contract = require('./contract.js')
 var steemTransact = require('steem-transact');
 var fs = require('fs');
+var jp = require('jsonpath');
 const cors = require('cors');
 const express = require('express')
 const ENV = process.env;
@@ -189,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53094088; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53200295; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53094088;
+const ago = ENV.ago || 53200295;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -656,178 +657,219 @@ function startApp() {
             })
         }
     })
+
+    processor.on("tohk-vault", function (json, from) {
+        ssc.getTransactionInfo(json.transaction_id).then((res) => {
+          let errors = null;
+      
+          if (res) {
+            try {
+              errors = JSON.parse("" + res.logs).errors;
+            } catch (e) {
+              errors = false;
+            }
+      
+            if (errors) {
+              console.error("no se pudo procesar la transaccion", errors);
+            } else {
+              
+               /*----------------------Fungible Tokens----------------------*/ 
+
+              //Water Plot
+              //user sends HKWater to hk-vault with memo seedID
+              if(json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
+                let seedID = json.contractPayload.memo
+                let amountWater = json.contractPayload.quantity
+
+                var water = jp.query(json, '$state.users['+from+'].seeds[?(@.id=='+seedID+')].properties.WATER');
+
+                if(state.users[from] && state.users[from].seeds.id[seedID] && water != 0){
+                    
+                    let waterRemains = water - amountWater
+        
+                    // set plot to subdivided
+                    contract.updateNft(hivejs, seedID, { "WATER":  waterRemains })
+                }
+              }
+
+              //Craft Consumable joints and boosters
+              //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
+              if(json.contractPayload.symbol === "BUDS") {
+                  let type = json.contractPayload.memo
+    
+                  if(state.users[from] && json.contractPayload.memo === "pinner"){
+
+                      // create pinner
+                      contract.createConsumable(hivejs, "Pinner", type, from)
+
+                  } else if(state.users[from] && json.contractPayload.memo === "hempWrappedJoint"){
+            
+                      // create hempwrappedjoint
+                      contract.createConsumable(hivejs, "Hemp Wrapped Joint", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "crossJoint"){
+            
+                      // create crossjoint
+                      contract.createConsumable(hivejs, "Cross Joint", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "blunt"){
+            
+                      // create blunt
+                      contract.createConsumable(hivejs, "Blunt", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "hempWrappedBlunt"){
+            
+                      // create hempwrappedblunt
+                      contract.createConsumable(hivejs, "Hemp Wrapped Blunt", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "twaxJoint"){
+            
+                      // set plot to subdivided
+                      contract.createConsumable(hivejs, "Twax Joint", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl1 booster"){
+            
+                      // set plot to subdivided
+                      contract.createConsumable(hivejs, "Level 1 Booster", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl2 booster"){
+            
+                      // set plot to subdivided
+                      contract.createConsumable(hivejs, "Level 2 Booster", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl3 booster"){
+            
+                      // set plot to subdivided
+                      contract.createConsumable(hivejs, "Level 3 Booster", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl4 booster"){
+            
+                      // set plot to subdivided
+                      contract.createConsumable(hivejs, "Level 4 Booster", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl5 booster"){
+            
+                      // set plot to subdivided
+                      contract.createConsumable(hivejs, "Level 5 Booster", type, from)
+
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl6 booster"){
+            
+                      // set plot to subdivided
+                      contract.createConsumable(hivejs, "Level 6 Booster", type, from)
+
+                  }
+                } 
+
+                /*----------------------------Non-Fungibles-----------------------------*/  
+              
+                //Harvest Plot
+                //User sends seed to hk-vault with memo = plotID
+                if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
+                    let seedIDnft = json.contractPayload.id
+                    let plotID = json.contractPayload.memo
+
+                    let sptStatus = jp.query(json, '$state.users['+from+'].seeds[?(@.id=='+seedIDnft+')].properties.SPT');
+                    let waterStatus = jp.query(json, '$state.users['+from+'].seeds[?(@.id=='+seedIDnft+')].properties.WATER');
+
+                    if(state.users[from] && state.users[from].seeds.id[seedID] && sptStatus < 1 && waterStatus < 1){
+
+                        var budAmount = "" + jp.query(json, '$state.users['+from+'].seeds[?(@.id=='+seedIDnft+')].properties.PR');
+                    
+                        //send harvested buds to user
+                        contract.generateToken(hivejs, "BUDS", budAmount, from)
+
+                        //make plot occupied and designate seed
+                        contract.updateNft(hivejs, plotID, { "OCCUPIED": false })
+                        contract.updateNft(hivejs, plotID, { "SEEDID": 0 })
+                        }
+                    }
+
+                //Rent Subdivision <---- coming soon
+                //user will send mota to hk-vault with memo plotOwner and amountRent
+
+                //Use Consumable
+                //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
+
+                //Use Booster
+                //user sends booster NFT to hk-vault with memo type (ex. use_booster_lvl1, use_booster_lvl2 etc..)
+            }
+          } else {
+            //hive-engine still does not validate this block, touch validate it later
+          }
+        });
+      });
     
     /*--------------------------------Claim Goodies---------------------------*/
 
-            // checks for qwoyn_plant and plants the seed
-            processor.on('claim_water', function(json, from) {
+    // checks for qwoyn_plant and plants the seed
+    processor.on('claim_water', function(json, from) {
 
-                if(state.users[from] && state.users[from].claimed.water === false && state.users[from].hkwater > 0){
-                    //check how much water they get
-                    let totalWaterCount = state.users[from].hkwater
-                    //send water
-                    let waterString = ""+totalWaterCount
-                    contract.generateToken(hivejs, "HKWATER", waterString, from)
-                    //set claimed.water to true
-                    state.users[from].claimed.water = true
-                }                
-            });
+        if(state.users[from] && state.users[from].claimed.water === false && state.users[from].hkwater > 0){
+            //check how much water they get
+            let totalWaterCount = state.users[from].hkwater
+            //send water
+            let waterString = ""+totalWaterCount
+            contract.generateToken(hivejs, "HKWATER", waterString, from)
+            //set claimed.water to true
+            state.users[from].claimed.water = true
+        }                
+    });
 
-            // checks for qwoyn_plant and plants the seed
-            processor.on('claim_avatar', function(json, from) {
+    // checks for qwoyn_plant and plants the seed
+    processor.on('claim_avatar', function(json, from) {
 
-                if(state.users[from] && state.users[from].claimed.avatar === false && state.users[from].hkwater > 0){
-                    //send avatar 1 and 2
-                    contract.createAvatar(hivejs, "Magical Male", from)
-                    contract.createAvatar(hivejs, "Magical Female", from)
-                    //set claimed avatar to true
-                    state.users[from].claimed.avatar = true
-                }                
-            });
+        if(state.users[from] && state.users[from].claimed.avatar === false && state.users[from].hkwater > 0){
+            //send avatar 1 and 2
+            contract.createAvatar(hivejs, "Magical Male", from)
+            contract.createAvatar(hivejs, "Magical Female", from)
+            //set claimed avatar to true
+            state.users[from].claimed.avatar = true
+        }                
+    });
 
-            // checks for qwoyn_plant and plants the seed
-            processor.on('claim_bud', function(json, from) {
+    // checks for qwoyn_plant and plants the seed
+    processor.on('claim_bud', function(json, from) {
 
-                if(state.users[from] && state.users[from].claimed.bud === false && state.users[from].hkwater > 0){
-                    //send bud
-                    contract.generateToken(hivejs, "BUDS", "1", from)
-                    //set claimed avatar to true
-                    state.users[from].claimed.bud = true
-                }                
-            });
+        if(state.users[from] && state.users[from].claimed.bud === false && state.users[from].hkwater > 0){
+            //send bud
+            contract.generateToken(hivejs, "BUDS", "1", from)
+            //set claimed avatar to true
+            state.users[from].claimed.bud = true
+        }                
+    });
 
     /*------------------------------- Farm Actions ---------------------------*/
 
-        // checks for qwoyn_plant and plants the seed
-        processor.on('plant_plot', function(json, from) {
-            let seedID = json.seedID
-            let plotID = json.plotID
-
-            let plotIDString = "" + plotID
-            let seedIDString = "" + seedID
-
-            if(state.users[from]/* && plot exists && plot is not occupied && seed is not planted*/){
-                //make seed used and designate plot
-                contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
-                contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
-                
-                //make plot occupied and designate seed
-                contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  true })
-                contract.updateNft(hivejs, plotIDString, { "SEEDID":  seedID })
-                
-                //just an example
-                /*let usedPlotData = {
-                    [plotID]: {
-                        water: {plantedPlotWater},
-                        //spt: {plantedPlotSPT},
-                        //prod: {plantedPlotProd}
-                    }
-                }
-
-                //state.users[from].farm.push(usedPlotData);*/
-            }
-            
-        });
-
-        // checks for qwoyn_plant and plants the seed
-        processor.on('plant_subdivison', function(json, from) {
-            let seedID = json.seedID
-            let subdivisonID = json.subdivisionID
-
-            let subdivisionIDString = "" + subdivisonID
-            let seedIDString = "" + seedID
-
-            if(state.users[from]/* && subdivision exists && subdivision is not occupied && seed is not planted*/){
-                //make seed used and designate plot
-                contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
-                contract.updateNft(hivejs, seedIDString, { "SUBDIVISIONID":  subdivisonID })
-                
-                //make plot occupied and designate seed
-                contract.updateNft(hivejs, subdivisionIDString, { "OCCUPIED":  true })
-                contract.updateNft(hivejs, subdivisionIDString, { "SEEDID":  seedID })
-            }
-            
-        });
-
-    //called when qwoyn_harvest_plot is detected !!MOVE THIS TO TRANSFER!!
-    processor.on('harvest_plot', function(json, from) {
+    // checks for qwoyn_plant and plants the seed
+    processor.on('plant_plot', function(json, from) {
+        let seedID = json.seedID
         let plotID = json.plotID
-        let seedID = json.seedID
 
-        if(state.users[from] /*&& plot is occupied && seed water is <= 0 && seed sprouting time is <= 0*/){
-            
-            let amountBuds = json.prod
-            let budString = "" + amountBuds
-            let plotIDString = "" + plotID
-            
-            //set plot occupied to false and seedID to 0
-            
-            contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  false })
-            contract.updateNft(hivejs, plotIDString, { "SEEDID":  0 })
+        let plotIDString = "" + plotID
+        let seedIDString = "" + seedID
 
-            //createbuds
-            contract.generateToken(hivejs, "BUDS", budString, from)
+        var plotStatus = "" + jp.query(json, '$state.users['+from+'].plots[?(@.id=='+plotID+')].properties.OCCUPIED');
+        var seedStatus = "" + jp.query(json, '$state.users['+from+'].seeds[?(@.id=='+seedID+')].properties.PLANTED');
+
+        if(state.users[from] && state.users[from].plots[plotID] && plotStatus === false || !plotStatus && seedStatus === false || !seedStatus){
+            //make seed used and designate plot
+            contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
+            contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
+            
+            //make plot occupied and designate seed
+            contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  true })
+            contract.updateNft(hivejs, plotIDString, { "SEEDID":  seedID })
+            
         }
+        
     });
 
-    //called when qwoyn_harvest_subdivision is detected !!MOVE THIS TO TRANSFER!!
-    processor.on('harvest_subdivision', function(json, from) {
-        let subdivisionID = json.subdivisionID
-        let seedID = json.seedID
-
-        if(state.users[from] /*&& plot is occupied && seed water is <= 0 && seed sprouting time is <= 0*/){
-            
-            let amountBuds = json.prod
-            let budString = "" + amountBuds
-            let subdivisionIDString = "" + subdivisionID
-            
-            //set plot occupied to false and seedID to 0
-            
-            contract.updateNft(hivejs, subdivisionIDString, { "OCCUPIED":  false })
-            contract.updateNft(hivejs, subdivisionIDString, { "SEEDID":  0 })
-
-            //createbuds
-            contract.generateToken(hivejs, "BUDS", budString, from)
-        }
-    });
-
-    //called when qwoyn_harvest is detected
+    //called when qwoyn_subdivide_plot is detected
     processor.on('subdivide_plot', function(json, from) {
         let plotID = json.plotID
+        let region = json.region
         
-        if(state.users[from] /*&& plot exists && plot subdivided === false*/){
-            
-            let plotIDString = "" + plotID
-
-            // set plot to subdivided
-            contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
-
-            //createsubdivisions
-            contract.createSubdivision(hivejs, region, from)
-        }
-    });
-
-    //called when qwoyn_harvest is detected
-    processor.on('water_plot', function(json, from) {
-        let plotID = json.plotID
-        
-        if(state.users[from] /*&& plot exists && plot subdivided === false*/){
-            
-            let plotIDString = "" + plotID
-
-            // set plot to subdivided
-            contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
-
-            //createsubdivisions
-            contract.createSubdivision(hivejs, region, from)
-        }
-    });
-
-    //called when qwoyn_harvest is detected
-    processor.on('water_subdivision', function(json, from) {
-        let plotID = json.plotID
-        
-        if(state.users[from] /*&& plot exists && plot subdivided === false*/){
+        if(state.users[from] && state.users[from].plots.id[plotID] /*&& plot subdivided === false*/){
             
             let plotIDString = "" + plotID
 
@@ -841,7 +883,7 @@ function startApp() {
 
     /*-------------------------- RENTALS  ---------------------------*/
 
-  // search for qwoyn_pinner from user on blockchain since genesis
+    // search for qwoyn_pinner from user on blockchain since genesis <----- transfer
     processor.on('rent_subdivision', function(json, from) {
         let type = json.type
         let owner = json.owner
@@ -851,59 +893,6 @@ function startApp() {
             contract.createConsumable(hivejs,"Pinner", from)
             state.users[from].buds -= state.stats.joints.pinner
             state.users[from].joints.pinner += 1
-        }
-    });
-
-
-    /*-------------------------- CRAFTING ----------------------------*/
-
-    // search for qwoyn_pinner from user on blockchain since genesis (transfer)
-    processor.on('craft_joint', function(json, from) {
-        let type = json.type
-
-        if(state.users[from] && state.users[from].buds > state.stats.joints.pinner) {
-            //mint pinner and send to user
-            contract.createConsumable(hivejs,"Pinner", from)
-            state.users[from].buds -= state.stats.joints.pinner
-            state.users[from].joints.pinner += 1
-        }
-    });
-
-    // search for qwoyn_pinner from user on blockchain since genesis (transfer)
-    processor.on('craft_booster', function(json, from) {
-        let type = json.type
-
-        if(state.users[from] && state.users[from].buds > state.stats.joints.pinner) {
-            //mint pinner and send to user
-            contract.createConsumable(hivejs,"Pinner", from)
-            state.users[from].buds -= state.stats.joints.pinner
-            state.users[from].joints.pinner += 1
-        }
-    });
-
-    /*------------------------ Consumables ------------------------- */
-
-    // search for qwoyn_smoke_joint from user on blockchain since genesis (transfer)
-    processor.on('smoke_joint', function(json, from) {
-        let type = json.type
-
-        if(state.users[from].joints.pinner > 0){
-
-        state.users[from].xp += 15
-        state.users[from].joints.pinner -= 1
-
-        }
-    });
-
-    // search for qwoyn_smoke_joint from user on blockchain since genesis (transfer)
-    processor.on('use_booster', function(json, from) {
-        let type = json.type
-
-        if(state.users[from].joints.pinner > 0){
-
-        state.users[from].xp += 15
-        state.users[from].joints.pinner -= 1
-
         }
     });
 
