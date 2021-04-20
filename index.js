@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53203878; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53205699; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53203878;
+const ago = ENV.ago || 53205699;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -690,7 +690,7 @@ function startApp() {
               if(json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
                 let seedID = json.contractPayload.memo
                 let amountWater = json.contractPayload.quantity
-                let amountWaterInt = parseInt(text, amountWater)
+                let amountWaterInt = parseInt(amountWater, 10)
 
                 var water = jp.query(json, `$.state.users['${from}'].seeds[?(@.id==${seedID})].properties.WATER`);
 
@@ -886,7 +886,9 @@ function startApp() {
         let plotID = json.plotID
         let region = json.region
         
-        if(state.users[from] && state.users[from].plots.id[plotID] /*&& plot subdivided === false*/){
+        var dividedStatus = jp.query(json, `$.state.users['${from}'].plots[?(@.id==${plotID})].properties.PLANTED`);
+
+        if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
             
             let plotIDString = "" + plotID
 
