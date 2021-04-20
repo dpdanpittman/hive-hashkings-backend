@@ -12,9 +12,9 @@ module.exports = {
       },
       "regional": {
          "asia": [
-           "aceh",
-           "thai",
-           "chocolateThai"
+            "aceh",
+            "thai",
+            "chocolateThai"
          ],
          "jamaica": [
             "lambsBread",
@@ -45,16 +45,16 @@ module.exports = {
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmWbS6M7r6c8PL9B9RcxkLfHeVzWjqqfZmGhh5tvJUBuRk",
-      "bi": 52768801,
+      "bu": "QmS516qpon6D9bHinKW8aZjhiYyGCjMMDTJ3vqarqQyNzJ",
+      "bi": 53203001,
       "prices": {
          "bundles": {
-            "asiaBundle": 44,
-            "africaBundle": 22,
-            "afghanistanBundle": 15,
-            "jamaicaBundle": 30,
-            "mexicoBundle": 11,
-            "southAmericaBundle": 8
+            "asiaBundle": 55,
+            "africaBundle": 28,
+            "afghanistanBundle": 19,
+            "jamaicaBundle": 37,
+            "mexicoBundle": 14,
+            "southAmericaBundle": 10
          },
          "waterPlants": {
             "lvl1": {
@@ -158,39 +158,39 @@ module.exports = {
             "twaxJoint": {
                "buds": 10000,
                "boost": 6000
-            },
+            }
          },
          "land": {
             "asia": {
-               "price": 500,
-               "token": 6600
+               "price": 82,
+               "token": 820
             },
             "africa": {
-               "price": 500,
-               "token": 3300
+               "price": 41,
+               "token": 410
             },
             "afghanistan": {
-               "price": 500,
-               "token": 2200
+               "price": 28,
+               "token": 280
             },
             "southAmerica": {
-               "price": 500,
-               "token": 1100
+               "price": 14,
+               "token": 140
             },
             "jamaica": {
-               "price": 500,
-               "token": 4400
+               "price": 55,
+               "token": 550
             },
             "mexico": {
-               "price": 500,
-               "token": 1700
+               "price": 21,
+               "token": 210
             }
          }
       },
       "supply": {
-         "totalPlots": 2259,
-         "totalPlotsC": 757,
-         "totalSeeds": 2544,
+         "totalPlots": 2262,
+         "totalPlotsC": 754,
+         "totalSeeds": 2545,
          "totalWaterTowers": 11,
          "totalWaterTowersC": 18989,
          "land": {
@@ -200,15 +200,15 @@ module.exports = {
             "africaC": 300,
             "afghanistan": 0,
             "afghanistanC": 500,
-            "southAmerica": 413,
-            "southAmericaC": 887,
+            "southAmerica": 410,
+            "southAmericaC": 890,
             "jamaica": 0,
             "jamaicaC": 116,
             "mexico": 335,
             "mexicoC": 415
          }
       },
-      "farmers": 398,
+      "farmers": 403,
       "farmerList": [
          "qwoyn",
          "abrockman",
@@ -227,6 +227,7 @@ module.exports = {
          "degranoengrano",
          "dobro2020",
          "dolp",
+         "nftmart.cards",
          "dominic23",
          "ecuaminte",
          "jmcalvito",
@@ -255,7 +256,7 @@ module.exports = {
          "xplora4253",
          "cryptounicorn420",
          "nobutsd1974",
-         "nftmart.cards",
+         "quefe",
          "alfa16",
          "toxicmen01",
          "xbladex",
@@ -263,7 +264,6 @@ module.exports = {
          "pepeymeli",
          "nataxsnakex1",
          "casilokodesing",
-         "infernalcoliseum",
          "anarcist69",
          "jmsansan.leo",
          "jinmori",
@@ -302,6 +302,7 @@ module.exports = {
          "condeas",
          "joebabana",
          "virusfx",
+         "orant",
          "aubryd",
          "treefiddybruh",
          "definitelyn0tme",
@@ -345,6 +346,7 @@ module.exports = {
          "malonn",
          "swashcoldsteel",
          "uganzadranje",
+         "danteskgg",
          "nathanpieters",
          "willsaldeno",
          "hosherama",
@@ -353,6 +355,7 @@ module.exports = {
          "turb0nen",
          "bad-goyim",
          "dannychain",
+         "largouuu",
          "hersi007",
          "acne",
          "sanchezro",
@@ -428,7 +431,7 @@ module.exports = {
          "ejercol",
          "sek1g",
          "marisenpai",
-         "jonhive",
+         "jonkc",
          "yudai",
          "chuchunorris",
          "maurojx",
@@ -485,7 +488,7 @@ module.exports = {
          "procash1",
          "davidtradefx",
          "oldmans",
-         "tupacdre82",
+         "cryptojouse",
          "perezcan",
          "ronny2721",
          "mundoencriptado",
@@ -498,7 +501,6 @@ module.exports = {
          "razyel24",
          "infinito2021",
          "melcaya",
-         "largouuu",
          "cryptosfera",
          "hazeudon",
          "canna-curate",
@@ -551,7 +553,6 @@ module.exports = {
          "rohansuares",
          "felsum",
          "footballpedia",
-         "quefe",
          "jackofcrows",
          "innyc",
          "derangedvisions",
@@ -578,7 +579,8 @@ module.exports = {
          "earthboy75",
          "kiritoccs",
          "sgerhart",
-         "anyelp888",
+         "williameduardord",
+         "elfran919",
          "quijay",
          "jesusalejos",
          "artiic97",
@@ -602,12 +604,15 @@ module.exports = {
          "shirahoshi",
          "godislovefl",
          "eselihu",
+         "ayriongames",
          "axelcj123",
          "caina420",
          "maximosantana",
+         "infernalcoliseum",
          "pippex",
          "imtheovermind",
-         "dcalsot"
+         "dcalsot",
+         "chocolatoso"
       ]
    },
    "bal": {
@@ -800,12 +805,12 @@ module.exports = {
          "mota": 0.0001,
          "tokens": {
             "buds": {
-               "balance": "0",
+               "balance": "1",
                "stake": "0"
             },
             "mota": {
-               "balance": "0.0001",
-               "stake": "0"
+               "balance": "0.5309",
+               "stake": "0.0001"
             },
             "hkwater": {
                "balance": "330",
@@ -2532,7 +2537,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "420",
+               "balance": "0.0000",
                "stake": "0"
             }
          },
@@ -2599,14 +2604,6 @@ module.exports = {
             },
             {
                "id": 206,
-               "properties": {
-                  "NAME": "Asia",
-                  "TYPE": "plot"
-               },
-               "owner": "dolp"
-            },
-            {
-               "id": 209,
                "properties": {
                   "NAME": "Asia",
                   "TYPE": "plot"
@@ -3223,7 +3220,7 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 82,
+         "plotCount": 81,
          "seedCount": 82,
          "seeds": [
             {
@@ -4337,7 +4334,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "150.0000",
+               "balance": "349.4587",
                "stake": "0"
             }
          },
@@ -4511,10 +4508,18 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "edtorr704"
+            },
+            {
+               "id": 518,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "edtorr704"
             }
          ],
          "farm": [],
-         "plotCount": 8,
+         "plotCount": 9,
          "seedCount": 8,
          "seeds": [
             {
@@ -5483,7 +5488,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "960",
+               "balance": "1208.0000",
                "stake": "0"
             }
          },
@@ -6063,7 +6068,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "680.0000",
+               "balance": "780.0000",
                "stake": "0"
             }
          },
@@ -9410,6 +9415,14 @@ module.exports = {
          "subdivisions": [],
          "plots": [
             {
+               "id": 455,
+               "properties": {
+                  "NAME": "Asia",
+                  "TYPE": "plot"
+               },
+               "owner": "quefe"
+            },
+            {
                "id": 5110,
                "properties": {
                   "NAME": "South America",
@@ -9426,11 +9439,31 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "quefe"
+            },
+            {
+               "id": 5254,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "quefe"
+            },
+            {
+               "id": 5329,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "quefe"
             }
          ],
          "farm": [],
-         "plotCount": 2,
-         "seedCount": 1,
+         "plotCount": 5,
+         "seedCount": 4,
          "seeds": [
             {
                "id": 5109,
@@ -9442,9 +9475,42 @@ module.exports = {
                   "PR": 266
                },
                "owner": "quefe"
+            },
+            {
+               "id": 5220,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 72
+               },
+               "owner": "quefe"
+            },
+            {
+               "id": 5234,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 510
+               },
+               "owner": "quefe"
+            },
+            {
+               "id": 5328,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 630
+               },
+               "owner": "quefe"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 120,
          "waterPlants": {
             "lvl1": 3,
             "lvl2": 0,
@@ -11650,8 +11716,8 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
@@ -11664,9 +11730,9 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
+            "water": true,
             "avatar": true,
-            "bud": false
+            "bud": true
          },
          "avatars": [
             {
@@ -13403,7 +13469,7 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": "0",
+               "balance": "1",
                "stake": "0"
             },
             "mota": {
@@ -13807,33 +13873,12 @@ module.exports = {
       },
       "infernalcoliseum": {
          "subdivisions": [],
-         "plots": [
-            {
-               "id": 518,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "infernalcoliseum"
-            }
-         ],
+         "plots": [],
          "farm": [],
-         "plotCount": 1,
-         "seedCount": 1,
-         "seeds": [
-            {
-               "id": 517,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
-                  "PR": 121
-               },
-               "owner": "infernalcoliseum"
-            }
-         ],
-         "hkwater": 30,
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -13861,12 +13906,12 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": "1",
+               "balance": "0",
                "stake": "0"
             },
             "mota": {
-               "balance": 0,
-               "stake": 0
+               "balance": "0.0000",
+               "stake": "0.0005"
             },
             "hkwater": {
                "balance": 0,
@@ -16142,7 +16187,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "260.0000",
+               "balance": "310.0000",
                "stake": "0"
             }
          },
@@ -17863,25 +17908,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7721,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "shmoogleosukami"
+            },
+            {
+               "id": 7722,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "shmoogleosukami"
+            }
+         ],
          "boosters": []
       },
       "wagginston": {
@@ -19698,14 +19760,6 @@ module.exports = {
                "owner": "virusfx"
             },
             {
-               "id": 3817,
-               "properties": {
-                  "NAME": "Africa",
-                  "TYPE": "plot"
-               },
-               "owner": "virusfx"
-            },
-            {
                "id": 5872,
                "properties": {
                   "NAME": "Afghanistan",
@@ -19747,8 +19801,8 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 12,
-         "seedCount": 19,
+         "plotCount": 11,
+         "seedCount": 20,
          "seeds": [
             {
                "id": 968,
@@ -19958,9 +20012,20 @@ module.exports = {
                   "PR": 229
                },
                "owner": "virusfx"
+            },
+            {
+               "id": 6369,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 615
+               },
+               "owner": "virusfx"
             }
          ],
-         "hkwater": 570,
+         "hkwater": 450,
          "waterPlants": {
             "lvl1": 8,
             "lvl2": 0,
@@ -19988,7 +20053,7 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": "3",
+               "balance": "4",
                "stake": "0"
             },
             "mota": {
@@ -20016,7 +20081,7 @@ module.exports = {
                "owner": "virusfx"
             },
             {
-               "id": 7092,
+               "id": 7100,
                "properties": {
                   "NAME": "Magical Male",
                   "TYPE": "avatar"
@@ -23942,25 +24007,42 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "320.0000",
+               "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7725,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "willsaldeno"
+            },
+            {
+               "id": 7726,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "willsaldeno"
+            }
+         ],
          "boosters": []
       },
       "hosherama": {
@@ -24501,6 +24583,14 @@ module.exports = {
                "owner": "turb0nen"
             },
             {
+               "id": 1830,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot"
+               },
+               "owner": "turb0nen"
+            },
+            {
                "id": 1833,
                "properties": {
                   "NAME": "Mexico",
@@ -24523,10 +24613,18 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "turb0nen"
+            },
+            {
+               "id": 1905,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot"
+               },
+               "owner": "turb0nen"
             }
          ],
          "farm": [],
-         "plotCount": 6,
+         "plotCount": 8,
          "seedCount": 9,
          "seeds": [
             {
@@ -24629,7 +24727,7 @@ module.exports = {
                "owner": "turb0nen"
             }
          ],
-         "hkwater": 240,
+         "hkwater": 270,
          "waterPlants": {
             "lvl1": 0,
             "lvl2": 0,
@@ -26479,29 +26577,46 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7729,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "heikki1337"
+            },
+            {
+               "id": 7730,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "heikki1337"
+            }
+         ],
          "boosters": []
       },
       "w0nd3rgrip": {
@@ -27784,7 +27899,7 @@ module.exports = {
          ],
          "farm": [],
          "plotCount": 17,
-         "seedCount": 17,
+         "seedCount": 16,
          "seeds": [
             {
                "id": 2199,
@@ -27937,17 +28052,6 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 10,
                   "PR": 345
-               },
-               "owner": "criptosectadepit"
-            },
-            {
-               "id": 4914,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
-                  "PR": 108
                },
                "owner": "criptosectadepit"
             },
@@ -28231,7 +28335,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "30.0000",
+               "balance": "60.0000",
                "stake": "0"
             }
          },
@@ -31286,14 +31390,6 @@ module.exports = {
          "subdivisions": [],
          "plots": [
             {
-               "id": 2521,
-               "properties": {
-                  "NAME": "Afghanistan",
-                  "TYPE": "plot"
-               },
-               "owner": "lerage"
-            },
-            {
                "id": 2530,
                "properties": {
                   "NAME": "Mexico",
@@ -31311,31 +31407,9 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 3,
-         "seedCount": 4,
+         "plotCount": 2,
+         "seedCount": 1,
          "seeds": [
-            {
-               "id": 2520,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Mazar I Sharif",
-                  "SPT": 6,
-                  "WATER": 33,
-                  "PR": 671
-               },
-               "owner": "lerage"
-            },
-            {
-               "id": 2523,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Mazar I Sharif",
-                  "SPT": 6,
-                  "WATER": 33,
-                  "PR": 653
-               },
-               "owner": "lerage"
-            },
             {
                "id": 2529,
                "properties": {
@@ -31346,20 +31420,9 @@ module.exports = {
                   "PR": 385
                },
                "owner": "lerage"
-            },
-            {
-               "id": 2532,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Acapulco Gold",
-                  "SPT": 6,
-                  "WATER": 23,
-                  "PR": 357
-               },
-               "owner": "lerage"
             }
          ],
-         "hkwater": 180,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 1,
@@ -31394,7 +31457,7 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": "0",
+               "balance": "1",
                "stake": "0"
             },
             "mota": {
@@ -31402,7 +31465,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "210.0000",
+               "balance": "100.0000",
                "stake": "0"
             }
          },
@@ -33460,7 +33523,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "210",
+               "balance": "210.0000",
                "stake": "0"
             }
          },
@@ -36561,29 +36624,46 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "30",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7723,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "kokebo"
+            },
+            {
+               "id": 7724,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "kokebo"
+            }
+         ],
          "boosters": []
       },
       "davidagn79": {
@@ -39647,29 +39727,46 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "180",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7727,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "davjaimes10"
+            },
+            {
+               "id": 7728,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "davjaimes10"
+            }
+         ],
          "boosters": []
       },
       "masterwarclash": {
@@ -41058,29 +41155,46 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "90",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7709,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "lalogg13"
+            },
+            {
+               "id": 7710,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "lalogg13"
+            }
+         ],
          "boosters": []
       },
       "emqcripto": {
@@ -41403,29 +41517,46 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "450",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7719,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "emqcripto"
+            },
+            {
+               "id": 7720,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "emqcripto"
+            }
+         ],
          "boosters": []
       },
       "kiro12": {
@@ -42620,10 +42751,32 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "dani1884"
+            },
+            {
+               "id": 7715,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dani1884"
+            },
+            {
+               "id": 7716,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dani1884"
             }
          ],
          "farm": [],
-         "plotCount": 2,
+         "plotCount": 4,
          "seedCount": 4,
          "seeds": [
             {
@@ -42759,14 +42912,6 @@ module.exports = {
                "owner": "gabriiq"
             },
             {
-               "id": 3646,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot"
-               },
-               "owner": "gabriiq"
-            },
-            {
                "id": 3649,
                "properties": {
                   "NAME": "Mexico",
@@ -42776,7 +42921,7 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 4,
+         "plotCount": 3,
          "seedCount": 4,
          "seeds": [
             {
@@ -42873,14 +43018,6 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [
-            {
-               "id": 7265,
-               "properties": {
-                  "NAME": "Magical Female",
-                  "TYPE": "avatar"
-               },
-               "owner": "gabriiq"
-            },
             {
                "id": 7266,
                "properties": {
@@ -43463,7 +43600,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "229.0000",
+               "balance": "0.0000",
                "stake": "0"
             }
          },
@@ -44194,7 +44331,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "30",
+               "balance": "28.0000",
                "stake": "0"
             }
          },
@@ -44452,7 +44589,7 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": "6",
+               "balance": "8",
                "stake": "0"
             },
             "mota": {
@@ -50117,6 +50254,14 @@ module.exports = {
          "subdivisions": [],
          "plots": [
             {
+               "id": 1839,
+               "properties": {
+                  "NAME": "Africa",
+                  "TYPE": "plot"
+               },
+               "owner": "largouuu"
+            },
+            {
                "id": 4192,
                "properties": {
                   "NAME": "Afghanistan",
@@ -50221,16 +50366,6 @@ module.exports = {
                "owner": "largouuu"
             },
             {
-               "id": 6256,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "largouuu"
-            },
-            {
                "id": 6283,
                "properties": {
                   "NAME": "Afghanistan",
@@ -50319,20 +50454,10 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "largouuu"
-            },
-            {
-               "id": 6310,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "largouuu"
             }
          ],
          "farm": [],
-         "plotCount": 24,
+         "plotCount": 23,
          "seedCount": 24,
          "seeds": [
             {
@@ -52314,7 +52439,7 @@ module.exports = {
                "owner": "victorycoin23"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -53510,7 +53635,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "0.0000",
+               "balance": "90.0000",
                "stake": "0"
             }
          },
@@ -55993,7 +56118,7 @@ module.exports = {
          "subdivisions": [],
          "plots": [
             {
-               "id": 455,
+               "id": 209,
                "properties": {
                   "NAME": "Asia",
                   "TYPE": "plot"
@@ -56033,49 +56158,25 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 969,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 1608,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 1830,
-               "properties": {
-                  "NAME": "Afghanistan",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 1839,
-               "properties": {
-                  "NAME": "Africa",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 1905,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
                "id": 2917,
                "properties": {
                   "NAME": "Mexico",
+                  "TYPE": "plot"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 3646,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 3817,
+               "properties": {
+                  "NAME": "Africa",
                   "TYPE": "plot"
                },
                "owner": "nftmart.cards"
@@ -56097,46 +56198,6 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 5254,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5329,
-               "properties": {
-                  "NAME": "Afghanistan",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5884,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5887,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "nftmart.cards"
-            },
-            {
                "id": 6019,
                "properties": {
                   "NAME": "Mexico",
@@ -56147,9 +56208,9 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 6370,
+               "id": 6256,
                "properties": {
-                  "NAME": "Afghanistan",
+                  "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
                   "OCCUPIED": false
@@ -56157,9 +56218,9 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 6373,
+               "id": 6310,
                "properties": {
-                  "NAME": "Afghanistan",
+                  "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
                   "OCCUPIED": false
@@ -56168,8 +56229,8 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 20,
-         "seedCount": 7,
+         "plotCount": 13,
+         "seedCount": 6,
          "seeds": [
             {
                "id": 475,
@@ -56179,6 +56240,17 @@ module.exports = {
                   "SPT": 3,
                   "WATER": 205,
                   "PR": 5677
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 4074,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 338
                },
                "owner": "nftmart.cards"
             },
@@ -56194,35 +56266,13 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 5220,
+               "id": 4914,
                "properties": {
                   "TYPE": "seed",
-                  "NAME": "Colombian Gold",
+                  "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 72
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5234,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Acapulco Gold",
-                  "SPT": 6,
-                  "WATER": 23,
-                  "PR": 510
-               },
-               "owner": "nftmart.cards"
-            },
-            {
-               "id": 5328,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Mazar I Sharif",
-                  "SPT": 6,
-                  "WATER": 33,
-                  "PR": 630
+                  "WATER": 9,
+                  "PR": 108
                },
                "owner": "nftmart.cards"
             },
@@ -56238,18 +56288,18 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 6918,
+               "id": 6375,
                "properties": {
                   "TYPE": "seed",
-                  "NAME": "Mazar I Sharif",
+                  "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 617
+                  "WATER": 23,
+                  "PR": 551
                },
                "owner": "nftmart.cards"
             }
          ],
-         "hkwater": 210,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -56299,7 +56349,7 @@ module.exports = {
          "motaStake": 0,
          "avatars": [
             {
-               "id": 7100,
+               "id": 7092,
                "properties": {
                   "NAME": "Magical Male",
                   "TYPE": "avatar"
@@ -56331,6 +56381,14 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
+               "id": 7265,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
                "id": 7279,
                "properties": {
                   "NAME": "Magical Male",
@@ -56348,6 +56406,22 @@ module.exports = {
             },
             {
                "id": 7317,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7469,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7470,
                "properties": {
                   "NAME": "Magical Female",
                   "TYPE": "avatar"
@@ -62083,7 +62157,7 @@ module.exports = {
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": "1",
+               "balance": "0",
                "stake": "0"
             },
             "mota": {
@@ -62091,7 +62165,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "30",
+               "balance": "0.0000",
                "stake": "0"
             }
          },
@@ -62421,7 +62495,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "0.0000",
+               "balance": "150.0000",
                "stake": "0"
             }
          },
@@ -62937,7 +63011,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "30",
+               "balance": "0.0000",
                "stake": "0"
             }
          },
@@ -63917,29 +63991,46 @@ module.exports = {
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": 0,
-               "stake": 0
+               "balance": "62.5413",
+               "stake": "0"
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7713,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "whoismyhero"
+            },
+            {
+               "id": 7714,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "whoismyhero"
+            }
+         ],
          "boosters": []
       },
       "luisx22": {
@@ -64572,7 +64663,7 @@ module.exports = {
          ],
          "farm": [],
          "plotCount": 6,
-         "seedCount": 7,
+         "seedCount": 8,
          "seeds": [
             {
                "id": 4563,
@@ -64648,6 +64739,17 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 10,
                   "PR": 227
+               },
+               "owner": "zerokdark"
+            },
+            {
+               "id": 6918,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 617
                },
                "owner": "zerokdark"
             }
@@ -68819,7 +68921,7 @@ module.exports = {
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": "2",
+               "balance": "0",
                "stake": "0"
             },
             "mota": {
@@ -68827,7 +68929,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "240.0000",
+               "balance": "0.0000",
                "stake": "0"
             }
          }
@@ -71505,7 +71607,7 @@ module.exports = {
          "boosters": [],
          "tokens": {
             "buds": {
-               "balance": "1",
+               "balance": "0",
                "stake": "0"
             },
             "mota": {
@@ -73744,7 +73846,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "30",
+               "balance": "120.0000",
                "stake": "0"
             }
          }
@@ -74173,7 +74275,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "180",
+               "balance": "170.0000",
                "stake": "0"
             }
          }
@@ -74776,21 +74878,11 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "eselihu"
-            },
-            {
-               "id": 6880,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "eselihu"
             }
          ],
          "farm": [],
-         "plotCount": 3,
-         "seedCount": 3,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "id": 6861,
@@ -74813,20 +74905,9 @@ module.exports = {
                   "PR": 157
                },
                "owner": "eselihu"
-            },
-            {
-               "id": 6879,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Colombian Gold",
-                  "SPT": 7,
-                  "WATER": 10,
-                  "PR": 310
-               },
-               "owner": "eselihu"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 3,
@@ -76728,6 +76809,16 @@ module.exports = {
                "owner": "drakienrising"
             },
             {
+               "id": 5887,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "drakienrising"
+            },
+            {
                "id": 6919,
                "properties": {
                   "NAME": "Afghanistan",
@@ -76738,8 +76829,8 @@ module.exports = {
                "owner": "drakienrising"
             }
          ],
-         "plotCount": 2,
-         "seedCount": 1,
+         "plotCount": 3,
+         "seedCount": 2,
          "seeds": [
             {
                "id": 385,
@@ -76749,6 +76840,17 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 9,
                   "PR": 247
+               },
+               "owner": "drakienrising"
+            },
+            {
+               "id": 2520,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 671
                },
                "owner": "drakienrising"
             }
@@ -76940,8 +77042,8 @@ module.exports = {
          "dailyBudDeposit": 0,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
@@ -76954,15 +77056,32 @@ module.exports = {
          },
          "claimed": {
             "water": true,
-            "avatar": false,
-            "bud": false
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "mota": 0,
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7717,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "soyaletrainer"
+            },
+            {
+               "id": 7718,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "soyaletrainer"
+            }
+         ],
          "boosters": []
       },
       "digitaldicast": {
@@ -77214,29 +77333,46 @@ module.exports = {
          "dailyBudDeposit": 0,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": "30",
+               "balance": "90.0000",
                "stake": "0"
             }
          },
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 0,
          "lvl": 1,
          "role": 1,
          "mota": 0,
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 7711,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "javiercruz"
+            },
+            {
+               "id": 7712,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "javiercruz"
+            }
+         ],
          "boosters": []
       },
       "imtheovermind": {
@@ -77311,6 +77447,14 @@ module.exports = {
          "subdivisions": [],
          "plots": [
             {
+               "id": 2521,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot"
+               },
+               "owner": "asteka"
+            },
+            {
                "id": 3814,
                "properties": {
                   "NAME": "Africa",
@@ -77323,6 +77467,16 @@ module.exports = {
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot"
+               },
+               "owner": "asteka"
+            },
+            {
+               "id": 5884,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
                },
                "owner": "asteka"
             },
@@ -77345,12 +77499,56 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "asteka"
+            },
+            {
+               "id": 6373,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "asteka"
             }
          ],
-         "plotCount": 4,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 30,
+         "plotCount": 7,
+         "seedCount": 3,
+         "seeds": [
+            {
+               "id": 517,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 121
+               },
+               "owner": "asteka"
+            },
+            {
+               "id": 2523,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 653
+               },
+               "owner": "asteka"
+            },
+            {
+               "id": 2532,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 357
+               },
+               "owner": "asteka"
+            }
+         ],
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -77418,6 +77616,728 @@ module.exports = {
                "owner": "asteka"
             }
          ],
+         "boosters": []
+      },
+      "orant": {
+         "subdivisions": [],
+         "plots": [
+            {
+               "id": 969,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "orant"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "avatars": [],
+         "boosters": []
+      },
+      "danteskgg": {
+         "subdivisions": [],
+         "plots": [
+            {
+               "id": 1608,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "danteskgg"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": "1",
+               "stake": "0"
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": "30",
+               "stake": "0"
+            }
+         },
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "avatars": [
+            {
+               "id": 7731,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "danteskgg"
+            }
+         ],
+         "boosters": []
+      },
+      "jonkc": {
+         "subdivisions": [],
+         "plots": [
+            {
+               "id": 3307,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 3310,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot"
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 3667,
+               "properties": {
+                  "NAME": "Africa",
+                  "TYPE": "plot"
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 5692,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 5728,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "jonkc"
+            }
+         ],
+         "plotCount": 5,
+         "seedCount": 5,
+         "seeds": [
+            {
+               "id": 3306,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 81
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 3309,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 651
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 3666,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2336
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 5691,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 595
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 5727,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 277
+               },
+               "owner": "jonkc"
+            }
+         ],
+         "hkwater": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": "2",
+               "stake": "0"
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": "240.0000",
+               "stake": "0"
+            }
+         },
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "avatars": [
+            {
+               "id": 7139,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jonkc"
+            },
+            {
+               "id": 7140,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jonkc"
+            }
+         ],
+         "boosters": []
+      },
+      "cryptojouse": {
+         "subdivisions": [],
+         "plots": [
+            {
+               "id": 4075,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "cryptojouse"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6372,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 33,
+                  "PR": 618
+               },
+               "owner": "cryptojouse"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "avatars": [],
+         "boosters": []
+      },
+      "williameduardord": {
+         "subdivisions": [],
+         "plots": [
+            {
+               "id": 6370,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "williameduardord"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "avatars": [
+            {
+               "id": 7732,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "williameduardord"
+            }
+         ],
+         "boosters": []
+      },
+      "elfran919": {
+         "subdivisions": [],
+         "plots": [
+            {
+               "id": 6376,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "elfran919"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "avatars": [],
+         "boosters": []
+      },
+      "ayriongames": {
+         "subdivisions": [],
+         "plots": [
+            {
+               "id": 6880,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "ayriongames"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6879,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 310
+               },
+               "owner": "ayriongames"
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "avatars": [],
+         "boosters": []
+      },
+      "chocolatoso": {
+         "subdivisions": [],
+         "plots": [
+            {
+               "id": 7734,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": true,
+                  "SEEDID": 7733,
+                  "PLANTED": false,
+                  "PLOTID": 0
+               },
+               "owner": "chocolatoso"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 7733,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 9,
+                  "PR": 223,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "PLOTID": 7734,
+                  "PLANTED": true
+               },
+               "owner": "chocolatoso"
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": "0.1231",
+               "stake": "1.0004"
+            },
+            "hkwater": {
+               "balance": "1",
+               "stake": "0"
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 0,
+         "lvl": 1,
+         "role": 1,
+         "mota": 0,
+         "motaStake": 0,
+         "avatars": [],
          "boosters": []
       }
    },
