@@ -867,7 +867,7 @@ function startApp() {
         }
         
 
-        if(state.users[from] && state.users[from].plots[plotID]){
+        if(state.users[from]){
             //make seed used and designate plot
             contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
             contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
