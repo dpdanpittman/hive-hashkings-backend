@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53230024; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53230262; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53230024;
+const ago = ENV.ago || 53230262;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -839,7 +839,8 @@ function startApp() {
                     //smoke joint
                     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
 
-                    if(jointTypes === "pinner"){
+                    let jointString = "" + jointTypes
+                    if(jointString === "pinner"){
 
                         console.log("entered pinner if statement and user xp= " + state.users[from].xp + " and pinner xp = " + state.stats.joints.pinner)
                         // give xp
