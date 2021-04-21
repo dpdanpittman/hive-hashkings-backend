@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53207375; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53207485; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53207375;
+const ago = ENV.ago || 53207485;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -690,7 +690,7 @@ function startApp() {
               if(json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
                   console.log("watering")
                 let seedID = json.contractPayload.memo
-                let seedIdInt = parseInt(seedID, 10)
+                
                 let amountWater = json.contractPayload.quantity
                 let amountWaterInt = parseInt(amountWater, 10)
 
@@ -703,11 +703,13 @@ function startApp() {
                 if(state.users[from] && water != 0){
                     
                     let waterRemains = water - amountWaterInt
+                    let seedIdString = "" + seedID
 
                     console.log("waterRemains= "+waterRemains)
+
         
                     // set water to new amount
-                    contract.updateNft(hivejs, seedID, { "WATER":  waterRemains })
+                    contract.updateNft(hivejs, seedIdString, { "WATER":  waterRemains })
                 }
               }              
 
