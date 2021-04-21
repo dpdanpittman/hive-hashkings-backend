@@ -122,56 +122,75 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
   function processBlock(block, num) {
     onNewBlock(num, block);
     var transactions = block.transactions;
-
-    for(var i = 0; i < transactions.length; i++) {
-      for(var j = 0; j < transactions[i].operations.length; j++) {
-
+  
+    for (var i = 0; i < transactions.length; i++) {
+      for (var j = 0; j < transactions[i].operations.length; j++) {
         var op = transactions[i].operations[j];
-        if(op[0] === 'custom_json') {
-          if(typeof onCustomJsonOperation[op[1].id] === 'function') {
+        if (op[0] === "custom_json") {
+          if (typeof onCustomJsonOperation[op[1].id] === "function") {
             var ip = JSON.parse(op[1].json);
             var from = op[1].required_posting_auths[0];
             var active = false;
-            ip.transaction_id = transactions[i].transaction_id
-            ip.block_num = transactions[i].block_num
-            if(!from){from = op[1].required_auths[0];active=true}
+            ip.transaction_id = transactions[i].transaction_id;
+            ip.block_num = transactions[i].block_num;
+            if (!from) {
+              from = op[1].required_auths[0];
+              active = true;
+            }
             onCustomJsonOperation[op[1].id](ip, from, active);
           }
-
+  
           //new function
-
-          if (typeof onCustomJsonOperation["tohk-vault"] === 'function') {
-
-
+  
+          if (typeof onCustomJsonOperation["tohk-vault"] === "function") {
             let ip = JSON.parse(op[1].json);
-
+  
             if (ip.hasOwnProperty("contractAction")) {
-
-                if (ip.contractAction == "transfer") {
-
-                    if (ip.hasOwnProperty("contractPayload")) {
-                        if (ip.contractPayload.hasOwnProperty("to")) {
-
-                            if (ip.contractPayload.to == "hk-vault") {
-                                let from = op[1].required_posting_auths[0];
-                                let active = false;
-                                ip.transaction_id = transactions[i].transaction_id
-                                ip.block_num = transactions[i].block_num
-                                if (!from) { from = op[1].required_auths[0]; active = true }
-                                onCustomJsonOperation["tohk-vault"](ip, from, active);
-                            }
-                        }
+              if (ip.contractAction == "transfer") {
+                if (ip.hasOwnProperty("contractPayload")) {
+                  if (ip.contractPayload.hasOwnProperty("to")) {
+                    if (ip.contractPayload.to == "hk-vault") {
+                      let from = op[1].required_posting_auths[0];
+                      let active = false;
+                      ip.transaction_id = transactions[i].transaction_id;
+                      ip.block_num = transactions[i].block_num;
+                      if (!from) {
+                        from = op[1].required_auths[0];
+                        active = true;
+                      }
+                      onCustomJsonOperation["tohk-vault"](ip, from, active);
                     }
-
+                  }
                 }
-
+              }
             }
-
-        }
-
-        } else if(onOperation[op[0]] !== undefined) {
-          op[1].transaction_id = transactions[i].transaction_id
-          op[1].block_num = transactions[i].block_num
+          }
+  
+          if (typeof onCustomJsonOperation["nfttohk-vault"] === "function") {
+            let ip = JSON.parse(op[1].json);
+  
+            if (ip.hasOwnProperty("contractName")) {
+              if (ip.contractName == "nft") {
+                if (ip.contractAction == "transfer") {
+                  if (ip.contractPayload.to == "hk-vault") {
+                    let from = op[1].required_posting_auths[0];
+                    let active = false;
+                    ip.transaction_id = transactions[i].transaction_id;
+                    ip.block_num = transactions[i].block_num;
+                    if (!from) {
+                      from = op[1].required_auths[0];
+                      active = true;
+                    }
+                    onCustomJsonOperation["nfttohk-vault"](ip, from, active);
+                  }
+                }
+              }
+            }
+          }
+          //new read transfer nft
+        } else if (onOperation[op[0]] !== undefined) {
+          op[1].transaction_id = transactions[i].transaction_id;
+          op[1].block_num = transactions[i].block_num;
           onOperation[op[0]](op[1]);
         }
       }
@@ -183,14 +202,16 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
       Determines a state update to be called when a new operation of the id
         operationId (with added prefix) is computed.
     */
-     on: function(operationId, callback) {
-    if (operationId == 'tohk-vault') {
-        onCustomJsonOperation['tohk-vault'] = callback;
-    } else {
-        onCustomJsonOperation[prefix + operationId] = callback;
-    }
-
-  },
+    on: function(operationId, callback) {
+      if (operationId == 'tohk-vault') {
+          onCustomJsonOperation['tohk-vault'] = callback;
+      }else if(operationId == "nfttohk-vault"){
+          onCustomJsonOperation['nfttohk-vault'] = callback;
+      } else {
+          onCustomJsonOperation[prefix + operationId] = callback;
+      }
+  
+    },
 
     onOperation: function(type, callback) {
       onOperation[type] = callback;

@@ -45,15 +45,15 @@ module.exports = {
          "2": "landlord",
          "3": "seedProducer"
       },
-      "bu": "QmS516qpon6D9bHinKW8aZjhiYyGCjMMDTJ3vqarqQyNzJ",
-      "bi": 53203001,
+      "bu": "QmSbqHW8NCNGMVfC65XpMD8gpZkWTqmGDoVekQbvZ4KyzU",
+      "bi": 53211101,
       "prices": {
          "bundles": {
-            "asiaBundle": 55,
-            "africaBundle": 28,
+            "asiaBundle": 57,
+            "africaBundle": 29,
             "afghanistanBundle": 19,
-            "jamaicaBundle": 37,
-            "mexicoBundle": 14,
+            "jamaicaBundle": 38,
+            "mexicoBundle": 15,
             "southAmericaBundle": 10
          },
          "waterPlants": {
@@ -162,28 +162,28 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 82,
-               "token": 820
+               "price": 85,
+               "token": 850
             },
             "africa": {
-               "price": 41,
-               "token": 410
+               "price": 43,
+               "token": 430
             },
             "afghanistan": {
-               "price": 28,
-               "token": 280
+               "price": 29,
+               "token": 290
             },
             "southAmerica": {
-               "price": 14,
-               "token": 140
+               "price": 15,
+               "token": 150
             },
             "jamaica": {
-               "price": 55,
-               "token": 550
+               "price": 57,
+               "token": 570
             },
             "mexico": {
-               "price": 21,
-               "token": 210
+               "price": 22,
+               "token": 220
             }
          }
       },
@@ -56299,7 +56299,7 @@ module.exports = {
                "owner": "nftmart.cards"
             }
          ],
-         "hkwater": 270,
+         "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -78116,7 +78116,7 @@ module.exports = {
          "plotCount": 1,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 0,
+         "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -78276,8 +78276,8 @@ module.exports = {
                "properties": {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
+                  "SPT": 0,
+                  "WATER": 0,
                   "PR": 223,
                   "OCCUPIED": false,
                   "SEEDID": 0,
@@ -78323,7 +78323,7 @@ module.exports = {
                "stake": "1.0004"
             },
             "hkwater": {
-               "balance": "1",
+               "balance": "0.0000",
                "stake": "0"
             }
          },
