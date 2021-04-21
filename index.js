@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53206861; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53207030; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53206861;
+const ago = ENV.ago || 53207030;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -668,8 +668,8 @@ function startApp() {
         }
     })
 
-    processor.on("tohk-vault", function (jsonOne, from) {
-        ssc.getTransactionInfo(jsonOne.transaction_id).then((res) => {
+    processor.on("tohk-vault", function (json, from) {
+        ssc.getTransactionInfo(json.transaction_id).then((res) => {
           let errors = null;
       
           if (res) {
@@ -687,11 +687,11 @@ function startApp() {
 
               //Water Plot
               //user sends HKWater to hk-vault with memo seedID
-              if(jsonOne.contractPayload.symbol === "HKWATER" && jsonOne.contractPayload.memo) {
+              if(json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
                   console.log("watering")
-                let seedID = jsonOne.contractPayload.memo
+                let seedID = json.contractPayload.memo
                 let seedIdInt = parseInt(seedID, 10)
-                let amountWater = jsonOne.contractPayload.quantity
+                let amountWater = json.contractPayload.quantity
                 let amountWaterInt = parseInt(amountWater, 10)
 
                 console.log("seedID= "+seedID+"; amountWater= "+amountWater+"; amountWaterInt= "+amountWaterInt)
