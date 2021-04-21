@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53213172; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53213231; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53213172;
+const ago = ENV.ago || 53213231;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -340,16 +340,10 @@ function userList() {
                     xp: 0,
                     lvl: 1,
                     role: 1,
-                    joints: {
-                        pinner: 0,
-                        hempWrappedJoint: 0,
-                        crossJoint: 0,
-                        blunt: 0,
-                        hempWrappedBlunt: 0,
-                        twaxJoint: 0
-                    },
+                    joints: [],
                     mota: 0,
-                    motaStake: 0
+                    motaStake: 0,
+                    boosters: []
                 }
             } else if (state.users[username]) {
                 let report = res[4]
@@ -1088,16 +1082,10 @@ function startApp() {
                     xp: 0,
                     lvl: 1,
                     role: 1,
-                    joints: {
-                        pinner: 0,
-                        hempWrappedJoint: 0,
-                        crossJoint: 0,
-                        blunt: 0,
-                        hempWrappedBlunt: 0,
-                        twaxJoint: 0
-                    },
+                    joints: [],
                     mota: 0,
-                    motaStake: 0
+                    motaStake: 0,
+                    boosters: []
                 }
             }
 
