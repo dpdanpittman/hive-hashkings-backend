@@ -668,8 +668,8 @@ function startApp() {
         }
     })
 
-    processor.on("tohk-vault", function (json, from) {
-        ssc.getTransactionInfo(json.transaction_id).then((res) => {
+    processor.on("tohk-vault", function (jsonOne, from) {
+        ssc.getTransactionInfo(jsonOne.transaction_id).then((res) => {
           let errors = null;
       
           if (res) {
@@ -687,11 +687,11 @@ function startApp() {
 
               //Water Plot
               //user sends HKWater to hk-vault with memo seedID
-              if(json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
+              if(jsonOne.contractPayload.symbol === "HKWATER" && jsonOne.contractPayload.memo) {
                   console.log("watering")
-                let seedID = json.contractPayload.memo
+                let seedID = jsonOne.contractPayload.memo
                 let seedIdInt = parseInt(seedID, 10)
-                let amountWater = json.contractPayload.quantity
+                let amountWater = jsonOne.contractPayload.quantity
                 let amountWaterInt = parseInt(amountWater, 10)
 
                 console.log("seedID= "+seedID+"; amountWater= "+amountWater+"; amountWaterInt= "+amountWaterInt)
@@ -709,7 +709,7 @@ function startApp() {
                     // set water to new amount
                     contract.updateNft(hivejs, seedID, { "WATER":  waterRemains })
                 }
-              }
+              }              
 
               //Craft Consumable joints and boosters
               //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
