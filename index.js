@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53215110; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53228800; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53215110;
+const ago = ENV.ago || 53228800;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -832,56 +832,36 @@ function startApp() {
 
                     //smoke joint
                     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
-                    
-                    
 
                     if(jointTypes === "pinner"){
-                        let xp = state.users[from].xp
-
-                        let newXP = xp + state.stats.joints.pinner
 
                         // give xp
-                        state.users[from].xp = newXP
+                        state.users[from].xp += state.stats.joints.pinner
 
                     } else if(jointTypes === "hempWrappedJoint"){
-                        let xp = state.users[from].xp
-            
-                        let newXP = xp + state.stats.joints.hempWrappedJoint
 
                         // give xp
-                        state.users[from].xp = newXP
+                        state.users[from].xp += state.stats.joints.hempWrappedJoint
 
                     }else if(jointTypes === "crossJoint"){
-                        let xp = state.users[from].xp
-            
-                        let newXP = xp + state.stats.joints.crossJoint
-
+                        
                         // give xp
-                        state.users[from].xp = newXP
+                        state.users[from].xp += state.stats.joints.crossJoint
 
                     }else if(jointTypes === "blunt"){
-                        let xp = state.users[from].xp
-            
-                        let newXP = xp + state.stats.joints.blunt
-
+                                                
                         // give xp
-                        state.users[from].xp = newXP
+                        state.users[from].xp += state.stats.joints.blunt
 
                     }else if(jointTypes === "hempWrappedBlunt"){
-                        let xp = state.users[from].xp
-            
-                        let newXP = xp + state.stats.joints.hempWrappedBlunt
-
+                                                
                         // give xp
-                        state.users[from].xp = newXP
+                        state.users[from].xp += state.stats.joints.hempWrappedBlunt
 
                     }else if(jointTypes === "twaxJoint"){
-                        let xp = state.users[from].xp
-            
-                        let newXP = xp + state.stats.joints.twaxJoint
-
+                                                
                         // give xp
-                        state.users[from].xp = newXP
+                        state.users[from].xp += state.stats.joints.twaxJoint
                     }
 
                 //Use Booster
