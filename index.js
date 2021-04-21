@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53211239; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53211442; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53211239;
+const ago = ENV.ago || 53211442;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -806,10 +806,10 @@ function startApp() {
               
                 //Harvest Plot
                 //User sends seed to hk-vault with memo = plotID
-                if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
+                if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.id) {
                     let seedID = json.contractPayload.id
-                    let plotID = json.contractPayload.memo
-
+                    
+                    let plotID = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PLOTID`);
                     let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
                     let waterStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);
                       
@@ -831,7 +831,7 @@ function startApp() {
                 //Rent Subdivision <---- coming soon
                 //user will send mota to hk-vault with memo plotOwner and amountRent
 
-                //Use Consumable
+                //smoke joint
                 //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
                 if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
                     let xp = state.users[from].xp
