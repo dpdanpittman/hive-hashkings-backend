@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53211442; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53211799; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53211442;
+const ago = ENV.ago || 53211799;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -806,8 +806,10 @@ function startApp() {
               
                 //Harvest Plot
                 //User sends seed to hk-vault with memo = plotID
-                if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.id) {
-                    let seedID = json.contractPayload.id
+                if(json.contractPayload.nfts[0].symbol === "HKFARM") {
+                    let seed = json.contractPayload.nfts[0];
+
+                    let seedID = seed.ids[0]
                     
                     let plotID = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PLOTID`);
                     let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
@@ -833,7 +835,7 @@ function startApp() {
 
                 //smoke joint
                 //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
-                if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
+                /*if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
                     let xp = state.users[from].xp
 
                     if(state.users[from]){
@@ -881,7 +883,7 @@ function startApp() {
                             state.users[from].xp = newXP
                         }
                     }
-                }
+                }*/
 
                 //Use Booster
                 //user sends booster NFT to hk-vault with memo type (ex. use_booster_lvl1, use_booster_lvl2 etc..)
