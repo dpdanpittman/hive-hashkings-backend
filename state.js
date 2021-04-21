@@ -796,7 +796,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0.0001,
          "tokens": {
             "buds": {
@@ -1090,7 +1090,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -1451,7 +1451,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -1565,7 +1565,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -1698,7 +1698,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -2183,7 +2183,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -2525,7 +2525,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -4151,7 +4151,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -4324,7 +4324,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -4419,7 +4419,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -4638,7 +4638,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -4836,7 +4836,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -5480,7 +5480,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -6061,7 +6061,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -6451,7 +6451,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -6584,7 +6584,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -7001,7 +7001,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "2",
@@ -7205,7 +7205,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -7377,7 +7377,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -7492,7 +7492,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -7606,7 +7606,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -7842,7 +7842,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -8032,7 +8032,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -8260,7 +8260,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -8374,7 +8374,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -8583,7 +8583,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -8697,7 +8697,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -9122,7 +9122,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -9217,7 +9217,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -9331,7 +9331,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -9405,7 +9405,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -9554,7 +9554,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -9668,7 +9668,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -10010,7 +10010,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -10223,7 +10223,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -11640,7 +11640,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -11735,7 +11735,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -11830,7 +11830,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -11944,7 +11944,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -12039,7 +12039,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -12172,7 +12172,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -12362,7 +12362,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -12448,7 +12448,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {},
          "dailyBudDeposit": 0,
          "boosters": {}
@@ -12498,7 +12498,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -12595,7 +12595,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -13338,7 +13338,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "2",
@@ -13491,7 +13491,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -13778,7 +13778,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -13874,7 +13874,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -13931,7 +13931,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -14261,7 +14261,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -14356,7 +14356,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -14470,7 +14470,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -14584,7 +14584,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -14675,7 +14675,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {},
          "dailyBudDeposit": 0,
          "boosters": {}
@@ -14725,7 +14725,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -14820,7 +14820,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -14917,7 +14917,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -15227,7 +15227,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -15305,7 +15305,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -15514,7 +15514,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -15628,7 +15628,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -15780,7 +15780,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -15894,7 +15894,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -16212,7 +16212,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -16307,7 +16307,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -16668,7 +16668,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -16820,7 +16820,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -17081,7 +17081,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -17176,7 +17176,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -17309,7 +17309,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -17852,7 +17852,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -17948,7 +17948,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -18879,7 +18879,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -19012,7 +19012,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -19130,7 +19130,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -19208,7 +19208,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -19303,7 +19303,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -19442,7 +19442,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -19595,7 +19595,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -19709,7 +19709,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -20101,7 +20101,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "4",
@@ -20217,7 +20217,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -20369,7 +20369,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -22811,7 +22811,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -22898,7 +22898,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -23242,7 +23242,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -23375,7 +23375,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -23472,7 +23472,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -23567,7 +23567,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -23664,7 +23664,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -23816,7 +23816,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -23902,7 +23902,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {},
          "dailyBudDeposit": 0,
          "boosters": {}
@@ -23961,7 +23961,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -24058,7 +24058,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -24576,7 +24576,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -24807,7 +24807,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -25206,7 +25206,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -25702,7 +25702,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -25878,7 +25878,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -25973,7 +25973,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -26295,7 +26295,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -26390,7 +26390,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -26542,7 +26542,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -26644,7 +26644,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -27026,7 +27026,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -27294,7 +27294,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -27391,7 +27391,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -27471,7 +27471,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -27610,7 +27610,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -27783,7 +27783,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -28177,7 +28177,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -28274,7 +28274,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -28392,7 +28392,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -28565,7 +28565,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -29050,7 +29050,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -29436,7 +29436,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -29533,7 +29533,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -29708,7 +29708,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -29805,7 +29805,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -29959,7 +29959,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -30075,7 +30075,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -30256,7 +30256,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -30414,7 +30414,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -30777,7 +30777,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -31425,7 +31425,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -31530,7 +31530,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -31741,7 +31741,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -31821,7 +31821,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -31918,7 +31918,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -32207,7 +32207,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -32704,7 +32704,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -32972,7 +32972,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -33107,7 +33107,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -33261,7 +33261,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -33377,7 +33377,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -33596,7 +33596,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -33815,7 +33815,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -33950,7 +33950,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -34047,7 +34047,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -34146,7 +34146,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -34243,7 +34243,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -34568,7 +34568,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -34895,7 +34895,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -35070,7 +35070,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -35167,7 +35167,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -35321,7 +35321,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -35532,7 +35532,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -35765,7 +35765,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -35957,7 +35957,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -36056,7 +36056,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -36419,7 +36419,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -36535,7 +36535,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -36632,7 +36632,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -36729,7 +36729,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -36885,7 +36885,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -37134,7 +37134,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -37326,7 +37326,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -37518,7 +37518,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -37615,7 +37615,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -37750,7 +37750,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -37830,7 +37830,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -37984,7 +37984,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -38100,7 +38100,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -38273,7 +38273,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -38598,7 +38598,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -38714,7 +38714,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -38851,7 +38851,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -39005,7 +39005,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -39121,7 +39121,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -39197,7 +39197,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -39427,7 +39427,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -39524,7 +39524,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -39659,7 +39659,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -39851,7 +39851,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -39986,7 +39986,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -40102,7 +40102,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -40218,7 +40218,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -40545,7 +40545,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -40703,7 +40703,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -40971,7 +40971,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -41150,7 +41150,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -41285,7 +41285,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -41648,7 +41648,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -41764,7 +41764,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -41861,7 +41861,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -41977,7 +41977,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -42093,7 +42093,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -42190,7 +42190,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -42346,7 +42346,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -42481,7 +42481,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -42597,7 +42597,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -42713,7 +42713,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -42831,7 +42831,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -42991,7 +42991,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -43137,7 +43137,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -43264,7 +43264,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -43380,7 +43380,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -43498,7 +43498,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -43729,7 +43729,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -43883,7 +43883,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -44020,7 +44020,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -44136,7 +44136,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -44252,7 +44252,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -44368,7 +44368,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -44465,7 +44465,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -44554,7 +44554,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -44733,7 +44733,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "8",
@@ -44830,7 +44830,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -44910,7 +44910,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -45007,7 +45007,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -45448,7 +45448,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -45583,7 +45583,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -45699,7 +45699,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -45834,7 +45834,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -46011,7 +46011,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -46230,7 +46230,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -46346,7 +46346,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -46580,7 +46580,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -46715,7 +46715,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -46917,7 +46917,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -47033,7 +47033,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -47168,7 +47168,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -47457,7 +47457,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -47554,7 +47554,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -47708,7 +47708,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -47843,7 +47843,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -47959,7 +47959,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -48115,7 +48115,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -48288,7 +48288,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -48404,7 +48404,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -48484,7 +48484,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -48600,7 +48600,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -48737,7 +48737,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -49825,7 +49825,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -49962,7 +49962,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -50135,7 +50135,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -50384,7 +50384,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -50927,7 +50927,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -51003,7 +51003,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -51157,7 +51157,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -51554,7 +51554,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -52449,7 +52449,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -52546,7 +52546,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -52645,7 +52645,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -52780,7 +52780,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -52950,7 +52950,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -53066,7 +53066,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -53201,7 +53201,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -53317,7 +53317,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -53414,7 +53414,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -53511,7 +53511,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -53608,7 +53608,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -53688,7 +53688,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -53808,7 +53808,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -53962,7 +53962,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -54059,7 +54059,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -54291,7 +54291,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -54445,7 +54445,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -54530,7 +54530,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -54627,7 +54627,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -54800,7 +54800,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -54939,7 +54939,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -55055,7 +55055,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -55323,7 +55323,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -56085,7 +56085,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -56193,7 +56193,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -56273,7 +56273,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -56527,7 +56527,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -56695,7 +56695,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -56792,7 +56792,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -56868,7 +56868,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -56939,7 +56939,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -57096,7 +57096,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -57155,7 +57155,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -58100,7 +58100,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -58517,7 +58517,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -58780,7 +58780,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -58888,7 +58888,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -59063,7 +59063,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -59238,7 +59238,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -59413,7 +59413,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -59577,7 +59577,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -59785,7 +59785,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -59922,7 +59922,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -59993,7 +59993,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60141,7 +60141,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60311,7 +60311,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60382,7 +60382,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60453,7 +60453,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60524,7 +60524,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60595,7 +60595,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60677,7 +60677,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60759,7 +60759,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60830,7 +60830,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60912,7 +60912,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -60983,7 +60983,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61065,7 +61065,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61136,7 +61136,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61207,7 +61207,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61353,7 +61353,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61424,7 +61424,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61495,7 +61495,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61577,7 +61577,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61648,7 +61648,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -61805,7 +61805,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -61876,7 +61876,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -62017,7 +62017,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -62177,7 +62177,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -62293,7 +62293,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -62390,7 +62390,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -62487,7 +62487,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -62567,7 +62567,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -62723,7 +62723,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -62896,7 +62896,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -63145,7 +63145,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -63242,7 +63242,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -63339,7 +63339,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -63436,7 +63436,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -63552,7 +63552,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -63668,7 +63668,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -64051,7 +64051,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -64148,7 +64148,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -64245,7 +64245,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -64361,7 +64361,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -64496,7 +64496,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -64669,7 +64669,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -64842,7 +64842,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -65039,7 +65039,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -65119,7 +65119,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -65246,7 +65246,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -65343,7 +65343,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -65480,7 +65480,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -65615,7 +65615,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -65769,7 +65769,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -65905,7 +65905,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -66077,7 +66077,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -66213,7 +66213,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -66353,7 +66353,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -66525,7 +66525,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -66663,7 +66663,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -66930,7 +66930,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -67026,7 +67026,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -67185,7 +67185,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -67300,7 +67300,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -67651,7 +67651,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -67794,7 +67794,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -67895,7 +67895,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -68658,7 +68658,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -68759,7 +68759,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -68860,7 +68860,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -68982,7 +68982,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -69161,7 +69161,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -69262,7 +69262,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -69535,7 +69535,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -69741,7 +69741,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -69842,7 +69842,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -70027,7 +70027,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -70128,7 +70128,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -71514,7 +71514,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -71657,7 +71657,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -71758,7 +71758,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -71864,7 +71864,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -71948,7 +71948,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -72049,7 +72049,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -72234,7 +72234,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -72440,7 +72440,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -72583,7 +72583,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -72768,7 +72768,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -72869,7 +72869,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -73142,7 +73142,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -73262,7 +73262,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -73363,7 +73363,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -73464,7 +73464,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -73586,7 +73586,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -73691,7 +73691,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -73876,7 +73876,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "tokens": {
@@ -73977,7 +73977,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -74078,7 +74078,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -74179,7 +74179,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -74301,7 +74301,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -74507,7 +74507,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -74608,7 +74608,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -74692,7 +74692,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -74898,7 +74898,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -75083,7 +75083,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -75205,7 +75205,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -75348,7 +75348,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -75481,7 +75481,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -75559,7 +75559,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "tokens": {
@@ -75691,7 +75691,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -75901,7 +75901,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -76002,7 +76002,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -76145,7 +76145,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -76330,7 +76330,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -76536,7 +76536,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -76637,7 +76637,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -76931,7 +76931,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77048,7 +77048,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77177,7 +77177,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -77248,7 +77248,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77338,7 +77338,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77436,7 +77436,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77534,7 +77534,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77632,7 +77632,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77709,7 +77709,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77877,7 +77877,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -77963,7 +77963,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -78032,7 +78032,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -78202,7 +78202,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -78300,7 +78300,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -78371,7 +78371,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [
@@ -78451,7 +78451,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -78534,7 +78534,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
@@ -78624,7 +78624,7 @@ module.exports = {
          "xp": 0,
          "lvl": 1,
          "role": 1,
-         "joints": {},
+         "joints": [],
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
