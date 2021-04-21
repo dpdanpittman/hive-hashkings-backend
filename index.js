@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53213231; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53213475; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53213231;
+const ago = ENV.ago || 53213475;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -808,8 +808,11 @@ function startApp() {
                     let plotID = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PLOTID`);
                     let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
                     let waterStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);
+                    let seedExists = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})]`); 
+
+                    let jointTypes = jp.query(state.users[from], `$.joints[?(@.id==${seedID})].properties.CONSUMABLETYPE`);
                       
-                    if(state.users[from] && sptStatus < 1 && waterStatus < 1){
+                    if(state.users[from]&& seedExists && sptStatus < 1 && waterStatus < 1){
 
                         var budAmount = "" + jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PR`);  
 
@@ -822,66 +825,62 @@ function startApp() {
                         contract.updateNft(hivejs, plotIDString, { "OCCUPIED": false })
                         contract.updateNft(hivejs, plotIDString, { "SEEDID": 0 })
                         }
-                    }
+                    
 
-                //Rent Subdivision <---- coming soon
-                //user will send mota to hk-vault with memo plotOwner and amountRent
+                    //Rent Subdivision <---- coming soon
+                    //user will send mota to hk-vault with memo plotOwner and amountRent
 
-                //smoke joint
-                //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
-                /*if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
+                    //smoke joint
+                    //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
+                    
                     let xp = state.users[from].xp
 
-                    if(state.users[from]){
+                    if(jointTypes === "pinner"){
 
-                        if(state.users[from] && json.contractPayload.memo === "pinner"){
+                        let newXP = xp + state.stats.joints.pinner
 
-                            let newXP = xp + state.stats.joints.pinner
+                        // give xp
+                        state.users[from].xp = newXP
 
-                            // give xp
-                            state.users[from].xp = newXP
-      
-                        } else if(state.users[from] && json.contractPayload.memo === "hempWrappedJoint"){
-                  
-                            let newXP = xp + state.stats.joints.hempWrappedJoint
+                    } else if(jointTypes === "hempWrappedJoint"){
+            
+                        let newXP = xp + state.stats.joints.hempWrappedJoint
 
-                            // give xp
-                            state.users[from].xp = newXP
-      
-                        }else if(state.users[from] && json.contractPayload.memo === "crossJoint"){
-                  
-                            let newXP = xp + state.stats.joints.crossJoint
+                        // give xp
+                        state.users[from].xp = newXP
 
-                            // give xp
-                            state.users[from].xp = newXP
-      
-                        }else if(state.users[from] && json.contractPayload.memo === "blunt"){
-                  
-                            let newXP = xp + state.stats.joints.blunt
+                    }else if(jointTypes === "crossJoint"){
+            
+                        let newXP = xp + state.stats.joints.crossJoint
 
-                            // give xp
-                            state.users[from].xp = newXP
-      
-                        }else if(state.users[from] && json.contractPayload.memo === "hempWrappedBlunt"){
-                  
-                            let newXP = xp + state.stats.joints.hempWrappedBlunt
+                        // give xp
+                        state.users[from].xp = newXP
 
-                            // give xp
-                            state.users[from].xp = newXP
-      
-                        }else if(state.users[from] && json.contractPayload.memo === "twaxJoint"){
-                  
-                            let newXP = xp + state.stats.joints.twaxJoint
+                    }else if(jointTypes === "blunt"){
+            
+                        let newXP = xp + state.stats.joints.blunt
 
-                            // give xp
-                            state.users[from].xp = newXP
-                        }
+                        // give xp
+                        state.users[from].xp = newXP
+
+                    }else if(jointTypes === "hempWrappedBlunt"){
+            
+                        let newXP = xp + state.stats.joints.hempWrappedBlunt
+
+                        // give xp
+                        state.users[from].xp = newXP
+
+                    }else if(jointTypes === "twaxJoint"){
+            
+                        let newXP = xp + state.stats.joints.twaxJoint
+
+                        // give xp
+                        state.users[from].xp = newXP
                     }
-                }*/
 
                 //Use Booster
                 //user sends booster NFT to hk-vault with memo type (ex. use_booster_lvl1, use_booster_lvl2 etc..)
-                if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
+                /*if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
                     let seedID = json.contractPayload.id
                     let plotID = json.contractPayload.memo
 
@@ -900,7 +899,8 @@ function startApp() {
                         contract.updateNft(hivejs, plotID, { "OCCUPIED": false })
                         contract.updateNft(hivejs, plotID, { "SEEDID": 0 })
                         }
-                    }
+                    }*/
+                }
             }
           } else {
             //hive-engine still does not validate this block, touch validate it later
