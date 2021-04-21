@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53213475; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53215110; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53213475;
+const ago = ENV.ago || 53215110;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -742,32 +742,32 @@ function startApp() {
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Twax Joint", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl1 booster"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl1"){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 1 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl2 booster"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl2"){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 2 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl3 booster"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl3"){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 3 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl4 booster"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl4"){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 4 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl5 booster"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl5"){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 5 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl6 booster"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl6"){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 6 Booster", type, from)
@@ -833,9 +833,10 @@ function startApp() {
                     //smoke joint
                     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
                     
-                    let xp = state.users[from].xp
+                    
 
                     if(jointTypes === "pinner"){
+                        let xp = state.users[from].xp
 
                         let newXP = xp + state.stats.joints.pinner
 
@@ -843,6 +844,7 @@ function startApp() {
                         state.users[from].xp = newXP
 
                     } else if(jointTypes === "hempWrappedJoint"){
+                        let xp = state.users[from].xp
             
                         let newXP = xp + state.stats.joints.hempWrappedJoint
 
@@ -850,6 +852,7 @@ function startApp() {
                         state.users[from].xp = newXP
 
                     }else if(jointTypes === "crossJoint"){
+                        let xp = state.users[from].xp
             
                         let newXP = xp + state.stats.joints.crossJoint
 
@@ -857,6 +860,7 @@ function startApp() {
                         state.users[from].xp = newXP
 
                     }else if(jointTypes === "blunt"){
+                        let xp = state.users[from].xp
             
                         let newXP = xp + state.stats.joints.blunt
 
@@ -864,6 +868,7 @@ function startApp() {
                         state.users[from].xp = newXP
 
                     }else if(jointTypes === "hempWrappedBlunt"){
+                        let xp = state.users[from].xp
             
                         let newXP = xp + state.stats.joints.hempWrappedBlunt
 
@@ -871,6 +876,7 @@ function startApp() {
                         state.users[from].xp = newXP
 
                     }else if(jointTypes === "twaxJoint"){
+                        let xp = state.users[from].xp
             
                         let newXP = xp + state.stats.joints.twaxJoint
 
