@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53228800; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53229548; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53228800;
+const ago = ENV.ago || 53229548;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -802,15 +802,17 @@ function startApp() {
                 //User sends seed to hk-vault with memo = plotID
                 if(json.contractPayload.nfts[0].symbol === "HKFARM") {
                     let seed = json.contractPayload.nfts[0];
+                    let nft = json.contractPayload.nfts[0];
 
                     let seedID = seed.ids[0]
+                    let jointID = nft.ids[0]
                     
                     let plotID = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PLOTID`);
                     let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
                     let waterStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);
                     let seedExists = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})]`); 
 
-                    let jointTypes = jp.query(state.users[from], `$.joints[?(@.id==${seedID})].properties.CONSUMABLETYPE`);
+                    let jointTypes = jp.query(state.users[from], `$.joints[?(@.id==${jointID})].properties.NAME`);
                       
                     if(state.users[from]&& seedExists && sptStatus < 1 && waterStatus < 1){
 
@@ -970,7 +972,7 @@ function startApp() {
         let plotID = json.plotID
         let region = json.region
         
-        var dividedStatus = jp.query(json, `$.state.users['${from}'].plots[?(@.id==${plotID})].properties.PLANTED`);
+        var dividedStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.OCCUPIED`);
 
         if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
             
