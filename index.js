@@ -1148,7 +1148,7 @@ function startApp() {
             if(state.users[from] && dividedStatus === false){
 
                 //createsubdivisions
-               await contract.subdividePlot(hivejs, "South America", 7, from)
+                contract.subdividePlot(hivejs, "South America", 7, from)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "afghanistan"){
