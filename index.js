@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53239651; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53239759; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53239651;
+const ago = ENV.ago || 53239759;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -501,13 +501,13 @@ function daily() {
     //distribute water
     var userList = state.stats.farmerList
     try {
-        
     
     for(var i = 0; i < userList.length; i++) {
 
         var user = userList[i]
         if(state.users[user].waterPlants.lvl1 > 0){
-            console.log("sent 30 water tokens to " + user)
+            numberOfTowers = state.users[user].waterPlants.lvl1 * 30
+            console.log("sent "+numberOfTowers+" water tokens to " + user)
         //contract.generateToken(hivejs, "HKWATER", "30", i)
         } 
         
