@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53259300; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53260066; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53259300;
+const ago = ENV.ago || 53260066;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -959,7 +959,7 @@ function startApp() {
                         state.users[from].xp += state.stats.joints.twaxJoint
                     }
 
-                    let boosterString = "" + boosterType 
+                    /*let boosterString = "" + boosterType 
                     if(boosterString === "Level 1 Booster"){
 
                         //claim booster
@@ -994,31 +994,31 @@ function startApp() {
 
                         //claim booster
                         state.stats.users[from].timeBoosters.lvl6 += 1
-                    }
+                    }*/
                 
 
-                //claim Booster
-                //user sends booster NFT to hk-vault with memo type (ex. use_booster_lvl1, use_booster_lvl2 etc..)
-                if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
-                    let seedID = json.contractPayload.id
-                    let plotID = json.contractPayload.memo
+                    //claim Booster
+                    //user sends booster NFT to hk-vault with memo type (ex. use_booster_lvl1, use_booster_lvl2 etc..)
+                    /*if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
+                        let seedID = json.contractPayload.id
+                        let plotID = json.contractPayload.memo
 
-                    let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
-                    let waterStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);
-                      
+                        let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
+                        let waterStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);
+                        
 
-                    if(state.users[from] && sptStatus < 1 && waterStatus < 1){
+                        if(state.users[from] && sptStatus < 1 && waterStatus < 1){
 
-                        var budAmount = "" + jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PR`);  
-                    
-                        //send harvested buds to user
-                        contract.generateToken(hivejs, "BUDS", budAmount, from)
+                            var budAmount = "" + jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PR`);  
+                        
+                            //send harvested buds to user
+                            contract.generateToken(hivejs, "BUDS", budAmount, from)
 
-                        //make plot occupied and designate seed
-                        contract.updateNft(hivejs, plotID, { "OCCUPIED": false })
-                        contract.updateNft(hivejs, plotID, { "SEEDID": 0 })
-                        }
-                    }
+                            //make plot occupied and designate seed
+                            contract.updateNft(hivejs, plotID, { "OCCUPIED": false })
+                            contract.updateNft(hivejs, plotID, { "SEEDID": 0 })
+                            }
+                        }*/
                 }
             }
           } else {
@@ -1112,49 +1112,54 @@ function startApp() {
         let plotIDString = "" + plotID
         
         var dividedStatus = jp.query(state.users[from], `$.plots[?(@.id==${plotID})].properties.SUBDIVIDED`);
+        var plotExists = jp.query(state.users[from], `$.plots[?(@.id==${plotID})]`);
 
+        try {
         if(regionString === "asia"){
-            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+            if(state.users[from] && plotExists && dividedStatus === false){
 
                 //createsubdivisions
                 contract.subdividePlot(hivejs, region, 1)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "africa"){
-            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+            if(state.users[from] && plotExists && dividedStatus === false){
 
                 //createsubdivisions
                 contract.subdividePlot(hivejs, region, 3)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "mexico"){
-            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+            if(state.users[from] && plotExists && dividedStatus === false){
 
                 //createsubdivisions
                 contract.subdividePlot(hivejs, region, 6)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "jamaica"){
-            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+            if(state.users[from] && plotExists && dividedStatus === false){
 
                 //createsubdivisions
                 contract.subdividePlot(hivejs, region, 2)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "southAmerica"){
-            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+            if(state.users[from] && plotExists && dividedStatus === false){
 
                 //createsubdivisions
                 contract.subdividePlot(hivejs, region, 7)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "afghanistan"){
-            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+            if(state.users[from] && plotExists && dividedStatus === false){
 
                 //createsubdivisions
                 contract.subdividePlot(hivejs, region, 5)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
+        }
+        } catch (error) {
+            console.log("plot doesnt exist")    
         }
     });
 
@@ -1188,8 +1193,34 @@ function startApp() {
         
     });
 
+    // change avatar
+    processor.on('change_avatar', function(json, from) {
+        let avatar = json.avatar
+
+        if(state.users[from] && avatar === 1){
+            
+            state.users[from].claimed.role = 1
+
+        } else if(state.users[from] && avatar === 2){
+            
+            state.users[from].claimed.role = 2
+
+        } else if(state.users[from] && avatar === 3){
+            
+            state.users[from].claimed.role = 3
+
+        } else if(state.users[from] && avatar === 4){
+            
+            state.users[from].claimed.role = 4
+
+        } else if(state.users[from] && avatar === 5){
+            
+            state.users[from].claimed.role = 5
+        }                                      
+    });
+
     // use a claimed booster
-    processor.on('use_booster', function(json, from) {
+    /*processor.on('use_booster', function(json, from) {
         let plotID = json.type
         let level = json.lvl
 
@@ -1240,7 +1271,7 @@ function startApp() {
             state.users[from].timeBoosters.lvl6 -= 1
         }
         
-    });
+    });*/
 
     /*-------------------------- RENTALS  ---------------------------*/
 

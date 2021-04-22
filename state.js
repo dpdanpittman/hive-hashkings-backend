@@ -42,9 +42,20 @@ module.exports = {
          ]
       },
       "roles": {
-         "1": "farmer",
-         "2": "landlord",
-         "3": "seedProducer"
+         "male": {
+            "1": "Magical Shaggi",
+            "2": "Farmer Shaggi",
+            "3": "Lucky Shaggi",
+            "4": "Water Baron Shaggi",
+            "5": "Scientist Shaggi"
+         },
+         "female": {
+            "1": "Magical Maggi",
+            "2": "Farmer Maggi",
+            "3": "Lucky Maggi",
+            "4": "Water Baroness Maggi",
+            "5": "Scientist Maggi"
+         }
       },
       "bu": "QmSbqHW8NCNGMVfC65XpMD8gpZkWTqmGDoVekQbvZ4KyzU",
       "bi": 53211101,
