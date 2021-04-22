@@ -1073,7 +1073,6 @@ async function getReport(axios) {
                 totalAllWater: 0,
                 totalAllConsumable: 0,
                 totalAllBooster: 0,
-                totalAllBooster: 0,
                 totalAllAvatar: 0,
                 totalAllWaterTemp: 0
             }

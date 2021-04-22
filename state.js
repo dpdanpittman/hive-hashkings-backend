@@ -1,14 +1,15 @@
 module.exports = {
    "stats": {
+      "seedsUsedLastDay": 0,
       "seedCount": 1739,
       "time": 28000,
       "joints": {
          "pinner": 15,
          "hempWrappedJoint": 75,
          "crossJoint": 400,
-         "blunt": 1000,
+         "blunt": 1100,
          "hempWrappedBlunt": 2500,
-         "twaxJoint": 5000
+         "twaxJoint": 6000
       },
       "regional": {
          "asia": [
@@ -788,10 +789,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -844,7 +842,7 @@ module.exports = {
                "owner": "qwoyn"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "r0um3n1987": {
          "subdivisions": [],
@@ -1082,10 +1080,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -1129,7 +1124,7 @@ module.exports = {
                "owner": "r0um3n1987"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "boyobevan": {
          "subdivisions": [],
@@ -1443,10 +1438,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -1490,7 +1482,7 @@ module.exports = {
                "owner": "boyobevan"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "academialibertad": {
          "subdivisions": [],
@@ -1557,10 +1549,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -1604,7 +1593,7 @@ module.exports = {
                "owner": "academialibertad"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "abztraxxx": {
          "subdivisions": [],
@@ -1690,10 +1679,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -1720,7 +1706,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "audiomancer": {
          "subdivisions": [],
@@ -2175,10 +2161,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -2222,7 +2205,7 @@ module.exports = {
                "owner": "audiomancer"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "cryptounicorn420": {
          "subdivisions": [],
@@ -2517,10 +2500,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -2564,7 +2544,7 @@ module.exports = {
                "owner": "cryptounicorn420"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dolp": {
          "subdivisions": [],
@@ -4143,10 +4123,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -4190,7 +4167,7 @@ module.exports = {
                "owner": "dolp"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "xplora4253": {
          "subdivisions": [],
@@ -4316,10 +4293,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -4363,7 +4337,7 @@ module.exports = {
                "owner": "xplora4253"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ricarox": {
          "subdivisions": [],
@@ -4411,10 +4385,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -4441,7 +4412,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "edtorr704": {
          "subdivisions": [],
@@ -4630,10 +4601,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -4677,7 +4645,7 @@ module.exports = {
                "owner": "edtorr704"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "marcoss21": {
          "subdivisions": [],
@@ -4828,10 +4796,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -4875,7 +4840,7 @@ module.exports = {
                "owner": "marcoss21"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "foxon": {
          "subdivisions": [],
@@ -5472,10 +5437,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -5520,7 +5482,7 @@ module.exports = {
                "owner": "foxon"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "meanbees": {
          "subdivisions": [],
@@ -6053,10 +6015,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -6100,7 +6059,7 @@ module.exports = {
                "owner": "meanbees"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "degranoengrano": {
          "subdivisions": [],
@@ -6443,10 +6402,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -6490,7 +6446,7 @@ module.exports = {
                "owner": "degranoengrano"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ibanezense": {
          "subdivisions": [],
@@ -6576,10 +6532,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -6623,7 +6576,7 @@ module.exports = {
                "owner": "ibanezense"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ejmh": {
          "subdivisions": [],
@@ -6993,10 +6946,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -7073,7 +7023,7 @@ module.exports = {
                "owner": "ejmh"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "toxicmen01": {
          "subdivisions": [],
@@ -7197,10 +7147,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -7245,7 +7192,7 @@ module.exports = {
                "owner": "toxicmen01"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "cratic": {
          "subdivisions": [],
@@ -7369,10 +7316,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -7417,7 +7361,7 @@ module.exports = {
                "owner": "cratic"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "criptojones": {
          "subdivisions": [],
@@ -7484,10 +7428,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -7531,7 +7472,7 @@ module.exports = {
                "owner": "criptojones"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "bigkidstuff": {
          "subdivisions": [],
@@ -7598,10 +7539,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -7645,7 +7583,7 @@ module.exports = {
                "owner": "bigkidstuff"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dominic23": {
          "subdivisions": [],
@@ -7834,10 +7772,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -7881,7 +7816,7 @@ module.exports = {
                "owner": "dominic23"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "electru": {
          "subdivisions": [],
@@ -8024,10 +7959,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -8071,7 +8003,7 @@ module.exports = {
                "owner": "electru"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "lozadakb": {
          "subdivisions": [],
@@ -8252,10 +8184,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -8299,7 +8228,7 @@ module.exports = {
                "owner": "lozadakb"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "hodltoday": {
          "subdivisions": [],
@@ -8366,10 +8295,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -8413,7 +8339,7 @@ module.exports = {
                "owner": "hodltoday"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "fdeflash": {
          "subdivisions": [],
@@ -8575,10 +8501,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -8622,7 +8545,7 @@ module.exports = {
                "owner": "fdeflash"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "pedroozj": {
          "subdivisions": [],
@@ -8689,10 +8612,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -8736,7 +8656,7 @@ module.exports = {
                "owner": "pedroozj"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "facugaba": {
          "subdivisions": [],
@@ -9114,10 +9034,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -9161,7 +9078,7 @@ module.exports = {
                "owner": "facugaba"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "luisveco88": {
          "subdivisions": [],
@@ -9209,10 +9126,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -9256,7 +9170,7 @@ module.exports = {
                "owner": "luisveco88"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "aries02": {
          "subdivisions": [],
@@ -9323,10 +9237,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -9370,7 +9281,7 @@ module.exports = {
                "owner": "aries02"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "medicenw1": {
          "subdivisions": [],
@@ -9397,10 +9308,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -9427,7 +9335,7 @@ module.exports = {
             "bud": true
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "quefe": {
          "subdivisions": [],
@@ -9546,10 +9454,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -9593,7 +9498,7 @@ module.exports = {
                "owner": "quefe"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mejiasclaudia": {
          "subdivisions": [],
@@ -9660,10 +9565,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -9707,7 +9609,7 @@ module.exports = {
                "owner": "mejiasclaudia"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "cadawg": {
          "subdivisions": [],
@@ -10002,10 +9904,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -10049,7 +9948,7 @@ module.exports = {
                "owner": "cadawg"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ecuaminte": {
          "subdivisions": [],
@@ -10215,10 +10114,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -10262,7 +10158,7 @@ module.exports = {
                "owner": "ecuaminte"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "abrockman": {
          "subdivisions": [],
@@ -11632,10 +11528,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -11679,7 +11572,7 @@ module.exports = {
                "owner": "abrockman"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "supremdsm": {
          "subdivisions": [],
@@ -11727,10 +11620,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -11774,7 +11664,7 @@ module.exports = {
                "owner": "supremdsm"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "darthslaver": {
          "subdivisions": [],
@@ -11822,10 +11712,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -11869,7 +11756,7 @@ module.exports = {
                "owner": "darthslaver"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "juanchuzx": {
          "subdivisions": [],
@@ -11936,10 +11823,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -11983,7 +11867,7 @@ module.exports = {
                "owner": "juanchuzx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dobro2020": {
          "subdivisions": [],
@@ -12031,10 +11915,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -12078,7 +11959,7 @@ module.exports = {
                "owner": "dobro2020"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dantejcs": {
          "subdivisions": [],
@@ -12164,10 +12045,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -12211,7 +12089,7 @@ module.exports = {
                "owner": "dantejcs"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "the-mister7": {
          "subdivisions": [],
@@ -12354,10 +12232,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -12401,7 +12276,7 @@ module.exports = {
                "owner": "the-mister7"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "reward.app": {
          "plots": {
@@ -12440,10 +12315,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -12451,7 +12323,7 @@ module.exports = {
          "joints": [],
          "tokens": {},
          "dailyBudDeposit": 0,
-         "boosters": {}
+         "boosters": []
       },
       "oblivioncubed": {
          "subdivisions": [],
@@ -12490,10 +12362,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -12520,7 +12389,7 @@ module.exports = {
             "bud": true
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "yoclensavilan": {
          "subdivisions": [],
@@ -12587,10 +12456,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -12634,7 +12500,7 @@ module.exports = {
                "owner": "yoclensavilan"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "elprutest": {
          "subdivisions": [],
@@ -13330,10 +13196,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -13377,7 +13240,7 @@ module.exports = {
                "owner": "elprutest"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "water": 570
       },
       "khan.dayyanz": {
@@ -13483,10 +13346,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -13530,7 +13390,7 @@ module.exports = {
                "owner": "khan.dayyanz"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "xbladex": {
          "subdivisions": [],
@@ -13770,10 +13630,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -13818,7 +13675,7 @@ module.exports = {
                "owner": "xbladex"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "cireth": {
          "subdivisions": [],
@@ -13866,10 +13723,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -13896,7 +13750,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "infernalcoliseum": {
          "subdivisions": [],
@@ -13923,10 +13777,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -13970,7 +13821,7 @@ module.exports = {
                "owner": "infernalcoliseum"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "anarcist69": {
          "subdivisions": [],
@@ -14253,10 +14104,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -14300,7 +14148,7 @@ module.exports = {
                "owner": "anarcist69"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jmsansan.leo": {
          "subdivisions": [],
@@ -14348,10 +14196,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -14395,7 +14240,7 @@ module.exports = {
                "owner": "jmsansan.leo"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jinmori": {
          "subdivisions": [],
@@ -14462,10 +14307,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -14509,7 +14351,7 @@ module.exports = {
                "owner": "jinmori"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "nemesis29ff": {
          "subdivisions": [],
@@ -14576,10 +14418,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -14606,7 +14445,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "mafia.wallet": {
          "plots": {
@@ -14667,10 +14506,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -14678,7 +14514,7 @@ module.exports = {
          "joints": [],
          "tokens": {},
          "dailyBudDeposit": 0,
-         "boosters": {}
+         "boosters": []
       },
       "cesarg": {
          "subdivisions": [],
@@ -14717,10 +14553,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -14764,7 +14597,7 @@ module.exports = {
                "owner": "cesarg"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "davedickeyyall": {
          "subdivisions": [],
@@ -14812,10 +14645,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -14842,7 +14672,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "gooba": {
          "subdivisions": [],
@@ -14909,10 +14739,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -14956,7 +14783,7 @@ module.exports = {
                "owner": "gooba"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "hexflex": {
          "subdivisions": [],
@@ -15219,10 +15046,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -15249,7 +15073,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "proto26": {
          "subdivisions": [],
@@ -15297,10 +15121,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -15344,7 +15165,7 @@ module.exports = {
                "owner": "proto26"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "nataxsnakex1": {
          "subdivisions": [],
@@ -15506,10 +15327,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -15553,7 +15371,7 @@ module.exports = {
                "owner": "nataxsnakex1"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "skippyza": {
          "subdivisions": [],
@@ -15620,10 +15438,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -15667,7 +15482,7 @@ module.exports = {
                "owner": "skippyza"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "udabeu": {
          "subdivisions": [],
@@ -15772,10 +15587,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -15819,7 +15631,7 @@ module.exports = {
                "owner": "udabeu"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "luisdavid17": {
          "subdivisions": [],
@@ -15886,10 +15698,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -15933,7 +15742,7 @@ module.exports = {
                "owner": "luisdavid17"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mermaidvampire": {
          "subdivisions": [],
@@ -16204,10 +16013,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -16251,7 +16057,7 @@ module.exports = {
                "owner": "mermaidvampire"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "bwar": {
          "subdivisions": [],
@@ -16299,10 +16105,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -16346,7 +16149,7 @@ module.exports = {
                "owner": "bwar"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "yova22": {
          "subdivisions": [],
@@ -16660,10 +16463,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -16707,7 +16507,7 @@ module.exports = {
                "owner": "yova22"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "seravilop": {
          "subdivisions": [],
@@ -16812,10 +16612,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -16842,7 +16639,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "krakolito": {
          "subdivisions": [],
@@ -17073,10 +16870,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -17120,7 +16914,7 @@ module.exports = {
                "owner": "krakolito"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mooncrab88": {
          "subdivisions": [],
@@ -17168,10 +16962,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -17215,7 +17006,7 @@ module.exports = {
                "owner": "mooncrab88"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "silverxdpro": {
          "subdivisions": [],
@@ -17301,10 +17092,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -17348,7 +17136,7 @@ module.exports = {
                "owner": "silverxdpro"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "gamsam": {
          "subdivisions": [],
@@ -17844,10 +17632,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -17892,7 +17677,7 @@ module.exports = {
                "owner": "gamsam"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "shmoogleosukami": {
          "subdivisions": [],
@@ -17940,10 +17725,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -17987,7 +17769,7 @@ module.exports = {
                "owner": "shmoogleosukami"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "wagginston": {
          "subdivisions": [],
@@ -18871,10 +18653,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -18918,7 +18697,7 @@ module.exports = {
                "owner": "wagginston"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "nupulse": {
          "subdivisions": [],
@@ -19004,10 +18783,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -19034,7 +18810,7 @@ module.exports = {
             "bud": true
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "bhoa": {
          "subdivisions": [],
@@ -19122,10 +18898,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -19152,7 +18925,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "bitandi": {
          "subdivisions": [],
@@ -19200,10 +18973,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -19247,7 +19017,7 @@ module.exports = {
                "owner": "bitandi"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "steinreich": {
          "subdivisions": [],
@@ -19295,10 +19065,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -19325,7 +19092,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "bassman077": {
          "subdivisions": [],
@@ -19434,10 +19201,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -19482,7 +19246,7 @@ module.exports = {
                "owner": "bassman077"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "condeas": {
          "subdivisions": [],
@@ -19587,10 +19351,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -19634,7 +19395,7 @@ module.exports = {
                "owner": "condeas"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "joebabana": {
          "subdivisions": [],
@@ -19701,10 +19462,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -19748,7 +19506,7 @@ module.exports = {
                "owner": "joebabana"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "virusfx": {
          "subdivisions": [],
@@ -20093,10 +19851,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -20140,7 +19895,7 @@ module.exports = {
                "owner": "virusfx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "aubryd": {
          "subdivisions": [],
@@ -20209,10 +19964,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -20256,7 +20008,7 @@ module.exports = {
                "owner": "aubryd"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "treefiddybruh": {
          "subdivisions": [],
@@ -20361,10 +20113,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -20409,7 +20158,7 @@ module.exports = {
                "owner": "treefiddybruh"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "definitelyn0tme": {
          "subdivisions": [],
@@ -22803,10 +22552,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -22842,7 +22588,7 @@ module.exports = {
                "owner": "definitelyn0tme"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "elricmoonslayer": {
          "subdivisions": [],
@@ -22890,10 +22636,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -22920,7 +22663,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "quantumnachos": {
          "subdivisions": [],
@@ -23234,10 +22977,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -23281,7 +23021,7 @@ module.exports = {
                "owner": "quantumnachos"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "reeeheee": {
          "subdivisions": [],
@@ -23367,10 +23107,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -23397,7 +23134,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "sinerjji": {
          "subdivisions": [],
@@ -23464,10 +23201,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -23511,7 +23245,7 @@ module.exports = {
                "owner": "sinerjji"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "malonn": {
          "subdivisions": [],
@@ -23559,10 +23293,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -23589,7 +23320,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "swashcoldsteel": {
          "subdivisions": [],
@@ -23656,10 +23387,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -23703,7 +23431,7 @@ module.exports = {
                "owner": "swashcoldsteel"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "uganzadranje": {
          "subdivisions": [],
@@ -23808,10 +23536,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -23855,7 +23580,7 @@ module.exports = {
                "owner": "uganzadranje"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "honey-swap": {
          "plots": {
@@ -23894,10 +23619,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -23905,7 +23627,7 @@ module.exports = {
          "joints": [],
          "tokens": {},
          "dailyBudDeposit": 0,
-         "boosters": {}
+         "boosters": []
       },
       "nathanpieters": {
          "subdivisions": [],
@@ -23953,10 +23675,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -23983,7 +23702,7 @@ module.exports = {
             "bud": false
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "willsaldeno": {
          "subdivisions": [],
@@ -24050,10 +23769,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -24097,7 +23813,7 @@ module.exports = {
                "owner": "willsaldeno"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "hosherama": {
          "subdivisions": [],
@@ -24568,10 +24284,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -24607,7 +24320,7 @@ module.exports = {
                "owner": "hosherama"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "turb0nen": {
          "subdivisions": [],
@@ -24799,10 +24512,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -24846,7 +24556,7 @@ module.exports = {
                "owner": "turb0nen"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "psycodelic": {
          "subdivisions": [],
@@ -25198,10 +24908,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -25245,7 +24952,7 @@ module.exports = {
                "owner": "psycodelic"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "badpupper": {
          "subdivisions": [],
@@ -25694,10 +25401,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -25742,7 +25446,7 @@ module.exports = {
                "owner": "badpupper"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "hersi007": {
          "subdivisions": [],
@@ -25870,10 +25574,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -25917,7 +25618,7 @@ module.exports = {
                "owner": "hersi007"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "acne": {
          "subdivisions": [],
@@ -25965,10 +25666,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -26012,7 +25710,7 @@ module.exports = {
                "owner": "acne"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "sanchezro": {
          "subdivisions": [],
@@ -26287,10 +25985,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -26334,7 +26029,7 @@ module.exports = {
                "owner": "sanchezro"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "tongostar": {
          "subdivisions": [],
@@ -26382,10 +26077,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -26429,7 +26121,7 @@ module.exports = {
                "owner": "tongostar"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "casilokodesing": {
          "subdivisions": [],
@@ -26534,10 +26226,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "xp": 0,
          "lvl": 1,
@@ -26581,7 +26270,7 @@ module.exports = {
                "owner": "casilokodesing"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "heikki1337": {
          "subdivisions": [],
@@ -26630,10 +26319,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -26678,7 +26364,7 @@ module.exports = {
                "owner": "heikki1337"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "w0nd3rgrip": {
          "subdivisions": [],
@@ -27012,10 +26698,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27060,7 +26743,7 @@ module.exports = {
                "owner": "w0nd3rgrip"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mako07": {
          "subdivisions": [],
@@ -27280,10 +26963,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27328,7 +27008,7 @@ module.exports = {
                "owner": "mako07"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "cryptixmlonwax": {
          "subdivisions": [],
@@ -27377,10 +27057,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27408,7 +27085,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "chubb149": {
          "subdivisions": [],
@@ -27457,10 +27134,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27505,7 +27179,7 @@ module.exports = {
                "owner": "chubb149"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "tremou922": {
          "subdivisions": [],
@@ -27596,10 +27270,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27644,7 +27315,7 @@ module.exports = {
                "owner": "tremou922"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "caprisk": {
          "subdivisions": [],
@@ -27769,10 +27440,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27817,7 +27485,7 @@ module.exports = {
                "owner": "caprisk"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "criptosectadepit": {
          "subdivisions": [],
@@ -28163,10 +27831,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -28211,7 +27876,7 @@ module.exports = {
                "owner": "criptosectadepit"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jacksonrj": {
          "subdivisions": [],
@@ -28260,10 +27925,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -28308,7 +27970,7 @@ module.exports = {
                "owner": "jacksonrj"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jarkillo": {
          "subdivisions": [],
@@ -28378,10 +28040,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -28426,7 +28085,7 @@ module.exports = {
                "owner": "jarkillo"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "xmuguenx": {
          "subdivisions": [],
@@ -28551,10 +28210,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -28599,7 +28255,7 @@ module.exports = {
                "owner": "xmuguenx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "kratosn2": {
          "subdivisions": [],
@@ -29036,10 +28692,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29084,7 +28737,7 @@ module.exports = {
                "owner": "kratosn2"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "rokimv87": {
          "subdivisions": [],
@@ -29422,10 +29075,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29470,7 +29120,7 @@ module.exports = {
                "owner": "rokimv87"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "alter13": {
          "subdivisions": [],
@@ -29519,10 +29169,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29550,7 +29197,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "spinvest": {
          "subdivisions": [],
@@ -29694,10 +29341,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29742,7 +29386,7 @@ module.exports = {
                "owner": "spinvest"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "forykw": {
          "subdivisions": [],
@@ -29791,10 +29435,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29839,7 +29480,7 @@ module.exports = {
                "owner": "forykw"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "naxter1998": {
          "subdivisions": [],
@@ -29945,10 +29586,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29993,7 +29631,7 @@ module.exports = {
                "owner": "naxter1998"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "paulstark27": {
          "subdivisions": [],
@@ -30061,10 +29699,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -30109,7 +29744,7 @@ module.exports = {
                "owner": "paulstark27"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "chito1": {
          "subdivisions": [],
@@ -30242,10 +29877,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -30290,7 +29922,7 @@ module.exports = {
                "owner": "chito1"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "benjaaa": {
          "subdivisions": [],
@@ -30400,10 +30032,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -30448,7 +30077,7 @@ module.exports = {
                "owner": "benjaaa"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "grinselion": {
          "subdivisions": [],
@@ -30763,10 +30392,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -30811,7 +30437,7 @@ module.exports = {
                "owner": "grinselion"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "spi-steemcity": {
          "subdivisions": [],
@@ -31411,10 +31037,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31459,7 +31082,7 @@ module.exports = {
                "owner": "spi-steemcity"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "lerage": {
          "subdivisions": [],
@@ -31516,10 +31139,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31564,7 +31184,7 @@ module.exports = {
                "owner": "lerage"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "brofundholdings": {
          "subdivisions": [],
@@ -31727,10 +31347,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31758,7 +31375,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "jfang003": {
          "subdivisions": [],
@@ -31807,10 +31424,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31855,7 +31469,7 @@ module.exports = {
                "owner": "jfang003"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "marjanko": {
          "subdivisions": [],
@@ -31904,10 +31518,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31935,7 +31546,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "buritica": {
          "subdivisions": [],
@@ -32193,10 +31804,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -32240,7 +31848,7 @@ module.exports = {
                "owner": "buritica"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mec45": {
          "subdivisions": [],
@@ -32690,10 +32298,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -32738,7 +32343,7 @@ module.exports = {
                "owner": "mec45"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "zeusdy": {
          "subdivisions": [],
@@ -32958,10 +32563,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33006,7 +32608,7 @@ module.exports = {
                "owner": "zeusdy"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "boitata": {
          "subdivisions": [],
@@ -33093,10 +32695,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33141,7 +32740,7 @@ module.exports = {
                "owner": "boitata"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "drisinger": {
          "subdivisions": [],
@@ -33247,10 +32846,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33295,7 +32891,7 @@ module.exports = {
                "owner": "drisinger"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "luffy1737": {
          "subdivisions": [],
@@ -33363,10 +32959,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33411,7 +33004,7 @@ module.exports = {
                "owner": "luffy1737"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "zanrsc": {
          "subdivisions": [],
@@ -33582,10 +33175,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33630,7 +33220,7 @@ module.exports = {
                "owner": "zanrsc"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "rnldjose31": {
          "subdivisions": [],
@@ -33801,10 +33391,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33849,7 +33436,7 @@ module.exports = {
                "owner": "rnldjose31"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "docarmoedu": {
          "subdivisions": [],
@@ -33936,10 +33523,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33984,7 +33568,7 @@ module.exports = {
                "owner": "docarmoedu"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "kayser191": {
          "subdivisions": [],
@@ -34033,10 +33617,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34064,7 +33645,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "chemams19": {
          "subdivisions": [],
@@ -34132,10 +33713,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34180,7 +33758,7 @@ module.exports = {
                "owner": "chemams19"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "lolobonilla": {
          "subdivisions": [],
@@ -34229,10 +33807,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34277,7 +33852,7 @@ module.exports = {
                "owner": "lolobonilla"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "eduarz150792": {
          "subdivisions": [],
@@ -34554,10 +34129,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34585,7 +34157,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "largo24": {
          "subdivisions": [],
@@ -34881,10 +34453,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34929,7 +34498,7 @@ module.exports = {
                "owner": "largo24"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "duaystive": {
          "subdivisions": [],
@@ -35056,10 +34625,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35104,7 +34670,7 @@ module.exports = {
                "owner": "duaystive"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "anyeloert": {
          "subdivisions": [],
@@ -35153,10 +34719,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35201,7 +34764,7 @@ module.exports = {
                "owner": "anyeloert"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "pelayin999": {
          "subdivisions": [],
@@ -35307,10 +34870,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35355,7 +34915,7 @@ module.exports = {
                "owner": "pelayin999"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "olgerv1": {
          "subdivisions": [],
@@ -35518,10 +35078,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35566,7 +35123,7 @@ module.exports = {
                "owner": "olgerv1"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "hissing1": {
          "subdivisions": [],
@@ -35751,10 +35308,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35799,7 +35353,7 @@ module.exports = {
                "owner": "hissing1"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "joseph77": {
          "subdivisions": [],
@@ -35943,10 +35497,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35974,7 +35525,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "sureng11": {
          "subdivisions": [],
@@ -36042,10 +35593,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36090,7 +35638,7 @@ module.exports = {
                "owner": "sureng11"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "heybertu": {
          "subdivisions": [],
@@ -36405,10 +35953,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36453,7 +35998,7 @@ module.exports = {
                "owner": "heybertu"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jagerocker": {
          "subdivisions": [],
@@ -36521,10 +36066,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36569,7 +36111,7 @@ module.exports = {
                "owner": "jagerocker"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dgon": {
          "subdivisions": [],
@@ -36618,10 +36160,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36666,7 +36205,7 @@ module.exports = {
                "owner": "dgon"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "kokebo": {
          "subdivisions": [],
@@ -36715,10 +36254,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36763,7 +36299,7 @@ module.exports = {
                "owner": "kokebo"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "davidagn79": {
          "subdivisions": [],
@@ -36871,10 +36407,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36919,7 +36452,7 @@ module.exports = {
                "owner": "davidagn79"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "inek18": {
          "subdivisions": [],
@@ -37120,10 +36653,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37168,7 +36698,7 @@ module.exports = {
                "owner": "inek18"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "leaisx": {
          "subdivisions": [],
@@ -37312,10 +36842,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37360,7 +36887,7 @@ module.exports = {
                "owner": "leaisx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "tatovzla": {
          "subdivisions": [],
@@ -37504,10 +37031,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37552,7 +37076,7 @@ module.exports = {
                "owner": "tatovzla"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "leon95": {
          "subdivisions": [],
@@ -37601,10 +37125,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37649,7 +37170,7 @@ module.exports = {
                "owner": "leon95"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ksyuca007": {
          "subdivisions": [],
@@ -37736,10 +37257,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37767,7 +37285,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "atarxix": {
          "subdivisions": [],
@@ -37816,10 +37334,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37864,7 +37379,7 @@ module.exports = {
                "owner": "atarxix"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ilidangrx": {
          "subdivisions": [],
@@ -37970,10 +37485,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38018,7 +37530,7 @@ module.exports = {
                "owner": "ilidangrx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "wsgrupoespanol": {
          "subdivisions": [],
@@ -38086,10 +37598,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38134,7 +37643,7 @@ module.exports = {
                "owner": "wsgrupoespanol"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "elbakalah": {
          "subdivisions": [],
@@ -38259,10 +37768,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38307,7 +37813,7 @@ module.exports = {
                "owner": "elbakalah"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "eduardro": {
          "subdivisions": [],
@@ -38584,10 +38090,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38632,7 +38135,7 @@ module.exports = {
                "owner": "eduardro"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "thejc50": {
          "subdivisions": [],
@@ -38700,10 +38203,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38731,7 +38231,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "ejercol": {
          "subdivisions": [],
@@ -38837,10 +38337,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38885,7 +38382,7 @@ module.exports = {
                "owner": "ejercol"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "sek1g": {
          "subdivisions": [],
@@ -38991,10 +38488,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39039,7 +38533,7 @@ module.exports = {
                "owner": "sek1g"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "marisenpai": {
          "subdivisions": [],
@@ -39107,10 +38601,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39155,7 +38646,7 @@ module.exports = {
                "owner": "marisenpai"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jonramirez": {
          "subdivisions": [],
@@ -39183,10 +38674,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39231,7 +38719,7 @@ module.exports = {
                "owner": "jonramirez"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "yudai": {
          "subdivisions": [],
@@ -39413,10 +38901,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39461,7 +38946,7 @@ module.exports = {
                "owner": "yudai"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "chuchunorris": {
          "subdivisions": [],
@@ -39510,10 +38995,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39558,7 +39040,7 @@ module.exports = {
                "owner": "chuchunorris"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "maurojx": {
          "subdivisions": [],
@@ -39645,10 +39127,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39693,7 +39172,7 @@ module.exports = {
                "owner": "maurojx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "davjaimes10": {
          "subdivisions": [],
@@ -39837,10 +39316,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39885,7 +39361,7 @@ module.exports = {
                "owner": "davjaimes10"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "masterwarclash": {
          "subdivisions": [],
@@ -39972,10 +39448,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40020,7 +39493,7 @@ module.exports = {
                "owner": "masterwarclash"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "vixda": {
          "subdivisions": [],
@@ -40088,10 +39561,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40136,7 +39606,7 @@ module.exports = {
                "owner": "vixda"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "richardmt95": {
          "subdivisions": [],
@@ -40204,10 +39674,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40235,7 +39702,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "planchero": {
          "subdivisions": [],
@@ -40531,10 +39998,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40579,7 +40043,7 @@ module.exports = {
                "owner": "planchero"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "graceathenas": {
          "subdivisions": [],
@@ -40689,10 +40153,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40737,7 +40198,7 @@ module.exports = {
                "owner": "graceathenas"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "hasted": {
          "subdivisions": [],
@@ -40957,10 +40418,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41005,7 +40463,7 @@ module.exports = {
                "owner": "hasted"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jeffx09": {
          "subdivisions": [],
@@ -41136,10 +40594,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41184,7 +40639,7 @@ module.exports = {
                "owner": "jeffx09"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "lalogg13": {
          "subdivisions": [],
@@ -41271,10 +40726,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41319,7 +40771,7 @@ module.exports = {
                "owner": "lalogg13"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "emqcripto": {
          "subdivisions": [],
@@ -41634,10 +41086,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41682,7 +41131,7 @@ module.exports = {
                "owner": "emqcripto"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "kiro12": {
          "subdivisions": [],
@@ -41750,10 +41199,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41798,7 +41244,7 @@ module.exports = {
                "owner": "kiro12"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "altercristian": {
          "subdivisions": [],
@@ -41847,10 +41293,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41895,7 +41338,7 @@ module.exports = {
                "owner": "altercristian"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "leoking1985": {
          "subdivisions": [],
@@ -41963,10 +41406,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42011,7 +41451,7 @@ module.exports = {
                "owner": "leoking1985"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "zxion": {
          "subdivisions": [],
@@ -42079,10 +41519,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42127,7 +41564,7 @@ module.exports = {
                "owner": "zxion"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "lulisway": {
          "subdivisions": [],
@@ -42176,10 +41613,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42207,7 +41641,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "obando": {
          "subdivisions": [],
@@ -42332,10 +41766,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42380,7 +41811,7 @@ module.exports = {
                "owner": "obando"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "kalocaj": {
          "subdivisions": [],
@@ -42467,10 +41898,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42515,7 +41943,7 @@ module.exports = {
                "owner": "kalocaj"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "roypadron": {
          "subdivisions": [],
@@ -42583,10 +42011,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42631,7 +42056,7 @@ module.exports = {
                "owner": "roypadron"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "alexander1975": {
          "subdivisions": [],
@@ -42699,10 +42124,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42747,7 +42169,7 @@ module.exports = {
                "owner": "alexander1975"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "xkaliburx": {
          "subdivisions": [],
@@ -42817,10 +42239,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42865,7 +42284,7 @@ module.exports = {
                "owner": "xkaliburx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dani1884": {
          "subdivisions": [],
@@ -42977,10 +42396,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43025,7 +42441,7 @@ module.exports = {
                "owner": "dani1884"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "gabriiq": {
          "subdivisions": [],
@@ -43123,10 +42539,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43163,7 +42576,7 @@ module.exports = {
                "owner": "gabriiq"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "javikalimar": {
          "subdivisions": [],
@@ -43250,10 +42663,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43298,7 +42708,7 @@ module.exports = {
                "owner": "javikalimar"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "edinsonoro": {
          "subdivisions": [],
@@ -43366,10 +42776,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43414,7 +42821,7 @@ module.exports = {
                "owner": "edinsonoro"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "terrible93": {
          "subdivisions": [],
@@ -43484,10 +42891,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43532,7 +42936,7 @@ module.exports = {
                "owner": "terrible93"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "water": 30
       },
       "jarrical0506": {
@@ -43715,10 +43119,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43763,7 +43164,7 @@ module.exports = {
                "owner": "jarrical0506"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "cryptomilovat": {
          "subdivisions": [],
@@ -43869,10 +43270,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43917,7 +43315,7 @@ module.exports = {
                "owner": "cryptomilovat"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mpock": {
          "subdivisions": [],
@@ -44006,10 +43404,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44054,7 +43449,7 @@ module.exports = {
                "owner": "mpock"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "fernandohg11": {
          "subdivisions": [],
@@ -44122,10 +43517,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44170,7 +43562,7 @@ module.exports = {
                "owner": "fernandohg11"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ozkar13": {
          "subdivisions": [],
@@ -44238,10 +43630,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44286,7 +43675,7 @@ module.exports = {
                "owner": "ozkar13"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ozono": {
          "subdivisions": [],
@@ -44354,10 +43743,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44402,7 +43788,7 @@ module.exports = {
                "owner": "ozono"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dchicaiza5": {
          "subdivisions": [],
@@ -44451,10 +43837,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44491,7 +43874,7 @@ module.exports = {
                "owner": "dchicaiza5"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "warzone2100": {
          "subdivisions": [],
@@ -44540,10 +43923,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44588,7 +43968,7 @@ module.exports = {
                "owner": "warzone2100"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jeanzz": {
          "subdivisions": [],
@@ -44719,10 +44099,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44767,7 +44144,7 @@ module.exports = {
                "owner": "jeanzz"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "stiven1044000000": {
          "subdivisions": [],
@@ -44816,10 +44193,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44847,7 +44221,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "surajbhattarai": {
          "subdivisions": [],
@@ -44896,10 +44270,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44944,7 +44315,7 @@ module.exports = {
                "owner": "surajbhattarai"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "benhaleymade": {
          "subdivisions": [],
@@ -44993,10 +44364,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45024,7 +44392,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "gallito": {
          "subdivisions": [],
@@ -45434,10 +44802,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45482,7 +44847,7 @@ module.exports = {
                "owner": "gallito"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "zpablo": {
          "subdivisions": [],
@@ -45569,10 +44934,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45617,7 +44979,7 @@ module.exports = {
                "owner": "zpablo"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "weirdestwolf": {
          "subdivisions": [],
@@ -45685,10 +45047,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45733,7 +45092,7 @@ module.exports = {
                "owner": "weirdestwolf"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ddamiandonis": {
          "subdivisions": [],
@@ -45820,10 +45179,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45868,7 +45224,7 @@ module.exports = {
                "owner": "ddamiandonis"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "eldudu": {
          "subdivisions": [],
@@ -45997,10 +45353,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46045,7 +45398,7 @@ module.exports = {
                "owner": "eldudu"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "christian7urquia": {
          "subdivisions": [],
@@ -46216,10 +45569,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46264,7 +45614,7 @@ module.exports = {
                "owner": "christian7urquia"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ellocohugo": {
          "subdivisions": [],
@@ -46332,10 +45682,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46380,7 +45727,7 @@ module.exports = {
                "owner": "ellocohugo"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jacielxy": {
          "subdivisions": [],
@@ -46566,10 +45913,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46614,7 +45958,7 @@ module.exports = {
                "owner": "jacielxy"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "sirbogavante": {
          "subdivisions": [],
@@ -46701,10 +46045,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46732,7 +46073,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "asas96": {
          "subdivisions": [],
@@ -46903,10 +46244,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46951,7 +46289,7 @@ module.exports = {
                "owner": "asas96"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "procash1": {
          "subdivisions": [],
@@ -47019,10 +46357,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47067,7 +46402,7 @@ module.exports = {
                "owner": "procash1"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "davidtradefx": {
          "subdivisions": [],
@@ -47154,10 +46489,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47202,7 +46534,7 @@ module.exports = {
                "owner": "davidtradefx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "oldmans": {
          "subdivisions": [],
@@ -47443,10 +46775,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47491,7 +46820,7 @@ module.exports = {
                "owner": "oldmans"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "tupacdre82": {
          "subdivisions": [],
@@ -47540,10 +46869,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47588,7 +46914,7 @@ module.exports = {
                "owner": "tupacdre82"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "perezcan": {
          "subdivisions": [],
@@ -47694,10 +47020,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47742,7 +47065,7 @@ module.exports = {
                "owner": "perezcan"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ronny2721": {
          "subdivisions": [],
@@ -47829,10 +47152,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47877,7 +47197,7 @@ module.exports = {
                "owner": "ronny2721"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mundoencriptado": {
          "subdivisions": [],
@@ -47945,10 +47265,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47976,7 +47293,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "bmck117": {
          "subdivisions": [],
@@ -48101,10 +47418,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -48149,7 +47463,7 @@ module.exports = {
                "owner": "bmck117"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "martinezams": {
          "subdivisions": [],
@@ -48274,10 +47588,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -48322,7 +47633,7 @@ module.exports = {
                "owner": "martinezams"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "netaterra": {
          "subdivisions": [],
@@ -48390,10 +47701,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -48421,7 +47729,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "jerrysstyle": {
          "subdivisions": [],
@@ -48470,10 +47778,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -48518,7 +47823,7 @@ module.exports = {
                "owner": "jerrysstyle"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "weedgood": {
          "subdivisions": [],
@@ -48586,10 +47891,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -48617,7 +47919,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "materrila14": {
          "subdivisions": [],
@@ -48723,10 +48025,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -48771,7 +48070,7 @@ module.exports = {
                "owner": "materrila14"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "kinggo9": {
          "subdivisions": [],
@@ -49811,10 +49110,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -49859,7 +49155,7 @@ module.exports = {
                "owner": "kinggo9"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "razyel24": {
          "subdivisions": [],
@@ -49948,10 +49244,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -49996,7 +49289,7 @@ module.exports = {
                "owner": "razyel24"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "infinito2021": {
          "subdivisions": [],
@@ -50121,10 +49414,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -50169,7 +49459,7 @@ module.exports = {
                "owner": "infinito2021"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "melcaya": {
          "subdivisions": [],
@@ -50370,10 +49660,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -50417,7 +49704,7 @@ module.exports = {
                "owner": "melcaya"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "largouuu": {
          "subdivisions": [],
@@ -50913,10 +50200,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -50961,7 +50245,7 @@ module.exports = {
                "owner": "largouuu"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "pippex": {
          "subdivisions": [],
@@ -50989,10 +50273,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -51037,7 +50318,7 @@ module.exports = {
                "owner": "pippex"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "cryptosfera": {
          "subdivisions": [],
@@ -51143,10 +50424,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -51191,7 +50469,7 @@ module.exports = {
                "owner": "cryptosfera"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "nobutsd1974": {
          "subdivisions": [],
@@ -51540,10 +50818,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -51588,7 +50863,7 @@ module.exports = {
                "owner": "nobutsd1974"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "hazeudon": {
          "subdivisions": [],
@@ -52435,10 +51710,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52483,7 +51755,7 @@ module.exports = {
                "owner": "hazeudon"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "canna-curate": {
          "subdivisions": [],
@@ -52532,10 +51804,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52563,7 +51832,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "victorycoin23": {
          "subdivisions": [],
@@ -52631,10 +51900,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52679,7 +51945,7 @@ module.exports = {
                "owner": "victorycoin23"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "javier42": {
          "subdivisions": [],
@@ -52766,10 +52032,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52830,7 +52093,7 @@ module.exports = {
                "owner": "javier42"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "javieruscu69": {
          "subdivisions": [],
@@ -52936,10 +52199,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52984,7 +52244,7 @@ module.exports = {
                "owner": "javieruscu69"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "robin-nrs": {
          "subdivisions": [],
@@ -53052,10 +52312,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53100,7 +52357,7 @@ module.exports = {
                "owner": "robin-nrs"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "sachique23": {
          "subdivisions": [],
@@ -53187,10 +52444,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53235,7 +52489,7 @@ module.exports = {
                "owner": "sachique23"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "danny198": {
          "subdivisions": [],
@@ -53303,10 +52557,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53351,7 +52602,7 @@ module.exports = {
                "owner": "danny198"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "flakkaseagulls": {
          "subdivisions": [],
@@ -53400,10 +52651,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53448,7 +52696,7 @@ module.exports = {
                "owner": "flakkaseagulls"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "unschool": {
          "subdivisions": [],
@@ -53497,10 +52745,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53545,7 +52790,7 @@ module.exports = {
                "owner": "unschool"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "automaton": {
          "subdivisions": [],
@@ -53594,10 +52839,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53625,7 +52867,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "emsenn0": {
          "subdivisions": [],
@@ -53674,10 +52916,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53705,7 +52944,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "aniol77": {
          "subdivisions": [],
@@ -53794,10 +53033,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53842,7 +53078,7 @@ module.exports = {
                "owner": "aniol77"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "harolac": {
          "subdivisions": [],
@@ -53948,10 +53184,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53996,7 +53229,7 @@ module.exports = {
                "owner": "harolac"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "hivetrending": {
          "subdivisions": [],
@@ -54045,10 +53278,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54076,7 +53306,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "drowel": {
          "subdivisions": [],
@@ -54277,10 +53507,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54325,7 +53552,7 @@ module.exports = {
                "owner": "drowel"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "apzyx": {
          "subdivisions": [],
@@ -54431,10 +53658,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54479,7 +53703,7 @@ module.exports = {
                "owner": "apzyx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "funnel": {
          "subdivisions": [],
@@ -54516,10 +53740,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54564,7 +53785,7 @@ module.exports = {
                "owner": "funnel"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "tr4ktrotacielo5": {
          "subdivisions": [],
@@ -54613,10 +53834,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54661,7 +53879,7 @@ module.exports = {
                "owner": "tr4ktrotacielo5"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "aguilax": {
          "subdivisions": [],
@@ -54786,10 +54004,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54834,7 +54049,7 @@ module.exports = {
                "owner": "aguilax"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "migueldavidor": {
          "subdivisions": [],
@@ -54925,10 +54140,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54973,7 +54185,7 @@ module.exports = {
                "owner": "migueldavidor"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "brad12": {
          "subdivisions": [],
@@ -55041,10 +54253,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -55089,7 +54298,7 @@ module.exports = {
                "owner": "brad12"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "fxish": {
          "subdivisions": [],
@@ -55309,10 +54518,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -55357,7 +54563,7 @@ module.exports = {
                "owner": "fxish"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ctdub406": {
          "subdivisions": [],
@@ -56071,10 +55277,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56119,7 +55322,7 @@ module.exports = {
                "owner": "ctdub406"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "skylinebuds": {
          "subdivisions": [],
@@ -56179,10 +55382,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56210,7 +55410,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "g0nzal0t": {
          "subdivisions": [],
@@ -56259,10 +55459,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56307,7 +55504,7 @@ module.exports = {
                "owner": "g0nzal0t"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "nftmart.cards": {
          "subdivisions": [],
@@ -56513,10 +55710,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56641,7 +55835,7 @@ module.exports = {
                "owner": "nftmart.cards"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "alfa16": {
          "subdivisions": [],
@@ -56681,10 +55875,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56729,7 +55920,7 @@ module.exports = {
                "owner": "alfa16"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "pepeymeli": {
          "subdivisions": [],
@@ -56778,10 +55969,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56826,7 +56014,7 @@ module.exports = {
                "owner": "pepeymeli"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dhodl": {
          "subdivisions": [],
@@ -56854,10 +56042,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56885,7 +56070,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "rishi556": {
          "subdivisions": [],
@@ -56925,10 +56110,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56973,7 +56155,7 @@ module.exports = {
                "owner": "rishi556"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "gamewatch": {
          "subdivisions": [],
@@ -57082,10 +56264,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -57113,7 +56292,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "nftmarket": {
          "subdivisions": [],
@@ -57141,10 +56320,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -57189,7 +56365,7 @@ module.exports = {
                "owner": "nftmarket"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mulletwang": {
          "subdivisions": [],
@@ -58086,10 +57262,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58134,7 +57307,7 @@ module.exports = {
                "owner": "mulletwang"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "saboin": {
          "subdivisions": [],
@@ -58503,10 +57676,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58551,7 +57721,7 @@ module.exports = {
                "owner": "saboin"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "molovelly": {
          "subdivisions": [],
@@ -58766,10 +57936,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58797,7 +57964,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "anarcist": {
          "subdivisions": [],
@@ -58874,10 +58041,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58905,7 +58069,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "simgirl": {
          "subdivisions": [],
@@ -59049,10 +58213,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59080,7 +58241,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "guiltyparties": {
          "subdivisions": [],
@@ -59224,10 +58385,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59255,7 +58413,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "prettynicevideo": {
          "subdivisions": [],
@@ -59399,10 +58557,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59430,7 +58585,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "meowgan": {
          "subdivisions": [],
@@ -59563,10 +58718,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59594,7 +58746,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "enginewitty": {
          "subdivisions": [],
@@ -59771,10 +58923,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59802,7 +58951,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "smigirl": {
          "subdivisions": [],
@@ -59908,10 +59057,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59939,7 +59085,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "christoryan": {
          "subdivisions": [],
@@ -59979,10 +59125,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60010,7 +59153,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "choosefreedom": {
          "subdivisions": [],
@@ -60127,10 +59270,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60158,7 +59298,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "bauloewe": {
          "subdivisions": [],
@@ -60297,10 +59437,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60328,7 +59465,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "news-today": {
          "subdivisions": [],
@@ -60368,10 +59505,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60399,7 +59533,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "heremonium": {
          "subdivisions": [],
@@ -60439,10 +59573,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60470,7 +59601,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "rachaeldwatson": {
          "subdivisions": [],
@@ -60510,10 +59641,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60541,7 +59669,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "myanmarbook": {
          "subdivisions": [],
@@ -60581,10 +59709,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60612,7 +59737,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "jbsharkey": {
          "subdivisions": [],
@@ -60663,10 +59788,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60694,7 +59816,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "schlees": {
          "subdivisions": [],
@@ -60745,10 +59867,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60776,7 +59895,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "altonos": {
          "subdivisions": [],
@@ -60816,10 +59935,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60847,7 +59963,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "bibdieufr": {
          "subdivisions": [],
@@ -60898,10 +60014,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60929,7 +60042,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "mickvir": {
          "subdivisions": [],
@@ -60969,10 +60082,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61000,7 +60110,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "buckydurddle": {
          "subdivisions": [],
@@ -61051,10 +60161,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61082,7 +60189,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "disregardfiat": {
          "subdivisions": [],
@@ -61122,10 +60229,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61153,7 +60257,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "psyo": {
          "subdivisions": [],
@@ -61193,10 +60297,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61224,7 +60325,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "ghosthunter1": {
          "subdivisions": [],
@@ -61339,10 +60440,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61370,7 +60468,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "ericwilson": {
          "subdivisions": [],
@@ -61410,10 +60508,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61441,7 +60536,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "songokubg": {
          "subdivisions": [],
@@ -61481,10 +60576,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61512,7 +60604,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "muru": {
          "subdivisions": [],
@@ -61563,10 +60655,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61594,7 +60683,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "vibrasphere": {
          "subdivisions": [],
@@ -61634,10 +60723,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61665,7 +60751,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "nutritree": {
          "subdivisions": [],
@@ -61791,10 +60877,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61822,7 +60905,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "perceval": {
          "subdivisions": [],
@@ -61862,10 +60945,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61893,7 +60973,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "ceheran": {
          "subdivisions": [],
@@ -62003,10 +61083,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62051,7 +61128,7 @@ module.exports = {
                "owner": "ceheran"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ooakosimo": {
          "subdivisions": [],
@@ -62163,10 +61240,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62211,7 +61285,7 @@ module.exports = {
                "owner": "ooakosimo"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "bad-goyim": {
          "subdivisions": [],
@@ -62279,10 +61353,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62327,7 +61398,7 @@ module.exports = {
                "owner": "bad-goyim"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dannychain": {
          "subdivisions": [],
@@ -62376,10 +61447,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62424,7 +61492,7 @@ module.exports = {
                "owner": "dannychain"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "drugwar": {
          "subdivisions": [],
@@ -62473,10 +61541,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62504,7 +61569,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "rahul.stan": {
          "subdivisions": [],
@@ -62553,10 +61618,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62584,7 +61646,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "silverlining1": {
          "subdivisions": [],
@@ -62709,10 +61771,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62757,7 +61816,7 @@ module.exports = {
                "owner": "silverlining1"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "marcss19": {
          "subdivisions": [],
@@ -62882,10 +61941,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62930,7 +61986,7 @@ module.exports = {
                "owner": "marcss19"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "chronocrypto": {
          "subdivisions": [],
@@ -63131,10 +62187,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63179,7 +62232,7 @@ module.exports = {
                "owner": "chronocrypto"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "gatticus": {
          "subdivisions": [],
@@ -63228,10 +62281,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63276,7 +62326,7 @@ module.exports = {
                "owner": "gatticus"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "monsterbuster": {
          "subdivisions": [],
@@ -63325,10 +62375,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63373,7 +62420,7 @@ module.exports = {
                "owner": "monsterbuster"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "mariorojas": {
          "subdivisions": [],
@@ -63422,10 +62469,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63470,7 +62514,7 @@ module.exports = {
                "owner": "mariorojas"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "elsith80": {
          "subdivisions": [],
@@ -63538,10 +62582,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63586,7 +62627,7 @@ module.exports = {
                "owner": "elsith80"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "frijolitomx": {
          "subdivisions": [],
@@ -63654,10 +62695,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63702,7 +62740,7 @@ module.exports = {
                "owner": "frijolitomx"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "thebeardflex": {
          "subdivisions": [],
@@ -64037,10 +63075,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64085,7 +63120,7 @@ module.exports = {
                "owner": "thebeardflex"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "huzzah": {
          "subdivisions": [],
@@ -64134,10 +63169,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64182,7 +63214,7 @@ module.exports = {
                "owner": "huzzah"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "whoismyhero": {
          "subdivisions": [],
@@ -64231,10 +63263,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64279,7 +63308,7 @@ module.exports = {
                "owner": "whoismyhero"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "luisx22": {
          "subdivisions": [],
@@ -64347,10 +63376,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64395,7 +63421,7 @@ module.exports = {
                "owner": "luisx22"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "domeownik": {
          "subdivisions": [],
@@ -64482,10 +63508,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64530,7 +63553,7 @@ module.exports = {
                "owner": "domeownik"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "brazuk": {
          "subdivisions": [],
@@ -64655,10 +63678,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64703,7 +63723,7 @@ module.exports = {
                "owner": "brazuk"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "angy2882": {
          "subdivisions": [],
@@ -64828,10 +63848,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64859,7 +63876,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "zerokdark": {
          "subdivisions": [],
@@ -65025,10 +64042,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65056,7 +64070,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "andresito9522": {
          "subdivisions": [],
@@ -65105,10 +64119,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65145,7 +64156,7 @@ module.exports = {
                "owner": "andresito9522"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "franvit1979": {
          "subdivisions": [],
@@ -65232,10 +64243,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65280,7 +64288,7 @@ module.exports = {
                "owner": "franvit1979"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "junkfeathers": {
          "subdivisions": [],
@@ -65329,10 +64337,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65360,7 +64365,7 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "supablaza": {
          "subdivisions": [],
@@ -65466,10 +64471,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65514,7 +64516,7 @@ module.exports = {
                "owner": "supablaza"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "crishor": {
          "subdivisions": [],
@@ -65601,10 +64603,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65649,7 +64648,7 @@ module.exports = {
                "owner": "crishor"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "smokerings": {
          "subdivisions": [],
@@ -65755,10 +64754,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65802,7 +64798,7 @@ module.exports = {
                "owner": "smokerings"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "bhaiyas": {
          "subdivisions": [],
@@ -65891,10 +64887,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65938,7 +64931,7 @@ module.exports = {
                "owner": "bhaiyas"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "roshansuares": {
          "subdivisions": [],
@@ -66063,10 +65056,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66110,7 +65100,7 @@ module.exports = {
                "owner": "roshansuares"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "sushanthanchan": {
          "subdivisions": [],
@@ -66199,10 +65189,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66229,7 +65216,7 @@ module.exports = {
             }
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "rohansuares": {
          "subdivisions": [],
@@ -66339,10 +65326,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66386,7 +65370,7 @@ module.exports = {
                "owner": "rohansuares"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "felsum": {
          "subdivisions": [],
@@ -66511,10 +65495,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66558,7 +65539,7 @@ module.exports = {
                "owner": "felsum"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "footballpedia": {
          "subdivisions": [],
@@ -66649,10 +65630,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66696,7 +65674,7 @@ module.exports = {
                "owner": "footballpedia"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jackofcrows": {
          "subdivisions": [],
@@ -66916,10 +65894,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66963,7 +65938,7 @@ module.exports = {
                "owner": "jackofcrows"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "innyc": {
          "subdivisions": [],
@@ -67012,10 +65987,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -67042,7 +66014,7 @@ module.exports = {
             }
          },
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "derangedvisions": {
          "subdivisions": [],
@@ -67171,10 +66143,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -67218,7 +66187,7 @@ module.exports = {
                "owner": "derangedvisions"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "meyxxyz": {
          "subdivisions": [],
@@ -67286,10 +66255,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -67333,7 +66299,7 @@ module.exports = {
                "owner": "meyxxyz"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "matheus9": {
          "subdivisions": [],
@@ -67636,10 +66602,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -67672,7 +66635,7 @@ module.exports = {
                "owner": "matheus9"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -67779,10 +66742,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -67815,7 +66775,7 @@ module.exports = {
                "owner": "agramon"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -67880,10 +66840,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -67916,7 +66873,7 @@ module.exports = {
                "owner": "jonnybanana"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -68643,10 +67600,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68679,7 +67633,7 @@ module.exports = {
                "owner": "labriego"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -68744,10 +67698,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68780,7 +67731,7 @@ module.exports = {
                "owner": "ilazramusic"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -68845,10 +67796,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68881,7 +67829,7 @@ module.exports = {
                "owner": "arlettemsalase"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -68967,10 +67915,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -69003,7 +67948,7 @@ module.exports = {
                "owner": "tronquito"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -69146,10 +68091,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -69182,7 +68124,7 @@ module.exports = {
                "owner": "jonhive"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -69247,10 +68189,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -69266,7 +68205,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -69520,10 +68459,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -69556,7 +68492,7 @@ module.exports = {
                "owner": "timetraveljesus"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -69726,10 +68662,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -69762,7 +68695,7 @@ module.exports = {
                "owner": "dvelandiaa"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -69827,10 +68760,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -69863,7 +68793,7 @@ module.exports = {
                "owner": "robvector"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -70012,10 +68942,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -70048,7 +68975,7 @@ module.exports = {
                "owner": "luiios"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -70113,10 +69040,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -70132,7 +69056,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -71499,10 +70423,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71535,7 +70456,7 @@ module.exports = {
                "owner": "earthboy75"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -71642,10 +70563,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71678,7 +70596,7 @@ module.exports = {
                "owner": "kiritoccs"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -71743,10 +70661,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71762,7 +70677,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -71849,10 +70764,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71868,7 +70780,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -71933,10 +70845,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71969,7 +70878,7 @@ module.exports = {
                "owner": "quijay"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -72034,10 +70943,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72070,7 +70976,7 @@ module.exports = {
                "owner": "jesusalejos"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -72219,10 +71125,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72255,7 +71158,7 @@ module.exports = {
                "owner": "artiic97"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -72425,10 +71328,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72461,7 +71361,7 @@ module.exports = {
                "owner": "angelportu"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -72568,10 +71468,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72604,7 +71501,7 @@ module.exports = {
                "owner": "cjavi99"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -72753,10 +71650,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72789,7 +71683,7 @@ module.exports = {
                "owner": "alfer"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -72854,10 +71748,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72873,7 +71764,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -73127,10 +72018,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73163,7 +72051,7 @@ module.exports = {
                "owner": "hoory22"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -73247,10 +72135,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73283,7 +72168,7 @@ module.exports = {
                "owner": "emanon077"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -73348,10 +72233,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73384,7 +72266,7 @@ module.exports = {
                "owner": "megarciab"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -73449,10 +72331,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73485,7 +72364,7 @@ module.exports = {
                "owner": "jurbinaper"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -73571,10 +72450,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73590,7 +72466,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "0",
@@ -73676,10 +72552,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73712,7 +72585,7 @@ module.exports = {
                "owner": "fenixazul"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -73861,10 +72734,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73911,7 +72781,7 @@ module.exports = {
                "owner": "barbasoon"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "edisonjavier": {
          "subdivisions": [],
@@ -73962,10 +72832,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73998,7 +72865,7 @@ module.exports = {
                "owner": "edisonjavier"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -74063,10 +72930,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74099,7 +72963,7 @@ module.exports = {
                "owner": "laurapalmerr"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -74164,10 +73028,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74200,7 +73061,7 @@ module.exports = {
                "owner": "luiscas2"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -74286,10 +73147,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74322,7 +73180,7 @@ module.exports = {
                "owner": "vica1988"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -74492,10 +73350,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74528,7 +73383,7 @@ module.exports = {
                "owner": "wilwaps32"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -74593,10 +73448,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74612,7 +73464,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": 0,
@@ -74677,10 +73529,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74713,7 +73562,7 @@ module.exports = {
                "owner": "julste"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -74883,10 +73732,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74919,7 +73765,7 @@ module.exports = {
                "owner": "alejoca"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -75068,10 +73914,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75104,7 +73947,7 @@ module.exports = {
                "owner": "shirahoshi"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -75190,10 +74033,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75226,7 +74066,7 @@ module.exports = {
                "owner": "eselihu"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -75333,10 +74173,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75369,7 +74206,7 @@ module.exports = {
                "owner": "axelcj123"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -75466,10 +74303,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75502,7 +74336,7 @@ module.exports = {
                "owner": "caina420"
             }
          ],
-         "boosters": {},
+         "boosters": [],
          "tokens": {
             "buds": {
                "balance": "1",
@@ -75544,10 +74378,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75594,7 +74425,7 @@ module.exports = {
                "owner": "dcalsot"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "ankatu1": {
          "subdivisions": [],
@@ -75662,10 +74493,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75695,7 +74523,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "mogroff": {
          "subdivisions": [],
@@ -75872,10 +74700,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75922,7 +74747,7 @@ module.exports = {
                "owner": "mogroff"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "gr33nm4ster": {
          "subdivisions": [],
@@ -75973,10 +74798,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76023,7 +74845,7 @@ module.exports = {
                "owner": "gr33nm4ster"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "aurosofi": {
          "subdivisions": [],
@@ -76116,10 +74938,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76166,7 +74985,7 @@ module.exports = {
                "owner": "aurosofi"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "moonwalker7788": {
          "subdivisions": [],
@@ -76301,10 +75120,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76351,7 +75167,7 @@ module.exports = {
                "owner": "moonwalker7788"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "tussar11": {
          "subdivisions": [],
@@ -76507,10 +75323,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76557,7 +75370,7 @@ module.exports = {
                "owner": "tussar11"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "dviljin": {
          "subdivisions": [],
@@ -76608,10 +75421,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76641,7 +75451,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "godislovefl": {
          "subdivisions": [],
@@ -76902,10 +75712,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76952,7 +75759,7 @@ module.exports = {
                "owner": "godislovefl"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jmcalvito": {
          "subdivisions": [],
@@ -77019,10 +75826,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77069,7 +75873,7 @@ module.exports = {
                "owner": "jmcalvito"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "drakienrising": {
          "subdivisions": [],
@@ -77148,10 +75952,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77181,7 +75982,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "maximosantana": {
          "subdivisions": [],
@@ -77219,10 +76020,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77261,7 +76059,7 @@ module.exports = {
                "owner": "maximosantana"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "soyaletrainer": {
          "subdivisions": [],
@@ -77309,10 +76107,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77359,7 +76154,7 @@ module.exports = {
                "owner": "soyaletrainer"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "digitaldicast": {
          "subdivisions": [],
@@ -77407,10 +76202,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77457,7 +76249,7 @@ module.exports = {
                "owner": "digitaldicast"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "romelleandro": {
          "subdivisions": [],
@@ -77505,10 +76297,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77555,7 +76344,7 @@ module.exports = {
                "owner": "romelleandro"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "javiercruz": {
          "subdivisions": [],
@@ -77603,10 +76392,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77653,7 +76439,7 @@ module.exports = {
                "owner": "javiercruz"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "imtheovermind": {
          "subdivisions": [],
@@ -77680,10 +76466,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77722,7 +76505,7 @@ module.exports = {
                "owner": "imtheovermind"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "asteka": {
          "subdivisions": [],
@@ -77848,10 +76631,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77898,7 +76678,7 @@ module.exports = {
                "owner": "asteka"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "orant": {
          "subdivisions": [],
@@ -77934,10 +76714,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77967,7 +76744,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "danteskgg": {
          "subdivisions": [],
@@ -78003,10 +76780,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -78045,7 +76819,7 @@ module.exports = {
                "owner": "danteskgg"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "jonkc": {
          "subdivisions": [],
@@ -78173,10 +76947,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -78223,7 +76994,7 @@ module.exports = {
                "owner": "jonkc"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "cryptojouse": {
          "subdivisions": [],
@@ -78271,10 +77042,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -78304,7 +77072,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "williameduardord": {
          "subdivisions": [],
@@ -78342,10 +77110,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -78384,7 +77149,7 @@ module.exports = {
                "owner": "williameduardord"
             }
          ],
-         "boosters": {}
+         "boosters": []
       },
       "elfran919": {
          "subdivisions": [],
@@ -78422,10 +77187,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -78455,7 +77217,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "ayriongames": {
          "subdivisions": [],
@@ -78505,10 +77267,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -78538,7 +77297,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       },
       "chocolatoso": {
          "subdivisions": [],
@@ -78595,10 +77354,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl6": 0,
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -78628,7 +77384,7 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
-         "boosters": {}
+         "boosters": []
       }
    },
    "cs": {}

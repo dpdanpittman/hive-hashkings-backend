@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53230262; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53238776; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53230262;
+const ago = ENV.ago || 53238776;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -287,7 +287,7 @@ function userList() {
             let username = farmerArray[i]
             if(!state.users[username]) {
                 state.users[username] = {
-                    subdivisions: [],
+                    rentals: [],
                     plots: [],
                     plotCount: 0,
                     seedCount: 0,
@@ -372,6 +372,7 @@ function userList() {
                         let waterTowerNumber = waterTowerData.length
                         let HKwater = waterTowerNumber * 30
                         state.users[username].hkwater = HKwater
+                        state.users[username].waterPlants.lvl1 = waterTowerNumber
 
                         //if user doesnt exist, create them
                         if(state.users[username].tokens.buds.balance > 0) {
@@ -397,7 +398,7 @@ function reporting() {
         try {
             
         let landTotal = res[2].totalAllPlots
-        let waterTotal = res[4].qwoyn.waterTemp.length
+        let waterTotal = res[2].totalAllWater
         let seedTotal = res[2].totalAllSeeds
         
         let asiaTotal = res[1].Asia
@@ -485,31 +486,16 @@ function landPriceConversion() {
   })
 })}
 
-function daily(addr) {
-    /*var grown = false
-    if (state.land[addr]) {
-        for (var i = 0; i < state.land[addr].care.length; i++) {
-            if (state.land[addr].care[i][0] <= processor.getCurrentBlockNumber() - 28800) {
-                state.land[addr].care.splice(i, 1)
-            } else if (state.land[addr].care[i][0] > processor.getCurrentBlockNumber() - 28800 && state.land[addr].care[i][1] == 'watered') {
-                if (!grown) {
-                    state.land[addr].care[i].push('')
-                }
-                if (state.land[addr].substage < 7 && state.land[addr].stage > 0 && !grown) {
-                    if (!grown) {
-                        state.land[addr].substage++;
-                        grown = true;
-                    } else {
-                        state.land[addr].aff.push([processor.getCurrentBlockNumber(), 'You watered too soon']);
-                    }
-                }
-                if (state.land[addr].substage == 7) {
-                    state.land[addr].substage = 0;
-                    state.land[addr].stage++
-                }
-            }
-        }
-    }*/
+function daily() {
+    var seedsUsedLastDay = state.stats.seedsUsedLastDay
+
+    if(seedsUsedLastDay > 0){
+    contract.distributeSeeds(axios, seedsUsedLastDay, hivejs)
+    state.stats.seedsUsedLastDay = 0
+
+    } else if (state.users[i].dailyBudDeposit > 0){
+            contract.distributeMota(1000, [ { user :"chocolatoso" , depositedBuds:100 }, { user :"al-liuke" , depositedBuds:100 }, { user :"hashkings" , depositedBuds:50 }, { user :"qwoyn" , depositedBuds:25 } ], hivejs)
+    }
 }
 
 /****ISSUE****/
@@ -653,6 +639,11 @@ function startApp() {
             console.log(num);
         }
 
+        // perform daily function
+        if (num % 28000 === 0 && processor.isStreaming()) {
+            daily();
+        }
+
         //saves state to ipfs hash every 5 minutes
         if (num % 100 === 1) {
             store.get([], function(err, data) {
@@ -712,62 +703,62 @@ function startApp() {
               if(json.contractPayload.symbol === "BUDS") {
                   let type = json.contractPayload.memo
     
-                  if(state.users[from] && json.contractPayload.memo === "pinner"){
+                  if(state.users[from] && json.contractPayload.memo === "pinner" && json.contractPayload.amount === 50){
 
                       // create pinner
                       contract.createConsumable(hivejs, "Pinner", type, from)
 
-                  } else if(state.users[from] && json.contractPayload.memo === "hempWrappedJoint"){
+                  } else if(state.users[from] && json.contractPayload.memo === "hempWrappedJoint" && json.contractPayload.amount === 200){
             
                       // create hempwrappedjoint
                       contract.createConsumable(hivejs, "Hemp Wrapped Joint", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "crossJoint"){
+                  }else if(state.users[from] && json.contractPayload.memo === "crossJoint" && json.contractPayload.amount === 1000){
             
                       // create crossjoint
                       contract.createConsumable(hivejs, "Cross Joint", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "blunt"){
+                  }else if(state.users[from] && json.contractPayload.memo === "blunt" && json.contractPayload.amount === 2500){
             
                       // create blunt
                       contract.createConsumable(hivejs, "Blunt", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "hempWrappedBlunt"){
+                  }else if(state.users[from] && json.contractPayload.memo === "hempWrappedBlunt" && json.contractPayload.amount === 5000){
             
                       // create hempwrappedblunt
                       contract.createConsumable(hivejs, "Hemp Wrapped Blunt", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "twaxJoint"){
+                  }else if(state.users[from] && json.contractPayload.memo === "twaxJoint" && json.contractPayload.amount === 10000){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Twax Joint", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl1"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl1_booster" && json.contractPayload.amount === 10){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 1 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl2"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl2_booster" && json.contractPayload.amount === 50){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 2 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl3"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl3_booster" && json.contractPayload.amount === 210){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 3 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl4"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl4_booster" && json.contractPayload.amount === 2000){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 4 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl5"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl5_booster" && json.contractPayload.amount === 2500){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 5 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl6"){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl6_booster" && json.contractPayload.amount === 50){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 6 Booster", type, from)
@@ -803,11 +794,11 @@ function startApp() {
                 if(json.contractPayload.nfts[0].symbol === "HKFARM") {
                     let seed = json.contractPayload.nfts[0];
                     let nft = json.contractPayload.nfts[0];
+                    let booster = json.contractPayload.nfts[0];
 
                     let seedID = seed.ids[0]
                     let jointID = nft.ids[0]
-
-                    console.log("jointID is " + jointID)
+                    let boosterID = booster.ids[0]
                     
                     let plotID = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PLOTID`);
                     let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
@@ -816,7 +807,7 @@ function startApp() {
 
                     let jointTypes = jp.query(state.users[from], `$.joints[?(@.id==${jointID})].properties.CONSUMABLETYPE`);
 
-                    console.log("jointTypes is " + jointTypes)
+                    let boosterType = jp.query(state.users[from], `$.boosters[?(@.id==${boosterID})].properties.NAME`);
                       
                     if(state.users[from]&& seedExists && sptStatus < 1 && waterStatus < 1){
 
@@ -842,7 +833,6 @@ function startApp() {
                     let jointString = "" + jointTypes
                     if(jointString === "pinner"){
 
-                        console.log("entered pinner if statement and user xp= " + state.users[from].xp + " and pinner xp = " + state.stats.joints.pinner)
                         // give xp
                         state.users[from].xp += state.stats.joints.pinner
 
@@ -872,9 +862,47 @@ function startApp() {
                         state.users[from].xp += state.stats.joints.twaxJoint
                     }
 
-                //Use Booster
+                    let boosterString = "" + boosterType 
+                    if(boosterString === "Level 1 Booster"){
+
+                        //claim booster
+                        state.stats.users[from].timeBoosters.lvl1 += 1
+                    }
+
+                    if(boosterString === "Level 2 Booster"){
+
+                        //claim booster
+                        state.stats.users[from].timeBoosters.lvl2 += 1
+                    }
+
+                    if(boosterString === "Level 3 Booster"){
+
+                        //claim booster
+                        state.stats.users[from].timeBoosters.lvl3 += 1
+                    }
+
+                    if(boosterString === "Level 4 Booster"){
+
+                        //claim booster
+                        state.stats.users[from].timeBoosters.lvl4 += 1
+                    }
+
+                    if(boosterString === "Level 5 Booster"){
+
+                        //claim booster
+                        state.stats.users[from].timeBoosters.lvl5 += 1
+                    }
+
+                    if(boosterString === "Level 6 Booster"){
+
+                        //claim booster
+                        state.stats.users[from].timeBoosters.lvl6 += 1
+                    }
+                
+
+                //claim Booster
                 //user sends booster NFT to hk-vault with memo type (ex. use_booster_lvl1, use_booster_lvl2 etc..)
-                /*if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
+                if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
                     let seedID = json.contractPayload.id
                     let plotID = json.contractPayload.memo
 
@@ -893,7 +921,7 @@ function startApp() {
                         contract.updateNft(hivejs, plotID, { "OCCUPIED": false })
                         contract.updateNft(hivejs, plotID, { "SEEDID": 0 })
                         }
-                    }*/
+                    }
                 }
             }
           } else {
@@ -953,14 +981,17 @@ function startApp() {
         
         try {
             var plotStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.OCCUPIED`);  
-            var seedStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PLANTED`);  
+            var seedStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PLANTED`); 
+            var rentStatus = jp.query(state.users[from], `$.plots[?(@.id==${plotID})].properties.RENTED`);
+            var listStatus =  jp.query(state.users[from], `$.plots[?(@.id==${plotID})].properties.LISTED`); 
+
         } catch (error) {
             console.log("an error when planting a seed occured " + from + " sent the request")
             console.log(error)
         }
         
 
-        if(state.users[from] && plotStatus === false && seedStatus === false){
+        if(state.users[from] && plotStatus === false && seedStatus === false && rentStatus === false && listStatus === false){
             //make seed used and designate plot
             contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
             contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
@@ -968,6 +999,8 @@ function startApp() {
             //make plot occupied and designate seed
             contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  true })
             contract.updateNft(hivejs, plotIDString, { "SEEDID":  seedID })
+
+            state.stats.seedsUsedLastDay += 1
             
         }
         
@@ -981,30 +1014,122 @@ function startApp() {
         var dividedStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.OCCUPIED`);
 
         if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
-            
-            let plotIDString = "" + plotID
-
-            // set plot to subdivided
-            contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
 
             //createsubdivisions
             contract.createSubdivision(hivejs, region, from)
         }
     });
 
+    // checks for qwoyn_plant_rental and plants the seed on a rental
+    processor.on('plant_rental', function(json, from) {
+        let seedID = json.seedID
+        let rentalID = json.rentalID 
+
+        let seedIDString = "" + seedID
+        
+        try {
+            var plotStatus = jp.query(state.users[from], `$.rentals[?(@.id==${rentalID})].properties.OCCUPIED`);  
+            var seedStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PLANTED`);
+
+        } catch (error) {
+            console.log("an error when planting a seed occured " + from + " sent the request")
+            console.log(error)
+        }
+        
+        if(state.users[from].rentals[rentalID] && plotStatus === false && seedStatus === false ){
+            //make seed used and designate plot
+            contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
+            contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
+            
+            //make plot occupied and designate seed
+            state.users[from].rentals[rentalID].OCCUPIED = true
+            state.users[from].rentals[rentalID].SEEDID = seedID
+
+            state.stats.seedsUsedLastDay += 1
+        }
+        
+    });
+
+    // use a claimed booster
+    processor.on('use_booster', function(json, from) {
+        let plotID = json.type
+        let level = json.lvl
+
+        var sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);
+
+        let plotIDString = "" + plotID
+        //reduce spt with booster based on lvl and remove booster
+        if(state.users[from].timeBoosters.lvl1 > 0 && level === 1) {
+
+            let newSPT = sptStatus * 0.95
+
+            contract.updateNft(hivejs, plotIDString, { "SPT":  newSPT })
+            state.users[from].timeBoosters.lvl1 -= 1
+
+        } else if(state.users[from].timeBoosters.lvl2 > 0 && level === 2) {
+
+            let newSPT = sptStatus * 0.90
+
+            contract.updateNft(hivejs, plotIDString, { "SPT":  newSPT })
+            state.users[from].timeBoosters.lvl2 -= 1
+
+        } else if(state.users[from].timeBoosters.lvl3 > 0 && level === 3) {
+
+            let newSPT = sptStatus * 0.85
+
+            contract.updateNft(hivejs, plotIDString, { "SPT":  newSPT })
+            state.users[from].timeBoosters.lvl3 -= 1
+
+        } else if(state.users[from].timeBoosters.lvl4 > 0 && level === 4) {
+
+            let newSPT = sptStatus * 0.80
+
+            contract.updateNft(hivejs, plotIDString, { "SPT":  newSPT })
+            state.users[from].timeBoosters.lvl4 -= 1
+
+        } else if(state.users[from].timeBoosters.lvl5 > 0 && level === 5) {
+
+            let newSPT = sptStatus * 0.75
+
+            contract.updateNft(hivejs, plotIDString, { "SPT":  newSPT })
+            state.users[from].timeBoosters.lvl5 -= 1
+
+        } else if(state.users[from].timeBoosters.lvl6 > 0 && level === 6) {
+
+            let newSPT = sptStatus * 0.70
+
+            contract.updateNft(hivejs, plotIDString, { "SPT":  newSPT })
+            state.users[from].timeBoosters.lvl6 -= 1
+        }
+        
+    });
+
     /*-------------------------- RENTALS  ---------------------------*/
 
     // search for qwoyn_pinner from user on blockchain since genesis <----- transfer
     processor.on('rent_subdivision', function(json, from) {
-        let type = json.type
+        let plotID = json.type
+        let price = json.price
         let owner = json.owner
 
-        if(state.users[from] && state.users[from].buds > state.stats.joints.pinner) {
-            //mint pinner and send to user
-            contract.createConsumable(hivejs,"Pinner", from)
-            state.users[from].buds -= state.stats.joints.pinner
-            state.users[from].joints.pinner += 1
-        }
+        //change rented to true
+        //change renter to from
+        //change duration to 6 months
+        // add the plot info to from with r at end of plotID
+        // add owner of the plot
+
+        // send percentage to owner
+        
+    });
+
+    // list plot for rent
+    processor.on('list_subdivision', function(json, from) {
+        let plotID = json.type
+        let price = json.price
+
+        //change listed to true
+        //add price
+        
     });
 
     processor.on('report', function(json, from) {
@@ -1023,7 +1148,7 @@ function startApp() {
             //if user does not exist in db create user and db entry
             if (!state.users[json.from]) {
                 state.users[username] = {
-                    subdivisions: [],
+                    rentals: [],
                     plots: [],
                     plotCount: 0,
                     seedCount: 0,
