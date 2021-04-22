@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53239759; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53241857; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53239759;
+const ago = ENV.ago || 53241857;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -499,69 +499,8 @@ function daily() {
     //distributeMota(1000, [ { user :"chocolatoso" , depositedBuds:100 }, { user :"al-liuke" , depositedBuds:100 }, { user :"hashkings" , depositedBuds:50 }, { user :"qwoyn" , depositedBuds:25 } ], hivejs)
     
     //distribute water
-    var userList = state.stats.farmerList
-    try {
-    
-    for(var i = 0; i < userList.length; i++) {
-
-        var user = userList[i]
-        if(state.users[user].waterPlants.lvl1 > 0){
-            numberOfTowers = state.users[user].waterPlants.lvl1 * 30
-            console.log("sent "+numberOfTowers+" water tokens to " + user)
-        //contract.generateToken(hivejs, "HKWATER", "30", i)
-        } 
-        
-        
-        /*if(state.users[i].waterPlants.lv2 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "45", i)
-        } 
-        
-        if(state.users[i].waterPlants.lv3 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "75", i)
-        } 
-        
-        if(state.users[i].waterPlants.lv4 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "120", i)
-        } 
-        
-        if(state.users[i].waterPlants.lvl5 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "180", i)
-        } 
-        
-        if(state.users[i].waterPlants.lvl6 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "255", i)
-        } 
-        
-        if(state.users[i].waterPlants.lvl7 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "345", i)
-        } 
-        
-        if(state.users[i].waterPlants.lvl8 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "450", i)
-        } 
-        
-        if(state.users[i].waterPlants.lvl9 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "570", i)
-        } 
-        
-        if(state.users[i].waterPlants.lvl10 > 0){
-
-        contract.generateToken(hivejs, "HKWATER", "705", i)
-        }*/
+    //distributeWater(hivejs,listofusers)
     }
-} catch (error) {
-        console.log("user doesnt exist i guess")
-}
-
-}
 
 /****ISSUE****/
 function startWith(hash) {
@@ -625,6 +564,7 @@ function startApp() {
         }*/
 
         //processes payments from state.refund
+        try {
         if (num % 5 === 0 && state.refund.length && processor.isStreaming() || processor.isStreaming() && state.refund.length > 60) {
             if (state.refund[0].length == 4) {
                 bot[state.refund[0][0]].call(this, state.refund[0][1], state.refund[0][2], state.refund[0][3])
@@ -637,6 +577,9 @@ function startApp() {
                 state.bal.r = 0
             }
         }
+        } catch (error) {
+            console.log("error when processing refunds | line 581")
+        }
 
         //used to catch up on replay
         if (num % 5 === 0 && !processor.isStreaming()) {
@@ -646,6 +589,7 @@ function startApp() {
         }
 
         //sets asset prices
+        try {
         if (num % 5 === 0 && processor.isStreaming()) {
         
             hivePriceConversion(1).then(price => {
@@ -662,42 +606,54 @@ function startApp() {
                 state.bal.c = 0
 
                 })
-                landPriceConversion();
-                hivePriceConversion(1).then(prices => {
-                    let bundlePrice = prices;
+            landPriceConversion();
+            hivePriceConversion(1).then(prices => {
+                let bundlePrice = prices;
 
-                    state.stats.prices.bundles.asiaBundle = Math.ceil((bundlePrice * 29.99));
-                    state.stats.prices.bundles.africaBundle = Math.ceil((bundlePrice * 14.99));
-                    state.stats.prices.bundles.afghanistanBundle= Math.ceil((bundlePrice * 9.99));
-                    state.stats.prices.bundles.southAmericaBundle = Math.ceil((bundlePrice * 4.99));
-                    state.stats.prices.bundles.jamaicaBundle = Math.ceil((bundlePrice * 19.99));
-                    state.stats.prices.bundles.mexicoBundle = Math.ceil((bundlePrice * 7.49));
-                })      
-                hivePriceConversion(1).then(prices => {
-                    let bundlePrice = prices;
+                state.stats.prices.bundles.asiaBundle = Math.ceil((bundlePrice * 29.99));
+                state.stats.prices.bundles.africaBundle = Math.ceil((bundlePrice * 14.99));
+                state.stats.prices.bundles.afghanistanBundle= Math.ceil((bundlePrice * 9.99));
+                state.stats.prices.bundles.southAmericaBundle = Math.ceil((bundlePrice * 4.99));
+                state.stats.prices.bundles.jamaicaBundle = Math.ceil((bundlePrice * 19.99));
+                state.stats.prices.bundles.mexicoBundle = Math.ceil((bundlePrice * 7.49));
+            })      
 
-                    state.stats.prices.waterPlants.lvl1.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl2.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl3.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl4.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl5.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl6.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl7.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl8.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl9.price = Math.ceil((bundlePrice * 1));
-                    state.stats.prices.waterPlants.lvl10.price = Math.ceil((bundlePrice * 1));
-                })                       
+            hivePriceConversion(1).then(prices => {
+                let bundlePrice = prices;
+
+                state.stats.prices.waterPlants.lvl1.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl2.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl3.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl4.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl5.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl6.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl7.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl8.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl9.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl10.price = Math.ceil((bundlePrice * 1));
+            })                       
+        }
+        } catch (error) {
+            console.log("error when converting prices | line 637")
         }
 
         // makes sure database is up to date every 10 blocks
+        try {
         if (num % 10 === 0 && processor.isStreaming()) {
-            userList()
+            userList();
+        }
+        } catch (error) {
+            console.log("error when calling userList | line 646")                
         }
 
         // makes sure database is up to date every 5 blocks
+        try {
         if (num % 5 === 0 && processor.isStreaming()) {
             reporting();
-            daily();
+            //daily();
+        }
+        } catch (error) {
+            console.log("error when calling reporing() | line 656")                
         }
 
         // show the block number in the console every block
@@ -707,15 +663,19 @@ function startApp() {
 
         // perform daily function
         if (num % 28000 === 0 && processor.isStreaming()) {
-            daily();
+            //daily();
         }
 
         //saves state to ipfs hash every 5 minutes
+        try {
         if (num % 100 === 1) {
             store.get([], function(err, data) {
                 const blockState = Buffer.from(JSON.stringify([num, data]))
                 ipfsSaveState(num, blockState)
             })
+        }
+        } catch (error) {
+            console.log("error when running ipfsSaveState | line 678") 
         }
     })
 
