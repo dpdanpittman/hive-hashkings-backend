@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53238776; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53239305; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53238776;
+const ago = ENV.ago || 53239305;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -487,15 +487,71 @@ function landPriceConversion() {
 })}
 
 function daily() {
-    var seedsUsedLastDay = state.stats.seedsUsedLastDay
+    /*var seedsUsedLastDay = state.stats.seedsUsedLastDay
 
+    //distribute seeds
     if(seedsUsedLastDay > 0){
     contract.distributeSeeds(axios, seedsUsedLastDay, hivejs)
     state.stats.seedsUsedLastDay = 0
+    } */
+    
+    // distribute mota
+    //distributeMota(1000, [ { user :"chocolatoso" , depositedBuds:100 }, { user :"al-liuke" , depositedBuds:100 }, { user :"hashkings" , depositedBuds:50 }, { user :"qwoyn" , depositedBuds:25 } ], hivejs)
+    
+    //distribute water
+    for(var i = 0; i < state.stats.farmerList; i++) {
 
-    } else if (state.users[i].dailyBudDeposit > 0){
-            contract.distributeMota(1000, [ { user :"chocolatoso" , depositedBuds:100 }, { user :"al-liuke" , depositedBuds:100 }, { user :"hashkings" , depositedBuds:50 }, { user :"qwoyn" , depositedBuds:25 } ], hivejs)
+        if(state.users[i].waterPlants.lvl1 > 0){
+            console.log("sent 30 water tokens to " + i)
+        //contract.generateToken(hivejs, "HKWATER", "30", i)
+        } 
+        
+        /*if(state.users[i].waterPlants.lv2 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "45", i)
+        } 
+        
+        if(state.users[i].waterPlants.lv3 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "75", i)
+        } 
+        
+        if(state.users[i].waterPlants.lv4 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "120", i)
+        } 
+        
+        if(state.users[i].waterPlants.lvl5 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "180", i)
+        } 
+        
+        if(state.users[i].waterPlants.lvl6 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "255", i)
+        } 
+        
+        if(state.users[i].waterPlants.lvl7 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "345", i)
+        } 
+        
+        if(state.users[i].waterPlants.lvl8 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "450", i)
+        } 
+        
+        if(state.users[i].waterPlants.lvl9 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "570", i)
+        } 
+        
+        if(state.users[i].waterPlants.lvl10 > 0){
+
+        contract.generateToken(hivejs, "HKWATER", "705", i)
+        }*/
     }
+
 }
 
 /****ISSUE****/
@@ -632,6 +688,7 @@ function startApp() {
         // makes sure database is up to date every 5 blocks
         if (num % 5 === 0 && processor.isStreaming()) {
             reporting();
+            daily();
         }
 
         // show the block number in the console every block
