@@ -1114,7 +1114,7 @@ function startApp() {
         var dividedStatus = jp.query(state.users[from], `$.plots[?(@.id==${plotID})].properties.SUBDIVIDED`);
         var plotExists = jp.query(state.users[from], `$.plots[?(@.id==${plotID})]`);
 
-        console.log(plotExists + " plot exists")
+        console.log(dividedStatus + " is dividedStatus")
 
         try {
         if(regionString === "asia"){
