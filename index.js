@@ -1111,7 +1111,7 @@ function startApp() {
         let regionString = "" + region
         let plotIDString = "" + plotID
         
-        var dividedStatus = jp.query(state.users[from], `$.plots[?(@.id==${plotID})].properties.OCCUPIED`);
+        var dividedStatus = jp.query(state.users[from], `$.plots[?(@.id==${plotID})].properties.SUBDIVIDED`);
 
         if(regionString === "asia"){
             if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
