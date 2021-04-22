@@ -1029,8 +1029,9 @@ const generateBundle = async (hive, plotid, plotName, quantityWater, userBuyer) 
 };
 
 
-const subdividePlot = async (hive, plotName, quantitySubdivisions) => {
+const subdividePlot = async (hive, plotName, quantitySubdivisions,userBuyer) => {
 
+    console.log("subdivide plot on ", plotName, quantitySubdivisions)
     let instances = [];
 
     for (let i = 0; i < quantitySubdivisions; i++) {
@@ -1124,6 +1125,7 @@ async function getReport(axios) {
                 totalAllSeeds: 0,
                 totalAllWater: 0,
                 totalAllConsumable: 0,
+                totalAllBooster: 0,
                 totalAllBooster: 0,
                 totalAllAvatar: 0,
                 totalAllWaterTemp: 0
