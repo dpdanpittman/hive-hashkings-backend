@@ -638,6 +638,28 @@ const CreatePlot = (location, to) => {
     return instance;
 }
 
+const CreatePlotSubdiv = (location, to) => {
+
+    const properties = {
+        NAME: location,
+        TYPE: "plot",
+        SUBDIVIDED: true,
+        OCCUPIED: false,
+        SEEDID: 0,
+        RENTED: false
+    };
+
+    const instance = {
+        symbol: UTILITY_TOKEN_SYMBOL,
+        to,
+        feeSymbol: "BEE",
+        properties,
+    };
+
+    return instance;
+}
+
+
 const CreateBooster = (name, consumableType, to) => {
 
     const properties = {
@@ -984,6 +1006,36 @@ const generateBundle = async (hive, plotid, plotName, quantityWater, userBuyer) 
     instances.push(generateOneRandomSeed(userBuyer, plotid, SEEDS));
     instances.push(CreatePlot(plotName, userBuyer));
     instances.push(CreateWater("Water", quantityWater, userBuyer));
+
+    let json = {
+        contractName: "nft",
+        contractAction: "issueMultiple",
+        contractPayload: {
+            instances: instances
+        }
+    }
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(ACTIVEKEY, [CONTRACT_CREATOR], [], "ssc-mainnet-hive", JSON.stringify(json), function (err, result) {
+            if (err) {
+                reject(err)
+
+            } else {
+                resolve(result)
+            }
+        });
+    })
+
+};
+
+
+const subdividePlot = async (hive, plotName, quantitySubdivisions) => {
+
+    let instances = [];
+
+    for (let i = 0; i < quantitySubdivisions; i++) {
+        instances.push(CreatePlotSubdiv(plotName, userBuyer));
+    }
 
     let json = {
         contractName: "nft",
@@ -1628,6 +1680,16 @@ async function distributeMota(amountToDistribute, listOfUsers, hive) {
 
 }
 
+async function distributeWater(listOfUsers, hive) {
+
+    for (let i = 0; i < listOfUsers.length; i++) {
+        let userGet = (ratio * listOfUsers[i].quantity).toFixed(4);
+        console.log("username " + listOfUsers[i].user + "Quantity",userGet );
+      //  await generateToken(hive, "HKWATER", userGet, listOfUsers[i].user)
+    }
+}
+
+
 const generateToken = async (hive, token, quantity, user) => {
 
 
@@ -1701,5 +1763,7 @@ module.exports = contract = {
     createAvatar,
     createWaterTower,
     distributeMota,
-    distributeSeeds
+    distributeSeeds,
+    subdividePlot,
+    distributeWater
 }
