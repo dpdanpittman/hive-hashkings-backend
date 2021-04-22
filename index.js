@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53241857; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53258663; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53241857;
+const ago = ENV.ago || 53258663;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -226,9 +226,6 @@ const walletOperationsBitmask = makeBitMaskFilter([
 ])
 
 const ssc = new SSC('https://api.hive-engine.com/rpc');
-/*ssc.stream((err, res) => {
-	console.log(err, res);
-});*/
 
 dynStart('hashkings')
 
@@ -337,7 +334,7 @@ function userList() {
                         avatar: false,
                         bud: false
                      },
-                    xp: 0,
+                    xp: 45,
                     lvl: 1,
                     role: 1,
                     joints: [],
@@ -389,8 +386,83 @@ function userList() {
     })
 } catch (error) {
         console.log("error when running report")
-        console.log(error)
 }
+}
+
+function leveling() {
+    var userList = state.stats.farmerList
+    try {
+    for(var i = 0; i < userList.length; i++) {
+
+        var user = userList[i]
+        if(state.users[user].xp >= 45 && state.users[user].xp <= 47){
+            state.users[user].lvl == 1
+        } else if (state.users[user].xp >= 48 && state.users[user].xp <= 52){
+            state.users[user].lvl == 2
+        } else if (state.users[user].xp >= 53 && state.users[user].xp <= 58){
+            state.users[user].lvl == 3
+        } else if (state.users[user].xp >= 58 && state.users[user].xp <= 62){
+            state.users[user].lvl == 4
+        } else if (state.users[user].xp >= 63 && state.users[user].xp <= 67){
+            state.users[user].xp == 5
+        } else if (state.users[user].xp >= 68 && state.users[user].xp <= 72){
+            state.users[user].xp == 6
+        } else if (state.users[user].xp >= 73 && state.users[user].xp <= 78){
+            state.users[user].xp == 7
+        } else if (state.users[user].xp >= 79 && state.users[user].xp <= 85){
+            state.users[user].xp == 8
+        } else if (state.users[user].xp >= 86 && state.users[user].xp <= 91){
+            state.users[user].xp == 9
+        } else if (state.users[user].xp >= 92 && state.users[user].xp <= 99){
+            state.users[user].xp == 10
+        } else if (state.users[user].xp >= 100 && state.users[user].xp <= 106){
+            state.users[user].xp == 11
+        } else if (state.users[user].xp >= 107 && state.users[user].xp <= 113){
+            state.users[user].xp == 12
+        } else if (state.users[user].xp >= 114 && state.users[user].xp <= 122){
+            state.users[user].xp == 13
+        } else if (state.users[user].xp >= 123 && state.users[user].xp <= 132){
+            state.users[user].xp == 14
+        } else if (state.users[user].xp >= 133 && state.users[user].xp <= 142){
+            state.users[user].xp == 15
+        } else if (state.users[user].xp >= 143 && state.users[user].xp <= 154){
+            state.users[user].xp == 16
+        } else if (state.users[user].xp >= 155 && state.users[user].xp <= 167){
+            state.users[user].xp == 17
+        } else if (state.users[user].xp >= 168 && state.users[user].xp <= 179){
+            state.users[user].xp == 18
+        } else if (state.users[user].xp >= 180 && state.users[user].xp <= 195){
+            state.users[user].xp == 19
+        } else if (state.users[user].xp >= 196 && state.users[user].xp <= 210){
+            state.users[user].xp == 20
+        } else if (state.users[user].xp >= 211 && state.users[user].xp <= 227){
+            state.users[user].xp == 21
+        } else if (state.users[user].xp >= 228 && state.users[user].xp <= 245){
+            state.users[user].xp == 22
+        } else if (state.users[user].xp >= 246 && state.users[user].xp <= 265){
+            state.users[user].xp == 23
+        } else if (state.users[user].xp >= 266 && state.users[user].xp <= 287){
+            state.users[user].xp == 24
+        } else if (state.users[user].xp >= 288 && state.users[user].xp <= 309){
+            state.users[user].xp == 25
+        } else if (state.users[user].xp >= 310 && state.users[user].xp <= 333){
+            state.users[user].xp == 26
+        } else if (state.users[user].xp >= 334 && state.users[user].xp <= 360){
+            state.users[user].xp == 27
+        } else if (state.users[user].xp >= 361 && state.users[user].xp <= 389){
+            state.users[user].xp == 28
+        } else if (state.users[user].xp >= 390 && state.users[user].xp <= 428){
+            state.users[user].xp == 29
+        } else if (state.users[user].xp >= 429 && state.users[user].xp <= 480){
+            state.users[user].xp == 30
+        } else if (state.users[user].xp >= 481 && state.users[user].xp <= 530){
+            state.users[user].xp == 31
+        }
+        //need to figure out a better way
+    }
+    } catch (error) {
+       console.log("error updating " + user + "'s lvl")     
+    }
 }
 
 function reporting() {
@@ -788,7 +860,6 @@ function startApp() {
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 6 Booster", type, from)
-
                   }
                 }    
             }
@@ -1036,13 +1107,54 @@ function startApp() {
     processor.on('subdivide_plot', function(json, from) {
         let plotID = json.plotID
         let region = json.region
+
+        let regionString = "" + region
+        let plotIDString = "" + plotID
         
         var dividedStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.OCCUPIED`);
 
-        if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+        if(regionString === "asia"){
+            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
 
-            //createsubdivisions
-            contract.createSubdivision(hivejs, region, from)
+                //createsubdivisions
+                contract.subdividePlot(hivejs, region, 2)
+                contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
+            }
+        } else if(regionString === "africa"){
+            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+
+                //createsubdivisions
+                contract.subdividePlot(hivejs, region, 4)
+                contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
+            }
+        } else if(regionString === "mexico"){
+            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+
+                //createsubdivisions
+                contract.subdividePlot(hivejs, region, 7)
+                contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
+            }
+        } else if(regionString === "jamaica"){
+            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+
+                //createsubdivisions
+                contract.subdividePlot(hivejs, region, 3)
+                contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
+            }
+        } else if(regionString === "southAmerica"){
+            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+
+                //createsubdivisions
+                contract.subdividePlot(hivejs, region, 8)
+                contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
+            }
+        } else if(regionString === "afghanistan"){
+            if(state.users[from] && state.users[from].plots.id[plotID] && dividedStatus === false){
+
+                //createsubdivisions
+                contract.subdividePlot(hivejs, region, 6)
+                contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
+            }
         }
     });
 
@@ -1224,7 +1336,7 @@ function startApp() {
                         avatar: false,
                         bud: false
                      },
-                    xp: 0,
+                    xp: 45,
                     lvl: 1,
                     role: 1,
                     joints: [],
