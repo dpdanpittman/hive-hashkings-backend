@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53260510; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53260710; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53260510;
+const ago = ENV.ago || 53260710;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1121,42 +1121,42 @@ function startApp() {
             if(state.users[from] && dividedStatus === false){
 
                 //createsubdivisions
-                contract.subdividePlot(hivejs, region, 1)
+                contract.subdividePlot(hivejs, "Asia", 1)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "africa"){
             if(state.users[from] && dividedStatus === false){
 
                 //createsubdivisions
-                contract.subdividePlot(hivejs, region, 3)
+                contract.subdividePlot(hivejs, "Africa", 3)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "mexico"){
             if(state.users[from] && dividedStatus === false){
 
                 //createsubdivisions
-                contract.subdividePlot(hivejs, region, 6)
+                contract.subdividePlot(hivejs, "Mexico", 6)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "jamaica"){
             if(state.users[from] && dividedStatus === false){
 
                 //createsubdivisions
-                contract.subdividePlot(hivejs, region, 2)
+                contract.subdividePlot(hivejs, "Jamaica", 2)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "southAmerica"){
             if(state.users[from] && dividedStatus === false){
 
                 //createsubdivisions
-                contract.subdividePlot(hivejs, region, 7)
+                contract.subdividePlot(hivejs, "South America", 7)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString === "afghanistan"){
             if(state.users[from] && dividedStatus === false){
 
                 //createsubdivisions
-                contract.subdividePlot(hivejs, region, 5)
+                contract.subdividePlot(hivejs, "Afghanistan", 5)
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         }
