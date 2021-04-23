@@ -584,7 +584,6 @@ function daily() {
     // if work uncomment countcontract.createToken(hivejs, "HKWATER", waterNumber.toFixed(3), farmer);
     }) */
 
-    var userList = state.stats.farmerList
     for(var i = 0; i < userList.length; i++) {
         let user = userList[i]
         state.users[user].dailyBudDeposit = 0
