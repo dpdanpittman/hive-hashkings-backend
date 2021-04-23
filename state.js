@@ -57,65 +57,65 @@ module.exports = {
             "5": "Scientist Maggi"
          }
       },
-      "bu": "QmSbqHW8NCNGMVfC65XpMD8gpZkWTqmGDoVekQbvZ4KyzU",
-      "bi": 53211101,
+      "bu": "QmaLyyvkH1U3BmwxDCecuagPYchX19YCsqwVv86jTtciMF",
+      "bi": 53268501,
       "prices": {
          "bundles": {
-            "asiaBundle": 57,
-            "africaBundle": 29,
-            "afghanistanBundle": 19,
-            "jamaicaBundle": 38,
-            "mexicoBundle": 15,
-            "southAmericaBundle": 10
+            "asiaBundle": 73,
+            "africaBundle": 36,
+            "afghanistanBundle": 24,
+            "jamaicaBundle": 48,
+            "mexicoBundle": 18,
+            "southAmericaBundle": 12
          },
          "waterPlants": {
             "lvl1": {
-               "price": 2,
+               "price": 3,
                "water": 30,
                "token": 1000
             },
             "lvl2": {
-               "price": 2,
+               "price": 3,
                "water": 45,
                "token": 1000
             },
             "lvl3": {
-               "price": 2,
+               "price": 3,
                "water": 75,
                "token": 1000
             },
             "lvl4": {
-               "price": 2,
+               "price": 3,
                "water": 120,
                "token": 1000
             },
             "lvl5": {
-               "price": 2,
+               "price": 3,
                "water": 180,
                "token": 1000
             },
             "lvl6": {
-               "price": 2,
+               "price": 3,
                "water": 255,
                "token": 1000
             },
             "lvl7": {
-               "price": 2,
+               "price": 3,
                "water": 345,
                "token": 1000
             },
             "lvl8": {
-               "price": 2,
+               "price": 3,
                "water": 450,
                "token": 1000
             },
             "lvl9": {
-               "price": 2,
+               "price": 3,
                "water": 570,
                "token": 1000
             },
             "lvl10": {
-               "price": 2,
+               "price": 3,
                "water": 705,
                "token": 1000
             }
@@ -168,37 +168,37 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 85,
-               "token": 850
+               "price": 109,
+               "token": 1090
             },
             "africa": {
-               "price": 43,
-               "token": 430
+               "price": 55,
+               "token": 550
             },
             "afghanistan": {
-               "price": 29,
-               "token": 290
+               "price": 37,
+               "token": 370
             },
             "southAmerica": {
-               "price": 15,
-               "token": 150
+               "price": 19,
+               "token": 190
             },
             "jamaica": {
-               "price": 57,
-               "token": 570
+               "price": 73,
+               "token": 730
             },
             "mexico": {
-               "price": 22,
-               "token": 220
+               "price": 28,
+               "token": 280
             }
          }
       },
       "supply": {
-         "totalPlots": 2262,
-         "totalPlotsC": 754,
-         "totalSeeds": 2545,
-         "totalWaterTowers": 11,
-         "totalWaterTowersC": 18989,
+         "totalPlots": 2270,
+         "totalPlotsC": 746,
+         "totalSeeds": 2546,
+         "totalWaterTowers": 0,
+         "totalWaterTowersC": 19000,
          "land": {
             "asia": 0,
             "asiaC": 40,
@@ -206,15 +206,15 @@ module.exports = {
             "africaC": 300,
             "afghanistan": 0,
             "afghanistanC": 500,
-            "southAmerica": 410,
-            "southAmericaC": 890,
+            "southAmerica": 402,
+            "southAmericaC": 898,
             "jamaica": 0,
             "jamaicaC": 116,
             "mexico": 335,
             "mexicoC": 415
          }
       },
-      "farmers": 403,
+      "farmers": 405,
       "farmerList": [
          "qwoyn",
          "abrockman",
@@ -618,6 +618,7 @@ module.exports = {
          "pippex",
          "imtheovermind",
          "dcalsot",
+         "hk-vault",
          "chocolatoso"
       ]
    },
@@ -784,7 +785,7 @@ module.exports = {
          ],
          "hkwater": 330,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 11,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -800,7 +801,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -1075,7 +1076,7 @@ module.exports = {
          ],
          "hkwater": 330,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 11,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1091,7 +1092,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -1433,7 +1434,7 @@ module.exports = {
          ],
          "hkwater": 450,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1449,7 +1450,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -1544,7 +1545,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1560,7 +1561,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -1674,7 +1675,7 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1690,7 +1691,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -2156,7 +2157,7 @@ module.exports = {
          ],
          "hkwater": 660,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 22,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2172,7 +2173,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -2495,7 +2496,7 @@ module.exports = {
          ],
          "hkwater": 420,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 14,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2511,7 +2512,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -4118,7 +4119,7 @@ module.exports = {
          ],
          "hkwater": 2460,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 82,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4134,7 +4135,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -4288,7 +4289,7 @@ module.exports = {
          ],
          "hkwater": 150,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4304,7 +4305,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -4380,7 +4381,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4396,7 +4397,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -4596,7 +4597,7 @@ module.exports = {
          ],
          "hkwater": 240,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4612,7 +4613,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -4791,7 +4792,7 @@ module.exports = {
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -4807,7 +4808,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -5432,7 +5433,7 @@ module.exports = {
          ],
          "hkwater": 960,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 32,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -5448,7 +5449,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -6010,7 +6011,7 @@ module.exports = {
          ],
          "hkwater": 780,
          "waterPlants": {
-            "lvl1": 13,
+            "lvl1": 26,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6026,7 +6027,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -6397,7 +6398,7 @@ module.exports = {
          ],
          "hkwater": 420,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 14,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6413,7 +6414,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -6527,7 +6528,7 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6543,7 +6544,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -6941,7 +6942,7 @@ module.exports = {
          ],
          "hkwater": 510,
          "waterPlants": {
-            "lvl1": 18,
+            "lvl1": 17,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6957,7 +6958,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -7142,7 +7143,7 @@ module.exports = {
          ],
          "hkwater": 150,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7158,7 +7159,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -7311,7 +7312,7 @@ module.exports = {
          ],
          "hkwater": 150,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7327,7 +7328,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -7423,7 +7424,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7439,7 +7440,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -7534,7 +7535,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7550,7 +7551,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -7767,7 +7768,7 @@ module.exports = {
          ],
          "hkwater": 240,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7783,7 +7784,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -7954,7 +7955,7 @@ module.exports = {
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -7970,7 +7971,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -8179,7 +8180,7 @@ module.exports = {
          ],
          "hkwater": 240,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8195,7 +8196,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -8290,7 +8291,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8306,7 +8307,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -8496,7 +8497,7 @@ module.exports = {
          ],
          "hkwater": 210,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8512,7 +8513,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -8607,7 +8608,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8623,7 +8624,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -9029,7 +9030,7 @@ module.exports = {
          ],
          "hkwater": 540,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 18,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9045,7 +9046,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -9121,7 +9122,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9137,7 +9138,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -9232,7 +9233,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9248,7 +9249,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -9319,7 +9320,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -9449,7 +9450,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9465,7 +9466,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -9560,7 +9561,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9576,7 +9577,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -9899,7 +9900,7 @@ module.exports = {
          ],
          "hkwater": 420,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 14,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -9915,7 +9916,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -10109,7 +10110,7 @@ module.exports = {
          ],
          "hkwater": 210,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10125,7 +10126,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -11523,7 +11524,7 @@ module.exports = {
          ],
          "hkwater": 540,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 18,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11539,7 +11540,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -11615,7 +11616,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11631,7 +11632,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -11707,7 +11708,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11723,7 +11724,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -11818,7 +11819,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11834,7 +11835,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -11910,7 +11911,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -11926,7 +11927,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -12040,7 +12041,7 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12056,7 +12057,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -12227,7 +12228,7 @@ module.exports = {
          ],
          "hkwater": 180,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12243,7 +12244,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -12326,7 +12327,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -12373,7 +12374,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -12451,7 +12452,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -12467,7 +12468,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -13191,7 +13192,7 @@ module.exports = {
          ],
          "hkwater": 990,
          "waterPlants": {
-            "lvl1": 20,
+            "lvl1": 33,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13207,7 +13208,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -13341,7 +13342,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13357,7 +13358,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -13625,7 +13626,7 @@ module.exports = {
          ],
          "hkwater": 330,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 11,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13641,7 +13642,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -13718,7 +13719,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13734,7 +13735,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -13788,7 +13789,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -14099,7 +14100,7 @@ module.exports = {
          ],
          "hkwater": 540,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 18,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14115,7 +14116,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -14191,7 +14192,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14207,7 +14208,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -14302,7 +14303,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14318,7 +14319,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -14413,7 +14414,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14429,7 +14430,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -14517,7 +14518,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -14548,7 +14549,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14564,7 +14565,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -14640,7 +14641,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14656,7 +14657,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -14734,7 +14735,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -14750,7 +14751,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -15041,7 +15042,7 @@ module.exports = {
          ],
          "hkwater": 360,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 12,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15057,7 +15058,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -15116,7 +15117,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15132,7 +15133,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -15322,7 +15323,7 @@ module.exports = {
          ],
          "hkwater": 210,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15338,7 +15339,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -15433,7 +15434,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15449,7 +15450,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -15582,7 +15583,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15598,7 +15599,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -15693,7 +15694,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -15709,7 +15710,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -16008,7 +16009,7 @@ module.exports = {
          ],
          "hkwater": 360,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 12,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16024,7 +16025,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -16100,7 +16101,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16116,7 +16117,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -16458,7 +16459,7 @@ module.exports = {
          ],
          "hkwater": 450,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16474,7 +16475,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -16607,7 +16608,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16623,7 +16624,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -16865,7 +16866,7 @@ module.exports = {
          ],
          "hkwater": 300,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16881,7 +16882,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -16957,7 +16958,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -16973,7 +16974,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -17087,7 +17088,7 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17103,7 +17104,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -17627,7 +17628,7 @@ module.exports = {
          ],
          "hkwater": 690,
          "waterPlants": {
-            "lvl1": 19,
+            "lvl1": 23,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17643,7 +17644,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -17720,7 +17721,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -17736,7 +17737,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -18648,7 +18649,7 @@ module.exports = {
          ],
          "hkwater": 1350,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 45,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18664,7 +18665,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -18778,7 +18779,7 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18794,7 +18795,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -18893,7 +18894,7 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18909,7 +18910,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -18968,7 +18969,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -18984,7 +18985,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -19060,7 +19061,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19076,7 +19077,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -19196,7 +19197,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19212,7 +19213,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -19346,7 +19347,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19362,7 +19363,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -19457,7 +19458,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19473,7 +19474,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -19846,7 +19847,7 @@ module.exports = {
          ],
          "hkwater": 450,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19862,7 +19863,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -19959,7 +19960,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -19975,7 +19976,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -20108,7 +20109,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -20124,7 +20125,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -22547,7 +22548,7 @@ module.exports = {
          ],
          "hkwater": 3450,
          "waterPlants": {
-            "lvl1": 100,
+            "lvl1": 115,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -22563,7 +22564,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -22631,7 +22632,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -22647,7 +22648,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -22972,7 +22973,7 @@ module.exports = {
          ],
          "hkwater": 450,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -22988,7 +22989,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -23102,7 +23103,7 @@ module.exports = {
          ],
          "hkwater": 90,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -23118,7 +23119,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -23196,7 +23197,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -23212,7 +23213,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -23288,7 +23289,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -23304,7 +23305,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -23382,7 +23383,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -23398,7 +23399,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -23531,7 +23532,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -23547,7 +23548,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -23630,7 +23631,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -23670,7 +23671,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -23686,7 +23687,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -23764,7 +23765,7 @@ module.exports = {
          ],
          "hkwater": 60,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -23780,7 +23781,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -24279,7 +24280,7 @@ module.exports = {
          ],
          "hkwater": 660,
          "waterPlants": {
-            "lvl1": 12,
+            "lvl1": 22,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -24295,7 +24296,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -24385,14 +24386,6 @@ module.exports = {
                "owner": "turb0nen"
             },
             {
-               "id": 1842,
-               "properties": {
-                  "NAME": "Africa",
-                  "TYPE": "plot"
-               },
-               "owner": "turb0nen"
-            },
-            {
                "id": 1905,
                "properties": {
                   "NAME": "Mexico",
@@ -24402,7 +24395,7 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 8,
+         "plotCount": 7,
          "seedCount": 9,
          "seeds": [
             {
@@ -24507,7 +24500,7 @@ module.exports = {
          ],
          "hkwater": 270,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -24523,7 +24516,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -24903,7 +24896,7 @@ module.exports = {
          ],
          "hkwater": 510,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 17,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -24919,7 +24912,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -25396,7 +25389,7 @@ module.exports = {
          ],
          "hkwater": 660,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 22,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -25412,7 +25405,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -25569,7 +25562,7 @@ module.exports = {
          ],
          "hkwater": 150,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -25585,7 +25578,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -25661,7 +25654,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -25677,7 +25670,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -25829,20 +25822,10 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "sanchezro"
-            },
-            {
-               "id": 5779,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false
-               },
-               "owner": "sanchezro"
             }
          ],
          "farm": [],
-         "plotCount": 12,
+         "plotCount": 11,
          "seedCount": 12,
          "seeds": [
             {
@@ -25980,7 +25963,7 @@ module.exports = {
          ],
          "hkwater": 360,
          "waterPlants": {
-            "lvl1": 9,
+            "lvl1": 12,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -25996,7 +25979,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -26072,7 +26055,7 @@ module.exports = {
          ],
          "hkwater": 30,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -26088,7 +26071,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -26221,7 +26204,7 @@ module.exports = {
          ],
          "hkwater": 120,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -26237,7 +26220,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "xp": 45,
          "lvl": 1,
@@ -26314,7 +26297,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -26330,7 +26313,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -26693,7 +26676,7 @@ module.exports = {
          "hkwater": 480,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 16,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -26709,7 +26692,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -26958,7 +26941,7 @@ module.exports = {
          "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -26974,7 +26957,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27052,7 +27035,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -27068,7 +27051,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27129,7 +27112,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -27145,7 +27128,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27265,7 +27248,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -27281,7 +27264,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27435,7 +27418,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -27451,7 +27434,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27826,7 +27809,7 @@ module.exports = {
          "hkwater": 510,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 17,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -27842,7 +27825,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -27920,7 +27903,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -27936,7 +27919,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -28035,7 +28018,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -28051,7 +28034,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -28205,7 +28188,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -28221,7 +28204,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -28687,7 +28670,7 @@ module.exports = {
          "hkwater": 630,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 21,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -28703,7 +28686,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29070,7 +29053,7 @@ module.exports = {
          "hkwater": 480,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 16,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -29086,7 +29069,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29164,7 +29147,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -29180,7 +29163,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29336,7 +29319,7 @@ module.exports = {
          "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -29352,7 +29335,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29430,7 +29413,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -29446,7 +29429,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29581,7 +29564,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -29597,7 +29580,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29694,7 +29677,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -29710,7 +29693,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -29872,7 +29855,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -29888,7 +29871,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -30027,7 +30010,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -30043,7 +30026,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -30387,7 +30370,7 @@ module.exports = {
          "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -30403,7 +30386,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31032,7 +31015,7 @@ module.exports = {
          "hkwater": 900,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 30,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -31048,7 +31031,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31134,7 +31117,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -31150,7 +31133,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31342,7 +31325,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -31358,7 +31341,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31419,7 +31402,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -31435,7 +31418,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31513,7 +31496,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -31529,7 +31512,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -31799,7 +31782,7 @@ module.exports = {
          "hkwater": 360,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 12,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -31815,7 +31798,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -32293,7 +32276,7 @@ module.exports = {
          "hkwater": 660,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 22,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -32309,7 +32292,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -32558,7 +32541,7 @@ module.exports = {
          "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -32574,7 +32557,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -32690,7 +32673,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -32706,7 +32689,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -32841,7 +32824,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -32857,7 +32840,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -32954,7 +32937,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -32970,7 +32953,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33170,7 +33153,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33186,7 +33169,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33386,7 +33369,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33402,7 +33385,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33518,7 +33501,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33534,7 +33517,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33612,7 +33595,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33628,7 +33611,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33708,7 +33691,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33724,7 +33707,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -33802,7 +33785,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33818,7 +33801,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34124,7 +34107,7 @@ module.exports = {
          "hkwater": 390,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 13,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -34140,7 +34123,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34448,7 +34431,7 @@ module.exports = {
          "hkwater": 420,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 14,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -34464,7 +34447,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34620,7 +34603,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -34636,7 +34619,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34714,7 +34697,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -34730,7 +34713,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -34865,7 +34848,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -34881,7 +34864,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35073,7 +35056,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -35089,7 +35072,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35303,7 +35286,7 @@ module.exports = {
          "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -35319,7 +35302,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35492,7 +35475,7 @@ module.exports = {
          "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -35508,7 +35491,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35588,7 +35571,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -35604,7 +35587,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -35948,7 +35931,7 @@ module.exports = {
          "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -35964,7 +35947,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36061,7 +36044,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36077,7 +36060,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36155,7 +36138,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36171,7 +36154,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36249,7 +36232,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36265,7 +36248,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36402,7 +36385,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36418,7 +36401,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36648,7 +36631,7 @@ module.exports = {
          "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36664,7 +36647,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -36837,7 +36820,7 @@ module.exports = {
          "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36853,7 +36836,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37026,7 +37009,7 @@ module.exports = {
          "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -37042,7 +37025,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37120,7 +37103,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -37136,7 +37119,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37252,7 +37235,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -37268,7 +37251,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37329,7 +37312,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -37345,7 +37328,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37480,7 +37463,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -37496,7 +37479,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37593,7 +37576,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -37609,7 +37592,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -37763,7 +37746,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -37779,7 +37762,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38085,7 +38068,7 @@ module.exports = {
          "hkwater": 390,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 13,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38101,7 +38084,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38198,7 +38181,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38214,7 +38197,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38332,7 +38315,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38348,7 +38331,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38483,7 +38466,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38499,7 +38482,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38596,7 +38579,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38612,7 +38595,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38685,7 +38668,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38896,7 +38879,7 @@ module.exports = {
          "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -38912,7 +38895,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -38990,7 +38973,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -39006,7 +38989,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39122,7 +39105,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -39138,7 +39121,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39311,7 +39294,7 @@ module.exports = {
          "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -39327,7 +39310,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39443,7 +39426,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -39459,7 +39442,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39556,7 +39539,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -39572,7 +39555,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39669,7 +39652,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -39685,7 +39668,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -39993,7 +39976,7 @@ module.exports = {
          "hkwater": 420,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 14,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -40009,7 +39992,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40148,7 +40131,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -40164,7 +40147,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40413,7 +40396,7 @@ module.exports = {
          "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -40429,7 +40412,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40589,7 +40572,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -40605,7 +40588,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -40721,7 +40704,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -40737,7 +40720,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41081,7 +41064,7 @@ module.exports = {
          "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41097,7 +41080,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41194,7 +41177,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41210,7 +41193,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41288,7 +41271,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41304,7 +41287,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41401,7 +41384,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41417,7 +41400,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41514,7 +41497,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41530,7 +41513,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41608,7 +41591,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41624,7 +41607,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41761,7 +41744,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41777,7 +41760,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -41893,7 +41876,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41909,7 +41892,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42006,7 +41989,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -42022,7 +42005,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42119,7 +42102,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -42135,7 +42118,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42234,7 +42217,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -42250,7 +42233,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42391,7 +42374,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -42407,7 +42390,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42534,7 +42517,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -42550,7 +42533,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42658,7 +42641,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -42674,7 +42657,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42771,7 +42754,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -42787,7 +42770,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -42902,7 +42885,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43114,7 +43097,7 @@ module.exports = {
          "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -43130,7 +43113,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43265,7 +43248,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -43281,7 +43264,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43399,7 +43382,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -43415,7 +43398,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43512,7 +43495,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -43528,7 +43511,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43625,7 +43608,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -43641,7 +43624,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43738,7 +43721,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -43754,7 +43737,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43832,7 +43815,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -43848,7 +43831,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -43918,7 +43901,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -43934,7 +43917,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44094,7 +44077,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -44110,7 +44093,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44188,7 +44171,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -44204,7 +44187,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44265,7 +44248,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -44281,7 +44264,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44359,7 +44342,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -44375,7 +44358,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44797,7 +44780,7 @@ module.exports = {
          "hkwater": 600,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 20,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -44813,7 +44796,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -44929,7 +44912,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -44945,7 +44928,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45042,7 +45025,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -45058,7 +45041,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45174,7 +45157,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -45190,7 +45173,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45348,7 +45331,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -45364,7 +45347,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45564,7 +45547,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -45580,7 +45563,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45677,7 +45660,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -45693,7 +45676,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -45908,7 +45891,7 @@ module.exports = {
          "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -45924,7 +45907,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46040,7 +46023,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -46056,7 +46039,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46239,7 +46222,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -46255,7 +46238,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46352,7 +46335,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -46368,7 +46351,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46484,7 +46467,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -46500,7 +46483,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46770,7 +46753,7 @@ module.exports = {
          "hkwater": 330,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 11,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -46786,7 +46769,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -46880,7 +46863,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47015,7 +46998,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -47031,7 +47014,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47147,7 +47130,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -47163,7 +47146,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47260,7 +47243,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -47276,7 +47259,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47413,7 +47396,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -47429,7 +47412,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47583,7 +47566,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -47599,7 +47582,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47696,7 +47679,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -47712,7 +47695,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47773,7 +47756,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -47789,7 +47772,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -47886,7 +47869,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -47902,7 +47885,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -48020,7 +48003,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -48036,7 +48019,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -49105,7 +49088,7 @@ module.exports = {
          "hkwater": 1440,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 45,
+            "lvl1": 48,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -49121,7 +49104,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -49239,7 +49222,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -49255,7 +49238,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -49409,7 +49392,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -49425,7 +49408,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -49655,7 +49638,7 @@ module.exports = {
          "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -49671,7 +49654,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -50195,7 +50178,7 @@ module.exports = {
          "hkwater": 720,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 11,
+            "lvl1": 24,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -50211,7 +50194,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -50284,7 +50267,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -50419,7 +50402,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -50435,7 +50418,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -50813,7 +50796,7 @@ module.exports = {
          "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -50829,7 +50812,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -51705,7 +51688,7 @@ module.exports = {
          "hkwater": 1290,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 43,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -51721,7 +51704,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -51799,7 +51782,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -51815,7 +51798,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -51895,7 +51878,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -51911,7 +51894,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52027,7 +52010,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52043,7 +52026,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52194,7 +52177,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52210,7 +52193,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52307,7 +52290,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52323,7 +52306,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52439,7 +52422,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52455,7 +52438,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52552,7 +52535,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52568,7 +52551,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52646,7 +52629,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52662,7 +52645,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52740,7 +52723,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52756,7 +52739,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52834,7 +52817,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52850,7 +52833,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -52911,7 +52894,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -52927,7 +52910,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53028,7 +53011,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53044,7 +53027,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53179,7 +53162,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53195,7 +53178,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53273,7 +53256,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53289,7 +53272,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53502,7 +53485,7 @@ module.exports = {
          "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53518,7 +53501,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53653,7 +53636,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53669,7 +53652,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53735,7 +53718,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53751,7 +53734,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53829,7 +53812,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -53845,7 +53828,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -53999,7 +53982,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -54015,7 +53998,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54135,7 +54118,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -54151,7 +54134,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54248,7 +54231,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -54264,7 +54247,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -54513,7 +54496,7 @@ module.exports = {
          "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -54529,7 +54512,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -55272,7 +55255,7 @@ module.exports = {
          "hkwater": 1080,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 36,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55288,7 +55271,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -55377,7 +55360,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55393,7 +55376,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -55454,7 +55437,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55470,7 +55453,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -55561,6 +55544,14 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
+               "id": 1842,
+               "properties": {
+                  "NAME": "Africa",
+                  "TYPE": "plot"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
                "id": 2917,
                "properties": {
                   "NAME": "Mexico",
@@ -55601,6 +55592,16 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
+               "id": 5779,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false
+               },
+               "owner": "nftmart.cards"
+            },
+            {
                "id": 6019,
                "properties": {
                   "NAME": "Mexico",
@@ -55632,7 +55633,7 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 13,
+         "plotCount": 15,
          "seedCount": 6,
          "seeds": [
             {
@@ -55705,7 +55706,7 @@ module.exports = {
          "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55721,7 +55722,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -55870,7 +55871,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55886,7 +55887,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -55964,7 +55965,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55980,7 +55981,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56037,7 +56038,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -56053,7 +56054,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56121,7 +56122,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56259,7 +56260,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -56275,7 +56276,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -56331,7 +56332,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -57257,7 +57258,7 @@ module.exports = {
          "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -57273,7 +57274,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -57671,7 +57672,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -57687,7 +57688,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -57931,7 +57932,7 @@ module.exports = {
          "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -57947,7 +57948,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58052,7 +58053,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58208,7 +58209,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -58224,7 +58225,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58380,7 +58381,7 @@ module.exports = {
          "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -58396,7 +58397,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58552,7 +58553,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -58568,7 +58569,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58713,7 +58714,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -58729,7 +58730,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -58918,7 +58919,7 @@ module.exports = {
          "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -58934,7 +58935,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59068,7 +59069,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59120,7 +59121,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59136,7 +59137,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59265,7 +59266,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59281,7 +59282,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59432,7 +59433,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59448,7 +59449,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59500,7 +59501,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59516,7 +59517,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59568,7 +59569,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59584,7 +59585,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59636,7 +59637,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59652,7 +59653,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59704,7 +59705,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59720,7 +59721,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59783,7 +59784,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59799,7 +59800,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59862,7 +59863,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59878,7 +59879,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -59930,7 +59931,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59946,7 +59947,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60009,7 +60010,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60025,7 +60026,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60077,7 +60078,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60093,7 +60094,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60156,7 +60157,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60172,7 +60173,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60224,7 +60225,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60240,7 +60241,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60292,7 +60293,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60308,7 +60309,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60435,7 +60436,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60451,7 +60452,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60503,7 +60504,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60519,7 +60520,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60571,7 +60572,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60587,7 +60588,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60650,7 +60651,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60666,7 +60667,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60718,7 +60719,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60734,7 +60735,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60872,7 +60873,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -60888,7 +60889,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -60956,7 +60957,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61078,7 +61079,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61094,7 +61095,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61235,7 +61236,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61251,7 +61252,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61348,7 +61349,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61364,7 +61365,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61442,7 +61443,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61458,7 +61459,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61536,7 +61537,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61552,7 +61553,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61613,7 +61614,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61629,7 +61630,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61766,7 +61767,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61782,7 +61783,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -61936,7 +61937,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61952,7 +61953,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62182,7 +62183,7 @@ module.exports = {
          "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -62198,7 +62199,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62276,7 +62277,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -62292,7 +62293,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62370,7 +62371,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -62386,7 +62387,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62464,7 +62465,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -62480,7 +62481,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62577,7 +62578,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -62593,7 +62594,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -62690,7 +62691,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -62706,7 +62707,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63070,7 +63071,7 @@ module.exports = {
          "hkwater": 420,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 14,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -63086,7 +63087,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63164,7 +63165,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -63180,7 +63181,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63258,7 +63259,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -63274,7 +63275,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63371,7 +63372,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -63387,7 +63388,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63503,7 +63504,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -63519,7 +63520,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63673,7 +63674,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -63689,7 +63690,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -63843,7 +63844,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -63859,7 +63860,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64037,7 +64038,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -64053,7 +64054,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64130,7 +64131,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64238,7 +64239,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -64254,7 +64255,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64332,7 +64333,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -64348,7 +64349,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64466,7 +64467,7 @@ module.exports = {
          "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -64482,7 +64483,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64598,7 +64599,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -64614,7 +64615,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64765,7 +64766,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -64898,7 +64899,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65067,7 +65068,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65200,7 +65201,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65337,7 +65338,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65506,7 +65507,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65641,7 +65642,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65905,7 +65906,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -65998,7 +65999,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66154,7 +66155,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66266,7 +66267,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "dailyBudDeposit": 0,
          "claimed": {
@@ -66597,7 +66598,7 @@ module.exports = {
          "hkwater": 390,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 13,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -66613,7 +66614,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -66737,7 +66738,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -66753,7 +66754,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -66851,7 +66852,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -67611,7 +67612,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -67709,7 +67710,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -67807,7 +67808,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -67926,7 +67927,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68102,7 +68103,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68200,7 +68201,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68454,7 +68455,7 @@ module.exports = {
          "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -68470,7 +68471,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68673,7 +68674,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68771,7 +68772,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -68953,7 +68954,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -69051,7 +69052,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -70434,7 +70435,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -70574,7 +70575,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -70672,7 +70673,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -70775,7 +70776,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -70856,7 +70857,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -70954,7 +70955,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71136,7 +71137,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71339,7 +71340,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71479,7 +71480,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71661,7 +71662,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -71759,7 +71760,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72029,7 +72030,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72146,7 +72147,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72244,7 +72245,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72342,7 +72343,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72461,7 +72462,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72563,7 +72564,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72745,7 +72746,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72843,7 +72844,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -72941,7 +72942,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73039,7 +73040,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73158,7 +73159,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73361,7 +73362,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73459,7 +73460,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73540,7 +73541,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73743,7 +73744,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -73925,7 +73926,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74028,7 +74029,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -74044,7 +74045,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74184,7 +74185,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74314,7 +74315,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74389,7 +74390,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74488,7 +74489,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -74504,7 +74505,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74695,7 +74696,7 @@ module.exports = {
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -74711,7 +74712,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74793,7 +74794,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -74809,7 +74810,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -74933,7 +74934,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -74949,7 +74950,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75115,7 +75116,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -75131,7 +75132,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75318,7 +75319,7 @@ module.exports = {
          "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -75334,7 +75335,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75416,7 +75417,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -75432,7 +75433,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75707,7 +75708,7 @@ module.exports = {
          "hkwater": 330,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 11,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -75723,7 +75724,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75821,7 +75822,7 @@ module.exports = {
          "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -75837,7 +75838,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -75963,7 +75964,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76031,7 +76032,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76102,7 +76103,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -76118,7 +76119,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76197,7 +76198,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -76213,7 +76214,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76292,7 +76293,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -76308,7 +76309,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76387,7 +76388,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -76403,7 +76404,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76477,7 +76478,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76626,7 +76627,7 @@ module.exports = {
          "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -76642,7 +76643,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76725,7 +76726,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76791,7 +76792,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -76942,7 +76943,7 @@ module.exports = {
          "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -76958,7 +76959,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77053,7 +77054,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77121,7 +77122,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77182,7 +77183,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -77198,7 +77199,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77262,7 +77263,7 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -77278,7 +77279,7 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
@@ -77318,38 +77319,106 @@ module.exports = {
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": true,
-                  "SEEDID": 7733,
+                  "SUBDIVIDED": true,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
                   "PLANTED": false,
                   "PLOTID": 0
                },
                "owner": "chocolatoso"
-            }
-         ],
-         "plotCount": 1,
-         "seedCount": 1,
-         "seeds": [
+            },
             {
-               "id": 7733,
+               "id": 7745,
                "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 0,
-                  "WATER": 0,
-                  "PR": 223,
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": true,
                   "OCCUPIED": false,
                   "SEEDID": 0,
-                  "PLOTID": 7734,
-                  "PLANTED": true
+                  "RENTED": false
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7746,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": true,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "RENTED": false
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7748,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": true,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "RENTED": false
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7749,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": true,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "RENTED": false
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7750,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": true,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "RENTED": false
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7751,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": true,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "RENTED": false
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7752,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": true,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "RENTED": false
                },
                "owner": "chocolatoso"
             }
          ],
+         "plotCount": 8,
+         "seedCount": 0,
+         "seeds": [],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 1,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -77365,14 +77434,14 @@ module.exports = {
             "lvl3": 0,
             "lvl4": 0,
             "lvl5": 0,
-            "lvl6": 0,
+            "lvl6": 0
          },
          "buds": 0,
          "dailyBudDeposit": 0,
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "23",
+               "stake": "0"
             },
             "mota": {
                "balance": "0.1231",
@@ -77395,6 +77464,65 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "avatars": [],
+         "boosters": []
+      },
+      "hk-vault": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
          "boosters": []
       }
    },
