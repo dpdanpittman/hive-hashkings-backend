@@ -735,14 +735,14 @@ function startApp() {
         }
 
         // makes sure database is up to date every 5 blocks
-        try {
+       // try {
         if (num % 5 === 0 && processor.isStreaming()) {
             reporting();
             daily();
         }
-        } catch (error) {
-            console.log("error when calling reporing() | line 656")                
-        }
+       // } catch (error) {
+         //   console.log("error when calling reporing() | line 656")                
+       // }
 
         // show the block number in the console every block
         if (num % 1 === 0 && processor.isStreaming()) {
