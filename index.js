@@ -565,16 +565,16 @@ function daily() {
     if(seedsUsedLastDay > 0){
     contract.distributeSeeds(axios, seedsUsedLastDay, hivejs)
     state.stats.seedsUsedLastDay = 0
-    } */
+    }*/
     var userList = state.stats.farmerList
 
     // distribute mota
-    /*let farmers = userList.map( farmer => {
+    let farmers = userList.map( farmer => {
         console.log(farmer , state.users[farmer])
         return { user: farmer , depositedBuds: state.users[farmer].dailyBudDeposit}
     })
 
-    console.log(farmers)*/
+    console.log(farmers)
     //distributeMota(1000, [ { user :"chocolatoso" , depositedBuds:100 }, { user :"al-liuke" , depositedBuds:100 }, { user :"hashkings" , depositedBuds:50 }, { user :"qwoyn" , depositedBuds:25 } ], hivejs)
     
     /*userList.map( farmer => {
