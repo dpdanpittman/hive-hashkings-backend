@@ -575,7 +575,7 @@ function daily() {
     userList.map( farmer => {
     console.log(state.users["chocolatoso"].waterPlants)
     let obj =   state.users[farmer].waterPlants  
-    let waterNumber = let waterNumber = Object.keys(obj).reduce((sum,key)=> { console.log(sum,key,obj[key]); return (sum+parseInt(obj[key]||0 )  * state.stats.prices.waterPlants[key].water  )} ,0);
+    let waterNumber = Object.keys(obj).reduce((sum,key)=> { console.log(sum,key,obj[key]); return (sum+parseInt(obj[key]||0 )  * state.stats.prices.waterPlants[key].water  )} ,0);
     
     console.log(farmer + " --> " +waterNumber);
     console.log(state.users["chocolatoso"].waterPlants)
