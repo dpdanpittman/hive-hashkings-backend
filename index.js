@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53262490; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53264451; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53262490;
+const ago = ENV.ago || 53264451;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -570,8 +570,24 @@ function daily() {
     // distribute mota
     //distributeMota(1000, [ { user :"chocolatoso" , depositedBuds:100 }, { user :"al-liuke" , depositedBuds:100 }, { user :"hashkings" , depositedBuds:50 }, { user :"qwoyn" , depositedBuds:25 } ], hivejs)
     
-    //distribute water
-    //distributeWater(hivejs,listofusers)
+    var userList = state.stats.farmerList
+
+    userList.map( farmer => {
+    let obj =   state.users[farmer].waterPlants  
+    let waterNumber = Object.keys(obj).reduce((sum,key)=> (sum+parseInt(obj[key]||0 )  * state.prices.waterPlants[obj].water  ) ,0);
+    
+    console.log(waterNumber);
+    // if work uncomment countcontract.createToken(hivejs, "HKWATER", waterNumber.toFixed(3), farmer);
+    }) 
+
+    /*var userList = state.stats.farmerList
+    for(var i = 0; i < userList.length; i++) {
+        let user = userList[i]
+        if(state.users[user].waterPlants.lvl1 > 0){
+            var waterNumber = state.users[user].waterPlants.lvl1
+            contract.distributeWater(hivejs,listofusers)
+        }
+    }*/
     }
 
 /****ISSUE****/
@@ -722,7 +738,7 @@ function startApp() {
         try {
         if (num % 5 === 0 && processor.isStreaming()) {
             reporting();
-            //daily();
+            daily();
         }
         } catch (error) {
             console.log("error when calling reporing() | line 656")                
@@ -1088,7 +1104,7 @@ function startApp() {
         }
         
 
-        if(state.users[from] && plotStatus === false && seedStatus === false && rentStatus === false && listStatus === false){
+        if(state.users[from] && plotStatus == "false" && seedStatus == "false" && rentStatus === false && listStatus === false){
             //make seed used and designate plot
             contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
             contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
@@ -1183,7 +1199,7 @@ function startApp() {
             console.log(error)
         }
         
-        if(state.users[from].rentals[rentalID] && plotStatus === false && seedStatus === false ){
+        if(state.users[from].rentals[rentalID] && plotStatus == "false" && seedStatus == "false"){
             //make seed used and designate plot
             contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
             contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
