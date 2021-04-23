@@ -19,107 +19,107 @@ const SEEDS = [
     {
         0: {
             SPT: 1,//Sprouting time
-            WATER: 235,
+            WATER: 1551,
             PR: { min: 7550, max: 8000 },//Production range   
             NAME: "Aceh",
-            chance: 90,
+            chance: 66,
         },
         1: {
             SPT: 2,//Sprouting time
-            WATER: 235,
+            WATER: 1512,
             PR: { min: 7250, max: 7800 },//Production range   
             NAME: "Thai",
-            chance: 60
+            chance: 67
         },
         2: {
             SPT: 2,//Sprouting time
-            WATER: 230,
+            WATER: 1416,
             PR: { min: 7000, max: 7300 },//Production range   
             NAME: "Thai Chocolate",
+            chance: 67
+        },
+    },
+    {
+        0: {
+            SPT: 2,//Sprouting time
+            WATER: 1358,
+            PR: { min: 6000, max: 7000 },//Production range   
+            NAME: "Lamb’s Bread",
+            chance: 50
+        },
+        1: {
+            SPT: 3,//Sprouting time
+            WATER: 1260,
+            PR: { min: 5500, max: 6500 },//Production range   
+            NAME: "King’s Bread",
             chance: 50
         },
     },
     {
         0: {
-            SPT: 2,//Sprouting time
-            WATER: 215,
-            PR: { min: 6000, max: 7000 },//Production range   
-            NAME: "Lamb’s Bread",
-            chance: 70
-        },
-        1: {
             SPT: 3,//Sprouting time
-            WATER: 205,
-            PR: { min: 5500, max: 6500 },//Production range   
-            NAME: "King’s Bread",
-            chance: 30
-        },
-    },
-    {
-        0: {
-            SPT: 3,//Sprouting time
-            WATER: 168,
+            WATER: 951,
             PR: { min: 4600, max: 4900 },//Production range   
             NAME: "Swazi Gold",
-            chance: 90
+            chance: 75
         },
         1: {
             SPT: 3,//Sprouting time
-            WATER: 137,
+            WATER: 756,
             PR: { min: 3500, max: 3900 },//Production range   
             NAME: "Kilimanjaro",
-            chance: 80
+            chance: 75
         },
         2: {
             SPT: 4,//Sprouting time
-            WATER: 104,
+            WATER: 568,
             PR: { min: 2575, max: 2925 },//Production range   
             NAME: "Durban Poison",
             chance: 75
         },
         3: {
             SPT: 4,//Sprouting time
-            WATER: 93,
+            WATER: 488,
             PR: { min: 2175, max: 2525 },//Production range   
             NAME: "Malawi",
-            chance: 55
+            chance: 75
         }
     },
     {
         0: {
             SPT: 4,//Sprouting time
-            WATER: 82,
+            WATER: 420,
             PR: { min: 1825, max: 2175 },//Production range   
             NAME: "Hindu Kush",
-            chance: 95
+            chance: 75
         },
         1: {
             SPT: 5,//Sprouting time
-            WATER: 70,
+            WATER: 350,
             PR: { min: 1450, max: 1800 },//Production range   
             NAME: "Afghani",
-            chance: 80
+            chance: 75
         },
         2: {
             SPT: 5,//Sprouting time
-            WATER: 43,
+            WATER: 210,
             PR: { min: 850, max: 1100 },//Production range   
             NAME: "Lashkar Gah",
             chance: 75
         },
         3: {
             SPT: 6,//Sprouting time
-            WATER: 33,
+            WATER: 162,
             PR: { min: 600, max: 850 },//Production range   
             NAME: "Mazar I Sharif",
-            chance: 50
+            chance: 75
         }
     },
     {
         0: {
             SPT: 6,//Sprouting time
-            WATER: 23,
-            PR: { min: 350, max: 600 },//Production range   
+            WATER: 114,
+            PR: { min: 460, max: 600 },//Production range   
             NAME: "Acapulco Gold",
             chance: 0
         },
@@ -127,17 +127,17 @@ const SEEDS = [
     {
         0: {
             SPT: 7,//Sprouting time
-            WATER: 10,
-            PR: { min: 50, max: 350 },//Production range   
+            WATER: 70,
+            PR: { min: 270, max: 350 },//Production range   
             NAME: "Colombian Gold",
-            chance: 60
+            chance: 50
         },
         1: {
             SPT: 7,//Sprouting time
-            WATER: 9,
-            PR: { min: 30, max: 325 },//Production range   
+            WATER: 63,
+            PR: { min: 250, max: 325 },//Production range   
             NAME: "Panama Red",
-            chance: 40
+            chance: 50
         }
     }
 ];
