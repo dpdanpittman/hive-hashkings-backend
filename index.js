@@ -150,7 +150,7 @@ app.get('/', (req, res, next) => {
 app.get('/u/:user', (req, res, next) => {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.stats.users[user], null, 3))
+    res.send(JSON.stringify(state.users[user], null, 3))
 });
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
@@ -953,37 +953,37 @@ function startApp() {
                     if(boosterString === "Level 1 Booster"){
 
                         //claim booster
-                        state.stats.users[from].timeBoosters.lvl1 += 1
+                        state.users[from].timeBoosters.lvl1 += 1
                     }
 
                     if(boosterString === "Level 2 Booster"){
 
                         //claim booster
-                        state.stats.users[from].timeBoosters.lvl2 += 1
+                        state.users[from].timeBoosters.lvl2 += 1
                     }
 
                     if(boosterString === "Level 3 Booster"){
 
                         //claim booster
-                        state.stats.users[from].timeBoosters.lvl3 += 1
+                        state.users[from].timeBoosters.lvl3 += 1
                     }
 
                     if(boosterString === "Level 4 Booster"){
 
                         //claim booster
-                        state.stats.users[from].timeBoosters.lvl4 += 1
+                        state.users[from].timeBoosters.lvl4 += 1
                     }
 
                     if(boosterString === "Level 5 Booster"){
 
                         //claim booster
-                        state.stats.users[from].timeBoosters.lvl5 += 1
+                        state.users[from].timeBoosters.lvl5 += 1
                     }
 
                     if(boosterString === "Level 6 Booster"){
 
                         //claim booster
-                        state.stats.users[from].timeBoosters.lvl6 += 1
+                        state.users[from].timeBoosters.lvl6 += 1
                     }*/
                 
 
