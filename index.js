@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53268718; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53291300; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53268718;
+const ago = ENV.ago || 53291300;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -396,67 +396,67 @@ function leveling() {
 
         var user = userList[i]
         if(state.users[user].xp >= 45 && state.users[user].xp <= 47){
-            state.users[user].lvl == 1
+            state.users[user].lvl = 1
         } else if (state.users[user].xp >= 48 && state.users[user].xp <= 52){
-            state.users[user].lvl == 2
+            state.users[user].lvl = 2
         } else if (state.users[user].xp >= 53 && state.users[user].xp <= 58){
-            state.users[user].lvl == 3
+            state.users[user].lvl = 3
         } else if (state.users[user].xp >= 58 && state.users[user].xp <= 62){
-            state.users[user].lvl == 4
+            state.users[user].lvl = 4
         } else if (state.users[user].xp >= 63 && state.users[user].xp <= 67){
-            state.users[user].xp == 5
+            state.users[user].xp = 5
         } else if (state.users[user].xp >= 68 && state.users[user].xp <= 72){
-            state.users[user].xp == 6
+            state.users[user].xp = 6
         } else if (state.users[user].xp >= 73 && state.users[user].xp <= 78){
-            state.users[user].xp == 7
+            state.users[user].xp = 7
         } else if (state.users[user].xp >= 79 && state.users[user].xp <= 85){
-            state.users[user].xp == 8
+            state.users[user].xp = 8
         } else if (state.users[user].xp >= 86 && state.users[user].xp <= 91){
-            state.users[user].xp == 9
+            state.users[user].xp = 9
         } else if (state.users[user].xp >= 92 && state.users[user].xp <= 99){
-            state.users[user].xp == 10
+            state.users[user].xp = 10
         } else if (state.users[user].xp >= 100 && state.users[user].xp <= 106){
-            state.users[user].xp == 11
+            state.users[user].xp = 11
         } else if (state.users[user].xp >= 107 && state.users[user].xp <= 113){
-            state.users[user].xp == 12
+            state.users[user].xp = 12
         } else if (state.users[user].xp >= 114 && state.users[user].xp <= 122){
-            state.users[user].xp == 13
+            state.users[user].xp = 13
         } else if (state.users[user].xp >= 123 && state.users[user].xp <= 132){
-            state.users[user].xp == 14
+            state.users[user].xp = 14
         } else if (state.users[user].xp >= 133 && state.users[user].xp <= 142){
-            state.users[user].xp == 15
+            state.users[user].xp = 15
         } else if (state.users[user].xp >= 143 && state.users[user].xp <= 154){
-            state.users[user].xp == 16
+            state.users[user].xp = 16
         } else if (state.users[user].xp >= 155 && state.users[user].xp <= 167){
-            state.users[user].xp == 17
+            state.users[user].xp = 17
         } else if (state.users[user].xp >= 168 && state.users[user].xp <= 179){
-            state.users[user].xp == 18
+            state.users[user].xp = 18
         } else if (state.users[user].xp >= 180 && state.users[user].xp <= 195){
-            state.users[user].xp == 19
+            state.users[user].xp = 19
         } else if (state.users[user].xp >= 196 && state.users[user].xp <= 210){
-            state.users[user].xp == 20
+            state.users[user].xp = 20
         } else if (state.users[user].xp >= 211 && state.users[user].xp <= 227){
-            state.users[user].xp == 21
+            state.users[user].xp = 21
         } else if (state.users[user].xp >= 228 && state.users[user].xp <= 245){
-            state.users[user].xp == 22
+            state.users[user].xp = 22
         } else if (state.users[user].xp >= 246 && state.users[user].xp <= 265){
-            state.users[user].xp == 23
+            state.users[user].xp = 23
         } else if (state.users[user].xp >= 266 && state.users[user].xp <= 287){
-            state.users[user].xp == 24
+            state.users[user].xp = 24
         } else if (state.users[user].xp >= 288 && state.users[user].xp <= 309){
-            state.users[user].xp == 25
+            state.users[user].xp = 25
         } else if (state.users[user].xp >= 310 && state.users[user].xp <= 333){
-            state.users[user].xp == 26
+            state.users[user].xp = 26
         } else if (state.users[user].xp >= 334 && state.users[user].xp <= 360){
-            state.users[user].xp == 27
+            state.users[user].xp = 27
         } else if (state.users[user].xp >= 361 && state.users[user].xp <= 389){
-            state.users[user].xp == 28
+            state.users[user].xp = 28
         } else if (state.users[user].xp >= 390 && state.users[user].xp <= 428){
-            state.users[user].xp == 29
+            state.users[user].xp = 29
         } else if (state.users[user].xp >= 429 && state.users[user].xp <= 480){
-            state.users[user].xp == 30
+            state.users[user].xp = 30
         } else if (state.users[user].xp >= 481 && state.users[user].xp <= 530){
-            state.users[user].xp == 31
+            state.users[user].xp = 31
         }
         //need to figure out a better way
     }
@@ -571,7 +571,6 @@ function daily() {
     // distribute mota
     try {
     let farmers = userList.map( farmer => {
-        console.log(farmer , state.users[farmer])
         return { user: farmer , depositedBuds: state.users[farmer].dailyBudDeposit}
     })
 
@@ -1515,7 +1514,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000 && type === '1') {
+                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl1
@@ -1529,7 +1528,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && type === '2' && state.users[json.from].lvl >= 10) {
+                             } else if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && state.users[json.from].lvl >= 10) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl2
@@ -1543,7 +1542,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && type === '3' && state.users[json.from].lvl >= 20) {
+                             } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && state.users[json.from].lvl >= 20) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl3
@@ -1557,7 +1556,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && type === '4' && state.users[json.from].lvl >= 30) {
+                             } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && state.users[json.from].lvl >= 30) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl4
@@ -1571,7 +1570,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && type === '5' && state.users[json.from].lvl >= 40) {
+                             } else if (want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && state.users[json.from].lvl >= 40) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl5
@@ -1585,7 +1584,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && type === '6' && state.users[json.from].lvl >= 50) {
+                             } else if (want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && state.users[json.from].lvl >= 50) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl6
@@ -1599,7 +1598,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && type === '7' && state.users[json.from].lvl >= 60) {
+                             } else if (want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && state.users[json.from].lvl >= 60) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl7
@@ -1613,7 +1612,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && type === '8' && state.users[json.from].lvl >= 70) {
+                             } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && state.users[json.from].lvl >= 70) {
                                 
                                 // update total number of plots
                                 state.users[from].water += state.stats.waterPlant.lvl8
@@ -1627,7 +1626,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && type === '9' && state.users[json.from].lvl >= 80) {
+                             } else if (want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && state.users[json.from].lvl >= 80) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl9
@@ -1641,7 +1640,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && type === '10' && state.users[json.from].lvl >= 90) {
+                             } else if (want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && state.users[json.from].lvl >= 90) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl10

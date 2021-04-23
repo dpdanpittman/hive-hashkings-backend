@@ -76,47 +76,47 @@ module.exports = {
             },
             "lvl2": {
                "price": 3,
-               "water": 45,
+               "water": 96,
                "token": 1000
             },
             "lvl3": {
                "price": 3,
-               "water": 75,
+               "water": 166,
                "token": 1000
             },
             "lvl4": {
                "price": 3,
-               "water": 120,
+               "water": 234,
                "token": 1000
             },
             "lvl5": {
                "price": 3,
-               "water": 180,
+               "water": 302,
                "token": 1000
             },
             "lvl6": {
                "price": 3,
-               "water": 255,
+               "water": 370,
                "token": 1000
             },
             "lvl7": {
                "price": 3,
-               "water": 345,
+               "water": 438,
                "token": 1000
             },
             "lvl8": {
                "price": 3,
-               "water": 450,
+               "water": 506,
                "token": 1000
             },
             "lvl9": {
                "price": 3,
-               "water": 570,
+               "water": 574,
                "token": 1000
             },
             "lvl10": {
                "price": 3,
-               "water": 705,
+               "water": 642,
                "token": 1000
             }
          },
