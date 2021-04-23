@@ -570,7 +570,8 @@ function daily() {
 
     // distribute mota
     let farmers = userList.map( farmer => {
-        return { user : farmer , depositedBuds : state.users[farmer].dailyBudDeposit}
+        console.log(farmer , state.users[farmer])
+        return { user: farmer , depositedBuds: state.users[farmer].dailyBudDeposit}
     })
 
     console.log(farmers)
