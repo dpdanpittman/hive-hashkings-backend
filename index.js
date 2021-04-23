@@ -190,10 +190,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53268100; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53268498; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53268100;
+const ago = ENV.ago || 53268498;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -569,15 +569,15 @@ function daily() {
     var userList = state.stats.farmerList
 
     // distribute mota
-    let farmers = userList.map( farmer => {
+    /*let farmers = userList.map( farmer => {
         console.log(farmer , state.users[farmer])
         return { user: farmer , depositedBuds: state.users[farmer].dailyBudDeposit}
     })
 
-    console.log(farmers)
+    console.log(farmers)*/
     //distributeMota(1000, [ { user :"chocolatoso" , depositedBuds:100 }, { user :"al-liuke" , depositedBuds:100 }, { user :"hashkings" , depositedBuds:50 }, { user :"qwoyn" , depositedBuds:25 } ], hivejs)
     
-    userList.map( farmer => {
+    /*userList.map( farmer => {
     let obj =   state.users[farmer].waterPlants  
     let waterNumber = Object.keys(obj).reduce((sum,key)=> { console.log(sum,key,obj[key]); return (sum+parseInt(obj[key]||0 )  * state.stats.prices.waterPlants[key].water  )} ,0);
     
@@ -588,7 +588,7 @@ function daily() {
     for(var i = 0; i < userList.length; i++) {
         let user = userList[i]
         state.users[user].dailyBudDeposit = 0
-    }
+    }*/
 }
 
 /****ISSUE****/
