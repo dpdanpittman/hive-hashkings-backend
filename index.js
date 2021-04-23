@@ -575,7 +575,7 @@ function daily() {
     userList.map( farmer => {
     console.log(state.users["chocolatoso"].waterPlants)
     let obj =   state.users[farmer].waterPlants  
-    let waterNumber = Object.keys(obj).reduce((sum,key)=> (sum+parseInt(obj[key]) )  * state.stats.prices.waterPlants[key].water  ) ,0);
+    let waterNumber = Object.keys(obj).reduce((sum,key)=> (sum+parseInt(obj[key]) )  * state.stats.prices.waterPlants[key].water  );
     
     console.log(farmer + " --> " +waterNumber);
     // if work uncomment countcontract.createToken(hivejs, "HKWATER", waterNumber.toFixed(3), farmer);
