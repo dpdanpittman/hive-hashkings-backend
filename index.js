@@ -147,45 +147,10 @@ app.get('/', (req, res, next) => {
     res.send(JSON.stringify(state, null, 3))
 });
 
-//shows seeds by user
-app.get('/seeds/:user', (req, res, next) => {
-    let user = req.params.user,
-        arr = []
-    res.setHeader('Content-Type', 'application/json');
-    if (state.users[user]) {
-        for (var i = 0; i < state.users[user].seeds.length; i++) {
-            arr.push(state.users[user].seeds[i])
-        }
-    }
-    res.send(JSON.stringify(arr, null, 3))
-});
-
-//shows buds by user
-app.get('/buds/:user', (req, res, next) => {
-    let user = req.params.user,
-        arr = []
-    res.setHeader('Content-Type', 'application/json');
-    if (state.users[user]) {
-        for (var i = 0; i < state.users[user].buds.length; i++) {
-            arr.push(state.users[user].buds[i])
-        }
-    }
-    res.send(JSON.stringify(arr, null, 3))
-});
-
-//post payouts in que
-app.get('/refunds', (req, res, next) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify({
-        refunds: state.refund,
-        bal: state.bal
-    }, null, 3))
-});
-
 app.get('/u/:user', (req, res, next) => {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.users[user], null, 3))
+    res.send(JSON.stringify(state.stats.users[user], null, 3))
 });
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
