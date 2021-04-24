@@ -155,10 +155,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53292594; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53292805; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53292594;
+const ago = ENV.ago || 53292805;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -696,7 +696,7 @@ function startApp() {
 
         // makes sure database is up to date every 10 blocks
         try {
-        if (num % 10 === 0 && processor.isStreaming()) {
+        if (num % 6 === 0 && processor.isStreaming()) {
             userList();
         }
         } catch (error) {
@@ -704,14 +704,14 @@ function startApp() {
         }
 
         // makes sure database is up to date every 5 blocks
-       // try {
-        if (num % 5 === 0 && processor.isStreaming()) {
+        if (num % 2 === 0 && processor.isStreaming()) {
             reporting();
-            daily();
         }
-       // } catch (error) {
-         //   console.log("error when calling reporing() | line 656")                
-       // }
+
+        // show the block number in the console every block
+        if (num % 11 === 0 && processor.isStreaming()) {
+            leveling();
+        }
 
         // show the block number in the console every block
         if (num % 1 === 0 && processor.isStreaming()) {
