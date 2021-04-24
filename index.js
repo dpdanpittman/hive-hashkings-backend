@@ -97,19 +97,13 @@ httpsServer.listen(443, () => {
 app.use(cors());
 
 
-app.get('/p/:addr', (req, res, next) => {
-    let addr = req.params.addr
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.land[addr], null, 3))
-});
-
 //shows a log 
 app.get('/logs', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.cs, null, 3))
 });
 
-app.get('/a/:user', (req, res, next) => {
+/*app.get('/a/:user', (req, res, next) => {
     let user = req.params.user,
         arr = []
     res.setHeader('Content-Type', 'application/json');
@@ -129,17 +123,17 @@ app.get('/a/:user', (req, res, next) => {
         }
     }
     res.send(JSON.stringify(arr, null, 3))
-});
+});*/
 
 //overal game stats i.e. number of farmers, number of plants available, seed prices, land price, weather info
 //at each location such as mexico or jamaica etc.
-app.get('/stats', (req, res, next) => {
+/*app.get('/stats', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     Object.keys(state.users).length
     var ret = state.stats
     ret.farmers = Object.keys(state.users).length
     res.send(JSON.stringify(ret, null, 3))
-});
+});*/
 
 //entire state.json output
 app.get('/', (req, res, next) => {
@@ -147,11 +141,11 @@ app.get('/', (req, res, next) => {
     res.send(JSON.stringify(state, null, 3))
 });
 
-app.get('/u/:user', (req, res, next) => {
+/*app.get('/u/:user', (req, res, next) => {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.users[user], null, 3))
-});
+});*/
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
