@@ -154,10 +154,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53318890; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53319014; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53318890;
+const ago = ENV.ago || 53319014;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -330,16 +330,7 @@ function userList() {
                         jointData = report[property].consumable
                         boosterData = report[property].booster
                         avatarData = report[property].avatar
-                        waterTowerData = report[property].water.waterlvl1
-                        waterTowerData2 = report[property].water.waterlvl2
-                        waterTowerData3 = report[property].water.waterlvl3
-                        waterTowerData4 = report[property].water.waterlvl4
-                        waterTowerData5 = report[property].water.waterlvl5
-                        waterTowerData6 = report[property].water.waterlvl6
-                        waterTowerData7 = report[property].water.waterlvl7
-                        waterTowerData8 = report[property].water.waterlvl8
-                        waterTowerData9 = report[property].water.waterlvl9
-                        waterTowerData10 = report[property].water.waterlvl10
+                        waterTowerData = report[property].water
 
                         //set nft data
                         state.users[username].avatars = avatarData
@@ -348,26 +339,8 @@ function userList() {
                         state.users[username].seeds = seedData
                         state.users[username].plots = plotData
                         state.users[username].waterTowers.lvl1 = waterTowerData
-                        state.users[username].waterTowers.lvl2 = waterTowerData2
-                        state.users[username].waterTowers.lvl3 = waterTowerData3
-                        state.users[username].waterTowers.lvl4 = waterTowerData4
-                        state.users[username].waterTowers.lvl5 = waterTowerData5
-                        state.users[username].waterTowers.lvl6 = waterTowerData6
-                        state.users[username].waterTowers.lvl7 = waterTowerData7
-                        state.users[username].waterTowers.lvl8 = waterTowerData8
-                        state.users[username].waterTowers.lvl9 = waterTowerData9
-                        state.users[username].waterTowers.lvl10 = waterTowerData10
 
                         state.users[username].waterPlants.lvl1 = waterTowerData.length
-                        state.users[username].waterPlants.lvl2 = waterTowerData2.length
-                        state.users[username].waterPlants.lvl3 = waterTowerData3.length
-                        state.users[username].waterPlants.lvl4 = waterTowerData4.length
-                        state.users[username].waterPlants.lvl5 = waterTowerData5.length
-                        state.users[username].waterPlants.lvl6 = waterTowerData6.length
-                        state.users[username].waterPlants.lvl7 = waterTowerData7.length
-                        state.users[username].waterPlants.lvl8 = waterTowerData8.length
-                        state.users[username].waterPlants.lvl9 = waterTowerData9.length
-                        state.users[username].waterPlants.lvl10 = waterTowerData10.length
 
                         //set number of seeds and plots for user
                         state.users[username].seedCount = seedData.length
