@@ -77418,15 +77418,15 @@ module.exports = {
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
-            "lvl2": 0,
-            "lvl3": 0,
-            "lvl4": 0,
-            "lvl5": 0,
-            "lvl7": 0,
-            "lvl8": 0,
-            "lvl9": 0,
-            "lvl10": 0
+            "lvl1": 2,
+            "lvl2": 1,
+            "lvl3": 1,
+            "lvl4": 1,
+            "lvl5": 1,
+            "lvl7": 1,
+            "lvl8": 1,
+            "lvl9": 1,
+            "lvl10": 1
          },
          "timeBoosters": {
             "lvl1": 0,
