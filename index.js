@@ -317,6 +317,7 @@ function userList() {
                         boosterData = report[property].booster
                         avatarData = report[property].avatar
                         waterTowerData = report[property].waterTemp
+                        waterTowerData2 = report[property].water
 
                         //set nft data
                         state.users[username].avatars = avatarData
@@ -331,9 +332,10 @@ function userList() {
 
                         //set hkwater for claiming
                         let waterTowerNumber = waterTowerData.length
+                        let waterTowerNumber2 = waterTowerData2.length
                         let HKwater = waterTowerNumber * 30
                         state.users[username].hkwater = HKwater
-                        state.users[username].waterPlants.lvl1 = waterTowerNumber
+                        state.users[username].waterPlants.lvl1 = waterTowerNumber + waterTowerNumber2
 
                         //if user doesnt exist, create them
                         if(state.users[username].tokens.buds.balance > 0) {
