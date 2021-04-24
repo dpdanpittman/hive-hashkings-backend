@@ -328,16 +328,16 @@ function userList() {
                         jointData = report[property].consumable
                         boosterData = report[property].booster
                         avatarData = report[property].avatar
-                        waterTowerData = report[property].waterlvl1
-                        waterTowerData2 = report[property].waterlvl2
-                        waterTowerData3 = report[property].waterlvl3
-                        waterTowerData4 = report[property].waterlvl4
-                        waterTowerData5 = report[property].waterlvl5
-                        waterTowerData6 = report[property].waterlvl6
-                        waterTowerData7 = report[property].waterlvl7
-                        waterTowerData8 = report[property].waterlvl8
-                        waterTowerData9 = report[property].waterlvl9
-                        waterTowerData10 = report[property].waterlvl10
+                        waterTowerData = report[property].water.waterlvl1
+                        waterTowerData2 = report[property].water.waterlvl2
+                        waterTowerData3 = report[property].water.waterlvl3
+                        waterTowerData4 = report[property].water.waterlvl4
+                        waterTowerData5 = report[property].water.waterlvl5
+                        waterTowerData6 = report[property].water.waterlvl6
+                        waterTowerData7 = report[property].water.waterlvl7
+                        waterTowerData8 = report[property].water.waterlvl8
+                        waterTowerData9 = report[property].water.waterlvl9
+                        waterTowerData10 = report[property].water.waterlvl10
 
                         //set nft data
                         state.users[username].avatars = avatarData
