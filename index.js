@@ -154,10 +154,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53317499; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53317636; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53317499;
+const ago = ENV.ago || 53317636;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -333,16 +333,16 @@ function userList() {
                         state.users[username].joints = jointData
                         state.users[username].seeds = seedData
                         state.users[username].plots = plotData
-                        state.users[username].waterTower.lvl1 = waterTowerData
-                        state.users[username].waterTower.lvl2 = waterTowerData2
-                        state.users[username].waterTower.lvl3 = waterTowerData3
-                        state.users[username].waterTower.lvl4 = waterTowerData4
-                        state.users[username].waterTower.lvl5 = waterTowerData5
-                        state.users[username].waterTower.lvl6 = waterTowerData6
-                        state.users[username].waterTower.lvl7 = waterTowerData7
-                        state.users[username].waterTower.lvl8 = waterTowerData8
-                        state.users[username].waterTower.lvl9 = waterTowerData9
-                        state.users[username].waterTower.lvl10 = waterTowerData10
+                        state.users[username].waterTowers.lvl1 = waterTowerData
+                        state.users[username].waterTowers.lvl2 = waterTowerData2
+                        state.users[username].waterTowers.lvl3 = waterTowerData3
+                        state.users[username].waterTowers.lvl4 = waterTowerData4
+                        state.users[username].waterTowers.lvl5 = waterTowerData5
+                        state.users[username].waterTowers.lvl6 = waterTowerData6
+                        state.users[username].waterTowers.lvl7 = waterTowerData7
+                        state.users[username].waterTowers.lvl8 = waterTowerData8
+                        state.users[username].waterTowers.lvl9 = waterTowerData9
+                        state.users[username].waterTowers.lvl10 = waterTowerData10
 
                         state.users[username].waterPlants.lvl1 = waterTowerData.length
                         state.users[username].waterPlants.lvl2 = waterTowerData2.length
