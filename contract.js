@@ -716,12 +716,13 @@ const CreateAvatar = (name, to) => {
     return instance;
 }
 
-const CreateWaterTower = (name, to) => {
+const CreateWaterTower = (name, to, water) => {
 
     const properties = {
         NAME: name,
         TYPE: "water tower",
-        LVL: 0
+        LVL: 1,
+        WATER: water 
     };
 
     const instance = {
@@ -916,11 +917,11 @@ const createAvatar = async (hive, name, userBuyer) => {
 };
 
 
-const createWaterTower = async (hive, name, userBuyer) => {
+const createWaterTower = async (hive, name, userBuyer,waterQuantity) => {
 
     let instances = [];
 
-    instances.push(CreateWaterTower(name, userBuyer));
+    instances.push(CreateWaterTower(name, userBuyer,waterQuantity));
 
     let json = {
         contractName: "nft",

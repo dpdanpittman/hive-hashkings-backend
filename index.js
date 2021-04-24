@@ -155,10 +155,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53291535; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53292330; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53291535;
+const ago = ENV.ago || 53292330;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1076,9 +1076,8 @@ function startApp() {
             console.log("an error when planting a seed occured " + from + " sent the request")
             console.log(error)
         }
-        
 
-        if(state.users[from] && plotStatus == "false" && seedStatus == "false" && rentStatus === false && listStatus === false){
+        if(state.users[from] && plotStatus == "false" && seedStatus == "false" && rentStatus === "false" && listStatus === "false"){
             //make seed used and designate plot
             contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
             contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
@@ -1488,11 +1487,11 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl1++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 1, json.from)
+                                createWaterTower(hivejs, "Water", json.from, 30)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                
                              } else if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && state.users[json.from].lvl >= 10) {
                                 
                                 // update total number of plots
@@ -1502,11 +1501,11 @@ function startApp() {
                                 state.users[from].waterPlants.lvl2++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 2, json.from)
+                                contract.updateNft(hivejs, type, { "LVL": 2, "WATER": 96})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                
                              } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && state.users[json.from].lvl >= 20) {
                                 
                                 // update total number of plots
@@ -1516,11 +1515,10 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl3++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 3, json.from)
-
+                                contract.updateNft(hivejs, type, { "LVL": 3, "WATER": 166})
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                
                              } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && state.users[json.from].lvl >= 30) {
                                 
                                 // update total number of plots
