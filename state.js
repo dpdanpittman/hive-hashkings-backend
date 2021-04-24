@@ -1,6 +1,6 @@
 module.exports = {
    "stats": {
-      "seedsUsedLastDay": 0,
+      "seedsUsedLastDay": 2,
       "seedCount": 1739,
       "time": 28000,
       "joints": {
@@ -57,65 +57,65 @@ module.exports = {
             "5": "Scientist Maggi"
          }
       },
-      "bu": "QmaLyyvkH1U3BmwxDCecuagPYchX19YCsqwVv86jTtciMF",
-      "bi": 53268501,
+      "bu": "QmV2nKoC8rc23t12rVEJLHPWuNPVaJyVhiF6tupHddPKLP",
+      "bi": 53314401,
       "prices": {
          "bundles": {
-            "asiaBundle": 73,
-            "africaBundle": 36,
-            "afghanistanBundle": 24,
-            "jamaicaBundle": 48,
-            "mexicoBundle": 18,
+            "asiaBundle": 67,
+            "africaBundle": 34,
+            "afghanistanBundle": 23,
+            "jamaicaBundle": 45,
+            "mexicoBundle": 17,
             "southAmericaBundle": 12
          },
          "waterPlants": {
             "lvl1": {
-               "price": 3,
+               "price": "2.214",
                "water": 30,
                "token": 1000
             },
             "lvl2": {
-               "price": 3,
+               "price": "2.214",
                "water": 96,
                "token": 1000
             },
             "lvl3": {
-               "price": 3,
+               "price": "2.214",
                "water": 166,
                "token": 1000
             },
             "lvl4": {
-               "price": 3,
+               "price": "2.214",
                "water": 234,
                "token": 1000
             },
             "lvl5": {
-               "price": 3,
+               "price": "2.214",
                "water": 302,
                "token": 1000
             },
             "lvl6": {
-               "price": 3,
+               "price": "2.214",
                "water": 370,
                "token": 1000
             },
             "lvl7": {
-               "price": 3,
+               "price": "2.214",
                "water": 438,
                "token": 1000
             },
             "lvl8": {
-               "price": 3,
+               "price": "2.214",
                "water": 506,
                "token": 1000
             },
             "lvl9": {
-               "price": 3,
+               "price": "2.214",
                "water": 574,
                "token": 1000
             },
             "lvl10": {
-               "price": 3,
+               "price": "2.214",
                "water": 642,
                "token": 1000
             }
@@ -168,37 +168,37 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 109,
-               "token": 1090
+               "price": 100,
+               "token": 1000
             },
             "africa": {
-               "price": 55,
-               "token": 550
+               "price": 50,
+               "token": 500
             },
             "afghanistan": {
-               "price": 37,
-               "token": 370
+               "price": 34,
+               "token": 340
             },
             "southAmerica": {
-               "price": 19,
-               "token": 190
+               "price": 17,
+               "token": 170
             },
             "jamaica": {
-               "price": 73,
-               "token": 730
+               "price": 67,
+               "token": 670
             },
             "mexico": {
-               "price": 28,
-               "token": 280
+               "price": 25,
+               "token": 250
             }
          }
       },
       "supply": {
          "totalPlots": 2270,
          "totalPlotsC": 746,
-         "totalSeeds": 2546,
+         "totalSeeds": 2552,
          "totalWaterTowers": 0,
-         "totalWaterTowersC": 19000,
+         "totalWaterTowersC": -327126,
          "land": {
             "asia": 0,
             "asiaC": 40,
@@ -214,7 +214,7 @@ module.exports = {
             "mexicoC": 415
          }
       },
-      "farmers": 405,
+      "farmers": 406,
       "farmerList": [
          "qwoyn",
          "abrockman",
@@ -233,7 +233,6 @@ module.exports = {
          "degranoengrano",
          "dobro2020",
          "dolp",
-         "nftmart.cards",
          "dominic23",
          "ecuaminte",
          "jmcalvito",
@@ -265,6 +264,7 @@ module.exports = {
          "quefe",
          "alfa16",
          "toxicmen01",
+         "nftmart.cards",
          "xbladex",
          "supremdsm",
          "pepeymeli",
@@ -394,6 +394,7 @@ module.exports = {
          "spi-steemcity",
          "thebeardflex",
          "lerage",
+         "javiervaersa",
          "javiercruz",
          "romelleandro",
          "brofundholdings",
@@ -619,7 +620,8 @@ module.exports = {
          "imtheovermind",
          "dcalsot",
          "hk-vault",
-         "chocolatoso"
+         "chocolatoso",
+         "undefined"
       ]
    },
    "bal": {
@@ -801,11 +803,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -1104,11 +1105,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -1474,11 +1474,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -1547,7 +1546,9 @@ module.exports = {
                "id": 626,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 625,
+                  "OCCUPIED": true
                },
                "owner": "academialibertad"
             }
@@ -1574,7 +1575,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 271
+                  "PR": 271,
+                  "PLANTED": true,
+                  "PLOTID": 626
                },
                "owner": "academialibertad"
             }
@@ -1597,11 +1600,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -1739,11 +1741,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -2233,11 +2234,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -2584,11 +2584,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -2679,6 +2678,14 @@ module.exports = {
             },
             {
                "id": 206,
+               "properties": {
+                  "NAME": "Asia",
+                  "TYPE": "plot"
+               },
+               "owner": "dolp"
+            },
+            {
+               "id": 209,
                "properties": {
                   "NAME": "Asia",
                   "TYPE": "plot"
@@ -3295,7 +3302,7 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 81,
+         "plotCount": 82,
          "seedCount": 82,
          "seeds": [
             {
@@ -4219,11 +4226,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -4401,11 +4407,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -4505,11 +4510,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -4733,11 +4737,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -4940,11 +4943,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -5593,11 +5595,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -6183,11 +6184,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -6582,11 +6582,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -6724,11 +6723,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -7150,11 +7148,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -7363,11 +7360,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -7544,11 +7540,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -7668,11 +7663,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -7791,11 +7785,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -8036,11 +8029,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -8235,11 +8227,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -8472,11 +8463,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -8595,11 +8585,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -8813,11 +8802,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -8936,11 +8924,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9370,11 +9357,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9398,7 +9384,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "540",
+               "balance": "0.0000",
                "stake": "0"
             }
          },
@@ -9474,11 +9460,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9494,23 +9479,23 @@ module.exports = {
          "joints": [],
          "tokens": {
             "buds": {
-               "balance": 0,
-               "stake": 0
+               "balance": "1",
+               "stake": "0"
             },
             "mota": {
                "balance": 0,
                "stake": 0
             },
             "hkwater": {
-               "balance": "30",
+               "balance": "60.0000",
                "stake": "0"
             }
          },
          "dailyBudDeposit": 0,
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "avatars": [
             {
@@ -9523,6 +9508,22 @@ module.exports = {
             },
             {
                "id": 7520,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "luisveco88"
+            },
+            {
+               "id": 7769,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "luisveco88"
+            },
+            {
+               "id": 7770,
                "properties": {
                   "NAME": "Magical Female",
                   "TYPE": "avatar"
@@ -9597,11 +9598,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9680,11 +9680,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9838,11 +9837,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9961,11 +9959,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -10312,11 +10309,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -10534,11 +10530,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -11960,11 +11955,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12064,11 +12058,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12168,11 +12161,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12291,11 +12283,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12395,11 +12386,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12537,11 +12527,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12736,11 +12725,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12831,11 +12819,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12890,11 +12877,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12996,11 +12982,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -13748,11 +13733,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -13910,11 +13894,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14206,11 +14189,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14311,11 +14293,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14377,11 +14358,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14716,11 +14696,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14820,11 +14799,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14943,11 +14921,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15066,11 +15043,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15166,11 +15142,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15225,11 +15200,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15329,11 +15303,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15435,11 +15408,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15754,11 +15726,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15841,11 +15812,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16059,11 +16029,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16182,11 +16151,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16343,11 +16311,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16466,11 +16433,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16793,11 +16759,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16897,11 +16862,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -17267,11 +17231,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -17428,11 +17391,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -17698,11 +17660,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -17802,11 +17763,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -17944,11 +17904,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -18496,11 +18455,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -18524,7 +18482,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "0.0000",
+               "balance": "689.0000",
                "stake": "0"
             }
          },
@@ -18601,11 +18559,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -19541,11 +19498,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -19683,11 +19639,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -19810,11 +19765,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -19897,11 +19851,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -20001,11 +19954,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -20149,11 +20101,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -20311,11 +20262,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -20434,11 +20384,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -20835,11 +20784,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -20960,11 +20908,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -21121,11 +21068,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -23572,11 +23518,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -23668,11 +23613,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24021,11 +23965,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24163,11 +24106,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24269,11 +24211,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24373,11 +24314,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24479,11 +24419,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24640,11 +24579,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24735,11 +24673,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24803,11 +24740,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24909,11 +24845,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -25436,11 +25371,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -25668,11 +25602,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -26076,11 +26009,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -26581,11 +26513,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -26766,11 +26697,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -26870,11 +26800,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -27191,11 +27120,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -27295,11 +27223,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -27456,11 +27383,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -27561,11 +27487,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -27952,11 +27877,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -28229,11 +28153,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -28335,11 +28258,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -28424,11 +28346,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -28450,7 +28371,7 @@ module.exports = {
          "joints": [],
          "tokens": {
             "buds": {
-               "balance": "1",
+               "balance": "0",
                "stake": "0"
             },
             "mota": {
@@ -28572,11 +28493,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -28754,11 +28674,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -29157,11 +29076,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -29263,11 +29181,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -29390,11 +29307,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -29572,11 +29488,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -30066,11 +29981,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -30461,11 +30375,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -30567,11 +30480,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -30751,11 +30663,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -30857,11 +30768,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31020,11 +30930,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31145,11 +31054,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31335,11 +31243,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31502,11 +31409,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31874,11 +31780,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -32531,11 +32436,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -32592,40 +32496,11 @@ module.exports = {
       },
       "lerage": {
          "subdivisions": [],
-         "plots": [
-            {
-               "id": 2530,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot"
-               },
-               "owner": "lerage"
-            },
-            {
-               "id": 2533,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot"
-               },
-               "owner": "lerage"
-            }
-         ],
+         "plots": [],
          "farm": [],
-         "plotCount": 2,
-         "seedCount": 1,
-         "seeds": [
-            {
-               "id": 2529,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Acapulco Gold",
-                  "SPT": 6,
-                  "WATER": 23,
-                  "PR": 385
-               },
-               "owner": "lerage"
-            }
-         ],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
          "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
@@ -32645,11 +32520,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -32679,7 +32553,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "100.0000",
+               "balance": "0.0000",
                "stake": "0"
             }
          },
@@ -32865,11 +32739,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -32954,11 +32827,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -33060,11 +32932,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -33358,11 +33229,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -33864,11 +33734,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -34141,11 +34010,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -34175,7 +34043,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "0.0000",
+               "balance": "300.0000",
                "stake": "0"
             }
          },
@@ -34285,11 +34153,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -34448,11 +34315,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -34573,11 +34439,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -34801,11 +34666,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35029,11 +34893,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35173,11 +35036,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35279,11 +35141,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35387,11 +35248,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35493,11 +35353,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35827,11 +35686,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -36163,11 +36021,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -36347,11 +36204,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -36453,11 +36309,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -36616,11 +36471,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -36836,11 +36690,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37078,11 +36931,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37279,11 +37131,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37387,11 +37238,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37759,11 +37609,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37884,11 +37733,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37990,11 +37838,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38096,11 +37943,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38261,11 +38107,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38519,11 +38364,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38720,11 +38564,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38921,11 +38764,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39027,11 +38869,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39171,11 +39012,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39260,11 +39100,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39423,11 +39262,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39548,11 +39386,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39730,11 +39567,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -40064,11 +39900,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -40189,11 +40024,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -40335,11 +40169,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -40498,11 +40331,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -40623,11 +40455,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -40708,11 +40539,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -40947,11 +40777,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41053,11 +40882,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41197,11 +41025,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41398,11 +41225,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41542,11 +41368,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41667,11 +41492,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41792,11 +41616,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -42128,11 +41951,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -42295,11 +42117,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -42572,11 +42393,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -42760,11 +42580,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -42904,11 +42723,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -43276,11 +43094,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -43401,11 +43218,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -43507,11 +43323,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -43632,11 +43447,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -43757,11 +43571,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -43863,11 +43676,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44028,11 +43840,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44172,11 +43983,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44297,11 +44107,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44422,11 +44231,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44549,11 +44357,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44718,11 +44525,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44873,11 +44679,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45009,11 +44814,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45134,11 +44938,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45261,11 +45064,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45501,11 +45303,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45664,11 +45465,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45810,11 +45610,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45935,11 +45734,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46060,11 +45858,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46185,11 +45982,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46291,11 +46087,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46389,11 +46184,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46577,11 +46371,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46683,11 +46476,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46772,11 +46564,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46878,11 +46669,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47328,11 +47118,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47472,11 +47261,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47597,11 +47385,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47741,11 +47528,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47927,11 +47713,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -48155,11 +47940,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -48280,11 +48064,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -48523,11 +48306,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -48667,11 +48449,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -48878,11 +48659,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49003,11 +48783,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49147,11 +48926,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49445,11 +49223,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49551,11 +49328,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49714,11 +49490,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49858,11 +49633,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49983,11 +49757,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50148,11 +49921,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50330,11 +50102,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50455,11 +50226,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50544,11 +50314,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50669,11 +50438,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50815,11 +50583,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -51912,11 +51679,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -52058,11 +51824,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -52240,11 +52005,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -52498,11 +52262,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -52532,7 +52295,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "270",
+               "balance": "260.0000",
                "stake": "0"
             }
          },
@@ -53050,11 +52813,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -53135,11 +52897,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -53298,11 +53059,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -53704,11 +53464,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -54608,11 +54367,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -54714,11 +54472,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -54822,11 +54579,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -54966,11 +54722,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55145,11 +54900,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55270,11 +55024,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55414,11 +55167,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55539,11 +55291,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55645,11 +55396,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55751,11 +55501,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55857,11 +55606,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55946,11 +55694,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -56075,11 +55822,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -56238,11 +55984,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -56344,11 +56089,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -56585,11 +56329,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -56748,11 +56491,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -56842,11 +56584,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -56948,11 +56689,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -57130,11 +56870,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -57278,11 +57017,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -57403,11 +57141,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -57680,11 +57417,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -58451,11 +58187,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -58568,11 +58303,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -58657,11 +58391,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -58719,14 +58452,6 @@ module.exports = {
       "nftmart.cards": {
          "subdivisions": [],
          "plots": [
-            {
-               "id": 209,
-               "properties": {
-                  "NAME": "Asia",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
             {
                "id": 476,
                "properties": {
@@ -58849,7 +58574,7 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 15,
+         "plotCount": 14,
          "seedCount": 6,
          "seeds": [
             {
@@ -58919,10 +58644,10 @@ module.exports = {
                "owner": "nftmart.cards"
             }
          ],
-         "hkwater": 240,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -58938,11 +58663,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59115,11 +58839,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59221,11 +58944,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59306,11 +59028,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59386,11 +59107,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59552,11 +59272,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59620,11 +59339,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -60574,11 +60292,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61000,11 +60717,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61272,11 +60988,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61389,11 +61104,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61573,11 +61287,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61757,11 +61470,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61941,11 +61653,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62114,11 +61825,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62331,11 +62041,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62477,11 +62186,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62557,11 +62265,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62714,11 +62421,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62893,11 +62599,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62973,11 +62678,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63053,11 +62757,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63133,11 +62836,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63213,11 +62915,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63304,11 +63005,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63395,11 +63095,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63475,11 +63174,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63566,11 +63264,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63646,11 +63343,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63737,11 +63433,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63817,11 +63512,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63897,11 +63591,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64052,11 +63745,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64132,11 +63824,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64212,11 +63903,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64303,11 +63993,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64383,11 +64072,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64549,11 +64237,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64629,11 +64316,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64779,11 +64465,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64948,11 +64633,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65073,11 +64757,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65179,11 +64862,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65285,11 +64967,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65374,11 +65055,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65539,11 +65219,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65573,7 +65252,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "150.0000",
+               "balance": "0.0000",
                "stake": "0"
             }
          },
@@ -65721,11 +65400,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65979,11 +65657,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -66085,11 +65762,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -66191,11 +65867,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -66297,11 +65972,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -66422,11 +66096,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -66547,11 +66220,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -66939,11 +66611,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67045,11 +66716,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67151,11 +66821,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67276,11 +66945,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67420,11 +67088,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67602,11 +67269,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67784,11 +67450,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67990,11 +67655,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68079,11 +67743,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68215,11 +67878,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68321,11 +67983,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68467,11 +68128,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68611,11 +68271,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68774,11 +68433,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68919,11 +68577,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -69100,11 +68757,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -69245,11 +68901,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -69394,11 +69049,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -69575,11 +69229,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -69722,11 +69375,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -69998,11 +69650,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -70103,11 +69754,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -70271,11 +69921,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -70395,11 +70044,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -70754,11 +70402,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -70906,11 +70553,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -71016,11 +70662,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -71788,11 +71433,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -71898,11 +71542,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72008,11 +71651,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72139,11 +71781,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72327,11 +71968,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72437,11 +72077,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72719,11 +72358,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72934,11 +72572,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -73044,11 +72681,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -73238,11 +72874,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -73348,11 +72983,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -74743,11 +74377,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -74895,11 +74528,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75005,11 +74637,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75120,11 +74751,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75213,11 +74843,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75323,11 +74952,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75517,11 +75145,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75732,11 +75359,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75884,11 +75510,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76078,11 +75703,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76188,11 +75812,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76470,11 +76093,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76599,11 +76221,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76709,11 +76330,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76819,11 +76439,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76950,11 +76569,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77064,11 +76682,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77258,11 +76875,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77368,11 +76984,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77478,11 +77093,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77534,7 +77148,7 @@ module.exports = {
                "stake": 0
             },
             "hkwater": {
-               "balance": "120.0000",
+               "balance": "130.0000",
                "stake": "0"
             }
          }
@@ -77588,11 +77202,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77719,11 +77332,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77934,11 +77546,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -78044,11 +77655,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -78137,11 +77747,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -78352,11 +77961,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -78546,11 +78154,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -78677,11 +78284,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -78829,11 +78435,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -78971,11 +78576,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -79058,11 +78662,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -79185,11 +78788,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -79404,11 +79006,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -79514,11 +79115,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -79666,11 +79266,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -79860,11 +79459,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -80075,11 +79673,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -80185,11 +79782,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -80488,11 +80084,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -80614,11 +80209,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -80752,11 +80346,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -80832,11 +80425,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -80931,11 +80523,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81038,11 +80629,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81145,11 +80735,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81252,11 +80841,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81338,11 +80926,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81515,11 +81102,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81610,11 +81196,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81688,11 +81273,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81867,11 +81451,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -81974,11 +81557,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -82054,11 +81636,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -82143,11 +81724,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -82235,11 +81815,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -82288,8 +81867,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": true,
-                  "OCCUPIED": false,
-                  "SEEDID": 0,
+                  "OCCUPIED": true,
+                  "SEEDID": 7753,
                   "PLANTED": false,
                   "PLOTID": 0
                },
@@ -82301,8 +81880,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": true,
-                  "OCCUPIED": false,
-                  "SEEDID": 0,
+                  "OCCUPIED": true,
+                  "SEEDID": 7754,
                   "RENTED": false
                },
                "owner": "chocolatoso"
@@ -82313,8 +81892,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": true,
-                  "OCCUPIED": false,
-                  "SEEDID": 0,
+                  "OCCUPIED": true,
+                  "SEEDID": 7756,
                   "RENTED": false
                },
                "owner": "chocolatoso"
@@ -82325,8 +81904,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": true,
-                  "OCCUPIED": false,
-                  "SEEDID": 0,
+                  "OCCUPIED": true,
+                  "SEEDID": 7755,
                   "RENTED": false
                },
                "owner": "chocolatoso"
@@ -82338,7 +81917,7 @@ module.exports = {
                   "TYPE": "plot",
                   "SUBDIVIDED": true,
                   "OCCUPIED": false,
-                  "SEEDID": 0,
+                  "SEEDID": 7757,
                   "RENTED": false
                },
                "owner": "chocolatoso"
@@ -82349,8 +81928,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": true,
-                  "OCCUPIED": false,
-                  "SEEDID": 0,
+                  "OCCUPIED": true,
+                  "SEEDID": 7758,
                   "RENTED": false
                },
                "owner": "chocolatoso"
@@ -82361,8 +81940,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": true,
-                  "OCCUPIED": false,
-                  "SEEDID": 0,
+                  "OCCUPIED": true,
+                  "SEEDID": 7753,
                   "RENTED": false
                },
                "owner": "chocolatoso"
@@ -82373,20 +81952,99 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": true,
-                  "OCCUPIED": false,
-                  "SEEDID": 0,
+                  "OCCUPIED": true,
+                  "SEEDID": 7753,
                   "RENTED": false
                },
                "owner": "chocolatoso"
             }
          ],
          "plotCount": 8,
-         "seedCount": 0,
-         "seeds": [],
+         "seedCount": 6,
+         "seeds": [
+            {
+               "id": 7753,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 70,
+                  "PR": 341,
+                  "PLANTED": true,
+                  "PLOTID": 7734
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7754,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 70,
+                  "PR": 277,
+                  "PLANTED": true,
+                  "PLOTID": 7745
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7755,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 63,
+                  "PR": 301,
+                  "PLANTED": true,
+                  "PLOTID": 7748
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7756,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 63,
+                  "PR": 270,
+                  "PLANTED": true,
+                  "PLOTID": 7746
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7757,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 63,
+                  "PR": 296,
+                  "PLOTID": 7749,
+                  "PLANTED": true
+               },
+               "owner": "chocolatoso"
+            },
+            {
+               "id": 7758,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 63,
+                  "PR": 265,
+                  "PLOTID": 7750,
+                  "PLANTED": true
+               },
+               "owner": "chocolatoso"
+            }
+         ],
          "hkwater": 30,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 11,
             "lvl2": 1,
             "lvl3": 1,
             "lvl4": 1,
@@ -82402,11 +82060,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -82417,10 +82074,9 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
          "tokens": {
             "buds": {
-               "balance": "23",
+               "balance": "0",
                "stake": "0"
             },
             "mota": {
@@ -82433,12 +82089,12 @@ module.exports = {
             }
          },
          "claimed": {
-            "water": false,
-            "avatar": false,
-            "bud": false
+            "water": true,
+            "avatar": true,
+            "bud": true
          },
          "xp": 102,
-         "lvl": 2,
+         "lvl": 11,
          "role": 1,
          "joints": [],
          "mota": 0,
@@ -82450,6 +82106,297 @@ module.exports = {
          "rentals": [],
          "plots": [],
          "plotCount": 0,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 7733,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 0,
+                  "WATER": 0,
+                  "PR": 223,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "PLOTID": 7734,
+                  "PLANTED": true
+               },
+               "owner": "hk-vault"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": "223",
+               "stake": "0"
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": "99.0000",
+               "stake": "0"
+            }
+         },
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [
+            {
+               "id": 7736,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            },
+            {
+               "id": 7737,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            },
+            {
+               "id": 7738,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            },
+            {
+               "id": 7739,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            },
+            {
+               "id": 7740,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            },
+            {
+               "id": 7741,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            },
+            {
+               "id": 7742,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            },
+            {
+               "id": 7743,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            },
+            {
+               "id": 7744,
+               "properties": {
+                  "NAME": "Pinner",
+                  "TYPE": "consumable",
+                  "CONSUMABLETYPE": "pinner",
+                  "LVL": 0
+               },
+               "owner": "hk-vault"
+            }
+         ],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "javiervaersa": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 2530,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot"
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 2533,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot"
+               },
+               "owner": "javiervaersa"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 2529,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 385
+               },
+               "owner": "javiervaersa"
+            }
+         ],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": "1",
+               "stake": "0"
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": "34.4000",
+               "stake": "0"
+            }
+         },
+         "claimed": {
+            "water": true,
+            "avatar": true,
+            "bud": true
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "undefined": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 7747,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": true,
+                  "OCCUPIED": false,
+                  "SEEDID": 0,
+                  "RENTED": false
+               },
+               "owner": "undefined"
+            }
+         ],
+         "plotCount": 1,
          "seedCount": 0,
          "seeds": [],
          "hkwater": 0,
@@ -82471,11 +82418,10 @@ module.exports = {
             "lvl3": [],
             "lvl4": [],
             "lvl5": [],
-            "lvl6": [],
             "lvl7": [],
             "lvl8": [],
             "lvl9": [],
-            "lvl10": [],
+            "lvl10": []
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -82515,7 +82461,8 @@ module.exports = {
          "joints": [],
          "mota": 0,
          "motaStake": 0,
-         "boosters": []
+         "boosters": [],
+         "avatars": []
       }
    },
    "cs": {}
