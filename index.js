@@ -459,7 +459,7 @@ function reporting() {
             
         let landTotal = res[2].totalAllPlots
         let seedTotal = res[2].totalAllSeeds
-        let seedTotal = res[2].totalAllWater
+        let waterTotal = res[2].totalAllWater
         
         let asiaTotal = res[1].Asia
         let jamaicaTotal = res[1].Jamaica
@@ -497,7 +497,7 @@ function reporting() {
 
         state.stats.supply.totalSeeds = seedTotal
 
-        state.stats.supply.totalWaterTowersC = totalWaterSupply - totalAllWater
+        state.stats.supply.totalWaterTowersC = totalWaterSupply - waterTotal
 
     } catch (error) {
             console.log("function reporting error")
