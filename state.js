@@ -77457,8 +77457,8 @@ module.exports = {
             "avatar": false,
             "bud": false
          },
-         "xp": 101,
-         "lvl": 1,
+         "xp": 102,
+         "lvl": 2,
          "role": 1,
          "joints": [],
          "mota": 0,
