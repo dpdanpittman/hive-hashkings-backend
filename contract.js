@@ -1910,6 +1910,7 @@ const updateNft = async (hive, idnft, properties) => {
   });
 };
 
+// exports
 module.exports = contract = {
   createSeed,
   createOneSeed,
