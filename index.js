@@ -154,10 +154,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53299572; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53313468; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53299572;
+const ago = ENV.ago || 53313468;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -336,6 +336,8 @@ function userList() {
                         let HKwater = waterTowerNumber * 30
                         state.users[username].hkwater = HKwater
                         state.users[username].waterPlants.lvl1 = waterTowerNumber + waterTowerNumber2
+                        totalTowers = waterTowerNumber + waterTowerNumber2
+                        state.stats.supply.totalWaterTowersC -= totalTowers
 
                         //if user doesnt exist, create them
                         if(state.users[username].tokens.buds.balance > 0) {
@@ -436,7 +438,6 @@ function reporting() {
         try {
             
         let landTotal = res[2].totalAllPlots
-        let waterTotal = res[2].totalAllWater
         let seedTotal = res[2].totalAllSeeds
         
         let asiaTotal = res[1].Asia
@@ -474,8 +475,6 @@ function reporting() {
 
         state.stats.supply.totalSeeds = seedTotal
 
-        state.stats.supply.totalWaterTowers = waterTotal
-        state.stats.supply.totalWaterTowersC = 19000 - waterTotal
     } catch (error) {
             console.log("function reporting error")
             console.log(error)
