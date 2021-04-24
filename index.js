@@ -154,10 +154,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53297300; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53299572; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53297300;
+const ago = ENV.ago || 53299572;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -677,16 +677,16 @@ function startApp() {
             hivePriceConversion(1).then(prices => {
                 let bundlePrice = prices;
 
-                state.stats.prices.waterPlants.lvl1.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl2.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl3.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl4.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl5.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl6.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl7.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl8.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl9.price = Math.ceil((bundlePrice * 1));
-                state.stats.prices.waterPlants.lvl10.price = Math.ceil((bundlePrice * 1));
+                state.stats.prices.waterPlants.lvl1.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl2.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl3.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl4.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl5.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl6.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl7.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl8.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl9.price = bundlePrice;
+                state.stats.prices.waterPlants.lvl10.price = bundlePrice;
             })                       
         }
         } catch (error) {
