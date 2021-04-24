@@ -715,7 +715,7 @@ const CreateAvatar = (name, to) => {
 const CreateWaterTower = (name, to, water) => {
   const properties = {
     NAME: name,
-    TYPE: "water tower",
+    TYPE: "water",
     LVL: 1,
     WATER: water,
   };
@@ -1910,7 +1910,6 @@ const updateNft = async (hive, idnft, properties) => {
   });
 };
 
-// exports
 module.exports = contract = {
   createSeed,
   createOneSeed,

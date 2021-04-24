@@ -569,13 +569,13 @@ function landPriceConversion() {
 })}
 
 function daily() {
-    /*var seedsUsedLastDay = state.stats.seedsUsedLastDay
+    var seedsUsedLastDay = state.stats.seedsUsedLastDay
 
     //distribute seeds
     if(seedsUsedLastDay > 0){
     contract.distributeSeeds(axios, seedsUsedLastDay, hivejs)
     state.stats.seedsUsedLastDay = 0
-    }*/
+    }
     var userList = state.stats.farmerList
 
     // distribute mota
@@ -584,24 +584,23 @@ function daily() {
         return { user: farmer , depositedBuds: state.users[farmer].dailyBudDeposit}
     })
 
-    console.log(farmers)
-    //distributeMota(1000, [ { user :"chocolatoso" , depositedBuds:100 }, { user :"al-liuke" , depositedBuds:100 }, { user :"hashkings" , depositedBuds:50 }, { user :"qwoyn" , depositedBuds:25 } ], hivejs)
+    //console.log(farmers)
+    distributeMota(1000, farmers, hivejs)
     } catch (error) {
        console.log("a user does not exist, may have to repeat")     
     }
 
-    /*userList.map( farmer => {
+    userList.map( farmer => {
     let obj =   state.users[farmer].waterPlants  
     let waterNumber = Object.keys(obj).reduce((sum,key)=> { console.log(sum,key,obj[key]); return (sum+parseInt(obj[key]||0 )  * state.stats.prices.waterPlants[key].water  )} ,0);
     
-    console.log(farmer + " --> " +waterNumber);
-    // if work uncomment countcontract.createToken(hivejs, "HKWATER", waterNumber.toFixed(3), farmer);
+    contract.createToken(hivejs, "HKWATER", waterNumber.toFixed(3), farmer);
     }) 
 
     for(var i = 0; i < userList.length; i++) {
         let user = userList[i]
         state.users[user].dailyBudDeposit = 0
-    }*/
+    }
 }
 
 /****ISSUE****/
@@ -765,7 +764,7 @@ function startApp() {
 
         // perform daily function
         if (num % 28000 === 0 && processor.isStreaming()) {
-            //daily();
+            daily();
         }
 
         //saves state to ipfs hash every 5 minutes
