@@ -141,11 +141,15 @@ app.get('/', (req, res, next) => {
     res.send(JSON.stringify(state, null, 3))
 });
 
+try {
 app.get('/u/:user', (req, res, next) => {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.users[user], null, 3))
 });
+} catch (error) {
+    
+}
 
 app.get('/prices', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
@@ -154,10 +158,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53319447; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53319866; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53319447;
+const ago = ENV.ago || 53319866;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -323,7 +327,7 @@ function userList() {
                 for (const property in report) {
                     if(property == username) {
 
-                        //get nft data
+/*//get nft data
                         seedData = report[property].seeds
                         plotData = report[property].plots
                         jointData = report[property].consumable
@@ -345,6 +349,36 @@ function userList() {
                         //set number of seeds and plots for user
                         state.users[username].seedCount = seedData.length
                         state.users[username].plotCount = plotData.length
+
+                        //if user doesnt exist, create them
+                        if(state.users[username].tokens.buds.balance > 0) {
+                            state.users[username].claimed.water = true
+                            state.users[username].claimed.avatar = true
+                            state.users[username].claimed.bud = true*/
+                            //get nft data
+                        seedData = report[property].seeds
+                        plotData = report[property].plots
+                        jointData = report[property].consumable
+                        boosterData = report[property].booster
+                        avatarData = report[property].avatar
+                        waterTowerData = report[property].waterTemp
+
+                        //set nft data
+                        state.users[username].avatars = avatarData
+                        state.users[username].boosters = boosterData
+                        state.users[username].joints = jointData
+                        state.users[username].seeds = seedData
+                        state.users[username].plots = plotData
+
+                        //set number of seeds and plots for user
+                        state.users[username].seedCount = seedData.length
+                        state.users[username].plotCount = plotData.length
+
+                        //set hkwater for claiming
+                        let waterTowerNumber = waterTowerData.length
+                        let HKwater = waterTowerNumber * 30
+                        state.users[username].hkwater = HKwater
+                        state.users[username].waterPlants.lvl1 = waterTowerNumber
 
                         //if user doesnt exist, create them
                         if(state.users[username].tokens.buds.balance > 0) {
