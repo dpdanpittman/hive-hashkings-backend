@@ -155,10 +155,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53292330; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53292474; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53292330;
+const ago = ENV.ago || 53292474;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1077,7 +1077,7 @@ function startApp() {
             console.log(error)
         }
 
-        if(state.users[from] && plotStatus == "false" && seedStatus == "false" && rentStatus === "false" && listStatus === "false"){
+        if(state.users[from] && plotStatus == "false" && seedStatus == "false" && rentStatus == "false" && listStatus == "false"){
             //make seed used and designate plot
             contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
             contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
@@ -1528,7 +1528,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl4++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 4, json.from)
+                                contract.updateNft(hivejs, type, { "LVL": 4, "WATER": 234})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1542,7 +1542,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl5++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 5, json.from)
+                                contract.updateNft(hivejs, type, { "LVL": 5, "WATER": 302})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1556,7 +1556,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl6++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 6, json.from)
+                                contract.updateNft(hivejs, type, { "LVL": 6, "WATER": 370})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1570,11 +1570,11 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl7++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 7, json.from)
+                                contract.updateNft(hivejs, type, { "LVL": 7, "WATER": 438})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                                
                              } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && state.users[json.from].lvl >= 70) {
                                 
                                 // update total number of plots
@@ -1584,7 +1584,7 @@ function startApp() {
                                 state.users[from].waterPlants.lvl8++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 8, json.from)
+                                contract.updateNft(hivejs, type, { "LVL": 8, "WATER": 506})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1598,7 +1598,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl9++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 9, json.from)
+                                contract.updateNft(hivejs, type, { "LVL": 9, "WATER": 574})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
@@ -1612,7 +1612,7 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl10++
 
                                 // create nft
-                                contract.createWater(hivejs, "Water", 10, json.from)
+                                contract.updateNft(hivejs, type, { "LVL": 7, "WATER": 438})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
