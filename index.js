@@ -154,10 +154,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53317636; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53317760; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53317636;
+const ago = ENV.ago || 53317760;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -266,6 +266,18 @@ function userList() {
                         lvl9: 0,
                         lvl10: 0
                     },
+                    waterTowers: {
+                        lvl1: [],
+                        lvl2: [],
+                        lvl3: [],
+                        lvl4: [],
+                        lvl5: [],
+                        lvl6: [],
+                        lvl7: [],
+                        lvl8: [],
+                        lvl9: [],
+                        lvl10: [],
+                     },
                     timeBoosters: {
                         lvl1: 0,
                         lvl2: 0,
@@ -1352,6 +1364,18 @@ function startApp() {
                         lvl9: 0,
                         lvl10: 0
                     },
+                    waterTowers: {
+                        lvl1: [],
+                        lvl2: [],
+                        lvl3: [],
+                        lvl4: [],
+                        lvl5: [],
+                        lvl6: [],
+                        lvl7: [],
+                        lvl8: [],
+                        lvl9: [],
+                        lvl10: [],
+                     },
                     timeBoosters: {
                         lvl1: 0,
                         lvl2: 0,
