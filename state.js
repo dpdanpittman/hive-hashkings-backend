@@ -795,6 +795,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1085,6 +1097,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -1444,6 +1468,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -1554,6 +1590,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -1684,6 +1732,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -2167,6 +2227,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -2505,6 +2577,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -4129,6 +4213,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -4299,6 +4395,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -4390,6 +4498,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -4607,6 +4727,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -4801,6 +4933,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -5443,6 +5587,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -6021,6 +6177,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -6408,6 +6576,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -6537,6 +6717,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -6952,6 +7144,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7153,6 +7357,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7322,6 +7538,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7434,6 +7662,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7544,6 +7784,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -7778,6 +8030,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -7964,6 +8228,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -8190,6 +8466,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -8300,6 +8588,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -8507,6 +8807,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -8617,6 +8929,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9040,6 +9364,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -9131,6 +9467,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9243,6 +9591,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -9313,6 +9673,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9460,6 +9832,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -9570,6 +9954,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -9910,6 +10306,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -10119,6 +10527,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -11534,6 +11954,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -11626,6 +12058,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -11717,6 +12161,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -11829,6 +12285,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -11920,6 +12388,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12050,6 +12530,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12238,6 +12730,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -12321,6 +12825,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -12367,6 +12883,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -12461,6 +12989,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -13202,6 +13742,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -13351,6 +13903,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -13636,6 +14200,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -13729,6 +14305,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -13782,6 +14370,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14110,6 +14710,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14201,6 +14813,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14313,6 +14937,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14424,6 +15060,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14512,6 +15160,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -14558,6 +15218,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14650,6 +15322,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -14744,6 +15428,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15052,6 +15748,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -15126,6 +15834,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15333,6 +16053,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -15443,6 +16175,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -15593,6 +16337,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -15703,6 +16459,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16019,6 +16787,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -16110,6 +16890,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16469,6 +17261,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -16617,6 +17421,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -16876,6 +17692,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -16967,6 +17795,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -17097,6 +17937,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -17638,6 +18490,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -17730,6 +18594,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -18659,6 +19535,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -18789,6 +19677,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -18904,6 +19804,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -18978,6 +19890,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -19070,6 +19994,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -19206,6 +20142,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -19357,6 +20305,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -19467,6 +20427,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -19857,6 +20829,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -19969,6 +20953,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -20118,6 +21114,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -22558,6 +23566,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -22641,6 +23661,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -22983,6 +24015,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -23113,6 +24157,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -23207,6 +24263,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -23298,6 +24366,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -23392,6 +24472,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -23542,6 +24634,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -23625,6 +24729,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -23680,6 +24796,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -23774,6 +24902,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24290,6 +25430,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -24509,6 +25661,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -24905,6 +26069,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -25399,6 +26575,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -25572,6 +26760,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -25663,6 +26863,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -25973,6 +27185,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -26064,6 +27288,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -26214,6 +27450,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -26306,6 +27554,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -26686,6 +27946,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -26951,6 +28223,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -27045,6 +28329,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -27121,6 +28417,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -27257,6 +28565,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -27427,6 +28747,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -27819,6 +29151,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -27912,6 +29256,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -28027,6 +29383,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -28197,6 +29565,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -28680,6 +30060,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -29063,6 +30455,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -29156,6 +30560,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -29329,6 +30745,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -29422,6 +30850,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -29574,6 +31014,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -29686,6 +31138,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -29865,6 +31329,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -30019,6 +31495,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -30379,6 +31867,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31025,6 +32525,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -31126,6 +32638,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31335,6 +32859,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -31411,6 +32947,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31505,6 +33053,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -31791,6 +33351,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -32286,6 +33858,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -32551,6 +34135,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -32682,6 +34278,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -32834,6 +34442,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -32946,6 +34566,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -33163,6 +34795,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -33379,6 +35023,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -33511,6 +35167,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -33604,6 +35272,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -33701,6 +35381,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -33794,6 +35486,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -34116,6 +35820,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -34441,6 +36157,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -34613,6 +36341,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -34706,6 +36446,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -34857,6 +36609,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35065,6 +36829,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35296,6 +37072,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -35485,6 +37273,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -35580,6 +37380,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -35941,6 +37753,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -36054,6 +37878,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -36148,6 +37984,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -36241,6 +38089,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -36394,6 +38254,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -36641,6 +38513,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -36829,6 +38713,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37019,6 +38915,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -37112,6 +39020,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37245,6 +39165,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -37321,6 +39253,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37473,6 +39417,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -37585,6 +39541,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -37755,6 +39723,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38078,6 +40058,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -38190,6 +40182,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38324,6 +40328,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38476,6 +40492,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -38589,6 +40617,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -38661,6 +40701,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -38889,6 +40941,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -38982,6 +41046,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39114,6 +41190,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39304,6 +41392,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -39436,6 +41536,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -39549,6 +41661,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -39661,6 +41785,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -39986,6 +42122,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -40140,6 +42288,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -40406,6 +42566,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -40582,6 +42754,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -40713,6 +42897,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41074,6 +43270,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -41187,6 +43395,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -41280,6 +43500,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41394,6 +43626,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -41507,6 +43751,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -41600,6 +43856,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -41754,6 +44022,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -41886,6 +44166,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -41999,6 +44291,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -42111,6 +44415,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -42226,6 +44542,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -42384,6 +44712,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -42527,6 +44867,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -42651,6 +45003,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -42763,6 +45127,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -42878,6 +45254,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -43107,6 +45495,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -43258,6 +45658,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -43392,6 +45804,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -43504,6 +45928,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -43618,6 +46054,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -43731,6 +46179,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -43825,6 +46285,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -43910,6 +46382,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44087,6 +46571,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -44181,6 +46677,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -44257,6 +46765,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44351,6 +46871,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -44790,6 +47322,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -44922,6 +47466,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -45034,6 +47590,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45166,6 +47734,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45340,6 +47920,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45557,6 +48149,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -45669,6 +48273,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -45901,6 +48517,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -46032,6 +48660,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46232,6 +48872,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -46344,6 +48996,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46476,6 +49140,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -46763,6 +49439,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -46856,6 +49544,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47008,6 +49708,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -47140,6 +49852,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -47252,6 +49976,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47405,6 +50141,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47576,6 +50324,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -47689,6 +50449,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -47765,6 +50537,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -47878,6 +50662,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -48012,6 +50808,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49098,6 +51906,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -49231,6 +52051,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49401,6 +52233,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -49647,6 +52491,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50188,6 +53044,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -50260,6 +53128,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50411,6 +53291,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -50805,6 +53697,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -51698,6 +54602,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -51791,6 +54707,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -51887,6 +54815,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -52019,6 +54959,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -52187,6 +55139,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -52299,6 +55263,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -52432,6 +55408,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -52545,6 +55533,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -52638,6 +55638,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -52733,6 +55745,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -52827,6 +55851,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -52903,6 +55939,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -53020,6 +56068,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -53172,6 +56232,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -53265,6 +56337,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -53495,6 +56579,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -53646,6 +56742,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -53727,6 +56835,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -53821,6 +56941,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -53992,6 +57124,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -54128,6 +57272,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -54240,6 +57396,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -54505,6 +57673,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55265,6 +58445,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -55370,6 +58562,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -55446,6 +58650,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -55716,6 +58932,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -55881,6 +59109,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -55975,6 +59215,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -56048,6 +59300,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -56115,6 +59379,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -56270,6 +59546,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -56325,6 +59613,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -57268,6 +60568,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -57682,6 +60994,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -57942,6 +61266,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -58046,6 +61382,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -58219,6 +61567,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -58390,6 +61750,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -58563,6 +61935,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -58723,6 +62107,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -58929,6 +62325,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -59063,6 +62471,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -59130,6 +62550,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59275,6 +62707,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59443,6 +62887,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -59510,6 +62966,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59579,6 +63047,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -59647,6 +63127,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -59714,6 +63206,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -59794,6 +63298,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -59873,6 +63389,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -59940,6 +63468,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -60020,6 +63560,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -60087,6 +63639,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -60167,6 +63731,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -60235,6 +63811,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -60302,6 +63890,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -60446,6 +64046,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -60514,6 +64126,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -60581,6 +64205,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -60661,6 +64297,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -60728,6 +64376,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -60883,6 +64543,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -60950,6 +64622,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61088,6 +64772,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61246,6 +64942,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -61359,6 +65067,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -61452,6 +65172,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61547,6 +65279,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -61623,6 +65367,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61776,6 +65532,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -61946,6 +65714,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62193,6 +65973,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -62286,6 +66078,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62381,6 +66185,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -62474,6 +66290,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -62588,6 +66416,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -62700,6 +66540,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63081,6 +66933,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -63175,6 +67039,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -63268,6 +67144,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63381,6 +67269,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63513,6 +67413,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -63684,6 +67596,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -63853,6 +67777,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64048,6 +67984,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -64124,6 +68072,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64249,6 +68209,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -64342,6 +68314,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64477,6 +68461,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -64608,6 +68604,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -64760,6 +68768,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -64892,6 +68912,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65062,6 +69094,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -65194,6 +69238,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65331,6 +69387,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65501,6 +69569,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -65635,6 +69715,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -65900,6 +69992,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -65992,6 +70096,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -66149,6 +70265,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -66260,6 +70388,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -66608,6 +70748,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -66748,6 +70900,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -66845,6 +71009,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67606,6 +71782,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -67704,6 +71892,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -67801,6 +72001,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -67920,6 +72132,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68097,6 +72321,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -68194,6 +72430,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68465,6 +72713,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -68668,6 +72928,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -68765,6 +73037,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -68948,6 +73232,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -69045,6 +73341,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -70429,6 +74737,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -70569,6 +74889,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -70666,6 +74998,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -70770,6 +75114,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -70850,6 +75206,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -70948,6 +75316,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -71130,6 +75510,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -71334,6 +75726,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -71473,6 +75877,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -71656,6 +76072,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -71753,6 +76181,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72024,6 +76464,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -72141,6 +76593,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -72239,6 +76703,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -72336,6 +76812,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72456,6 +76944,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -72557,6 +77057,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72740,6 +77252,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -72837,6 +77361,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -72936,6 +77472,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -73033,6 +77581,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -73152,6 +77712,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -73356,6 +77928,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -73454,6 +78038,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -73534,6 +78130,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -73738,6 +78346,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -73920,6 +78540,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -74038,6 +78670,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -74179,6 +78823,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -74309,6 +78965,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -74383,6 +79051,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -74498,6 +79178,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -74706,6 +79398,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -74803,6 +79507,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -74943,6 +79659,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75125,6 +79853,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75329,6 +80069,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -75426,6 +80178,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75718,6 +80482,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -75831,6 +80607,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -75958,6 +80746,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -76025,6 +80825,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76112,6 +80924,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76208,6 +81032,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -76302,6 +81138,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76398,6 +81246,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -76471,6 +81331,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76637,6 +81509,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -76720,6 +81604,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -76785,6 +81681,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -76953,6 +81861,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -77048,6 +81968,18 @@ module.exports = {
             "lvl9": 0,
             "lvl10": 0
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -77115,6 +82047,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77192,6 +82136,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77272,6 +82228,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
@@ -77428,6 +82396,18 @@ module.exports = {
             "lvl9": 1,
             "lvl10": 1
          },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
+         },
          "timeBoosters": {
             "lvl1": 0,
             "lvl2": 0,
@@ -77484,6 +82464,18 @@ module.exports = {
             "lvl8": 0,
             "lvl9": 0,
             "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": [],
          },
          "timeBoosters": {
             "lvl1": 0,
