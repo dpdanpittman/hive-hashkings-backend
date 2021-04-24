@@ -155,10 +155,10 @@ app.get('/u/:user', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53292474; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53292594; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53292474;
+const ago = ENV.ago || 53292594;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1077,7 +1077,7 @@ function startApp() {
             console.log(error)
         }
 
-        if(state.users[from] && plotStatus == "false" && seedStatus == "false" && rentStatus == "false" && listStatus == "false"){
+        if(state.users[from]){
             //make seed used and designate plot
             contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
             contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
@@ -1172,7 +1172,7 @@ function startApp() {
             console.log(error)
         }
         
-        if(state.users[from].rentals[rentalID] && plotStatus == "false" && seedStatus == "false"){
+        if(state.users[from].rentals[rentalID]){
             //make seed used and designate plot
             contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
             contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
@@ -1478,7 +1478,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 3000) {
+                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 300) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl1
@@ -1492,7 +1492,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 
-                             } else if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 3000 && state.users[json.from].lvl >= 10) {
+                             } else if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 300 && state.users[json.from].lvl >= 10) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl2
@@ -1506,7 +1506,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 
-                             } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 3000 && state.users[json.from].lvl >= 20) {
+                             } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 300 && state.users[json.from].lvl >= 20) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl3
@@ -1519,7 +1519,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 
-                             } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 3000 && state.users[json.from].lvl >= 30) {
+                             } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 300 && state.users[json.from].lvl >= 30) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl4
@@ -1533,7 +1533,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 3000 && state.users[json.from].lvl >= 40) {
+                             } else if (want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 300 && state.users[json.from].lvl >= 40) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl5
@@ -1546,8 +1546,8 @@ function startApp() {
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 3000 && state.users[json.from].lvl >= 50) {
+
+                             } else if (want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 300 && state.users[json.from].lvl >= 50) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl6
@@ -1560,8 +1560,8 @@ function startApp() {
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 3000 && state.users[json.from].lvl >= 60) {
+
+                             } else if (want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 300 && state.users[json.from].lvl >= 60) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl7
@@ -1575,7 +1575,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 
-                             } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 3000 && state.users[json.from].lvl >= 70) {
+                             } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 300 && state.users[json.from].lvl >= 70) {
                                 
                                 // update total number of plots
                                 state.users[from].water += state.stats.waterPlant.lvl8
@@ -1588,8 +1588,8 @@ function startApp() {
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 3000 && state.users[json.from].lvl >= 80) {
+
+                             } else if (want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 300 && state.users[json.from].lvl >= 80) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl9
@@ -1602,8 +1602,8 @@ function startApp() {
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 3000 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 3000 && state.users[json.from].lvl >= 90) {
+
+                             } else if (want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 300 && state.users[json.from].lvl >= 90) {
                                 
                                 // update total number of plots
                                 state.users[json.from].water += state.stats.waterPlant.lvl10
@@ -1612,11 +1612,11 @@ function startApp() {
                                 state.users[json.from].waterPlants.lvl10++
 
                                 // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 7, "WATER": 438})
+                                contract.updateNft(hivejs, type, { "LVL": 10, "WATER": 642})
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+
                             } 
                         /*} else {
                             state.bal.r += amount
