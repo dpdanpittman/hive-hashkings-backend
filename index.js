@@ -160,10 +160,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53347009; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53347258; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53347009;
+const ago = ENV.ago || 53347258;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -383,7 +383,7 @@ function userList() {
                         state.users[username].waterPlants.lvl1 = waterTowerNumber
 
                         //adjust for daily bud deposit error
-                        if(state.users[username].tokens.buds.balance < 2) {
+                        if(state.users[username].tokens.buds.balance !== "2" && state.users[username].tokens.buds.balance !== "1") {
                             state.users[username].dailyBudDeposit = 1
                         }
 
@@ -840,7 +840,7 @@ function startApp() {
                   let amountBudsInt = parseInt(amountBuds, 10)
                   if(state.users[from] && json.contractPayload.memo == "deposit"){
 
-                        state.users[from].dailyBudDeposit = json.contractPayload.quantity
+                        state.users[from].dailyBudDeposit = amountBudsInt
                   }
     
                   if(state.users[from] && json.contractPayload.memo == "pinner" && amountBudsInt === 50){
