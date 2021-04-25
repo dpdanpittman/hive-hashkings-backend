@@ -1539,7 +1539,7 @@ function startApp() {
 
 
                                 // create nft
-                                createWaterTower(hivejs, "Water", json.from, 30)
+                                contract.createWaterTower(hivejs, "Water", json.from, 30)
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
