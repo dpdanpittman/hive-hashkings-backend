@@ -1533,7 +1533,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlant.lvl1.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl1.price * 1000) + 300) {
+                             } else if (want === 'water1' && amount > (2.200 * 1000) - 300 &&  amount < (2.200 * 1000) + 300) {
                                 
                                
 
