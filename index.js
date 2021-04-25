@@ -382,11 +382,6 @@ function userList() {
                         state.users[username].hkwater = HKwater
                         state.users[username].waterPlants.lvl1 = waterTowerNumber
 
-                        //adjust for daily bud deposit error
-                        if(state.users[username].tokens.buds.balance !== "2" && state.users[username].tokens.buds.balance !== "1") {
-                            state.users[username].dailyBudDeposit = 1
-                        }
-
                         //if user doesnt exist, create them
                         if(state.users[username].tokens.buds.balance > 0) {
                             state.users[username].claimed.water = true
