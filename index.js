@@ -160,10 +160,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53340356; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53344821; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53340356;
+const ago = ENV.ago || 53344821;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -834,65 +834,65 @@ function startApp() {
 
                   if(state.users[from] && json.contractPayload.memo === "deposit"){
 
-                        state.users[from].dailyBudDeposit = json.contractPayload.amount
+                        state.users[from].dailyBudDeposit = json.contractPayload.quantity
                   }
     
-                  if(state.users[from] && json.contractPayload.memo === "pinner" && json.contractPayload.amount === 50){
+                  if(state.users[from] && json.contractPayload.memo === "pinner" && json.contractPayload.quantity === 50){
 
                       // create pinner
                       contract.createConsumable(hivejs, "Pinner", type, from)
 
-                  } else if(state.users[from] && json.contractPayload.memo === "hempWrappedJoint" && json.contractPayload.amount === 200){
+                  } else if(state.users[from] && json.contractPayload.memo === "hempWrappedJoint" && json.contractPayload.quantity === 200){
             
                       // create hempwrappedjoint
                       contract.createConsumable(hivejs, "Hemp Wrapped Joint", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "crossJoint" && json.contractPayload.amount === 1000){
+                  }else if(state.users[from] && json.contractPayload.memo === "crossJoint" && json.contractPayload.quantity === 1000){
             
                       // create crossjoint
                       contract.createConsumable(hivejs, "Cross Joint", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "blunt" && json.contractPayload.amount === 2500){
+                  }else if(state.users[from] && json.contractPayload.memo === "blunt" && json.contractPayload.quantity === 2500){
             
                       // create blunt
                       contract.createConsumable(hivejs, "Blunt", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "hempWrappedBlunt" && json.contractPayload.amount === 5000){
+                  }else if(state.users[from] && json.contractPayload.memo === "hempWrappedBlunt" && json.contractPayload.quantity === 5000){
             
                       // create hempwrappedblunt
                       contract.createConsumable(hivejs, "Hemp Wrapped Blunt", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "twaxJoint" && json.contractPayload.amount === 10000){
+                  }else if(state.users[from] && json.contractPayload.memo === "twaxJoint" && json.contractPayload.quantity === 10000){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Twax Joint", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl1_booster" && json.contractPayload.amount === 10){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl1_booster" && json.contractPayload.quantity === 10){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 1 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl2_booster" && json.contractPayload.amount === 50){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl2_booster" && json.contractPayload.quantity === 50){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 2 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl3_booster" && json.contractPayload.amount === 210){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl3_booster" && json.contractPayload.quantity === 210){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 3 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl4_booster" && json.contractPayload.amount === 2000){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl4_booster" && json.contractPayload.quantity === 2000){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 4 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl5_booster" && json.contractPayload.amount === 2500){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl5_booster" && json.contractPayload.quantity === 2500){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 5 Booster", type, from)
 
-                  }else if(state.users[from] && json.contractPayload.memo === "lvl6_booster" && json.contractPayload.amount === 50){
+                  }else if(state.users[from] && json.contractPayload.memo === "lvl6_booster" && json.contractPayload.quantity === 50){
             
                       // set plot to subdivided
                       contract.createConsumable(hivejs, "Level 6 Booster", type, from)
