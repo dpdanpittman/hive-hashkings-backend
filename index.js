@@ -158,10 +158,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53320412; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53320764; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53320412;
+const ago = ENV.ago || 53320764;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1505,9 +1505,7 @@ function startApp() {
                                 state.bal.c += c
                                 state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
                              } else if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
+                            
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.land.mexico--
