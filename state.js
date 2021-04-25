@@ -198,7 +198,7 @@ module.exports = {
          "totalPlotsC": 746,
          "totalSeeds": 2552,
          "totalWaterTowers": 0,
-         "totalWaterTowersC": -327126,
+         "totalWaterTowersC": 19000,
          "land": {
             "asia": 0,
             "asiaC": 40,
