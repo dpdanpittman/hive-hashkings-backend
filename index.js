@@ -141,15 +141,17 @@ app.get('/', (req, res, next) => {
     res.send(JSON.stringify(state, null, 3))
 });
 
-try {
+
 app.get('/u/:user', (req, res, next) => {
+    try {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.users[user], null, 3))
-});
 } catch (error) {
     
 }
+});
+
 
 app.get('/prices', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
