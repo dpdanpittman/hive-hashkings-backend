@@ -1437,83 +1437,7 @@ function startApp() {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                 type = json.memo.split(" ")[1] || ''
-            if (want == 'asia' && amount > (state.stats.prices.land.asia.price * 1000) - 3000 &&  amount < (state.stats.prices.land.asia.price * 1000) + 3000 && state.stats.supply.land.asia != 0) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-                                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.asia -= 1
-
-                                // adds 1 plot to plots used count
-                                state.stats.supply.land.asiaC += 1
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.asia++
-
-                                // create nft
-                                contract.createPlot(hivejs, "Asia", 1, json.from);
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                                } else if (want == 'afghanistan' && amount > (state.stats.prices.land.afghanistan.price * 1000) - 3000 &&  amount < (state.stats.prices.land.afghanistan.price * 1000) + 3000 && state.stats.supply.land.afghanistan != 0) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-                                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.afghanistan--
-                                state.stats.supply.land.afghanistanC++
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.afghanistan++
-
-                                // create nft
-                                contract.createPlot(hivejs, "Afghanistan", 1, json.from);
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want == 'africa' && amount > (state.stats.prices.land.africa.price * 1000) - 3000 &&  amount < (state.stats.prices.land.africa.price * 1000) + 3000 && state.stats.supply.land.africa != 0) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-                                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.africa--
-                                state.stats.supply.land.africaC++
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.africa++
-
-                                // create nft
-                                contract.createPlot(hivejs, "Africa", 1, json.from);
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want == 'jamaica' && amount > (state.stats.prices.land.jamaica.price * 1000) - 3000 &&  amount < (state.stats.prices.land.jamaica.price * 1000) + 3000 && state.stats.supply.land.jamaica != 0) {
-                                
-                                // update total number of plots
-                                state.users[json.from].plotCount++
-                                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.jamaica--
-                                state.stats.supply.land.jamaicaC++
-
-                                // add 1 plot to user inventory
-                                state.users[json.from].plots.jamaica++
-
-                                // create nft
-                                contract.createPlot(hivejs, "Jamaica", 1, json.from);
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {
-                            
-                                
+             if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {                
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.land.mexico--
                                 state.stats.supply.land.mexicoC++
@@ -1523,10 +1447,9 @@ function startApp() {
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+
                              } else if (want == 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica != 0) {
                                 
-                            
                                 
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.land.southAmerica--
@@ -1538,7 +1461,7 @@ function startApp() {
                                 const c = parseInt(amount)
                                 state.bal.c += c
                             
-                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlants.lvl1.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlants.lvl1.price * 1000) + 300) {
+                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlants.lvl1.price * 1000) - 300 && amount < (state.stats.prices.waterPlants.lvl1.price * 1000) + 300) {
                                 
                                 // create nft
                                 contract.createWaterTower(hivejs, "Water", json.from, 30)
@@ -1672,11 +1595,6 @@ function startApp() {
                                 state.bal.c += c
 
                             } 
-                        /*} else {
-                            state.bal.r += amount
-                            state.refund.push(['xfer', json.from, amount, 'something strange happened your item might not be available or try again'])
-                            state.cs[`${json.block_num}:${json.from}`] = `${json.from} sent a weird transfer trying to purchase seeds, land or water.`
-                            }*/
         } else if (json.from === username) {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             for (var i = 0; i < state.refund.length; i++) {
