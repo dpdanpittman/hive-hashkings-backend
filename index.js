@@ -158,7 +158,7 @@ app.get('/utest/:user', async (req, res, next) => {
     try {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
-    let  { plots , seeds, tokens }  = await getUserNft(ssc,axios, user);
+    let  { plots , seeds, tokens }  = await contract.getUserNft(ssc,axios, user);
     let test = Object.assign({},state.users[user]);
     test.seeds  = seeds;
     test.plots  = plots;
