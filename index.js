@@ -154,7 +154,7 @@ app.get('/u/:user', (req, res, next) => {
 });
 
 
- app.get('/u/:usert', async (req, res, next) => {
+app.get('/utest/:user', async (req, res, next) => {
     try {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
