@@ -160,10 +160,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53350194; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53355335; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53350194;
+const ago = ENV.ago || 53355335;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -195,10 +195,12 @@ const walletOperationsBitmask = makeBitMaskFilter([
   op.claim_reward_balance
 ])
 
+//this rpc sucks
 const ssc = new SSC('https://api.hive-engine.com/rpc');
 
 dynStart('hashkings')
 
+//this doesnt work 100 percent
 function dynStart(account) {
     let accountToQuery = account || config.username
     hivejs.api.getAccountHistory(accountToQuery, -1, 100, ...walletOperationsBitmask, function(err, result) {
@@ -226,8 +228,6 @@ function dynStart(account) {
         }
     });
 }
-
-
 
 // gets hive in usd
 function hivePriceConversion(amount) {
@@ -740,7 +740,7 @@ function startApp() {
             console.log("error when converting prices | line 637")
         }
 
-        // makes sure database is up to date every 10 blocks
+        // makes sure database is up to date every 6 blocks
         try {
         if (num % 6 === 0 && processor.isStreaming()) {
             userList();
@@ -749,12 +749,12 @@ function startApp() {
             console.log("error when calling userList | line 646")                
         }
 
-        // makes sure database is up to date every 5 blocks
+        // makes sure database is up to date every 2 blocks
         if (num % 2 === 0 && processor.isStreaming()) {
             reporting();
         }
 
-        // show the block number in the console every block
+        // performs the leveling check
         if (num % 11 === 0 && processor.isStreaming()) {
             leveling();
         }
@@ -764,7 +764,7 @@ function startApp() {
             console.log(num);
         }
 
-        // perform daily function
+        // perform daily function 28000 blocks from genesis block above, this fails and needs to be on a new instance
         if (num % 28000 === 0 && processor.isStreaming()) {
             daily();
         }
@@ -953,8 +953,7 @@ function startApp() {
                         contract.generateToken(hivejs, "BUDS", budAmount, from)
 
                         //make plot occupied and designate seed
-                        contract.updateNft(hivejs, plotIDString, { "OCCUPIED": false })
-                        contract.updateNft(hivejs, plotIDString, { "SEEDID": 0 })
+                        contract.updateNft(hivejs, plotIDString, { "OCCUPIED": false, "SEEDID": 0 })
                         }
                     
 
@@ -1126,12 +1125,10 @@ function startApp() {
 
         if(state.users[from]){
             //make seed used and designate plot
-            contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
-            contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
+            contract.updateNft(hivejs, seedIDString, { "PLANTED":  true, "PLOTID":  plotID })
             
             //make plot occupied and designate seed
-            contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  true })
-            contract.updateNft(hivejs, plotIDString, { "SEEDID":  seedID })
+            contract.updateNft(hivejs, plotIDString, { "OCCUPIED":  true, "SEEDID":  seedID })
 
             state.stats.seedsUsedLastDay += 1
             
@@ -1139,7 +1136,7 @@ function startApp() {
         
     });
 
-    //send daily airdrop
+    //send daily airdrop - dont use this, makes the backend crash
     processor.on('daily_drop', function(json, from) {
         console.log(from)
         if(from === username){
@@ -1229,8 +1226,7 @@ function startApp() {
         
         if(state.users[from].rentals[rentalID]){
             //make seed used and designate plot
-            contract.updateNft(hivejs, seedIDString, { "PLANTED":  true })
-            contract.updateNft(hivejs, seedIDString, { "PLOTID":  plotID })
+            contract.updateNft(hivejs, seedIDString, { "PLANTED":  true, "PLOTID":  plotID })
             
             //make plot occupied and designate seed
             state.users[from].rentals[rentalID].OCCUPIED = true
