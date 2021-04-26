@@ -158,7 +158,7 @@ app.get('/utest/:user', async (req, res, next) => {
     try {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
-    let  { plots , seeds, tokens }  = await getUserNft(SSC,axios, user);
+    let  { plots , seeds, tokens }  = await getUserNft(ssc,axios, user);
     let test = Object.assign({},state.users[user]);
     test.seeds  = seeds;
     test.plots  = plots;
@@ -177,10 +177,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53371027; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53371240; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53371027;
+const ago = ENV.ago || 53371240;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1454,26 +1454,27 @@ function startApp() {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                 type = json.memo.split(" ")[1] || ''
-             if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {                
+            if (want == 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica != 0) {
+                                
+                                
+                // subtracts 1 plot from total land supply
+                state.stats.supply.land.southAmerica--
+                state.stats.supply.land.southAmericaC++
+
+                // create nft
+                contract.createPlot(hivejs, "South America", 1, json.from);
+
+                const c = parseInt(amount)
+                state.bal.c += c
+            }
+
+            if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {                
                                 // subtracts 1 plot from total land supply
                                 state.stats.supply.land.mexico--
                                 state.stats.supply.land.mexicoC++
 
                                 // create nft
                                 contract.createPlot(hivejs, "Mexico", 1, json.from);
-
-                                const c = parseInt(amount)
-                                state.bal.c += c
-
-                             } else if (want == 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica != 0) {
-                                
-                                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.southAmerica--
-                                state.stats.supply.land.southAmericaC++
-
-                                // create nft
-                                contract.createPlot(hivejs, "South America", 1, json.from);
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
