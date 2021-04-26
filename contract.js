@@ -1456,12 +1456,10 @@ async function getReport(axios) {
       }
 
       for (const key of Object.keys(accounts)) {
-
         let water = accounts[key].water;
 
         if (Array.isArray(water)) {
           accounts[key].water = accounts[key].water.reduce((before, after) => {
-
             let waterlvl1 = "waterlvl1";
             let waterlvl2 = "waterlvl2";
             let waterlvl3 = "waterlvl3";
@@ -1662,6 +1660,67 @@ async function getOnlyUsers(axios) {
   });
 }
 
+async function getUserNft(ssc,axios, user) {
+  return new Promise(async (resolve, reject) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: { account: user },
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = {
+        seeds: [],
+        plots: [],
+        tokens : {}
+      };
+
+      for (let i = 0; i < nfts.length; i++) {
+        let nft = {
+          id: nfts[i]._id,
+          properties: nfts[i].properties,
+          owner: nfts[i].account,
+        };
+
+        if (nfts[i].properties.TYPE == "seed") {
+          onlyAcconts.seeds.push(nft);
+        }
+
+        if (nfts[i].properties.TYPE == "plot") {
+          onlyAcconts.plots.push(nft);
+        }
+      }
+
+      onlyAcconts.tokens =  await getTokens(ssc, user);
+
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
 async function getOnlyUsersHaveMota(axios) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -1787,13 +1846,13 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
     let seedsToSend = Math.ceil(parseFloat(userData[i].stake) / ratio);
     console.log(
       "username : " +
-      userData[i].user +
-      " have MOTA " +
-      userData[i].stake +
-      " STAKED ratio is " +
-      ratio +
-      " and user send " +
-      Math.ceil(parseFloat(userData[i].stake) / ratio)
+        userData[i].user +
+        " have MOTA " +
+        userData[i].stake +
+        " STAKED ratio is " +
+        ratio +
+        " and user send " +
+        Math.ceil(parseFloat(userData[i].stake) / ratio)
     );
 
     if (seedsToSend > 25) {
@@ -1827,13 +1886,13 @@ async function distributeMota(amountToDistribute, listOfUsers, hive) {
     let userGet = (ratio * listOfUsers[i].depositedBuds).toFixed(4);
     console.log(
       "username " +
-      listOfUsers[i].user +
-      " staked buds " +
-      listOfUsers[i].depositedBuds +
-      " and we distribute " +
-      amountToDistribute +
-      " this user get " +
-      userGet
+        listOfUsers[i].user +
+        " staked buds " +
+        listOfUsers[i].depositedBuds +
+        " and we distribute " +
+        amountToDistribute +
+        " this user get " +
+        userGet
     );
 
     await generateToken(hive, "MOTA", userGet, listOfUsers[i].user);
@@ -1929,4 +1988,5 @@ module.exports = contract = {
   distributeSeeds,
   subdividePlot,
   distributeWater,
+  getUserNft
 };

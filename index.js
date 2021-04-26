@@ -146,9 +146,26 @@ app.get('/u/:user', (req, res, next) => {
     try {
     let user = req.params.user
     res.setHeader('Content-Type', 'application/json');
+
     res.send(JSON.stringify(state.users[user], null, 3))
 } catch (error) {
-    
+   
+}
+});
+
+
+ app.get('/u/:usert', async (req, res, next) => {
+    try {
+    let user = req.params.user
+    res.setHeader('Content-Type', 'application/json');
+    let  { plots , seeds, tokens }  = await getUserNft(SSC,axios, user);
+    let test = Object.assign({},state.users[user]);
+    test.seeds  = seeds;
+    test.plots  = plots;
+    test.tokens  = tokens;
+    res.send(JSON.stringify(test, null, 3))
+} catch (error) {
+    console.log(error);
 }
 });
 
@@ -1607,6 +1624,7 @@ function startApp() {
             }
         }
     });
+
     processor.onStreamingStart(function() {
         console.log("At real time.")
     });
