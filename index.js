@@ -160,10 +160,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53355335; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53357660; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53355335;
+const ago = ENV.ago || 53357660;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1537,12 +1537,9 @@ function startApp() {
 
                                 const c = parseInt(amount)
                                 state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water1' && amount > (2.200 * 1000) - 300 &&  amount < (2.200 * 1000) + 300) {
+                            
+                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlants.lvl1.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlants.lvl1.price * 1000) + 300) {
                                 
-                               
-
-
                                 // create nft
                                 contract.createWaterTower(hivejs, "Water", json.from, 30)
 
