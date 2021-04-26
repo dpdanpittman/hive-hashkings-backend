@@ -166,6 +166,7 @@ app.get('/utest/:user', async (req, res, next) => {
     res.send(JSON.stringify(test, null, 3))
 } catch (error) {
     console.log(error);
+    if(!state.users[user]) {
     state.users[user] = {
         rentals: [],
         plots: [],
@@ -237,7 +238,7 @@ app.get('/utest/:user', async (req, res, next) => {
         motaStake: 0,
         boosters: []
     }
-}
+}}
 });
 
 
