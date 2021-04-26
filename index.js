@@ -157,6 +157,79 @@ app.get('/u/:user', (req, res, next) => {
 app.get('/utest/:user', async (req, res, next) => {
     try {
     let user = req.params.user
+    if(!state.users[user]) {
+        state.users[user] = {
+            rentals: [],
+            plots: [],
+            plotCount: 0,
+            seedCount: 0,
+            seeds: [],
+            hkwater: 0,
+            waterCount: 0,
+            waterPlants:{
+                lvl1: 0,
+                lvl2: 0,
+                lvl3: 0,
+                lvl4: 0,
+                lvl5: 0,
+                lvl7: 0,
+                lvl8: 0,
+                lvl9: 0,
+                lvl10: 0
+            },
+            waterTowers: {
+                lvl1: [],
+                lvl2: [],
+                lvl3: [],
+                lvl4: [],
+                lvl5: [],
+                lvl6: [],
+                lvl7: [],
+                lvl8: [],
+                lvl9: [],
+                lvl10: [],
+             },
+            timeBoosters: {
+                lvl1: 0,
+                lvl2: 0,
+                lvl3: 0,
+                lvl4: 0,
+                lvl5: 0,
+                lvl7: 0,
+                lvl8: 0,
+                lvl9: 0,
+                lvl10: 0
+            },
+            buds: 0,
+            dailyBudDeposit: 0,
+            tokens: {
+                buds: {
+                   balance: 0,
+                   stake: 0
+                },
+                mota: {
+                   balance: 0,
+                   stake: 0
+                },
+                hkwater: {
+                   balance: 0,
+                   stake: 0
+                }
+             },
+            claimed: {
+                water: false,
+                avatar: false,
+                bud: false
+             },
+            xp: 45,
+            lvl: 1,
+            role: 1,
+            joints: [],
+            mota: 0,
+            motaStake: 0,
+            boosters: []
+        }
+    }
     res.setHeader('Content-Type', 'application/json');
     let  { plots , seeds, tokens }  = await contract.getUserNft(ssc,axios, user);
     let test = Object.assign({},state.users[user]);
@@ -249,10 +322,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53372722; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53372955; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53372722;
+const ago = ENV.ago || 53372955;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
