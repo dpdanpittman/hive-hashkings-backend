@@ -882,7 +882,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -1226,7 +1226,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -1642,7 +1642,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -1772,7 +1772,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -1913,7 +1913,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -2414,7 +2414,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -2818,7 +2818,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -4676,7 +4676,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -4872,7 +4872,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -4975,7 +4975,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -5202,7 +5202,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -5426,7 +5426,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -6008,7 +6008,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -6666,7 +6666,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -7107,7 +7107,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -7259,7 +7259,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -7702,7 +7702,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -7922,7 +7922,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -8129,7 +8129,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -8252,7 +8252,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -8382,7 +8382,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -8630,7 +8630,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -8828,7 +8828,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -9097,7 +9097,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -9219,7 +9219,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -9452,7 +9452,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -9581,7 +9581,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -10069,7 +10069,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -10176,7 +10176,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -10322,7 +10322,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -10404,7 +10404,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -10561,7 +10561,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -10698,7 +10698,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -11048,7 +11048,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -11281,7 +11281,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -12772,7 +12772,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -12875,7 +12875,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -12978,7 +12978,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -13122,7 +13122,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -13225,7 +13225,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -13378,7 +13378,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -13600,7 +13600,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -13681,7 +13681,7 @@ module.exports = {
          "role": 1,
          "joints": [],
          "tokens": {},
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "boosters": []
       },
       "oblivioncubed": {
@@ -13752,7 +13752,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -13861,7 +13861,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -14704,7 +14704,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -14876,7 +14876,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -15213,7 +15213,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -15317,7 +15317,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -15382,7 +15382,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -15720,7 +15720,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -15827,7 +15827,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -15949,7 +15949,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -16071,7 +16071,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -16157,7 +16157,7 @@ module.exports = {
          "role": 1,
          "joints": [],
          "tokens": {},
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "boosters": []
       },
       "cesarg": {
@@ -16228,7 +16228,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -16331,7 +16331,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -16449,7 +16449,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -16767,7 +16767,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -16857,7 +16857,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -17074,7 +17074,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -17196,7 +17196,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -17356,7 +17356,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -17478,7 +17478,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -17804,7 +17804,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -17907,7 +17907,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -18341,7 +18341,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -18501,7 +18501,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -18796,7 +18796,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -18899,7 +18899,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -19046,7 +19046,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -19659,7 +19659,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -19763,7 +19763,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -20702,7 +20702,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -20843,7 +20843,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -20969,7 +20969,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -21055,7 +21055,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -21158,7 +21158,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -21319,7 +21319,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -21488,7 +21488,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -21618,7 +21618,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -22122,7 +22122,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -22249,7 +22249,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -22423,7 +22423,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -24930,7 +24930,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -25025,7 +25025,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -25510,7 +25510,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -25651,7 +25651,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -25764,7 +25764,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -25867,7 +25867,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -25979,7 +25979,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -26155,7 +26155,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -26236,7 +26236,7 @@ module.exports = {
          "role": 1,
          "joints": [],
          "tokens": {},
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "boosters": []
       },
       "nathanpieters": {
@@ -26316,7 +26316,7 @@ module.exports = {
                "stake": 0
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -26421,7 +26421,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -27005,7 +27005,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -27279,7 +27279,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -27696,7 +27696,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -28200,7 +28200,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -28384,7 +28384,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -28487,7 +28487,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -28855,7 +28855,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -28961,7 +28961,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -29126,7 +29126,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -29212,7 +29212,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -29662,7 +29662,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -29970,7 +29970,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -30075,7 +30075,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -30167,7 +30167,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -30318,7 +30318,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -30519,7 +30519,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -30995,7 +30995,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -31100,7 +31100,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -31244,7 +31244,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -31429,7 +31429,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -31984,7 +31984,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -32378,7 +32378,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -32483,7 +32483,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -32678,7 +32678,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -32783,7 +32783,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -32945,7 +32945,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -33069,7 +33069,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -33271,7 +33271,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -33450,7 +33450,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -33821,7 +33821,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -34485,7 +34485,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -34614,7 +34614,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -34833,7 +34833,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -34925,7 +34925,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -35030,7 +35030,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -35367,7 +35367,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -35872,7 +35872,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -36207,7 +36207,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -36350,7 +36350,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -36512,7 +36512,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -36636,7 +36636,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -36863,7 +36863,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -37112,7 +37112,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -37255,7 +37255,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -37360,7 +37360,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -37471,7 +37471,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -37580,7 +37580,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -37913,7 +37913,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -38248,7 +38248,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -38431,7 +38431,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -38536,7 +38536,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -38714,7 +38714,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -38933,7 +38933,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -39196,7 +39196,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -39396,7 +39396,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -39503,7 +39503,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -39874,7 +39874,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -39998,7 +39998,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -40103,7 +40103,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -40208,7 +40208,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -40372,7 +40372,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -40629,7 +40629,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -40829,7 +40829,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -41029,7 +41029,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -41149,7 +41149,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -41292,7 +41292,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -41380,7 +41380,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -41542,7 +41542,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -41666,7 +41666,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -41851,7 +41851,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -42184,7 +42184,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -42308,7 +42308,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -42467,7 +42467,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -42645,7 +42645,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -42777,7 +42777,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -42861,7 +42861,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -43099,7 +43099,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -43204,7 +43204,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -43359,7 +43359,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -43559,7 +43559,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -43702,7 +43702,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -43826,7 +43826,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -43950,7 +43950,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -44328,7 +44328,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -44494,7 +44494,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -44770,7 +44770,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -44974,7 +44974,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -45117,7 +45117,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -45492,7 +45492,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -45622,7 +45622,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -45727,7 +45727,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -45851,7 +45851,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -45975,7 +45975,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -46080,7 +46080,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -46264,7 +46264,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -46407,7 +46407,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -46531,7 +46531,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -46655,7 +46655,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -46788,7 +46788,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -46964,7 +46964,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -47118,7 +47118,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -47253,7 +47253,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -47377,7 +47377,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -47510,7 +47510,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -47778,7 +47778,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -47946,7 +47946,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -48102,7 +48102,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -48226,7 +48226,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -48350,7 +48350,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -48474,7 +48474,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -48590,7 +48590,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -48691,7 +48691,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -48895,7 +48895,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -49000,7 +49000,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -49088,7 +49088,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -49193,7 +49193,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -49642,7 +49642,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -49785,7 +49785,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -49961,7 +49961,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -50108,7 +50108,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -50293,7 +50293,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -50709,7 +50709,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -50833,7 +50833,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -51105,7 +51105,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -51248,7 +51248,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -51477,7 +51477,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -51601,7 +51601,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -51744,7 +51744,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -52045,7 +52045,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -52150,7 +52150,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -52312,7 +52312,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -52463,7 +52463,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -52587,7 +52587,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -52751,7 +52751,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -52936,7 +52936,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -53060,7 +53060,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -53148,7 +53148,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -53272,7 +53272,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -53417,7 +53417,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -54620,7 +54620,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -54786,7 +54786,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -54967,7 +54967,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -55260,7 +55260,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -55863,7 +55863,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -55947,7 +55947,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -56109,7 +56109,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -56556,7 +56556,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -57459,7 +57459,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -57564,7 +57564,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -57671,7 +57671,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -57848,7 +57848,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58026,7 +58026,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58154,7 +58154,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58309,7 +58309,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58433,7 +58433,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58542,7 +58542,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58647,7 +58647,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58752,7 +58752,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58840,7 +58840,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -58979,7 +58979,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -59149,7 +59149,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -59258,7 +59258,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -59515,7 +59515,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -59677,7 +59677,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -59786,7 +59786,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -59891,7 +59891,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -60090,7 +60090,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -60255,7 +60255,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -60379,7 +60379,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -60655,7 +60655,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -61425,7 +61425,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -61534,7 +61534,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -61622,7 +61622,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -61880,7 +61880,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -62048,7 +62048,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -62157,7 +62157,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -62241,7 +62241,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -62320,7 +62320,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -62485,7 +62485,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -62552,7 +62552,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -63505,7 +63505,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -63930,7 +63930,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -64201,7 +64201,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -64317,7 +64317,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -64500,7 +64500,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -64683,7 +64683,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -64866,7 +64866,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -65038,7 +65038,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -65254,7 +65254,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -65399,7 +65399,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -65478,7 +65478,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -65634,7 +65634,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -65812,7 +65812,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -65891,7 +65891,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -65970,7 +65970,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66049,7 +66049,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66128,7 +66128,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66218,7 +66218,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -66308,7 +66308,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66387,7 +66387,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66477,7 +66477,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66556,7 +66556,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66646,7 +66646,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66725,7 +66725,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -66804,7 +66804,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -66958,7 +66958,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -67037,7 +67037,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -67116,7 +67116,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -67206,7 +67206,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -67285,7 +67285,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -67450,7 +67450,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -67529,7 +67529,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -67689,7 +67689,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -67857,7 +67857,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -67981,7 +67981,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -68086,7 +68086,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -68191,7 +68191,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -68279,7 +68279,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -68461,7 +68461,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -68646,7 +68646,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -68907,7 +68907,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -69012,7 +69012,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -69117,7 +69117,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -69222,7 +69222,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -69376,7 +69376,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -69500,7 +69500,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -69927,7 +69927,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -70032,7 +70032,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -70141,7 +70141,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -70269,7 +70269,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -70446,7 +70446,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -70645,7 +70645,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -70826,7 +70826,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -71050,7 +71050,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -71138,7 +71138,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -71273,7 +71273,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -71378,7 +71378,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -71535,7 +71535,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -71678,7 +71678,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -71840,7 +71840,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -71984,7 +71984,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -72172,7 +72172,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -72316,7 +72316,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -72470,7 +72470,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -72662,7 +72662,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -72808,7 +72808,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -73123,7 +73123,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -73227,7 +73227,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -73410,7 +73410,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -73533,7 +73533,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -73892,7 +73892,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -74060,7 +74060,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -74169,7 +74169,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -74962,7 +74962,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -75085,7 +75085,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -75197,7 +75197,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -75330,7 +75330,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -75517,7 +75517,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -75626,7 +75626,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -75937,7 +75937,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -76166,7 +76166,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -76278,7 +76278,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -76480,7 +76480,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -76589,7 +76589,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -77983,7 +77983,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -78143,7 +78143,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -78252,7 +78252,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -78366,7 +78366,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -78458,7 +78458,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -78570,7 +78570,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -78771,7 +78771,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -78985,7 +78985,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -79145,7 +79145,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -79338,7 +79338,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -79469,7 +79469,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -79750,7 +79750,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -79885,7 +79885,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -79994,7 +79994,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -80104,7 +80104,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -80234,7 +80234,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": false,
             "avatar": false,
@@ -80347,7 +80347,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -80540,7 +80540,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -80649,7 +80649,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -80783,7 +80783,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -80892,7 +80892,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -81022,7 +81022,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -81263,7 +81263,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -81372,7 +81372,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -81475,7 +81475,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -81689,7 +81689,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -81897,7 +81897,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -82033,7 +82033,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -82184,7 +82184,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -82333,7 +82333,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -82419,7 +82419,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -82545,7 +82545,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -82763,7 +82763,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -82875,7 +82875,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -83032,7 +83032,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -83284,7 +83284,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "0",
@@ -83510,7 +83510,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -83619,7 +83619,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -83921,7 +83921,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -84046,7 +84046,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -84231,7 +84231,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -84310,7 +84310,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -84408,7 +84408,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -84514,7 +84514,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -84624,7 +84624,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -84730,7 +84730,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -84815,7 +84815,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -85012,7 +85012,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "0",
@@ -85117,7 +85117,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -85194,7 +85194,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -85381,7 +85381,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "0",
@@ -85487,7 +85487,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -85566,7 +85566,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -85654,7 +85654,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -85745,7 +85745,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -86156,7 +86156,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "413",
@@ -86373,7 +86373,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "0",
@@ -86457,7 +86457,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -86529,7 +86529,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -86677,7 +86677,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -86814,7 +86814,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -87049,7 +87049,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -87244,7 +87244,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -87403,7 +87403,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -87564,7 +87564,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -87857,7 +87857,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -88123,7 +88123,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -88246,7 +88246,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -88451,7 +88451,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -88579,7 +88579,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "0",
@@ -88680,7 +88680,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -88918,7 +88918,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -89007,7 +89007,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -89300,7 +89300,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -89395,7 +89395,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -89655,7 +89655,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -89789,7 +89789,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -89983,7 +89983,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -90100,7 +90100,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -90228,7 +90228,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -90389,7 +90389,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -90484,7 +90484,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -90601,7 +90601,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -90696,7 +90696,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -90879,7 +90879,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -90963,7 +90963,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91047,7 +91047,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91153,7 +91153,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91225,7 +91225,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91342,7 +91342,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91492,7 +91492,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91576,7 +91576,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91682,7 +91682,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91766,7 +91766,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91872,7 +91872,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91967,7 +91967,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -92068,7 +92068,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -92174,7 +92174,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -92275,7 +92275,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -92347,7 +92347,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -92492,7 +92492,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -92564,7 +92564,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -92660,7 +92660,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -92744,7 +92744,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -92856,7 +92856,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -92945,7 +92945,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -93017,7 +93017,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 1,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": 0,

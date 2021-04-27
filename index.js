@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53387734; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53396724; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53387734;
+const ago = ENV.ago || 53396724;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1611,7 +1611,7 @@ function startApp() {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                 type = json.memo.split(" ")[1] || ''
-            if (want == 'southamerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica != 0) {
+            if (want == 'southamerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica < 1) {
                                 
                 // subtracts 1 plot from total land supply
                 state.stats.supply.land.southAmerica--
@@ -1624,7 +1624,7 @@ function startApp() {
                 state.bal.c += c
             } 
 
-            if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {                
+            if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico < 0) {                
                 // subtracts 1 plot from total land supply
                 state.stats.supply.land.mexico--
                 state.stats.supply.land.mexicoC++
