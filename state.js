@@ -1,6 +1,6 @@
 module.exports = {
    "stats": {
-      "seedsUsedLastDay": 422,
+      "seedsUsedLastDay": 470,
       "seedCount": 1739,
       "time": 28000,
       "joints": {
@@ -57,65 +57,65 @@ module.exports = {
             "5": "Scientist Maggi"
          }
       },
-      "bu": "QmQ3hYmXkYowocizCLfFFkZjXYAeVZhQo4ohiviHN34aTm",
-      "bi": 53347301,
+      "bu": "QmXK1S5Hoq3pQWJhb5V3v2nYrrdnXabinMnSG1mwcttLnU",
+      "bi": 53406301,
       "prices": {
          "bundles": {
-            "asiaBundle": 73,
-            "africaBundle": 37,
-            "afghanistanBundle": 25,
-            "jamaicaBundle": 49,
-            "mexicoBundle": 19,
-            "southAmericaBundle": 13
+            "asiaBundle": 44,
+            "africaBundle": 22,
+            "afghanistanBundle": 15,
+            "jamaicaBundle": 30,
+            "mexicoBundle": 11,
+            "southAmericaBundle": 8
          },
          "waterPlants": {
             "lvl1": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 30,
                "token": 1000
             },
             "lvl2": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 96,
                "token": 1000
             },
             "lvl3": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 166,
                "token": 1000
             },
             "lvl4": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 234,
                "token": 1000
             },
             "lvl5": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 302,
                "token": 1000
             },
             "lvl6": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 370,
                "token": 1000
             },
             "lvl7": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 438,
                "token": 1000
             },
             "lvl8": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 506,
                "token": 1000
             },
             "lvl9": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 574,
                "token": 1000
             },
             "lvl10": {
-               "price": "2.410",
+               "price": "1.455",
                "water": 642,
                "token": 1000
             }
@@ -168,35 +168,35 @@ module.exports = {
          },
          "land": {
             "asia": {
-               "price": 109,
-               "token": 1090
+               "price": 66,
+               "token": 660
             },
             "africa": {
-               "price": 55,
-               "token": 550
+               "price": 33,
+               "token": 330
             },
             "afghanistan": {
-               "price": 37,
-               "token": 370
+               "price": 22,
+               "token": 220
             },
             "southAmerica": {
-               "price": 19,
-               "token": 190
+               "price": 11,
+               "token": 110
             },
             "jamaica": {
-               "price": 73,
-               "token": 730
+               "price": 44,
+               "token": 440
             },
             "mexico": {
-               "price": 28,
-               "token": 280
+               "price": 17,
+               "token": 170
             }
          }
       },
       "supply": {
-         "totalPlots": 2589,
-         "totalPlotsC": 427,
-         "totalSeeds": 2567,
+         "totalPlots": 2931,
+         "totalPlotsC": 85,
+         "totalSeeds": 2568,
          "totalWaterTowers": 0,
          "totalWaterTowersC": 16720,
          "land": {
@@ -206,16 +206,17 @@ module.exports = {
             "africaC": 300,
             "afghanistan": 0,
             "afghanistanC": 500,
-            "southAmerica": 285,
-            "southAmericaC": 1015,
+            "southAmerica": 79,
+            "southAmericaC": 1221,
             "jamaica": 0,
             "jamaicaC": 116,
-            "mexico": 133,
-            "mexicoC": 617
+            "mexico": -4,
+            "mexicoC": 754
          }
       },
-      "farmers": 453,
+      "farmers": 504,
       "farmerList": [
+         "nftmart.cards",
          "qwoyn",
          "abrockman",
          "foxon",
@@ -223,6 +224,7 @@ module.exports = {
          "abztraxxx",
          "aries02",
          "audiomancer",
+         "dcalsot",
          "bigkidstuff",
          "boyobevan",
          "cireth",
@@ -264,7 +266,6 @@ module.exports = {
          "quefe",
          "alfa16",
          "toxicmen01",
-         "nftmart.cards",
          "xbladex",
          "supremdsm",
          "pepeymeli",
@@ -352,7 +353,7 @@ module.exports = {
          "malonn",
          "swashcoldsteel",
          "uganzadranje",
-         "danteskgg",
+         "pleo1542",
          "nathanpieters",
          "willsaldeno",
          "hosherama",
@@ -372,6 +373,7 @@ module.exports = {
          "drugwar",
          "caprisk",
          "rahul.stan",
+         "elfran919",
          "cryptixmlonwax",
          "chubb149",
          "tremou922",
@@ -494,6 +496,7 @@ module.exports = {
          "sirbogavante",
          "asas96",
          "foxon.dlux",
+         "charzx",
          "procash1",
          "davidtradefx",
          "oldmans",
@@ -587,11 +590,9 @@ module.exports = {
          "luiios",
          "saachi",
          "earthboy75",
-         "charzx",
          "kiritoccs",
          "sgerhart",
          "williameduardord",
-         "elfran919",
          "quijay",
          "jesusalejos",
          "artiic97",
@@ -619,10 +620,10 @@ module.exports = {
          "axelcj123",
          "caina420",
          "maximosantana",
+         "yurupary",
          "infernalcoliseum",
          "pippex",
          "imtheovermind",
-         "dcalsot",
          "hk-vault",
          "chocolatoso",
          "undefined",
@@ -648,6 +649,7 @@ module.exports = {
          "burburraca1824",
          "strife11",
          "alvarogonz",
+         "thheyisus0",
          "peluka",
          "deliuz17",
          "grusher",
@@ -658,17 +660,66 @@ module.exports = {
          "jorgetato",
          "tiopaco10",
          "powernabo",
+         "fernandoguerre95",
+         "danteskgg",
          "butithekiing1",
+         "kuramac28",
          "momoga",
          "danipk93",
          "yumitrix08",
          "strife",
+         "jasondruid",
          "picucho",
          "prats",
          "gonzza",
          "alexpeiro",
          "carolinacardoza",
-         "dgtaldreamer"
+         "dgtaldreamer",
+         "on3x",
+         "xxxdragonpoolxxx",
+         "cesosx",
+         "escodelario",
+         "phantrax",
+         "ganjafarmer",
+         "sasalius",
+         "dylan333",
+         "ink19",
+         "intensevicius",
+         "brickbybrick",
+         "jwaits",
+         "draynok2",
+         "jdans01cs",
+         "carmonayole",
+         "liz.latin",
+         "rodoman",
+         "perritox777",
+         "luisem1986",
+         "esnopyy",
+         "adm.saku",
+         "emms1",
+         "zorrocyber",
+         "doffot",
+         "nftmarket",
+         "arkanizz",
+         "patitofeokua",
+         "fraktal2393",
+         "sebk1ng1997",
+         "pablom1109",
+         "notafacil",
+         "rhinta11",
+         "nicotinho04",
+         "patty2021",
+         "muntara",
+         "liry",
+         "xxxzamaelxxx",
+         "dufur",
+         "amblors",
+         "arukanto",
+         "agricultor86",
+         "ibiok",
+         "rafifernandez",
+         "lezarth",
+         "pintomas"
       ]
    },
    "bal": {
@@ -683,17 +734,6 @@ module.exports = {
          "subdivisions": [],
          "plots": [
             {
-               "id": 2,
-               "properties": {
-                  "NAME": "Asia",
-                  "TYPE": "plot",
-                  "OCCUPIED": true,
-                  "PLOTID": 2,
-                  "SEEDID": 1
-               },
-               "owner": "qwoyn"
-            },
-            {
                "id": 515,
                "properties": {
                   "NAME": "South America",
@@ -705,7 +745,9 @@ module.exports = {
                "id": 3598,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3597
                },
                "owner": "qwoyn"
             },
@@ -713,7 +755,9 @@ module.exports = {
                "id": 3604,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3603
                },
                "owner": "qwoyn"
             },
@@ -721,7 +765,9 @@ module.exports = {
                "id": 3607,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3606
                },
                "owner": "qwoyn"
             },
@@ -731,29 +777,27 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6933
+               },
+               "owner": "qwoyn"
+            },
+            {
+               "id": 11393,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
                },
                "owner": "qwoyn"
             }
          ],
          "farm": [],
          "plotCount": 6,
-         "seedCount": 8,
+         "seedCount": 7,
          "seeds": [
-            {
-               "id": 1,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Thai",
-                  "SPT": 2,
-                  "WATER": 235,
-                  "PR": 7407,
-                  "SEEDID": 1,
-                  "PLANTED": true,
-                  "PLOTID": 2
-               },
-               "owner": "qwoyn"
-            },
             {
                "id": 514,
                "properties": {
@@ -782,8 +826,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2405
+                  "WATER": 0,
+                  "PR": 2405,
+                  "PLANTED": true,
+                  "PLOTID": 3598
                },
                "owner": "qwoyn"
             },
@@ -804,8 +850,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 403
+                  "WATER": 0,
+                  "PR": 403,
+                  "PLANTED": true,
+                  "PLOTID": 3604
                },
                "owner": "qwoyn"
             },
@@ -815,8 +863,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 689
+                  "WATER": 0,
+                  "PR": 689,
+                  "PLANTED": true,
+                  "PLOTID": 3607
                },
                "owner": "qwoyn"
             },
@@ -826,15 +876,17 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 772
+                  "WATER": 0,
+                  "PR": 772,
+                  "PLANTED": true,
+                  "PLOTID": 6934
                },
                "owner": "qwoyn"
             }
          ],
-         "hkwater": 330,
+         "hkwater": 360,
          "waterPlants": {
-            "lvl1": 11,
+            "lvl1": 12,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -1053,7 +1105,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai",
                   "SPT": 2,
-                  "WATER": 235,
+                  "WATER": 0,
                   "PR": 7416,
                   "PLOTID": 458,
                   "PLANTED": true
@@ -1066,7 +1118,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 718,
                   "PLANTED": true,
                   "PLOTID": 470
@@ -1079,7 +1131,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 474,
                   "PLANTED": true,
                   "PLOTID": 485
@@ -1092,7 +1144,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2470,
                   "PLANTED": true,
                   "PLOTID": 2932
@@ -1105,7 +1157,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 119,
                   "PLOTID": 2935,
                   "PLANTED": true
@@ -1144,7 +1196,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 162,
                   "PLOTID": 2944,
                   "PLANTED": true
@@ -1157,9 +1209,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 528,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 2947
                },
                "owner": "r0um3n1987"
             },
@@ -1169,7 +1222,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 507,
                   "PLANTED": true,
                   "PLOTID": 2950
@@ -1280,7 +1333,8 @@ module.exports = {
                "properties": {
                   "NAME": "Asia",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 106
                },
                "owner": "boyobevan"
             },
@@ -1300,7 +1354,7 @@ module.exports = {
                   "NAME": "Asia",
                   "TYPE": "plot",
                   "OCCUPIED": true,
-                  "SEEDID": 100
+                  "SEEDID": 112
                },
                "owner": "boyobevan"
             },
@@ -1328,7 +1382,9 @@ module.exports = {
                "id": 119,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 118
                },
                "owner": "boyobevan"
             },
@@ -1336,7 +1392,9 @@ module.exports = {
                "id": 122,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 121
                },
                "owner": "boyobevan"
             },
@@ -1394,7 +1452,9 @@ module.exports = {
                "id": 140,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 136
                },
                "owner": "boyobevan"
             }
@@ -1422,7 +1482,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai",
                   "SPT": 2,
-                  "WATER": 235,
+                  "WATER": 0,
                   "PR": 7574,
                   "PLANTED": true,
                   "PLOTID": 113
@@ -1435,7 +1495,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7232,
                   "PLOTID": 101,
                   "PLANTED": true
@@ -1461,7 +1521,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7212,
                   "PLANTED": true,
                   "PLOTID": 107
@@ -1487,7 +1547,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7141,
                   "PLOTID": 116,
                   "PLANTED": true
@@ -1501,7 +1561,9 @@ module.exports = {
                   "NAME": "King’s Bread",
                   "SPT": 3,
                   "WATER": 205,
-                  "PR": 6262
+                  "PR": 6262,
+                  "PLANTED": true,
+                  "PLOTID": 119
                },
                "owner": "boyobevan"
             },
@@ -1512,7 +1574,9 @@ module.exports = {
                   "NAME": "King’s Bread",
                   "SPT": 3,
                   "WATER": 205,
-                  "PR": 6354
+                  "PR": 6354,
+                  "PLANTED": true,
+                  "PLOTID": 122
                },
                "owner": "boyobevan"
             },
@@ -1522,7 +1586,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2355,
                   "PLANTED": true,
                   "PLOTID": 125
@@ -1561,7 +1625,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 475,
                   "PLANTED": true,
                   "PLOTID": 134
@@ -1574,8 +1638,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 175
+                  "WATER": 0,
+                  "PR": 175,
+                  "PLANTED": true,
+                  "PLOTID": 140
                },
                "owner": "boyobevan"
             },
@@ -1585,7 +1651,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 201,
                   "PLANTED": true,
                   "PLOTID": 137
@@ -1715,7 +1781,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 271,
                   "PLANTED": true,
                   "PLOTID": 626
@@ -1969,7 +2035,9 @@ module.exports = {
                "id": 71,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2601
                },
                "owner": "audiomancer"
             },
@@ -1985,7 +2053,9 @@ module.exports = {
                "id": 77,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 76
                },
                "owner": "audiomancer"
             },
@@ -2116,7 +2186,7 @@ module.exports = {
          ],
          "farm": [],
          "plotCount": 22,
-         "seedCount": 22,
+         "seedCount": 14,
          "seeds": [
             {
                "id": 55,
@@ -2137,17 +2207,6 @@ module.exports = {
                   "SPT": 2,
                   "WATER": 235,
                   "PR": 7381
-               },
-               "owner": "audiomancer"
-            },
-            {
-               "id": 61,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Thai Chocolate",
-                  "SPT": 2,
-                  "WATER": 230,
-                  "PR": 7189
                },
                "owner": "audiomancer"
             },
@@ -2201,8 +2260,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 758
+                  "WATER": 0,
+                  "PR": 758,
+                  "PLANTED": true,
+                  "PLOTID": 77
                },
                "owner": "audiomancer"
             },
@@ -2251,61 +2312,6 @@ module.exports = {
                "owner": "audiomancer"
             },
             {
-               "id": 91,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
-                  "PR": 212
-               },
-               "owner": "audiomancer"
-            },
-            {
-               "id": 1604,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Lamb’s Bread",
-                  "SPT": 2,
-                  "WATER": 215,
-                  "PR": 6252
-               },
-               "owner": "audiomancer"
-            },
-            {
-               "id": 2601,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Malawi",
-                  "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2245
-               },
-               "owner": "audiomancer"
-            },
-            {
-               "id": 2604,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Mazar I Sharif",
-                  "SPT": 6,
-                  "WATER": 33,
-                  "PR": 738
-               },
-               "owner": "audiomancer"
-            },
-            {
-               "id": 2607,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Acapulco Gold",
-                  "SPT": 6,
-                  "WATER": 23,
-                  "PR": 356
-               },
-               "owner": "audiomancer"
-            },
-            {
                "id": 2610,
                "properties": {
                   "TYPE": "seed",
@@ -2317,34 +2323,12 @@ module.exports = {
                "owner": "audiomancer"
             },
             {
-               "id": 7056,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Acapulco Gold",
-                  "SPT": 6,
-                  "WATER": 23,
-                  "PR": 448
-               },
-               "owner": "audiomancer"
-            },
-            {
-               "id": 7062,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Colombian Gold",
-                  "SPT": 7,
-                  "WATER": 10,
-                  "PR": 301
-               },
-               "owner": "audiomancer"
-            },
-            {
                "id": 7065,
                "properties": {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 448,
                   "PLOTID": 83,
                   "PLANTED": true
@@ -2365,9 +2349,9 @@ module.exports = {
                "owner": "audiomancer"
             }
          ],
-         "hkwater": 840,
+         "hkwater": 900,
          "waterPlants": {
-            "lvl1": 28,
+            "lvl1": 30,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -2606,7 +2590,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7110,
                   "PLOTID": 416,
                   "PLANTED": true
@@ -2619,7 +2603,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 6392,
                   "PLANTED": true,
                   "PLOTID": 419
@@ -2645,7 +2629,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2199,
                   "PLANTED": true,
                   "PLOTID": 425
@@ -2699,7 +2683,8 @@ module.exports = {
                   "SPT": 6,
                   "WATER": 23,
                   "PR": 415,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 434
                },
                "owner": "cryptounicorn420"
             },
@@ -2872,7 +2857,8 @@ module.exports = {
                "properties": {
                   "NAME": "Asia",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 208
                },
                "owner": "dolp"
             },
@@ -2881,7 +2867,8 @@ module.exports = {
                "properties": {
                   "NAME": "Asia",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 199
                },
                "owner": "dolp"
             },
@@ -2909,7 +2896,9 @@ module.exports = {
                "id": 212,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 211
                },
                "owner": "dolp"
             },
@@ -3117,7 +3106,9 @@ module.exports = {
                "id": 963,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 962
                },
                "owner": "dolp"
             },
@@ -3135,7 +3126,9 @@ module.exports = {
                "id": 1635,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1634
                },
                "owner": "dolp"
             },
@@ -3163,7 +3156,9 @@ module.exports = {
                "id": 1644,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 220
                },
                "owner": "dolp"
             },
@@ -3211,7 +3206,9 @@ module.exports = {
                "id": 1996,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 226
                },
                "owner": "dolp"
             },
@@ -3219,7 +3216,9 @@ module.exports = {
                "id": 1999,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 229
                },
                "owner": "dolp"
             },
@@ -3227,7 +3226,9 @@ module.exports = {
                "id": 2002,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 733
                },
                "owner": "dolp"
             },
@@ -3235,7 +3236,9 @@ module.exports = {
                "id": 2005,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 223
                },
                "owner": "dolp"
             },
@@ -3243,7 +3246,9 @@ module.exports = {
                "id": 2008,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1995
                },
                "owner": "dolp"
             },
@@ -3291,7 +3296,9 @@ module.exports = {
                "id": 2023,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2055
                },
                "owner": "dolp"
             },
@@ -3299,7 +3306,9 @@ module.exports = {
                "id": 2026,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2004
                },
                "owner": "dolp"
             },
@@ -3307,7 +3316,9 @@ module.exports = {
                "id": 2029,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2001
                },
                "owner": "dolp"
             },
@@ -3315,7 +3326,9 @@ module.exports = {
                "id": 2032,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2025
                },
                "owner": "dolp"
             },
@@ -3323,7 +3336,9 @@ module.exports = {
                "id": 2035,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2031
                },
                "owner": "dolp"
             },
@@ -3381,7 +3396,9 @@ module.exports = {
                "id": 2053,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2028
                },
                "owner": "dolp"
             },
@@ -3389,7 +3406,9 @@ module.exports = {
                "id": 2056,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2082
                },
                "owner": "dolp"
             },
@@ -3397,7 +3416,9 @@ module.exports = {
                "id": 2059,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2085
                },
                "owner": "dolp"
             },
@@ -3421,7 +3442,9 @@ module.exports = {
                "id": 2086,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2052
                },
                "owner": "dolp"
             },
@@ -3429,7 +3452,9 @@ module.exports = {
                "id": 2089,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2079
                },
                "owner": "dolp"
             },
@@ -3563,7 +3588,9 @@ module.exports = {
                "id": 3148,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1637
                },
                "owner": "dolp"
             },
@@ -3628,7 +3655,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7026,
                   "PLOTID": 197,
                   "PLANTED": true
@@ -3641,7 +3668,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7270,
                   "PLOTID": 209,
                   "PLANTED": true
@@ -3654,7 +3681,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7134,
                   "PLOTID": 203,
                   "PLANTED": true
@@ -3667,7 +3694,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai",
                   "SPT": 2,
-                  "WATER": 235,
+                  "WATER": 0,
                   "PR": 7534,
                   "PLOTID": 206,
                   "PLANTED": true
@@ -3680,7 +3707,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Aceh",
                   "SPT": 1,
-                  "WATER": 235,
+                  "WATER": 0,
                   "PR": 7611,
                   "PLANTED": true,
                   "PLOTID": 194
@@ -3693,8 +3720,9 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
-                  "PR": 7088
+                  "WATER": 0,
+                  "PR": 7088,
+                  "PLOTID": 200
                },
                "owner": "dolp"
             },
@@ -3704,8 +3732,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
-                  "PR": 5889
+                  "WATER": 0,
+                  "PR": 5889,
+                  "PLANTED": true,
+                  "PLOTID": 212
                },
                "owner": "dolp"
             },
@@ -3742,7 +3772,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 306
+                  "PR": 306,
+                  "PLANTED": true,
+                  "PLOTID": 1644
                },
                "owner": "dolp"
             },
@@ -3753,7 +3785,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 310
+                  "PR": 310,
+                  "PLANTED": true,
+                  "PLOTID": 2005
                },
                "owner": "dolp"
             },
@@ -3764,7 +3798,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 188
+                  "PR": 188,
+                  "PLANTED": true,
+                  "PLOTID": 1996
                },
                "owner": "dolp"
             },
@@ -3775,7 +3811,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 249
+                  "PR": 249,
+                  "PLANTED": true,
+                  "PLOTID": 1999
                },
                "owner": "dolp"
             },
@@ -3785,7 +3823,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2217,
                   "PLANTED": true,
                   "PLOTID": 647
@@ -3798,7 +3836,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3557,
                   "PLOTID": 719,
                   "PLANTED": true
@@ -3811,7 +3849,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 807,
                   "PLANTED": true,
                   "PLOTID": 653
@@ -3876,7 +3914,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2334,
                   "PLOTID": 650,
                   "PLANTED": true
@@ -3889,7 +3927,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2242,
                   "PLANTED": true,
                   "PLOTID": 722
@@ -3942,7 +3980,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 231
+                  "PR": 231,
+                  "PLANTED": true,
+                  "PLOTID": 2002
                },
                "owner": "dolp"
             },
@@ -3963,8 +4003,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
-                  "PR": 5952
+                  "WATER": 0,
+                  "PR": 5952,
+                  "PLANTED": true,
+                  "PLOTID": 963
                },
                "owner": "dolp"
             },
@@ -3987,8 +4029,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
-                  "WATER": 215,
-                  "PR": 6931
+                  "WATER": 0,
+                  "PR": 6931,
+                  "PLANTED": true,
+                  "PLOTID": 1635
                },
                "owner": "dolp"
             },
@@ -3998,8 +4042,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Durban Poison",
                   "SPT": 4,
-                  "WATER": 104,
-                  "PR": 2779
+                  "WATER": 0,
+                  "PR": 2779,
+                  "PLANTED": true,
+                  "PLOTID": 3148
                },
                "owner": "dolp"
             },
@@ -4009,7 +4055,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2345,
                   "PLOTID": 1638,
                   "PLANTED": true
@@ -4086,7 +4132,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 82
+                  "PR": 82,
+                  "PLANTED": true,
+                  "PLOTID": 2008
                },
                "owner": "dolp"
             },
@@ -4097,7 +4145,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 289
+                  "PR": 289,
+                  "PLANTED": true,
+                  "PLOTID": 2032
                },
                "owner": "dolp"
             },
@@ -4108,7 +4158,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 42
+                  "PR": 42,
+                  "PLANTED": true,
+                  "PLOTID": 2029
                },
                "owner": "dolp"
             },
@@ -4119,7 +4171,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 324
+                  "PR": 324,
+                  "PLANTED": true,
+                  "PLOTID": 2026
                },
                "owner": "dolp"
             },
@@ -4179,7 +4233,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 835,
                   "PLOTID": 2020,
                   "PLANTED": true
@@ -4206,7 +4260,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 285
+                  "PR": 285,
+                  "PLANTED": true,
+                  "PLOTID": 2032
                },
                "owner": "dolp"
             },
@@ -4217,7 +4273,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 67
+                  "PR": 67,
+                  "PLANTED": true,
+                  "PLOTID": 2053
                },
                "owner": "dolp"
             },
@@ -4228,7 +4286,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 173
+                  "PR": 173,
+                  "PLANTED": true,
+                  "PLOTID": 2035
                },
                "owner": "dolp"
             },
@@ -4317,7 +4377,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 89
+                  "PR": 89,
+                  "PLANTED": true,
+                  "PLOTID": 2086
                },
                "owner": "dolp"
             },
@@ -4328,7 +4390,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 234
+                  "PR": 234,
+                  "PLANTED": true,
+                  "PLOTID": 2023
                },
                "owner": "dolp"
             },
@@ -4352,7 +4416,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 276
+                  "PR": 276,
+                  "PLANTED": true,
+                  "PLOTID": 2089
                },
                "owner": "dolp"
             },
@@ -4363,7 +4429,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 302
+                  "PR": 302,
+                  "PLANTED": true,
+                  "PLOTID": 2056
                },
                "owner": "dolp"
             },
@@ -4374,7 +4442,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 204
+                  "PR": 204,
+                  "PLANTED": true,
+                  "PLOTID": 2059
                },
                "owner": "dolp"
             },
@@ -4517,7 +4587,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3676,
                   "PLOTID": 3160,
                   "PLANTED": true
@@ -4530,7 +4600,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3755,
                   "PLOTID": 3136,
                   "PLANTED": true
@@ -4543,7 +4613,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3775,
                   "PLOTID": 3154,
                   "PLANTED": true
@@ -4556,7 +4626,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2423,
                   "PLANTED": true,
                   "PLOTID": 1641
@@ -4569,7 +4639,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2487,
                   "PLOTID": 3142,
                   "PLANTED": true
@@ -4582,7 +4652,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2437,
                   "PLANTED": true,
                   "PLOTID": 3151
@@ -4595,7 +4665,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2329,
                   "PLANTED": true,
                   "PLOTID": 3145
@@ -4619,7 +4689,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2399,
                   "PLANTED": true,
                   "PLOTID": 3163
@@ -4739,7 +4809,9 @@ module.exports = {
                "id": 461,
                "properties": {
                   "NAME": "Asia",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 460
                },
                "owner": "xplora4253"
             },
@@ -4778,7 +4850,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 239,
                   "PLANTED": true,
                   "PLOTID": 407
@@ -4791,7 +4863,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 235,
                   "PLANTED": true,
                   "PLOTID": 410
@@ -4805,7 +4877,9 @@ module.exports = {
                   "NAME": "Thai",
                   "SPT": 2,
                   "WATER": 235,
-                  "PR": 7383
+                  "PR": 7383,
+                  "PLOTID": 461,
+                  "PLANTED": true
                },
                "owner": "xplora4253"
             },
@@ -4815,7 +4889,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 200,
                   "PLANTED": true,
                   "PLOTID": 6688
@@ -5319,7 +5393,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 911,
                   "PLANTED": true,
                   "PLOTID": 4267
@@ -5332,7 +5406,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 759,
                   "PLANTED": true,
                   "PLOTID": 5797
@@ -5356,7 +5430,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 549,
                   "PLANTED": true,
                   "PLOTID": 5803
@@ -5369,7 +5443,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 182,
                   "PLANTED": true,
                   "PLOTID": 5806
@@ -5469,7 +5543,9 @@ module.exports = {
                "id": 26,
                "properties": {
                   "NAME": "Asia",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 25
                },
                "owner": "foxon"
             },
@@ -5477,7 +5553,9 @@ module.exports = {
                "id": 32,
                "properties": {
                   "NAME": "Asia",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 31
                },
                "owner": "foxon"
             },
@@ -5485,7 +5563,9 @@ module.exports = {
                "id": 35,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 34
                },
                "owner": "foxon"
             },
@@ -5493,7 +5573,9 @@ module.exports = {
                "id": 38,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 37
                },
                "owner": "foxon"
             },
@@ -5502,7 +5584,8 @@ module.exports = {
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 550
                },
                "owner": "foxon"
             },
@@ -5520,7 +5603,9 @@ module.exports = {
                "id": 560,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 559
                },
                "owner": "foxon"
             },
@@ -5528,7 +5613,9 @@ module.exports = {
                "id": 563,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1551
                },
                "owner": "foxon"
             },
@@ -5536,7 +5623,9 @@ module.exports = {
                "id": 566,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 565
                },
                "owner": "foxon"
             },
@@ -5554,7 +5643,9 @@ module.exports = {
                "id": 2566,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 568
                },
                "owner": "foxon"
             },
@@ -5562,7 +5653,9 @@ module.exports = {
                "id": 2569,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1553
                },
                "owner": "foxon"
             },
@@ -5570,7 +5663,9 @@ module.exports = {
                "id": 2572,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4035
                },
                "owner": "foxon"
             },
@@ -5578,7 +5673,9 @@ module.exports = {
                "id": 2575,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2574
                },
                "owner": "foxon"
             },
@@ -5586,7 +5683,9 @@ module.exports = {
                "id": 4030,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5256
                },
                "owner": "foxon"
             },
@@ -5594,7 +5693,9 @@ module.exports = {
                "id": 4033,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2568
                },
                "owner": "foxon"
             },
@@ -5602,7 +5703,9 @@ module.exports = {
                "id": 4036,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2571
                },
                "owner": "foxon"
             },
@@ -5610,7 +5713,9 @@ module.exports = {
                "id": 4039,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4029
                },
                "owner": "foxon"
             },
@@ -5618,7 +5723,9 @@ module.exports = {
                "id": 4042,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4032
                },
                "owner": "foxon"
             },
@@ -5626,7 +5733,9 @@ module.exports = {
                "id": 4045,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4044
                },
                "owner": "foxon"
             },
@@ -5636,7 +5745,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5259
                },
                "owner": "foxon"
             },
@@ -5646,7 +5756,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6354
                },
                "owner": "foxon"
             },
@@ -5656,14 +5767,15 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6399
                },
                "owner": "foxon"
             }
          ],
          "farm": [],
          "plotCount": 24,
-         "seedCount": 26,
+         "seedCount": 25,
          "seeds": [
             {
                "id": 22,
@@ -5671,7 +5783,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7025,
                   "PLANTED": true,
                   "PLOTID": 23
@@ -5684,8 +5796,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
-                  "PR": 7296
+                  "WATER": 0,
+                  "PR": 7296,
+                  "PLANTED": true,
+                  "PLOTID": 26
                },
                "owner": "foxon"
             },
@@ -5695,8 +5809,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
-                  "PR": 7028
+                  "WATER": 0,
+                  "PR": 7028,
+                  "PLANTED": true,
+                  "PLOTID": 32
                },
                "owner": "foxon"
             },
@@ -5706,8 +5822,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
-                  "PR": 5856
+                  "WATER": 0,
+                  "PR": 5856,
+                  "PLANTED": true,
+                  "PLOTID": 35
                },
                "owner": "foxon"
             },
@@ -5717,8 +5835,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3560
+                  "WATER": 0,
+                  "PR": 3560,
+                  "PLANTED": true,
+                  "PLOTID": 38
                },
                "owner": "foxon"
             },
@@ -5728,9 +5848,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 52,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 551
                },
                "owner": "foxon"
             },
@@ -5740,8 +5861,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 794
+                  "WATER": 0,
+                  "PR": 794,
+                  "PLANTED": true,
+                  "PLOTID": 560
                },
                "owner": "foxon"
             },
@@ -5751,7 +5874,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 529,
                   "PLOTID": 557,
                   "PLANTED": true
@@ -5764,8 +5887,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 845
+                  "WATER": 0,
+                  "PR": 845,
+                  "PLANTED": true,
+                  "PLOTID": 566
                },
                "owner": "foxon"
             },
@@ -5775,8 +5900,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 255
+                  "WATER": 0,
+                  "PR": 255,
+                  "PLANTED": true,
+                  "PLOTID": 2566
                },
                "owner": "foxon"
             },
@@ -5786,8 +5913,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 589
+                  "WATER": 0,
+                  "PR": 589,
+                  "PLANTED": true,
+                  "PLOTID": 563
                },
                "owner": "foxon"
             },
@@ -5797,8 +5926,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 524
+                  "WATER": 0,
+                  "PR": 524,
+                  "PLANTED": true,
+                  "PLOTID": 2569
                },
                "owner": "foxon"
             },
@@ -5819,7 +5950,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 258,
                   "PLANTED": true,
                   "PLOTID": 569
@@ -5832,8 +5963,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 594
+                  "WATER": 0,
+                  "PR": 594,
+                  "PLANTED": true,
+                  "PLOTID": 4033
                },
                "owner": "foxon"
             },
@@ -5843,8 +5976,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 663
+                  "WATER": 0,
+                  "PR": 663,
+                  "PLANTED": true,
+                  "PLOTID": 4036
                },
                "owner": "foxon"
             },
@@ -5854,8 +5989,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3506
+                  "WATER": 0,
+                  "PR": 3506,
+                  "PLANTED": true,
+                  "PLOTID": 2575
                },
                "owner": "foxon"
             },
@@ -5865,8 +6002,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 275
+                  "WATER": 0,
+                  "PR": 275,
+                  "PLANTED": true,
+                  "PLOTID": 4039
                },
                "owner": "foxon"
             },
@@ -5876,8 +6015,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 491
+                  "WATER": 0,
+                  "PR": 491,
+                  "PLANTED": true,
+                  "PLOTID": 4042
                },
                "owner": "foxon"
             },
@@ -5887,19 +6028,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1735
-               },
-               "owner": "foxon"
-            },
-            {
-               "id": 4041,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Acapulco Gold",
-                  "SPT": 6,
-                  "WATER": 23,
-                  "PR": 428
+                  "WATER": 0,
+                  "PR": 1735,
+                  "PLANTED": true,
+                  "PLOTID": 2572
                },
                "owner": "foxon"
             },
@@ -5909,8 +6041,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 692
+                  "WATER": 0,
+                  "PR": 692,
+                  "PLANTED": true,
+                  "PLOTID": 4045
                },
                "owner": "foxon"
             },
@@ -5920,8 +6054,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 161
+                  "WATER": 0,
+                  "PR": 161,
+                  "PLANTED": true,
+                  "PLOTID": 4030
                },
                "owner": "foxon"
             },
@@ -5931,8 +6067,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 299
+                  "WATER": 0,
+                  "PR": 299,
+                  "PLANTED": true,
+                  "PLOTID": 5257
                },
                "owner": "foxon"
             },
@@ -5942,8 +6080,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 329
+                  "WATER": 0,
+                  "PR": 329,
+                  "PLANTED": true,
+                  "PLOTID": 5260
                },
                "owner": "foxon"
             },
@@ -5953,15 +6093,17 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 807
+                  "WATER": 0,
+                  "PR": 807,
+                  "PLANTED": true,
+                  "PLOTID": 6400
                },
                "owner": "foxon"
             }
          ],
-         "hkwater": 720,
+         "hkwater": 2190,
          "waterPlants": {
-            "lvl1": 24,
+            "lvl1": 73,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -6134,7 +6276,9 @@ module.exports = {
                "id": 2578,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 10756,
+                  "OCCUPIED": true
                },
                "owner": "meanbees"
             },
@@ -6210,7 +6354,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 1658
                },
                "owner": "meanbees"
             },
@@ -6220,7 +6365,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5619
                },
                "owner": "meanbees"
             },
@@ -6282,7 +6428,7 @@ module.exports = {
          ],
          "farm": [],
          "plotCount": 24,
-         "seedCount": 26,
+         "seedCount": 27,
          "seeds": [
             {
                "id": 379,
@@ -6290,7 +6436,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 207,
                   "PLANTED": true,
                   "PLOTID": 383
@@ -6316,7 +6462,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7111,
                   "PLOTID": 449,
                   "PLANTED": true
@@ -6408,7 +6554,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 834
+                  "PR": 834,
+                  "PLANTED": true,
+                  "PLOTID": 5617
                },
                "owner": "meanbees"
             },
@@ -6431,7 +6579,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
+                  "WATER": 0,
                   "PR": 4612,
                   "PLANTED": true,
                   "PLOTID": 1863
@@ -6444,7 +6592,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2334,
                   "PLOTID": 1767,
                   "PLANTED": true
@@ -6496,7 +6644,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 311,
                   "PLANTED": true,
                   "PLOTID": 5575
@@ -6549,7 +6697,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 787
+                  "PR": 787,
+                  "PLANTED": true,
+                  "PLOTID": 5620
                },
                "owner": "meanbees"
             },
@@ -6613,6 +6763,19 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 9,
                   "PR": 170
+               },
+               "owner": "meanbees"
+            },
+            {
+               "id": 10756,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Swazi Gold",
+                  "SPT": 3,
+                  "WATER": 951,
+                  "PR": 4718,
+                  "PLOTID": 2578,
+                  "PLANTED": true
                },
                "owner": "meanbees"
             }
@@ -6710,7 +6873,8 @@ module.exports = {
                "properties": {
                   "NAME": "Mexico",
                   "TYPE": "plot",
-                  "SEEDID": 181
+                  "SEEDID": 2580,
+                  "OCCUPIED": true
                },
                "owner": "degranoengrano"
             },
@@ -6810,7 +6974,9 @@ module.exports = {
                "id": 2143,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2142
                },
                "owner": "degranoengrano"
             },
@@ -6818,7 +6984,9 @@ module.exports = {
                "id": 2146,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2145
                },
                "owner": "degranoengrano"
             },
@@ -6887,7 +7055,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7141,
                   "PLOTID": 179,
                   "PLANTED": true
@@ -6913,7 +7081,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 293,
                   "PLANTED": true,
                   "PLOTID": 185
@@ -6926,7 +7094,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 243,
                   "PLANTED": true,
                   "PLOTID": 2158
@@ -6939,7 +7107,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
-                  "WATER": 215,
+                  "WATER": 0,
                   "PR": 6753,
                   "PLANTED": true,
                   "PLOTID": 1617
@@ -6952,7 +7120,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 57,
                   "PLOTID": 590,
                   "PLANTED": true
@@ -6965,8 +7133,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2267
+                  "WATER": 0,
+                  "PR": 2267,
+                  "PLANTED": true,
+                  "PLOTID": 2143
                },
                "owner": "degranoengrano"
             },
@@ -6976,8 +7146,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 685
+                  "WATER": 0,
+                  "PR": 685,
+                  "PLANTED": true,
+                  "PLOTID": 2146
                },
                "owner": "degranoengrano"
             },
@@ -7000,7 +7172,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 162,
                   "PLOTID": 2155,
                   "PLANTED": true
@@ -7013,7 +7185,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 61,
                   "PLOTID": 602,
                   "PLANTED": true
@@ -7026,7 +7198,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 277,
                   "PLANTED": true,
                   "PLOTID": 590
@@ -7039,7 +7211,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 115,
                   "PLOTID": 2161,
                   "PLANTED": true
@@ -7052,8 +7224,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 561
+                  "WATER": 0,
+                  "PR": 561,
+                  "PLANTED": true,
+                  "PLOTID": 182
                },
                "owner": "degranoengrano"
             }
@@ -7177,7 +7351,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 624,
                   "PLANTED": true,
                   "PLOTID": 329
@@ -7190,7 +7364,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 77,
                   "PLOTID": 332,
                   "PLANTED": true
@@ -7203,7 +7377,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 112,
                   "PLOTID": 335
                },
@@ -7312,7 +7486,9 @@ module.exports = {
                "id": 1931,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 783,
+                  "OCCUPIED": true
                },
                "owner": "ejmh"
             },
@@ -7339,7 +7515,9 @@ module.exports = {
                "id": 3973,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 6645,
+                  "OCCUPIED": true
                },
                "owner": "ejmh"
             },
@@ -7357,7 +7535,9 @@ module.exports = {
                "id": 4459,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3972
                },
                "owner": "ejmh"
             },
@@ -7367,7 +7547,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6021
                },
                "owner": "ejmh"
             },
@@ -7377,7 +7558,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6024
                },
                "owner": "ejmh"
             },
@@ -7387,7 +7569,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 4458
                },
                "owner": "ejmh"
             },
@@ -7397,7 +7580,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6027
                },
                "owner": "ejmh"
             },
@@ -7407,7 +7591,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6648
                },
                "owner": "ejmh"
             },
@@ -7417,7 +7602,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6939
                },
                "owner": "ejmh"
             },
@@ -7427,7 +7613,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6942
                },
                "owner": "ejmh"
             },
@@ -7437,7 +7624,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6945
                },
                "owner": "ejmh"
             },
@@ -7447,7 +7635,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6948
                },
                "owner": "ejmh"
             }
@@ -7464,7 +7653,8 @@ module.exports = {
                   "SPT": 1,
                   "WATER": 235,
                   "PR": 7588,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 783
                },
                "owner": "ejmh"
             },
@@ -7475,7 +7665,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 161
+                  "PR": 161,
+                  "PLOTID": 1931,
+                  "PLANTED": true
                },
                "owner": "ejmh"
             },
@@ -7485,7 +7677,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 5867,
                   "PLANTED": true,
                   "PLOTID": 1611
@@ -7511,7 +7703,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
+                  "WATER": 0,
                   "PR": 4732,
                   "PLOTID": 3490,
                   "PLANTED": true
@@ -7525,7 +7717,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 155
+                  "PR": 155,
+                  "PLANTED": true,
+                  "PLOTID": 4459
                },
                "owner": "ejmh"
             },
@@ -7549,7 +7743,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 97
+                  "PR": 97,
+                  "PLANTED": true,
+                  "PLOTID": 6028
                },
                "owner": "ejmh"
             },
@@ -7560,7 +7756,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 717
+                  "PR": 717,
+                  "PLOTID": 6022,
+                  "PLANTED": true
                },
                "owner": "ejmh"
             },
@@ -7571,7 +7769,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 556
+                  "PR": 556,
+                  "PLANTED": true,
+                  "PLOTID": 6025
                },
                "owner": "ejmh"
             },
@@ -7582,7 +7782,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 68
+                  "PR": 68,
+                  "PLANTED": true,
+                  "PLOTID": 6646
                },
                "owner": "ejmh"
             },
@@ -7593,7 +7795,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 311
+                  "PR": 311,
+                  "PLANTED": true,
+                  "PLOTID": 3973
                },
                "owner": "ejmh"
             },
@@ -7604,7 +7808,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 97
+                  "PR": 97,
+                  "PLANTED": true,
+                  "PLOTID": 6649
                },
                "owner": "ejmh"
             },
@@ -7615,7 +7821,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 75
+                  "PR": 75,
+                  "PLANTED": true,
+                  "PLOTID": 6940
                },
                "owner": "ejmh"
             },
@@ -7626,7 +7834,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 514
+                  "PR": 514,
+                  "PLOTID": 6943,
+                  "PLANTED": true
                },
                "owner": "ejmh"
             },
@@ -7637,7 +7847,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 124
+                  "PR": 124,
+                  "PLANTED": true,
+                  "PLOTID": 6946
                },
                "owner": "ejmh"
             },
@@ -7648,7 +7860,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 206
+                  "PR": 206,
+                  "PLANTED": true,
+                  "PLOTID": 6949
                },
                "owner": "ejmh"
             }
@@ -7768,7 +7982,9 @@ module.exports = {
                "id": 464,
                "properties": {
                   "NAME": "Asia",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 463
                },
                "owner": "toxicmen01"
             },
@@ -7776,7 +7992,9 @@ module.exports = {
                "id": 1987,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1986
                },
                "owner": "toxicmen01"
             },
@@ -7794,7 +8012,9 @@ module.exports = {
                "id": 2395,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2394
                },
                "owner": "toxicmen01"
             },
@@ -7819,8 +8039,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai",
                   "SPT": 2,
-                  "WATER": 235,
-                  "PR": 7654
+                  "WATER": 0,
+                  "PR": 7654,
+                  "PLANTED": true,
+                  "PLOTID": 464
                },
                "owner": "toxicmen01"
             },
@@ -7830,8 +8052,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1611
+                  "WATER": 0,
+                  "PR": 1611,
+                  "PLANTED": true,
+                  "PLOTID": 1987
                },
                "owner": "toxicmen01"
             },
@@ -7841,7 +8065,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 63,
                   "PLOTID": 1990,
                   "PLANTED": true
@@ -7854,8 +8078,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Durban Poison",
                   "SPT": 4,
-                  "WATER": 104,
-                  "PR": 2825
+                  "WATER": 0,
+                  "PR": 2825,
+                  "PLANTED": true,
+                  "PLOTID": 2395
                },
                "owner": "toxicmen01"
             },
@@ -7865,7 +8091,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 462,
                   "PLANTED": true,
                   "PLOTID": 2881
@@ -7996,7 +8222,9 @@ module.exports = {
                "id": 4231,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4230
                },
                "owner": "cratic"
             },
@@ -8035,7 +8263,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
+                  "WATER": 0,
                   "PR": 7261,
                   "PLOTID": 161,
                   "PLANTED": true
@@ -8048,7 +8276,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 326,
                   "PLANTED": true,
                   "PLOTID": 984
@@ -8061,7 +8289,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 196,
                   "PLANTED": true,
                   "PLOTID": 1984
@@ -8074,15 +8302,17 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 612
+                  "WATER": 0,
+                  "PR": 612,
+                  "PLANTED": true,
+                  "PLOTID": 4231
                },
                "owner": "cratic"
             }
          ],
-         "hkwater": 990,
+         "hkwater": 870,
          "waterPlants": {
-            "lvl1": 33,
+            "lvl1": 29,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8325,7 +8555,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 554,
                   "PLANTED": true,
                   "PLOTID": 2818
@@ -8333,9 +8563,9 @@ module.exports = {
                "owner": "bigkidstuff"
             }
          ],
-         "hkwater": 480,
+         "hkwater": 510,
          "waterPlants": {
-            "lvl1": 16,
+            "lvl1": 17,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8425,7 +8655,9 @@ module.exports = {
                "id": 236,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 235
                },
                "owner": "dominic23"
             },
@@ -8433,7 +8665,9 @@ module.exports = {
                "id": 239,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 238,
+                  "OCCUPIED": true
                },
                "owner": "dominic23"
             },
@@ -8441,7 +8675,9 @@ module.exports = {
                "id": 242,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 241
                },
                "owner": "dominic23"
             },
@@ -8451,7 +8687,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5222
                },
                "owner": "dominic23"
             },
@@ -8461,7 +8698,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5224
                },
                "owner": "dominic23"
             },
@@ -8471,7 +8709,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5226
                },
                "owner": "dominic23"
             },
@@ -8481,7 +8720,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5228
                },
                "owner": "dominic23"
             }
@@ -8496,7 +8736,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai",
                   "SPT": 2,
-                  "WATER": 235,
+                  "WATER": 0,
                   "PR": 7724,
                   "PLOTID": 233,
                   "PLANTED": true
@@ -8509,8 +8749,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
-                  "WATER": 215,
-                  "PR": 6960
+                  "WATER": 0,
+                  "PR": 6960,
+                  "PLANTED": true,
+                  "PLOTID": 236
                },
                "owner": "dominic23"
             },
@@ -8520,8 +8762,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 206
+                  "WATER": 0,
+                  "PR": 206,
+                  "PLANTED": true,
+                  "PLOTID": 239
                },
                "owner": "dominic23"
             },
@@ -8531,8 +8775,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 87
+                  "WATER": 0,
+                  "PR": 87,
+                  "PLANTED": true,
+                  "PLOTID": 242
                },
                "owner": "dominic23"
             },
@@ -8542,8 +8788,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 698
+                  "WATER": 0,
+                  "PR": 698,
+                  "PLANTED": true,
+                  "PLOTID": 5248
                },
                "owner": "dominic23"
             },
@@ -8553,8 +8801,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 792
+                  "WATER": 0,
+                  "PR": 792,
+                  "PLANTED": true,
+                  "PLOTID": 5249
                },
                "owner": "dominic23"
             },
@@ -8564,8 +8814,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 139
+                  "WATER": 0,
+                  "PR": 139,
+                  "PLANTED": true,
+                  "PLOTID": 5250
                },
                "owner": "dominic23"
             },
@@ -8575,15 +8827,17 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 61
+                  "WATER": 0,
+                  "PR": 61,
+                  "PLANTED": true,
+                  "PLOTID": 5251
                },
                "owner": "dominic23"
             }
          ],
-         "hkwater": 240,
+         "hkwater": 990,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 33,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -8671,7 +8925,9 @@ module.exports = {
                "id": 284,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 283
                },
                "owner": "electru"
             },
@@ -8729,8 +8985,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 158
+                  "WATER": 0,
+                  "PR": 158,
+                  "PLANTED": true,
+                  "PLOTID": 284
                },
                "owner": "electru"
             },
@@ -8861,7 +9119,9 @@ module.exports = {
                "id": 353,
                "properties": {
                   "NAME": "Asia",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 352
                },
                "owner": "lozadakb"
             },
@@ -8869,7 +9129,9 @@ module.exports = {
                "id": 356,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 355
                },
                "owner": "lozadakb"
             },
@@ -8908,7 +9170,8 @@ module.exports = {
                "properties": {
                   "NAME": "Mexico",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 367
                },
                "owner": "lozadakb"
             },
@@ -8954,8 +9217,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
-                  "PR": 7051
+                  "WATER": 0,
+                  "PR": 7051,
+                  "PLANTED": true,
+                  "PLOTID": 353
                },
                "owner": "lozadakb"
             },
@@ -8965,8 +9230,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
-                  "PR": 5980
+                  "WATER": 0,
+                  "PR": 5980,
+                  "PLANTED": true,
+                  "PLOTID": 356
                },
                "owner": "lozadakb"
             },
@@ -8976,7 +9243,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2236,
                   "PLANTED": true,
                   "PLOTID": 359
@@ -8989,7 +9256,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 712,
                   "PLOTID": 362,
                   "PLANTED": true
@@ -9002,7 +9269,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 560,
                   "PLANTED": true,
                   "PLOTID": 365
@@ -9017,7 +9284,8 @@ module.exports = {
                   "SPT": 6,
                   "WATER": 23,
                   "PR": 528,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 368
                },
                "owner": "lozadakb"
             },
@@ -9027,7 +9295,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 297,
                   "PLOTID": 371,
                   "PLANTED": true
@@ -9040,7 +9308,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 215,
                   "PLOTID": 374,
                   "PLANTED": true
@@ -9130,7 +9398,9 @@ module.exports = {
                "id": 326,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 325
                },
                "owner": "hodltoday"
             },
@@ -9138,7 +9408,9 @@ module.exports = {
                "id": 3589,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3588
                },
                "owner": "hodltoday"
             }
@@ -9153,8 +9425,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2293
+                  "WATER": 0,
+                  "PR": 2293,
+                  "PLANTED": true,
+                  "PLOTID": 326
                },
                "owner": "hodltoday"
             },
@@ -9165,7 +9439,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 49
+                  "PR": 49,
+                  "PLANTED": true,
+                  "PLOTID": 3589
                },
                "owner": "hodltoday"
             }
@@ -9252,7 +9528,9 @@ module.exports = {
                "id": 314,
                "properties": {
                   "NAME": "Asia",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 313,
+                  "OCCUPIED": true
                },
                "owner": "fdeflash"
             },
@@ -9280,7 +9558,9 @@ module.exports = {
                "id": 990,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 989
                },
                "owner": "fdeflash"
             },
@@ -9298,7 +9578,9 @@ module.exports = {
                "id": 2737,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 2736,
+                  "OCCUPIED": true
                },
                "owner": "fdeflash"
             },
@@ -9323,8 +9605,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
-                  "PR": 7015
+                  "WATER": 0,
+                  "PR": 7015,
+                  "PLANTED": true,
+                  "PLOTID": 314
                },
                "owner": "fdeflash"
             },
@@ -9334,7 +9618,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 399,
                   "PLANTED": true,
                   "PLOTID": 317
@@ -9347,7 +9631,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 263,
                   "PLOTID": 3787,
                   "PLANTED": true
@@ -9360,8 +9644,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
-                  "PR": 6234
+                  "WATER": 0,
+                  "PR": 6234,
+                  "PLANTED": true,
+                  "PLOTID": 990
                },
                "owner": "fdeflash"
             },
@@ -9371,7 +9657,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 746,
                   "PLOTID": 2137,
                   "PLANTED": true
@@ -9384,8 +9670,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
-                  "PR": 4674
+                  "WATER": 0,
+                  "PR": 4674,
+                  "PLANTED": true,
+                  "PLOTID": 2737
                },
                "owner": "fdeflash"
             },
@@ -9395,7 +9683,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 200,
                   "PLANTED": true,
                   "PLOTID": 320
@@ -9524,7 +9812,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 6415,
                   "PLANTED": true,
                   "PLOTID": 479
@@ -9761,7 +10049,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 6267
                },
                "owner": "facugaba"
             },
@@ -9781,7 +10070,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": false,
+                  "SEEDID": 307
                },
                "owner": "facugaba"
             },
@@ -9808,7 +10098,8 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 10,
                   "PR": 299,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 6268
                },
                "owner": "facugaba"
             },
@@ -9818,7 +10109,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai",
                   "SPT": 2,
-                  "WATER": 235,
+                  "WATER": 0,
                   "PR": 7353,
                   "PLOTID": 311,
                   "PLANTED": true
@@ -10020,9 +10311,9 @@ module.exports = {
                "owner": "facugaba"
             }
          ],
-         "hkwater": 630,
+         "hkwater": 870,
          "waterPlants": {
-            "lvl1": 21,
+            "lvl1": 29,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -10604,7 +10895,9 @@ module.exports = {
                "id": 452,
                "properties": {
                   "NAME": "Asia",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 451
                },
                "owner": "mejiasclaudia"
             }
@@ -10633,7 +10926,9 @@ module.exports = {
                   "NAME": "Thai",
                   "SPT": 2,
                   "WATER": 235,
-                  "PR": 7543
+                  "PR": 7543,
+                  "PLANTED": true,
+                  "PLOTID": 452
                },
                "owner": "mejiasclaudia"
             },
@@ -10644,7 +10939,9 @@ module.exports = {
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
                   "WATER": 1416,
-                  "PR": 7010
+                  "PR": 7010,
+                  "PLANTED": true,
+                  "PLOTID": 452
                },
                "owner": "mejiasclaudia"
             }
@@ -10731,7 +11028,9 @@ module.exports = {
                "id": 29,
                "properties": {
                   "NAME": "Asia",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 28
                },
                "owner": "cadawg"
             },
@@ -10739,7 +11038,9 @@ module.exports = {
                "id": 143,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 142
                },
                "owner": "cadawg"
             },
@@ -10747,7 +11048,9 @@ module.exports = {
                "id": 146,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 145
                },
                "owner": "cadawg"
             },
@@ -10755,7 +11058,9 @@ module.exports = {
                "id": 149,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 148
                },
                "owner": "cadawg"
             },
@@ -10763,7 +11068,9 @@ module.exports = {
                "id": 152,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 151
                },
                "owner": "cadawg"
             },
@@ -10771,7 +11078,9 @@ module.exports = {
                "id": 536,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 535
                },
                "owner": "cadawg"
             },
@@ -10779,7 +11088,9 @@ module.exports = {
                "id": 1692,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1691
                },
                "owner": "cadawg"
             },
@@ -10787,7 +11098,9 @@ module.exports = {
                "id": 1695,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4656
                },
                "owner": "cadawg"
             },
@@ -10795,7 +11108,9 @@ module.exports = {
                "id": 1698,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1697
                },
                "owner": "cadawg"
             },
@@ -10803,7 +11118,9 @@ module.exports = {
                "id": 1701,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1700
                },
                "owner": "cadawg"
             },
@@ -10811,7 +11128,9 @@ module.exports = {
                "id": 1704,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1706
                },
                "owner": "cadawg"
             },
@@ -10819,7 +11138,9 @@ module.exports = {
                "id": 1707,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1703
                },
                "owner": "cadawg"
             },
@@ -10827,7 +11148,9 @@ module.exports = {
                "id": 4654,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4653
                },
                "owner": "cadawg"
             },
@@ -10835,7 +11158,9 @@ module.exports = {
                "id": 4657,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1694
                },
                "owner": "cadawg"
             }
@@ -10850,8 +11175,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Thai Chocolate",
                   "SPT": 2,
-                  "WATER": 230,
-                  "PR": 7194
+                  "WATER": 0,
+                  "PR": 7194,
+                  "PLANTED": true,
+                  "PLOTID": 29
                },
                "owner": "cadawg"
             },
@@ -10862,7 +11189,9 @@ module.exports = {
                   "NAME": "King’s Bread",
                   "SPT": 3,
                   "WATER": 205,
-                  "PR": 6350
+                  "PR": 6350,
+                  "PLANTED": true,
+                  "PLOTID": 143
                },
                "owner": "cadawg"
             },
@@ -10872,8 +11201,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2264
+                  "WATER": 0,
+                  "PR": 2264,
+                  "PLANTED": true,
+                  "PLOTID": 146
                },
                "owner": "cadawg"
             },
@@ -10883,8 +11214,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1679
+                  "WATER": 0,
+                  "PR": 1679,
+                  "PLANTED": true,
+                  "PLOTID": 149
                },
                "owner": "cadawg"
             },
@@ -10895,7 +11228,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 182
+                  "PR": 182,
+                  "PLANTED": true,
+                  "PLOTID": 152
                },
                "owner": "cadawg"
             },
@@ -10906,7 +11241,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 578
+                  "PR": 578,
+                  "PLANTED": true,
+                  "PLOTID": 536
                },
                "owner": "cadawg"
             },
@@ -10916,8 +11253,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
-                  "PR": 4881
+                  "WATER": 0,
+                  "PR": 4881,
+                  "PLANTED": true,
+                  "PLOTID": 1692
                },
                "owner": "cadawg"
             },
@@ -10928,7 +11267,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 184
+                  "PR": 184,
+                  "PLANTED": true,
+                  "PLOTID": 4657
                },
                "owner": "cadawg"
             },
@@ -10939,7 +11280,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 462
+                  "PR": 462,
+                  "PLANTED": true,
+                  "PLOTID": 1698
                },
                "owner": "cadawg"
             },
@@ -10949,8 +11292,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 796
+                  "WATER": 0,
+                  "PR": 796,
+                  "PLANTED": true,
+                  "PLOTID": 1701
                },
                "owner": "cadawg"
             },
@@ -10961,7 +11306,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 294
+                  "PR": 294,
+                  "PLANTED": true,
+                  "PLOTID": 1707
                },
                "owner": "cadawg"
             },
@@ -10972,7 +11319,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 214
+                  "PR": 214,
+                  "PLANTED": true,
+                  "PLOTID": 1704
                },
                "owner": "cadawg"
             },
@@ -10982,8 +11331,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 696
+                  "WATER": 0,
+                  "PR": 696,
+                  "PLANTED": true,
+                  "PLOTID": 4654
                },
                "owner": "cadawg"
             },
@@ -10994,7 +11345,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 324
+                  "PR": 324,
+                  "PLANTED": true,
+                  "PLOTID": 1695
                },
                "owner": "cadawg"
             }
@@ -11129,7 +11482,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 253
                },
                "owner": "ecuaminte"
             },
@@ -11179,7 +11533,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 266
+                  "PR": 266,
+                  "PLOTID": 5785,
+                  "PLANTED": true
                },
                "owner": "ecuaminte"
             },
@@ -12908,7 +13264,9 @@ module.exports = {
                "id": 176,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 175
                },
                "owner": "darthslaver"
             }
@@ -12924,7 +13282,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 538
+                  "PR": 538,
+                  "PLANTED": true,
+                  "PLOTID": 176
                },
                "owner": "darthslaver"
             }
@@ -13018,7 +13378,7 @@ module.exports = {
             {
                "id": 341,
                "properties": {
-                  "NAME": "Southe America",
+                  "NAME": "South America",
                   "TYPE": "plot"
                },
                "owner": "juanchuzx"
@@ -13044,10 +13404,54 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "juanchuzx"
+            },
+            {
+               "id": 10780,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juanchuzx"
+            },
+            {
+               "id": 10781,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juanchuzx"
+            },
+            {
+               "id": 10782,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juanchuzx"
+            },
+            {
+               "id": 10783,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juanchuzx"
             }
          ],
          "farm": [],
-         "plotCount": 4,
+         "plotCount": 8,
          "seedCount": 2,
          "seeds": [
             {
@@ -13073,9 +13477,9 @@ module.exports = {
                "owner": "juanchuzx"
             }
          ],
-         "hkwater": 450,
+         "hkwater": 480,
          "waterPlants": {
-            "lvl1": 15,
+            "lvl1": 16,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13155,7 +13559,9 @@ module.exports = {
                "id": 191,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 190
                },
                "owner": "dobro2020"
             }
@@ -13170,8 +13576,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 317
+                  "WATER": 0,
+                  "PR": 317,
+                  "PLANTED": true,
+                  "PLOTID": 191
                },
                "owner": "dobro2020"
             }
@@ -13295,7 +13703,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 5729,
                   "PLANTED": true,
                   "PLOTID": 170
@@ -13308,7 +13716,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 216,
                   "PLOTID": 173,
                   "PLANTED": true
@@ -13321,7 +13729,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 589,
                   "PLOTID": 548,
                   "PLANTED": true
@@ -13329,9 +13737,9 @@ module.exports = {
                "owner": "dantejcs"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 720,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 24,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -13478,7 +13886,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 67,
                   "PLANTED": true,
                   "PLOTID": 401
@@ -13491,7 +13899,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 945,
                   "PLANTED": true,
                   "PLOTID": 473
@@ -13504,7 +13912,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 371,
                   "PLANTED": true,
                   "PLOTID": 491
@@ -13785,7 +14193,7 @@ module.exports = {
          ],
          "farm": [],
          "plotCount": 2,
-         "seedCount": 2,
+         "seedCount": 1,
          "seeds": [
             {
                "id": 992,
@@ -13797,17 +14205,6 @@ module.exports = {
                   "PR": 283,
                   "PLOTID": 993,
                   "PLANTED": true
-               },
-               "owner": "yoclensavilan"
-            },
-            {
-               "id": 2163,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Durban Poison",
-                  "SPT": 4,
-                  "WATER": 104,
-                  "PR": 2865
                },
                "owner": "yoclensavilan"
             }
@@ -13914,7 +14311,9 @@ module.exports = {
                "id": 293,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 292,
+                  "OCCUPIED": true
                },
                "owner": "elprutest"
             },
@@ -14034,7 +14433,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5679
                },
                "owner": "elprutest"
             },
@@ -14044,7 +14444,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5682
                },
                "owner": "elprutest"
             },
@@ -14054,7 +14455,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5685
                },
                "owner": "elprutest"
             },
@@ -14064,7 +14466,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5688
                },
                "owner": "elprutest"
             },
@@ -14243,7 +14646,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 6223,
                   "PLOTID": 287,
                   "PLANTED": true
@@ -14269,8 +14672,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 712
+                  "WATER": 0,
+                  "PR": 712,
+                  "PLOTID": 293,
+                  "PLANTED": true
                },
                "owner": "elprutest"
             },
@@ -14280,7 +14685,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 503,
                   "PLOTID": 296,
                   "PLANTED": true
@@ -14345,7 +14750,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 5515,
                   "PLOTID": 1623,
                   "PLANTED": true
@@ -14358,7 +14763,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 6310,
                   "PLANTED": true,
                   "PLOTID": 1620
@@ -14371,7 +14776,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 391,
                   "PLOTID": 4891,
                   "PLANTED": true
@@ -14397,7 +14802,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 580,
                   "PLANTED": true,
                   "PLOTID": 5731
@@ -14423,8 +14828,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 769
+                  "WATER": 0,
+                  "PR": 769,
+                  "PLOTID": 5680,
+                  "PLANTED": true
                },
                "owner": "elprutest"
             },
@@ -14434,8 +14841,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 769
+                  "WATER": 0,
+                  "PR": 769,
+                  "PLOTID": 5683,
+                  "PLANTED": true
                },
                "owner": "elprutest"
             },
@@ -14446,7 +14855,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 804
+                  "PR": 804,
+                  "PLANTED": true,
+                  "PLOTID": 5686
                },
                "owner": "elprutest"
             },
@@ -14456,8 +14867,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 710
+                  "WATER": 0,
+                  "PR": 710,
+                  "PLOTID": 5689,
+                  "PLANTED": true
                },
                "owner": "elprutest"
             },
@@ -14467,7 +14880,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 377,
                   "PLANTED": true,
                   "PLOTID": 5695
@@ -14480,7 +14893,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 401,
                   "PLANTED": true,
                   "PLOTID": 5707
@@ -14493,7 +14906,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 533,
                   "PLANTED": true,
                   "PLOTID": 5704
@@ -14569,7 +14982,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 106,
                   "PLOTID": 299,
                   "PLANTED": true
@@ -14748,7 +15161,9 @@ module.exports = {
                "id": 2128,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2127
                },
                "owner": "khan.dayyanz"
             },
@@ -14785,7 +15200,8 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 0,
                   "PR": 75,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 344
                },
                "owner": "khan.dayyanz"
             },
@@ -14795,8 +15211,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 605
+                  "WATER": 0,
+                  "PR": 605,
+                  "PLANTED": true,
+                  "PLOTID": 2128
                },
                "owner": "khan.dayyanz"
             },
@@ -14806,7 +15224,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 522,
                   "PLANTED": true,
                   "PLOTID": 2131
@@ -14819,7 +15237,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2500,
                   "PLOTID": 2170,
                   "PLANTED": true
@@ -14990,7 +15408,8 @@ module.exports = {
                "properties": {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 4740
                },
                "owner": "xbladex"
             },
@@ -15026,7 +15445,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
-                  "WATER": 215,
+                  "WATER": 0,
                   "PR": 6029,
                   "PLOTID": 482,
                   "PLANTED": true
@@ -15039,7 +15458,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 5935,
                   "PLANTED": true,
                   "PLOTID": 942
@@ -15052,7 +15471,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
+                  "WATER": 0,
                   "PR": 4849,
                   "PLOTID": 1647,
                   "PLANTED": true
@@ -15065,7 +15484,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 738,
                   "PLANTED": true,
                   "PLOTID": 1806
@@ -15078,7 +15497,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 488,
                   "PLANTED": true,
                   "PLOTID": 1993
@@ -15091,7 +15510,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 547,
                   "PLOTID": 2077,
                   "PLANTED": true
@@ -15104,7 +15523,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 237,
                   "PLANTED": true,
                   "PLOTID": 2125
@@ -15117,7 +15536,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2350,
                   "PLANTED": true,
                   "PLOTID": 3790
@@ -15130,7 +15549,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 646,
                   "PLANTED": true,
                   "PLOTID": 4741
@@ -15143,7 +15562,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 258,
                   "PLANTED": true,
                   "PLOTID": 4744
@@ -15156,7 +15575,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 721,
                   "PLANTED": true,
                   "PLOTID": 6562
@@ -15860,7 +16279,9 @@ module.exports = {
                "id": 542,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 541,
+                  "OCCUPIED": true
                },
                "owner": "jinmori"
             },
@@ -15884,7 +16305,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2292
+                  "PR": 2292,
+                  "PLOTID": 542,
+                  "PLANTED": true
                },
                "owner": "jinmori"
             },
@@ -16162,9 +16585,18 @@ module.exports = {
       },
       "cesarg": {
          "subdivisions": [],
-         "plots": [],
+         "plots": [
+            {
+               "id": 581,
+               "properties": {
+                  "NAME": "Jamaica",
+                  "TYPE": "plot"
+               },
+               "owner": "cesarg"
+            }
+         ],
          "farm": [],
-         "plotCount": 0,
+         "plotCount": 1,
          "seedCount": 1,
          "seeds": [
             {
@@ -16357,7 +16789,9 @@ module.exports = {
                "id": 4249,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 4248,
+                  "OCCUPIED": true
                },
                "owner": "gooba"
             },
@@ -16395,7 +16829,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 679
+                  "PR": 679,
+                  "PLANTED": true,
+                  "PLOTID": 4249
                },
                "owner": "gooba"
             }
@@ -16890,7 +17326,9 @@ module.exports = {
                "id": 500,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 637
                },
                "owner": "nataxsnakex1"
             },
@@ -16898,7 +17336,9 @@ module.exports = {
                "id": 503,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 502
                },
                "owner": "nataxsnakex1"
             },
@@ -16914,7 +17354,9 @@ module.exports = {
                "id": 635,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 706
                },
                "owner": "nataxsnakex1"
             },
@@ -16953,7 +17395,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 247
                },
                "owner": "nataxsnakex1"
@@ -16965,7 +17407,9 @@ module.exports = {
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
                   "WATER": 137,
-                  "PR": 3684
+                  "PR": 3684,
+                  "PLANTED": true,
+                  "PLOTID": 503
                },
                "owner": "nataxsnakex1"
             },
@@ -16997,8 +17441,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 88
+                  "WATER": 0,
+                  "PR": 88,
+                  "PLANTED": true,
+                  "PLOTID": 500
                },
                "owner": "nataxsnakex1"
             },
@@ -17008,8 +17454,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 202
+                  "WATER": 0,
+                  "PR": 202,
+                  "PLANTED": true,
+                  "PLOTID": 635
                },
                "owner": "nataxsnakex1"
             },
@@ -17511,7 +17959,9 @@ module.exports = {
                "id": 614,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 595
                },
                "owner": "mermaidvampire"
             },
@@ -17535,7 +17985,9 @@ module.exports = {
                "id": 677,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 676
                },
                "owner": "mermaidvampire"
             },
@@ -17543,7 +17995,9 @@ module.exports = {
                "id": 680,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 679
                },
                "owner": "mermaidvampire"
             },
@@ -17551,7 +18005,9 @@ module.exports = {
                "id": 683,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 682
                },
                "owner": "mermaidvampire"
             },
@@ -17559,7 +18015,9 @@ module.exports = {
                "id": 686,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 595
                },
                "owner": "mermaidvampire"
             },
@@ -17567,7 +18025,9 @@ module.exports = {
                "id": 743,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 742
                },
                "owner": "mermaidvampire"
             },
@@ -17575,7 +18035,9 @@ module.exports = {
                "id": 746,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 745
                },
                "owner": "mermaidvampire"
             },
@@ -17583,7 +18045,9 @@ module.exports = {
                "id": 749,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 748
                },
                "owner": "mermaidvampire"
             },
@@ -17591,7 +18055,9 @@ module.exports = {
                "id": 752,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 610
                },
                "owner": "mermaidvampire"
             }
@@ -17607,7 +18073,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 212
+                  "PR": 212,
+                  "PLANTED": true,
+                  "PLOTID": 686
                },
                "owner": "mermaidvampire"
             },
@@ -17629,7 +18097,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 284
+                  "PR": 284,
+                  "PLANTED": true,
+                  "PLOTID": 752
                },
                "owner": "mermaidvampire"
             },
@@ -17673,7 +18143,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2381
+                  "PR": 2381,
+                  "PLANTED": true,
+                  "PLOTID": 677
                },
                "owner": "mermaidvampire"
             },
@@ -17684,7 +18156,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 826
+                  "PR": 826,
+                  "PLANTED": true,
+                  "PLOTID": 680
                },
                "owner": "mermaidvampire"
             },
@@ -17695,7 +18169,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 393
+                  "PR": 393,
+                  "PLANTED": true,
+                  "PLOTID": 683
                },
                "owner": "mermaidvampire"
             },
@@ -17717,7 +18193,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2519
+                  "PR": 2519,
+                  "PLANTED": true,
+                  "PLOTID": 743
                },
                "owner": "mermaidvampire"
             },
@@ -17728,7 +18206,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 841
+                  "PR": 841,
+                  "PLANTED": true,
+                  "PLOTID": 746
                },
                "owner": "mermaidvampire"
             },
@@ -17739,7 +18219,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 374
+                  "PR": 374,
+                  "PLANTED": true,
+                  "PLOTID": 749
                },
                "owner": "mermaidvampire"
             },
@@ -17837,7 +18319,9 @@ module.exports = {
                "id": 689,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 688
                },
                "owner": "bwar"
             }
@@ -17853,7 +18337,9 @@ module.exports = {
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
                   "WATER": 215,
-                  "PR": 6277
+                  "PR": 6277,
+                  "PLANTED": true,
+                  "PLOTID": 689
                },
                "owner": "bwar"
             }
@@ -17950,7 +18436,9 @@ module.exports = {
                "id": 695,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 694,
+                  "OCCUPIED": true
                },
                "owner": "yova22"
             },
@@ -17968,7 +18456,9 @@ module.exports = {
                "id": 758,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 757,
+                  "OCCUPIED": true
                },
                "owner": "yova22"
             },
@@ -18093,7 +18583,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 5697,
                   "PLANTED": true,
                   "PLOTID": 692
@@ -18106,8 +18596,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 681
+                  "WATER": 0,
+                  "PR": 681,
+                  "PLOTID": 758,
+                  "PLANTED": true
                },
                "owner": "yova22"
             },
@@ -18117,7 +18609,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 59,
                   "PLANTED": true,
                   "PLOTID": 698
@@ -18130,8 +18622,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 733
+                  "WATER": 0,
+                  "PR": 733,
+                  "PLANTED": true,
+                  "PLOTID": 758
                },
                "owner": "yova22"
             },
@@ -18141,7 +18635,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 66,
                   "PLOTID": 761,
                   "PLANTED": true
@@ -18154,7 +18648,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2379,
                   "PLOTID": 2629,
                   "PLANTED": true
@@ -18167,7 +18661,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2492,
                   "PLOTID": 2632,
                   "PLANTED": true
@@ -18193,7 +18687,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 535,
                   "PLOTID": 2635,
                   "PLANTED": true
@@ -18206,7 +18700,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 444,
                   "PLOTID": 2638,
                   "PLANTED": true
@@ -18219,7 +18713,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 464,
                   "PLOTID": 2641,
                   "PLANTED": true
@@ -18232,7 +18726,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 457,
                   "PLANTED": true,
                   "PLOTID": 2644
@@ -18245,7 +18739,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 170,
                   "PLANTED": true,
                   "PLOTID": 2656
@@ -18258,7 +18752,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 245,
                   "PLOTID": 2650,
                   "PLANTED": true
@@ -18271,7 +18765,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 79,
                   "PLANTED": true,
                   "PLOTID": 2653
@@ -18284,7 +18778,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 114,
+                  "WATER": 0,
                   "PR": 462,
                   "PLOTID": 2647,
                   "PLANTED": true
@@ -18547,7 +19041,9 @@ module.exports = {
                "id": 3964,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3963
                },
                "owner": "krakolito"
             },
@@ -18568,7 +19064,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5913
                },
                "owner": "krakolito"
             },
@@ -18639,7 +19136,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 136,
                   "PLANTED": true,
                   "PLOTID": 776
@@ -18665,8 +19162,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 747
+                  "WATER": 0,
+                  "PR": 747,
+                  "PLANTED": true,
+                  "PLOTID": 3964
                },
                "owner": "krakolito"
             },
@@ -18676,7 +19175,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 422,
                   "PLANTED": true,
                   "PLOTID": 5911
@@ -18689,8 +19188,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 803
+                  "WATER": 0,
+                  "PR": 803,
+                  "PLANTED": true,
+                  "PLOTID": 5914
                },
                "owner": "krakolito"
             },
@@ -18713,7 +19214,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 211,
                   "PLOTID": 5920,
                   "PLANTED": true
@@ -18726,7 +19227,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 296,
                   "PLANTED": true,
                   "PLOTID": 5923
@@ -18739,7 +19240,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 171,
                   "PLOTID": 5923,
                   "PLANTED": true
@@ -18978,7 +19479,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 270,
                   "PLANTED": true,
                   "PLOTID": 1899
@@ -19133,7 +19634,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5595
                },
                "owner": "gamsam"
             },
@@ -19374,7 +19876,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1455,
                   "PLOTID": 5590,
                   "PLANTED": true
@@ -19387,7 +19889,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 587,
                   "PLANTED": true,
                   "PLOTID": 5593
@@ -19401,7 +19903,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 652
+                  "PR": 652,
+                  "PLANTED": true,
+                  "PLOTID": 5596
                },
                "owner": "gamsam"
             },
@@ -19411,7 +19915,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 450,
                   "PLANTED": true,
                   "PLOTID": 5599
@@ -21088,7 +21592,9 @@ module.exports = {
                "id": 945,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 944
                },
                "owner": "steinreich"
             }
@@ -21104,7 +21610,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 293
+                  "PR": 293,
+                  "PLANTED": true,
+                  "PLOTID": 945
                },
                "owner": "steinreich"
             }
@@ -21236,7 +21744,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 37,
                   "PLANTED": true,
                   "PLOTID": 6556
@@ -21249,7 +21757,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 76,
                   "PLOTID": 4906,
                   "PLANTED": true
@@ -21262,7 +21770,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 466,
                   "PLOTID": 6559,
                   "PLANTED": true
@@ -21270,9 +21778,9 @@ module.exports = {
                "owner": "bassman077"
             }
          ],
-         "hkwater": 450,
+         "hkwater": 540,
          "waterPlants": {
-            "lvl1": 15,
+            "lvl1": 18,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -21744,7 +22252,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5874
                },
                "owner": "virusfx"
             },
@@ -21776,8 +22285,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 968
                },
                "owner": "virusfx"
             },
@@ -21787,8 +22296,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 5883
                },
                "owner": "virusfx"
             },
@@ -21798,8 +22307,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 5886
                },
                "owner": "virusfx"
             },
@@ -21809,8 +22318,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 5889
                },
                "owner": "virusfx"
             },
@@ -21820,8 +22329,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 5892
                },
                "owner": "virusfx"
             }
@@ -21837,7 +22346,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 275
+                  "PR": 275,
+                  "PLANTED": true,
+                  "PLOTID": 10518
                },
                "owner": "virusfx"
             },
@@ -21987,7 +22498,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 716
+                  "PR": 716,
+                  "PLOTID": 5875,
+                  "PLANTED": true
                },
                "owner": "virusfx"
             },
@@ -22024,7 +22537,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 148
+                  "PR": 148,
+                  "PLANTED": true,
+                  "PLOTID": 10519
                },
                "owner": "virusfx"
             },
@@ -22035,7 +22550,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 104
+                  "PR": 104,
+                  "PLANTED": true,
+                  "PLOTID": 10520
                },
                "owner": "virusfx"
             },
@@ -22046,7 +22563,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 91
+                  "PR": 91,
+                  "PLANTED": true,
+                  "PLOTID": 10521
                },
                "owner": "virusfx"
             },
@@ -22057,7 +22576,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 229
+                  "PR": 229,
+                  "PLANTED": true,
+                  "PLOTID": 10522
                },
                "owner": "virusfx"
             },
@@ -22192,7 +22713,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 285,
                   "PLOTID": 6937,
                   "PLANTED": true
@@ -22303,7 +22824,8 @@ module.exports = {
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 3108
                },
                "owner": "treefiddybruh"
             },
@@ -22312,7 +22834,8 @@ module.exports = {
                "properties": {
                   "NAME": "Mexico",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 4227
                },
                "owner": "treefiddybruh"
             }
@@ -22340,7 +22863,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 620,
                   "PLOTID": 981,
                   "PLANTED": true
@@ -22353,7 +22876,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 317,
                   "PLANTED": true,
                   "PLOTID": 3109
@@ -22366,10 +22889,11 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 549,
                   "PLOTID": 4228,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "SEEDID": 4228
                },
                "owner": "treefiddybruh"
             }
@@ -23592,7 +24116,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 5570,
                   "PLOTID": 987,
                   "PLANTED": true
@@ -23605,7 +24129,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "King’s Bread",
                   "SPT": 3,
-                  "WATER": 205,
+                  "WATER": 0,
                   "PR": 5981,
                   "PLOTID": 1596,
                   "PLANTED": true
@@ -23618,7 +24142,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2285,
                   "PLANTED": true,
                   "PLOTID": 1821
@@ -23631,7 +24155,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2501,
                   "PLOTID": 1818,
                   "PLANTED": true
@@ -23644,7 +24168,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2277,
                   "PLANTED": true,
                   "PLOTID": 1779
@@ -23690,7 +24214,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2435,
                   "PLANTED": true,
                   "PLOTID": 1776
@@ -23703,7 +24227,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3579,
                   "PLOTID": 1734,
                   "PLANTED": true
@@ -23727,7 +24251,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2307,
                   "PLOTID": 1731,
                   "PLANTED": true
@@ -23740,7 +24264,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
+                  "WATER": 0,
                   "PR": 4697,
                   "PLOTID": 1710,
                   "PLANTED": true
@@ -25041,7 +25565,9 @@ module.exports = {
                "id": 999,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 998
                },
                "owner": "quantumnachos"
             },
@@ -25049,7 +25575,9 @@ module.exports = {
                "id": 1002,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1001
                },
                "owner": "quantumnachos"
             },
@@ -25065,7 +25593,9 @@ module.exports = {
                "id": 1008,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1007
                },
                "owner": "quantumnachos"
             },
@@ -25073,7 +25603,9 @@ module.exports = {
                "id": 1011,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1010
                },
                "owner": "quantumnachos"
             },
@@ -25295,8 +25827,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 71
+                  "WATER": 0,
+                  "PR": 71,
+                  "PLANTED": true,
+                  "PLOTID": 999
                },
                "owner": "quantumnachos"
             },
@@ -25306,8 +25840,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 37
+                  "WATER": 0,
+                  "PR": 37,
+                  "PLANTED": true,
+                  "PLOTID": 1002
                },
                "owner": "quantumnachos"
             },
@@ -25328,8 +25864,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
-                  "WATER": 215,
-                  "PR": 6003
+                  "WATER": 0,
+                  "PR": 6003,
+                  "PLANTED": true,
+                  "PLOTID": 1008
                },
                "owner": "quantumnachos"
             },
@@ -25340,7 +25878,9 @@ module.exports = {
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
                   "WATER": 215,
-                  "PR": 6641
+                  "PR": 6641,
+                  "PLANTED": true,
+                  "PLOTID": 1011
                },
                "owner": "quantumnachos"
             },
@@ -26332,7 +26872,9 @@ module.exports = {
                "id": 1716,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1715
                },
                "owner": "willsaldeno"
             },
@@ -26340,7 +26882,9 @@ module.exports = {
                "id": 1770,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1769
                },
                "owner": "willsaldeno"
             }
@@ -26356,7 +26900,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 324
+                  "PR": 324,
+                  "PLANTED": true,
+                  "PLOTID": 1716
                },
                "owner": "willsaldeno"
             },
@@ -26367,7 +26913,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2428
+                  "PR": 2428,
+                  "PLANTED": true,
+                  "PLOTID": 1770
                },
                "owner": "willsaldeno"
             }
@@ -26421,7 +26969,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 2,
+         "dailyBudDeposit": 1,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -26504,7 +27052,9 @@ module.exports = {
                "id": 1749,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1748
                },
                "owner": "hosherama"
             },
@@ -26587,7 +27137,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6312
                },
                "owner": "hosherama"
             },
@@ -26597,7 +27148,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5676
                },
                "owner": "hosherama"
             },
@@ -26629,7 +27181,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5814
                },
                "owner": "hosherama"
             },
@@ -26639,7 +27192,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5793
                },
                "owner": "hosherama"
             },
@@ -26685,7 +27239,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2499,
                   "PLOTID": 1722,
                   "PLANTED": true
@@ -26698,7 +27252,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2330,
                   "PLOTID": 1857,
                   "PLANTED": true
@@ -26711,7 +27265,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 646,
                   "PLANTED": true,
                   "PLOTID": 2182
@@ -26750,8 +27304,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 314
+                  "WATER": 0,
+                  "PR": 314,
+                  "PLANTED": true,
+                  "PLOTID": 1749
                },
                "owner": "hosherama"
             },
@@ -26761,7 +27317,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3541,
                   "PLOTID": 1719,
                   "PLANTED": true
@@ -26774,7 +27330,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2221,
                   "PLOTID": 2176,
                   "PLANTED": true
@@ -26787,7 +27343,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2177,
                   "PLANTED": true,
                   "PLOTID": 2179
@@ -26800,7 +27356,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 803,
                   "PLOTID": 5809,
                   "PLANTED": true
@@ -26813,7 +27369,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 747,
                   "PLANTED": true,
                   "PLOTID": 5668
@@ -26826,7 +27382,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Hindu Kush",
                   "SPT": 4,
-                  "WATER": 82,
+                  "WATER": 0,
                   "PR": 1995,
                   "PLOTID": 1725,
                   "PLANTED": true
@@ -26839,7 +27395,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 481,
                   "PLOTID": 5674,
                   "PLANTED": true
@@ -26852,8 +27408,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 186
+                  "WATER": 0,
+                  "PR": 186,
+                  "PLANTED": true,
+                  "PLOTID": 5794
                },
                "owner": "hosherama"
             },
@@ -26863,8 +27421,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 345
+                  "WATER": 0,
+                  "PR": 345,
+                  "PLANTED": true,
+                  "PLOTID": 6313
                },
                "owner": "hosherama"
             },
@@ -26874,7 +27434,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 771,
                   "PLOTID": 5671,
                   "PLANTED": true
@@ -26887,7 +27447,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 599,
                   "PLOTID": 5812,
                   "PLANTED": true
@@ -26900,8 +27460,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 122
+                  "WATER": 0,
+                  "PR": 122,
+                  "PLANTED": true,
+                  "PLOTID": 5815
                },
                "owner": "hosherama"
             },
@@ -26911,8 +27473,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 198
+                  "WATER": 0,
+                  "PR": 198,
+                  "PLANTED": true,
+                  "PLOTID": 5677
                },
                "owner": "hosherama"
             },
@@ -26922,7 +27486,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 542,
                   "PLOTID": 6316,
                   "PLANTED": true
@@ -26935,7 +27499,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1577,
                   "PLANTED": true,
                   "PLOTID": 1728
@@ -26948,7 +27512,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 478,
                   "PLOTID": 1746,
                   "PLANTED": true
@@ -26956,9 +27520,9 @@ module.exports = {
                "owner": "hosherama"
             }
          ],
-         "hkwater": 660,
+         "hkwater": 1050,
          "waterPlants": {
-            "lvl1": 22,
+            "lvl1": 35,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -27060,7 +27624,9 @@ module.exports = {
                "id": 1830,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1802
                },
                "owner": "turb0nen"
             },
@@ -27112,21 +27678,10 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "turb0nen"
-            },
-            {
-               "id": 10243,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "turb0nen"
             }
          ],
          "farm": [],
-         "plotCount": 10,
+         "plotCount": 9,
          "seedCount": 8,
          "seeds": [
             {
@@ -27135,7 +27690,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2195,
                   "PLANTED": true,
                   "PLOTID": 1800
@@ -27148,7 +27703,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Durban Poison",
                   "SPT": 4,
-                  "WATER": 104,
+                  "WATER": 0,
                   "PR": 2758,
                   "PLANTED": true,
                   "PLOTID": 1797
@@ -27162,7 +27717,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 748
+                  "PR": 748,
+                  "PLANTED": true,
+                  "PLOTID": 1830
                },
                "owner": "turb0nen"
             },
@@ -27172,7 +27729,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 1087,
                   "PLOTID": 1803,
                   "PLANTED": true
@@ -27185,7 +27742,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 479,
                   "PLOTID": 1833,
                   "PLANTED": true
@@ -27198,7 +27755,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 537,
                   "PLANTED": true,
                   "PLOTID": 1836
@@ -27322,7 +27879,9 @@ module.exports = {
                "id": 1785,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1784
                },
                "owner": "psycodelic"
             },
@@ -27330,7 +27889,9 @@ module.exports = {
                "id": 1788,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1763
                },
                "owner": "psycodelic"
             },
@@ -27370,7 +27931,9 @@ module.exports = {
                "id": 1845,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1844
                },
                "owner": "psycodelic"
             },
@@ -27459,8 +28022,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
-                  "PR": 4731
+                  "WATER": 0,
+                  "PR": 4731,
+                  "PLANTED": true,
+                  "PLOTID": 1788
                },
                "owner": "psycodelic"
             },
@@ -27470,8 +28035,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3722
+                  "WATER": 0,
+                  "PR": 3722,
+                  "PLANTED": true,
+                  "PLOTID": 1785
                },
                "owner": "psycodelic"
             },
@@ -27481,7 +28048,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2194,
                   "PLOTID": 1764,
                   "PLANTED": true
@@ -27538,8 +28105,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3842
+                  "WATER": 0,
+                  "PR": 3842,
+                  "PLANTED": true,
+                  "PLOTID": 1845
                },
                "owner": "psycodelic"
             },
@@ -28234,7 +28803,9 @@ module.exports = {
                "id": 1881,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 1880,
+                  "OCCUPIED": true
                },
                "owner": "hersi007"
             },
@@ -28260,7 +28831,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5649
                },
                "owner": "hersi007"
             },
@@ -28286,7 +28858,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2322
+                  "PR": 2322,
+                  "PLANTED": true,
+                  "PLOTID": 1881
                },
                "owner": "hersi007"
             },
@@ -28319,7 +28893,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 739
+                  "PR": 739,
+                  "PLANTED": true,
+                  "PLOTID": 5650
                },
                "owner": "hersi007"
             },
@@ -28668,7 +29244,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 304,
                   "PLANTED": true,
                   "PLOTID": 1890
@@ -28681,7 +29257,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Hindu Kush",
                   "SPT": 4,
-                  "WATER": 82,
+                  "WATER": 0,
                   "PR": 1837,
                   "PLANTED": true,
                   "PLOTID": 2074
@@ -28694,7 +29270,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 126,
                   "PLOTID": 5755,
                   "PLANTED": true
@@ -28707,7 +29283,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 312,
                   "PLOTID": 5761,
                   "PLANTED": true
@@ -28720,7 +29296,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 96,
                   "PLANTED": true,
                   "PLOTID": 5764
@@ -28733,7 +29309,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 310,
                   "PLOTID": 5767,
                   "PLANTED": true
@@ -28746,7 +29322,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 202,
                   "PLANTED": true,
                   "PLOTID": 5770
@@ -28759,7 +29335,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 99,
                   "PLOTID": 5773,
                   "PLANTED": true
@@ -28772,7 +29348,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 92,
                   "PLOTID": 5758,
                   "PLANTED": true
@@ -28785,7 +29361,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 419,
                   "PLANTED": true,
                   "PLOTID": 5776
@@ -28798,7 +29374,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 581,
                   "PLOTID": 5779,
                   "PLANTED": true
@@ -28994,7 +29570,8 @@ module.exports = {
                "id": 509,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 508
                },
                "owner": "casilokodesing"
             },
@@ -29012,7 +29589,9 @@ module.exports = {
                "id": 1896,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1895
                },
                "owner": "casilokodesing"
             },
@@ -29020,7 +29599,9 @@ module.exports = {
                "id": 3781,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3780
                },
                "owner": "casilokodesing"
             }
@@ -29047,7 +29628,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2347,
                   "PLANTED": true,
                   "PLOTID": 512
@@ -29060,8 +29641,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 605
+                  "WATER": 0,
+                  "PR": 605,
+                  "PLANTED": true,
+                  "PLOTID": 1896
                },
                "owner": "casilokodesing"
             },
@@ -29071,8 +29654,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 800
+                  "WATER": 0,
+                  "PR": 800,
+                  "PLANTED": true,
+                  "PLOTID": 3781
                },
                "owner": "casilokodesing"
             }
@@ -29159,7 +29744,9 @@ module.exports = {
                "id": 1933,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1932
                },
                "owner": "heikki1337"
             }
@@ -29175,7 +29762,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2473
+                  "PR": 2473,
+                  "PLANTED": true,
+                  "PLOTID": 1933
                },
                "owner": "heikki1337"
             }
@@ -29314,7 +29903,9 @@ module.exports = {
                "id": 1951,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1950
                },
                "owner": "w0nd3rgrip"
             },
@@ -29429,7 +30020,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2303,
                   "PLANTED": true,
                   "PLOTID": 1936
@@ -29442,7 +30033,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2311,
                   "PLANTED": true,
                   "PLOTID": 1939
@@ -29455,7 +30046,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2289,
                   "PLOTID": 1945,
                   "PLANTED": true
@@ -29494,8 +30085,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 788
+                  "WATER": 0,
+                  "PR": 788,
+                  "PLANTED": true,
+                  "PLOTID": 1951
                },
                "owner": "w0nd3rgrip"
             },
@@ -29596,7 +30189,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
+                  "WATER": 0,
                   "PR": 4874,
                   "PLANTED": true,
                   "PLOTID": 3655
@@ -29744,7 +30337,9 @@ module.exports = {
                "id": 1963,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1962
                },
                "owner": "mako07"
             },
@@ -29752,7 +30347,9 @@ module.exports = {
                "id": 1966,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 1965,
+                  "OCCUPIED": true
                },
                "owner": "mako07"
             },
@@ -29817,7 +30414,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2431,
                   "PLOTID": 1954,
                   "PLANTED": true
@@ -29856,8 +30453,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 695
+                  "WATER": 0,
+                  "PR": 695,
+                  "PLANTED": true,
+                  "PLOTID": 1963
                },
                "owner": "mako07"
             },
@@ -29867,8 +30466,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 688
+                  "WATER": 0,
+                  "PR": 688,
+                  "PLANTED": true,
+                  "PLOTID": 1966
                },
                "owner": "mako07"
             },
@@ -29878,7 +30479,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 390,
                   "PLANTED": true,
                   "PLOTID": 1969
@@ -29891,7 +30492,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 378,
                   "PLOTID": 1972,
                   "PLANTED": true
@@ -29904,7 +30505,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 260,
                   "PLANTED": true,
                   "PLOTID": 1975
@@ -29917,7 +30518,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 176,
                   "PLANTED": true,
                   "PLOTID": 1978
@@ -29930,7 +30531,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 158,
                   "PLOTID": 1981,
                   "PLANTED": true
@@ -30127,7 +30728,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 138,
                   "PLANTED": true,
                   "PLOTID": 2185
@@ -30231,7 +30832,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6402
                },
                "owner": "tremou922"
             },
@@ -30241,7 +30843,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6405
                },
                "owner": "tremou922"
             }
@@ -30269,8 +30872,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 691
+                  "WATER": 0,
+                  "PR": 691,
+                  "PLANTED": true,
+                  "PLOTID": 6403
                },
                "owner": "tremou922"
             },
@@ -30280,8 +30885,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 657
+                  "WATER": 0,
+                  "PR": 657,
+                  "PLANTED": true,
+                  "PLOTID": 6406
                },
                "owner": "tremou922"
             }
@@ -30440,7 +31047,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 380,
                   "PLANTED": true,
                   "PLOTID": 2194
@@ -30453,7 +31060,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 191,
                   "PLANTED": true,
                   "PLOTID": 2197
@@ -30466,7 +31073,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1695,
                   "PLOTID": 2302,
                   "PLANTED": true
@@ -30479,7 +31086,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 116,
                   "PLOTID": 2317,
                   "PLANTED": true
@@ -30786,7 +31393,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 505,
                   "PLANTED": true,
                   "PLOTID": 2209
@@ -30799,7 +31406,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 201,
                   "PLOTID": 2212,
                   "PLANTED": true
@@ -30825,7 +31432,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 97,
                   "PLANTED": true,
                   "PLOTID": 3937
@@ -30838,7 +31445,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 159,
                   "PLOTID": 4909,
                   "PLANTED": true
@@ -30864,7 +31471,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1720,
                   "PLANTED": true,
                   "PLOTID": 3931
@@ -30877,7 +31484,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 468,
                   "PLOTID": 3934,
                   "PLANTED": true
@@ -30903,7 +31510,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 227,
                   "PLOTID": 2221,
                   "PLANTED": true
@@ -30929,7 +31536,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 108,
                   "PLANTED": true,
                   "PLOTID": 6457
@@ -30942,7 +31549,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 35,
                   "PLOTID": 3940,
                   "PLANTED": true
@@ -31306,7 +31913,9 @@ module.exports = {
                "id": 2236,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2235
                },
                "owner": "xmuguenx"
             },
@@ -31314,7 +31923,9 @@ module.exports = {
                "id": 2239,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2238
                },
                "owner": "xmuguenx"
             },
@@ -31322,7 +31933,9 @@ module.exports = {
                "id": 2242,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2241
                },
                "owner": "xmuguenx"
             },
@@ -31330,7 +31943,9 @@ module.exports = {
                "id": 2245,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2244
                },
                "owner": "xmuguenx"
             }
@@ -31345,7 +31960,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3745,
                   "PLANTED": true,
                   "PLOTID": 2233
@@ -31359,7 +31974,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 578
+                  "PR": 578,
+                  "PLANTED": true,
+                  "PLOTID": 2236
                },
                "owner": "xmuguenx"
             },
@@ -31370,7 +31987,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 497
+                  "PR": 497,
+                  "PLANTED": true,
+                  "PLOTID": 2239
                },
                "owner": "xmuguenx"
             },
@@ -31381,7 +32000,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 147
+                  "PR": 147,
+                  "PLANTED": true,
+                  "PLOTID": 2242
                },
                "owner": "xmuguenx"
             },
@@ -31392,7 +32013,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 112
+                  "PR": 112,
+                  "PLANTED": true,
+                  "PLOTID": 2245
                },
                "owner": "xmuguenx"
             }
@@ -31602,7 +32225,8 @@ module.exports = {
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
-                  "SEEDID": 2256
+                  "SEEDID": 3180,
+                  "OCCUPIED": true
                },
                "owner": "kratosn2"
             },
@@ -31620,7 +32244,8 @@ module.exports = {
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
-                  "SEEDID": 3174
+                  "SEEDID": 3192,
+                  "OCCUPIED": true
                },
                "owner": "kratosn2"
             },
@@ -31628,7 +32253,9 @@ module.exports = {
                "id": 3193,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3189
                },
                "owner": "kratosn2"
             },
@@ -31657,7 +32284,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5370
                },
                "owner": "kratosn2"
             },
@@ -31693,7 +32321,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 561,
                   "PLOTID": 2251,
                   "PLANTED": true
@@ -31732,7 +32360,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2184,
                   "PLOTID": 2272,
                   "PLANTED": true
@@ -31745,7 +32373,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2349,
                   "PLOTID": 3166,
                   "PLANTED": true
@@ -31810,7 +32438,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2261,
                   "PLOTID": 3166,
                   "PLANTED": true
@@ -31823,7 +32451,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3653,
                   "PLANTED": true,
                   "PLOTID": 2254
@@ -31863,7 +32491,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 59
+                  "PR": 59,
+                  "PLANTED": true,
+                  "PLOTID": 3175
                },
                "owner": "kratosn2"
             },
@@ -31874,7 +32504,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 194
+                  "PR": 194,
+                  "PLANTED": true,
+                  "PLOTID": 3193
                },
                "owner": "kratosn2"
             },
@@ -31885,7 +32517,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 48
+                  "PR": 48,
+                  "PLANTED": true,
+                  "PLOTID": 3190
                },
                "owner": "kratosn2"
             },
@@ -31922,7 +32556,9 @@ module.exports = {
                   "NAME": "Hindu Kush",
                   "SPT": 4,
                   "WATER": 82,
-                  "PR": 1864
+                  "PR": 1864,
+                  "PLANTED": true,
+                  "PLOTID": 5371
                },
                "owner": "kratosn2"
             },
@@ -31952,10 +32588,10 @@ module.exports = {
                "owner": "kratosn2"
             }
          ],
-         "hkwater": 1080,
+         "hkwater": 1500,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 36,
+            "lvl1": 50,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -32060,7 +32696,9 @@ module.exports = {
                "id": 2311,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2313
                },
                "owner": "rokimv87"
             },
@@ -32068,7 +32706,9 @@ module.exports = {
                "id": 2314,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2310
                },
                "owner": "rokimv87"
             },
@@ -32100,7 +32740,9 @@ module.exports = {
                "id": 2596,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4797
                },
                "owner": "rokimv87"
             },
@@ -32208,8 +32850,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 239
+                  "WATER": 0,
+                  "PR": 239,
+                  "PLANTED": true,
+                  "PLOTID": 2314
                },
                "owner": "rokimv87"
             },
@@ -32219,8 +32863,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 192
+                  "WATER": 0,
+                  "PR": 192,
+                  "PLANTED": true,
+                  "PLOTID": 2311
                },
                "owner": "rokimv87"
             },
@@ -32307,8 +32953,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 309
+                  "WATER": 0,
+                  "PR": 309,
+                  "PLANTED": true,
+                  "PLOTID": 2596
                },
                "owner": "rokimv87"
             },
@@ -32346,10 +32994,10 @@ module.exports = {
                "owner": "rokimv87"
             }
          ],
-         "hkwater": 1170,
+         "hkwater": 1230,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 39,
+            "lvl1": 41,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -32538,7 +33186,9 @@ module.exports = {
                "id": 2329,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2328
                },
                "owner": "spinvest"
             },
@@ -32546,7 +33196,9 @@ module.exports = {
                "id": 2332,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2331
                },
                "owner": "spinvest"
             },
@@ -32564,7 +33216,9 @@ module.exports = {
                "id": 2338,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2337
                },
                "owner": "spinvest"
             }
@@ -32579,7 +33233,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3793,
                   "PLOTID": 2323,
                   "PLANTED": true
@@ -32592,7 +33246,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2238,
                   "PLOTID": 2326,
                   "PLANTED": true
@@ -32605,8 +33259,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 804
+                  "WATER": 0,
+                  "PR": 804,
+                  "PLANTED": true,
+                  "PLOTID": 2329
                },
                "owner": "spinvest"
             },
@@ -32616,8 +33272,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 601
+                  "WATER": 0,
+                  "PR": 601,
+                  "PLANTED": true,
+                  "PLOTID": 2332
                },
                "owner": "spinvest"
             },
@@ -32627,7 +33285,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 389,
                   "PLOTID": 2335,
                   "PLANTED": true
@@ -32641,7 +33299,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 169
+                  "PR": 169,
+                  "PLANTED": true,
+                  "PLOTID": 2338
                },
                "owner": "spinvest"
             }
@@ -32730,13 +33390,26 @@ module.exports = {
                "id": 2341,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2340
+               },
+               "owner": "forykw"
+            },
+            {
+               "id": 11587,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
                },
                "owner": "forykw"
             }
          ],
          "farm": [],
-         "plotCount": 1,
+         "plotCount": 2,
          "seedCount": 1,
          "seeds": [
             {
@@ -32746,15 +33419,17 @@ module.exports = {
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
                   "WATER": 137,
-                  "PR": 3667
+                  "PR": 3667,
+                  "PLOTID": 2341,
+                  "PLANTED": true
                },
                "owner": "forykw"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -32835,7 +33510,9 @@ module.exports = {
                "id": 2344,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2343
                },
                "owner": "naxter1998"
             },
@@ -32843,7 +33520,9 @@ module.exports = {
                "id": 2359,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2358
                },
                "owner": "naxter1998"
             },
@@ -32851,7 +33530,9 @@ module.exports = {
                "id": 2761,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 2760,
+                  "OCCUPIED": true
                },
                "owner": "naxter1998"
             },
@@ -32859,7 +33540,9 @@ module.exports = {
                "id": 2764,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2763
                },
                "owner": "naxter1998"
             }
@@ -32874,8 +33557,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2396
+                  "WATER": 0,
+                  "PR": 2396,
+                  "PLANTED": true,
+                  "PLOTID": 2344
                },
                "owner": "naxter1998"
             },
@@ -32885,8 +33570,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 153
+                  "WATER": 0,
+                  "PR": 153,
+                  "PLANTED": true,
+                  "PLOTID": 2359
                },
                "owner": "naxter1998"
             },
@@ -32896,8 +33583,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 662
+                  "WATER": 0,
+                  "PR": 662,
+                  "PLANTED": true,
+                  "PLOTID": 2761
                },
                "owner": "naxter1998"
             },
@@ -32907,8 +33596,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 534
+                  "WATER": 0,
+                  "PR": 534,
+                  "PLOTID": 2764,
+                  "PLANTED": true
                },
                "owner": "naxter1998"
             }
@@ -33133,7 +33824,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6924
                },
                "owner": "chito1"
             },
@@ -33169,10 +33861,21 @@ module.exports = {
                   "SEEDID": 6930
                },
                "owner": "chito1"
+            },
+            {
+               "id": 11907,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "chito1"
             }
          ],
          "farm": [],
-         "plotCount": 5,
+         "plotCount": 6,
          "seedCount": 5,
          "seeds": [
             {
@@ -33181,7 +33884,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2426,
                   "PLOTID": 2353,
                   "PLANTED": true
@@ -33194,7 +33897,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 1048,
                   "PLOTID": 6925,
                   "PLANTED": true
@@ -33207,8 +33910,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 675
+                  "WATER": 0,
+                  "PR": 675,
+                  "PLANTED": true,
+                  "PLOTID": 6922
                },
                "owner": "chito1"
             },
@@ -33218,7 +33923,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 512,
                   "PLANTED": true,
                   "PLOTID": 6928
@@ -33239,10 +33944,10 @@ module.exports = {
                "owner": "chito1"
             }
          ],
-         "hkwater": 150,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -33324,7 +34029,9 @@ module.exports = {
                "properties": {
                   "NAME": "Africa",
                   "TYPE": "plot",
-                  "SEEDID": 2355
+                  "SEEDID": 2355,
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": true
                },
                "owner": "benjaaa"
             },
@@ -33893,7 +34600,9 @@ module.exports = {
                "id": 2434,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2454
                },
                "owner": "spi-steemcity"
             },
@@ -33901,7 +34610,9 @@ module.exports = {
                "id": 2437,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2460
                },
                "owner": "spi-steemcity"
             },
@@ -33909,7 +34620,9 @@ module.exports = {
                "id": 2440,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2505
                },
                "owner": "spi-steemcity"
             },
@@ -33917,7 +34630,9 @@ module.exports = {
                "id": 2443,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2463
                },
                "owner": "spi-steemcity"
             },
@@ -33925,7 +34640,9 @@ module.exports = {
                "id": 2446,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2418
                },
                "owner": "spi-steemcity"
             },
@@ -33933,7 +34650,9 @@ module.exports = {
                "id": 2449,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2433
                },
                "owner": "spi-steemcity"
             },
@@ -33941,7 +34660,9 @@ module.exports = {
                "id": 2452,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2514
                },
                "owner": "spi-steemcity"
             },
@@ -33949,7 +34670,9 @@ module.exports = {
                "id": 2455,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2436
                },
                "owner": "spi-steemcity"
             },
@@ -33957,7 +34680,9 @@ module.exports = {
                "id": 2458,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2439
                },
                "owner": "spi-steemcity"
             },
@@ -33965,7 +34690,9 @@ module.exports = {
                "id": 2461,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2442
                },
                "owner": "spi-steemcity"
             },
@@ -34093,7 +34820,9 @@ module.exports = {
                "id": 2509,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2472
                },
                "owner": "spi-steemcity"
             },
@@ -34101,7 +34830,9 @@ module.exports = {
                "id": 2512,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2478
                },
                "owner": "spi-steemcity"
             },
@@ -34109,7 +34840,9 @@ module.exports = {
                "id": 2515,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2502
                },
                "owner": "spi-steemcity"
             }
@@ -34124,7 +34857,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2269,
                   "PLANTED": true,
                   "PLOTID": 2416
@@ -34137,8 +34870,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2253
+                  "WATER": 0,
+                  "PR": 2253,
+                  "PLANTED": true,
+                  "PLOTID": 2446
                },
                "owner": "spi-steemcity"
             },
@@ -34148,8 +34883,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2492
+                  "WATER": 0,
+                  "PR": 2492,
+                  "PLANTED": true,
+                  "PLOTID": 2449
                },
                "owner": "spi-steemcity"
             },
@@ -34159,8 +34896,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2372
+                  "WATER": 0,
+                  "PR": 2372,
+                  "PLANTED": true,
+                  "PLOTID": 2455
                },
                "owner": "spi-steemcity"
             },
@@ -34170,8 +34909,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2265
+                  "WATER": 0,
+                  "PR": 2265,
+                  "PLANTED": true,
+                  "PLOTID": 2458
                },
                "owner": "spi-steemcity"
             },
@@ -34182,7 +34923,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2185
+                  "PR": 2185,
+                  "PLANTED": true,
+                  "PLOTID": 2461
                },
                "owner": "spi-steemcity"
             },
@@ -34203,7 +34946,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
+                  "WATER": 0,
                   "PR": 4883,
                   "PLANTED": true,
                   "PLOTID": 2419
@@ -34227,8 +34970,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Durban Poison",
                   "SPT": 4,
-                  "WATER": 104,
-                  "PR": 2637
+                  "WATER": 0,
+                  "PR": 2637,
+                  "PLANTED": true,
+                  "PLOTID": 2434
                },
                "owner": "spi-steemcity"
             },
@@ -34249,8 +34994,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
-                  "PR": 4819
+                  "WATER": 0,
+                  "PR": 4819,
+                  "PLANTED": true,
+                  "PLOTID": 2437
                },
                "owner": "spi-steemcity"
             },
@@ -34260,8 +35007,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3892
+                  "WATER": 0,
+                  "PR": 3892,
+                  "PLANTED": true,
+                  "PLOTID": 2443
                },
                "owner": "spi-steemcity"
             },
@@ -34293,8 +35042,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Durban Poison",
                   "SPT": 4,
-                  "WATER": 104,
-                  "PR": 2795
+                  "WATER": 0,
+                  "PR": 2795,
+                  "PLANTED": true,
+                  "PLOTID": 2509
                },
                "owner": "spi-steemcity"
             },
@@ -34315,8 +35066,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
-                  "PR": 4624
+                  "WATER": 0,
+                  "PR": 4624,
+                  "PLANTED": true,
+                  "PLOTID": 2512
                },
                "owner": "spi-steemcity"
             },
@@ -34404,7 +35157,9 @@ module.exports = {
                   "NAME": "Durban Poison",
                   "SPT": 4,
                   "WATER": 104,
-                  "PR": 2711
+                  "PR": 2711,
+                  "PLANTED": true,
+                  "PLOTID": 2515
                },
                "owner": "spi-steemcity"
             },
@@ -34414,8 +35169,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
-                  "PR": 4614
+                  "WATER": 0,
+                  "PR": 4614,
+                  "PLANTED": true,
+                  "PLOTID": 2440
                },
                "owner": "spi-steemcity"
             },
@@ -34447,16 +35204,18 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2200
+                  "WATER": 0,
+                  "PR": 2200,
+                  "PLANTED": true,
+                  "PLOTID": 2452
                },
                "owner": "spi-steemcity"
             }
          ],
-         "hkwater": 960,
+         "hkwater": 2130,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 32,
+            "lvl1": 71,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -34740,7 +35499,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2203
                },
                "owner": "brofundholdings"
@@ -35105,7 +35864,9 @@ module.exports = {
                "id": 2626,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2625
                },
                "owner": "buritica"
             },
@@ -35163,7 +35924,9 @@ module.exports = {
                "id": 5092,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 5091,
+                  "OCCUPIED": true
                },
                "owner": "buritica"
             },
@@ -35201,7 +35964,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2455,
                   "PLOTID": 2617,
                   "PLANTED": true
@@ -35214,7 +35977,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 370,
                   "PLOTID": 2620,
                   "PLANTED": true
@@ -35227,7 +35990,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 543,
                   "PLOTID": 2623,
                   "PLANTED": true
@@ -35240,8 +36003,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 638
+                  "WATER": 0,
+                  "PR": 638,
+                  "PLANTED": true,
+                  "PLOTID": 2626
                },
                "owner": "buritica"
             },
@@ -35251,7 +36016,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2424,
                   "PLANTED": true,
                   "PLOTID": 2749
@@ -35264,7 +36029,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 157,
                   "PLOTID": 2752,
                   "PLANTED": true
@@ -35277,7 +36042,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 163,
                   "PLOTID": 3946,
                   "PLANTED": true
@@ -35290,7 +36055,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 591,
                   "PLANTED": true,
                   "PLOTID": 3943
@@ -35303,7 +36068,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 185,
                   "PLOTID": 3946,
                   "PLANTED": true
@@ -35316,8 +36081,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 830
+                  "WATER": 0,
+                  "PR": 830,
+                  "PLANTED": true,
+                  "PLOTID": 5092
                },
                "owner": "buritica"
             },
@@ -35327,7 +36094,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 568,
                   "PLANTED": true,
                   "PLOTID": 5095
@@ -35418,7 +36185,9 @@ module.exports = {
                "id": 2662,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2682
                },
                "owner": "mec45"
             },
@@ -35426,7 +36195,9 @@ module.exports = {
                "id": 2665,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2664
                },
                "owner": "mec45"
             },
@@ -35434,7 +36205,9 @@ module.exports = {
                "id": 2668,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2667
                },
                "owner": "mec45"
             },
@@ -35442,7 +36215,9 @@ module.exports = {
                "id": 2671,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2700
                },
                "owner": "mec45"
             },
@@ -35450,7 +36225,9 @@ module.exports = {
                "id": 2674,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2670
                },
                "owner": "mec45"
             },
@@ -35458,7 +36235,9 @@ module.exports = {
                "id": 2677,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2676
                },
                "owner": "mec45"
             },
@@ -35466,7 +36245,9 @@ module.exports = {
                "id": 2680,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2679
                },
                "owner": "mec45"
             },
@@ -35474,7 +36255,9 @@ module.exports = {
                "id": 2683,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2661
                },
                "owner": "mec45"
             },
@@ -35482,7 +36265,9 @@ module.exports = {
                "id": 2686,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2673
                },
                "owner": "mec45"
             },
@@ -35490,7 +36275,9 @@ module.exports = {
                "id": 2689,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3558
                },
                "owner": "mec45"
             },
@@ -35498,7 +36285,9 @@ module.exports = {
                "id": 2692,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2691
                },
                "owner": "mec45"
             },
@@ -35506,7 +36295,9 @@ module.exports = {
                "id": 2695,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3906
                },
                "owner": "mec45"
             },
@@ -35514,7 +36305,9 @@ module.exports = {
                "id": 2698,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 6765
                },
                "owner": "mec45"
             },
@@ -35522,7 +36315,9 @@ module.exports = {
                "id": 2701,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3903
                },
                "owner": "mec45"
             },
@@ -35530,7 +36325,9 @@ module.exports = {
                "id": 3550,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2685
                },
                "owner": "mec45"
             },
@@ -35538,7 +36335,9 @@ module.exports = {
                "id": 3553,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2694
                },
                "owner": "mec45"
             },
@@ -35546,7 +36345,9 @@ module.exports = {
                "id": 3556,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3552
                },
                "owner": "mec45"
             },
@@ -35554,7 +36355,9 @@ module.exports = {
                "id": 3559,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3591
                },
                "owner": "mec45"
             },
@@ -35562,7 +36365,9 @@ module.exports = {
                "id": 3592,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3555
                },
                "owner": "mec45"
             },
@@ -35570,7 +36375,9 @@ module.exports = {
                "id": 3904,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3549
                },
                "owner": "mec45"
             },
@@ -35578,7 +36385,9 @@ module.exports = {
                "id": 3907,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2688
                },
                "owner": "mec45"
             },
@@ -35588,7 +36397,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 2697
                },
                "owner": "mec45"
             }
@@ -35603,8 +36413,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 149
+                  "WATER": 0,
+                  "PR": 149,
+                  "PLANTED": true,
+                  "PLOTID": 2683
                },
                "owner": "mec45"
             },
@@ -35615,7 +36427,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 588
+                  "PR": 588,
+                  "PLANTED": true,
+                  "PLOTID": 2665
                },
                "owner": "mec45"
             },
@@ -35625,8 +36439,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2304
+                  "WATER": 0,
+                  "PR": 2304,
+                  "PLANTED": true,
+                  "PLOTID": 2668
                },
                "owner": "mec45"
             },
@@ -35636,8 +36452,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2391
+                  "WATER": 0,
+                  "PR": 2391,
+                  "PLANTED": true,
+                  "PLOTID": 2674
                },
                "owner": "mec45"
             },
@@ -35647,8 +36465,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2332
+                  "WATER": 0,
+                  "PR": 2332,
+                  "PLANTED": true,
+                  "PLOTID": 2686
                },
                "owner": "mec45"
             },
@@ -35658,8 +36478,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1560
+                  "WATER": 0,
+                  "PR": 1560,
+                  "PLANTED": true,
+                  "PLOTID": 2677
                },
                "owner": "mec45"
             },
@@ -35669,8 +36491,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 532
+                  "WATER": 0,
+                  "PR": 532,
+                  "PLANTED": true,
+                  "PLOTID": 2680
                },
                "owner": "mec45"
             },
@@ -35680,8 +36504,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 207
+                  "WATER": 0,
+                  "PR": 207,
+                  "PLANTED": true,
+                  "PLOTID": 2662
                },
                "owner": "mec45"
             },
@@ -35691,8 +36517,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2305
+                  "WATER": 0,
+                  "PR": 2305,
+                  "PLANTED": true,
+                  "PLOTID": 3550
                },
                "owner": "mec45"
             },
@@ -35702,8 +36530,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2252
+                  "WATER": 0,
+                  "PR": 2252,
+                  "PLANTED": true,
+                  "PLOTID": 3907
                },
                "owner": "mec45"
             },
@@ -35713,8 +36543,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 600
+                  "WATER": 0,
+                  "PR": 600,
+                  "PLANTED": true,
+                  "PLOTID": 2692
                },
                "owner": "mec45"
             },
@@ -35724,8 +36556,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2420
+                  "WATER": 0,
+                  "PR": 2420,
+                  "PLANTED": true,
+                  "PLOTID": 3553
                },
                "owner": "mec45"
             },
@@ -35735,8 +36569,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Hindu Kush",
                   "SPT": 4,
-                  "WATER": 82,
-                  "PR": 2098
+                  "WATER": 0,
+                  "PR": 2098,
+                  "PLANTED": true,
+                  "PLOTID": 6766
                },
                "owner": "mec45"
             },
@@ -35746,8 +36582,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3639
+                  "WATER": 0,
+                  "PR": 3639,
+                  "PLANTED": true,
+                  "PLOTID": 2671
                },
                "owner": "mec45"
             },
@@ -35757,8 +36595,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2340
+                  "WATER": 0,
+                  "PR": 2340,
+                  "PLANTED": true,
+                  "PLOTID": 3904
                },
                "owner": "mec45"
             },
@@ -35768,8 +36608,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2466
+                  "WATER": 0,
+                  "PR": 2466,
+                  "PLANTED": true,
+                  "PLOTID": 3556
                },
                "owner": "mec45"
             },
@@ -35779,8 +36621,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2378
+                  "WATER": 0,
+                  "PR": 2378,
+                  "PLANTED": true,
+                  "PLOTID": 3592
                },
                "owner": "mec45"
             },
@@ -35790,8 +36634,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3725
+                  "WATER": 0,
+                  "PR": 3725,
+                  "PLANTED": true,
+                  "PLOTID": 2689
                },
                "owner": "mec45"
             },
@@ -35801,8 +36647,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2310
+                  "WATER": 0,
+                  "PR": 2310,
+                  "PLANTED": true,
+                  "PLOTID": 3559
                },
                "owner": "mec45"
             },
@@ -35812,8 +36660,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2372
+                  "WATER": 0,
+                  "PR": 2372,
+                  "PLANTED": true,
+                  "PLOTID": 2701
                },
                "owner": "mec45"
             },
@@ -35823,8 +36673,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
-                  "PR": 4622
+                  "WATER": 0,
+                  "PR": 4622,
+                  "PLANTED": true,
+                  "PLOTID": 2695
                },
                "owner": "mec45"
             },
@@ -35834,8 +36686,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1450
+                  "WATER": 0,
+                  "PR": 1450,
+                  "PLANTED": true,
+                  "PLOTID": 2698
                },
                "owner": "mec45"
             }
@@ -35958,7 +36812,9 @@ module.exports = {
                "id": 4003,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4002
                },
                "owner": "zeusdy"
             },
@@ -36079,7 +36935,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3701,
                   "PLOTID": 2704,
                   "PLANTED": true
@@ -36114,8 +36970,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 708
+                  "WATER": 0,
+                  "PR": 708,
+                  "PLANTED": true,
+                  "PLOTID": 4003
                },
                "owner": "zeusdy"
             },
@@ -36175,10 +37033,10 @@ module.exports = {
                "owner": "zeusdy"
             }
          ],
-         "hkwater": 1830,
+         "hkwater": 2100,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 61,
+            "lvl1": 70,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36259,7 +37117,9 @@ module.exports = {
                "id": 2707,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 2706,
+                  "OCCUPIED": true
                },
                "owner": "boitata"
             },
@@ -36267,7 +37127,9 @@ module.exports = {
                "id": 2722,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2721
                },
                "owner": "boitata"
             },
@@ -36275,7 +37137,9 @@ module.exports = {
                "id": 2725,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2724
                },
                "owner": "boitata"
             }
@@ -36291,7 +37155,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2176
+                  "PR": 2176,
+                  "PLOTID": 2707,
+                  "PLANTED": true
                },
                "owner": "boitata"
             },
@@ -36302,7 +37168,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 154
+                  "PR": 154,
+                  "PLOTID": 2722,
+                  "PLANTED": true
                },
                "owner": "boitata"
             },
@@ -36313,7 +37181,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 297
+                  "PR": 297,
+                  "PLANTED": true,
+                  "PLOTID": 2725
                },
                "owner": "boitata"
             }
@@ -36402,7 +37272,9 @@ module.exports = {
                "id": 2719,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4830
                },
                "owner": "drisinger"
             },
@@ -36410,7 +37282,9 @@ module.exports = {
                "id": 4828,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 4830,
+                  "OCCUPIED": true
                },
                "owner": "drisinger"
             },
@@ -36418,7 +37292,9 @@ module.exports = {
                "id": 4831,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2718
                },
                "owner": "drisinger"
             },
@@ -36426,7 +37302,9 @@ module.exports = {
                "id": 4834,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4827
                },
                "owner": "drisinger"
             }
@@ -36441,8 +37319,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 54
+                  "WATER": 0,
+                  "PR": 54,
+                  "PLANTED": true,
+                  "PLOTID": 4831
                },
                "owner": "drisinger"
             },
@@ -36453,7 +37333,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 157
+                  "PR": 157,
+                  "PLANTED": true,
+                  "PLOTID": 4834
                },
                "owner": "drisinger"
             },
@@ -36463,8 +37345,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 211
+                  "WATER": 0,
+                  "PR": 211,
+                  "PLANTED": true,
+                  "PLOTID": 4828
                },
                "owner": "drisinger"
             },
@@ -36480,10 +37364,10 @@ module.exports = {
                "owner": "drisinger"
             }
          ],
-         "hkwater": 120,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -36564,7 +37448,9 @@ module.exports = {
                "id": 350,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 349
                },
                "owner": "luffy1737"
             },
@@ -36587,8 +37473,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 275
+                  "WATER": 0,
+                  "PR": 275,
+                  "PLANTED": true,
+                  "PLOTID": 350
                },
                "owner": "luffy1737"
             },
@@ -36688,7 +37576,9 @@ module.exports = {
                "id": 2731,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2730
                },
                "owner": "zanrsc"
             },
@@ -36696,7 +37586,9 @@ module.exports = {
                "id": 4735,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4734
                },
                "owner": "zanrsc"
             },
@@ -36704,7 +37596,9 @@ module.exports = {
                "id": 4738,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4737
                },
                "owner": "zanrsc"
             },
@@ -36714,7 +37608,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5463
                },
                "owner": "zanrsc"
             },
@@ -36760,7 +37655,9 @@ module.exports = {
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
                   "WATER": 137,
-                  "PR": 3684
+                  "PR": 3684,
+                  "PLANTED": true,
+                  "PLOTID": 2731
                },
                "owner": "zanrsc"
             },
@@ -36771,7 +37668,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 673
+                  "PR": 673,
+                  "PLANTED": true,
+                  "PLOTID": 4735
                },
                "owner": "zanrsc"
             },
@@ -36781,8 +37680,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 321
+                  "WATER": 0,
+                  "PR": 321,
+                  "PLANTED": true,
+                  "PLOTID": 4738
                },
                "owner": "zanrsc"
             },
@@ -36792,8 +37693,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 109
+                  "WATER": 0,
+                  "PR": 109,
+                  "PLANTED": true,
+                  "PLOTID": 5464
                },
                "owner": "zanrsc"
             },
@@ -36831,10 +37734,10 @@ module.exports = {
                "owner": "zanrsc"
             }
          ],
-         "hkwater": 210,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 7,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -37009,7 +37912,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 62,
                   "PLOTID": 6382,
                   "PLANTED": true
@@ -37022,7 +37925,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1750,
                   "PLANTED": true,
                   "PLOTID": 3565
@@ -37035,7 +37938,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 314,
                   "PLOTID": 6385,
                   "PLANTED": true
@@ -37059,7 +37962,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 205,
                   "PLOTID": 6388,
                   "PLANTED": true
@@ -37072,7 +37975,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 459,
                   "PLANTED": true,
                   "PLOTID": 6391
@@ -37395,7 +38298,9 @@ module.exports = {
                "id": 2767,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2766
                },
                "owner": "chemams19"
             },
@@ -37420,8 +38325,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 120
+                  "WATER": 0,
+                  "PR": 120,
+                  "PLANTED": true,
+                  "PLOTID": 2767
                },
                "owner": "chemams19"
             },
@@ -37632,7 +38539,9 @@ module.exports = {
                "id": 2773,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2772
                },
                "owner": "eduarz150792"
             },
@@ -37640,7 +38549,9 @@ module.exports = {
                "id": 2776,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2775
                },
                "owner": "eduarz150792"
             },
@@ -37648,7 +38559,9 @@ module.exports = {
                "id": 2779,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2778
                },
                "owner": "eduarz150792"
             },
@@ -37656,7 +38569,9 @@ module.exports = {
                "id": 2782,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2781
                },
                "owner": "eduarz150792"
             },
@@ -37664,7 +38579,9 @@ module.exports = {
                "id": 2785,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2784
                },
                "owner": "eduarz150792"
             },
@@ -37672,7 +38589,9 @@ module.exports = {
                "id": 2788,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2790
                },
                "owner": "eduarz150792"
             },
@@ -37680,7 +38599,9 @@ module.exports = {
                "id": 2791,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2787
                },
                "owner": "eduarz150792"
             },
@@ -37688,7 +38609,9 @@ module.exports = {
                "id": 2794,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2796
                },
                "owner": "eduarz150792"
             },
@@ -37696,7 +38619,9 @@ module.exports = {
                "id": 2797,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2796
                },
                "owner": "eduarz150792"
             },
@@ -37728,7 +38653,9 @@ module.exports = {
                "id": 2845,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2844
                },
                "owner": "eduarz150792"
             }
@@ -37743,8 +38670,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 267
+                  "WATER": 0,
+                  "PR": 267,
+                  "PLANTED": true,
+                  "PLOTID": 2773
                },
                "owner": "eduarz150792"
             },
@@ -37754,8 +38683,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 180
+                  "WATER": 0,
+                  "PR": 180,
+                  "PLANTED": true,
+                  "PLOTID": 2776
                },
                "owner": "eduarz150792"
             },
@@ -37765,8 +38696,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 70
+                  "WATER": 0,
+                  "PR": 70,
+                  "PLANTED": true,
+                  "PLOTID": 2779
                },
                "owner": "eduarz150792"
             },
@@ -37776,8 +38709,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3656
+                  "WATER": 0,
+                  "PR": 3656,
+                  "PLANTED": true,
+                  "PLOTID": 2782
                },
                "owner": "eduarz150792"
             },
@@ -37788,7 +38723,9 @@ module.exports = {
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
                   "WATER": 137,
-                  "PR": 3540
+                  "PR": 3540,
+                  "PLANTED": true,
+                  "PLOTID": 2785
                },
                "owner": "eduarz150792"
             },
@@ -37798,8 +38735,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 461
+                  "WATER": 0,
+                  "PR": 461,
+                  "PLANTED": true,
+                  "PLOTID": 2791
                },
                "owner": "eduarz150792"
             },
@@ -37809,8 +38748,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 537
+                  "WATER": 0,
+                  "PR": 537,
+                  "PLANTED": true,
+                  "PLOTID": 2788
                },
                "owner": "eduarz150792"
             },
@@ -37821,7 +38762,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 777
+                  "PR": 777,
+                  "PLANTED": true,
+                  "PLOTID": 2794
                },
                "owner": "eduarz150792"
             },
@@ -37831,8 +38774,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 808
+                  "WATER": 0,
+                  "PR": 808,
+                  "PLANTED": true,
+                  "PLOTID": 2797
                },
                "owner": "eduarz150792"
             },
@@ -37875,8 +38820,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 557
+                  "WATER": 0,
+                  "PR": 557,
+                  "PLANTED": true,
+                  "PLOTID": 2845
                },
                "owner": "eduarz150792"
             }
@@ -37948,7 +38895,9 @@ module.exports = {
                "id": 2800,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2799
                },
                "owner": "largo24"
             },
@@ -37980,7 +38929,9 @@ module.exports = {
                "id": 2827,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2829
                },
                "owner": "largo24"
             },
@@ -38068,7 +39019,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2367
+                  "PR": 2367,
+                  "PLANTED": true,
+                  "PLOTID": 2800
                },
                "owner": "largo24"
             },
@@ -38123,7 +39076,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 104
+                  "PR": 104,
+                  "PLANTED": true,
+                  "PLOTID": 2827
                },
                "owner": "largo24"
             },
@@ -38308,7 +39263,9 @@ module.exports = {
                "id": 2806,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2805
                },
                "owner": "duaystive"
             },
@@ -38324,7 +39281,9 @@ module.exports = {
                "id": 2812,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5382
                },
                "owner": "duaystive"
             },
@@ -38361,7 +39320,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 815
+                  "PR": 815,
+                  "PLANTED": true,
+                  "PLOTID": 2806
                },
                "owner": "duaystive"
             },
@@ -38394,7 +39355,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 192
+                  "PR": 192,
+                  "PLANTED": true,
+                  "PLOTID": 2812
                },
                "owner": "duaystive"
             }
@@ -38483,7 +39446,9 @@ module.exports = {
                "id": 2851,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2850
                },
                "owner": "anyeloert"
             }
@@ -38499,7 +39464,9 @@ module.exports = {
                   "NAME": "Hindu Kush",
                   "SPT": 4,
                   "WATER": 82,
-                  "PR": 2073
+                  "PR": 2073,
+                  "PLANTED": true,
+                  "PLOTID": 2851
                },
                "owner": "anyeloert"
             }
@@ -38635,7 +39602,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
+                  "WATER": 0,
                   "PR": 4630,
                   "PLANTED": true,
                   "PLOTID": 2854
@@ -38674,7 +39641,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1470,
                   "PLANTED": true,
                   "PLOTID": 2869
@@ -38766,7 +39733,9 @@ module.exports = {
                "id": 2857,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2856
                },
                "owner": "olgerv1"
             },
@@ -38774,7 +39743,9 @@ module.exports = {
                "id": 2863,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2862
                },
                "owner": "olgerv1"
             },
@@ -38790,7 +39761,9 @@ module.exports = {
                "id": 2875,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2874
                },
                "owner": "olgerv1"
             },
@@ -38829,8 +39802,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2393
+                  "WATER": 0,
+                  "PR": 2393,
+                  "PLANTED": true,
+                  "PLOTID": 2857
                },
                "owner": "olgerv1"
             },
@@ -38840,8 +39815,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 612
+                  "WATER": 0,
+                  "PR": 612,
+                  "PLANTED": true,
+                  "PLOTID": 2863
                },
                "owner": "olgerv1"
             },
@@ -38862,8 +39839,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 183
+                  "WATER": 0,
+                  "PR": 183,
+                  "PLANTED": true,
+                  "PLOTID": 2875
                },
                "owner": "olgerv1"
             },
@@ -38995,7 +39974,9 @@ module.exports = {
                "id": 2902,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 589
                },
                "owner": "hissing1"
             },
@@ -39058,8 +40039,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 281
+                  "WATER": 0,
+                  "PR": 281,
+                  "PLANTED": true,
+                  "PLOTID": 2902
                },
                "owner": "hissing1"
             },
@@ -39069,7 +40052,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 455,
                   "PLOTID": 2911,
                   "PLANTED": true
@@ -39106,7 +40089,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 824,
                   "PLANTED": true,
                   "PLOTID": 2908
@@ -39132,7 +40115,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2239,
                   "PLANTED": true,
                   "PLOTID": 2905
@@ -39145,7 +40128,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 470,
                   "PLOTID": 2899,
                   "PLANTED": true
@@ -39926,7 +40909,9 @@ module.exports = {
                "id": 3025,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 3024,
+                  "OCCUPIED": true
                },
                "owner": "jagerocker"
             },
@@ -39934,7 +40919,9 @@ module.exports = {
                "id": 3028,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3027
                },
                "owner": "jagerocker"
             }
@@ -39949,8 +40936,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 192
+                  "WATER": 0,
+                  "PR": 192,
+                  "PLOTID": 3025,
+                  "PLANTED": true
                },
                "owner": "jagerocker"
             },
@@ -39960,8 +40949,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 354
+                  "WATER": 0,
+                  "PR": 354,
+                  "PLANTED": true,
+                  "PLOTID": 3028
                },
                "owner": "jagerocker"
             }
@@ -40050,7 +41041,9 @@ module.exports = {
                "id": 3034,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3033
                },
                "owner": "dgon"
             }
@@ -40066,7 +41059,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 765
+                  "PR": 765,
+                  "PLANTED": true,
+                  "PLOTID": 3034
                },
                "owner": "dgon"
             }
@@ -40155,7 +41150,9 @@ module.exports = {
                "id": 3037,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3036
                },
                "owner": "kokebo"
             }
@@ -40171,7 +41168,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2446
+                  "PR": 2446,
+                  "PLANTED": true,
+                  "PLOTID": 3037
                },
                "owner": "kokebo"
             }
@@ -40276,7 +41275,9 @@ module.exports = {
                "id": 3046,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3045
                },
                "owner": "davidagn79"
             },
@@ -40323,8 +41324,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 201
+                  "WATER": 0,
+                  "PR": 201,
+                  "PLANTED": true,
+                  "PLOTID": 3046
                },
                "owner": "davidagn79"
             },
@@ -40424,7 +41427,9 @@ module.exports = {
                "id": 3049,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3048
                },
                "owner": "inek18"
             },
@@ -40432,7 +41437,9 @@ module.exports = {
                "id": 3052,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3051
                },
                "owner": "inek18"
             },
@@ -40440,7 +41447,9 @@ module.exports = {
                "id": 3055,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3054
                },
                "owner": "inek18"
             },
@@ -40448,7 +41457,9 @@ module.exports = {
                "id": 3058,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3057
                },
                "owner": "inek18"
             },
@@ -40456,7 +41467,9 @@ module.exports = {
                "id": 3061,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3060
                },
                "owner": "inek18"
             },
@@ -40464,7 +41477,9 @@ module.exports = {
                "id": 3064,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3063
                },
                "owner": "inek18"
             },
@@ -40472,7 +41487,9 @@ module.exports = {
                "id": 3067,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3066
                },
                "owner": "inek18"
             },
@@ -40480,7 +41497,9 @@ module.exports = {
                "id": 3070,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3069
                },
                "owner": "inek18"
             },
@@ -40488,7 +41507,9 @@ module.exports = {
                "id": 3076,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3075
                },
                "owner": "inek18"
             }
@@ -40504,7 +41525,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2230
+                  "PR": 2230,
+                  "PLANTED": true,
+                  "PLOTID": 3049
                },
                "owner": "inek18"
             },
@@ -40515,7 +41538,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 446
+                  "PR": 446,
+                  "PLANTED": true,
+                  "PLOTID": 3052
                },
                "owner": "inek18"
             },
@@ -40526,7 +41551,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 647
+                  "PR": 647,
+                  "PLANTED": true,
+                  "PLOTID": 3055
                },
                "owner": "inek18"
             },
@@ -40537,7 +41564,9 @@ module.exports = {
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
                   "WATER": 137,
-                  "PR": 3555
+                  "PR": 3555,
+                  "PLANTED": true,
+                  "PLOTID": 3058
                },
                "owner": "inek18"
             },
@@ -40548,7 +41577,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 573
+                  "PR": 573,
+                  "PLANTED": true,
+                  "PLOTID": 3061
                },
                "owner": "inek18"
             },
@@ -40559,7 +41590,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 676
+                  "PR": 676,
+                  "PLANTED": true,
+                  "PLOTID": 3064
                },
                "owner": "inek18"
             },
@@ -40570,7 +41603,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2184
+                  "PR": 2184,
+                  "PLANTED": true,
+                  "PLOTID": 3067
                },
                "owner": "inek18"
             },
@@ -40581,7 +41616,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2192
+                  "PR": 2192,
+                  "PLANTED": true,
+                  "PLOTID": 3070
                },
                "owner": "inek18"
             },
@@ -40592,7 +41629,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 262
+                  "PR": 262,
+                  "PLANTED": true,
+                  "PLOTID": 3076
                },
                "owner": "inek18"
             }
@@ -40681,7 +41720,9 @@ module.exports = {
                "id": 3073,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3084
                },
                "owner": "leaisx"
             },
@@ -40689,7 +41730,9 @@ module.exports = {
                "id": 3079,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3078
                },
                "owner": "leaisx"
             },
@@ -40697,7 +41740,9 @@ module.exports = {
                "id": 3085,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3072
                },
                "owner": "leaisx"
             },
@@ -40705,7 +41750,9 @@ module.exports = {
                "id": 3088,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3087
                },
                "owner": "leaisx"
             },
@@ -40713,7 +41760,9 @@ module.exports = {
                "id": 3091,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3090
                },
                "owner": "leaisx"
             },
@@ -40721,7 +41770,9 @@ module.exports = {
                "id": 3826,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3825
                },
                "owner": "leaisx"
             }
@@ -40737,7 +41788,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 213
+                  "PR": 213,
+                  "PLANTED": true,
+                  "PLOTID": 3085
                },
                "owner": "leaisx"
             },
@@ -40747,8 +41800,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2517
+                  "WATER": 0,
+                  "PR": 2517,
+                  "PLANTED": true,
+                  "PLOTID": 3079
                },
                "owner": "leaisx"
             },
@@ -40759,7 +41814,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 294
+                  "PR": 294,
+                  "PLANTED": true,
+                  "PLOTID": 3073
                },
                "owner": "leaisx"
             },
@@ -40770,7 +41827,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 749
+                  "PR": 749,
+                  "PLANTED": true,
+                  "PLOTID": 3088
                },
                "owner": "leaisx"
             },
@@ -40781,7 +41840,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 379
+                  "PR": 379,
+                  "PLANTED": true,
+                  "PLOTID": 3091
                },
                "owner": "leaisx"
             },
@@ -40792,15 +41853,17 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 321
+                  "PR": 321,
+                  "PLANTED": true,
+                  "PLOTID": 3826
                },
                "owner": "leaisx"
             }
          ],
-         "hkwater": 180,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -40881,7 +41944,9 @@ module.exports = {
                "id": 3082,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3081
                },
                "owner": "tatovzla"
             },
@@ -40889,7 +41954,9 @@ module.exports = {
                "id": 3118,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3117
                },
                "owner": "tatovzla"
             },
@@ -40897,7 +41964,9 @@ module.exports = {
                "id": 3121,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3126
                },
                "owner": "tatovzla"
             },
@@ -40905,7 +41974,9 @@ module.exports = {
                "id": 3124,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3129
                },
                "owner": "tatovzla"
             },
@@ -40913,7 +41984,9 @@ module.exports = {
                "id": 3127,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3120
                },
                "owner": "tatovzla"
             },
@@ -40921,7 +41994,9 @@ module.exports = {
                "id": 3130,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3123
                },
                "owner": "tatovzla"
             }
@@ -40936,8 +42011,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Durban Poison",
                   "SPT": 4,
-                  "WATER": 104,
-                  "PR": 2826
+                  "WATER": 0,
+                  "PR": 2826,
+                  "PLANTED": true,
+                  "PLOTID": 3082
                },
                "owner": "tatovzla"
             },
@@ -40947,8 +42024,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 217
+                  "WATER": 0,
+                  "PR": 217,
+                  "PLANTED": true,
+                  "PLOTID": 3118
                },
                "owner": "tatovzla"
             },
@@ -40958,8 +42037,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 203
+                  "WATER": 0,
+                  "PR": 203,
+                  "PLANTED": true,
+                  "PLOTID": 3127
                },
                "owner": "tatovzla"
             },
@@ -40969,8 +42050,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 252
+                  "WATER": 0,
+                  "PR": 252,
+                  "PLANTED": true,
+                  "PLOTID": 3130
                },
                "owner": "tatovzla"
             },
@@ -40980,8 +42063,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 289
+                  "WATER": 0,
+                  "PR": 289,
+                  "PLANTED": true,
+                  "PLOTID": 3121
                },
                "owner": "tatovzla"
             },
@@ -40991,16 +42076,18 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 117
+                  "WATER": 0,
+                  "PR": 117,
+                  "PLANTED": true,
+                  "PLOTID": 3124
                },
                "owner": "tatovzla"
             }
          ],
-         "hkwater": 180,
+         "hkwater": 600,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 20,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41109,7 +42196,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1695,
                   "PLANTED": true,
                   "PLOTID": 3094
@@ -41117,10 +42204,10 @@ module.exports = {
                "owner": "leon95"
             }
          ],
-         "hkwater": 210,
+         "hkwater": 540,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 7,
+            "lvl1": 18,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -41201,7 +42288,9 @@ module.exports = {
                "id": 3097,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 3096,
+                  "OCCUPIED": true
                },
                "owner": "ksyuca007"
             },
@@ -41209,7 +42298,9 @@ module.exports = {
                "id": 3100,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3096
                },
                "owner": "ksyuca007"
             },
@@ -41217,7 +42308,9 @@ module.exports = {
                "id": 3103,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 3099,
+                  "OCCUPIED": true
                },
                "owner": "ksyuca007"
             }
@@ -41233,7 +42326,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 754
+                  "PR": 754,
+                  "PLANTED": true,
+                  "PLOTID": 3100
                },
                "owner": "ksyuca007"
             },
@@ -41244,7 +42339,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 847
+                  "PR": 847,
+                  "PLANTED": true,
+                  "PLOTID": 3103
                },
                "owner": "ksyuca007"
             },
@@ -41718,7 +42815,9 @@ module.exports = {
                "id": 3178,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3288
                },
                "owner": "elbakalah"
             },
@@ -41726,7 +42825,9 @@ module.exports = {
                "id": 3184,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3183
                },
                "owner": "elbakalah"
             },
@@ -41744,7 +42845,9 @@ module.exports = {
                "id": 3199,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3198
                },
                "owner": "elbakalah"
             },
@@ -41779,7 +42882,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 488
+                  "PR": 488,
+                  "PLANTED": true,
+                  "PLOTID": 3184
                },
                "owner": "elbakalah"
             },
@@ -41789,7 +42894,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 343,
                   "PLANTED": true,
                   "PLOTID": 3187
@@ -41803,7 +42908,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 835
+                  "PR": 835,
+                  "PLANTED": true,
+                  "PLOTID": 3199
                },
                "owner": "elbakalah"
             },
@@ -41813,8 +42920,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
-                  "PR": 3647
+                  "WATER": 0,
+                  "PR": 3647,
+                  "PLANTED": true,
+                  "PLOTID": 3178
                },
                "owner": "elbakalah"
             }
@@ -42401,7 +43510,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2242,
                   "PLANTED": true,
                   "PLOTID": 3283
@@ -42414,7 +43523,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 138,
                   "PLOTID": 4555,
                   "PLANTED": true
@@ -42427,7 +43536,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 439,
                   "PLOTID": 4558,
                   "PLANTED": true
@@ -42566,7 +43675,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2478,
                   "PLOTID": 3292,
                   "PLANTED": true
@@ -42579,7 +43688,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2357,
                   "PLOTID": 3295,
                   "PLANTED": true
@@ -42592,7 +43701,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 162,
                   "PLOTID": 3298,
                   "PLANTED": true
@@ -42724,7 +43833,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2405,
                   "PLANTED": true,
                   "PLOTID": 3304
@@ -42737,7 +43846,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 124,
                   "PLOTID": 4537,
                   "PLANTED": true
@@ -42913,7 +44022,9 @@ module.exports = {
                "id": 3319,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3318
                },
                "owner": "yudai"
             },
@@ -42921,7 +44032,9 @@ module.exports = {
                "id": 3322,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3324
                },
                "owner": "yudai"
             },
@@ -42929,7 +44042,9 @@ module.exports = {
                "id": 3325,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3327
                },
                "owner": "yudai"
             },
@@ -42937,7 +44052,9 @@ module.exports = {
                "id": 3328,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3330
                },
                "owner": "yudai"
             },
@@ -42945,7 +44062,9 @@ module.exports = {
                "id": 3331,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3336
                },
                "owner": "yudai"
             },
@@ -42953,7 +44072,9 @@ module.exports = {
                "id": 3334,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3339
                },
                "owner": "yudai"
             },
@@ -42961,7 +44082,9 @@ module.exports = {
                "id": 3337,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3333
                },
                "owner": "yudai"
             },
@@ -42969,7 +44092,9 @@ module.exports = {
                "id": 3340,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3321
                },
                "owner": "yudai"
             }
@@ -42985,7 +44110,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2410
+                  "PR": 2410,
+                  "PLANTED": true,
+                  "PLOTID": 3319
                },
                "owner": "yudai"
             },
@@ -42996,7 +44123,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 107
+                  "PR": 107,
+                  "PLANTED": true,
+                  "PLOTID": 3340
                },
                "owner": "yudai"
             },
@@ -43007,7 +44136,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 126
+                  "PR": 126,
+                  "PLANTED": true,
+                  "PLOTID": 3322
                },
                "owner": "yudai"
             },
@@ -43018,7 +44149,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 230
+                  "PR": 230,
+                  "PLANTED": true,
+                  "PLOTID": 3325
                },
                "owner": "yudai"
             },
@@ -43029,7 +44162,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 313
+                  "PR": 313,
+                  "PLANTED": true,
+                  "PLOTID": 3328
                },
                "owner": "yudai"
             },
@@ -43040,7 +44175,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 102
+                  "PR": 102,
+                  "PLANTED": true,
+                  "PLOTID": 3337
                },
                "owner": "yudai"
             },
@@ -43051,7 +44188,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 140
+                  "PR": 140,
+                  "PLANTED": true,
+                  "PLOTID": 3331
                },
                "owner": "yudai"
             },
@@ -43062,7 +44201,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 280
+                  "PR": 280,
+                  "PLANTED": true,
+                  "PLOTID": 3334
                },
                "owner": "yudai"
             }
@@ -43293,7 +44434,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2384,
                   "PLOTID": 3346,
                   "PLANTED": true
@@ -43306,7 +44447,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 203,
                   "PLANTED": true,
                   "PLOTID": 3349
@@ -43319,7 +44460,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 176,
                   "PLOTID": 3352,
                   "PLANTED": true
@@ -43611,7 +44752,9 @@ module.exports = {
                "id": 3373,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3375
                },
                "owner": "masterwarclash"
             },
@@ -43619,7 +44762,9 @@ module.exports = {
                "id": 3376,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3378
                },
                "owner": "masterwarclash"
             },
@@ -43627,7 +44772,9 @@ module.exports = {
                "id": 3379,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3372
                },
                "owner": "masterwarclash"
             }
@@ -43642,8 +44789,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 223
+                  "WATER": 0,
+                  "PR": 223,
+                  "PLANTED": true,
+                  "PLOTID": 3379
                },
                "owner": "masterwarclash"
             },
@@ -43653,8 +44802,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 286
+                  "WATER": 0,
+                  "PR": 286,
+                  "PLANTED": true,
+                  "PLOTID": 3373
                },
                "owner": "masterwarclash"
             },
@@ -43664,8 +44815,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 306
+                  "WATER": 0,
+                  "PR": 306,
+                  "PLANTED": true,
+                  "PLOTID": 3376
                },
                "owner": "masterwarclash"
             }
@@ -43754,7 +44907,9 @@ module.exports = {
                "id": 3382,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3381
                },
                "owner": "vixda"
             },
@@ -43762,7 +44917,9 @@ module.exports = {
                "id": 3385,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3384
                },
                "owner": "vixda"
             }
@@ -43778,7 +44935,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 386
+                  "PR": 386,
+                  "PLANTED": true,
+                  "PLOTID": 3382
                },
                "owner": "vixda"
             },
@@ -43789,7 +44948,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2440
+                  "PR": 2440,
+                  "PLANTED": true,
+                  "PLOTID": 3385
                },
                "owner": "vixda"
             }
@@ -43878,7 +45039,9 @@ module.exports = {
                "id": 3388,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3387
                },
                "owner": "richardmt95"
             },
@@ -43886,7 +45049,9 @@ module.exports = {
                "id": 3391,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3390
                },
                "owner": "richardmt95"
             }
@@ -43901,8 +45066,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 385
+                  "WATER": 0,
+                  "PR": 385,
+                  "PLANTED": true,
+                  "PLOTID": 3388
                },
                "owner": "richardmt95"
             },
@@ -43912,8 +45079,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 169
+                  "WATER": 0,
+                  "PR": 169,
+                  "PLANTED": true,
+                  "PLOTID": 3391
                },
                "owner": "richardmt95"
             }
@@ -44045,7 +45214,9 @@ module.exports = {
                "id": 3421,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3420
                },
                "owner": "planchero"
             },
@@ -44053,7 +45224,9 @@ module.exports = {
                "id": 3424,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 3423,
+                  "OCCUPIED": true
                },
                "owner": "planchero"
             },
@@ -44061,7 +45234,9 @@ module.exports = {
                "id": 3427,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3426
                },
                "owner": "planchero"
             },
@@ -44139,7 +45314,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 529,
                   "PLANTED": true,
                   "PLOTID": 3397
@@ -44152,7 +45327,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 160,
                   "PLANTED": true
                },
@@ -44164,7 +45339,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 329,
                   "PLANTED": true,
                   "PLOTID": 3412
@@ -44177,7 +45352,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 461,
                   "PLANTED": true,
                   "PLOTID": 3415
@@ -44190,7 +45365,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 374,
                   "PLANTED": true,
                   "PLOTID": 3418
@@ -44203,8 +45378,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 684
+                  "WATER": 0,
+                  "PR": 684,
+                  "PLOTID": 3421,
+                  "PLANTED": true
                },
                "owner": "planchero"
             },
@@ -44214,8 +45391,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 786
+                  "WATER": 0,
+                  "PR": 786,
+                  "PLOTID": 3424,
+                  "PLANTED": true
                },
                "owner": "planchero"
             },
@@ -44225,8 +45404,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 628
+                  "WATER": 0,
+                  "PR": 628,
+                  "PLANTED": true,
+                  "PLOTID": 3427
                },
                "owner": "planchero"
             },
@@ -44236,7 +45417,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2473,
                   "PLANTED": true,
                   "PLOTID": 3430
@@ -44249,7 +45430,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3687,
                   "PLOTID": 3433,
                   "PLANTED": true
@@ -44262,7 +45443,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2383,
                   "PLOTID": 3436,
                   "PLANTED": true
@@ -44275,7 +45456,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Kilimanjaro",
                   "SPT": 3,
-                  "WATER": 137,
+                  "WATER": 0,
                   "PR": 3851,
                   "PLANTED": true,
                   "PLOTID": 3439
@@ -44882,7 +46063,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 576,
                   "PLOTID": 6772,
                   "PLANTED": true
@@ -44895,7 +46076,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2467,
                   "PLANTED": true,
                   "PLOTID": 3616
@@ -44908,7 +46089,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 30,
                   "PLOTID": 6973,
                   "PLANTED": true
@@ -44921,7 +46102,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 463,
                   "PLANTED": true,
                   "PLOTID": 6772
@@ -44934,7 +46115,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 209,
                   "PLANTED": true,
                   "PLOTID": 6973
@@ -45169,7 +46350,9 @@ module.exports = {
                "id": 3487,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3486
                },
                "owner": "emqcripto"
             },
@@ -45177,7 +46360,9 @@ module.exports = {
                "id": 3499,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3498
                },
                "owner": "emqcripto"
             },
@@ -45185,7 +46370,9 @@ module.exports = {
                "id": 3502,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3501
                },
                "owner": "emqcripto"
             },
@@ -45203,7 +46390,9 @@ module.exports = {
                "id": 3508,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3507
                },
                "owner": "emqcripto"
             },
@@ -45211,7 +46400,9 @@ module.exports = {
                "id": 3511,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3513
                },
                "owner": "emqcripto"
             },
@@ -45219,7 +46410,9 @@ module.exports = {
                "id": 3514,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3510
                },
                "owner": "emqcripto"
             },
@@ -45227,7 +46420,9 @@ module.exports = {
                "id": 3517,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3516
                },
                "owner": "emqcripto"
             },
@@ -45235,7 +46430,9 @@ module.exports = {
                "id": 3520,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3519
                },
                "owner": "emqcripto"
             },
@@ -45243,7 +46440,9 @@ module.exports = {
                "id": 3523,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3522
                },
                "owner": "emqcripto"
             },
@@ -45251,7 +46450,9 @@ module.exports = {
                "id": 3526,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3525
                },
                "owner": "emqcripto"
             },
@@ -45259,7 +46460,9 @@ module.exports = {
                "id": 3529,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3528
                },
                "owner": "emqcripto"
             },
@@ -45267,7 +46470,9 @@ module.exports = {
                "id": 3532,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3531
                },
                "owner": "emqcripto"
             },
@@ -45275,7 +46480,9 @@ module.exports = {
                "id": 3535,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3534
                },
                "owner": "emqcripto"
             },
@@ -45283,7 +46490,9 @@ module.exports = {
                "id": 3538,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3537
                },
                "owner": "emqcripto"
             }
@@ -45299,7 +46508,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 321
+                  "PR": 321,
+                  "PLANTED": true,
+                  "PLOTID": 3487
                },
                "owner": "emqcripto"
             },
@@ -45310,7 +46521,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 618
+                  "PR": 618,
+                  "PLANTED": true,
+                  "PLOTID": 3499
                },
                "owner": "emqcripto"
             },
@@ -45320,8 +46533,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 561
+                  "WATER": 0,
+                  "PR": 561,
+                  "PLANTED": true,
+                  "PLOTID": 3502
                },
                "owner": "emqcripto"
             },
@@ -45344,8 +46559,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2198
+                  "WATER": 0,
+                  "PR": 2198,
+                  "PLANTED": true,
+                  "PLOTID": 3508
                },
                "owner": "emqcripto"
             },
@@ -45356,7 +46573,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 78
+                  "PR": 78,
+                  "PLANTED": true,
+                  "PLOTID": 3514
                },
                "owner": "emqcripto"
             },
@@ -45366,8 +46585,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 255
+                  "WATER": 0,
+                  "PR": 255,
+                  "PLANTED": true,
+                  "PLOTID": 3511
                },
                "owner": "emqcripto"
             },
@@ -45378,7 +46599,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 256
+                  "PR": 256,
+                  "PLANTED": true,
+                  "PLOTID": 3517
                },
                "owner": "emqcripto"
             },
@@ -45389,7 +46612,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 86
+                  "PR": 86,
+                  "PLANTED": true,
+                  "PLOTID": 3520
                },
                "owner": "emqcripto"
             },
@@ -45400,7 +46625,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 203
+                  "PR": 203,
+                  "PLANTED": true,
+                  "PLOTID": 3523
                },
                "owner": "emqcripto"
             },
@@ -45411,7 +46638,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 42
+                  "PR": 42,
+                  "PLANTED": true,
+                  "PLOTID": 3526
                },
                "owner": "emqcripto"
             },
@@ -45421,8 +46650,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 230
+                  "WATER": 0,
+                  "PR": 230,
+                  "PLANTED": true,
+                  "PLOTID": 3529
                },
                "owner": "emqcripto"
             },
@@ -45433,7 +46664,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 204
+                  "PR": 204,
+                  "PLANTED": true,
+                  "PLOTID": 3532
                },
                "owner": "emqcripto"
             },
@@ -45444,7 +46677,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 202
+                  "PR": 202,
+                  "PLANTED": true,
+                  "PLOTID": 3535
                },
                "owner": "emqcripto"
             },
@@ -45454,8 +46689,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 262
+                  "WATER": 0,
+                  "PR": 262,
+                  "PLANTED": true,
+                  "PLOTID": 3538
                },
                "owner": "emqcripto"
             }
@@ -45557,10 +46794,21 @@ module.exports = {
                   "TYPE": "plot"
                },
                "owner": "kiro12"
+            },
+            {
+               "id": 10757,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "kiro12"
             }
          ],
          "farm": [],
-         "plotCount": 2,
+         "plotCount": 3,
          "seedCount": 2,
          "seeds": [
             {
@@ -45582,7 +46830,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 501,
                   "PLANTED": true,
                   "PLOTID": 3493
@@ -45590,10 +46838,10 @@ module.exports = {
                "owner": "kiro12"
             }
          ],
-         "hkwater": 180,
+         "hkwater": 840,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 28,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -45779,7 +47027,9 @@ module.exports = {
                "id": 3544,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3543
                },
                "owner": "leoking1985"
             },
@@ -45787,7 +47037,9 @@ module.exports = {
                "id": 3547,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3546
                },
                "owner": "leoking1985"
             }
@@ -45802,8 +47054,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2263
+                  "WATER": 0,
+                  "PR": 2263,
+                  "PLANTED": true,
+                  "PLOTID": 3544
                },
                "owner": "leoking1985"
             },
@@ -45813,8 +47067,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 121
+                  "WATER": 0,
+                  "PR": 121,
+                  "PLANTED": true,
+                  "PLOTID": 3547
                },
                "owner": "leoking1985"
             }
@@ -46459,7 +47715,9 @@ module.exports = {
                "id": 3619,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3618
                },
                "owner": "roypadron"
             },
@@ -46467,7 +47725,9 @@ module.exports = {
                "id": 3622,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3621
                },
                "owner": "roypadron"
             }
@@ -46482,8 +47742,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1781
+                  "WATER": 0,
+                  "PR": 1781,
+                  "PLANTED": true,
+                  "PLOTID": 3619
                },
                "owner": "roypadron"
             },
@@ -46493,16 +47755,18 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 437
+                  "WATER": 0,
+                  "PR": 437,
+                  "PLANTED": true,
+                  "PLOTID": 3622
                },
                "owner": "roypadron"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -46735,7 +47999,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 254,
                   "PLANTED": true,
                   "PLOTID": 3631
@@ -46748,7 +48012,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 488,
                   "PLANTED": true,
                   "PLOTID": 6697
@@ -46756,10 +48020,10 @@ module.exports = {
                "owner": "xkaliburx"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -46862,8 +48126,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 7565
                },
                "owner": "dani1884"
             },
@@ -46873,8 +48137,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 7563
                },
                "owner": "dani1884"
             }
@@ -46889,7 +48153,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Swazi Gold",
                   "SPT": 3,
-                  "WATER": 168,
+                  "WATER": 0,
                   "PR": 4766,
                   "PLOTID": 3634,
                   "PLANTED": true
@@ -46915,8 +48179,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 183
+                  "WATER": 0,
+                  "PR": 183,
+                  "PLANTED": true,
+                  "PLOTID": 7716
                },
                "owner": "dani1884"
             },
@@ -46926,8 +48192,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 96
+                  "WATER": 0,
+                  "PR": 96,
+                  "PLANTED": true,
+                  "PLOTID": 7715
                },
                "owner": "dani1884"
             }
@@ -47162,7 +48430,9 @@ module.exports = {
                "id": 3661,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3660
                },
                "owner": "javikalimar"
             },
@@ -47170,7 +48440,9 @@ module.exports = {
                "id": 3733,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3732
                },
                "owner": "javikalimar"
             },
@@ -47178,7 +48450,9 @@ module.exports = {
                "id": 3925,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3924
                },
                "owner": "javikalimar"
             }
@@ -47193,8 +48467,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1670
+                  "WATER": 0,
+                  "PR": 1670,
+                  "PLANTED": true,
+                  "PLOTID": 3661
                },
                "owner": "javikalimar"
             },
@@ -47204,8 +48480,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
-                  "PR": 2186
+                  "WATER": 0,
+                  "PR": 2186,
+                  "PLANTED": true,
+                  "PLOTID": 3733
                },
                "owner": "javikalimar"
             },
@@ -47216,7 +48494,9 @@ module.exports = {
                   "NAME": "Durban Poison",
                   "SPT": 4,
                   "WATER": 104,
-                  "PR": 2856
+                  "PR": 2856,
+                  "PLANTED": true,
+                  "PLOTID": 3925
                },
                "owner": "javikalimar"
             }
@@ -47305,7 +48585,9 @@ module.exports = {
                "id": 3664,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3663
                },
                "owner": "edinsonoro"
             },
@@ -47313,7 +48595,9 @@ module.exports = {
                "id": 3670,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3669
                },
                "owner": "edinsonoro"
             }
@@ -47328,8 +48612,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 560
+                  "WATER": 0,
+                  "PR": 560,
+                  "PLANTED": true,
+                  "PLOTID": 3664
                },
                "owner": "edinsonoro"
             },
@@ -47339,8 +48625,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 168
+                  "WATER": 0,
+                  "PR": 168,
+                  "PLANTED": true,
+                  "PLOTID": 3670
                },
                "owner": "edinsonoro"
             }
@@ -47457,7 +48745,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2425,
                   "PLOTID": 3682,
                   "PLANTED": true
@@ -47648,7 +48936,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2437,
                   "PLANTED": true,
                   "PLOTID": 3685
@@ -47661,7 +48949,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 602,
                   "PLANTED": true,
                   "PLOTID": 3688
@@ -47713,9 +49001,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 221,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 4810
                },
                "owner": "jarrical0506"
             },
@@ -47725,7 +49014,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 362,
                   "PLOTID": 4816,
                   "PLANTED": true
@@ -47738,7 +49027,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 93,
                   "PLANTED": true,
                   "PLOTID": 4819
@@ -47840,7 +49129,9 @@ module.exports = {
                "id": 3838,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3837
                },
                "owner": "cryptomilovat"
             },
@@ -47886,7 +49177,8 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 10,
                   "PR": 135,
-                  "PLOTID": 4918
+                  "PLOTID": 3838,
+                  "PLANTED": true
                },
                "owner": "cryptomilovat"
             },
@@ -48062,7 +49354,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 241,
                   "PLOTID": 6868,
                   "PLANTED": true
@@ -48526,7 +49818,9 @@ module.exports = {
                "id": 3724,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3723
                },
                "owner": "dchicaiza5"
             },
@@ -48552,8 +49846,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 667
+                  "WATER": 0,
+                  "PR": 667,
+                  "PLANTED": true,
+                  "PLOTID": 3724
                },
                "owner": "dchicaiza5"
             }
@@ -48791,10 +50087,21 @@ module.exports = {
                   "SEEDID": 7029
                },
                "owner": "jeanzz"
+            },
+            {
+               "id": 10811,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jeanzz"
             }
          ],
          "farm": [],
-         "plotCount": 5,
+         "plotCount": 6,
          "seedCount": 5,
          "seeds": [
             {
@@ -48803,7 +50110,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2275,
                   "PLANTED": true,
                   "PLOTID": 3736
@@ -48842,7 +50149,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 577,
                   "PLANTED": true,
                   "PLOTID": 7033
@@ -48863,10 +50170,10 @@ module.exports = {
                "owner": "jeanzz"
             }
          ],
-         "hkwater": 270,
+         "hkwater": 450,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 9,
+            "lvl1": 15,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -49035,7 +50342,9 @@ module.exports = {
                "id": 3751,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3750
                },
                "owner": "surajbhattarai"
             }
@@ -49051,7 +50360,9 @@ module.exports = {
                   "NAME": "Swazi Gold",
                   "SPT": 3,
                   "WATER": 168,
-                  "PR": 4648
+                  "PR": 4648,
+                  "PLANTED": true,
+                  "PLOTID": 3751
                },
                "owner": "surajbhattarai"
             }
@@ -49140,7 +50451,9 @@ module.exports = {
                "id": 3832,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3831
                },
                "owner": "benhaleymade"
             }
@@ -49156,7 +50469,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2192
+                  "PR": 2192,
+                  "PLANTED": true,
+                  "PLOTID": 3832
                },
                "owner": "benhaleymade"
             }
@@ -49228,7 +50543,9 @@ module.exports = {
                "id": 3844,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3843
                },
                "owner": "gallito"
             },
@@ -49236,7 +50553,9 @@ module.exports = {
                "id": 3847,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3846
                },
                "owner": "gallito"
             },
@@ -49244,7 +50563,9 @@ module.exports = {
                "id": 3850,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3849
                },
                "owner": "gallito"
             },
@@ -49292,7 +50613,9 @@ module.exports = {
                "id": 3868,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3867
                },
                "owner": "gallito"
             },
@@ -49356,7 +50679,9 @@ module.exports = {
                "id": 3892,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3879
                },
                "owner": "gallito"
             },
@@ -49396,7 +50721,9 @@ module.exports = {
                   "NAME": "Swazi Gold",
                   "SPT": 3,
                   "WATER": 168,
-                  "PR": 4640
+                  "PR": 4640,
+                  "PLANTED": true,
+                  "PLOTID": 3844
                },
                "owner": "gallito"
             },
@@ -49407,7 +50734,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2413
+                  "PR": 2413,
+                  "PLANTED": true,
+                  "PLOTID": 3847
                },
                "owner": "gallito"
             },
@@ -49418,7 +50747,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 119
+                  "PR": 119,
+                  "PLANTED": true,
+                  "PLOTID": 3850
                },
                "owner": "gallito"
             },
@@ -49484,7 +50815,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2422
+                  "PR": 2422,
+                  "PLANTED": true,
+                  "PLOTID": 3868
                },
                "owner": "gallito"
             },
@@ -49528,7 +50861,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2205
+                  "PR": 2205,
+                  "PLANTED": true,
+                  "PLOTID": 3892
                },
                "owner": "gallito"
             },
@@ -49896,10 +51231,142 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "weirdestwolf"
+            },
+            {
+               "id": 11036,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11037,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11038,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11039,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11040,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11041,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11042,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11043,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11044,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11045,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 11046,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
+            },
+            {
+               "id": 12184,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "weirdestwolf"
             }
          ],
          "farm": [],
-         "plotCount": 6,
+         "plotCount": 18,
          "seedCount": 2,
          "seeds": [
             {
@@ -49908,7 +51375,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2282,
                   "PLANTED": true,
                   "PLOTID": 3919
@@ -49929,10 +51396,10 @@ module.exports = {
                "owner": "weirdestwolf"
             }
          ],
-         "hkwater": 240,
+         "hkwater": 7620,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 8,
+            "lvl1": 254,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -50023,7 +51490,9 @@ module.exports = {
                "id": 3955,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 3954
                },
                "owner": "ddamiandonis"
             },
@@ -50046,7 +51515,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 413,
                   "PLOTID": 3952,
                   "PLANTED": true
@@ -50059,8 +51528,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 604
+                  "WATER": 0,
+                  "PR": 604,
+                  "PLANTED": true,
+                  "PLOTID": 3955
                },
                "owner": "ddamiandonis"
             },
@@ -50536,7 +52007,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1591,
                   "PLOTID": 3967,
                   "PLANTED": true
@@ -50549,7 +52020,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 221,
                   "PLOTID": 4588,
                   "PLANTED": true
@@ -50562,7 +52033,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 197,
                   "PLANTED": true,
                   "PLOTID": 4591
@@ -50575,7 +52046,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 418,
                   "PLANTED": true,
                   "PLOTID": 6691
@@ -50588,7 +52059,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 216,
                   "PLOTID": 6700,
                   "PLANTED": true
@@ -50601,7 +52072,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 220,
                   "PLANTED": true,
                   "PLOTID": 6700
@@ -51363,7 +52834,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1780,
                   "PLOTID": 5488,
                   "PLANTED": true
@@ -51389,7 +52860,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 216,
                   "PLOTID": 4027,
                   "PLANTED": true
@@ -51426,7 +52897,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 739,
                   "PLANTED": true,
                   "PLOTID": 5485
@@ -51529,7 +53000,9 @@ module.exports = {
                "id": 4048,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 4047,
+                  "OCCUPIED": true
                },
                "owner": "procash1"
             },
@@ -51537,7 +53010,9 @@ module.exports = {
                "id": 4051,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 4050,
+                  "OCCUPIED": true
                },
                "owner": "procash1"
             }
@@ -51553,7 +53028,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 826
+                  "PR": 826,
+                  "PLANTED": true,
+                  "PLOTID": 4048
                },
                "owner": "procash1"
             },
@@ -51563,8 +53040,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 519
+                  "WATER": 0,
+                  "PR": 519,
+                  "PLOTID": 4051,
+                  "PLANTED": true
                },
                "owner": "procash1"
             }
@@ -51806,7 +53285,9 @@ module.exports = {
                "id": 4066,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5862
                },
                "owner": "oldmans"
             },
@@ -51814,7 +53295,9 @@ module.exports = {
                "id": 4069,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4062
                },
                "owner": "oldmans"
             },
@@ -51822,7 +53305,9 @@ module.exports = {
                "id": 4072,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4065
                },
                "owner": "oldmans"
             },
@@ -51830,7 +53315,9 @@ module.exports = {
                "id": 4120,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4119
                },
                "owner": "oldmans"
             },
@@ -51838,7 +53325,9 @@ module.exports = {
                "id": 4123,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4122
                },
                "owner": "oldmans"
             },
@@ -51846,7 +53335,9 @@ module.exports = {
                "id": 4126,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4125
                },
                "owner": "oldmans"
             },
@@ -51854,7 +53345,9 @@ module.exports = {
                "id": 4129,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4128
                },
                "owner": "oldmans"
             },
@@ -51862,7 +53355,9 @@ module.exports = {
                "id": 4516,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4068
                },
                "owner": "oldmans"
             },
@@ -51870,7 +53365,9 @@ module.exports = {
                "id": 4519,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4071
                },
                "owner": "oldmans"
             },
@@ -51880,7 +53377,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 4515
                },
                "owner": "oldmans"
             }
@@ -51895,8 +53393,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 667
+                  "WATER": 0,
+                  "PR": 667,
+                  "PLANTED": true,
+                  "PLOTID": 4069
                },
                "owner": "oldmans"
             },
@@ -51906,8 +53406,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1525
+                  "WATER": 0,
+                  "PR": 1525,
+                  "PLANTED": true,
+                  "PLOTID": 4072
                },
                "owner": "oldmans"
             },
@@ -51917,8 +53419,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 682
+                  "WATER": 0,
+                  "PR": 682,
+                  "PLANTED": true,
+                  "PLOTID": 4516
                },
                "owner": "oldmans"
             },
@@ -51928,8 +53432,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 740
+                  "WATER": 0,
+                  "PR": 740,
+                  "PLANTED": true,
+                  "PLOTID": 4519
                },
                "owner": "oldmans"
             },
@@ -51939,8 +53445,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 416
+                  "WATER": 0,
+                  "PR": 416,
+                  "PLANTED": true,
+                  "PLOTID": 4120
                },
                "owner": "oldmans"
             },
@@ -51950,8 +53458,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 74
+                  "WATER": 0,
+                  "PR": 74,
+                  "PLANTED": true,
+                  "PLOTID": 4123
                },
                "owner": "oldmans"
             },
@@ -51961,8 +53471,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 332
+                  "WATER": 0,
+                  "PR": 332,
+                  "PLANTED": true,
+                  "PLOTID": 4126
                },
                "owner": "oldmans"
             },
@@ -51972,8 +53484,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 271
+                  "WATER": 0,
+                  "PR": 271,
+                  "PLANTED": true,
+                  "PLOTID": 4129
                },
                "owner": "oldmans"
             },
@@ -51983,8 +53497,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 656
+                  "WATER": 0,
+                  "PR": 656,
+                  "PLANTED": true,
+                  "PLOTID": 5863
                },
                "owner": "oldmans"
             },
@@ -51994,7 +53510,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 915,
                   "PLANTED": true,
                   "PLOTID": 4063
@@ -52007,8 +53523,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 715
+                  "WATER": 0,
+                  "PR": 715,
+                  "PLANTED": true,
+                  "PLOTID": 4066
                },
                "owner": "oldmans"
             }
@@ -52202,7 +53720,9 @@ module.exports = {
                "id": 4078,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4077
                },
                "owner": "perezcan"
             },
@@ -52210,7 +53730,9 @@ module.exports = {
                "id": 4444,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4443
                },
                "owner": "perezcan"
             },
@@ -52218,7 +53740,9 @@ module.exports = {
                "id": 4900,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4899
                },
                "owner": "perezcan"
             },
@@ -52226,7 +53750,9 @@ module.exports = {
                "id": 4903,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4902
                },
                "owner": "perezcan"
             }
@@ -52242,7 +53768,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 777
+                  "PR": 777,
+                  "PLANTED": true,
+                  "PLOTID": 4078
                },
                "owner": "perezcan"
             },
@@ -52253,7 +53781,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 443
+                  "PR": 443,
+                  "PLANTED": true,
+                  "PLOTID": 4444
                },
                "owner": "perezcan"
             },
@@ -52263,8 +53793,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 455
+                  "WATER": 0,
+                  "PR": 455,
+                  "PLANTED": true,
+                  "PLOTID": 4900
                },
                "owner": "perezcan"
             },
@@ -52275,7 +53807,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 144
+                  "PR": 144,
+                  "PLANTED": true,
+                  "PLOTID": 4903
                },
                "owner": "perezcan"
             }
@@ -52374,7 +53908,9 @@ module.exports = {
                "id": 4084,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4083
                },
                "owner": "ronny2721"
             },
@@ -52412,8 +53948,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 768
+                  "WATER": 0,
+                  "PR": 768,
+                  "PLANTED": true,
+                  "PLOTID": 4084
                },
                "owner": "ronny2721"
             },
@@ -52622,7 +54160,9 @@ module.exports = {
                "id": 4093,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4092
                },
                "owner": "bmck117"
             },
@@ -52630,7 +54170,9 @@ module.exports = {
                "id": 4096,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4095
                },
                "owner": "bmck117"
             },
@@ -52638,7 +54180,9 @@ module.exports = {
                "id": 4099,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4263
                },
                "owner": "bmck117"
             },
@@ -52646,7 +54190,9 @@ module.exports = {
                "id": 4261,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4260
                },
                "owner": "bmck117"
             },
@@ -52654,7 +54200,9 @@ module.exports = {
                "id": 4264,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4098
                },
                "owner": "bmck117"
             }
@@ -52670,7 +54218,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 586
+                  "PR": 586,
+                  "PLANTED": true,
+                  "PLOTID": 4093
                },
                "owner": "bmck117"
             },
@@ -52681,7 +54231,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 269
+                  "PR": 269,
+                  "PLANTED": true,
+                  "PLOTID": 4096
                },
                "owner": "bmck117"
             },
@@ -52692,7 +54244,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 60
+                  "PR": 60,
+                  "PLANTED": true,
+                  "PLOTID": 4264
                },
                "owner": "bmck117"
             },
@@ -52703,7 +54257,9 @@ module.exports = {
                   "NAME": "Afghani",
                   "SPT": 5,
                   "WATER": 70,
-                  "PR": 1690
+                  "PR": 1690,
+                  "PLANTED": true,
+                  "PLOTID": 4261
                },
                "owner": "bmck117"
             },
@@ -52714,7 +54270,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 145
+                  "PR": 145,
+                  "PLANTED": true,
+                  "PLOTID": 4099
                },
                "owner": "bmck117"
             }
@@ -53542,7 +55100,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 4146
                },
                "owner": "kinggo9"
             },
@@ -53552,7 +55111,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6462
                },
                "owner": "kinggo9"
             },
@@ -53562,7 +55122,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6465
                },
                "owner": "kinggo9"
             },
@@ -53572,7 +55133,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6468
                },
                "owner": "kinggo9"
             },
@@ -53582,7 +55144,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6474
                },
                "owner": "kinggo9"
             },
@@ -53592,7 +55155,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6471
                },
                "owner": "kinggo9"
             },
@@ -53602,7 +55166,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6477
                },
                "owner": "kinggo9"
             },
@@ -53612,7 +55177,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6483
                },
                "owner": "kinggo9"
             },
@@ -53622,7 +55188,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 4146
                },
                "owner": "kinggo9"
             },
@@ -53632,7 +55199,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6486
                },
                "owner": "kinggo9"
             },
@@ -53642,7 +55210,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6489
                },
                "owner": "kinggo9"
             },
@@ -53652,7 +55221,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6492
                },
                "owner": "kinggo9"
             },
@@ -53937,7 +55507,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6906
                },
                "owner": "kinggo9"
             },
@@ -53995,7 +55566,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 322,
                   "PLOTID": 4141,
                   "PLANTED": true
@@ -54008,7 +55579,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 552,
                   "PLANTED": true,
                   "PLOTID": 4144
@@ -54021,8 +55592,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 807
+                  "WATER": 0,
+                  "PR": 807,
+                  "PLOTID": 6472,
+                  "PLANTED": true
                },
                "owner": "kinggo9"
             },
@@ -54032,8 +55605,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 630
+                  "WATER": 0,
+                  "PR": 630,
+                  "PLANTED": true,
+                  "PLOTID": 6475
                },
                "owner": "kinggo9"
             },
@@ -54043,8 +55618,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 684
+                  "WATER": 0,
+                  "PR": 684,
+                  "PLANTED": true,
+                  "PLOTID": 6478
                },
                "owner": "kinggo9"
             },
@@ -54054,8 +55631,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 684
+                  "WATER": 0,
+                  "PR": 684,
+                  "PLOTID": 6481,
+                  "PLANTED": true
                },
                "owner": "kinggo9"
             },
@@ -54065,8 +55644,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 629
+                  "WATER": 0,
+                  "PR": 629,
+                  "PLANTED": true,
+                  "PLOTID": 6487
                },
                "owner": "kinggo9"
             },
@@ -54076,8 +55657,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 824
+                  "WATER": 0,
+                  "PR": 824,
+                  "PLANTED": true,
+                  "PLOTID": 6484
                },
                "owner": "kinggo9"
             },
@@ -54087,8 +55670,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 723
+                  "WATER": 0,
+                  "PR": 723,
+                  "PLANTED": true,
+                  "PLOTID": 6490
                },
                "owner": "kinggo9"
             },
@@ -54098,7 +55683,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 990,
                   "PLOTID": 6469,
                   "PLANTED": true
@@ -54111,8 +55696,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 750
+                  "WATER": 0,
+                  "PR": 750,
+                  "PLANTED": true,
+                  "PLOTID": 6493
                },
                "owner": "kinggo9"
             },
@@ -54122,8 +55709,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 741
+                  "WATER": 0,
+                  "PR": 741,
+                  "PLANTED": true,
+                  "PLOTID": 6499
                },
                "owner": "kinggo9"
             },
@@ -54133,8 +55722,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 724
+                  "WATER": 0,
+                  "PR": 724,
+                  "PLOTID": 6502,
+                  "PLANTED": true
                },
                "owner": "kinggo9"
             },
@@ -54144,8 +55735,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 770
+                  "WATER": 0,
+                  "PR": 770,
+                  "PLANTED": true,
+                  "PLOTID": 6505
                },
                "owner": "kinggo9"
             },
@@ -54156,7 +55749,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 609
+                  "PR": 609,
+                  "PLOTID": 6505,
+                  "PLANTED": true
                },
                "owner": "kinggo9"
             },
@@ -54166,7 +55761,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1704,
                   "PLANTED": true,
                   "PLOTID": 4147
@@ -54179,7 +55774,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1713,
                   "PLANTED": true,
                   "PLOTID": 6463
@@ -54192,7 +55787,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1741,
                   "PLOTID": 6466,
                   "PLANTED": true
@@ -54205,7 +55800,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 177,
                   "PLOTID": 6643,
                   "PLANTED": true
@@ -54218,7 +55813,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 134,
                   "PLANTED": true,
                   "PLOTID": 6604
@@ -54231,7 +55826,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 185,
                   "PLANTED": true,
                   "PLOTID": 6673
@@ -54244,7 +55839,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 375,
                   "PLOTID": 6616,
                   "PLANTED": true
@@ -54257,7 +55852,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 386,
                   "PLANTED": true,
                   "PLOTID": 6619
@@ -54270,7 +55865,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 551,
                   "PLANTED": true,
                   "PLOTID": 6622
@@ -54283,7 +55878,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 584,
                   "PLANTED": true,
                   "PLOTID": 6625
@@ -54296,7 +55891,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 97,
                   "PLANTED": true,
                   "PLOTID": 6886
@@ -54309,7 +55904,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 421,
                   "PLOTID": 6631,
                   "PLANTED": true
@@ -54322,7 +55917,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 260,
                   "PLANTED": true,
                   "PLOTID": 6889
@@ -54335,7 +55930,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 486,
                   "PLOTID": 6637,
                   "PLANTED": true
@@ -54348,7 +55943,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 320,
                   "PLOTID": 6892,
                   "PLANTED": true
@@ -54361,7 +55956,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 165,
                   "PLANTED": true,
                   "PLOTID": 6895
@@ -54374,7 +55969,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 562,
                   "PLOTID": 6670,
                   "PLANTED": true
@@ -54387,7 +55982,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 34,
                   "PLANTED": true,
                   "PLOTID": 6898
@@ -54400,7 +55995,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 54,
                   "PLANTED": true,
                   "PLOTID": 6901
@@ -54413,7 +56008,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 94,
                   "PLOTID": 6607,
                   "PLANTED": true
@@ -54426,7 +56021,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 241,
                   "PLANTED": true,
                   "PLOTID": 6904
@@ -54439,7 +56034,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 223,
                   "PLOTID": 6610,
                   "PLANTED": true
@@ -54465,7 +56060,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 221,
                   "PLOTID": 6913,
                   "PLANTED": true
@@ -54478,7 +56073,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 261,
                   "PLANTED": true,
                   "PLOTID": 7078
@@ -54491,8 +56086,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 161
+                  "WATER": 0,
+                  "PR": 161,
+                  "PLANTED": true,
+                  "PLOTID": 7060
                },
                "owner": "kinggo9"
             },
@@ -54502,7 +56099,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 201,
                   "PLOTID": 6628,
                   "PLANTED": true
@@ -54515,7 +56112,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 204,
                   "PLOTID": 6907,
                   "PLANTED": true
@@ -54528,7 +56125,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 147,
                   "PLOTID": 6634,
                   "PLANTED": true
@@ -54541,7 +56138,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 32,
                   "PLANTED": true,
                   "PLOTID": 6910
@@ -54554,7 +56151,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 269,
                   "PLOTID": 6640,
                   "PLANTED": true
@@ -54567,7 +56164,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 483,
                   "PLOTID": 7084,
                   "PLANTED": true
@@ -54580,7 +56177,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 360,
                   "PLOTID": 7081,
                   "PLANTED": true
@@ -54720,7 +56317,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1500,
                   "PLOTID": 4168,
                   "PLANTED": true
@@ -54746,7 +56343,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 342,
                   "PLOTID": 4171,
                   "PLANTED": true
@@ -54838,7 +56435,9 @@ module.exports = {
                "id": 4174,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4182
                },
                "owner": "infinito2021"
             },
@@ -54846,7 +56445,9 @@ module.exports = {
                "id": 4177,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4176
                },
                "owner": "infinito2021"
             },
@@ -54854,7 +56455,9 @@ module.exports = {
                "id": 4180,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 4179,
+                  "OCCUPIED": true
                },
                "owner": "infinito2021"
             },
@@ -54862,7 +56465,9 @@ module.exports = {
                "id": 4183,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4185
                },
                "owner": "infinito2021"
             },
@@ -54870,7 +56475,9 @@ module.exports = {
                "id": 4186,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 4185,
+                  "OCCUPIED": true
                },
                "owner": "infinito2021"
             }
@@ -54885,7 +56492,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 297
                },
                "owner": "infinito2021"
@@ -54896,8 +56503,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 510
+                  "WATER": 0,
+                  "PR": 510,
+                  "PLANTED": true,
+                  "PLOTID": 4177
                },
                "owner": "infinito2021"
             },
@@ -54907,8 +56516,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 804
+                  "WATER": 0,
+                  "PR": 804,
+                  "PLOTID": 4180,
+                  "PLANTED": true
                },
                "owner": "infinito2021"
             },
@@ -54918,8 +56529,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 240
+                  "WATER": 0,
+                  "PR": 240,
+                  "PLANTED": true,
+                  "PLOTID": 4174
                },
                "owner": "infinito2021"
             },
@@ -54929,16 +56542,18 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 187
+                  "WATER": 0,
+                  "PR": 187,
+                  "PLANTED": true,
+                  "PLOTID": 4186
                },
                "owner": "infinito2021"
             }
          ],
-         "hkwater": 150,
+         "hkwater": 960,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 32,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55041,7 +56656,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "OCCUPIED": true,
-                  "SEEDID": 4476
+                  "SEEDID": 4476,
+                  "WATER": 0
                },
                "owner": "melcaya"
             },
@@ -55116,7 +56732,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 356,
                   "PLANTED": true,
                   "PLOTID": 4189
@@ -55129,7 +56745,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 746,
                   "PLANTED": true,
                   "PLOTID": 4489
@@ -55142,7 +56758,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 78,
                   "PLOTID": 4477,
                   "PLANTED": true
@@ -55155,7 +56771,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1545,
                   "PLANTED": true,
                   "PLOTID": 4474
@@ -55168,7 +56784,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 209,
                   "PLOTID": 5113,
                   "PLANTED": true
@@ -55181,7 +56797,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 458,
                   "PLANTED": true,
                   "PLOTID": 4495
@@ -55194,7 +56810,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 80,
                   "PLOTID": 5119,
                   "PLANTED": true
@@ -55207,7 +56823,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 188,
                   "PLOTID": 4492,
                   "PLANTED": true
@@ -55220,7 +56836,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 336,
                   "PLANTED": true,
                   "PLOTID": 5116
@@ -55228,10 +56844,10 @@ module.exports = {
                "owner": "melcaya"
             }
          ],
-         "hkwater": 1020,
+         "hkwater": 1050,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 34,
+            "lvl1": 35,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55527,11 +57143,374 @@ module.exports = {
                   "SEEDID": 4197
                },
                "owner": "largouuu"
+            },
+            {
+               "id": 11549,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11550,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11551,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11552,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11553,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11554,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11555,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11562,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11563,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11564,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11565,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11605,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11606,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11607,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11608,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11609,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11610,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11611,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11612,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11613,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11614,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11615,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11633,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11650,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11660,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11661,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11662,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11663,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11664,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11665,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11666,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11667,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
+            },
+            {
+               "id": 11668,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "largouuu"
             }
          ],
          "farm": [],
-         "plotCount": 22,
-         "seedCount": 23,
+         "plotCount": 55,
+         "seedCount": 22,
          "seeds": [
             {
                "id": 4191,
@@ -55565,7 +57544,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 697,
                   "PLANTED": true,
                   "PLOTID": 6307
@@ -55578,7 +57557,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Hindu Kush",
                   "SPT": 4,
-                  "WATER": 82,
+                  "WATER": 0,
                   "PR": 1990,
                   "PLANTED": true,
                   "PLOTID": 4192
@@ -55591,7 +57570,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 880,
                   "PLOTID": 4195,
                   "PLANTED": true
@@ -55604,7 +57583,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 441,
                   "PLOTID": 4207,
                   "PLANTED": true
@@ -55630,7 +57609,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 549,
                   "PLOTID": 4213,
                   "PLANTED": true
@@ -55643,7 +57622,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 617,
                   "PLANTED": true,
                   "PLOTID": 6304
@@ -55656,7 +57635,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 664,
                   "PLOTID": 6301,
                   "PLANTED": true
@@ -55669,7 +57648,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 723,
                   "PLOTID": 6295,
                   "PLANTED": true
@@ -55682,7 +57661,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 761,
                   "PLOTID": 4216,
                   "PLANTED": true
@@ -55695,7 +57674,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 313,
                   "PLOTID": 4804,
                   "PLANTED": true
@@ -55721,7 +57700,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 723,
                   "PLANTED": true,
                   "PLOTID": 4222
@@ -55734,7 +57713,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 772,
                   "PLOTID": 4225,
                   "PLANTED": true
@@ -55747,7 +57726,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 772,
                   "PLOTID": 4225,
                   "PLANTED": true
@@ -55760,7 +57739,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 637,
                   "PLANTED": true,
                   "PLOTID": 6283
@@ -55773,7 +57752,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 628,
                   "PLANTED": true,
                   "PLOTID": 6286
@@ -55786,7 +57765,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1458,
                   "PLANTED": true,
                   "PLOTID": 4201
@@ -55799,7 +57778,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 632,
                   "PLOTID": 4204,
                   "PLANTED": true
@@ -55812,29 +57791,18 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Hindu Kush",
                   "SPT": 4,
-                  "WATER": 82,
+                  "WATER": 0,
                   "PR": 2150,
                   "PLOTID": 4198,
                   "PLANTED": true
                },
                "owner": "largouuu"
-            },
-            {
-               "id": 6309,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Panama Red",
-                  "SPT": 7,
-                  "WATER": 9,
-                  "PR": 257
-               },
-               "owner": "largouuu"
             }
          ],
-         "hkwater": 720,
+         "hkwater": 3360,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 24,
+            "lvl1": 112,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -55999,7 +57967,9 @@ module.exports = {
                "id": 4237,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 4236,
+                  "OCCUPIED": true
                },
                "owner": "cryptosfera"
             },
@@ -56039,7 +58009,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 648
+                  "PR": 648,
+                  "PLANTED": true,
+                  "PLOTID": 4237
                },
                "owner": "cryptosfera"
             },
@@ -56182,7 +58154,8 @@ module.exports = {
                "properties": {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
-                  "SEEDID": 4470
+                  "SEEDID": 4251,
+                  "OCCUPIED": true
                },
                "owner": "nobutsd1974"
             },
@@ -56230,7 +58203,9 @@ module.exports = {
                "id": 4414,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4413
                },
                "owner": "nobutsd1974"
             },
@@ -56258,7 +58233,9 @@ module.exports = {
                "id": 4471,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5631
                },
                "owner": "nobutsd1974"
             },
@@ -56286,7 +58263,9 @@ module.exports = {
                "id": 4486,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4251
                },
                "owner": "nobutsd1974"
             },
@@ -56333,7 +58312,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 231,
                   "PLOTID": 4258,
                   "PLANTED": true
@@ -56346,7 +58325,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2333,
                   "PLOTID": 2527,
                   "PLANTED": true
@@ -56359,8 +58338,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 777
+                  "WATER": 0,
+                  "PR": 777,
+                  "PLANTED": true,
+                  "PLOTID": 4486
                },
                "owner": "nobutsd1974"
             },
@@ -56370,7 +58351,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 525,
                   "PLANTED": true,
                   "PLOTID": 4411
@@ -56383,7 +58364,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 56,
                   "PLOTID": 3601,
                   "PLANTED": true
@@ -56396,7 +58377,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 224,
                   "PLOTID": 4465,
                   "PLANTED": true
@@ -56409,7 +58390,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 438,
                   "PLANTED": true,
                   "PLOTID": 4483
@@ -56423,7 +58404,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 760
+                  "PR": 760,
+                  "PLANTED": true,
+                  "PLOTID": 4414
                },
                "owner": "nobutsd1974"
             },
@@ -56433,7 +58416,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 246,
                   "PLANTED": true,
                   "PLOTID": 4408
@@ -56457,7 +58440,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1693,
                   "PLANTED": true,
                   "PLOTID": 5632
@@ -56505,8 +58488,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 710
+                  "WATER": 0,
+                  "PR": 710,
+                  "PLANTED": true,
+                  "PLOTID": 4471
                },
                "owner": "nobutsd1974"
             },
@@ -56516,7 +58501,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 345,
                   "PLANTED": true,
                   "PLOTID": 4480
@@ -57599,7 +59584,9 @@ module.exports = {
                "id": 4405,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4404
                },
                "owner": "victorycoin23"
             },
@@ -57607,7 +59594,9 @@ module.exports = {
                "id": 4651,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4650
                },
                "owner": "victorycoin23"
             }
@@ -57622,8 +59611,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 619
+                  "WATER": 0,
+                  "PR": 619,
+                  "PLANTED": true,
+                  "PLOTID": 4405
                },
                "owner": "victorycoin23"
             },
@@ -57633,8 +59624,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 87
+                  "WATER": 0,
+                  "PR": 87,
+                  "PLANTED": true,
+                  "PLOTID": 4651
                },
                "owner": "victorycoin23"
             }
@@ -57808,7 +59801,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 666,
                   "PLOTID": 4912,
                   "PLANTED": true
@@ -57916,7 +59909,9 @@ module.exports = {
                "id": 4618,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4620
                },
                "owner": "javieruscu69"
             },
@@ -57932,7 +59927,9 @@ module.exports = {
                "id": 4627,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4626
                },
                "owner": "javieruscu69"
             },
@@ -57940,7 +59937,9 @@ module.exports = {
                "id": 4630,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4629
                },
                "owner": "javieruscu69"
             }
@@ -57956,7 +59955,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 666
+                  "PR": 666,
+                  "PLANTED": true,
+                  "PLOTID": 4618
                },
                "owner": "javieruscu69"
             },
@@ -57966,8 +59967,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 674
+                  "WATER": 0,
+                  "PR": 674,
+                  "PLANTED": true,
+                  "PLOTID": 4618
                },
                "owner": "javieruscu69"
             },
@@ -57977,8 +59980,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 515
+                  "WATER": 0,
+                  "PR": 515,
+                  "PLANTED": true,
+                  "PLOTID": 4627
                },
                "owner": "javieruscu69"
             },
@@ -57988,8 +59993,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 100
+                  "WATER": 0,
+                  "PR": 100,
+                  "PLANTED": true,
+                  "PLOTID": 4630
                },
                "owner": "javieruscu69"
             }
@@ -58078,7 +60085,9 @@ module.exports = {
                "id": 4633,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4632
                },
                "owner": "robin-nrs"
             },
@@ -58103,8 +60112,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 90
+                  "WATER": 0,
+                  "PR": 90,
+                  "PLANTED": true,
+                  "PLOTID": 4633
                },
                "owner": "robin-nrs"
             },
@@ -58114,7 +60125,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 578,
                   "PLANTED": true,
                   "PLOTID": 4636
@@ -58243,7 +60254,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 359,
                   "PLANTED": true,
                   "PLOTID": 4663
@@ -58256,7 +60267,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 691,
                   "PLOTID": 4666,
                   "PLANTED": true
@@ -58401,10 +60412,10 @@ module.exports = {
                "owner": "danny198"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -59042,7 +61053,7 @@ module.exports = {
                "properties": {
                   "NAME": "Mexico",
                   "TYPE": "plot",
-                  "SEEDID": 4722
+                  "SEEDID": 4728
                },
                "owner": "harolac"
             },
@@ -59051,7 +61062,8 @@ module.exports = {
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
-                  "OCCUPIED": true
+                  "OCCUPIED": true,
+                  "SEEDID": 4722
                },
                "owner": "harolac"
             },
@@ -59059,7 +61071,9 @@ module.exports = {
                "id": 4729,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4725
                },
                "owner": "harolac"
             }
@@ -59074,7 +61088,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 899,
                   "PLANTED": true,
                   "PLOTID": 4720
@@ -59087,9 +61101,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 373,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 4726
                },
                "owner": "harolac"
             },
@@ -59099,8 +61114,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 140
+                  "WATER": 0,
+                  "PR": 140,
+                  "PLANTED": true,
+                  "PLOTID": 4729
                },
                "owner": "harolac"
             },
@@ -59112,7 +61129,8 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 9,
                   "PR": 105,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 4723
                },
                "owner": "harolac"
             }
@@ -59310,7 +61328,9 @@ module.exports = {
                "id": 4750,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4761
                },
                "owner": "drowel"
             },
@@ -59318,7 +61338,9 @@ module.exports = {
                "id": 4753,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4752
                },
                "owner": "drowel"
             },
@@ -59326,7 +61348,9 @@ module.exports = {
                "id": 4756,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4755
                },
                "owner": "drowel"
             },
@@ -59334,7 +61358,9 @@ module.exports = {
                "id": 4759,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4749
                },
                "owner": "drowel"
             },
@@ -59342,7 +61368,9 @@ module.exports = {
                "id": 4762,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4758
                },
                "owner": "drowel"
             },
@@ -59350,7 +61378,9 @@ module.exports = {
                "id": 4765,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4764
                },
                "owner": "drowel"
             },
@@ -59358,7 +61388,9 @@ module.exports = {
                "id": 4768,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4752
                },
                "owner": "drowel"
             },
@@ -59390,7 +61422,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 39
+                  "PR": 39,
+                  "PLANTED": true,
+                  "PLOTID": 4759
                },
                "owner": "drowel"
             },
@@ -59400,8 +61434,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 489
+                  "WATER": 0,
+                  "PR": 489,
+                  "PLANTED": true,
+                  "PLOTID": 4768
                },
                "owner": "drowel"
             },
@@ -59411,8 +61447,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 834
+                  "WATER": 0,
+                  "PR": 834,
+                  "PLANTED": true,
+                  "PLOTID": 4756
                },
                "owner": "drowel"
             },
@@ -59422,8 +61460,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 215
+                  "WATER": 0,
+                  "PR": 215,
+                  "PLANTED": true,
+                  "PLOTID": 4762
                },
                "owner": "drowel"
             },
@@ -59433,8 +61473,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 124
+                  "WATER": 0,
+                  "PR": 124,
+                  "PLANTED": true,
+                  "PLOTID": 4750
                },
                "owner": "drowel"
             },
@@ -59445,7 +61487,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 180
+                  "PR": 180,
+                  "PLANTED": true,
+                  "PLOTID": 4765
                },
                "owner": "drowel"
             },
@@ -59746,7 +61790,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 399,
                   "PLANTED": true,
                   "PLOTID": 4822
@@ -60000,7 +62044,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 614,
                   "PLOTID": 4837,
                   "PLANTED": true
@@ -60013,7 +62057,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1587,
                   "PLANTED": true,
                   "PLOTID": 4843
@@ -60026,7 +62070,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Hindu Kush",
                   "SPT": 4,
-                  "WATER": 82,
+                  "WATER": 0,
                   "PR": 2029,
                   "PLOTID": 4840,
                   "PLANTED": true
@@ -60039,8 +62083,9 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 150
+                  "WATER": 0,
+                  "PR": 150,
+                  "PLOTID": 4846
                },
                "owner": "aguilax"
             },
@@ -60050,7 +62095,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 405,
                   "PLOTID": 4849,
                   "PLANTED": true
@@ -60154,7 +62199,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5865
                },
                "owner": "migueldavidor"
             },
@@ -60204,8 +62250,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 741
+                  "WATER": 0,
+                  "PR": 741,
+                  "PLANTED": true,
+                  "PLOTID": 5866
                },
                "owner": "migueldavidor"
             },
@@ -60215,7 +62263,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 579,
                   "PLANTED": true,
                   "PLOTID": 5869
@@ -60307,7 +62355,9 @@ module.exports = {
                "id": 4855,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4854
                },
                "owner": "brad12"
             },
@@ -60315,13 +62365,37 @@ module.exports = {
                "id": 4858,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4857
+               },
+               "owner": "brad12"
+            },
+            {
+               "id": 11601,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "brad12"
+            },
+            {
+               "id": 11624,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
                },
                "owner": "brad12"
             }
          ],
          "farm": [],
-         "plotCount": 2,
+         "plotCount": 4,
          "seedCount": 2,
          "seeds": [
             {
@@ -60330,8 +62404,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 420
+                  "WATER": 0,
+                  "PR": 420,
+                  "PLANTED": true,
+                  "PLOTID": 4855
                },
                "owner": "brad12"
             },
@@ -60341,16 +62417,18 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 41
+                  "WATER": 0,
+                  "PR": 41,
+                  "PLANTED": true,
+                  "PLOTID": 4858
                },
                "owner": "brad12"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61482,11 +63560,21 @@ module.exports = {
                   "OCCUPIED": true
                },
                "owner": "skylinebuds"
+            },
+            {
+               "id": 5032,
+               "properties": {
+                  "NAME": "Afghanistan",
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5031
+               },
+               "owner": "skylinebuds"
             }
          ],
          "farm": [],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 2,
+         "seedCount": 2,
          "seeds": [
             {
                "id": 5028,
@@ -61494,10 +63582,23 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 139,
                   "PLOTID": 5029,
                   "PLANTED": true
+               },
+               "owner": "skylinebuds"
+            },
+            {
+               "id": 5031,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Mazar I Sharif",
+                  "SPT": 6,
+                  "WATER": 0,
+                  "PR": 773,
+                  "PLANTED": true,
+                  "PLOTID": 5032
                },
                "owner": "skylinebuds"
             }
@@ -61569,7 +63670,9 @@ module.exports = {
                "id": 323,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 322
                },
                "owner": "g0nzal0t"
             }
@@ -61584,8 +63687,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 242
+                  "WATER": 0,
+                  "PR": 242,
+                  "PLANTED": true,
+                  "PLOTID": 323
                },
                "owner": "g0nzal0t"
             }
@@ -61671,15 +63776,18 @@ module.exports = {
          "subdivisions": [],
          "plots": [
             {
-               "id": 476,
+               "id": 2,
                "properties": {
-                  "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "NAME": "Asia",
+                  "TYPE": "plot",
+                  "OCCUPIED": false,
+                  "PLOTID": 2,
+                  "SEEDID": 0
                },
                "owner": "nftmart.cards"
             },
             {
-               "id": 581,
+               "id": 476,
                "properties": {
                   "NAME": "Jamaica",
                   "TYPE": "plot"
@@ -61727,14 +63835,6 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 5032,
-               "properties": {
-                  "NAME": "Afghanistan",
-                  "TYPE": "plot"
-               },
-               "owner": "nftmart.cards"
-            },
-            {
                "id": 6256,
                "properties": {
                   "NAME": "South America",
@@ -61755,7 +63855,7 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 8442,
+               "id": 8969,
                "properties": {
                   "NAME": "Mexico",
                   "TYPE": "plot",
@@ -61766,7 +63866,40 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 10591,
+               "id": 8973,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 8976,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 9024,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 10243,
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
@@ -61777,7 +63910,7 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 10714,
+               "id": 10758,
                "properties": {
                   "NAME": "Mexico",
                   "TYPE": "plot",
@@ -61788,9 +63921,64 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 10715,
+               "id": 10759,
                "properties": {
                   "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 10897,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11669,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11670,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11777,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11780,
+               "properties": {
+                  "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
                   "OCCUPIED": false,
@@ -61800,9 +63988,34 @@ module.exports = {
             }
          ],
          "farm": [],
-         "plotCount": 14,
-         "seedCount": 4,
+         "plotCount": 21,
+         "seedCount": 9,
          "seeds": [
+            {
+               "id": 1,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai",
+                  "SPT": 2,
+                  "WATER": 235,
+                  "PR": 7407,
+                  "SEEDID": 1,
+                  "PLANTED": false,
+                  "PLOTID": 0
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 61,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 230,
+                  "PR": 7189
+               },
+               "owner": "nftmart.cards"
+            },
             {
                "id": 475,
                "properties": {
@@ -61815,43 +64028,78 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 4074,
+               "id": 1604,
                "properties": {
                   "TYPE": "seed",
-                  "NAME": "Colombian Gold",
-                  "SPT": 7,
-                  "WATER": 10,
-                  "PR": 338
+                  "NAME": "Lamb’s Bread",
+                  "SPT": 2,
+                  "WATER": 215,
+                  "PR": 6252
                },
                "owner": "nftmart.cards"
             },
             {
-               "id": 5031,
+               "id": 2601,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Malawi",
+                  "SPT": 4,
+                  "WATER": 93,
+                  "PR": 2245,
+                  "PLANTED": true,
+                  "PLOTID": 71
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 2604,
                "properties": {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 773
+                  "PR": 738
                },
                "owner": "nftmart.cards"
             },
             {
-               "id": 6375,
+               "id": 2607,
                "properties": {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 551
+                  "PR": 356
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7056,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 448
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 7771,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Thai Chocolate",
+                  "SPT": 2,
+                  "WATER": 1416,
+                  "PR": 7051
                },
                "owner": "nftmart.cards"
             }
          ],
-         "hkwater": 90,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 3,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -61906,14 +64154,6 @@ module.exports = {
          },
          "motaStake": 0,
          "avatars": [
-            {
-               "id": 7092,
-               "properties": {
-                  "NAME": "Magical Male",
-                  "TYPE": "avatar"
-               },
-               "owner": "nftmart.cards"
-            },
             {
                "id": 7143,
                "properties": {
@@ -61987,9 +64227,49 @@ module.exports = {
                "owner": "nftmart.cards"
             },
             {
-               "id": 7731,
+               "id": 7707,
                "properties": {
                   "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11102,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11422,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11531,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11543,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "nftmart.cards"
+            },
+            {
+               "id": 11546,
+               "properties": {
+                  "NAME": "Magical Female",
                   "TYPE": "avatar"
                },
                "owner": "nftmart.cards"
@@ -62105,10 +64385,21 @@ module.exports = {
                   "SEEDID": 493
                },
                "owner": "pepeymeli"
+            },
+            {
+               "id": 10820,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pepeymeli"
             }
          ],
          "farm": [],
-         "plotCount": 1,
+         "plotCount": 2,
          "seedCount": 1,
          "seeds": [
             {
@@ -62117,7 +64408,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 444,
                   "PLANTED": true,
                   "PLOTID": 494
@@ -62125,10 +64416,10 @@ module.exports = {
                "owner": "pepeymeli"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -62515,12 +64806,24 @@ module.exports = {
       },
       "nftmarket": {
          "subdivisions": [],
-         "plots": [],
+         "plots": [
+            {
+               "id": 11429,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nftmarket"
+            }
+         ],
          "farm": [],
-         "plotCount": 0,
+         "plotCount": 1,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 30,
+         "hkwater": 0,
          "waterCount": 0,
          "waterPlants": {
             "lvl1": 0,
@@ -62577,24 +64880,7 @@ module.exports = {
             }
          },
          "motaStake": 0,
-         "avatars": [
-            {
-               "id": 7091,
-               "properties": {
-                  "NAME": "Magical Female",
-                  "TYPE": "avatar"
-               },
-               "owner": "nftmarket"
-            },
-            {
-               "id": 7092,
-               "properties": {
-                  "NAME": "Magical Male",
-                  "TYPE": "avatar"
-               },
-               "owner": "nftmarket"
-            }
-         ],
+         "avatars": [],
          "boosters": []
       },
       "mulletwang": {
@@ -62604,7 +64890,9 @@ module.exports = {
                "id": 1035,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1121
                },
                "owner": "mulletwang"
             },
@@ -62612,7 +64900,9 @@ module.exports = {
                "id": 1036,
                "properties": {
                   "NAME": "Jamaica",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1124
                },
                "owner": "mulletwang"
             },
@@ -62620,7 +64910,9 @@ module.exports = {
                "id": 1052,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1050
                },
                "owner": "mulletwang"
             },
@@ -62628,7 +64920,9 @@ module.exports = {
                "id": 1053,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1176
                },
                "owner": "mulletwang"
             },
@@ -62636,7 +64930,9 @@ module.exports = {
                "id": 1054,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1179
                },
                "owner": "mulletwang"
             },
@@ -62644,7 +64940,9 @@ module.exports = {
                "id": 1055,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1177
                },
                "owner": "mulletwang"
             },
@@ -62652,7 +64950,9 @@ module.exports = {
                "id": 1056,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1180
                },
                "owner": "mulletwang"
             },
@@ -62660,7 +64960,9 @@ module.exports = {
                "id": 1057,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1188
                },
                "owner": "mulletwang"
             }
@@ -62676,7 +64978,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 258
+                  "PR": 258,
+                  "PLANTED": true,
+                  "PLOTID": 1052
                },
                "owner": "mulletwang"
             },
@@ -62774,8 +65078,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
-                  "WATER": 215,
-                  "PR": 6480
+                  "WATER": 0,
+                  "PR": 6480,
+                  "PLANTED": true,
+                  "PLOTID": 1035
                },
                "owner": "mulletwang"
             },
@@ -62796,8 +65102,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lamb’s Bread",
                   "SPT": 2,
-                  "WATER": 215,
-                  "PR": 6187
+                  "WATER": 0,
+                  "PR": 6187,
+                  "PLANTED": true,
+                  "PLOTID": 1036
                },
                "owner": "mulletwang"
             },
@@ -63280,8 +65588,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 166
+                  "WATER": 0,
+                  "PR": 166,
+                  "PLANTED": true,
+                  "PLOTID": 1053
                },
                "owner": "mulletwang"
             },
@@ -63291,8 +65601,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 167
+                  "WATER": 0,
+                  "PR": 167,
+                  "PLANTED": true,
+                  "PLOTID": 1055
                },
                "owner": "mulletwang"
             },
@@ -63314,7 +65626,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 339
+                  "PR": 339,
+                  "PLANTED": true,
+                  "PLOTID": 1054
                },
                "owner": "mulletwang"
             },
@@ -63325,7 +65639,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 190
+                  "PR": 190,
+                  "PLANTED": true,
+                  "PLOTID": 1056
                },
                "owner": "mulletwang"
             },
@@ -63412,8 +65728,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 181
+                  "WATER": 0,
+                  "PR": 181,
+                  "PLANTED": true,
+                  "PLOTID": 1057
                },
                "owner": "mulletwang"
             },
@@ -66507,9 +68825,21 @@ module.exports = {
       },
       "mickvir": {
          "subdivisions": [],
-         "plots": [],
+         "plots": [
+            {
+               "id": 11020,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "mickvir"
+            }
+         ],
          "farm": [],
-         "plotCount": 0,
+         "plotCount": 1,
          "seedCount": 1,
          "seeds": [
             {
@@ -67657,10 +69987,10 @@ module.exports = {
                "owner": "ceheran"
             }
          ],
-         "hkwater": 360,
+         "hkwater": 600,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 12,
+            "lvl1": 20,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -67909,7 +70239,9 @@ module.exports = {
                "id": 1809,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1808
                },
                "owner": "bad-goyim"
             },
@@ -67917,7 +70249,9 @@ module.exports = {
                "id": 1812,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1811
                },
                "owner": "bad-goyim"
             }
@@ -67932,8 +70266,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 505
+                  "WATER": 0,
+                  "PR": 505,
+                  "PLANTED": true,
+                  "PLOTID": 1809
                },
                "owner": "bad-goyim"
             },
@@ -67943,8 +70279,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 269
+                  "WATER": 0,
+                  "PR": 269,
+                  "PLANTED": true,
+                  "PLOTID": 1812
                },
                "owner": "bad-goyim"
             }
@@ -68033,7 +70371,9 @@ module.exports = {
                "id": 1815,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 1814
                },
                "owner": "dannychain"
             }
@@ -68048,8 +70388,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 165
+                  "WATER": 0,
+                  "PR": 165,
+                  "PLANTED": true,
+                  "PLOTID": 1815
                },
                "owner": "dannychain"
             }
@@ -68113,14 +70455,6 @@ module.exports = {
          "motaStake": 0,
          "avatars": [
             {
-               "id": 7707,
-               "properties": {
-                  "NAME": "Magical Male",
-                  "TYPE": "avatar"
-               },
-               "owner": "dannychain"
-            },
-            {
                "id": 7708,
                "properties": {
                   "NAME": "Magical Female",
@@ -68138,7 +70472,9 @@ module.exports = {
                "id": 2065,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2064
                },
                "owner": "drugwar"
             }
@@ -68154,7 +70490,9 @@ module.exports = {
                   "NAME": "Swazi Gold",
                   "SPT": 3,
                   "WATER": 168,
-                  "PR": 4607
+                  "PR": 4607,
+                  "PLANTED": true,
+                  "PLOTID": 2065
                },
                "owner": "drugwar"
             }
@@ -68226,7 +70564,9 @@ module.exports = {
                "id": 2134,
                "properties": {
                   "NAME": "Africa",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2133
                },
                "owner": "rahul.stan"
             }
@@ -68242,7 +70582,9 @@ module.exports = {
                   "NAME": "Malawi",
                   "SPT": 4,
                   "WATER": 93,
-                  "PR": 2396
+                  "PR": 2396,
+                  "PLANTED": true,
+                  "PLOTID": 2134
                },
                "owner": "rahul.stan"
             }
@@ -68304,7 +70646,24 @@ module.exports = {
             }
          },
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 10911,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "rahul.stan"
+            },
+            {
+               "id": 10912,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "rahul.stan"
+            }
+         ],
          "boosters": []
       },
       "silverlining1": {
@@ -68384,7 +70743,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 137,
                   "PLANTED": true,
                   "PLOTID": 2266
@@ -68397,9 +70756,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 192,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 4639
                },
                "owner": "silverlining1"
             },
@@ -68409,9 +70769,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 410,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 4648
                },
                "owner": "silverlining1"
             },
@@ -68421,7 +70782,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 679,
                   "PLOTID": 4645,
                   "PLANTED": true
@@ -68513,7 +70874,9 @@ module.exports = {
                "id": 2269,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2268
                },
                "owner": "marcss19"
             },
@@ -68521,7 +70884,9 @@ module.exports = {
                "id": 2284,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2283
                },
                "owner": "marcss19"
             },
@@ -68539,7 +70904,9 @@ module.exports = {
                "id": 2290,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2289
                },
                "owner": "marcss19"
             },
@@ -68547,7 +70914,9 @@ module.exports = {
                "id": 2293,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2292
                },
                "owner": "marcss19"
             }
@@ -68562,8 +70931,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 235
+                  "WATER": 0,
+                  "PR": 235,
+                  "PLANTED": true,
+                  "PLOTID": 2269
                },
                "owner": "marcss19"
             },
@@ -68573,8 +70944,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 99
+                  "WATER": 0,
+                  "PR": 99,
+                  "PLANTED": true,
+                  "PLOTID": 2284
                },
                "owner": "marcss19"
             },
@@ -68584,7 +70957,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2178,
                   "PLANTED": true,
                   "PLOTID": 2287
@@ -68598,7 +70971,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 265
+                  "PR": 265,
+                  "PLANTED": true,
+                  "PLOTID": 2290
                },
                "owner": "marcss19"
             },
@@ -68608,8 +70983,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 718
+                  "WATER": 0,
+                  "PR": 718,
+                  "PLANTED": true,
+                  "PLOTID": 2293
                },
                "owner": "marcss19"
             }
@@ -69323,7 +71700,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 986,
                   "PLANTED": true,
                   "PLOTID": 4429
@@ -69336,7 +71713,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 507,
                   "PLOTID": 4432,
                   "PLANTED": true
@@ -69626,7 +72003,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5376
                },
                "owner": "thebeardflex"
             },
@@ -69647,7 +72025,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6066
                },
                "owner": "thebeardflex"
             },
@@ -69679,7 +72058,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5478
                },
                "owner": "thebeardflex"
             },
@@ -69689,7 +72069,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6612
                },
                "owner": "thebeardflex"
             },
@@ -69714,7 +72095,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Malawi",
                   "SPT": 4,
-                  "WATER": 93,
+                  "WATER": 0,
                   "PR": 2473,
                   "PLOTID": 2518,
                   "PLANTED": true
@@ -69727,7 +72108,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 818,
                   "PLANTED": true,
                   "PLOTID": 5377
@@ -69740,9 +72121,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 447,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 4462
                },
                "owner": "thebeardflex"
             },
@@ -69752,7 +72134,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 220,
                   "PLOTID": 4561,
                   "PLANTED": true
@@ -69765,7 +72147,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 262,
                   "PLANTED": true,
                   "PLOTID": 5479
@@ -69778,8 +72160,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 664
+                  "WATER": 0,
+                  "PR": 664,
+                  "PLANTED": true,
+                  "PLOTID": 6058
                },
                "owner": "thebeardflex"
             },
@@ -69789,8 +72173,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 300
+                  "WATER": 0,
+                  "PR": 300,
+                  "PLANTED": true,
+                  "PLOTID": 6379
                },
                "owner": "thebeardflex"
             },
@@ -69800,7 +72186,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1765,
                   "PLANTED": true,
                   "PLOTID": 4450
@@ -69813,7 +72199,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 374,
                   "PLANTED": true,
                   "PLOTID": 6064
@@ -69826,8 +72212,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 733
+                  "WATER": 0,
+                  "PR": 733,
+                  "PLANTED": true,
+                  "PLOTID": 6067
                },
                "owner": "thebeardflex"
             },
@@ -69837,7 +72225,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 56,
                   "PLOTID": 6070,
                   "PLANTED": true
@@ -69850,7 +72238,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 397,
                   "PLANTED": true,
                   "PLOTID": 6364
@@ -69863,7 +72251,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 213,
                   "PLANTED": true,
                   "PLOTID": 4672
@@ -69876,8 +72264,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 806
+                  "WATER": 0,
+                  "PR": 806,
+                  "PLANTED": true,
+                  "PLOTID": 6613
                },
                "owner": "thebeardflex"
             },
@@ -70193,7 +72583,9 @@ module.exports = {
                "id": 4501,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 4500,
+                  "OCCUPIED": true
                },
                "owner": "luisx22"
             },
@@ -70218,8 +72610,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 625
+                  "WATER": 0,
+                  "PR": 625,
+                  "PLANTED": true,
+                  "PLOTID": 4501
                },
                "owner": "luisx22"
             },
@@ -70229,7 +72623,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 309,
                   "PLANTED": true,
                   "PLOTID": 4504
@@ -70237,10 +72631,10 @@ module.exports = {
                "owner": "luisx22"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 150,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 5,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -70368,10 +72762,43 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "domeownik"
+            },
+            {
+               "id": 10767,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "domeownik"
+            },
+            {
+               "id": 10768,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "domeownik"
+            },
+            {
+               "id": 10769,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "domeownik"
             }
          ],
          "farm": [],
-         "plotCount": 5,
+         "plotCount": 8,
          "seedCount": 3,
          "seeds": [
             {
@@ -70380,7 +72807,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 151,
                   "PLANTED": true,
                   "PLOTID": 4507
@@ -70579,7 +73006,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 151,
                   "PLOTID": 4528,
                   "PLANTED": true
@@ -70592,7 +73019,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 198,
                   "PLOTID": 4531,
                   "PLANTED": true
@@ -70605,7 +73032,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 540,
                   "PLOTID": 4534,
                   "PLANTED": true
@@ -71182,7 +73609,9 @@ module.exports = {
                "id": 4594,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4593
                },
                "owner": "franvit1979"
             },
@@ -71190,7 +73619,9 @@ module.exports = {
                "id": 4600,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4599
                },
                "owner": "franvit1979"
             },
@@ -71214,7 +73645,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 284
+                  "PR": 284,
+                  "PLANTED": true,
+                  "PLOTID": 4594
                },
                "owner": "franvit1979"
             },
@@ -71225,7 +73658,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 652
+                  "PR": 652,
+                  "PLANTED": true,
+                  "PLOTID": 4600
                },
                "owner": "franvit1979"
             },
@@ -71443,7 +73878,9 @@ module.exports = {
                "id": 4615,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4614
                },
                "owner": "supablaza"
             }
@@ -71498,7 +73935,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 48
+                  "PR": 48,
+                  "PLANTED": true,
+                  "PLOTID": 4615
                },
                "owner": "supablaza"
             }
@@ -72055,7 +74494,9 @@ module.exports = {
                "id": 5080,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5079
                },
                "owner": "roshansuares"
             },
@@ -72063,7 +74504,9 @@ module.exports = {
                "id": 5098,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5097
                },
                "owner": "roshansuares"
             },
@@ -72071,7 +74514,9 @@ module.exports = {
                "id": 5101,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5100
                },
                "owner": "roshansuares"
             }
@@ -72099,7 +74544,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 523,
                   "PLOTID": 5077,
                   "PLANTED": true
@@ -72112,8 +74557,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 751
+                  "WATER": 0,
+                  "PR": 751,
+                  "PLANTED": true,
+                  "PLOTID": 5080
                },
                "owner": "roshansuares"
             },
@@ -72123,8 +74570,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 846
+                  "WATER": 0,
+                  "PR": 846,
+                  "PLANTED": true,
+                  "PLOTID": 5098
                },
                "owner": "roshansuares"
             },
@@ -72134,8 +74583,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 695
+                  "WATER": 0,
+                  "PR": 695,
+                  "PLANTED": true,
+                  "PLOTID": 5101
                },
                "owner": "roshansuares"
             }
@@ -72360,7 +74811,9 @@ module.exports = {
                "id": 5074,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5073
                },
                "owner": "rohansuares"
             },
@@ -72370,7 +74823,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6678
                },
                "owner": "rohansuares"
             },
@@ -72409,8 +74863,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 663
+                  "WATER": 0,
+                  "PR": 663,
+                  "PLANTED": true,
+                  "PLOTID": 5074
                },
                "owner": "rohansuares"
             },
@@ -72420,8 +74876,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 701
+                  "WATER": 0,
+                  "PR": 701,
+                  "PLANTED": true,
+                  "PLOTID": 6679
                },
                "owner": "rohansuares"
             },
@@ -72431,7 +74889,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 359,
                   "PLOTID": 6685
                },
@@ -72521,7 +74979,9 @@ module.exports = {
                "id": 5086,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SEEDID": 5085,
+                  "OCCUPIED": true
                },
                "owner": "felsum"
             },
@@ -72559,7 +75019,9 @@ module.exports = {
                "id": 5206,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5088
                },
                "owner": "felsum"
             }
@@ -72575,7 +75037,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 457
+                  "PR": 457,
+                  "PLANTED": true,
+                  "PLOTID": 5086
                },
                "owner": "felsum"
             },
@@ -72585,8 +75049,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 816
+                  "WATER": 0,
+                  "PR": 816,
+                  "PLANTED": true,
+                  "PLOTID": 5206
                },
                "owner": "felsum"
             },
@@ -72596,7 +75062,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 85,
                   "PLANTED": true,
                   "PLOTID": 5200
@@ -72609,7 +75075,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 278,
                   "PLOTID": 5203,
                   "PLANTED": true
@@ -72630,10 +75096,10 @@ module.exports = {
                "owner": "felsum"
             }
          ],
-         "hkwater": 150,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -72966,7 +75432,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1453,
                   "PLANTED": true,
                   "PLOTID": 5122
@@ -72979,7 +75445,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 796,
                   "PLOTID": 5131,
                   "PLANTED": true
@@ -72992,7 +75458,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 709,
                   "PLANTED": true,
                   "PLOTID": 5134
@@ -73005,7 +75471,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 820,
                   "PLANTED": true,
                   "PLOTID": 5137
@@ -73018,7 +75484,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 759,
                   "PLOTID": 5140,
                   "PLANTED": true
@@ -73044,7 +75510,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 781,
                   "PLANTED": true,
                   "PLOTID": 5146
@@ -73057,7 +75523,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 840,
                   "PLANTED": true,
                   "PLOTID": 5143
@@ -73070,7 +75536,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 614,
                   "PLOTID": 5149,
                   "PLANTED": true
@@ -73083,7 +75549,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
+                  "WATER": 0,
                   "PR": 910,
                   "PLOTID": 5128,
                   "PLANTED": true
@@ -73091,10 +75557,10 @@ module.exports = {
                "owner": "jackofcrows"
             }
          ],
-         "hkwater": 300,
+         "hkwater": 570,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 19,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -73320,7 +75786,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1645,
                   "PLOTID": 5155,
                   "PLANTED": true
@@ -73333,7 +75799,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 549,
                   "PLANTED": true,
                   "PLOTID": 5158
@@ -73346,7 +75812,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 282,
                   "PLANTED": true,
                   "PLOTID": 5833
@@ -73359,7 +75825,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 308,
                   "PLANTED": true,
                   "PLOTID": 5161
@@ -73461,7 +75927,9 @@ module.exports = {
                "id": 5194,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5193
                },
                "owner": "meyxxyz"
             },
@@ -73469,7 +75937,9 @@ module.exports = {
                "id": 5197,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 5196
                },
                "owner": "meyxxyz"
             }
@@ -73484,8 +75954,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 295
+                  "WATER": 0,
+                  "PR": 295,
+                  "PLANTED": true,
+                  "PLOTID": 5194
                },
                "owner": "meyxxyz"
             },
@@ -73495,8 +75967,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 581
+                  "WATER": 0,
+                  "PR": 581,
+                  "PLANTED": true,
+                  "PLOTID": 5197
                },
                "owner": "meyxxyz"
             }
@@ -73586,7 +76060,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5262
                },
                "owner": "matheus9"
             },
@@ -73596,7 +76071,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5268
                },
                "owner": "matheus9"
             },
@@ -73606,7 +76082,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5232
                },
                "owner": "matheus9"
             },
@@ -73646,7 +76123,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5271
                },
                "owner": "matheus9"
             },
@@ -73721,7 +76199,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 187
                },
                "owner": "matheus9"
@@ -73744,7 +76222,9 @@ module.exports = {
                   "NAME": "Afghani",
                   "SPT": 5,
                   "WATER": 70,
-                  "PR": 1771
+                  "PR": 1771,
+                  "PLOTID": 5253,
+                  "PLANTED": true
                },
                "owner": "matheus9"
             },
@@ -73755,7 +76235,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 234
+                  "PR": 234,
+                  "PLOTID": 5245,
+                  "PLANTED": true
                },
                "owner": "matheus9"
             },
@@ -73777,7 +76259,9 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 585
+                  "PR": 585,
+                  "PLANTED": true,
+                  "PLOTID": 5246
                },
                "owner": "matheus9"
             },
@@ -73788,7 +76272,9 @@ module.exports = {
                   "NAME": "Afghani",
                   "SPT": 5,
                   "WATER": 70,
-                  "PR": 1714
+                  "PR": 1714,
+                  "PLANTED": true,
+                  "PLOTID": 5272
                },
                "owner": "matheus9"
             },
@@ -73947,7 +76433,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5364
                },
                "owner": "agramon"
             },
@@ -73983,10 +76470,21 @@ module.exports = {
                   "SEEDID": 5385
                },
                "owner": "agramon"
+            },
+            {
+               "id": 12455,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "agramon"
             }
          ],
          "farm": [],
-         "plotCount": 4,
+         "plotCount": 5,
          "seedCount": 3,
          "seeds": [
             {
@@ -73996,7 +76494,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 665
+                  "PR": 665,
+                  "PLANTED": true,
+                  "PLOTID": 5365
                },
                "owner": "agramon"
             },
@@ -74006,7 +76506,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 445,
                   "PLOTID": 9173,
                   "PLANTED": true
@@ -74019,7 +76519,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 184,
                   "PLOTID": 5665,
                   "PLANTED": true
@@ -74027,10 +76527,10 @@ module.exports = {
                "owner": "agramon"
             }
          ],
-         "hkwater": 210,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 7,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -74224,7 +76724,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5502
                },
                "owner": "labriego"
             },
@@ -74234,7 +76735,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5514
                },
                "owner": "labriego"
             },
@@ -74244,7 +76746,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5529
                },
                "owner": "labriego"
             },
@@ -74254,7 +76757,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5505
                },
                "owner": "labriego"
             },
@@ -74264,7 +76768,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5511
                },
                "owner": "labriego"
             },
@@ -74274,7 +76779,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5517
                },
                "owner": "labriego"
             },
@@ -74284,7 +76790,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5520
                },
                "owner": "labriego"
             },
@@ -74294,7 +76801,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5538
                },
                "owner": "labriego"
             },
@@ -74304,7 +76812,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5526
                },
                "owner": "labriego"
             },
@@ -74314,7 +76823,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5508
                },
                "owner": "labriego"
             },
@@ -74324,7 +76834,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5541
                },
                "owner": "labriego"
             },
@@ -74334,7 +76845,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5544
                },
                "owner": "labriego"
             },
@@ -74344,7 +76856,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5547
                },
                "owner": "labriego"
             },
@@ -74354,7 +76867,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5550
                },
                "owner": "labriego"
             },
@@ -74364,7 +76878,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5559
                },
                "owner": "labriego"
             },
@@ -74374,7 +76889,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5565
                },
                "owner": "labriego"
             },
@@ -74384,7 +76900,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5571
                },
                "owner": "labriego"
             },
@@ -74394,7 +76911,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5556
                },
                "owner": "labriego"
             },
@@ -74404,7 +76922,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6033
                },
                "owner": "labriego"
             },
@@ -74414,7 +76933,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5895
                },
                "owner": "labriego"
             },
@@ -74424,7 +76944,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5553
                },
                "owner": "labriego"
             },
@@ -74434,7 +76955,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 7675
                },
                "owner": "labriego"
             },
@@ -74444,7 +76966,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5562
                },
                "owner": "labriego"
             },
@@ -74454,7 +76977,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6345
                },
                "owner": "labriego"
             },
@@ -74464,7 +76988,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5898
                },
                "owner": "labriego"
             },
@@ -74474,7 +76999,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5901
                },
                "owner": "labriego"
             },
@@ -74484,7 +77010,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5568
                },
                "owner": "labriego"
             },
@@ -74494,7 +77021,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5532
                },
                "owner": "labriego"
             },
@@ -74504,7 +77032,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6342
                },
                "owner": "labriego"
             },
@@ -74514,7 +77043,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5535
                },
                "owner": "labriego"
             },
@@ -74524,7 +77054,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6717
                },
                "owner": "labriego"
             },
@@ -74534,7 +77065,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5523
                },
                "owner": "labriego"
             },
@@ -74544,8 +77076,8 @@ module.exports = {
                   "NAME": "Mexico",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 10615
                },
                "owner": "labriego"
             }
@@ -74560,8 +77092,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 426
+                  "WATER": 0,
+                  "PR": 426,
+                  "PLANTED": true,
+                  "PLOTID": 5503
                },
                "owner": "labriego"
             },
@@ -74571,8 +77105,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 216
+                  "WATER": 0,
+                  "PR": 216,
+                  "PLANTED": true,
+                  "PLOTID": 5512
                },
                "owner": "labriego"
             },
@@ -74582,8 +77118,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 613
+                  "WATER": 0,
+                  "PR": 613,
+                  "PLANTED": true,
+                  "PLOTID": 5530
                },
                "owner": "labriego"
             },
@@ -74593,8 +77131,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 324
+                  "WATER": 0,
+                  "PR": 324,
+                  "PLANTED": true,
+                  "PLOTID": 5515
                },
                "owner": "labriego"
             },
@@ -74604,8 +77144,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 265
+                  "WATER": 0,
+                  "PR": 265,
+                  "PLANTED": true,
+                  "PLOTID": 5506
                },
                "owner": "labriego"
             },
@@ -74615,8 +77157,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 224
+                  "WATER": 0,
+                  "PR": 224,
+                  "PLANTED": true,
+                  "PLOTID": 5518
                },
                "owner": "labriego"
             },
@@ -74626,8 +77170,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 262
+                  "WATER": 0,
+                  "PR": 262,
+                  "PLANTED": true,
+                  "PLOTID": 5521
                },
                "owner": "labriego"
             },
@@ -74637,8 +77183,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 32
+                  "WATER": 0,
+                  "PR": 32,
+                  "PLANTED": true,
+                  "PLOTID": 6721
                },
                "owner": "labriego"
             },
@@ -74648,8 +77196,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 444
+                  "WATER": 0,
+                  "PR": 444,
+                  "PLANTED": true,
+                  "PLOTID": 5527
                },
                "owner": "labriego"
             },
@@ -74659,8 +77209,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 813
+                  "WATER": 0,
+                  "PR": 813,
+                  "PLANTED": true,
+                  "PLOTID": 5509
                },
                "owner": "labriego"
             },
@@ -74670,8 +77222,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 84
+                  "WATER": 0,
+                  "PR": 84,
+                  "PLANTED": true,
+                  "PLOTID": 6034
                },
                "owner": "labriego"
             },
@@ -74681,8 +77235,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 95
+                  "WATER": 0,
+                  "PR": 95,
+                  "PLANTED": true,
+                  "PLOTID": 6346
                },
                "owner": "labriego"
             },
@@ -74693,7 +77249,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 89
+                  "PR": 89,
+                  "PLANTED": true,
+                  "PLOTID": 5524
                },
                "owner": "labriego"
             },
@@ -74703,8 +77261,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 251
+                  "WATER": 0,
+                  "PR": 251,
+                  "PLANTED": true,
+                  "PLOTID": 5533
                },
                "owner": "labriego"
             },
@@ -74714,8 +77274,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 314
+                  "WATER": 0,
+                  "PR": 314,
+                  "PLANTED": true,
+                  "PLOTID": 5536
                },
                "owner": "labriego"
             },
@@ -74725,8 +77287,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 219
+                  "WATER": 0,
+                  "PR": 219,
+                  "PLANTED": true,
+                  "PLOTID": 5539
                },
                "owner": "labriego"
             },
@@ -74736,8 +77300,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 184
+                  "WATER": 0,
+                  "PR": 184,
+                  "PLANTED": true,
+                  "PLOTID": 5542
                },
                "owner": "labriego"
             },
@@ -74747,8 +77313,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 312
+                  "WATER": 0,
+                  "PR": 312,
+                  "PLANTED": true,
+                  "PLOTID": 5563
                },
                "owner": "labriego"
             },
@@ -74758,8 +77326,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 313
+                  "WATER": 0,
+                  "PR": 313,
+                  "PLANTED": true,
+                  "PLOTID": 5554
                },
                "owner": "labriego"
             },
@@ -74769,8 +77339,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 97
+                  "WATER": 0,
+                  "PR": 97,
+                  "PLANTED": true,
+                  "PLOTID": 5545
                },
                "owner": "labriego"
             },
@@ -74780,8 +77352,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 305
+                  "WATER": 0,
+                  "PR": 305,
+                  "PLANTED": true,
+                  "PLOTID": 5569
                },
                "owner": "labriego"
             },
@@ -74791,8 +77365,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 127
+                  "WATER": 0,
+                  "PR": 127,
+                  "PLANTED": true,
+                  "PLOTID": 5548
                },
                "owner": "labriego"
             },
@@ -74802,8 +77378,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 107
+                  "WATER": 0,
+                  "PR": 107,
+                  "PLANTED": true,
+                  "PLOTID": 5902
                },
                "owner": "labriego"
             },
@@ -74813,8 +77391,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 173
+                  "WATER": 0,
+                  "PR": 173,
+                  "PLANTED": true,
+                  "PLOTID": 5551
                },
                "owner": "labriego"
             },
@@ -74824,8 +77404,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 254
+                  "WATER": 0,
+                  "PR": 254,
+                  "PLANTED": true,
+                  "PLOTID": 5560
                },
                "owner": "labriego"
             },
@@ -74835,8 +77417,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 164
+                  "WATER": 0,
+                  "PR": 164,
+                  "PLANTED": true,
+                  "PLOTID": 5896
                },
                "owner": "labriego"
             },
@@ -74846,8 +77430,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 81
+                  "WATER": 0,
+                  "PR": 81,
+                  "PLANTED": true,
+                  "PLOTID": 5899
                },
                "owner": "labriego"
             },
@@ -74857,8 +77443,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 75
+                  "WATER": 0,
+                  "PR": 75,
+                  "PLANTED": true,
+                  "PLOTID": 5557
                },
                "owner": "labriego"
             },
@@ -74868,8 +77456,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Lashkar Gah",
                   "SPT": 5,
-                  "WATER": 43,
-                  "PR": 1084
+                  "WATER": 0,
+                  "PR": 1084,
+                  "PLANTED": true,
+                  "PLOTID": 6343
                },
                "owner": "labriego"
             },
@@ -74879,8 +77469,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 325
+                  "WATER": 0,
+                  "PR": 325,
+                  "PLANTED": true,
+                  "PLOTID": 5572
                },
                "owner": "labriego"
             },
@@ -74890,8 +77482,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
-                  "PR": 472
+                  "WATER": 0,
+                  "PR": 472,
+                  "PLANTED": true,
+                  "PLOTID": 6718
                },
                "owner": "labriego"
             },
@@ -74912,8 +77506,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 172
+                  "WATER": 0,
+                  "PR": 172,
+                  "PLANTED": true,
+                  "PLOTID": 5566
                },
                "owner": "labriego"
             },
@@ -74923,16 +77519,18 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 114,
-                  "PR": 544
+                  "WATER": 0,
+                  "PR": 544,
+                  "PLANTED": true,
+                  "PLOTID": 10616
                },
                "owner": "labriego"
             }
          ],
-         "hkwater": 1020,
+         "hkwater": 1080,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 34,
+            "lvl1": 36,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -75252,7 +77850,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5661
                },
                "owner": "tronquito"
             },
@@ -75279,7 +77878,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 711
+                  "PR": 711,
+                  "PLOTID": 5662,
+                  "PLANTED": true
                },
                "owner": "tronquito"
             },
@@ -75593,10 +78194,10 @@ module.exports = {
                "owner": "hellene8"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -75779,7 +78380,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 494,
                   "PLOTID": 5782,
                   "PLANTED": true
@@ -75792,7 +78393,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 49,
                   "PLANTED": true,
                   "PLOTID": 5791
@@ -75818,7 +78419,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 701,
                   "PLANTED": true,
                   "PLOTID": 5827
@@ -75844,7 +78445,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 774,
                   "PLOTID": 6274,
                   "PLANTED": true
@@ -75857,7 +78458,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1568,
                   "PLANTED": true,
                   "PLOTID": 5821
@@ -75870,7 +78471,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 630,
                   "PLOTID": 6277,
                   "PLANTED": true
@@ -75896,7 +78497,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 324,
                   "PLANTED": true,
                   "PLOTID": 7069
@@ -75904,10 +78505,10 @@ module.exports = {
                "owner": "timetraveljesus"
             }
          ],
-         "hkwater": 300,
+         "hkwater": 600,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 20,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -76025,7 +78626,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5856
                },
                "owner": "dvelandiaa"
             },
@@ -76062,7 +78664,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 300,
                   "PLOTID": 5845,
                   "PLANTED": true
@@ -76075,7 +78677,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1591,
                   "PLOTID": 5848,
                   "PLANTED": true
@@ -76088,7 +78690,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 496,
                   "PLOTID": 5854,
                   "PLANTED": true
@@ -76101,8 +78703,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 699
+                  "WATER": 0,
+                  "PR": 699,
+                  "PLANTED": true,
+                  "PLOTID": 5857
                },
                "owner": "dvelandiaa"
             },
@@ -76112,7 +78716,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 97,
                   "PLANTED": true,
                   "PLOTID": 6952
@@ -76125,7 +78729,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 315,
                   "PLOTID": 6964,
                   "PLANTED": true
@@ -76225,10 +78829,21 @@ module.exports = {
                   "SEEDID": 5904
                },
                "owner": "robvector"
+            },
+            {
+               "id": 11250,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "robvector"
             }
          ],
          "farm": [],
-         "plotCount": 1,
+         "plotCount": 2,
          "seedCount": 1,
          "seeds": [
             {
@@ -76245,10 +78860,10 @@ module.exports = {
                "owner": "robvector"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -76344,7 +78959,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6045
                },
                "owner": "luiios"
             },
@@ -76354,7 +78970,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6060
                },
                "owner": "luiios"
             },
@@ -76405,7 +79022,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 800
+                  "PR": 800,
+                  "PLANTED": true,
+                  "PLOTID": 6046
                },
                "owner": "luiios"
             },
@@ -76416,7 +79035,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 723
+                  "PR": 723,
+                  "PLANTED": true,
+                  "PLOTID": 6061
                },
                "owner": "luiios"
             },
@@ -76627,7 +79248,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6090
                },
                "owner": "earthboy75"
             },
@@ -76657,7 +79279,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6099
                },
                "owner": "earthboy75"
             },
@@ -77250,10 +79873,560 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "earthboy75"
+            },
+            {
+               "id": 12185,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12186,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12187,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12188,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12189,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12190,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12191,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12192,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12193,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12194,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12195,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12196,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12197,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12198,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12199,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12200,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12201,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12202,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12203,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12204,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12205,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12206,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12207,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12208,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12209,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12210,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12211,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12212,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12213,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12214,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12215,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12216,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12217,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12218,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12219,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12220,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12221,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12222,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12223,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12224,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12225,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12226,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12227,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12228,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12229,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12230,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12231,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12232,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12233,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
+            },
+            {
+               "id": 12234,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "earthboy75"
             }
          ],
          "farm": [],
-         "plotCount": 63,
+         "plotCount": 113,
          "seedCount": 63,
          "seeds": [
             {
@@ -77329,7 +80502,9 @@ module.exports = {
                   "NAME": "Afghani",
                   "SPT": 5,
                   "WATER": 70,
-                  "PR": 1673
+                  "PR": 1673,
+                  "PLANTED": true,
+                  "PLOTID": 6073
                },
                "owner": "earthboy75"
             },
@@ -77362,7 +80537,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 824
+                  "PR": 824,
+                  "PLANTED": true,
+                  "PLOTID": 6082
                },
                "owner": "earthboy75"
             },
@@ -77950,10 +81127,10 @@ module.exports = {
                "owner": "earthboy75"
             }
          ],
-         "hkwater": 1890,
+         "hkwater": 6180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 63,
+            "lvl1": 206,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -78404,7 +81581,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6393
                },
                "owner": "quijay"
             }
@@ -78419,8 +81597,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 745
+                  "WATER": 0,
+                  "PR": 745,
+                  "PLANTED": true,
+                  "PLOTID": 6394
                },
                "owner": "quijay"
             }
@@ -78537,10 +81717,10 @@ module.exports = {
                "owner": "jesusalejos"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -79091,7 +82271,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 89,
                   "PLANTED": true,
                   "PLOTID": 6445
@@ -79393,7 +82573,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6522
                },
                "owner": "al-gaming"
             },
@@ -79403,8 +82584,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 10093
                },
                "owner": "al-gaming"
             }
@@ -79420,7 +82601,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 260
+                  "PR": 260,
+                  "PLANTED": true,
+                  "PLOTID": 6523
                },
                "owner": "al-gaming"
             },
@@ -79431,7 +82614,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 63,
-                  "PR": 307
+                  "PR": 307,
+                  "PLANTED": true,
+                  "PLOTID": 10092
                },
                "owner": "al-gaming"
             }
@@ -79844,7 +83029,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 390,
                   "PLOTID": 5252,
                   "PLANTED": true
@@ -79940,7 +83125,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6564
                },
                "owner": "megarciab"
             }
@@ -79955,8 +83141,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 682
+                  "WATER": 0,
+                  "PR": 682,
+                  "PLANTED": true,
+                  "PLOTID": 6565
                },
                "owner": "megarciab"
             }
@@ -80049,7 +83237,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": false,
+                  "SEEDID": 6567
                },
                "owner": "jurbinaper"
             }
@@ -80066,15 +83255,16 @@ module.exports = {
                   "SPT": 7,
                   "WATER": 9,
                   "PR": 185,
-                  "PLANTED": true
+                  "PLANTED": true,
+                  "PLOTID": 6568
                },
                "owner": "jurbinaper"
             }
          ],
-         "hkwater": 330,
+         "hkwater": 180,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 11,
+            "lvl1": 6,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -80402,7 +83592,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6657
                },
                "owner": "barbasoon"
             },
@@ -80412,7 +83603,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6660
                },
                "owner": "barbasoon"
             },
@@ -80422,7 +83614,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6660
                },
                "owner": "barbasoon"
             },
@@ -80432,7 +83625,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6666
                },
                "owner": "barbasoon"
             },
@@ -80442,7 +83636,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6675
                },
                "owner": "barbasoon"
             }
@@ -80458,7 +83653,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 813
+                  "PR": 813,
+                  "PLANTED": true,
+                  "PLOTID": 6658
                },
                "owner": "barbasoon"
             },
@@ -80469,7 +83666,9 @@ module.exports = {
                   "NAME": "Panama Red",
                   "SPT": 7,
                   "WATER": 9,
-                  "PR": 240
+                  "PR": 240,
+                  "PLANTED": true,
+                  "PLOTID": 6664
                },
                "owner": "barbasoon"
             },
@@ -80480,7 +83679,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 240
+                  "PR": 240,
+                  "PLANTED": true,
+                  "PLOTID": 6661
                },
                "owner": "barbasoon"
             },
@@ -80491,7 +83692,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 298
+                  "PR": 298,
+                  "PLANTED": true,
+                  "PLOTID": 6667
                },
                "owner": "barbasoon"
             },
@@ -80502,7 +83705,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 348
+                  "PR": 348,
+                  "PLANTED": true,
+                  "PLOTID": 6676
                },
                "owner": "barbasoon"
             }
@@ -80730,10 +83935,32 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "laurapalmerr"
+            },
+            {
+               "id": 10913,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "laurapalmerr"
+            },
+            {
+               "id": 10914,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "laurapalmerr"
             }
          ],
          "farm": [],
-         "plotCount": 3,
+         "plotCount": 5,
          "seedCount": 1,
          "seeds": [
             {
@@ -80947,7 +84174,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6729
                },
                "owner": "vica1988"
             },
@@ -80957,13 +84185,36 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6732
+               },
+               "owner": "vica1988"
+            },
+            {
+               "id": 11141,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "vica1988"
+            },
+            {
+               "id": 11195,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
                },
                "owner": "vica1988"
             }
          ],
          "farm": [],
-         "plotCount": 2,
+         "plotCount": 4,
          "seedCount": 2,
          "seeds": [
             {
@@ -80972,8 +84223,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
-                  "PR": 1505
+                  "WATER": 0,
+                  "PR": 1505,
+                  "PLANTED": true,
+                  "PLOTID": 6730
                },
                "owner": "vica1988"
             },
@@ -80983,16 +84236,18 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 196
+                  "WATER": 0,
+                  "PR": 196,
+                  "PLANTED": true,
+                  "PLOTID": 6733
                },
                "owner": "vica1988"
             }
          ],
-         "hkwater": 60,
+         "hkwater": 480,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 16,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -81159,7 +84414,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Hindu Kush",
                   "SPT": 4,
-                  "WATER": 82,
+                  "WATER": 0,
                   "PR": 2163,
                   "PLOTID": 6745,
                   "PLANTED": true
@@ -81172,7 +84427,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 836,
                   "PLOTID": 6748,
                   "PLANTED": true
@@ -81185,7 +84440,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1598,
                   "PLANTED": true,
                   "PLOTID": 6742
@@ -81198,7 +84453,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 552,
                   "PLANTED": true,
                   "PLOTID": 6751
@@ -81211,7 +84466,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 344
                },
                "owner": "wilwaps32"
@@ -81222,7 +84477,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
+                  "WATER": 0,
                   "PR": 191,
                   "PLOTID": 6757,
                   "PLANTED": true
@@ -81410,7 +84665,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6762
                },
                "owner": "julste"
             },
@@ -81436,8 +84692,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 650
+                  "WATER": 0,
+                  "PR": 650,
+                  "PLOTID": 6763,
+                  "PLANTED": true
                },
                "owner": "julste"
             }
@@ -81792,10 +85050,21 @@ module.exports = {
                   "SEEDID": 6915
                },
                "owner": "shirahoshi"
+            },
+            {
+               "id": 12042,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "shirahoshi"
             }
          ],
          "farm": [],
-         "plotCount": 5,
+         "plotCount": 6,
          "seedCount": 5,
          "seeds": [
             {
@@ -81804,7 +85073,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1550,
                   "PLOTID": 6823,
                   "PLANTED": true
@@ -81817,7 +85086,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 395,
                   "PLANTED": true,
                   "PLOTID": 6826
@@ -81830,7 +85099,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 722,
                   "PLANTED": true,
                   "PLOTID": 6865
@@ -81843,7 +85112,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 191,
                   "PLANTED": true,
                   "PLOTID": 6877
@@ -81856,7 +85125,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 686,
                   "PLANTED": true,
                   "PLOTID": 6916
@@ -81864,10 +85133,10 @@ module.exports = {
                "owner": "shirahoshi"
             }
          ],
-         "hkwater": 150,
+         "hkwater": 660,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 22,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -82266,7 +85535,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 422,
                   "PLANTED": true,
                   "PLOTID": 7048
@@ -82292,7 +85561,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 230,
                   "PLOTID": 7051,
                   "PLANTED": true
@@ -82381,15 +85650,63 @@ module.exports = {
       },
       "dcalsot": {
          "subdivisions": [],
-         "plots": [],
+         "plots": [
+            {
+               "id": 11077,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dcalsot"
+            },
+            {
+               "id": 11872,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": true,
+                  "SEEDID": 91
+               },
+               "owner": "dcalsot"
+            },
+            {
+               "id": 11873,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dcalsot"
+            }
+         ],
          "farm": [],
-         "plotCount": 0,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 0,
+         "plotCount": 3,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 91,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 0,
+                  "PR": 212,
+                  "PLANTED": true,
+                  "PLOTID": 11872
+               },
+               "owner": "dcalsot"
+            }
+         ],
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -82930,7 +86247,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5319
                },
                "owner": "aurosofi"
             },
@@ -82967,8 +86285,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 810
+                  "WATER": 0,
+                  "PR": 810,
+                  "PLANTED": true,
+                  "PLOTID": 5320
                },
                "owner": "aurosofi"
             },
@@ -82978,7 +86298,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 573,
                   "PLOTID": 5323,
                   "PLANTED": true
@@ -82991,7 +86311,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 132,
                   "PLOTID": 5326,
                   "PLANTED": true
@@ -83251,10 +86571,10 @@ module.exports = {
                "owner": "moonwalker7788"
             }
          ],
-         "hkwater": 690,
+         "hkwater": 840,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 23,
+            "lvl1": 28,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -83372,7 +86692,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5352
                },
                "owner": "tussar11"
             },
@@ -83382,7 +86703,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5355
                },
                "owner": "tussar11"
             },
@@ -83396,10 +86718,43 @@ module.exports = {
                   "SEEDID": 5361
                },
                "owner": "tussar11"
+            },
+            {
+               "id": 11591,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "tussar11"
+            },
+            {
+               "id": 11592,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "tussar11"
+            },
+            {
+               "id": 11593,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "tussar11"
             }
          ],
          "farm": [],
-         "plotCount": 6,
+         "plotCount": 9,
          "seedCount": 6,
          "seeds": [
             {
@@ -83421,7 +86776,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 67,
                   "PLANTED": true,
                   "PLOTID": 5350
@@ -83434,8 +86789,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 692
+                  "WATER": 0,
+                  "PR": 692,
+                  "PLOTID": 5356,
+                  "PLANTED": true
                },
                "owner": "tussar11"
             },
@@ -83445,8 +86802,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
-                  "PR": 718
+                  "WATER": 0,
+                  "PR": 718,
+                  "PLOTID": 5359,
+                  "PLANTED": true
                },
                "owner": "tussar11"
             },
@@ -83456,7 +86815,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Afghani",
                   "SPT": 5,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 1683,
                   "PLOTID": 5353,
                   "PLANTED": true
@@ -83469,7 +86828,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 511,
                   "PLOTID": 5362,
                   "PLANTED": true
@@ -83477,10 +86836,10 @@ module.exports = {
                "owner": "tussar11"
             }
          ],
-         "hkwater": 180,
+         "hkwater": 270,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 6,
+            "lvl1": 9,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -83565,7 +86924,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 5850
                },
                "owner": "dviljin"
             }
@@ -83580,8 +86940,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 73
+                  "WATER": 0,
+                  "PR": 73,
+                  "PLANTED": true,
+                  "PLOTID": 5851
                },
                "owner": "dviljin"
             }
@@ -84121,7 +87483,8 @@ module.exports = {
                   "NAME": "Afghanistan",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 2520
                },
                "owner": "drakienrising"
             },
@@ -84168,9 +87531,42 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "drakienrising"
+            },
+            {
+               "id": 11567,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "drakienrising"
+            },
+            {
+               "id": 11568,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "drakienrising"
+            },
+            {
+               "id": 11571,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "drakienrising"
             }
          ],
-         "plotCount": 7,
+         "plotCount": 10,
          "seedCount": 2,
          "seeds": [
             {
@@ -84179,7 +87575,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 247,
                   "PLOTID": 386,
                   "PLANTED": true
@@ -84193,15 +87589,17 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 671
+                  "PR": 671,
+                  "PLOTID": 6919,
+                  "PLANTED": true
                },
                "owner": "drakienrising"
             }
          ],
-         "hkwater": 150,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 5,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -84355,7 +87753,9 @@ module.exports = {
                "id": 4669,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4659
                },
                "owner": "soyaletrainer"
             }
@@ -84369,8 +87769,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
-                  "PR": 283
+                  "WATER": 0,
+                  "PR": 283,
+                  "PLANTED": true,
+                  "PLOTID": 4669
                },
                "owner": "soyaletrainer"
             }
@@ -84583,7 +87985,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 381,
                   "PLANTED": true,
                   "PLOTID": 2539
@@ -84677,12 +88079,36 @@ module.exports = {
                "id": 2536,
                "properties": {
                   "NAME": "Mexico",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 2535
+               },
+               "owner": "javiercruz"
+            },
+            {
+               "id": 10415,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiercruz"
+            },
+            {
+               "id": 10416,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
                },
                "owner": "javiercruz"
             }
          ],
-         "plotCount": 1,
+         "plotCount": 3,
          "seedCount": 1,
          "seeds": [
             {
@@ -84692,15 +88118,17 @@ module.exports = {
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
                   "WATER": 23,
-                  "PR": 481
+                  "PR": 481,
+                  "PLANTED": true,
+                  "PLOTID": 2536
                },
                "owner": "javiercruz"
             }
          ],
-         "hkwater": 30,
+         "hkwater": 510,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 17,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -84945,7 +88373,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 121,
                   "PLANTED": true,
                   "PLOTID": 4582
@@ -84958,7 +88386,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
-                  "WATER": 33,
+                  "WATER": 0,
                   "PR": 653,
                   "PLANTED": true,
                   "PLOTID": 2521
@@ -84971,7 +88399,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 357,
                   "PLOTID": 8021,
                   "PLANTED": true
@@ -85065,7 +88493,9 @@ module.exports = {
                "id": 969,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 4074
                },
                "owner": "orant"
             },
@@ -85082,12 +88512,26 @@ module.exports = {
             }
          ],
          "plotCount": 2,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 0,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 4074,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 0,
+                  "PR": 338,
+                  "PLANTED": true,
+                  "PLOTID": 969
+               },
+               "owner": "orant"
+            }
+         ],
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -85143,28 +88587,95 @@ module.exports = {
          "joints": [],
          "mota": 0,
          "motaStake": 0,
-         "avatars": [],
+         "avatars": [
+            {
+               "id": 10689,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "orant"
+            }
+         ],
          "boosters": []
       },
       "danteskgg": {
          "subdivisions": [],
          "plots": [
             {
-               "id": 1608,
+               "id": 11311,
                "properties": {
                   "NAME": "South America",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danteskgg"
+            },
+            {
+               "id": 11805,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danteskgg"
+            },
+            {
+               "id": 11806,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danteskgg"
+            },
+            {
+               "id": 11807,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danteskgg"
+            },
+            {
+               "id": 11852,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danteskgg"
+            },
+            {
+               "id": 12427,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
                },
                "owner": "danteskgg"
             }
          ],
-         "plotCount": 1,
+         "plotCount": 6,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 30,
+         "hkwater": 240,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 8,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -85528,15 +89039,62 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "williameduardord"
+            },
+            {
+               "id": 10871,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": true,
+                  "SEEDID": 6375
+               },
+               "owner": "williameduardord"
+            },
+            {
+               "id": 10891,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "williameduardord"
+            },
+            {
+               "id": 10892,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "williameduardord"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 0,
+         "plotCount": 4,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6375,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 551,
+                  "PLANTED": true,
+                  "PLOTID": 10871
+               },
+               "owner": "williameduardord"
+            }
+         ],
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -85594,6 +89152,14 @@ module.exports = {
          "motaStake": 0,
          "avatars": [
             {
+               "id": 7731,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "williameduardord"
+            },
+            {
                "id": 7732,
                "properties": {
                   "NAME": "Magical Female",
@@ -85616,15 +89182,38 @@ module.exports = {
                   "OCCUPIED": false
                },
                "owner": "elfran919"
+            },
+            {
+               "id": 11134,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "elfran919"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 30,
+         "plotCount": 2,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 2163,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Durban Poison",
+                  "SPT": 4,
+                  "WATER": 104,
+                  "PR": 2865
+               },
+               "owner": "elfran919"
+            }
+         ],
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -85692,7 +89281,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false
+                  "OCCUPIED": true,
+                  "SEEDID": 6879
                },
                "owner": "ayriongames"
             }
@@ -85707,7 +89297,9 @@ module.exports = {
                   "NAME": "Colombian Gold",
                   "SPT": 7,
                   "WATER": 10,
-                  "PR": 310
+                  "PR": 310,
+                  "PLANTED": true,
+                  "PLOTID": 6880
                },
                "owner": "ayriongames"
             }
@@ -85887,7 +89479,7 @@ module.exports = {
             }
          ],
          "plotCount": 9,
-         "seedCount": 12,
+         "seedCount": 11,
          "seeds": [
             {
                "id": 7753,
@@ -85895,7 +89487,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 341,
                   "PLANTED": true,
                   "PLOTID": 7734
@@ -85908,7 +89500,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 70,
+                  "WATER": 0,
                   "PR": 277,
                   "PLANTED": true,
                   "PLOTID": 7745
@@ -85921,7 +89513,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 63,
+                  "WATER": 0,
                   "PR": 301,
                   "PLANTED": true,
                   "PLOTID": 7748
@@ -85934,7 +89526,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 63,
+                  "WATER": 0,
                   "PR": 270,
                   "PLANTED": true,
                   "PLOTID": 7746
@@ -85960,21 +89552,10 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 63,
+                  "WATER": 0,
                   "PR": 265,
                   "PLOTID": 7750,
                   "PLANTED": true
-               },
-               "owner": "chocolatoso"
-            },
-            {
-               "id": 7771,
-               "properties": {
-                  "TYPE": "seed",
-                  "NAME": "Thai Chocolate",
-                  "SPT": 2,
-                  "WATER": 1416,
-                  "PR": 7051
                },
                "owner": "chocolatoso"
             },
@@ -86017,7 +89598,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 114,
+                  "WATER": 0,
                   "PR": 591,
                   "PLANTED": true,
                   "PLOTID": 7776
@@ -86309,7 +89890,150 @@ module.exports = {
                "owner": "javiervaersa"
             },
             {
+               "id": 10591,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
                "id": 10598,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 10714,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 10746,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 10747,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 10748,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 10749,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 11099,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 11126,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 11127,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 11128,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 11129,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 11512,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "javiervaersa"
+            },
+            {
+               "id": 11513,
                "properties": {
                   "NAME": "Mexico",
                   "TYPE": "plot",
@@ -86320,7 +90044,7 @@ module.exports = {
                "owner": "javiervaersa"
             }
          ],
-         "plotCount": 4,
+         "plotCount": 17,
          "seedCount": 1,
          "seeds": [
             {
@@ -86329,7 +90053,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 385,
                   "PLOTID": 2533,
                   "PLANTED": true
@@ -86529,7 +90253,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 2,
+         "dailyBudDeposit": 0,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -86564,7 +90288,9 @@ module.exports = {
                "id": 2524,
                "properties": {
                   "NAME": "Afghanistan",
-                  "TYPE": "plot"
+                  "TYPE": "plot",
+                  "OCCUPIED": true,
+                  "SEEDID": 247
                },
                "owner": "calvitox"
             },
@@ -86622,7 +90348,9 @@ module.exports = {
                   "NAME": "Mazar I Sharif",
                   "SPT": 6,
                   "WATER": 33,
-                  "PR": 767
+                  "PR": 767,
+                  "PLANTED": true,
+                  "PLOTID": 2524
                },
                "owner": "calvitox"
             },
@@ -86948,8 +90676,8 @@ module.exports = {
                   "NAME": "South America",
                   "TYPE": "plot",
                   "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
+                  "OCCUPIED": true,
+                  "SEEDID": 6309
                },
                "owner": "profam"
             },
@@ -87007,15 +90735,95 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "profam"
+            },
+            {
+               "id": 11076,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "profam"
+            },
+            {
+               "id": 11566,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "profam"
+            },
+            {
+               "id": 11747,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "profam"
+            },
+            {
+               "id": 11774,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "profam"
+            },
+            {
+               "id": 11778,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "profam"
+            },
+            {
+               "id": 11796,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "profam"
             }
          ],
-         "plotCount": 15,
-         "seedCount": 0,
-         "seeds": [],
-         "hkwater": 450,
+         "plotCount": 21,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 6309,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Panama Red",
+                  "SPT": 7,
+                  "WATER": 0,
+                  "PR": 257,
+                  "PLANTED": true,
+                  "PLOTID": 10592
+               },
+               "owner": "profam"
+            }
+         ],
+         "hkwater": 480,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 15,
+            "lvl1": 16,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -87173,7 +90981,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Panama Red",
                   "SPT": 7,
-                  "WATER": 9,
+                  "WATER": 0,
                   "PR": 309,
                   "PLOTID": 6355,
                   "PLANTED": true
@@ -87186,7 +90994,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 508,
                   "PLOTID": 6358,
                   "PLANTED": true
@@ -87199,7 +91007,7 @@ module.exports = {
                   "TYPE": "seed",
                   "NAME": "Acapulco Gold",
                   "SPT": 6,
-                  "WATER": 23,
+                  "WATER": 0,
                   "PR": 503,
                   "PLANTED": true,
                   "PLOTID": 6397
@@ -87308,28 +91116,6 @@ module.exports = {
                "owner": "manshockgamer"
             },
             {
-               "id": 10415,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "manshockgamer"
-            },
-            {
-               "id": 10416,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "manshockgamer"
-            },
-            {
                "id": 10417,
                "properties": {
                   "NAME": "South America",
@@ -87363,13 +91149,13 @@ module.exports = {
                "owner": "manshockgamer"
             }
          ],
-         "plotCount": 7,
+         "plotCount": 5,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 540,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 18,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -87458,28 +91244,6 @@ module.exports = {
                "owner": "sentarou"
             },
             {
-               "id": 10212,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "sentarou"
-            },
-            {
-               "id": 10213,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "sentarou"
-            },
-            {
                "id": 10214,
                "properties": {
                   "NAME": "South America",
@@ -87500,37 +91264,15 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "sentarou"
-            },
-            {
-               "id": 10216,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "sentarou"
-            },
-            {
-               "id": 10217,
-               "properties": {
-                  "NAME": "South America",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "sentarou"
             }
          ],
-         "plotCount": 8,
+         "plotCount": 4,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 720,
+         "hkwater": 420,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 24,
+            "lvl1": 14,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -87820,10 +91562,10 @@ module.exports = {
          "plotCount": 20,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 300,
+         "hkwater": 360,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 10,
+            "lvl1": 12,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -88086,10 +91828,10 @@ module.exports = {
          "plotCount": 16,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 870,
+         "hkwater": 900,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 29,
+            "lvl1": 30,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -88246,7 +91988,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 2,
+         "dailyBudDeposit": 1,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -88409,9 +92151,174 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "michgf"
+            },
+            {
+               "id": 11021,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11022,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11023,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11024,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11025,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11026,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11027,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11028,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11029,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11030,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11031,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11032,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11033,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11034,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
+            },
+            {
+               "id": 11035,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "michgf"
             }
          ],
-         "plotCount": 12,
+         "plotCount": 27,
          "seedCount": 0,
          "seeds": [],
          "hkwater": 14580,
@@ -88617,6 +92524,158 @@ module.exports = {
             },
             {
                "id": 10740,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10764,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10765,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10770,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10771,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10774,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10775,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10776,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10777,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10883,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10884,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10909,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 10910,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 11084,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 11085,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 11101,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 11421,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 11530,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 11544,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "ivanfreecs"
+            },
+            {
+               "id": 11545,
                "properties": {
                   "NAME": "Magical Male",
                   "TYPE": "avatar"
@@ -88876,15 +92935,70 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "juan13579"
+            },
+            {
+               "id": 11740,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juan13579"
+            },
+            {
+               "id": 12469,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juan13579"
+            },
+            {
+               "id": 12470,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juan13579"
+            },
+            {
+               "id": 12471,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juan13579"
+            },
+            {
+               "id": 12472,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "juan13579"
             }
          ],
-         "plotCount": 15,
+         "plotCount": 20,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 1590,
+         "hkwater": 2370,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 53,
+            "lvl1": 79,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -88966,8 +93080,20 @@ module.exports = {
       },
       "atheum": {
          "rentals": [],
-         "plots": [],
-         "plotCount": 0,
+         "plots": [
+            {
+               "id": 11086,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "atheum"
+            }
+         ],
+         "plotCount": 1,
          "seedCount": 0,
          "seeds": [],
          "hkwater": 90,
@@ -89395,7 +93521,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 2,
+         "dailyBudDeposit": 1,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -89473,50 +93599,6 @@ module.exports = {
             },
             {
                "id": 8946,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "absolutebattle"
-            },
-            {
-               "id": 8969,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "absolutebattle"
-            },
-            {
-               "id": 8973,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "absolutebattle"
-            },
-            {
-               "id": 8976,
-               "properties": {
-                  "NAME": "Mexico",
-                  "TYPE": "plot",
-                  "SUBDIVIDED": false,
-                  "OCCUPIED": false,
-                  "SEEDID": 0
-               },
-               "owner": "absolutebattle"
-            },
-            {
-               "id": 9024,
                "properties": {
                   "NAME": "Mexico",
                   "TYPE": "plot",
@@ -89615,7 +93697,7 @@ module.exports = {
                "owner": "absolutebattle"
             }
          ],
-         "plotCount": 17,
+         "plotCount": 13,
          "seedCount": 0,
          "seeds": [],
          "hkwater": 1650,
@@ -89752,10 +93834,10 @@ module.exports = {
          "plotCount": 4,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 60,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -89946,10 +94028,10 @@ module.exports = {
          "plotCount": 11,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 210,
+         "hkwater": 330,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 7,
+            "lvl1": 11,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -90837,15 +94919,136 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "alvarogonz"
+            },
+            {
+               "id": 10832,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10833,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10834,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10835,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10836,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10837,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10838,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10839,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10840,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 10841,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
+            },
+            {
+               "id": 11184,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "alvarogonz"
             }
          ],
-         "plotCount": 10,
+         "plotCount": 21,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 3000,
+         "hkwater": 3300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 100,
+            "lvl1": 110,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -91010,10 +95213,10 @@ module.exports = {
          "plotCount": 1,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 0,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -91047,7 +95250,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 2,
+         "dailyBudDeposit": 1,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -91450,15 +95653,26 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "lalogames"
+            },
+            {
+               "id": 11493,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lalogames"
             }
          ],
-         "plotCount": 7,
+         "plotCount": 8,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 480,
+         "hkwater": 540,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 16,
+            "lvl1": 18,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -91925,15 +96139,26 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "butithekiing1"
+            },
+            {
+               "id": 10844,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "butithekiing1"
             }
          ],
-         "plotCount": 2,
+         "plotCount": 3,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 120,
+         "hkwater": 210,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 4,
+            "lvl1": 7,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -92132,15 +96357,70 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "danipk93"
+            },
+            {
+               "id": 11050,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danipk93"
+            },
+            {
+               "id": 11061,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danipk93"
+            },
+            {
+               "id": 11069,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danipk93"
+            },
+            {
+               "id": 11081,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danipk93"
+            },
+            {
+               "id": 11082,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "danipk93"
             }
          ],
-         "plotCount": 3,
+         "plotCount": 8,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 600,
+         "hkwater": 900,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 20,
+            "lvl1": 30,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -92238,10 +96518,10 @@ module.exports = {
          "plotCount": 1,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 30,
+         "hkwater": 90,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 3,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -92450,15 +96730,37 @@ module.exports = {
                   "SEEDID": 0
                },
                "owner": "picucho"
+            },
+            {
+               "id": 11881,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "picucho"
+            },
+            {
+               "id": 11882,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "picucho"
             }
          ],
-         "plotCount": 5,
+         "plotCount": 7,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 0,
+         "hkwater": 330,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 0,
+            "lvl1": 11,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -92527,10 +96829,10 @@ module.exports = {
          "plotCount": 0,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -92597,7 +96899,51 @@ module.exports = {
          "rentals": [],
          "plots": [
             {
+               "id": 8442,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": true,
+                  "SEEDID": 4041
+               },
+               "owner": "charzx"
+            },
+            {
                "id": 10590,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": true,
+                  "SEEDID": 6255
+               },
+               "owner": "charzx"
+            },
+            {
+               "id": 11939,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "charzx"
+            },
+            {
+               "id": 11940,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "charzx"
+            },
+            {
+               "id": 11941,
                "properties": {
                   "NAME": "South America",
                   "TYPE": "plot",
@@ -92608,25 +96954,40 @@ module.exports = {
                "owner": "charzx"
             }
          ],
-         "plotCount": 1,
-         "seedCount": 1,
+         "plotCount": 5,
+         "seedCount": 2,
          "seeds": [
+            {
+               "id": 4041,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Acapulco Gold",
+                  "SPT": 6,
+                  "WATER": 23,
+                  "PR": 428,
+                  "PLANTED": true,
+                  "PLOTID": 8442
+               },
+               "owner": "charzx"
+            },
             {
                "id": 6255,
                "properties": {
                   "TYPE": "seed",
                   "NAME": "Colombian Gold",
                   "SPT": 7,
-                  "WATER": 10,
-                  "PR": 50
+                  "WATER": 0,
+                  "PR": 50,
+                  "PLOTID": 10590,
+                  "PLANTED": true
                },
                "owner": "charzx"
             }
          ],
-         "hkwater": 540,
+         "hkwater": 660,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 18,
+            "lvl1": 22,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -92687,7 +97048,24 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "boosters": [],
-         "avatars": []
+         "avatars": [
+            {
+               "id": 10887,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "charzx"
+            },
+            {
+               "id": 10888,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "charzx"
+            }
+         ]
       },
       "gonzza": {
          "rentals": [],
@@ -92707,10 +97085,10 @@ module.exports = {
          "plotCount": 1,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 30,
+         "hkwater": 120,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 4,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -92819,10 +97197,10 @@ module.exports = {
          "plotCount": 2,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 60,
+         "hkwater": 300,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 2,
+            "lvl1": 10,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -92884,14 +97262,6 @@ module.exports = {
          "motaStake": 0,
          "boosters": [],
          "avatars": [
-            {
-               "id": 10689,
-               "properties": {
-                  "NAME": "Magical Female",
-                  "TYPE": "avatar"
-               },
-               "owner": "alexpeiro"
-            },
             {
                "id": 10690,
                "properties": {
@@ -92976,14 +97346,37 @@ module.exports = {
       },
       "dgtaldreamer": {
          "rentals": [],
-         "plots": [],
-         "plotCount": 0,
+         "plots": [
+            {
+               "id": 10754,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dgtaldreamer"
+            },
+            {
+               "id": 10818,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dgtaldreamer"
+            }
+         ],
+         "plotCount": 2,
          "seedCount": 0,
          "seeds": [],
-         "hkwater": 30,
+         "hkwater": 60,
          "waterCount": 0,
          "waterPlants": {
-            "lvl1": 1,
+            "lvl1": 2,
             "lvl2": 0,
             "lvl3": 0,
             "lvl4": 0,
@@ -93044,7 +97437,6684 @@ module.exports = {
          "mota": 0,
          "motaStake": 0,
          "boosters": [],
+         "avatars": [
+            {
+               "id": 10744,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "dgtaldreamer"
+            },
+            {
+               "id": 10745,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "dgtaldreamer"
+            }
+         ]
+      },
+      "pleo1542": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 1608,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot"
+               },
+               "owner": "pleo1542"
+            },
+            {
+               "id": 10715,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pleo1542"
+            },
+            {
+               "id": 11305,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pleo1542"
+            },
+            {
+               "id": 11378,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pleo1542"
+            },
+            {
+               "id": 11379,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pleo1542"
+            }
+         ],
+         "plotCount": 5,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 570,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 19,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 7092,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "pleo1542"
+            }
+         ]
+      },
+      "yurupary": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11786,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "yurupary"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 7062,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "Colombian Gold",
+                  "SPT": 7,
+                  "WATER": 10,
+                  "PR": 301
+               },
+               "owner": "yurupary"
+            }
+         ],
+         "hkwater": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
          "avatars": []
+      },
+      "thheyisus0": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "fernandoguerre95": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10898,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fernandoguerre95"
+            },
+            {
+               "id": 11356,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fernandoguerre95"
+            },
+            {
+               "id": 11357,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fernandoguerre95"
+            }
+         ],
+         "plotCount": 3,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11325,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "fernandoguerre95"
+            },
+            {
+               "id": 11326,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "fernandoguerre95"
+            }
+         ]
+      },
+      "jasondruid": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10212,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jasondruid"
+            },
+            {
+               "id": 10213,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jasondruid"
+            },
+            {
+               "id": 10216,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jasondruid"
+            },
+            {
+               "id": 10217,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jasondruid"
+            }
+         ],
+         "plotCount": 4,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 300,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 10,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "on3x": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10878,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "on3x"
+            },
+            {
+               "id": 10904,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "on3x"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 210,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 7,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 10772,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "on3x"
+            },
+            {
+               "id": 10773,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "on3x"
+            }
+         ]
+      },
+      "xxxdragonpoolxxx": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10784,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "xxxdragonpoolxxx"
+            },
+            {
+               "id": 10785,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "xxxdragonpoolxxx"
+            },
+            {
+               "id": 11328,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "xxxdragonpoolxxx"
+            },
+            {
+               "id": 11329,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "xxxdragonpoolxxx"
+            }
+         ],
+         "plotCount": 4,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 180,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 10789,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "xxxdragonpoolxxx"
+            },
+            {
+               "id": 10790,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "xxxdragonpoolxxx"
+            }
+         ]
+      },
+      "cesosx": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10791,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "cesosx"
+            },
+            {
+               "id": 10797,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "cesosx"
+            },
+            {
+               "id": 10801,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "cesosx"
+            },
+            {
+               "id": 10829,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "cesosx"
+            },
+            {
+               "id": 10830,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "cesosx"
+            },
+            {
+               "id": 10831,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "cesosx"
+            }
+         ],
+         "plotCount": 6,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 360,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 12,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 10807,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "cesosx"
+            },
+            {
+               "id": 10808,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "cesosx"
+            }
+         ]
+      },
+      "escodelario": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10895,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "escodelario"
+            },
+            {
+               "id": 11514,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "escodelario"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "phantrax": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10900,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "phantrax"
+            },
+            {
+               "id": 10901,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "phantrax"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11271,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "phantrax"
+            },
+            {
+               "id": 11272,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "phantrax"
+            }
+         ]
+      },
+      "ganjafarmer": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 1,
+         "seeds": [
+            {
+               "id": 10894,
+               "properties": {
+                  "TYPE": "seed",
+                  "NAME": "King’s Bread",
+                  "SPT": 3,
+                  "WATER": 1260,
+                  "PR": 5934
+               },
+               "owner": "ganjafarmer"
+            }
+         ],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "sasalius": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10906,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "sasalius"
+            },
+            {
+               "id": 10908,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "sasalius"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11589,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "sasalius"
+            },
+            {
+               "id": 11590,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "sasalius"
+            }
+         ]
+      },
+      "dylan333": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 10924,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dylan333"
+            },
+            {
+               "id": 11048,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dylan333"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 10927,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "dylan333"
+            },
+            {
+               "id": 10928,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "dylan333"
+            }
+         ]
+      },
+      "ink19": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11049,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "ink19"
+            },
+            {
+               "id": 11059,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "ink19"
+            },
+            {
+               "id": 11060,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "ink19"
+            },
+            {
+               "id": 11586,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "ink19"
+            }
+         ],
+         "plotCount": 4,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 180,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "intensevicius": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11088,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "intensevicius"
+            },
+            {
+               "id": 11092,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "intensevicius"
+            },
+            {
+               "id": 11095,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "intensevicius"
+            }
+         ],
+         "plotCount": 3,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11090,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "intensevicius"
+            },
+            {
+               "id": 11091,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "intensevicius"
+            }
+         ]
+      },
+      "brickbybrick": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11098,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "brickbybrick"
+            },
+            {
+               "id": 11100,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "brickbybrick"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "jwaits": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11120,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jwaits"
+            },
+            {
+               "id": 11910,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jwaits"
+            },
+            {
+               "id": 11911,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jwaits"
+            }
+         ],
+         "plotCount": 3,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11131,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "jwaits"
+            },
+            {
+               "id": 11132,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "jwaits"
+            }
+         ]
+      },
+      "draynok2": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11138,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "draynok2"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "jdans01cs": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11140,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "jdans01cs"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "carmonayole": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "liz.latin": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11144,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "liz.latin"
+            },
+            {
+               "id": 11306,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "liz.latin"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11336,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "liz.latin"
+            },
+            {
+               "id": 11337,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "liz.latin"
+            }
+         ]
+      },
+      "rodoman": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11153,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rodoman"
+            },
+            {
+               "id": 11154,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rodoman"
+            },
+            {
+               "id": 11155,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rodoman"
+            },
+            {
+               "id": 11158,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rodoman"
+            },
+            {
+               "id": 11159,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rodoman"
+            },
+            {
+               "id": 11160,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rodoman"
+            },
+            {
+               "id": 11161,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rodoman"
+            }
+         ],
+         "plotCount": 7,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 510,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 17,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 1,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11532,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "rodoman"
+            },
+            {
+               "id": 11533,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "rodoman"
+            }
+         ]
+      },
+      "perritox777": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11197,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "perritox777"
+            },
+            {
+               "id": 11206,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "perritox777"
+            },
+            {
+               "id": 11208,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "perritox777"
+            },
+            {
+               "id": 11210,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "perritox777"
+            },
+            {
+               "id": 11212,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "perritox777"
+            },
+            {
+               "id": 11224,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "perritox777"
+            }
+         ],
+         "plotCount": 6,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 510,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 17,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "luisem1986": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11232,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "luisem1986"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11235,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "luisem1986"
+            },
+            {
+               "id": 11236,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "luisem1986"
+            }
+         ]
+      },
+      "esnopyy": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11237,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "esnopyy"
+            },
+            {
+               "id": 11270,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "esnopyy"
+            },
+            {
+               "id": 11273,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "esnopyy"
+            },
+            {
+               "id": 11274,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "esnopyy"
+            },
+            {
+               "id": 11275,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "esnopyy"
+            },
+            {
+               "id": 11276,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "esnopyy"
+            }
+         ],
+         "plotCount": 6,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 300,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 10,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "adm.saku": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11240,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "adm.saku"
+            },
+            {
+               "id": 11277,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "adm.saku"
+            },
+            {
+               "id": 11278,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "adm.saku"
+            },
+            {
+               "id": 11279,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "adm.saku"
+            },
+            {
+               "id": 12378,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "adm.saku"
+            }
+         ],
+         "plotCount": 5,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 330,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 11,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "emms1": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11255,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "emms1"
+            },
+            {
+               "id": 11256,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "emms1"
+            },
+            {
+               "id": 11291,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "emms1"
+            },
+            {
+               "id": 11335,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "emms1"
+            },
+            {
+               "id": 11627,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "emms1"
+            },
+            {
+               "id": 11628,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "emms1"
+            }
+         ],
+         "plotCount": 6,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 990,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 33,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11547,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "emms1"
+            },
+            {
+               "id": 11548,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "emms1"
+            }
+         ]
+      },
+      "doffot": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11373,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "doffot"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": [
+            {
+               "id": 11339,
+               "properties": {
+                  "NAME": "Magical Male",
+                  "TYPE": "avatar"
+               },
+               "owner": "doffot"
+            },
+            {
+               "id": 11340,
+               "properties": {
+                  "NAME": "Magical Female",
+                  "TYPE": "avatar"
+               },
+               "owner": "doffot"
+            }
+         ]
+      },
+      "arkanizz": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11486,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "arkanizz"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "patitofeokua": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11575,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "patitofeokua"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 270,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 9,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "fraktal2393": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11630,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fraktal2393"
+            },
+            {
+               "id": 11631,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fraktal2393"
+            },
+            {
+               "id": 11632,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fraktal2393"
+            },
+            {
+               "id": 11635,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fraktal2393"
+            },
+            {
+               "id": 11636,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fraktal2393"
+            },
+            {
+               "id": 11637,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fraktal2393"
+            },
+            {
+               "id": 11638,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fraktal2393"
+            },
+            {
+               "id": 11644,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "fraktal2393"
+            }
+         ],
+         "plotCount": 8,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 180,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "sebk1ng1997": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11679,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "sebk1ng1997"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "pablom1109": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11742,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pablom1109"
+            },
+            {
+               "id": 11744,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pablom1109"
+            },
+            {
+               "id": 11756,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pablom1109"
+            }
+         ],
+         "plotCount": 3,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 750,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 25,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "notafacil": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11772,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "notafacil"
+            },
+            {
+               "id": 11773,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "notafacil"
+            },
+            {
+               "id": 11788,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "notafacil"
+            }
+         ],
+         "plotCount": 3,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 150,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 5,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "rhinta11": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11789,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rhinta11"
+            },
+            {
+               "id": 11790,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rhinta11"
+            },
+            {
+               "id": 11791,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rhinta11"
+            },
+            {
+               "id": 11799,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rhinta11"
+            }
+         ],
+         "plotCount": 4,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 210,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 7,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "nicotinho04": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11801,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nicotinho04"
+            },
+            {
+               "id": 11812,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "nicotinho04"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "patty2021": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11813,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "patty2021"
+            },
+            {
+               "id": 11814,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "patty2021"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 90,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 3,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "muntara": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "liry": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11899,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "liry"
+            },
+            {
+               "id": 11900,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "liry"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 180,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 6,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "agricultor86": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 12070,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "agricultor86"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "username": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "hivename": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "bitcoinflood": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "darkangelxdd1": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "zorrocyber": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11312,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "zorrocyber"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "kuramac28": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11310,
+               "properties": {
+                  "NAME": "Mexico",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "kuramac28"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 120,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 4,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "eminem2319": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "globalcontent": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "krullarg": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "matyaseze22": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "jnetcc": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "amblors": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 330,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 11,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "xxxzamaelxxx": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11944,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "xxxzamaelxxx"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "nicolasdosse": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "dufur": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 11991,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "dufur"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 510,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 17,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "boyo": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "xuanastur": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "arukanto": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 12023,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "arukanto"
+            },
+            {
+               "id": 12024,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "arukanto"
+            },
+            {
+               "id": 12079,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "arukanto"
+            },
+            {
+               "id": 12080,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "arukanto"
+            },
+            {
+               "id": 12081,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "arukanto"
+            },
+            {
+               "id": 12082,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "arukanto"
+            },
+            {
+               "id": 12176,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "arukanto"
+            }
+         ],
+         "plotCount": 7,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 900,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 30,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "otherbrandt": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "dejan.vuckovic": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "rafifernandez": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 12391,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rafifernandez"
+            },
+            {
+               "id": 12392,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rafifernandez"
+            },
+            {
+               "id": 12393,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rafifernandez"
+            },
+            {
+               "id": 12394,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "rafifernandez"
+            }
+         ],
+         "plotCount": 4,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 510,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 17,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "anthoni523": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "axeel1": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
+      },
+      "ibiok": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 12389,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "ibiok"
+            }
+         ],
+         "plotCount": 1,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 30,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 1,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "pintomas": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 12459,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pintomas"
+            },
+            {
+               "id": 12460,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "pintomas"
+            }
+         ],
+         "plotCount": 2,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 60,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 2,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "lezarth": {
+         "rentals": [],
+         "plots": [
+            {
+               "id": 12428,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12430,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12431,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12432,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12433,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12434,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12435,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12436,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12437,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12438,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12439,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12440,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            },
+            {
+               "id": 12441,
+               "properties": {
+                  "NAME": "South America",
+                  "TYPE": "plot",
+                  "SUBDIVIDED": false,
+                  "OCCUPIED": false,
+                  "SEEDID": 0
+               },
+               "owner": "lezarth"
+            }
+         ],
+         "plotCount": 13,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 390,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 13,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": [],
+         "avatars": []
+      },
+      "sanchezedu": {
+         "rentals": [],
+         "plots": [],
+         "plotCount": 0,
+         "seedCount": 0,
+         "seeds": [],
+         "hkwater": 0,
+         "waterCount": 0,
+         "waterPlants": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "waterTowers": {
+            "lvl1": [],
+            "lvl2": [],
+            "lvl3": [],
+            "lvl4": [],
+            "lvl5": [],
+            "lvl6": [],
+            "lvl7": [],
+            "lvl8": [],
+            "lvl9": [],
+            "lvl10": []
+         },
+         "timeBoosters": {
+            "lvl1": 0,
+            "lvl2": 0,
+            "lvl3": 0,
+            "lvl4": 0,
+            "lvl5": 0,
+            "lvl7": 0,
+            "lvl8": 0,
+            "lvl9": 0,
+            "lvl10": 0
+         },
+         "buds": 0,
+         "dailyBudDeposit": 0,
+         "tokens": {
+            "buds": {
+               "balance": 0,
+               "stake": 0
+            },
+            "mota": {
+               "balance": 0,
+               "stake": 0
+            },
+            "hkwater": {
+               "balance": 0,
+               "stake": 0
+            }
+         },
+         "claimed": {
+            "water": false,
+            "avatar": false,
+            "bud": false
+         },
+         "xp": 45,
+         "lvl": 1,
+         "role": 1,
+         "joints": [],
+         "mota": 0,
+         "motaStake": 0,
+         "boosters": []
       }
    },
    "cs": {}
