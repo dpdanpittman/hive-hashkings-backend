@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53386275; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53387734; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53386275;
+const ago = ENV.ago || 53387734;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1239,7 +1239,7 @@ function startApp() {
     
     /*--------------------------------Claim Goodies---------------------------*/
 
-    // checks for qwoyn_plant and plants the seed
+    /*// checks for qwoyn_plant and plants the seed
     processor.on('claim_water', function(json, from) {
 
         if(state.users[from] && state.users[from].claimed.water === false && state.users[from].hkwater > 0){
@@ -1274,7 +1274,7 @@ function startApp() {
             //set claimed avatar to true
             state.users[from].claimed.bud = true
         }                
-    });
+    });*/
 
     /*------------------------------- Farm Actions ---------------------------*/
 
@@ -1622,7 +1622,7 @@ function startApp() {
 
                 const c = parseInt(amount)
                 state.bal.c += c
-            } else { state.refund.push(['xfer', json.from, amount, 'There was an error with your purchase please try again']) }
+            } 
 
             if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {                
                 // subtracts 1 plot from total land supply
@@ -1635,7 +1635,7 @@ function startApp() {
                 const c = parseInt(amount)
                 state.bal.c += c
             
-            } else {state.refund.push(['xfer', json.from, amount, 'There was an error with your purchase please try again'])}
+            } 
             
             if (want === 'water1' && amount > (state.stats.prices.waterPlants.lvl1.price * 1000) - 300 && amount < (state.stats.prices.waterPlants.lvl1.price * 1000) + 300) {
                             
@@ -1645,7 +1645,7 @@ function startApp() {
                 const c = parseInt(amount)
                 state.bal.c += c
                 
-            } else { state.refund.push(['xfer', json.from, amount, 'There was an error with your purchase please try again'])}
+            } 
                     
             if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 300 && state.users[json.from].lvl >= 10) {
                         
