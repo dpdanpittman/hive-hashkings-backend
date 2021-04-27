@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53386220; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53386275; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53386220;
+const ago = ENV.ago || 53386275;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -984,15 +984,21 @@ function startApp() {
         
                     // set water to new amount
                     contract.updateNft(hivejs, seedIdString, { "WATER":  waterRemains })
+                } else {
+                    state.refund.push(['customJson', 'ssc-mainnet-hive', {
+                    contractName: "tokens",
+                    contractAction: "transfer",
+                    contractPayload: {symbol: "HKWATER", to: whoFrom, quantity: amountWater, memo: "plot has already been watered"}
+                    }])}
+
+                } catch (error) {
+                    console.log(from + " had an issue watering seedID" + json.contractPayload.memo + " refunding")
+                    state.refund.push(['customJson', 'ssc-mainnet-hive', {
+                        contractName: "tokens",
+                        contractAction: "transfer",
+                        contractPayload: {symbol: "HKWATER", to: whoFrom, quantity: amountWater, memo: "we discovered an issue watering, please try again."}
+                    }])
                 }
-                    } catch (error) {
-                        console.log(from + " had an issue watering seedID" + json.contractPayload.memo + " refunding")
-                        state.refund.push(['customJson', 'ssc-mainnet-hive', {
-                            contractName: "tokens",
-                            contractAction: "transfer",
-                            contractPayload: {symbol: "HKWATER", to: whoFrom, quantity: amountWater, memo: "we discovered an issue watering, please try again."}
-                        }])
-                    }
               }       
 
               //Craft Consumable joints and boosters
