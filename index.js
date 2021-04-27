@@ -170,196 +170,6 @@ const walletOperationsBitmask = makeBitMaskFilter([
 //this rpc sucks
 const ssc = new SSC('https://api.hive-engine.com/rpc');
 
-//entire state.json output
-app.get('/', (req, res, next) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state, null, 3))
-});
-
-
-app.get('/u/:user', (req, res, next) => {
-    try {
-    let user = req.params.user
-    res.setHeader('Content-Type', 'application/json');
-
-    res.send(JSON.stringify(state.users[user], null, 3))
-} catch (error) {
-   
-}
-});
-
-//shows a log 
-app.get('/logs', (req, res, next) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.cs, null, 3))
-});
-
-app.get('/utest/:user', async (req, res, next) => {
-    try {
-    let user = req.params.user
-    if(!state.users[user]) {
-        state.users[user] = {
-            rentals: [],
-            plots: [],
-            plotCount: 0,
-            seedCount: 0,
-            seeds: [],
-            hkwater: 0,
-            waterCount: 0,
-            waterPlants:{
-                lvl1: 0,
-                lvl2: 0,
-                lvl3: 0,
-                lvl4: 0,
-                lvl5: 0,
-                lvl7: 0,
-                lvl8: 0,
-                lvl9: 0,
-                lvl10: 0
-            },
-            waterTowers: {
-                lvl1: [],
-                lvl2: [],
-                lvl3: [],
-                lvl4: [],
-                lvl5: [],
-                lvl6: [],
-                lvl7: [],
-                lvl8: [],
-                lvl9: [],
-                lvl10: [],
-             },
-            timeBoosters: {
-                lvl1: 0,
-                lvl2: 0,
-                lvl3: 0,
-                lvl4: 0,
-                lvl5: 0,
-                lvl7: 0,
-                lvl8: 0,
-                lvl9: 0,
-                lvl10: 0
-            },
-            buds: 0,
-            dailyBudDeposit: 0,
-            tokens: {
-                buds: {
-                   balance: 0,
-                   stake: 0
-                },
-                mota: {
-                   balance: 0,
-                   stake: 0
-                },
-                hkwater: {
-                   balance: 0,
-                   stake: 0
-                }
-             },
-            claimed: {
-                water: false,
-                avatar: false,
-                bud: false
-             },
-            xp: 45,
-            lvl: 1,
-            role: 1,
-            joints: [],
-            mota: 0,
-            motaStake: 0,
-            boosters: []
-        }
-    }
-    res.setHeader('Content-Type', 'application/json');
-    let  { plots , seeds, tokens }  = await contract.getUserNft(ssc,axios, user);
-    let test = Object.assign({},state.users[user]);
-    test.seeds  = seeds;
-    test.plots  = plots;
-    test.tokens  = tokens;
-    res.send(JSON.stringify(test, null, 3))
-} catch (error) {
-    console.log(error);
-    if(!state.users[user]) {
-    state.users[user] = {
-        rentals: [],
-        plots: [],
-        plotCount: 0,
-        seedCount: 0,
-        seeds: [],
-        hkwater: 0,
-        waterCount: 0,
-        waterPlants:{
-            lvl1: 0,
-            lvl2: 0,
-            lvl3: 0,
-            lvl4: 0,
-            lvl5: 0,
-            lvl7: 0,
-            lvl8: 0,
-            lvl9: 0,
-            lvl10: 0
-        },
-        waterTowers: {
-            lvl1: [],
-            lvl2: [],
-            lvl3: [],
-            lvl4: [],
-            lvl5: [],
-            lvl6: [],
-            lvl7: [],
-            lvl8: [],
-            lvl9: [],
-            lvl10: [],
-         },
-        timeBoosters: {
-            lvl1: 0,
-            lvl2: 0,
-            lvl3: 0,
-            lvl4: 0,
-            lvl5: 0,
-            lvl7: 0,
-            lvl8: 0,
-            lvl9: 0,
-            lvl10: 0
-        },
-        buds: 0,
-        dailyBudDeposit: 0,
-        tokens: {
-            buds: {
-               balance: 0,
-               stake: 0
-            },
-            mota: {
-               balance: 0,
-               stake: 0
-            },
-            hkwater: {
-               balance: 0,
-               stake: 0
-            }
-         },
-        claimed: {
-            water: false,
-            avatar: false,
-            bud: false
-         },
-        xp: 45,
-        lvl: 1,
-        role: 1,
-        joints: [],
-        mota: 0,
-        motaStake: 0,
-        boosters: []
-    }
-}}
-});
-
-
-app.get('/prices', (req, res, next) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.stats.prices, null, 3))
-});
-
 dynStart('hashkings')
 
 //this doesnt work 100 percent
@@ -794,6 +604,196 @@ function startWith(hash) {
         startApp()
     }
 }
+
+//entire state.json output
+app.get('/', (req, res, next) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify(state, null, 3))
+});
+
+
+app.get('/u/:user', (req, res, next) => {
+    try {
+    let user = req.params.user
+    res.setHeader('Content-Type', 'application/json');
+
+    res.send(JSON.stringify(state.users[user], null, 3))
+} catch (error) {
+   
+}
+});
+
+//shows a log 
+app.get('/logs', (req, res, next) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify(state.cs, null, 3))
+});
+
+app.get('/utest/:user', async (req, res, next) => {
+    try {
+    let user = req.params.user
+    if(!state.users[user]) {
+        state.users[user] = {
+            rentals: [],
+            plots: [],
+            plotCount: 0,
+            seedCount: 0,
+            seeds: [],
+            hkwater: 0,
+            waterCount: 0,
+            waterPlants:{
+                lvl1: 0,
+                lvl2: 0,
+                lvl3: 0,
+                lvl4: 0,
+                lvl5: 0,
+                lvl7: 0,
+                lvl8: 0,
+                lvl9: 0,
+                lvl10: 0
+            },
+            waterTowers: {
+                lvl1: [],
+                lvl2: [],
+                lvl3: [],
+                lvl4: [],
+                lvl5: [],
+                lvl6: [],
+                lvl7: [],
+                lvl8: [],
+                lvl9: [],
+                lvl10: [],
+             },
+            timeBoosters: {
+                lvl1: 0,
+                lvl2: 0,
+                lvl3: 0,
+                lvl4: 0,
+                lvl5: 0,
+                lvl7: 0,
+                lvl8: 0,
+                lvl9: 0,
+                lvl10: 0
+            },
+            buds: 0,
+            dailyBudDeposit: 0,
+            tokens: {
+                buds: {
+                   balance: 0,
+                   stake: 0
+                },
+                mota: {
+                   balance: 0,
+                   stake: 0
+                },
+                hkwater: {
+                   balance: 0,
+                   stake: 0
+                }
+             },
+            claimed: {
+                water: false,
+                avatar: false,
+                bud: false
+             },
+            xp: 45,
+            lvl: 1,
+            role: 1,
+            joints: [],
+            mota: 0,
+            motaStake: 0,
+            boosters: []
+        }
+    }
+    res.setHeader('Content-Type', 'application/json');
+    let  { plots , seeds, tokens }  = await contract.getUserNft(ssc,axios, user);
+    let test = Object.assign({},state.users[user]);
+    test.seeds  = seeds;
+    test.plots  = plots;
+    test.tokens  = tokens;
+    res.send(JSON.stringify(test, null, 3))
+} catch (error) {
+    console.log(error);
+    if(!state.users[user]) {
+    state.users[user] = {
+        rentals: [],
+        plots: [],
+        plotCount: 0,
+        seedCount: 0,
+        seeds: [],
+        hkwater: 0,
+        waterCount: 0,
+        waterPlants:{
+            lvl1: 0,
+            lvl2: 0,
+            lvl3: 0,
+            lvl4: 0,
+            lvl5: 0,
+            lvl7: 0,
+            lvl8: 0,
+            lvl9: 0,
+            lvl10: 0
+        },
+        waterTowers: {
+            lvl1: [],
+            lvl2: [],
+            lvl3: [],
+            lvl4: [],
+            lvl5: [],
+            lvl6: [],
+            lvl7: [],
+            lvl8: [],
+            lvl9: [],
+            lvl10: [],
+         },
+        timeBoosters: {
+            lvl1: 0,
+            lvl2: 0,
+            lvl3: 0,
+            lvl4: 0,
+            lvl5: 0,
+            lvl7: 0,
+            lvl8: 0,
+            lvl9: 0,
+            lvl10: 0
+        },
+        buds: 0,
+        dailyBudDeposit: 0,
+        tokens: {
+            buds: {
+               balance: 0,
+               stake: 0
+            },
+            mota: {
+               balance: 0,
+               stake: 0
+            },
+            hkwater: {
+               balance: 0,
+               stake: 0
+            }
+         },
+        claimed: {
+            water: false,
+            avatar: false,
+            bud: false
+         },
+        xp: 45,
+        lvl: 1,
+        role: 1,
+        joints: [],
+        mota: 0,
+        motaStake: 0,
+        boosters: []
+    }
+}}
+});
+
+
+app.get('/prices', (req, res, next) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify(state.stats.prices, null, 3))
+});
 
 /*
 function startWith(hash) {
