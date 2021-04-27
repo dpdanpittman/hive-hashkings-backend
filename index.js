@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53385012; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53385225; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53385012;
+const ago = ENV.ago || 53385225;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -975,20 +975,19 @@ function startApp() {
 
                 var water = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);   
 
-                console.log("var water = "+water)
-
+                try {
                 if(state.users[from] && water != 0){
                     
                     let waterRemains = water - amountWaterInt
                     let seedIdString = "" + seedID
-
-                    console.log("waterRemains= "+waterRemains)
-
         
                     // set water to new amount
                     contract.updateNft(hivejs, seedIdString, { "WATER":  waterRemains })
                 }
-              }              
+                    } catch (error) {
+                        console.log(from + " had an issue watering seedID" + json.contractPayload.memo)
+                    }
+              }       
 
               //Craft Consumable joints and boosters
               //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
