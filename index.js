@@ -96,13 +96,6 @@ httpsServer.listen(443, () => {
 
 app.use(cors());
 
-
-//shows a log 
-app.get('/logs', (req, res, next) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.send(JSON.stringify(state.cs, null, 3))
-});
-
 /*app.get('/a/:user', (req, res, next) => {
     let user = req.params.user,
         arr = []
@@ -135,6 +128,48 @@ app.get('/logs', (req, res, next) => {
     res.send(JSON.stringify(ret, null, 3))
 });*/
 
+
+
+//app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
+var state;
+var startingBlock = ENV.STARTINGBLOCK || 53381766; //GENESIS BLOCK
+const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
+const key = dhive.PrivateKey.from(ENV.skey); //active key for account
+const ago = ENV.ago || 53381766;
+const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
+var client = new dhive.Client([
+    "https://api.deathwing.me"
+    //"https://api.pharesim.me",
+    //"https://hived.privex.io",
+    //"https://api.hive.blog"
+], {consoleOnFailover: true});
+var processor;
+var recents = [];
+
+const { ChainTypes, makeBitMaskFilter } = require('@hiveio/hive-js/lib/auth/serializer');
+const { stats } = require("./state");
+const op = ChainTypes.operations
+const walletOperationsBitmask = makeBitMaskFilter([
+  op.transfer,
+  op.transfer_to_vesting,
+  op.withdraw_vesting,
+  op.interest,
+  op.liquidity_reward,
+  op.transfer_to_savings,
+  op.transfer_from_savings,
+  op.escrow_transfer,
+  op.cancel_transfer_from_savings,
+  op.escrow_approve,
+  op.escrow_dispute,
+  op.escrow_release,
+  op.fill_convert_request,
+  op.fill_order,
+  op.claim_reward_balance
+])
+
+//this rpc sucks
+const ssc = new SSC('https://api.hive-engine.com/rpc');
+
 //entire state.json output
 app.get('/', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
@@ -153,6 +188,11 @@ app.get('/u/:user', (req, res, next) => {
 }
 });
 
+//shows a log 
+app.get('/logs', (req, res, next) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify(state.cs, null, 3))
+});
 
 app.get('/utest/:user', async (req, res, next) => {
     try {
@@ -319,46 +359,6 @@ app.get('/prices', (req, res, next) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(state.stats.prices, null, 3))
 });
-
-//app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
-var state;
-var startingBlock = ENV.STARTINGBLOCK || 53381121; //GENESIS BLOCK
-const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
-const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53381121;
-const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
-var client = new dhive.Client([
-    "https://api.deathwing.me"
-    //"https://api.pharesim.me",
-    //"https://hived.privex.io",
-    //"https://api.hive.blog"
-], {consoleOnFailover: true});
-var processor;
-var recents = [];
-
-const { ChainTypes, makeBitMaskFilter } = require('@hiveio/hive-js/lib/auth/serializer');
-const { stats } = require("./state");
-const op = ChainTypes.operations
-const walletOperationsBitmask = makeBitMaskFilter([
-  op.transfer,
-  op.transfer_to_vesting,
-  op.withdraw_vesting,
-  op.interest,
-  op.liquidity_reward,
-  op.transfer_to_savings,
-  op.transfer_from_savings,
-  op.escrow_transfer,
-  op.cancel_transfer_from_savings,
-  op.escrow_approve,
-  op.escrow_dispute,
-  op.escrow_release,
-  op.fill_convert_request,
-  op.fill_order,
-  op.claim_reward_balance
-])
-
-//this rpc sucks
-const ssc = new SSC('https://api.hive-engine.com/rpc');
 
 dynStart('hashkings')
 
@@ -1600,7 +1600,7 @@ function startApp() {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             var want = json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
                 type = json.memo.split(" ")[1] || ''
-            if (want == 'southAmerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica != 0) {
+            if (want == 'southamerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica != 0) {
                                 
                                 
                 // subtracts 1 plot from total land supply
