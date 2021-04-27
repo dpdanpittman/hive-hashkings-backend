@@ -341,8 +341,8 @@ function userList() {
                         state.users[username].avatars = avatarData
                         state.users[username].boosters = boosterData
                         state.users[username].joints = jointData
-                        //state.users[username].seeds = seedData
-                        //state.users[username].plots = plotData
+                        state.users[username].seeds = seedData
+                        state.users[username].plots = plotData
 
                         //set number of seeds and plots for user
                         state.users[username].seedCount = seedData.length
