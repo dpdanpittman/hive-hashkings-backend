@@ -1901,9 +1901,9 @@ async function distributeMota(amountToDistribute, listOfUsers, hive) {
 
 async function distributeWater(listOfUsers, hive) {
   for (let i = 0; i < listOfUsers.length; i++) {
-    let userGet = (ratio * listOfUsers[i].quantity).toFixed(4);
+    let userGet = (listOfUsers[i].quantity).toFixed(3);
     console.log("username " + listOfUsers[i].user + "Quantity", userGet);
-    //  await generateToken(hive, "HKWATER", userGet, listOfUsers[i].user)
+    await generateToken(hive, "HKWATER", userGet, listOfUsers[i].user)
   }
 }
 

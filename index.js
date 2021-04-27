@@ -322,10 +322,10 @@ app.get('/prices', (req, res, next) => {
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53372955; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53381121; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53372955;
+const ago = ENV.ago || 53381121;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -754,11 +754,12 @@ function daily() {
        console.log("a user does not exist, may have to repeat")     
     }
 
+    //distribute water
     userList.map( farmer => {
     let obj =   state.users[farmer].waterPlants  
     let waterNumber = Object.keys(obj).reduce((sum,key)=> { console.log(sum,key,obj[key]); return (sum+parseInt(obj[key]||0 )  * state.stats.prices.waterPlants[key].water  )} ,0);
     
-    contract.createToken(hivejs, "HKWATER", waterNumber.toFixed(3), farmer);
+    contract.generateToken(hivejs, "HKWATER", waterNumber.toFixed(3), farmer);
     }) 
 
     for(var i = 0; i < userList.length; i++) {
@@ -926,10 +927,10 @@ function startApp() {
             console.log(num);
         }
 
-        // perform daily function 28000 blocks from genesis block above, this fails and needs to be on a new instance
+        /*// perform daily function 28000 blocks from genesis block above, this fails and needs to be on a new instance
         if (num % 28000 === 0 && processor.isStreaming()) {
             daily();
-        }
+        }*/
 
         //saves state to ipfs hash every 5 minutes
         try {
