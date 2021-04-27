@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53385225; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53386099; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53385225;
+const ago = ENV.ago || 53386099;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -967,6 +967,9 @@ function startApp() {
               if(json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
                   console.log("watering")
                 let seedID = json.contractPayload.memo
+                let whoFrom = json.from
+
+                console.log(json.from + " is json.from and " + from + " is from")
                 
                 let amountWater = json.contractPayload.quantity
                 let amountWaterInt = parseInt(amountWater, 10)
@@ -985,7 +988,12 @@ function startApp() {
                     contract.updateNft(hivejs, seedIdString, { "WATER":  waterRemains })
                 }
                     } catch (error) {
-                        console.log(from + " had an issue watering seedID" + json.contractPayload.memo)
+                        console.log(from + " had an issue watering seedID" + json.contractPayload.memo + " refunding")
+                        state.refund.push(['customJson', 'ssc-mainnet-hive', {
+                            contractName: "tokens",
+                            contractAction: "transfer",
+                            contractPayload: {symbol: "HKWATER", to: whoFrom, quantity: amountWater, memo: "we discovered an issue watering, please try again."}
+                        }])
                     }
               }       
 
@@ -1601,7 +1609,6 @@ function startApp() {
                 type = json.memo.split(" ")[1] || ''
             if (want == 'southamerica' && amount > (state.stats.prices.land.southAmerica.price * 1000) - 1000 &&  amount < (state.stats.prices.land.southAmerica.price * 1000) + 1000 && state.stats.supply.land.southAmerica != 0) {
                                 
-                                
                 // subtracts 1 plot from total land supply
                 state.stats.supply.land.southAmerica--
                 state.stats.supply.land.southAmericaC++
@@ -1611,153 +1618,157 @@ function startApp() {
 
                 const c = parseInt(amount)
                 state.bal.c += c
-            }
+            } else { state.refund.push(['xfer', json.from, amount, 'There was an error with your purchase please try again']) }
 
             if (want == 'mexico' && amount > (state.stats.prices.land.mexico.price * 1000) - 1000 &&  amount < (state.stats.prices.land.mexico.price * 1000) + 1000 && state.stats.supply.land.mexico != 0) {                
-                                // subtracts 1 plot from total land supply
-                                state.stats.supply.land.mexico--
-                                state.stats.supply.land.mexicoC++
+                // subtracts 1 plot from total land supply
+                state.stats.supply.land.mexico--
+                state.stats.supply.land.mexicoC++
 
-                                // create nft
-                                contract.createPlot(hivejs, "Mexico", 1, json.from);
+                // create nft
+                contract.createPlot(hivejs, "Mexico", 1, json.from);
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
+                const c = parseInt(amount)
+                state.bal.c += c
+            
+            } else {state.refund.push(['xfer', json.from, amount, 'There was an error with your purchase please try again'])}
+            
+            if (want === 'water1' && amount > (state.stats.prices.waterPlants.lvl1.price * 1000) - 300 && amount < (state.stats.prices.waterPlants.lvl1.price * 1000) + 300) {
                             
-                             } else if (want === 'water1' && amount > (state.stats.prices.waterPlants.lvl1.price * 1000) - 300 && amount < (state.stats.prices.waterPlants.lvl1.price * 1000) + 300) {
-                                
-                                // create nft
-                                contract.createWaterTower(hivejs, "Water", json.from, 30)
+                // create nft
+                contract.createWaterTower(hivejs, "Water", json.from, 30)
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                
-                             } else if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 300 && state.users[json.from].lvl >= 10) {
-                                
-                                // update total number of plots
-                                state.users[json.from].water += state.stats.waterPlant.lvl2
+                const c = parseInt(amount)
+                state.bal.c += c
+                
+            } else { state.refund.push(['xfer', json.from, amount, 'There was an error with your purchase please try again'])}
+                    
+            if (want === 'water2' && amount > (state.stats.prices.waterPlant.lvl2.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl2.price * 1000) + 300 && state.users[json.from].lvl >= 10) {
+                        
+                // update total number of plots
+                state.users[json.from].water += state.stats.waterPlant.lvl2
 
-                                // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl2++
+                // add 1 plot to user inventory
+                state.users[from].waterPlants.lvl2++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 2, "WATER": 96})
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 2, "WATER": 96})
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                
-                             } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 300 && state.users[json.from].lvl >= 20) {
-                                
-                                // update total number of plots
-                                state.users[json.from].water += state.stats.waterPlant.lvl3
+                const c = parseInt(amount)
+                state.bal.c += c
+                
+                } else if (want === 'water3' && amount > (state.stats.prices.waterPlant.lvl3.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl3.price * 1000) + 300 && state.users[json.from].lvl >= 20) {
+                
+                // update total number of plots
+                state.users[json.from].water += state.stats.waterPlant.lvl3
 
-                                // add 1 plot to user inventory
-                                state.users[json.from].waterPlants.lvl3++
+                // add 1 plot to user inventory
+                state.users[json.from].waterPlants.lvl3++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 3, "WATER": 166})
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                
-                             } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 300 && state.users[json.from].lvl >= 30) {
-                                
-                                // update total number of plots
-                                state.users[json.from].water += state.stats.waterPlant.lvl4
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 3, "WATER": 166})
+                const c = parseInt(amount)
+                state.bal.c += c
+                
+                } else if (want === 'water4' && amount > (state.stats.prices.waterPlant.lvl4.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl4.price * 1000) + 300 && state.users[json.from].lvl >= 30) {
+                
+                // update total number of plots
+                state.users[json.from].water += state.stats.waterPlant.lvl4
 
-                                // add 1 plot to user inventory
-                                state.users[json.from].waterPlants.lvl4++
+                // add 1 plot to user inventory
+                state.users[json.from].waterPlants.lvl4++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 4, "WATER": 234})
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 4, "WATER": 234})
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
-                             } else if (want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 300 && state.users[json.from].lvl >= 40) {
-                                
-                                // update total number of plots
-                                state.users[json.from].water += state.stats.waterPlant.lvl5
+                const c = parseInt(amount)
+                state.bal.c += c
+                state.cs[`${json.block_num}:${json.from}`] = `${json.from} purchased ${json.want}`
+                } else if (want === 'water5' && amount > (state.stats.prices.waterPlant.lvl5.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl5.price * 1000) + 300 && state.users[json.from].lvl >= 40) {
+                
+                // update total number of plots
+                state.users[json.from].water += state.stats.waterPlant.lvl5
 
-                                // add 1 plot to user inventory
-                                state.users[json.from].waterPlants.lvl5++
+                // add 1 plot to user inventory
+                state.users[json.from].waterPlants.lvl5++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 5, "WATER": 302})
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 5, "WATER": 302})
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
+                const c = parseInt(amount)
+                state.bal.c += c
 
-                             } else if (want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 300 && state.users[json.from].lvl >= 50) {
-                                
-                                // update total number of plots
-                                state.users[json.from].water += state.stats.waterPlant.lvl6
+                } else if (want === 'water6' && amount > (state.stats.prices.waterPlant.lvl6.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl6.price * 1000) + 300 && state.users[json.from].lvl >= 50) {
+                
+                // update total number of plots
+                state.users[json.from].water += state.stats.waterPlant.lvl6
 
-                                // add 1 plot to user inventory
-                                state.users[json.from].waterPlants.lvl6++
+                // add 1 plot to user inventory
+                state.users[json.from].waterPlants.lvl6++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 6, "WATER": 370})
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 6, "WATER": 370})
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
+                const c = parseInt(amount)
+                state.bal.c += c
 
-                             } else if (want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 300 && state.users[json.from].lvl >= 60) {
-                                
-                                // update total number of plots
-                                state.users[json.from].water += state.stats.waterPlant.lvl7
+                } else if (want === 'water7' && amount > (state.stats.prices.waterPlant.lvl7.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl7.price * 1000) + 300 && state.users[json.from].lvl >= 60) {
+                
+                // update total number of plots
+                state.users[json.from].water += state.stats.waterPlant.lvl7
 
-                                // add 1 plot to user inventory
-                                state.users[json.from].waterPlants.lvl7++
+                // add 1 plot to user inventory
+                state.users[json.from].waterPlants.lvl7++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 7, "WATER": 438})
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 7, "WATER": 438})
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
-                                
-                             } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 300 && state.users[json.from].lvl >= 70) {
-                                
-                                // update total number of plots
-                                state.users[from].water += state.stats.waterPlant.lvl8
+                const c = parseInt(amount)
+                state.bal.c += c
+                
+                } else if (want === 'water8' && amount > (state.stats.prices.waterPlant.lvl8.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl8.price * 1000) + 300 && state.users[json.from].lvl >= 70) {
+                
+                // update total number of plots
+                state.users[from].water += state.stats.waterPlant.lvl8
 
-                                // add 1 plot to user inventory
-                                state.users[from].waterPlants.lvl8++
+                // add 1 plot to user inventory
+                state.users[from].waterPlants.lvl8++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 8, "WATER": 506})
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 8, "WATER": 506})
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
+                const c = parseInt(amount)
+                state.bal.c += c
 
-                             } else if (want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 300 && state.users[json.from].lvl >= 80) {
-                                
-                                // update total number of plots
-                                state.users[json.from].water += state.stats.waterPlant.lvl9
+                } else if (want === 'water9' && amount > (state.stats.prices.waterPlant.lvl9.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl9.price * 1000) + 300 && state.users[json.from].lvl >= 80) {
+                
+                // update total number of plots
+                state.users[json.from].water += state.stats.waterPlant.lvl9
 
-                                // add 1 plot to user inventory
-                                state.users[json.from].waterPlants.lvl9++
+                // add 1 plot to user inventory
+                state.users[json.from].waterPlants.lvl9++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 9, "WATER": 574})
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 9, "WATER": 574})
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
+                const c = parseInt(amount)
+                state.bal.c += c
 
-                             } else if (want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 300 && state.users[json.from].lvl >= 90) {
-                                
-                                // update total number of plots
-                                state.users[json.from].water += state.stats.waterPlant.lvl10
+                } else if (want === 'water10' && amount > (state.stats.prices.waterPlant.lvl10.price * 1000) - 300 &&  amount < (state.stats.prices.waterPlant.lvl10.price * 1000) + 300 && state.users[json.from].lvl >= 90) {
+                
+                // update total number of plots
+                state.users[json.from].water += state.stats.waterPlant.lvl10
 
-                                // add 1 plot to user inventory
-                                state.users[json.from].waterPlants.lvl10++
+                // add 1 plot to user inventory
+                state.users[json.from].waterPlants.lvl10++
 
-                                // create nft
-                                contract.updateNft(hivejs, type, { "LVL": 10, "WATER": 642})
+                // create nft
+                contract.updateNft(hivejs, type, { "LVL": 10, "WATER": 642})
 
-                                const c = parseInt(amount)
-                                state.bal.c += c
+                const c = parseInt(amount)
+                state.bal.c += c
 
-                            } 
+            } 
         } else if (json.from === username) {
             const amount = parseInt(parseFloat(json.amount) * 1000)
             for (var i = 0; i < state.refund.length; i++) {
