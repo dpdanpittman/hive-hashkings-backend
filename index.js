@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53429065; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53429591; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53429065;
+const ago = ENV.ago || 53429591;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1004,13 +1004,13 @@ function startApp() {
 
               //Craft Consumable joints and boosters
               //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
-              if(json.contractPayload.symbol === "BUDS") {
+              if(json.contractPayload.symbol == "BUDS") {
                   let type = json.contractPayload.memo
                   let amountBuds = json.contractPayload.quantity
                   let amountBudsInt = parseInt(amountBuds, 10)
                   if(state.users[from] /*&& json.contractPayload.memo == "deposit"*/){
 
-                        state.users[from].dailyBudDeposit = amountBudsInt
+                        state.users[from].dailyBudDeposit += amountBudsInt
                   }
     
                   /*if(state.users[from] && json.contractPayload.memo == "pinner" && amountBudsInt === 50){
