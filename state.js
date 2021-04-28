@@ -1,6 +1,6 @@
 module.exports = {
    "stats": {
-      "seedsUsedLastDay": 470,
+      "seedsUsedLastDay": 496,
       "seedCount": 1739,
       "time": 28000,
       "joints": {
@@ -57,8 +57,8 @@ module.exports = {
             "5": "Scientist Maggi"
          }
       },
-      "bu": "QmX8WimD3MLMk3J18x2PHBymbNxbpMjbgik8v3D7h2hhbc",
-      "bi": 53407001,
+      "bu": "QmT3oCvP3bYuTMuMa3zbXFQDPviNSuZJp79UAjuR75rNG7",
+      "bi": 53429001,
       "prices": {
          "bundles": {
             "asiaBundle": 42,
@@ -724,11 +724,292 @@ module.exports = {
    },
    "bal": {
       "r": 0,
-      "c": 0,
+      "c": 247613,
       "b": 0,
       "p": 0
    },
-   "refund": [],
+   "refund": [
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmcUtubhQHFZ6RW3Apw9azzgHoiAHvRb44QawnBFccap7P",
+            "block": 53425601
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmZ9JM9yUjhutyisDVHkECZvTWEg4KRmx2edezy6b1CXzM",
+            "block": 53425701
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "Qmcxn5ghy4SYMw1D8ej5jhuW2BNLy35A7bMAEieEmrvayM",
+            "block": 53425801
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmZh82gNsZJ6E1cKWveKR4hVXncnGzTLBM8gRGZmwt36L9",
+            "block": 53425901
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmcE6CjTHa31rnEK2kSwhFVREvpLFeGrcbhi4Y6Y8LUW4W",
+            "block": 53426001
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmcjEUc6pKdZ7rTsH5azvUSSETd1DAKhPcvv7pJKwtET99",
+            "block": 53426101
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmeJPqu72i16oLjrdjzJPH54KWVEj3oj6N7jn67w5JDGKj",
+            "block": 53426201
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmRQ4CRtKxGDxdkTgsGJrNpXctQ2x8VHZqvay8ziGEy76R",
+            "block": 53426301
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmZco9SymJkNF9zSFsNb6DmK3hDfSU7BC4rdacv53SR4QV",
+            "block": 53426401
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmcrmD22R2tkrhT4sr9hgtu8Bc27WB7JPRANjPFdfzNCii",
+            "block": 53426501
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmcS62ttydubvYKzPx1onVkeTgk71ephhHjgpdceYSYQD6",
+            "block": 53426601
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmPyvGBvF7RxqWZJXvcc5c6XqEmChszRLiqD3wBeHvLWH1",
+            "block": 53426701
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmUtuTHjkjHdtqcubq6kALta5GZJGf2KYigvLdv64KuoXD",
+            "block": 53426801
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmVDp1MpJabs76ZsHpfKTPCsoEvpBcRSA2XN5JsfFwUVPK",
+            "block": 53426901
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmehPNu9kYjkUjSdkS9yYZuNHp2YoEDrJWqfsxXGYkyZNH",
+            "block": 53427001
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "Qmb7hhLAu3PrpQKyXgjDBpHJam2VvSiF9s7qhiZpZ8K3ay",
+            "block": 53427101
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmayMAUgkZKHjTeLrePUp6pJwRwX8B7mX2i4Dq3Nbe9WVC",
+            "block": 53427201
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmXDCWa2BsMjDnjoAqBtChCZBs6SvbCBRVxc5SHTkJ6pEz",
+            "block": 53427301
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmXgBPcVmCfNnzEmSRodvVej5AMQc88HG2BPcsVkdGfaHq",
+            "block": 53427401
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmRKJnmsQXwP7ae841hgGjv5PyBxqjnKXtZd49VHQZd9RG",
+            "block": 53427501
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmU5FZq2XYPc5j1eFZn6zLw9oQuCu3G1CMDpjFL9VzTrPd",
+            "block": 53427601
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmY3En3eqxbR8qY9fLMMHckubN3qQMPo9PHhTdDEFqXUtS",
+            "block": 53427701
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmYBwRM2SQ2yrmK2B7HHweJBGjn5tJbNX2tL8RTSwNoXmG",
+            "block": 53427801
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmaVxNUyH44WNANjRCHudkxscbnCcY5jtZBmftsxYQNcxv",
+            "block": 53427901
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmcyPMx5wVnRZfapbT5Ci3KwivfsRHa3gd91bHhcu7iTbE",
+            "block": 53428001
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmTc5W1wJPtXijT9Rdf37P5cF33Lts6ctRf6G6a7MX2C4p",
+            "block": 53428101
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmcrsvV4V9oRdjnCZV8WfNjhsJQAhwhdCxy3mqMWZLaUab",
+            "block": 53428201
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmVpNdSfH67Q2736DVQFNdNcdgip6NG5E2ytgVKS9s2oBZ",
+            "block": 53428301
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmTFMVSBhShdXSAwV7Gz8gbm5gCXvMtB9YmuvHCs7XYHRm",
+            "block": 53428401
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmP4GAKLs8EC2MVQtThUMquZZVRXWNXmUrSXfwRrYZBNhS",
+            "block": 53428501
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmU611Xd8zM1Xxh4EZbcGXcX83ShLoS8D17TfJJoxHdQ1k",
+            "block": 53428601
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmTswRLYP3o6eMLgY3n9Ny4VvhiZXAqPbVXkU62gHGBgdt",
+            "block": 53428701
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmStaoVPmghXviJoEhbR15p2jj7H4M3xNG5hjsAydh3JwH",
+            "block": 53428801
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmaFTFDcWGAiqntWsx2pdKhCLSxhbzzV8GyGwdYXAx8gVL",
+            "block": 53428901
+         }
+      ],
+      [
+         "customJson",
+         "report",
+         {
+            "hash": "QmT3oCvP3bYuTMuMa3zbXFQDPviNSuZJp79UAjuR75rNG7",
+            "block": 53429001
+         }
+      ]
+   ],
    "users": {
       "qwoyn": {
          "subdivisions": [],
@@ -14258,7 +14539,7 @@ module.exports = {
                "stake": "0"
             }
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -29801,7 +30082,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 1,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -38860,7 +39141,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 1,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -50213,7 +50494,7 @@ module.exports = {
             "lvl5": 0,
             "lvl6": 0
          },
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 4,
          "claimed": {
             "water": true,
             "avatar": true,
@@ -88572,7 +88853,7 @@ module.exports = {
             "lvl6": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -93437,7 +93718,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 100,
          "tokens": {
             "buds": {
                "balance": "2",
@@ -94321,7 +94602,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 1,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -96566,7 +96847,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 1,
          "tokens": {
             "buds": {
                "balance": "1",
@@ -97563,7 +97844,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 1,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -101737,7 +102018,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 2,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -103490,7 +103771,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 4,
          "tokens": {
             "buds": {
                "balance": 0,
@@ -104049,7 +104330,7 @@ module.exports = {
             "lvl10": 0
          },
          "buds": 0,
-         "dailyBudDeposit": 0,
+         "dailyBudDeposit": 10,
          "tokens": {
             "buds": {
                "balance": 0,

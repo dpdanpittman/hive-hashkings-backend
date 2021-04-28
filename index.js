@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53418370; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53429065; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53418370;
+const ago = ENV.ago || 53429065;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1113,24 +1113,28 @@ function startApp() {
                     let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
                     let waterStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);
                     let seedExists = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})]`); 
+                    let seedSent = jp.query(state.users["hk-vault"], `$.seeds[?(@.id==${seedID})]`); 
 
                     let jointTypes = jp.query(state.users[from], `$.joints[?(@.id==${jointID})].properties.CONSUMABLETYPE`);
 
                     let boosterType = jp.query(state.users[from], `$.boosters[?(@.id==${boosterID})].properties.NAME`);
                       
-                    if(state.users[from]&& seedExists && sptStatus < 1 && waterStatus < 1){
+                    if(state.users[from] || state.users["hk-vault"] && seedExists || seedSent && sptStatus < 1 && waterStatus < 1){
 
+                        
                         var budAmount = "" + jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PR`);  
+                        var budAmountVault = "" + jp.query(state.users["hk-vault"], `$.seeds[?(@.id==${seedID})].properties.PR`); 
 
                         let plotIDString = "" + plotID
-                    
+                        
+                        if(budAmount || budAmountVault){
                         //send harvested buds to user
                         contract.generateToken(hivejs, "BUDS", budAmount, from)
 
                         //make plot occupied and designate seed
                         contract.updateNft(hivejs, plotIDString, { "OCCUPIED": false, "SEEDID": 0 })
                         }
-                    
+                        }
 
                     //Rent Subdivision <---- coming soon
                     //user will send mota to hk-vault with memo plotOwner and amountRent
