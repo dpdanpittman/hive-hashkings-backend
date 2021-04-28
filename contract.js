@@ -1969,6 +1969,117 @@ const updateNft = async (hive, idnft, properties) => {
   });
 };
 
+
+const updateMultipleNfts = async (hive, nfts) => {
+    let json = {
+        contractName: "nft",
+        contractAction: "setProperties",
+        contractPayload: {
+            symbol: UTILITY_TOKEN_SYMBOL,
+            nfts: nfts,
+        },
+    };
+
+    return new Promise((resolve, reject) => {
+        hive.broadcast.customJson(
+            ACTIVEKEY,
+            [CONTRACT_CREATOR],
+            [],
+            "ssc-mainnet-hive",
+            JSON.stringify(json),
+            function (err, result) {
+                if (err) {
+                    reject(err);
+                } else {
+                    resolve(result);
+                }
+            }
+        );
+    });
+};
+
+async function updateSptSeeds(axios, hive) {
+    return new Promise(async (resolve, reject) => {
+        (async () => {
+            let complete = false;
+            let nfts = [];
+            let offset = 0;
+
+            while (!complete) {
+                let get_nfts = await queryContract(
+                    axios,
+                    {
+                        contract: CONTRACT,
+                        table: NFT_SYMBOL + TABLE_POSTFIX,
+                        query: {
+
+                        },
+                    },
+                    offset
+                );
+                if (get_nfts !== false) {
+                    nfts = nfts.concat(get_nfts);
+                    offset += 1000;
+                    if (get_nfts.length !== 1000) {
+                        complete = true;
+                    }
+                } else {
+                    complete = true;
+                }
+            }
+
+
+            let report = []
+
+
+            for (const nftx in nfts) {
+                let nft = nfts[nftx];
+                if (nft.properties.hasOwnProperty("PLANTED")) {
+                    if (nft.properties.TYPE == "seed") {
+                        if (nft.properties.PLANTED && nft.properties.SPT > 0 && nft.properties.PLOTID) {
+                            report.push(nft);
+                        }
+                    }
+
+                }
+            }
+
+            console.log(report.length);
+            let update = [];
+
+            update.push({
+              id: "" + report[0]._id,
+                properties: {
+                    SPT: report[0].properties.SPT - 1
+                }
+            });
+            for (let index = 1; index <= report.length; index++) {
+                if (report[index]) {
+
+
+                    if ((index % 5) == 0) {
+                        await updateMultipleNfts(hive, update);
+                        console.log(update);
+                        update = [];
+                    } else {
+
+                        let updatex = {
+                            id: report[index]._id,
+                            properties: {
+                                SPT: report[index].properties.SPT - 1
+                            },
+                        };
+                        update.push(updatex);
+                    }
+                }
+            }
+
+
+            resolve(update);
+        })();
+    });
+}
+
 module.exports = contract = {
   createSeed,
   createOneSeed,
@@ -1988,5 +2099,6 @@ module.exports = contract = {
   distributeSeeds,
   subdividePlot,
   distributeWater,
-  getUserNft
+  getUserNft,
+  updateSptSeeds
 };
