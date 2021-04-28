@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53406369; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53407084; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53406369;
+const ago = ENV.ago || 53407084;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -967,10 +967,11 @@ function startApp() {
               if(json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
                   console.log("watering")
                 let seedID = json.contractPayload.memo
-                let whoFrom = from
+                let whoFrom = "" + from
                 
                 let amountWater = json.contractPayload.quantity
                 let amountWaterInt = parseInt(amountWater, 10)
+                let amountString = "" + amountWater
 
                 console.log("seedID= "+seedID+"; amountWater= "+amountWater+"; amountWaterInt= "+amountWaterInt)
 
@@ -996,7 +997,7 @@ function startApp() {
                     state.refund.push(['customJson', 'ssc-mainnet-hive', {
                         contractName: "tokens",
                         contractAction: "transfer",
-                        contractPayload: {symbol: "HKWATER", to: whoFrom, quantity: amountWater, memo: "we discovered an issue watering, please try again."}
+                        contractPayload: {symbol: "HKWATER", to: whoFrom, quantity: amountString, memo: "we discovered an issue watering, please try again."}
                     }])
                 }
               }       
