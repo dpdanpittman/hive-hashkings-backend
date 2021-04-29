@@ -1430,7 +1430,7 @@ async function getReport(axios) {
       }
 
       for (let j = 0; j < nfts.length; j++) {
-        if (limiter("water", nfts[j])) {
+        if (limiter("water tower", nfts[j])) {
           if (!accounts.hasOwnProperty(nfts[j].account)) {
             accounts[nfts[j].account] = {
               seeds: [],
@@ -1455,8 +1455,10 @@ async function getReport(axios) {
           }
 
           try {
+            totalPlot.totalAllWater += 1;
             owners[nfts[j].account].totalWater += 1;
           } catch (e) {
+            totalPlot.totalAllWater += 1;
             owners[nfts[j].account] = {
               totalAllAvatar: 0,
               totalAllBooster: 0,
@@ -1473,7 +1475,6 @@ async function getReport(axios) {
         let water = accounts[key].water;
 
         if (Array.isArray(water)) {
-          totalPlot.totalAllWater = totalPlot.totalAllWater + water.length;
           accounts[key].water = accounts[key].water.reduce((before, after) => {
             let waterlvl1 = "waterlvl1";
             let waterlvl2 = "waterlvl2";
@@ -1579,34 +1580,96 @@ async function getReport(axios) {
 
             return before;
           }, {});
-
-          let lvl1 = accounts[key].water.hasOwnProperty("waterlvl1") ? accounts[key].water.waterlvl1.length : 0;
-          let lvl2 = accounts[key].water.hasOwnProperty("waterlvl2") ? accounts[key].water.waterlvl2.length : 0;
-          let lvl3 = accounts[key].water.hasOwnProperty("waterlvl3") ? accounts[key].water.waterlvl3.length : 0;
-          let lvl4 = accounts[key].water.hasOwnProperty("waterlvl4") ? accounts[key].water.waterlvl4.length : 0;
-          let lvl5 = accounts[key].water.hasOwnProperty("waterlvl5") ? accounts[key].water.waterlvl5.length : 0;
-          let lvl6 = accounts[key].water.hasOwnProperty("waterlvl6") ? accounts[key].water.waterlvl6.length : 0;
-          let lvl7 = accounts[key].water.hasOwnProperty("waterlvl7") ? accounts[key].water.waterlvl7.length : 0;
-          let lvl8 = accounts[key].water.hasOwnProperty("waterlvl8") ? accounts[key].water.waterlvl8.length : 0;
-          let lvl9 = accounts[key].water.hasOwnProperty("waterlvl9") ? accounts[key].water.waterlvl9.length : 0;
-          let lvl10 = accounts[key].water.hasOwnProperty("waterlvl10") ? accounts[key].water.waterlvl10.length : 0;
-          accounts[key].waterPlants = {
-            lvl1,
-            lvl2,
-            lvl3,
-            lvl4,
-            lvl5,
-            lvl6,
-            lvl7,
-            lvl8,
-            lvl9,
-            lvl10,
-          };
         }
       }
 
-      
+      for (let j = 0; j < nfts.length; j++) {
+        if (limiter("water", nfts[j])) {
+          if (!accounts.hasOwnProperty(nfts[j].account)) {
+            accounts[nfts[j].account] = {
+              seeds: [],
+              plots: [],
+              consumable: [],
+              booster: [],
+              avatar: [],
+              water: [],
+              waterTemp: [],
+            };
+            accounts[nfts[j].account].waterTemp.push({
+              id: nfts[j]._id,
+              properties: nfts[j].properties,
+              owner: nfts[j].account,
+            });
+          } else {
+            accounts[nfts[j].account].waterTemp.push({
+              id: nfts[j]._id,
+              properties: nfts[j].properties,
+              owner: nfts[j].account,
+            });
+          }
+
+          try {
+            totalPlot.totalAllwaterTemp += 1;
+            owners[nfts[j].account].totalwaterTemp += 1;
+          } catch (e) {
+            totalPlot.totalAllwaterTemp += 1;
+            owners[nfts[j].account] = {
+              totalAllwaterTemp: 1,
+              totalAllAvatar: 0,
+              totalAllBooster: 0,
+              totalAllConsumable: 0,
+              totalPlot: 0,
+              totalSeed: 0,
+              totalWater: 0,
+            };
+          }
+        }
+      }
+
       let report = [owners, plot, totalPlot, onlyAcconts, accounts];
+
+      resolve(report);
+    })();
+  });
+}
+
+async function getOnlyUsers(axios) {
+  return new Promise(async (resolve, reject) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          { contract: CONTRACT, table: NFT_SYMBOL + TABLE_POSTFIX },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = [];
+
+      for (let i = 0; i < nfts.length; i++) {
+        let acc = await onlyAcconts.find(function (element) {
+          return element == nfts[i].account;
+        });
+        if (!acc) {
+          onlyAcconts.push(nfts[i].account);
+        }
+      }
+
+      let report = onlyAcconts;
 
       resolve(report);
     })();
