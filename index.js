@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53462713; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53462771; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53462713;
+const ago = ENV.ago || 53462771;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1281,7 +1281,7 @@ function startApp() {
         let regionString = region
         let plotIDString = "" + plotID
         
-        var dividedStatus = jp.query(state.users[from],` $.plots[?(@.id==${plotID})].properties.SUBDIVIDED`);
+        var dividedStatus = jp.query(state.users[from],`$.plots[?(@.id==${plotID})].properties.SUBDIVIDED`);
 
         let userName = "" + from
         
@@ -1325,15 +1325,17 @@ function startApp() {
                 console.log(" entered if statement and variable username is " + userName + " json.from is " + json.from)
 
                 //createsubdivisions
-                //contract.subdividePlot(hivejs, "South America", 1, userName)
+                //contract.subdividePlot(hivejs, "South America", 1, userName).then(r=>{
                 //contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
+                //})
             }
         } else if(regionString == "afghanistan"){
             if(state.users[from] && dividedStatus == "false"){
 
                 //createsubdivisions
-                contract.subdividePlot(hivejs, "Afghanistan", 5, userName)
+                contract.subdividePlot(hivejs, "Afghanistan", 5, userName).then(r=>{
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
+                })
             }
         }
         } catch (error) {
