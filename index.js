@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53441402; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53441658; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53441402;
+const ago = ENV.ago || 53441658;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1279,7 +1279,7 @@ function startApp() {
         let plotID = json.plotID
         let region = json.region
 
-        let regionString = "" + region
+        let regionString = region
         let plotIDString = "" + plotID
         
         var dividedStatus = jp.query(state.users[from], `$.plots[?(@.id==${plotID})].properties.SUBDIVIDED`);
