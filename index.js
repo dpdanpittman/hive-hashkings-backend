@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53429591; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53441402; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53429591;
+const ago = ENV.ago || 53441402;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -542,42 +542,6 @@ function landPriceConversion() {
   })
 })}
 
-function daily() {
-    var seedsUsedLastDay = state.stats.seedsUsedLastDay
-
-    //distribute seeds
-    if(seedsUsedLastDay > 0){
-    contract.distributeSeeds(axios, seedsUsedLastDay, hivejs)
-    state.stats.seedsUsedLastDay = 0
-    }
-    var userList = state.stats.farmerList
-
-    // distribute mota
-    try {
-    let farmers = userList.map( farmer => {
-        return { user: farmer , depositedBuds: state.users[farmer].dailyBudDeposit}
-    })
-
-    //console.log(farmers)
-    distributeMota(1000, farmers, hivejs)
-    } catch (error) {
-       console.log("a user does not exist, may have to repeat")     
-    }
-
-    //distribute water
-    userList.map( farmer => {
-    let obj =   state.users[farmer].waterPlants  
-    let waterNumber = Object.keys(obj).reduce((sum,key)=> { console.log(sum,key,obj[key]); return (sum+parseInt(obj[key]||0 )  * state.stats.prices.waterPlants[key].water  )} ,0);
-    
-    contract.generateToken(hivejs, "HKWATER", waterNumber.toFixed(3), farmer);
-    }) 
-
-    for(var i = 0; i < userList.length; i++) {
-        let user = userList[i]
-        state.users[user].dailyBudDeposit = 0
-    }
-}
-
 /****ISSUE****/
 function startWith(hash) {
     if (hash) {
@@ -713,7 +677,7 @@ app.get('/utest/:user', async (req, res, next) => {
     test.tokens  = tokens;
     res.send(JSON.stringify(test, null, 3))
 } catch (error) {
-    console.log(error);
+    console.log("Couldn't find user");
     if(!state.users[user]) {
     state.users[user] = {
         rentals: [],
@@ -926,11 +890,6 @@ function startApp() {
         if (num % 1 === 0 && processor.isStreaming()) {
             console.log(num);
         }
-
-        /*// perform daily function 28000 blocks from genesis block above, this fails and needs to be on a new instance
-        if (num % 28000 === 0 && processor.isStreaming()) {
-            daily();
-        }*/
 
         //saves state to ipfs hash every 5 minutes
         try {
@@ -1359,7 +1318,7 @@ function startApp() {
                 contract.updateNft(hivejs, plotIDString, { "SUBDIVIDED":  true })
             }
         } else if(regionString == "southAmerica"){
-            if(state.users[from] && dividedStatus == "false"){
+            if(state.users[from] && dividedStatus === false){
                 console.log(" entered if statement and variable username is " + userName + " json.from is " + json.from)
 
                 //createsubdivisions
