@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53463014; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53463235; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53463014;
+const ago = ENV.ago || 53463235;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1088,11 +1088,11 @@ function startApp() {
                         
                         if(budAmount || budAmountVault){
                         //send harvested buds to user
-                        contract.generateToken(hivejs, "BUDS", budAmount, from)
-
-                        //make plot occupied and designate seed
+                        contract.generateToken(hivejs, "BUDS", budAmount, from).then(r=>{
                         contract.updateNft(hivejs, plotIDString, { "OCCUPIED": false, "SEEDID": 0 })
+                        })
                         }
+                        
                         }
 
                     //Rent Subdivision <---- coming soon
@@ -1281,7 +1281,7 @@ function startApp() {
         let regionString = region
         let plotIDString = "" + plotID
         
-        var dividedStatus = jp.query(state.users[from],`$.plots[?(@.id==${parseInt(plotID)})].properties.SUBDIVIDED`);
+        var dividedStatus = jp.query(state.users[from], `$.joints[?(@.id==${jointID})].properties.SUBDIVIDED`);
 
         let userName = "" + from
         
