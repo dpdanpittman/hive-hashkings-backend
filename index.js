@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53466886; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53467063; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53466886;
+const ago = ENV.ago || 53467063;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1411,6 +1411,19 @@ function startApp() {
             
             state.users[from].claimed.role = 5
         }                                      
+    });
+
+    processor.on('change_buds', function(json, from) {
+        let change = change.json
+        var userList = state.stats.farmerList
+
+        //set dailyBudDeposit to 0
+        if(from === username){
+        for(var i = 0; i < userList.length; i++) {
+                let user = userList[i]
+                state.users[user].dailyBudDeposit = 0
+            }           
+        }                        
     });
 
     // use a claimed booster
