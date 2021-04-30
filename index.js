@@ -547,7 +547,7 @@ function landPriceConversion() {
 
 /****ISSUE****/
 function startWith(hash) {
-    if (hash) {
+    /*if (hash) {
         console.log(`Attempting to start from IPFS save state ${hash}`);
         ipfs.cat(hash, (err, file) => {
             if (!err) {
@@ -565,11 +565,11 @@ function startWith(hash) {
                 startWith(mostRecent)
             }
         });
-    } else {
+    } else {*/
         console.log('most recent report doesnt exist')
         state = init
         startApp()
-    }
+    //}
 }
 
 //entire state.json output
