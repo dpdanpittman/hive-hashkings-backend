@@ -18,21 +18,21 @@ const SEEDS = [
   {
     0: {
       SPT: 1, //Sprouting time
-      WATER: 1551,
+      WATER: 12406,
       PR: { min: 7550, max: 8000 }, //Production range
       NAME: "Aceh",
       chance: 66,
     },
     1: {
       SPT: 2, //Sprouting time
-      WATER: 1512,
+      WATER: 12096,
       PR: { min: 7250, max: 7800 }, //Production range
       NAME: "Thai",
       chance: 67,
     },
     2: {
       SPT: 2, //Sprouting time
-      WATER: 1416,
+      WATER: 11328,
       PR: { min: 7000, max: 7300 }, //Production range
       NAME: "Thai Chocolate",
       chance: 67,
@@ -41,14 +41,14 @@ const SEEDS = [
   {
     0: {
       SPT: 2, //Sprouting time
-      WATER: 1358,
+      WATER: 10864,
       PR: { min: 6000, max: 7000 }, //Production range
       NAME: "Lamb’s Bread",
       chance: 50,
     },
     1: {
       SPT: 3, //Sprouting time
-      WATER: 1260,
+      WATER: 10080,
       PR: { min: 5500, max: 6500 }, //Production range
       NAME: "King’s Bread",
       chance: 50,
@@ -57,28 +57,28 @@ const SEEDS = [
   {
     0: {
       SPT: 3, //Sprouting time
-      WATER: 951,
+      WATER: 7608,
       PR: { min: 4600, max: 4900 }, //Production range
       NAME: "Swazi Gold",
       chance: 75,
     },
     1: {
       SPT: 3, //Sprouting time
-      WATER: 756,
+      WATER: 6048,
       PR: { min: 3500, max: 3900 }, //Production range
       NAME: "Kilimanjaro",
       chance: 75,
     },
     2: {
       SPT: 4, //Sprouting time
-      WATER: 568,
+      WATER: 4544,
       PR: { min: 2575, max: 2925 }, //Production range
       NAME: "Durban Poison",
       chance: 75,
     },
     3: {
       SPT: 4, //Sprouting time
-      WATER: 488,
+      WATER: 3904,
       PR: { min: 2175, max: 2525 }, //Production range
       NAME: "Malawi",
       chance: 75,
@@ -87,28 +87,28 @@ const SEEDS = [
   {
     0: {
       SPT: 4, //Sprouting time
-      WATER: 420,
+      WATER: 3360,
       PR: { min: 1825, max: 2175 }, //Production range
       NAME: "Hindu Kush",
       chance: 75,
     },
     1: {
       SPT: 5, //Sprouting time
-      WATER: 350,
+      WATER: 2800,
       PR: { min: 1450, max: 1800 }, //Production range
       NAME: "Afghani",
       chance: 75,
     },
     2: {
       SPT: 5, //Sprouting time
-      WATER: 210,
+      WATER: 1680,
       PR: { min: 850, max: 1100 }, //Production range
       NAME: "Lashkar Gah",
       chance: 75,
     },
     3: {
       SPT: 6, //Sprouting time
-      WATER: 162,
+      WATER: 1296,
       PR: { min: 600, max: 850 }, //Production range
       NAME: "Mazar I Sharif",
       chance: 75,
@@ -117,7 +117,7 @@ const SEEDS = [
   {
     0: {
       SPT: 6, //Sprouting time
-      WATER: 114,
+      WATER: 912,
       PR: { min: 460, max: 600 }, //Production range
       NAME: "Acapulco Gold",
       chance: 0,
@@ -126,14 +126,14 @@ const SEEDS = [
   {
     0: {
       SPT: 7, //Sprouting time
-      WATER: 70,
+      WATER: 560,
       PR: { min: 270, max: 350 }, //Production range
       NAME: "Colombian Gold",
       chance: 50,
     },
     1: {
       SPT: 7, //Sprouting time
-      WATER: 63,
+      WATER: 504,
       PR: { min: 250, max: 325 }, //Production range
       NAME: "Panama Red",
       chance: 50,
@@ -2015,85 +2015,101 @@ const updateMultipleNfts = async (hive, nfts) => {
 };
 
 async function updateSptSeeds(axios, hive) {
-    return new Promise(async (resolve, reject) => {
-        (async () => {
-            let complete = false;
-            let nfts = [];
-            let offset = 0;
+  return new Promise(async (resolve, reject) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
 
-            while (!complete) {
-                let get_nfts = await queryContract(
-                    axios,
-                    {
-                        contract: CONTRACT,
-                        table: NFT_SYMBOL + TABLE_POSTFIX,
-                        query: {
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: {},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
 
-                        },
-                    },
-                    offset
-                );
-                if (get_nfts !== false) {
-                    nfts = nfts.concat(get_nfts);
-                    offset += 1000;
-                    if (get_nfts.length !== 1000) {
-                        complete = true;
-                    }
-                } else {
-                    complete = true;
-                }
+      let report = [];
+
+      for (const nftx in nfts) {
+
+        let nft = nfts[nftx];
+
+        if (nft.properties.hasOwnProperty("PLANTED")) {
+
+          if (nft.properties.TYPE == "seed") {
+
+            if (
+              nft.properties.PLANTED &&
+              nft.properties.SPT > 0 &&
+              nft.properties.PLOTID
+            ) {
+              report.push(nft);
             }
 
+          }
 
-            let report = []
+        }
 
+      }
 
-            for (const nftx in nfts) {
-                let nft = nfts[nftx];
-                if (nft.properties.hasOwnProperty("PLANTED")) {
-                    if (nft.properties.TYPE == "seed") {
-                        if (nft.properties.PLANTED && nft.properties.SPT > 0 && nft.properties.PLOTID) {
-                            report.push(nft);
-                        }
-                    }
+      console.log(report.length);
+      let update = [];
 
-                }
-            }
+      update.push({
 
-            console.log(report.length);
-            let update = [];
+        id: "" + report[0]._id,
+        properties: {
+          SPT: report[0].properties.SPT - 1,
+        },
 
-            update.push({
-              id: "" + report[0]._id,
+      });
+
+      for (let index = 1; index <= report.length; index++) {
+
+        setTimeout(async () => {
+          if (report[index]) {
+
+            if (index % 5 == 0) {
+  
+              await updateMultipleNfts(hive, update);
+              console.log(update);
+              update = [];
+  
+            } else {
+  
+              let updatex = {
+                id: "" + report[index]._id,
                 properties: {
-                    SPT: report[0].properties.SPT - 1
-                }
-            });
-            for (let index = 1; index <= report.length; index++) {
-                if (report[index]) {
-
-
-                    if ((index % 5) == 0) {
-                        await updateMultipleNfts(hive, update);
-                        console.log(update);
-                        update = [];
-                    } else {
-
-                        let updatex = {
-                            id: "" +report[index]._id ,
-                            properties: {
-                                SPT: report[index].properties.SPT - 1
-                            },
-                        };
-                        update.push(updatex);
-                    }
-                }
+                  SPT: report[index].properties.SPT - 1,
+                },
+              };
+  
+              update.push(updatex);
+  
             }
+          }
+        }, 1);
+       
 
+      }
 
-            resolve(update);
-        })();
-    });
+      resolve(update);
+    })();
+  });
 }
 
 module.exports = contract = {

@@ -1,6 +1,6 @@
 module.exports = {
    "stats": {
-      "seedsUsedLastDay": 1500,
+      "seedsUsedLastDay": 87,
       "seedCount": 1739,
       "time": 28000,
       "joints": {
