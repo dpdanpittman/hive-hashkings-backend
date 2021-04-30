@@ -132,10 +132,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53463235; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53466886; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53463235;
+const ago = ENV.ago || 53466886;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -905,140 +905,155 @@ function startApp() {
     })
 
     processor.on("tohk-vault", function (json, from) {
-        ssc.getTransactionInfo(json.transaction_id).then((res) => {
-          let errors = null;
+        /*----------------------Fungible Tokens----------------------*/
       
-          if (res) {
-            try {
-              errors = JSON.parse("" + res.logs).errors;
-            } catch (e) {
-              errors = false;
-            }
+        //Water Plot
+        //user sends HKWater to hk-vault with memo seedID
+        if (json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
+          console.log("watering");
+          let seedID = json.contractPayload.memo;
+          let whoFrom = "" + from;
       
-            if (errors) {
-              console.error("no se pudo procesar la transaccion", errors);
+          let amountWater = json.contractPayload.quantity;
+          let amountWaterInt = parseInt(amountWater, 10);
+          let amountString = "" + amountWater;
+      
+          console.log(
+            "seedID= " +
+              seedID +
+              "; amountWater= " +
+              amountWater +
+              "; amountWaterInt= " +
+              amountWaterInt
+          );
+      
+          var water = jp.query(
+            state.users[from],
+            `$.seeds[?(@.id==${seedID})].properties.WATER`
+          );
+      
+          try {
+            if (state.users[from] && water != 0) {
+              let waterRemains = water - amountWaterInt;
+              let seedIdString = "" + seedID;
+      
+              // set water to new amount
+              contract.updateNft(hivejs, seedIdString, { WATER: waterRemains });
             } else {
-              
-               /*----------------------Fungible Tokens----------------------*/ 
-
-              //Water Plot
-              //user sends HKWater to hk-vault with memo seedID
-              if(json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
-                  console.log("watering")
-                let seedID = json.contractPayload.memo
-                let whoFrom = "" + from
-                
-                let amountWater = json.contractPayload.quantity
-                let amountWaterInt = parseInt(amountWater, 10)
-                let amountString = "" + amountWater
-
-                console.log("seedID= "+seedID+"; amountWater= "+amountWater+"; amountWaterInt= "+amountWaterInt)
-
-                var water = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);   
-
-                try {
-                if(state.users[from] && water != 0){
-                    
-                    let waterRemains = water - amountWaterInt
-                    let seedIdString = "" + seedID
-        
-                    // set water to new amount
-                    contract.updateNft(hivejs, seedIdString, { "WATER":  waterRemains })
-                } else {
-                    state.refund.push(['customJson', 'ssc-mainnet-hive', {
-                    contractName: "tokens",
-                    contractAction: "transfer",
-                    contractPayload: {symbol: "HKWATER", to: whoFrom, quantity: amountWater, memo: "plot has already been watered"}
-                    }])}
-
-                } catch (error) {
-                    console.log(from + " had an issue watering seedID" + json.contractPayload.memo + " refunding")
-                    state.refund.push(['customJson', 'ssc-mainnet-hive', {
-                        contractName: "tokens",
-                        contractAction: "transfer",
-                        contractPayload: {symbol: "HKWATER", to: whoFrom, quantity: amountString, memo: "we discovered an issue watering, please try again."}
-                    }])
-                }
-              }       
-
-              //Craft Consumable joints and boosters
-              //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
-              if(json.contractPayload.symbol == "BUDS") {
-                  let type = json.contractPayload.memo
-                  let amountBuds = json.contractPayload.quantity
-                  let amountBudsInt = parseInt(amountBuds, 10)
-                  if(state.users[from] /*&& json.contractPayload.memo == "deposit"*/){
-
-                        state.users[from].dailyBudDeposit += amountBudsInt
-                  }
-    
-                  /*if(state.users[from] && json.contractPayload.memo == "pinner" && amountBudsInt === 50){
-
-                      // create pinner
-                      contract.createConsumable(hivejs, "Pinner", type, from)
-
-                  } else if(state.users[from] && json.contractPayload.memo == "hempWrappedJoint" && amountBudsInt === 200){
-            
-                      // create hempwrappedjoint
-                      contract.createConsumable(hivejs, "Hemp Wrapped Joint", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "crossJoint" && amountBudsInt === 1000){
-            
-                      // create crossjoint
-                      contract.createConsumable(hivejs, "Cross Joint", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "blunt" && amountBudsInt === 2500){
-            
-                      // create blunt
-                      contract.createConsumable(hivejs, "Blunt", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "hempWrappedBlunt" && amountBudsInt === 5000){
-            
-                      // create hempwrappedblunt
-                      contract.createConsumable(hivejs, "Hemp Wrapped Blunt", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "twaxJoint" && amountBudsInt === 10000){
-            
-                      // set plot to subdivided
-                      contract.createConsumable(hivejs, "Twax Joint", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "lvl1_booster" && amountBudsInt === 10){
-            
-                      // set plot to subdivided
-                      contract.createConsumable(hivejs, "Level 1 Booster", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "lvl2_booster" && amountBudsInt === 50){
-            
-                      // set plot to subdivided
-                      contract.createConsumable(hivejs, "Level 2 Booster", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "lvl3_booster" && amountBudsInt === 210){
-            
-                      // set plot to subdivided
-                      contract.createConsumable(hivejs, "Level 3 Booster", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "lvl4_booster" && amountBudsInt === 2000){
-            
-                      // set plot to subdivided
-                      contract.createConsumable(hivejs, "Level 4 Booster", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "lvl5_booster" && amountBudsInt === 2500){
-            
-                      // set plot to subdivided
-                      contract.createConsumable(hivejs, "Level 5 Booster", type, from)
-
-                  }else if(state.users[from] && json.contractPayload.memo == "lvl6_booster" && amountBudsInt === 50){
-            
-                      // set plot to subdivided
-                      contract.createConsumable(hivejs, "Level 6 Booster", type, from)
-                  }*/
-                }    
+              state.refund.push([
+                "customJson",
+                "ssc-mainnet-hive",
+                {
+                  contractName: "tokens",
+                  contractAction: "transfer",
+                  contractPayload: {
+                    symbol: "HKWATER",
+                    to: whoFrom,
+                    quantity: amountWater,
+                    memo: "plot has already been watered",
+                  },
+                },
+              ]);
             }
-          } else {
-            //hive-engine still does not validate this block, touch validate it later
+          } catch (error) {
+            console.log(
+              from +
+                " had an issue watering seedID" +
+                json.contractPayload.memo +
+                " refunding"
+            );
+            state.refund.push([
+              "customJson",
+              "ssc-mainnet-hive",
+              {
+                contractName: "tokens",
+                contractAction: "transfer",
+                contractPayload: {
+                  symbol: "HKWATER",
+                  to: whoFrom,
+                  quantity: amountString,
+                  memo: "we discovered an issue watering, please try again.",
+                },
+              },
+            ]);
           }
-        });
+        }
+      
+        //Craft Consumable joints and boosters
+        //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
+        if (json.contractPayload.symbol == "BUDS") {
+          let type = json.contractPayload.memo;
+          let amountBuds = json.contractPayload.quantity;
+          let amountBudsInt = parseInt(amountBuds, 10);
+          if (state.users[from] /*&& json.contractPayload.memo == "deposit"*/) {
+            state.users[from].dailyBudDeposit += amountBudsInt;
+          }
+      
+          /*if(state.users[from] && json.contractPayload.memo == "pinner" && amountBudsInt === 50){
+      
+                            // create pinner
+                            contract.createConsumable(hivejs, "Pinner", type, from)
+      
+                        } else if(state.users[from] && json.contractPayload.memo == "hempWrappedJoint" && amountBudsInt === 200){
+                  
+                            // create hempwrappedjoint
+                            contract.createConsumable(hivejs, "Hemp Wrapped Joint", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "crossJoint" && amountBudsInt === 1000){
+                  
+                            // create crossjoint
+                            contract.createConsumable(hivejs, "Cross Joint", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "blunt" && amountBudsInt === 2500){
+                  
+                            // create blunt
+                            contract.createConsumable(hivejs, "Blunt", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "hempWrappedBlunt" && amountBudsInt === 5000){
+                  
+                            // create hempwrappedblunt
+                            contract.createConsumable(hivejs, "Hemp Wrapped Blunt", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "twaxJoint" && amountBudsInt === 10000){
+                  
+                            // set plot to subdivided
+                            contract.createConsumable(hivejs, "Twax Joint", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "lvl1_booster" && amountBudsInt === 10){
+                  
+                            // set plot to subdivided
+                            contract.createConsumable(hivejs, "Level 1 Booster", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "lvl2_booster" && amountBudsInt === 50){
+                  
+                            // set plot to subdivided
+                            contract.createConsumable(hivejs, "Level 2 Booster", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "lvl3_booster" && amountBudsInt === 210){
+                  
+                            // set plot to subdivided
+                            contract.createConsumable(hivejs, "Level 3 Booster", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "lvl4_booster" && amountBudsInt === 2000){
+                  
+                            // set plot to subdivided
+                            contract.createConsumable(hivejs, "Level 4 Booster", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "lvl5_booster" && amountBudsInt === 2500){
+                  
+                            // set plot to subdivided
+                            contract.createConsumable(hivejs, "Level 5 Booster", type, from)
+      
+                        }else if(state.users[from] && json.contractPayload.memo == "lvl6_booster" && amountBudsInt === 50){
+                  
+                            // set plot to subdivided
+                            contract.createConsumable(hivejs, "Level 6 Booster", type, from)
+                        }*/
+        }
+      
+        
       });
+      
 
       processor.on("nfttohk-vault", function (json, from) {
         ssc.getTransactionInfo(json.transaction_id).then((res) => {
