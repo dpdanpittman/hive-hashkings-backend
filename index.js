@@ -135,10 +135,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53489174; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53489819; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53489174;
+const ago = ENV.ago || 53489819;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1062,16 +1062,7 @@ function startApp() {
         ssc.getTransactionInfo(json.transaction_id).then((res) => {
           let errors = null;
       
-          if (res) {
-            try {
-              errors = JSON.parse("" + res.logs).errors;
-            } catch (e) {
-              errors = false;
-            }
-      
-            if (errors) {
-              console.error("no se pudo procesar la transaccion", errors);
-            } else {    
+            
 
                 /*----------------------------Non-Fungibles-----------------------------*/  
               
@@ -1212,10 +1203,8 @@ function startApp() {
                             }
                         }*/
                 }
-            }
-          } else {
-            //hive-engine still does not validate this block, touch validate it later
-          }
+            
+         
         });
       });
     
