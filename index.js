@@ -135,10 +135,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53489819; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53490103; //GENESIS BLOCK
 const username = ENV.ACCOUNT || 'hashkings'; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53489819;
+const ago = ENV.ago || 53490103;
 const prefix = ENV.PREFIX || 'qwoyn_'; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client([
     "https://api.deathwing.me"
@@ -1097,8 +1097,14 @@ function startApp() {
                         
                         if(budAmount || budAmountVault){
                         //send harvested buds to user
-                        contract.generateToken(hivejs, "BUDS", budAmount, from).then(r=>{
-                        contract.updateNft(hivejs, plotIDString, { "OCCUPIED": false, "SEEDID": 0 })
+                        contract.updateNft(hivejs, plotIDString, { "OCCUPIED": false, "SEEDID": 0 }).then( ()=>{
+                            contract.generateToken(hivejs, "BUDS", budAmount, from).then( () =>{
+                                
+                            } ).catch(e =>{
+                                console.log(from+" it could not send buds")
+                            })
+                        } ).catch(e => {
+                            console.log("it couldnt update plot "+plotIDString)
                         })
                         }
                         
