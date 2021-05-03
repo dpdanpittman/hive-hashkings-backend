@@ -1184,13 +1184,13 @@ function startApp() {
   /*------------------------------- Farm Actions ---------------------------*/
 
   // checks for qwoyn_plant and plants the seed
-  processor.on("plant_plot", function (json, from) {
+  processor.on("plant_plot", async function (json, from) {
     console.log("planting plot", from);
     await plant_plot(json, from, state);
   });
 
   //called when qwoyn_subdivide_plot is detected
-  processor.on("subdivide_plot", function (json, from) {
+  processor.on("subdivide_plot", async function (json, from) {
     await subdivide_plot(json, from, state);
   });
 
