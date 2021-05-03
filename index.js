@@ -1013,7 +1013,7 @@ function startApp() {
             } else {
                 switch (resx.type) {
                     case "tohk-vault":
-                      await tohkvault(JSON.parse(resx.json), resx.from, resx.state);
+                      await tohkvault(JSON.parse(resx.json), resx.from, state);
                       await updateTransaction(resx.transaction_id)
                         .then((red) => {
                           console.log("actualizando transaccion", red);
@@ -1024,7 +1024,7 @@ function startApp() {
                       break;
     
                     case "nfttohk-vault":
-                      await nfttohkvaul(JSON.parse(resx.json), resx.from, resx.state);
+                      await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
                       await updateTransaction(resx.transaction_id)
                         .then((red) => {
                           console.log("actualizando transaccion", red);
@@ -1035,7 +1035,7 @@ function startApp() {
                       break;
     
                     case "plant_plot":
-                      await plantplot(JSON.parse(resx.json), resx.from, resx.state);
+                      await plantplot(JSON.parse(resx.json), resx.from, state);
                       await updateTransaction(resx.transaction_id)
                         .then((red) => {
                           console.log("actualizando transaccion", red);
@@ -1046,7 +1046,7 @@ function startApp() {
                       break;
     
                     case "subdivide_plot":
-                      await subdivide_plot(JSON.parse(resx.json), resx.from, resx.state);
+                      await subdivide_plot(JSON.parse(resx.json), resx.from, state);
                       await updateTransaction(resx.transaction_id)
                         .then((red) => {
                           console.log("actualizando transaccion", red);
