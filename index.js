@@ -1011,51 +1011,51 @@ function startApp() {
                   console.log("ocurrio un error", e);
                 });
             } else {
-              switch (resx.type) {
-                case "tohk-vault":
-                    await tohkvault(resx.json, resx.from, resx.state);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion", red);
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                  break;
-
-                case "nfttohk-vault":
-                  await nfttohkvault(resx.json, resx.from, resx.state);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion", red);
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                  break;
-
-                case "plant_plot":
-                  await plantplot(resx.json, resx.from, resx.state);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion", red);
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                  break;
-
-                case "subdivide_plot":
-                  await subdivide_plot(resx.json, resx.from, resx.state);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion", red);
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                  break;
-              }
+                switch (resx.type) {
+                    case "tohk-vault":
+                      await tohkvault(JSON.parse(resx.json), resx.from, resx.state);
+                      await updateTransaction(resx.transaction_id)
+                        .then((red) => {
+                          console.log("actualizando transaccion", red);
+                        })
+                        .catch((e) => {
+                          console.log("ocurrio un error", e);
+                        });
+                      break;
+    
+                    case "nfttohk-vault":
+                      await nfttohkvaul(JSON.parse(resx.json), resx.from, resx.state);
+                      await updateTransaction(resx.transaction_id)
+                        .then((red) => {
+                          console.log("actualizando transaccion", red);
+                        })
+                        .catch((e) => {
+                          console.log("ocurrio un error", e);
+                        });
+                      break;
+    
+                    case "plant_plot":
+                      await plantplot(JSON.parse(resx.json), resx.from, resx.state);
+                      await updateTransaction(resx.transaction_id)
+                        .then((red) => {
+                          console.log("actualizando transaccion", red);
+                        })
+                        .catch((e) => {
+                          console.log("ocurrio un error", e);
+                        });
+                      break;
+    
+                    case "subdivide_plot":
+                      await subdivide_plot(JSON.parse(resx.json), resx.from, resx.state);
+                      await updateTransaction(resx.transaction_id)
+                        .then((red) => {
+                          console.log("actualizando transaccion", red);
+                        })
+                        .catch((e) => {
+                          console.log("ocurrio un error", e);
+                        });
+                      break;
+                  } 
             }
           } else {
             console.log(
