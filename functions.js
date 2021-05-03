@@ -41,10 +41,13 @@ const tohkvault = async (json, from, state) => {
         let waterRemains = water - amountWaterInt;
         let seedIdString = "" + seedID;
         // set water to new amount
+
         let log = await contract.updateNft(hivejs, seedIdString, {
           WATER: waterRemains,
         });
-        await saveLog("tohk-vault", json, from, log);
+
+        let x = Object.assign({}, { r: log });
+        await saveLog("tohk-vault", json, from, JSON.stringify(x));
       } else {
         state.refund.push([
           "customJson",
@@ -114,7 +117,13 @@ const tohkvault = async (json, from, state) => {
     ) {
       // create pinner
       let log = await contract.createConsumable(hivejs, "Pinner", type, from);
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "hempWrappedJoint" &&
@@ -127,7 +136,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "crossJoint" &&
@@ -140,7 +155,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "blunt" &&
@@ -148,33 +169,51 @@ const tohkvault = async (json, from, state) => {
     ) {
       // create blunt
       let log = await contract.createConsumable(hivejs, "Blunt", type, from);
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "hempWrappedBlunt" &&
       amountBudsInt === 5000
     ) {
       // create hempwrappedblunt
-      let log = awaitcontract.createConsumable(
+      let log = await contract.createConsumable(
         hivejs,
         "Hemp Wrapped Blunt",
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "twaxJoint" &&
       amountBudsInt === 10000
     ) {
       // set plot to subdivided
-      let log = awaitcontract.createConsumable(
+      let log = await contract.createConsumable(
         hivejs,
         "Twax Joint",
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl1_booster" &&
@@ -187,7 +226,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl2_booster" &&
@@ -200,7 +245,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl3_booster" &&
@@ -213,7 +264,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl4_booster" &&
@@ -226,7 +283,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl5_booster" &&
@@ -239,7 +302,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl6_booster" &&
@@ -252,7 +321,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     }
   }
 };
@@ -463,8 +538,16 @@ const plant_plot = async (json, from, state) => {
     console.log(
       "an error when planting a seed occured " + from + " sent the request"
     );
-    await saveLog("plant_plot", json, from, "an error when planting a seed occured " + from + " sent the request " +error);
-            
+    await saveLog(
+      "plant_plot",
+      json,
+      from,
+      "an error when planting a seed occured " +
+        from +
+        " sent the request " +
+        error
+    );
+
     console.log(error);
   }
 
