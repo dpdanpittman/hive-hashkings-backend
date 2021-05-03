@@ -413,7 +413,7 @@ const nfttohkvaul = async (json, from, state) => {
               "nfttohkvaul",
               json,
               from,
-              from + "it couldnt update plot " + plotIDStrin
+              from + "it couldnt update plot " + plotIDString
             );
             console.log("it couldnt update plot " + plotIDString);
           });
