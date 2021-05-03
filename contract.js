@@ -3,7 +3,7 @@ const ENV = process.env;
 const CONTRACT_CREATOR = "hashkings";
 const UTILITY_TOKEN_SYMBOL = "HKFARM";
 
-const ACTIVEKEY = ENV.activekey;
+const ACTIVEKEY = ENV.activekey ;
 
 const SEEDS_PER_PACK = 3;
 
@@ -991,8 +991,8 @@ const createSeed = async (hive, packs, userBuyer) => {
 };
 
 const createSeedT = async (hive, packs, userBuyer) => {
-  if (packs < 0) {
-    console.log("no send seed for ", userBuyer);
+  if (packs < 1) {
+    console.log("Seed was not sent to because stake was too low ", userBuyer);
     return;
   }
   let instances = [];
@@ -1024,7 +1024,25 @@ const createSeedT = async (hive, packs, userBuyer) => {
       }
     );
   });
+};
 
+const SendSeedPoolManual = async (hive, seedsToSend, user) => {
+  if (seedsToSend > 4) {
+    let toSend = seedsToSend;
+    while (toSend > 0) {
+      if (toSend > 4) {
+        seedsToSend = toSend;
+      }
+      if (toSend == seedsToSend) {
+        await createSeedT(hive, 4, user);
+      } else {
+        await createSeedT(hive, toSend, user);
+      }
+      toSend = toSend - 4;
+    }
+  } else {
+    await createSeedT(hive, seedsToSend, userData[i].user);
+  }
 };
 
 const generateBundle = async (
@@ -1430,7 +1448,7 @@ async function getReport(axios) {
       }
 
       for (let j = 0; j < nfts.length; j++) {
-        if (limiter("water tower", nfts[j])) {
+        if (limiter("water", nfts[j])) {
           if (!accounts.hasOwnProperty(nfts[j].account)) {
             accounts[nfts[j].account] = {
               seeds: [],
@@ -1455,10 +1473,8 @@ async function getReport(axios) {
           }
 
           try {
-            totalPlot.totalAllWater += 1;
             owners[nfts[j].account].totalWater += 1;
           } catch (e) {
-            totalPlot.totalAllWater += 1;
             owners[nfts[j].account] = {
               totalAllAvatar: 0,
               totalAllBooster: 0,
@@ -1475,6 +1491,7 @@ async function getReport(axios) {
         let water = accounts[key].water;
 
         if (Array.isArray(water)) {
+          totalPlot.totalAllWater = totalPlot.totalAllWater + water.length;
           accounts[key].water = accounts[key].water.reduce((before, after) => {
             let waterlvl1 = "waterlvl1";
             let waterlvl2 = "waterlvl2";
@@ -1580,49 +1597,49 @@ async function getReport(axios) {
 
             return before;
           }, {});
-        }
-      }
 
-      for (let j = 0; j < nfts.length; j++) {
-        if (limiter("water", nfts[j])) {
-          if (!accounts.hasOwnProperty(nfts[j].account)) {
-            accounts[nfts[j].account] = {
-              seeds: [],
-              plots: [],
-              consumable: [],
-              booster: [],
-              avatar: [],
-              water: [],
-              waterTemp: [],
-            };
-            accounts[nfts[j].account].waterTemp.push({
-              id: nfts[j]._id,
-              properties: nfts[j].properties,
-              owner: nfts[j].account,
-            });
-          } else {
-            accounts[nfts[j].account].waterTemp.push({
-              id: nfts[j]._id,
-              properties: nfts[j].properties,
-              owner: nfts[j].account,
-            });
-          }
-
-          try {
-            totalPlot.totalAllwaterTemp += 1;
-            owners[nfts[j].account].totalwaterTemp += 1;
-          } catch (e) {
-            totalPlot.totalAllwaterTemp += 1;
-            owners[nfts[j].account] = {
-              totalAllwaterTemp: 1,
-              totalAllAvatar: 0,
-              totalAllBooster: 0,
-              totalAllConsumable: 0,
-              totalPlot: 0,
-              totalSeed: 0,
-              totalWater: 0,
-            };
-          }
+          let lvl1 = accounts[key].water.hasOwnProperty("waterlvl1")
+            ? accounts[key].water.waterlvl1.length
+            : 0;
+          let lvl2 = accounts[key].water.hasOwnProperty("waterlvl2")
+            ? accounts[key].water.waterlvl2.length
+            : 0;
+          let lvl3 = accounts[key].water.hasOwnProperty("waterlvl3")
+            ? accounts[key].water.waterlvl3.length
+            : 0;
+          let lvl4 = accounts[key].water.hasOwnProperty("waterlvl4")
+            ? accounts[key].water.waterlvl4.length
+            : 0;
+          let lvl5 = accounts[key].water.hasOwnProperty("waterlvl5")
+            ? accounts[key].water.waterlvl5.length
+            : 0;
+          let lvl6 = accounts[key].water.hasOwnProperty("waterlvl6")
+            ? accounts[key].water.waterlvl6.length
+            : 0;
+          let lvl7 = accounts[key].water.hasOwnProperty("waterlvl7")
+            ? accounts[key].water.waterlvl7.length
+            : 0;
+          let lvl8 = accounts[key].water.hasOwnProperty("waterlvl8")
+            ? accounts[key].water.waterlvl8.length
+            : 0;
+          let lvl9 = accounts[key].water.hasOwnProperty("waterlvl9")
+            ? accounts[key].water.waterlvl9.length
+            : 0;
+          let lvl10 = accounts[key].water.hasOwnProperty("waterlvl10")
+            ? accounts[key].water.waterlvl10.length
+            : 0;
+          accounts[key].waterPlants = {
+            lvl1,
+            lvl2,
+            lvl3,
+            lvl4,
+            lvl5,
+            lvl6,
+            lvl7,
+            lvl8,
+            lvl9,
+            lvl10,
+          };
         }
       }
 
@@ -1676,7 +1693,7 @@ async function getOnlyUsers(axios) {
   });
 }
 
-async function getUserNft(ssc,axios, user) {
+async function getUserNft(ssc, axios, user) {
   return new Promise(async (resolve, reject) => {
     (async () => {
       let complete = false;
@@ -1708,7 +1725,7 @@ async function getUserNft(ssc,axios, user) {
       let onlyAcconts = {
         seeds: [],
         plots: [],
-        tokens : {}
+        tokens: {},
       };
 
       for (let i = 0; i < nfts.length; i++) {
@@ -1727,8 +1744,7 @@ async function getUserNft(ssc,axios, user) {
         }
       }
 
-      onlyAcconts.tokens =  await getTokens(ssc, user);
-
+      onlyAcconts.tokens = await getTokens(ssc, user);
 
       let report = onlyAcconts;
 
@@ -1853,7 +1869,8 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
   }
 
   for (let j = 0; j < userData.length; j++) {
-    TOTALSTAKEDMOTAOFALLTHEPLAYERS += parseFloat(userData[j].stake);
+    TOTALSTAKEDMOTAOFALLTHEPLAYERS =
+      TOTALSTAKEDMOTAOFALLTHEPLAYERS + parseFloat(userData[j].stake);
   }
 
   let ratio = TOTALSTAKEDMOTAOFALLTHEPLAYERS / preRatio;
@@ -1868,22 +1885,22 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
         " STAKED ratio is " +
         ratio +
         " and user send " +
-        Math.ceil(parseFloat(userData[i].stake) / ratio)
+        seedsToSend
     );
 
-    if (seedsToSend > 25) {
+    if (seedsToSend > 4) {
       let toSend = seedsToSend;
       while (toSend > 0) {
-        if (toSend > 25) {
+        if (toSend > 4) {
           seedsToSend = toSend;
         }
         if (toSend == seedsToSend) {
-          await createSeedT(hive, 25, userData[i].user);
+          await createSeedT(hive, 4, userData[i].user);
         } else {
           await createSeedT(hive, toSend, userData[i].user);
         }
 
-        toSend = toSend - 25;
+        toSend = toSend - 4;
       }
     } else {
       await createSeedT(hive, seedsToSend, userData[i].user);
@@ -1911,15 +1928,19 @@ async function distributeMota(amountToDistribute, listOfUsers, hive) {
         userGet
     );
 
-    await generateToken(hive, "MOTA", userGet, listOfUsers[i].user);
+    if(userGet < 0.001){
+      await generateToken(hive, "MOTA", 0.001, listOfUsers[i].user);
+    }else{
+      await generateToken(hive, "MOTA", userGet, listOfUsers[i].user);
+    } 
   }
 }
 
 async function distributeWater(listOfUsers, hive) {
   for (let i = 0; i < listOfUsers.length; i++) {
-    let userGet = (listOfUsers[i].quantity).toFixed(3);
+    let userGet = listOfUsers[i].quantity.toFixed(3);
     console.log("username " + listOfUsers[i].user + "Quantity", userGet);
-    await generateToken(hive, "HKWATER", userGet, listOfUsers[i].user)
+    await generateToken(hive, "HKWATER", userGet, listOfUsers[i].user);
   }
 }
 
@@ -1985,33 +2006,32 @@ const updateNft = async (hive, idnft, properties) => {
   });
 };
 
-
 const updateMultipleNfts = async (hive, nfts) => {
-    let json = {
-        contractName: "nft",
-        contractAction: "setProperties",
-        contractPayload: {
-            symbol: UTILITY_TOKEN_SYMBOL,
-            nfts: nfts,
-        },
-    };
+  let json = {
+    contractName: "nft",
+    contractAction: "setProperties",
+    contractPayload: {
+      symbol: UTILITY_TOKEN_SYMBOL,
+      nfts: nfts,
+    },
+  };
 
-    return new Promise((resolve, reject) => {
-        hive.broadcast.customJson(
-            ACTIVEKEY,
-            [CONTRACT_CREATOR],
-            [],
-            "ssc-mainnet-hive",
-            JSON.stringify(json),
-            function (err, result) {
-                if (err) {
-                    reject(err);
-                } else {
-                    resolve(result);
-                }
-            }
-        );
-    });
+  return new Promise((resolve, reject) => {
+    hive.broadcast.customJson(
+      ACTIVEKEY,
+      [CONTRACT_CREATOR],
+      [],
+      "ssc-mainnet-hive",
+      JSON.stringify(json),
+      function (err, result) {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(result);
+        }
+      }
+    );
+  });
 };
 
 async function updateSptSeeds(axios, hive) {
@@ -2045,13 +2065,9 @@ async function updateSptSeeds(axios, hive) {
       let report = [];
 
       for (const nftx in nfts) {
-
         let nft = nfts[nftx];
-
         if (nft.properties.hasOwnProperty("PLANTED")) {
-
           if (nft.properties.TYPE == "seed") {
-
             if (
               nft.properties.PLANTED &&
               nft.properties.SPT > 0 &&
@@ -2059,52 +2075,35 @@ async function updateSptSeeds(axios, hive) {
             ) {
               report.push(nft);
             }
-
           }
-
         }
-
       }
 
       console.log(report.length);
       let update = [];
 
       update.push({
-
         id: "" + report[0]._id,
         properties: {
           SPT: report[0].properties.SPT - 1,
         },
-
       });
-
       for (let index = 1; index <= report.length; index++) {
-
-        setTimeout(async () => {
-          if (report[index]) {
-
-            if (index % 5 == 0) {
-  
-              await updateMultipleNfts(hive, update);
-              console.log(update);
-              update = [];
-  
-            } else {
-  
-              let updatex = {
-                id: "" + report[index]._id,
-                properties: {
-                  SPT: report[index].properties.SPT - 1,
-                },
-              };
-  
-              update.push(updatex);
-  
-            }
+        if (report[index]) {
+          if (index % 5 == 0) {
+            await updateMultipleNfts(hive, update);
+            console.log(update);
+            update = [];
+          } else {
+            let updatex = {
+              id: "" + report[index]._id,
+              properties: {
+                SPT: report[index].properties.SPT - 1,
+              },
+            };
+            update.push(updatex);
           }
-        }, 1);
-       
-
+        }
       }
 
       resolve(update);
@@ -2132,5 +2131,7 @@ module.exports = contract = {
   subdividePlot,
   distributeWater,
   getUserNft,
-  updateSptSeeds
+  updateSptSeeds,
+  SendSeedPoolManual,
+  updateMultipleNfts
 };
