@@ -23,7 +23,6 @@ async function setTransaction(transaction_id, type, json, from, message) {
 async function updateTransaction(id) {
   return await transferModel
     .updateOne({ transaction_id: id }, { status: "complete" })
-    .save();
 }
 
 async function getAllTransaction() {

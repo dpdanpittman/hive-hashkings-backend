@@ -102,7 +102,7 @@ const credentials = {
 
 // Starting both http & https servers
 const httpServer = http.createServer(app);
-//const httpsServer = https.createServer(credentials, app);
+const httpsServer = https.createServer(credentials, app);
 
 httpServer.listen(80, () => {
   console.log("HTTP Server running on port 80");
@@ -150,10 +150,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53552439; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53556060; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53552439;
+const ago = ENV.ago || 53556060;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -1011,51 +1011,51 @@ function startApp() {
                   console.log("ocurrio un error", e);
                 });
             } else {
-              switch (resx.type) {
-                case "tohk-vault":
-                  await tohkvault(resx.json, resx.from, rex.state);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion", red);
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                  break;
-
-                case "nfttohk-vault":
-                  await nfttohkvault(resx.json, resx.from, rex.state);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion", red);
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                  break;
-
-                case "plant_plot":
-                  await plantplot(resx.json, resx.from, rex.state);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion", red);
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                  break;
-
-                case "subdivide_plot":
-                  await subdivide_plot(resx.json, resx.from, rex.state);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion", red);
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                  break;
-              }
+                switch (resx.type) {
+                    case "tohk-vault":
+                      await tohkvault(JSON.parse(resx.json), resx.from, state);
+                      await updateTransaction(resx.transaction_id)
+                        .then((red) => {
+                          console.log("actualizando transaccion", red);
+                        })
+                        .catch((e) => {
+                          console.log("ocurrio un error", e);
+                        });
+                      break;
+    
+                    case "nfttohk-vault":
+                      await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
+                      await updateTransaction(resx.transaction_id)
+                        .then((red) => {
+                          console.log("actualizando transaccion", red);
+                        })
+                        .catch((e) => {
+                          console.log("ocurrio un error", e);
+                        });
+                      break;
+    
+                    case "plant_plot":
+                      await plantplot(JSON.parse(resx.json), resx.from, state);
+                      await updateTransaction(resx.transaction_id)
+                        .then((red) => {
+                          console.log("actualizando transaccion", red);
+                        })
+                        .catch((e) => {
+                          console.log("ocurrio un error", e);
+                        });
+                      break;
+    
+                    case "subdivide_plot":
+                      await subdivide_plot(JSON.parse(resx.json), resx.from, state);
+                      await updateTransaction(resx.transaction_id)
+                        .then((red) => {
+                          console.log("actualizando transaccion", red);
+                        })
+                        .catch((e) => {
+                          console.log("ocurrio un error", e);
+                        });
+                      break;
+                  } 
             }
           } else {
             console.log(
