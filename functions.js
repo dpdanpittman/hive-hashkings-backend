@@ -376,13 +376,15 @@ const nfttohkvaul = async (json, from, state) => {
       (state.users["hk-vault"] && seedExists) ||
       (seedSent && sptStatus < 1 && waterStatus < 1)
     ) {
+      
       var budAmount =
         "" +
         jp.query(
           state.users[from],
           `$.seeds[?(@.id==${seedID})].properties.PR`
         );
-      var budAmountVault =
+      
+        var budAmountVault =
         "" +
         jp.query(
           state.users["hk-vault"],
@@ -391,7 +393,7 @@ const nfttohkvaul = async (json, from, state) => {
 
       let plotIDString = "" + plotID;
 
-      if (budAmount || budAmountVault) {
+      if (budAmount) {
         //send harvested buds to user
         contract
           .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
@@ -423,6 +425,39 @@ const nfttohkvaul = async (json, from, state) => {
           });
 
       }
+
+      if(budAmountVault){
+        contract
+        .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
+        .then(() => {
+          contract
+            .generateToken(hivejs, "BUDS", budAmountVault, from)
+            .then(() => {})
+            .catch(async (e) => {
+              
+              await saveLog(
+                "nfttohkvaul",
+                json,
+                from,
+                from + " it could not send buds"
+              );
+              console.log(from + " it could not send buds", e);
+            });
+
+        })
+        .catch(async (e) => {
+
+          await saveLog(
+            "nfttohkvaul",
+            json,
+            from,
+            from + "it couldnt update plot " + plotIDString
+          );
+          console.log("it couldnt update plot " + plotIDString , e);
+        });
+
+      }
+
     }
 
     //Rent Subdivision <---- coming soon
