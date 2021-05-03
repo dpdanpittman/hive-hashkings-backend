@@ -89,7 +89,7 @@ const https = require("https");
 const app = express();
 
 // Certificate
-/*
+
 const privateKey = fs.readFileSync('/etc/letsencrypt/live/hashkings.xyz/privkey.pem', 'utf8');
 const certificate = fs.readFileSync('/etc/letsencrypt/live/hashkings.xyz/cert.pem', 'utf8');
 const ca = fs.readFileSync('/etc/letsencrypt/live/hashkings.xyz/chain.pem', 'utf8');
@@ -99,7 +99,7 @@ const credentials = {
 	cert: certificate,
 	ca: ca
 };
-*/
+
 // Starting both http & https servers
 const httpServer = http.createServer(app);
 //const httpsServer = https.createServer(credentials, app);
@@ -107,10 +107,10 @@ const httpServer = http.createServer(app);
 httpServer.listen(80, () => {
   console.log("HTTP Server running on port 80");
 });
-/*
+
 httpsServer.listen(443, () => {
 	console.log('HTTPS Server running on port 443');
-}); */
+}); 
 
 /***************** End Server ************************/
 
