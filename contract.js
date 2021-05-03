@@ -4,7 +4,7 @@ const CONTRACT_CREATOR = "hashkings";
 const UTILITY_TOKEN_SYMBOL = "HKFARM";
 
 const ACTIVEKEY =
-  ENV.activekey || "5JZbDXBuSdz2aadMqM2wU2CC3J979ar5oX59r2R6Zp6G3AKE4QY";
+  ENV.activekey
 
 const SEEDS_PER_PACK = 3;
 
