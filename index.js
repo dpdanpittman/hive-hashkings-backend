@@ -1013,7 +1013,7 @@ function startApp() {
             } else {
               switch (resx.type) {
                 case "tohk-vault":
-                  await tohkvault(resx.json, resx.from, rex.state);
+                    await tohkvault(resx.json, resx.from, resx.state);
                   await updateTransaction(resx.transaction_id)
                     .then((red) => {
                       console.log("actualizando transaccion", red);
