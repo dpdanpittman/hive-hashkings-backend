@@ -3,7 +3,8 @@ const ENV = process.env;
 const CONTRACT_CREATOR = "hashkings";
 const UTILITY_TOKEN_SYMBOL = "HKFARM";
 
-const ACTIVEKEY = ENV.activekey ;
+const ACTIVEKEY =
+  ENV.activekey || "5JZbDXBuSdz2aadMqM2wU2CC3J979ar5oX59r2R6Zp6G3AKE4QY";
 
 const SEEDS_PER_PACK = 3;
 
@@ -1726,8 +1727,10 @@ async function getUserNft(ssc, axios, user) {
         seeds: [],
         plots: [],
         tokens: {},
+        waterTowers: {},
       };
 
+      let tempWaterTowers = [];
       for (let i = 0; i < nfts.length; i++) {
         let nft = {
           id: nfts[i]._id,
@@ -1742,9 +1745,229 @@ async function getUserNft(ssc, axios, user) {
         if (nfts[i].properties.TYPE == "plot") {
           onlyAcconts.plots.push(nft);
         }
+
+        if (nfts[i].properties.TYPE == "water") {
+          tempWaterTowers.push(nft);
+        }
       }
 
       onlyAcconts.tokens = await getTokens(ssc, user);
+      onlyAcconts.waterTowers = (await formateWaterTowers(tempWaterTowers)).waterTowers;
+      onlyAcconts.waterPlants = (await formateWaterTowers(tempWaterTowers)).waterPlants;
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
+async function formateWaterTowers(watertowerArray) {
+  let response = {};
+  if (Array.isArray(watertowerArray)) {
+    let reduceArray = watertowerArray.reduce((before, after) => {
+      let waterlvl1 = "waterlvl1";
+      let waterlvl2 = "waterlvl2";
+      let waterlvl3 = "waterlvl3";
+      let waterlvl4 = "waterlvl4";
+      let waterlvl5 = "waterlvl5";
+      let waterlvl6 = "waterlvl6";
+      let waterlvl7 = "waterlvl7";
+      let waterlvl8 = "waterlvl8";
+      let waterlvl9 = "waterlvl9";
+      let waterlvl10 = "waterlvl10";
+
+      if (before[waterlvl1]) {
+        if (after.properties.LVL == 1) {
+          before[waterlvl1] = [...before[waterlvl1], after];
+        }
+      } else {
+        if (after.properties.LVL == 1) {
+          before[waterlvl1] = [after];
+        }
+      }
+      if (before[waterlvl2]) {
+        if (after.properties.LVL == 2) {
+          before[waterlvl2] = [...before[waterlvl2], after];
+        }
+      } else {
+        if (after.properties.LVL == 2) {
+          before[waterlvl2] = [after];
+        }
+      }
+      if (before[waterlvl3]) {
+        if (after.properties.LVL == 3) {
+          before[waterlvl3] = [...before[waterlvl3], after];
+        }
+      } else {
+        if (after.properties.LVL == 3) {
+          before[waterlvl3] = [after];
+        }
+      }
+      if (before[waterlvl4]) {
+        if (after.properties.LVL == 4) {
+          before[waterlvl4] = [...before[waterlvl4], after];
+        }
+      } else {
+        if (after.properties.LVL == 4) {
+          before[waterlvl4] = [after];
+        }
+      }
+      if (before[waterlvl5]) {
+        if (after.properties.LVL == 5) {
+          before[waterlvl5] = [...before[waterlvl5], after];
+        }
+      } else {
+        if (after.properties.LVL == 5) {
+          before[waterlvl5] = [after];
+        }
+      }
+      if (before[waterlvl6]) {
+        if (after.properties.LVL == 6) {
+          before[waterlvl6] = [...before[waterlvl6], after];
+        }
+      } else {
+        if (after.properties.LVL == 6) {
+          before[waterlvl6] = [after];
+        }
+      }
+      if (before[waterlvl7]) {
+        if (after.properties.LVL == 7) {
+          before[waterlvl7] = [...before[waterlvl7], after];
+        }
+      } else {
+        if (after.properties.LVL == 7) {
+          before[waterlvl7] = [after];
+        }
+      }
+      if (before[waterlvl8]) {
+        if (after.properties.LVL == 8) {
+          before[waterlvl8] = [...before[waterlvl8], after];
+        }
+      } else {
+        if (after.properties.LVL == 8) {
+          before[waterlvl8] = [after];
+        }
+      }
+      if (before[waterlvl9]) {
+        if (after.properties.LVL == 9) {
+          before[waterlvl9] = [...before[waterlvl9], after];
+        }
+      } else {
+        if (after.properties.LVL == 9) {
+          before[waterlvl9] = [after];
+        }
+      }
+      if (before[waterlvl10]) {
+        if (after.properties.LVL == 10) {
+          before[waterlvl10] = [...before[waterlvl10], after];
+        }
+      } else {
+        if (after.properties.LVL == 10) {
+          before[waterlvl10] = [after];
+        }
+      }
+
+      return before;
+    }, {});
+
+    let lvl1 = reduceArray.hasOwnProperty("waterlvl1")
+      ? reduceArray.waterlvl1.length
+      : 0;
+    let lvl2 = reduceArray.hasOwnProperty("waterlvl2")
+      ? reduceArray.waterlvl2.length
+      : 0;
+    let lvl3 = reduceArray.hasOwnProperty("waterlvl3")
+      ? reduceArray.waterlvl3.length
+      : 0;
+    let lvl4 = reduceArray.hasOwnProperty("waterlvl4")
+      ? reduceArray.waterlvl4.length
+      : 0;
+    let lvl5 = reduceArray.hasOwnProperty("waterlvl5")
+      ? reduceArray.waterlvl5.length
+      : 0;
+    let lvl6 = reduceArray.hasOwnProperty("waterlvl6")
+      ? reduceArray.waterlvl6.length
+      : 0;
+    let lvl7 = reduceArray.hasOwnProperty("waterlvl7")
+      ? reduceArray.waterlvl7.length
+      : 0;
+    let lvl8 = reduceArray.hasOwnProperty("waterlvl8")
+      ? reduceArray.waterlvl8.length
+      : 0;
+    let lvl9 = reduceArray.hasOwnProperty("waterlvl9")
+      ? reduceArray.waterlvl9.length
+      : 0;
+    let lvl10 = reduceArray.hasOwnProperty("waterlvl10")
+      ? reduceArray.waterlvl10.length
+      : 0;
+
+    response.waterPlants = {
+      lvl1,
+      lvl2,
+      lvl3,
+      lvl4,
+      lvl5,
+      lvl6,
+      lvl7,
+      lvl8,
+      lvl9,
+      lvl10,
+    };
+
+    response.waterTowers = reduceArray;
+
+    return response;
+
+  }
+}
+
+async function getAllNfts(axios) {
+  return new Promise(async (resolve) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: {},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = {
+        seeds: [],
+        plots: [],
+        tokens: {},
+      };
+
+      for (let i = 0; i < nfts.length; i++) {
+        let nft = {
+          id: nfts[i]._id,
+          properties: nfts[i].properties,
+          owner: nfts[i].account,
+        };
+
+        if (nfts[i].properties.TYPE == "plot") {
+          onlyAcconts.plots.push(nft);
+        }
+      }
 
       let report = onlyAcconts;
 
@@ -1876,7 +2099,10 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
   let ratio = TOTALSTAKEDMOTAOFALLTHEPLAYERS / preRatio;
 
   for (let i = 0; i < userData.length; i++) {
-    let seedsToSend = Math.ceil(parseFloat(userData[i].stake) / ratio);
+    let seedsToSend = Math.round(parseFloat(userData[i].stake) / ratio);
+    if (userData[i].stake < ratio) {
+      seedsToSend = 0;
+    }
     console.log(
       "username : " +
         userData[i].user +
@@ -1928,11 +2154,21 @@ async function distributeMota(amountToDistribute, listOfUsers, hive) {
         userGet
     );
 
-    if(userGet < 0.001){
+    if (userGet < 0.001) {
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 5000);
+      });
       await generateToken(hive, "MOTA", 0.001, listOfUsers[i].user);
-    }else{
+    } else {
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 5000);
+      });
       await generateToken(hive, "MOTA", userGet, listOfUsers[i].user);
-    } 
+    }
   }
 }
 
@@ -2091,6 +2327,12 @@ async function updateSptSeeds(axios, hive) {
       for (let index = 1; index <= report.length; index++) {
         if (report[index]) {
           if (index % 5 == 0) {
+            await new Promise((resolve) => {
+              setTimeout(() => {
+                resolve();
+              }, 5000);
+            });
+
             await updateMultipleNfts(hive, update);
             console.log(update);
             update = [];
@@ -2133,5 +2375,6 @@ module.exports = contract = {
   getUserNft,
   updateSptSeeds,
   SendSeedPoolManual,
-  updateMultipleNfts
+  updateMultipleNfts,
+  getAllNfts,
 };

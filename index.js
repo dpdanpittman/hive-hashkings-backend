@@ -94,23 +94,26 @@ const privateKey = fs.readFileSync('/etc/letsencrypt/live/hashkings.xyz/privkey.
 const certificate = fs.readFileSync('/etc/letsencrypt/live/hashkings.xyz/cert.pem', 'utf8');
 const ca = fs.readFileSync('/etc/letsencrypt/live/hashkings.xyz/chain.pem', 'utf8');
 
+
 const credentials = {
 	key: privateKey,
 	cert: certificate,
 	ca: ca
 };
 
+
 // Starting both http & https servers
 const httpServer = http.createServer(app);
+/*
 const httpsServer = https.createServer(credentials, app);
-
+*/
 httpServer.listen(80, () => {
   console.log("HTTP Server running on port 80");
 });
 
 httpsServer.listen(443, () => {
 	console.log('HTTPS Server running on port 443');
-}); 
+});  
 
 /***************** End Server ************************/
 
@@ -717,14 +720,22 @@ app.get("/utest/:user", async (req, res, next) => {
       };
     }
     res.setHeader("Content-Type", "application/json");
-    let { plots, seeds, tokens } = await contract.getUserNft(ssc, axios, user);
-    let test = Object.assign({}, state.users[user]);
-    test.seeds = seeds;
-    test.plots = plots;
-    test.tokens = tokens;
-    res.send(JSON.stringify(test, null, 3));
+    let {
+      plots,
+      seeds,
+      tokens,
+      waterTowers,
+      waterPlants,
+    } = await contract.getUserNft(ssc, axios, user);
+    state.users[user].seeds = seeds;
+    state.users[user].plots = plots;
+    state.users[user].tokens = tokens;
+    state.users[user].waterTowers = waterTowers;
+    state.users[user].waterPlants = waterPlants;
+
+    res.send(JSON.stringify(state.users[user], null, 3));
   } catch (error) {
-    console.log("Couldn't find user");
+    console.log("Couldn't find user", error);
     if (!state.users[user]) {
       state.users[user] = {
         rentals: [],
@@ -1011,51 +1022,51 @@ function startApp() {
                   console.log("ocurrio un error", e);
                 });
             } else {
-                switch (resx.type) {
-                    case "tohk-vault":
-                      await tohkvault(JSON.parse(resx.json), resx.from, state);
-                      await updateTransaction(resx.transaction_id)
-                        .then((red) => {
-                          console.log("actualizando transaccion", red);
-                        })
-                        .catch((e) => {
-                          console.log("ocurrio un error", e);
-                        });
-                      break;
-    
-                    case "nfttohk-vault":
-                      await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
-                      await updateTransaction(resx.transaction_id)
-                        .then((red) => {
-                          console.log("actualizando transaccion", red);
-                        })
-                        .catch((e) => {
-                          console.log("ocurrio un error", e);
-                        });
-                      break;
-    
-                    case "plant_plot":
-                      await plantplot(JSON.parse(resx.json), resx.from, state);
-                      await updateTransaction(resx.transaction_id)
-                        .then((red) => {
-                          console.log("actualizando transaccion", red);
-                        })
-                        .catch((e) => {
-                          console.log("ocurrio un error", e);
-                        });
-                      break;
-    
-                    case "subdivide_plot":
-                      await subdivide_plot(JSON.parse(resx.json), resx.from, state);
-                      await updateTransaction(resx.transaction_id)
-                        .then((red) => {
-                          console.log("actualizando transaccion", red);
-                        })
-                        .catch((e) => {
-                          console.log("ocurrio un error", e);
-                        });
-                      break;
-                  } 
+              switch (resx.type) {
+                case "tohk-vault":
+                  await tohkvault(JSON.parse(resx.json), resx.from, state);
+                  await updateTransaction(resx.transaction_id)
+                    .then((red) => {
+                      console.log("actualizando transaccion", red);
+                    })
+                    .catch((e) => {
+                      console.log("ocurrio un error", e);
+                    });
+                  break;
+
+                case "nfttohk-vault":
+                  await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
+                  await updateTransaction(resx.transaction_id)
+                    .then((red) => {
+                      console.log("actualizando transaccion", red);
+                    })
+                    .catch((e) => {
+                      console.log("ocurrio un error", e);
+                    });
+                  break;
+
+                case "plant_plot":
+                  await plantplot(JSON.parse(resx.json), resx.from, state);
+                  await updateTransaction(resx.transaction_id)
+                    .then((red) => {
+                      console.log("actualizando transaccion", red);
+                    })
+                    .catch((e) => {
+                      console.log("ocurrio un error", e);
+                    });
+                  break;
+
+                case "subdivide_plot":
+                  await subdivide_plot(JSON.parse(resx.json), resx.from, state);
+                  await updateTransaction(resx.transaction_id)
+                    .then((red) => {
+                      console.log("actualizando transaccion", red);
+                    })
+                    .catch((e) => {
+                      console.log("ocurrio un error", e);
+                    });
+                  break;
+              }
             }
           } else {
             console.log(
@@ -1786,6 +1797,11 @@ mongoose
     console.info(
       "La conexión a la base  de datos se ha realizado correctamente"
     );
+    //state = init;
+    //userList();
+    //leveling();
+    //reporting();
+    //landPriceConversion();
     dynStart("hashkings");
   })
   // Si no se conecta correctamente escupimos el error
