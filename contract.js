@@ -1876,7 +1876,10 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
   let ratio = TOTALSTAKEDMOTAOFALLTHEPLAYERS / preRatio;
 
   for (let i = 0; i < userData.length; i++) {
-    let seedsToSend = Math.ceil(parseFloat(userData[i].stake) / ratio);
+    let seedsToSend = Math.round(parseFloat(userData[i].stake) / ratio);
+    if (userData[i].stake < ratio) {
+      seedsToSend = 0;
+    }
     console.log(
       "username : " +
         userData[i].user +
@@ -1897,44 +1900,19 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
         if (toSend == seedsToSend) {
           await createSeedT(hive, 4, userData[i].user);
         } else {
-          await createSeedT(hive, toSend, userData[i].user);
+           await createSeedT(hive, toSend, userData[i].user);
         }
 
         toSend = toSend - 4;
       }
     } else {
-      await createSeedT(hive, seedsToSend, userData[i].user);
+      
+        await createSeedT(hive, seedsToSend, userData[i].user);
+      
     }
   }
 }
 
-async function distributeMota(amountToDistribute, listOfUsers, hive) {
-  let userQuantity = 0;
-  for (let i = 0; i < listOfUsers.length; i++) {
-    userQuantity += listOfUsers[i].depositedBuds;
-  }
-  let ratio = amountToDistribute / userQuantity;
-
-  for (let i = 0; i < listOfUsers.length; i++) {
-    let userGet = (ratio * listOfUsers[i].depositedBuds).toFixed(4);
-    console.log(
-      "username " +
-        listOfUsers[i].user +
-        " staked buds " +
-        listOfUsers[i].depositedBuds +
-        " and we distribute " +
-        amountToDistribute +
-        " this user get " +
-        userGet
-    );
-
-    if(userGet < 0.001){
-      await generateToken(hive, "MOTA", 0.001, listOfUsers[i].user);
-    }else{
-      await generateToken(hive, "MOTA", userGet, listOfUsers[i].user);
-    } 
-  }
-}
 
 async function distributeWater(listOfUsers, hive) {
   for (let i = 0; i < listOfUsers.length; i++) {
