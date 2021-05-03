@@ -41,10 +41,13 @@ const tohkvault = async (json, from, state) => {
         let waterRemains = water - amountWaterInt;
         let seedIdString = "" + seedID;
         // set water to new amount
+
         let log = await contract.updateNft(hivejs, seedIdString, {
           WATER: waterRemains,
         });
-        await saveLog("tohk-vault", json, from, log);
+
+        let x = Object.assign({}, { r: log });
+        await saveLog("tohk-vault", json, from, JSON.stringify(x));
       } else {
         state.refund.push([
           "customJson",
@@ -114,7 +117,13 @@ const tohkvault = async (json, from, state) => {
     ) {
       // create pinner
       let log = await contract.createConsumable(hivejs, "Pinner", type, from);
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "hempWrappedJoint" &&
@@ -127,7 +136,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "crossJoint" &&
@@ -140,7 +155,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "blunt" &&
@@ -148,33 +169,51 @@ const tohkvault = async (json, from, state) => {
     ) {
       // create blunt
       let log = await contract.createConsumable(hivejs, "Blunt", type, from);
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "hempWrappedBlunt" &&
       amountBudsInt === 5000
     ) {
       // create hempwrappedblunt
-      let log = awaitcontract.createConsumable(
+      let log = await contract.createConsumable(
         hivejs,
         "Hemp Wrapped Blunt",
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "twaxJoint" &&
       amountBudsInt === 10000
     ) {
       // set plot to subdivided
-      let log = awaitcontract.createConsumable(
+      let log = await contract.createConsumable(
         hivejs,
         "Twax Joint",
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl1_booster" &&
@@ -187,7 +226,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl2_booster" &&
@@ -200,7 +245,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl3_booster" &&
@@ -213,7 +264,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl4_booster" &&
@@ -226,7 +283,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl5_booster" &&
@@ -239,7 +302,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl6_booster" &&
@@ -252,7 +321,13 @@ const tohkvault = async (json, from, state) => {
         type,
         from
       );
-      await saveLog("tohk-vault", JSON.stringify(json), from, log);
+      let x = Object.assign({}, { r: log });
+      await saveLog(
+        "tohk-vault",
+        JSON.stringify(json),
+        from,
+        JSON.stringify(x)
+      );
     }
   }
 };
@@ -280,6 +355,7 @@ const nfttohkvaul = async (json, from, state) => {
       `$.seeds[?(@.id==${seedID})].properties.WATER`
     );
     let seedExists = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})]`);
+    
     let seedSent = jp.query(
       state.users["hk-vault"],
       `$.seeds[?(@.id==${seedID})]`
@@ -324,24 +400,28 @@ const nfttohkvaul = async (json, from, state) => {
               .generateToken(hivejs, "BUDS", budAmount, from)
               .then(() => {})
               .catch(async (e) => {
+                
                 await saveLog(
                   "nfttohkvaul",
                   json,
                   from,
                   from + " it could not send buds"
                 );
-                console.log(from + " it could not send buds");
+                console.log(from + " it could not send buds", e);
               });
+
           })
           .catch(async (e) => {
+
             await saveLog(
               "nfttohkvaul",
               json,
               from,
-              from + "it couldnt update plot " + plotIDStrin
+              from + "it couldnt update plot " + plotIDString
             );
-            console.log("it couldnt update plot " + plotIDString);
+            console.log("it couldnt update plot " + plotIDString , e);
           });
+
       }
     }
 
@@ -463,8 +543,16 @@ const plant_plot = async (json, from, state) => {
     console.log(
       "an error when planting a seed occured " + from + " sent the request"
     );
-    await saveLog("plant_plot", json, from, "an error when planting a seed occured " + from + " sent the request " +error);
-            
+    await saveLog(
+      "plant_plot",
+      json,
+      from,
+      "an error when planting a seed occured " +
+        from +
+        " sent the request " +
+        error
+    );
+
     console.log(error);
   }
 
@@ -473,6 +561,7 @@ const plant_plot = async (json, from, state) => {
     contract
       .updateNft(hivejs, plotIDString, { OCCUPIED: true, SEEDID: seedID })
       .then((r) => {
+
         contract
           .updateNft(hivejs, seedIDString, {
             PLANTED: true,
@@ -480,21 +569,28 @@ const plant_plot = async (json, from, state) => {
           })
           .then((r) => {})
           .catch(async (e) => {
+            console.log("error no update plot",e)
+            
             await saveLog(
               "plant_plot",
               json,
               from,
-              from + " it could not send buds"
+              from + " it could not send buds "
             );
+
           });
+
       })
       .catch(async (e) => {
+
+        console.log("error no update seed",e)
         await saveLog(
           "plant_plot",
           json,
           from,
           from + " it could not send buds"
         );
+
       });
 
     state.stats.seedsUsedLastDay += 1;
@@ -535,6 +631,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
+                console.log("error no update plot",e)
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -544,6 +641,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
+            console.log("error no update plot",e)
             await saveLog(
               "subdivide_plot",
               json,
@@ -562,6 +660,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
+                console.log("error no update plot",e)
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -571,6 +670,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
+            console.log("error no update plot",e)
             await saveLog(
               "subdivide_plot",
               json,
@@ -589,6 +689,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
+                console.log("error no update plot",e)
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -598,6 +699,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
+            console.log("error no update plot",e)
             await saveLog(
               "subdivide_plot",
               json,
@@ -616,6 +718,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
+                console.log("error no update plot",e)
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -625,6 +728,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
+            console.log("error no update plot",e)
             await saveLog(
               "subdivide_plot",
               json,
@@ -642,6 +746,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
+                console.log("error no update plot",e)
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -651,6 +756,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
+            console.log("error no update plot",e)
             await saveLog(
               "subdivide_plot",
               json,
@@ -669,6 +775,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
+                console.log("error no update plot",e)
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -678,6 +785,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
+            console.log("error no update plot",e)
             await saveLog(
               "subdivide_plot",
               json,
