@@ -395,6 +395,12 @@ const nfttohkvaul = async (json, from, state) => {
 
       if (budAmount) {
         //send harvested buds to user
+        await new Promise((resolve) => {
+          setTimeout(() => {
+            resolve();
+          }, 7000);
+        });
+
         contract
           .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
           .then(() => {
@@ -415,6 +421,8 @@ const nfttohkvaul = async (json, from, state) => {
           })
           .catch(async (e) => {
 
+            
+
             await saveLog(
               "nfttohkvaul",
               json,
@@ -427,12 +435,20 @@ const nfttohkvaul = async (json, from, state) => {
       }
 
       if(budAmountVault){
+
         plotID = jp.query(
-                  state.users["hk-vault"],
-                  `$.seeds[?(@.id==${seedID})].properties.PLOTID`
-                );
-        
-                plotIDString = "" + plotID; 
+          state.users["hk-vault"],
+          `$.seeds[?(@.id==${seedID})].properties.PLOTID`
+        );
+
+        plotIDString = "" + plotID;
+
+        await new Promise((resolve) => {
+          setTimeout(() => {
+            resolve();
+          }, 7000);
+        });
+
         contract
         .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
         .then(() => {
