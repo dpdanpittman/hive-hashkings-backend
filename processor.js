@@ -166,11 +166,29 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
             }
           }
   
-          if (typeof onCustomJsonOperation["nfttohk-vault"] === "function") {
+          if (typeof onCustomJsonOperation["tohk-vault"] === "function") {
             let ip = JSON.parse(op[1].json);
-  
-            if (ip.hasOwnProperty("contractName")) {
-              if (ip.contractName == "nft") {
+
+            if (ip.hasOwnProperty("contractAction")) {
+              if (ip.contractName == "tokens") {
+                if (ip.contractAction == "transfer") {
+                  if (ip.hasOwnProperty("contractPayload")) {
+                    if (ip.contractPayload.hasOwnProperty("to")) {
+                      if (ip.contractPayload.to == "hk-vault") {
+                        let from = op[1].required_posting_auths[0];
+                        let active = false;
+                        ip.transaction_id = transactions[i].transaction_id;
+                        ip.block_num = transactions[i].block_num;
+                        if (!from) {
+                          from = op[1].required_auths[0];
+                          active = true;
+                        }
+                        onCustomJsonOperation["tohk-vault"](ip, from, active);
+                      }
+                    }
+                  }
+                }
+              } else if (ip.contractName == "nft") {
                 if (ip.contractAction == "transfer") {
                   if (ip.contractPayload.to == "hk-vault") {
                     let from = op[1].required_posting_auths[0];
@@ -186,7 +204,7 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
                 }
               }
             }
-          }
+          } 
           //new read transfer nft
         } else if (onOperation[op[0]] !== undefined) {
           op[1].transaction_id = transactions[i].transaction_id;
