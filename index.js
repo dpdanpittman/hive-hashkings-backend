@@ -1025,14 +1025,14 @@ function startApp() {
             } else {
               
               await updateTransaction(resx.transaction_id)
-                    .then((red) => {
+                    .then( async(red) => { 
                       switch (resx.type) {
                         case "tohk-vault":
                           await tohkvault(JSON.parse(resx.json), resx.from, state);
                           break;
         
                         case "nfttohk-vault":
-                          await nfttohkvault(JSON.parse(resx.json), resx.from, state);
+                          await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
                           
                           break;
         
