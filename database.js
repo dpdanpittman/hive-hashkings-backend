@@ -10,15 +10,22 @@ async function saveLog(type, json, from, message) {
 }
 
 async function setTransaction(transaction_id, type, json, from, message) {
-  return await new transferModel({
-    transaction_id,
-    type,
-    json: JSON.stringify(json),
-    from,
-    message,
-    status: "pending",
-  }).save();
-}
+  let transfer = await transferModel.findOne({transaction_id})
+
+  if(!transfer){
+    return await new transferModel({
+      transaction_id,
+      type,
+      json: JSON.stringify(json),
+      from,
+      message,
+      status: "pending",
+    }).save();
+  
+  }else{
+    console.log("transaccion existe no puedo guardarla otra vez");
+  }
+} 
 
 async function updateTransaction(id) {
   return await transferModel
