@@ -427,6 +427,12 @@ const nfttohkvaul = async (json, from, state) => {
       }
 
       if(budAmountVault){
+        plotID = jp.query(
+                  state.users["hk-vault"],
+                  `$.seeds[?(@.id==${seedID})].properties.PLOTID`
+                );
+        
+                plotIDString = "" + plotID; 
         contract
         .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
         .then(() => {
