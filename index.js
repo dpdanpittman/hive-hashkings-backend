@@ -1142,42 +1142,6 @@ console.log("no tengo contract name");
     });
   });
 
-  processor.on("nfttohk-vault", async function (json, from) {
-    ssc.getTransactionInfo(json.transaction_id).then(async (res) => {
-      let errors = null;
-
-      if (res) {
-        try {
-          errors = JSON.parse("" + res.logs).errors;
-        } catch (e) {
-          errors = false;
-        }
-
-        if (errors) {
-          await saveLog(
-            "nfttohk-vault",
-            json,
-            from,
-            "hive-engine error transac " + json.transaction_id
-          );
-        } else {
-          //Water Plot
-          //user sends HKWater to hk-vault with memo seedID
-          await nfttohkvaul(json, from, state);
-        }
-      } else {
-        // if DONT RECIBE ANY TRANSAC
-        await setTransaction(
-          json.transaction_id,
-          "nfttohk-vault",
-          json,
-          from,
-          "error hive-engine dont have process this block "
-        );
-      }
-    });
-  });
-
   /*--------------------------------Claim Goodies---------------------------*/
 
   /*// checks for qwoyn_plant and plants the seed
