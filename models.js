@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const transferSchema = new Schema({
-  transaction_id: { type : String , unique : true },
+  transaction_id: { type : String , unique : true , required : true, dropDups: true},
   type: String,
   json: String,
   from: String,
