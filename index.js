@@ -49,9 +49,10 @@ const ipfs = new IPFS({
   protocol: "https",
 });
 
-hivejs.api.setOptions({ url: "https://anyx.io/" });
+hivejs.api.setOptions({ url: "https://api.deathwing.me" });
 hivejs.config.set("alternative_api_endpoints", [
   "https://api.hive.blog/",
+  "https://api.deathwing.me",
   "https://anyx.io/",
 ]);
 
@@ -104,9 +105,8 @@ const credentials = {
 
 // Starting both http & https servers
 const httpServer = http.createServer(app);
-/*
 const httpsServer = https.createServer(credentials, app);
-*/
+
 httpServer.listen(80, () => {
   console.log("HTTP Server running on port 80");
 });
@@ -153,10 +153,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53571720; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53579603; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53571720;
+const ago = ENV.ago || 53579603;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -996,12 +996,13 @@ function startApp() {
 
   checkPendings = () => {
     console.log("checking... ");
-
-    getAllTransaction().then((resxp) => {
+ 
+    getAllTransaction().then(async (resxp) => {
       console.log("pending transact", resxp);
 
-      resxp.forEach((resx) => {
-        console.log("cheking transact", resx);
+      for (let index = 0; index < resxp.length; index++) {
+        
+        let resx = resxp[index];
         ssc.getTransactionInfo(resx.transaction_id).then(async (res) => {
           let errors = null;
 
@@ -1016,7 +1017,7 @@ function startApp() {
               console.error("no se pudo procesar la transaccion", errors);
               await updateTransaction(resx.transaction_id)
                 .then((red) => {
-                  console.log("actualizando transaccion", red);
+                  console.log("actualizando transaccion");
                 })
                 .catch((e) => {
                   console.log("ocurrio un error", e);
@@ -1027,7 +1028,7 @@ function startApp() {
                   await tohkvault(JSON.parse(resx.json), resx.from, state);
                   await updateTransaction(resx.transaction_id)
                     .then((red) => {
-                      console.log("actualizando transaccion", red);
+                      console.log("actualizando transaccion");
                     })
                     .catch((e) => {
                       console.log("ocurrio un error", e);
@@ -1036,9 +1037,10 @@ function startApp() {
 
                 case "nfttohk-vault":
                   await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
+                  
                   await updateTransaction(resx.transaction_id)
                     .then((red) => {
-                      console.log("actualizando transaccion", red);
+                      console.log("actualizando transaccion");
                     })
                     .catch((e) => {
                       console.log("ocurrio un error", e);
@@ -1049,7 +1051,7 @@ function startApp() {
                   await plantplot(JSON.parse(resx.json), resx.from, state);
                   await updateTransaction(resx.transaction_id)
                     .then((red) => {
-                      console.log("actualizando transaccion", red);
+                      console.log("actualizando transaccion");
                     })
                     .catch((e) => {
                       console.log("ocurrio un error", e);
@@ -1060,7 +1062,7 @@ function startApp() {
                   await subdivide_plot(JSON.parse(resx.json), resx.from, state);
                   await updateTransaction(resx.transaction_id)
                     .then((red) => {
-                      console.log("actualizando transaccion", red);
+                      console.log("actualizando transaccion");
                     })
                     .catch((e) => {
                       console.log("ocurrio un error", e);
@@ -1076,7 +1078,9 @@ function startApp() {
             );
           }
         });
-      });
+
+
+      }
     });
   };
 
