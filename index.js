@@ -153,10 +153,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53591324; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53591615; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53591324;
+const ago = ENV.ago || 53591615;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -1091,17 +1091,53 @@ function startApp() {
         } else {
           //Water Plot
           //user sends HKWater to hk-vault with memo seedID
-          await tohkvault(json, from, state);
+
+          if (json.hasOwnProperty("contractName")) {
+            if (json.contractName == "nft") {
+              await nfttohkvaul(json, from, state);
+            }
+            if (json.contractName == "tokens") {
+              await tohkvault(json, from, state);
+            }
+          } else {
+            await tohkvault(json, from, state);
+          }
         }
       } else {
         // if DONT RECIBE ANY TRANSAC
-        await setTransaction(
-          json.transaction_id,
-          "tohk-vault",
-          json,
-          from,
-          "error hive-engine dont have process this block "
-        );
+
+        if (json.hasOwnProperty("contractName")) {
+          
+          if (json.contractName == "nft") {
+            console.log("estoy en tohk-vault, pero tengo que estar en tonft-hkvault");
+            await setTransaction(
+              json.transaction_id,
+              "nfttohk-vault",
+              json,
+              from,
+              "error hive-engine dont have process this block "
+            );
+          }
+          if (json.contractName == "tokens") {
+            await setTransaction(
+              json.transaction_id,
+              "tohk-vault",
+              json,
+              from,
+              "error hive-engine dont have process this block "
+            );
+          }
+        }else{
+console.log("no tengo contract name");
+          await setTransaction(
+            json.transaction_id,
+            "tohk-vault",
+            json,
+            from,
+            "error hive-engine dont have process this block "
+          );
+
+        }
       }
     });
   });
