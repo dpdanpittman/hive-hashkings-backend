@@ -1032,7 +1032,7 @@ function startApp() {
                           break;
         
                         case "nfttohk-vault":
-                          await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
+                          await nfttohkvault(JSON.parse(resx.json), resx.from, state);
                           
                           break;
         
