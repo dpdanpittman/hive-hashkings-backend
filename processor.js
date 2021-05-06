@@ -13,12 +13,20 @@
     unexpectedStopCallback: A function to call when hive-state stops unexpectedly
       due to an error.
 */
-module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed=100, prefix='qwoyn_', mode='latest', unexpectedStopCallback=function(){}) {
-  var onCustomJsonOperation = {};  // Stores the function to be run for each operation id.
+module.exports = function (
+  client,
+  dhive,
+  currentBlockNumber = 1,
+  blockComputeSpeed = 100,
+  prefix = "qwoyn_",
+  mode = "latest",
+  unexpectedStopCallback = function () {}
+) {
+  var onCustomJsonOperation = {}; // Stores the function to be run for each operation id.
   var onOperation = {};
 
-  var onNewBlock = function() {};
-  var onStreamingStart = function() {};
+  var onNewBlock = function () {};
+  var onStreamingStart = function () {};
 
   var isStreaming;
 
@@ -31,59 +39,67 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
 
   // Returns the block number of the last block on the chain or the last irreversible block depending on mode.
   function getHeadOrIrreversibleBlockNumber(callback) {
-    client.database.getDynamicGlobalProperties().then(function(result) {
-      headRetryAttempt = 0;
-      if(mode === 'latest') {
-        callback(result.head_block_number);
-      } else {
-        callback(result.last_irreversible_block_num);
-      }
-    }).catch(function (err) {
-      headRetryAttempt++;
-      console.warn(`[Warning] Failed to get Head Block. Retrying. Attempt number ${headRetryAttempt}`)
-      console.warn(err)
-      //unexpectedStopCallback(err)
-      getHeadOrIrreversibleBlockNumber(callback)
-    })
+    client.database
+      .getDynamicGlobalProperties()
+      .then(function (result) {
+        headRetryAttempt = 0;
+        if (mode === "latest") {
+          callback(result.head_block_number);
+        } else {
+          callback(result.last_irreversible_block_num);
+        }
+      })
+      .catch(function (err) {
+        headRetryAttempt++;
+        console.warn(
+          `[Warning] Failed to get Head Block. Retrying. Attempt number ${headRetryAttempt}`
+        );
+        console.warn(err);
+        //unexpectedStopCallback(err)
+        getHeadOrIrreversibleBlockNumber(callback);
+      });
   }
 
   function isAtRealTime(callback) {
-    getHeadOrIrreversibleBlockNumber(function(result) {
-      if(currentBlockNumber >= result) {
+    getHeadOrIrreversibleBlockNumber(function (result) {
+      if (currentBlockNumber >= result) {
         callback(true);
       } else {
         callback(false);
       }
-    })
+    });
   }
 
   function beginBlockComputing() {
     function computeBlock() {
-      var blockNum = currentBlockNumber;// Helper variable to prevent race condition
-                                        // in getBlock()
-      client.database.getBlock(blockNum)
+      var blockNum = currentBlockNumber; // Helper variable to prevent race condition
+      // in getBlock()
+      client.database
+        .getBlock(blockNum)
         .then((result) => {
           processBlock(result, blockNum);
           computeRetryAttempt = 0;
           currentBlockNumber++;
-          if(!stopping) {
-            isAtRealTime(function(result) {
-              if(!result) {
+          if (!stopping) {
+            isAtRealTime(function (result) {
+              if (!result) {
                 setTimeout(computeBlock, blockComputeSpeed);
               } else {
                 beginBlockStreaming();
               }
-            })
+            });
           } else {
             setTimeout(stopCallback, 1000);
           }
         })
         .catch((err) => {
           computeRetryAttempt++;
-          console.warn(`[Warning] Failed to compute block. Retrying. Attempt number ${computeRetryAttempt}`)
-          console.warn(err)
+          console.warn(
+            `[Warning] Failed to compute block. Retrying. Attempt number ${computeRetryAttempt}`
+          );
+          console.warn(err);
           computeBlock();
-        })
+        });
     }
 
     computeBlock();
@@ -94,35 +110,41 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
 
     onStreamingStart();
 
-    if(mode === 'latest') {
-      stream = client.blockchain.getBlockStream({mode: dhive.BlockchainMode.Latest});
+    if (mode === "latest") {
+      stream = client.blockchain.getBlockStream({
+        mode: dhive.BlockchainMode.Latest,
+      });
     } else {
       stream = client.blockchain.getBlockStream();
     }
 
-    stream.on('data', function(block) {
-      var blockNum = parseInt(block.block_id.slice(0,8), 16);
-      if(blockNum >= currentBlockNumber) {
+    stream.on("data", function (block) {
+      var blockNum = parseInt(block.block_id.slice(0, 8), 16);
+      if (blockNum >= currentBlockNumber) {
         processBlock(block, blockNum);
-        currentBlockNumber = blockNum+1;
+        currentBlockNumber = blockNum + 1;
       }
-    })
+    });
 
-    stream.on('end', function() {
-      console.error("Block stream ended unexpectedly. Restarting block computing.")
+    stream.on("end", function () {
+      console.error(
+        "Block stream ended unexpectedly. Restarting block computing."
+      );
       beginBlockComputing();
-    })
+    });
 
-    stream.on('error', function(err) {
-      console.error("[Error] Whoops! We got an error! We may have missed a block!")
-      console.error(err)
-    })
+    stream.on("error", function (err) {
+      console.error(
+        "[Error] Whoops! We got an error! We may have missed a block!"
+      );
+      console.error(err);
+    });
   }
-  
+
   function processBlock(block, num) {
     onNewBlock(num, block);
     var transactions = block.transactions;
-  
+
     for (var i = 0; i < transactions.length; i++) {
       for (var j = 0; j < transactions[i].operations.length; j++) {
         var op = transactions[i].operations[j];
@@ -139,38 +161,32 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
             }
             onCustomJsonOperation[op[1].id](ip, from, active);
           }
-  
+
           //new function
-  
+
           if (typeof onCustomJsonOperation["tohk-vault"] === "function") {
             let ip = JSON.parse(op[1].json);
-  
+
             if (ip.hasOwnProperty("contractAction")) {
-              if (ip.contractAction == "transfer") {
-                if (ip.hasOwnProperty("contractPayload")) {
-                  if (ip.contractPayload.hasOwnProperty("to")) {
-                    if (ip.contractPayload.to == "hk-vault") {
-                      let from = op[1].required_posting_auths[0];
-                      let active = false;
-                      ip.transaction_id = transactions[i].transaction_id;
-                      ip.block_num = transactions[i].block_num;
-                      if (!from) {
-                        from = op[1].required_auths[0];
-                        active = true;
+              if (ip.contractName == "tokens") {
+                if (ip.contractAction == "transfer") {
+                  if (ip.hasOwnProperty("contractPayload")) {
+                    if (ip.contractPayload.hasOwnProperty("to")) {
+                      if (ip.contractPayload.to == "hk-vault") {
+                        let from = op[1].required_posting_auths[0];
+                        let active = false;
+                        ip.transaction_id = transactions[i].transaction_id;
+                        ip.block_num = transactions[i].block_num;
+                        if (!from) {
+                          from = op[1].required_auths[0];
+                          active = true;
+                        }
+                        onCustomJsonOperation["tohk-vault"](ip, from, active);
                       }
-                      onCustomJsonOperation["tohk-vault"](ip, from, active);
                     }
                   }
                 }
-              }
-            }
-          }
-  
-          if (typeof onCustomJsonOperation["nfttohk-vault"] === "function") {
-            let ip = JSON.parse(op[1].json);
-  
-            if (ip.hasOwnProperty("contractName")) {
-              if (ip.contractName == "nft") {
+              } else if (ip.contractName == "nft") {
                 if (ip.contractAction == "transfer") {
                   if (ip.contractPayload.to == "hk-vault") {
                     let from = op[1].required_posting_auths[0];
@@ -181,12 +197,14 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
                       from = op[1].required_auths[0];
                       active = true;
                     }
-                    onCustomJsonOperation["nfttohk-vault"](ip, from, active);
+                    onCustomJsonOperation["tohk-vault"](ip, from, active);
                   }
                 }
               }
             }
           }
+
+         
           //new read transfer nft
         } else if (onOperation[op[0]] !== undefined) {
           op[1].transaction_id = transactions[i].transaction_id;
@@ -202,58 +220,55 @@ module.exports = function(client, dhive, currentBlockNumber=1, blockComputeSpeed
       Determines a state update to be called when a new operation of the id
         operationId (with added prefix) is computed.
     */
-    on: function(operationId, callback) {
-      if (operationId == 'tohk-vault') {
-          onCustomJsonOperation['tohk-vault'] = callback;
-      }else if(operationId == "nfttohk-vault"){
-          onCustomJsonOperation['nfttohk-vault'] = callback;
-      } else {
-          onCustomJsonOperation[prefix + operationId] = callback;
+    on: function (operationId, callback) {
+      if (operationId == "tohk-vault") {
+        onCustomJsonOperation["tohk-vault"] = callback;
+      }  else {
+        onCustomJsonOperation[prefix + operationId] = callback;
       }
-  
     },
 
-    onOperation: function(type, callback) {
+    onOperation: function (type, callback) {
       onOperation[type] = callback;
     },
 
-    onNoPrefix: function(operationId, callback) {
+    onNoPrefix: function (operationId, callback) {
       onCustomJsonOperation[operationId] = callback;
     },
 
     /*
       Determines a state update to be called when a new block is computed.
     */
-    onBlock: function(callback) {
+    onBlock: function (callback) {
       onNewBlock = callback;
     },
 
-    start: function() {
+    start: function () {
       beginBlockComputing();
       isStreaming = false;
     },
 
-    getCurrentBlockNumber: function() {
+    getCurrentBlockNumber: function () {
       return currentBlockNumber;
     },
 
-    isStreaming: function() {
+    isStreaming: function () {
       return isStreaming;
     },
 
-    onStreamingStart: function(callback) {
+    onStreamingStart: function (callback) {
       onStreamingStart = callback;
     },
 
-    stop: function(callback) {
-      if(isStreaming){
+    stop: function (callback) {
+      if (isStreaming) {
         stopping = true;
         stream.pause();
-        setTimeout(callback,1000);
+        setTimeout(callback, 1000);
       } else {
         stopping = true;
         stopCallback = callback;
       }
-    }
-  }
-}
+    },
+  };
+};

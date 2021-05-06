@@ -3,8 +3,7 @@ const ENV = process.env;
 const CONTRACT_CREATOR = "hashkings";
 const UTILITY_TOKEN_SYMBOL = "HKFARM";
 
-const ACTIVEKEY =
-  ENV.activekey || "5JZbDXBuSdz2aadMqM2wU2CC3J979ar5oX59r2R6Zp6G3AKE4QY";
+const ACTIVEKEY = ENV.activekey;
 
 const SEEDS_PER_PACK = 3;
 
@@ -1752,8 +1751,12 @@ async function getUserNft(ssc, axios, user) {
       }
 
       onlyAcconts.tokens = await getTokens(ssc, user);
-      onlyAcconts.waterTowers = (await formateWaterTowers(tempWaterTowers)).waterTowers;
-      onlyAcconts.waterPlants = (await formateWaterTowers(tempWaterTowers)).waterPlants;
+      onlyAcconts.waterTowers = (
+        await formateWaterTowers(tempWaterTowers)
+      ).waterTowers;
+      onlyAcconts.waterPlants = (
+        await formateWaterTowers(tempWaterTowers)
+      ).waterPlants;
 
       let report = onlyAcconts;
 
@@ -1918,7 +1921,6 @@ async function formateWaterTowers(watertowerArray) {
     response.waterTowers = reduceArray;
 
     return response;
-
   }
 }
 
@@ -1970,6 +1972,304 @@ async function getAllNfts(axios) {
       }
 
       let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
+async function getAllNftsAgua(axios) {
+  return new Promise(async (resolve) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: {},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = [];
+
+      for (let i = 0; i < nfts.length; i++) {
+        let nft = {
+          id: nfts[i]._id,
+          properties: nfts[i].properties,
+          owner: nfts[i].account,
+        };
+
+        if (nfts[i].properties.TYPE == "water") {
+          onlyAcconts.push(nft);
+        }
+      }
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
+async function getAllPlantPlots(axios) {
+  return new Promise(async (resolve, reject) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          { contract: CONTRACT, table: NFT_SYMBOL + TABLE_POSTFIX },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let owners = {};
+
+      let plot = {};
+
+      let totalPlot = {
+        totalAllPlots: 0,
+        totalAllSeeds: 0,
+        totalAllWater: 0,
+        totalAllConsumable: 0,
+        totalAllBooster: 0,
+        totalAllAvatar: 0,
+        totalAllWaterTemp: 0,
+      };
+
+      let accounts = {};
+
+      let onlyAcconts = [];
+
+      //console.log("cheking nft" , nfts[0]);
+
+      for (let j = 0; j < nfts.length; j++) {
+        if (limiter("water", nfts[j])) {
+          if (!accounts.hasOwnProperty(nfts[j].account)) {
+            accounts[nfts[j].account] = {
+              seeds: [],
+              plots: [],
+              consumable: [],
+              booster: [],
+              avatar: [],
+              water: [],
+              waterTemp: [],
+            };
+            accounts[nfts[j].account].water.push({
+              id: nfts[j]._id,
+              properties: nfts[j].properties,
+              owner: nfts[j].account,
+            });
+          } else {
+            accounts[nfts[j].account].water.push({
+              id: nfts[j]._id,
+              properties: nfts[j].properties,
+              owner: nfts[j].account,
+            });
+          }
+
+          try {
+            owners[nfts[j].account].totalWater += 1;
+          } catch (e) {
+            owners[nfts[j].account] = {
+              totalAllAvatar: 0,
+              totalAllBooster: 0,
+              totalAllConsumable: 0,
+              totalPlot: 0,
+              totalSeed: 0,
+              totalWater: 1,
+            };
+          }
+        }
+      }
+
+      for (const key of Object.keys(accounts)) {
+        let water = accounts[key].water;
+
+        if (Array.isArray(water)) {
+          totalPlot.totalAllWater = totalPlot.totalAllWater + water.length;
+          accounts[key].water = accounts[key].water.reduce((before, after) => {
+            let waterlvl1 = "waterlvl1";
+            let waterlvl2 = "waterlvl2";
+            let waterlvl3 = "waterlvl3";
+            let waterlvl4 = "waterlvl4";
+            let waterlvl5 = "waterlvl5";
+            let waterlvl6 = "waterlvl6";
+            let waterlvl7 = "waterlvl7";
+            let waterlvl8 = "waterlvl8";
+            let waterlvl9 = "waterlvl9";
+            let waterlvl10 = "waterlvl10";
+
+            if (before[waterlvl1]) {
+              if (after.properties.LVL == 1) {
+                before[waterlvl1] = [...before[waterlvl1], after];
+              }
+            } else {
+              if (after.properties.LVL == 1) {
+                before[waterlvl1] = [after];
+              }
+            }
+            if (before[waterlvl2]) {
+              if (after.properties.LVL == 2) {
+                before[waterlvl2] = [...before[waterlvl2], after];
+              }
+            } else {
+              if (after.properties.LVL == 2) {
+                before[waterlvl2] = [after];
+              }
+            }
+            if (before[waterlvl3]) {
+              if (after.properties.LVL == 3) {
+                before[waterlvl3] = [...before[waterlvl3], after];
+              }
+            } else {
+              if (after.properties.LVL == 3) {
+                before[waterlvl3] = [after];
+              }
+            }
+            if (before[waterlvl4]) {
+              if (after.properties.LVL == 4) {
+                before[waterlvl4] = [...before[waterlvl4], after];
+              }
+            } else {
+              if (after.properties.LVL == 4) {
+                before[waterlvl4] = [after];
+              }
+            }
+            if (before[waterlvl5]) {
+              if (after.properties.LVL == 5) {
+                before[waterlvl5] = [...before[waterlvl5], after];
+              }
+            } else {
+              if (after.properties.LVL == 5) {
+                before[waterlvl5] = [after];
+              }
+            }
+            if (before[waterlvl6]) {
+              if (after.properties.LVL == 6) {
+                before[waterlvl6] = [...before[waterlvl6], after];
+              }
+            } else {
+              if (after.properties.LVL == 6) {
+                before[waterlvl6] = [after];
+              }
+            }
+            if (before[waterlvl7]) {
+              if (after.properties.LVL == 7) {
+                before[waterlvl7] = [...before[waterlvl7], after];
+              }
+            } else {
+              if (after.properties.LVL == 7) {
+                before[waterlvl7] = [after];
+              }
+            }
+            if (before[waterlvl8]) {
+              if (after.properties.LVL == 8) {
+                before[waterlvl8] = [...before[waterlvl8], after];
+              }
+            } else {
+              if (after.properties.LVL == 8) {
+                before[waterlvl8] = [after];
+              }
+            }
+            if (before[waterlvl9]) {
+              if (after.properties.LVL == 9) {
+                before[waterlvl9] = [...before[waterlvl9], after];
+              }
+            } else {
+              if (after.properties.LVL == 9) {
+                before[waterlvl9] = [after];
+              }
+            }
+            if (before[waterlvl10]) {
+              if (after.properties.LVL == 10) {
+                before[waterlvl10] = [...before[waterlvl10], after];
+              }
+            } else {
+              if (after.properties.LVL == 10) {
+                before[waterlvl10] = [after];
+              }
+            }
+
+            return before;
+          }, {});
+
+          let lvl1 = accounts[key].water.hasOwnProperty("waterlvl1")
+            ? accounts[key].water.waterlvl1.length
+            : 0;
+          let lvl2 = accounts[key].water.hasOwnProperty("waterlvl2")
+            ? accounts[key].water.waterlvl2.length
+            : 0;
+          let lvl3 = accounts[key].water.hasOwnProperty("waterlvl3")
+            ? accounts[key].water.waterlvl3.length
+            : 0;
+          let lvl4 = accounts[key].water.hasOwnProperty("waterlvl4")
+            ? accounts[key].water.waterlvl4.length
+            : 0;
+          let lvl5 = accounts[key].water.hasOwnProperty("waterlvl5")
+            ? accounts[key].water.waterlvl5.length
+            : 0;
+          let lvl6 = accounts[key].water.hasOwnProperty("waterlvl6")
+            ? accounts[key].water.waterlvl6.length
+            : 0;
+          let lvl7 = accounts[key].water.hasOwnProperty("waterlvl7")
+            ? accounts[key].water.waterlvl7.length
+            : 0;
+          let lvl8 = accounts[key].water.hasOwnProperty("waterlvl8")
+            ? accounts[key].water.waterlvl8.length
+            : 0;
+          let lvl9 = accounts[key].water.hasOwnProperty("waterlvl9")
+            ? accounts[key].water.waterlvl9.length
+            : 0;
+          let lvl10 = accounts[key].water.hasOwnProperty("waterlvl10")
+            ? accounts[key].water.waterlvl10.length
+            : 0;
+          accounts[key].waterPlants = {
+            lvl1,
+            lvl2,
+            lvl3,
+            lvl4,
+            lvl5,
+            lvl6,
+            lvl7,
+            lvl8,
+            lvl9,
+            lvl10,
+          };
+        }
+      }
+
+      let report = accounts;
 
       resolve(report);
     })();
@@ -2377,4 +2677,6 @@ module.exports = contract = {
   SendSeedPoolManual,
   updateMultipleNfts,
   getAllNfts,
+  getAllNftsAgua,
+  getAllPlantPlots
 };

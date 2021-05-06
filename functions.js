@@ -46,6 +46,7 @@ const tohkvault = async (json, from, state) => {
           WATER: waterRemains,
         });
 
+        console.log("update water nft", seedIdString);
         let x = Object.assign({}, { r: log });
         await saveLog("tohk-vault", json, from, JSON.stringify(x));
       } else {
@@ -355,7 +356,7 @@ const nfttohkvaul = async (json, from, state) => {
       `$.seeds[?(@.id==${seedID})].properties.WATER`
     );
     let seedExists = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})]`);
-    
+
     let seedSent = jp.query(
       state.users["hk-vault"],
       `$.seeds[?(@.id==${seedID})]`
@@ -376,15 +377,14 @@ const nfttohkvaul = async (json, from, state) => {
       (state.users["hk-vault"] && seedExists) ||
       (seedSent && sptStatus < 1 && waterStatus < 1)
     ) {
-      
       var budAmount =
         "" +
         jp.query(
           state.users[from],
           `$.seeds[?(@.id==${seedID})].properties.PR`
         );
-      
-        var budAmountVault =
+
+      var budAmountVault =
         "" +
         jp.query(
           state.users["hk-vault"],
@@ -393,16 +393,25 @@ const nfttohkvaul = async (json, from, state) => {
 
       let plotIDString = "" + plotID;
 
+      console.log("cheking", budAmount, budAmountVault);
+
       if (budAmount) {
         //send harvested buds to user
+        await new Promise((resolve) => {
+          setTimeout(() => {
+            resolve();
+          }, 7000);
+        });
+
         contract
           .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
           .then(() => {
             contract
               .generateToken(hivejs, "BUDS", budAmount, from)
-              .then(() => {})
+              .then(() => {
+                console.log("sending buds by budAmount");
+              })
               .catch(async (e) => {
-                
                 await saveLog(
                   "nfttohkvaul",
                   json,
@@ -411,53 +420,56 @@ const nfttohkvaul = async (json, from, state) => {
                 );
                 console.log(from + " it could not send buds", e);
               });
-
           })
           .catch(async (e) => {
-
             await saveLog(
               "nfttohkvaul",
               json,
               from,
               from + "it couldnt update plot " + plotIDString
             );
-            console.log("it couldnt update plot " + plotIDString , e);
+            console.log("it couldnt update plot " + plotIDString, e);
           });
+      } else if (budAmountVault) {
+        plotID = jp.query(
+          state.users["hk-vault"],
+          `$.seeds[?(@.id==${seedID})].properties.PLOTID`
+        );
 
-      }
+        plotIDString = "" + plotID;
 
-      if(budAmountVault){
-        contract
-        .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
-        .then(() => {
-          contract
-            .generateToken(hivejs, "BUDS", budAmountVault, from)
-            .then(() => {})
-            .catch(async (e) => {
-              
-              await saveLog(
-                "nfttohkvaul",
-                json,
-                from,
-                from + " it could not send buds"
-              );
-              console.log(from + " it could not send buds", e);
-            });
-
-        })
-        .catch(async (e) => {
-
-          await saveLog(
-            "nfttohkvaul",
-            json,
-            from,
-            from + "it couldnt update plot " + plotIDString
-          );
-          console.log("it couldnt update plot " + plotIDString , e);
+        await new Promise((resolve) => {
+          setTimeout(() => {
+            resolve();
+          }, 7000);
         });
 
+        contract
+          .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
+          .then(() => {
+            contract
+              .generateToken(hivejs, "BUDS", budAmountVault, from)
+              .then(() => {})
+              .catch(async (e) => {
+                await saveLog(
+                  "nfttohkvaul",
+                  json,
+                  from,
+                  from + " it could not send buds"
+                );
+                console.log(from + " it could not send buds", e);
+              });
+          })
+          .catch(async (e) => {
+            await saveLog(
+              "nfttohkvaul",
+              json,
+              from,
+              from + "it couldnt update plot " + plotIDString
+            );
+            console.log("it couldnt update plot " + plotIDString, e);
+          });
       }
-
     }
 
     //Rent Subdivision <---- coming soon
@@ -596,7 +608,6 @@ const plant_plot = async (json, from, state) => {
     contract
       .updateNft(hivejs, plotIDString, { OCCUPIED: true, SEEDID: seedID })
       .then((r) => {
-
         contract
           .updateNft(hivejs, seedIDString, {
             PLANTED: true,
@@ -604,28 +615,24 @@ const plant_plot = async (json, from, state) => {
           })
           .then((r) => {})
           .catch(async (e) => {
-            console.log("error no update plot",e)
-            
+            console.log("error no update plot", e);
+
             await saveLog(
               "plant_plot",
               json,
               from,
               from + " it could not send buds "
             );
-
           });
-
       })
       .catch(async (e) => {
-
-        console.log("error no update seed",e)
+        console.log("error no update seed", e);
         await saveLog(
           "plant_plot",
           json,
           from,
           from + " it could not send buds"
         );
-
       });
 
     state.stats.seedsUsedLastDay += 1;
@@ -666,7 +673,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
-                console.log("error no update plot",e)
+                console.log("error no update plot", e);
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -676,7 +683,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
-            console.log("error no update plot",e)
+            console.log("error no update plot", e);
             await saveLog(
               "subdivide_plot",
               json,
@@ -695,7 +702,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
-                console.log("error no update plot",e)
+                console.log("error no update plot", e);
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -705,7 +712,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
-            console.log("error no update plot",e)
+            console.log("error no update plot", e);
             await saveLog(
               "subdivide_plot",
               json,
@@ -724,7 +731,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
-                console.log("error no update plot",e)
+                console.log("error no update plot", e);
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -734,7 +741,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
-            console.log("error no update plot",e)
+            console.log("error no update plot", e);
             await saveLog(
               "subdivide_plot",
               json,
@@ -753,7 +760,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
-                console.log("error no update plot",e)
+                console.log("error no update plot", e);
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -763,7 +770,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
-            console.log("error no update plot",e)
+            console.log("error no update plot", e);
             await saveLog(
               "subdivide_plot",
               json,
@@ -781,7 +788,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
-                console.log("error no update plot",e)
+                console.log("error no update plot", e);
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -791,7 +798,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
-            console.log("error no update plot",e)
+            console.log("error no update plot", e);
             await saveLog(
               "subdivide_plot",
               json,
@@ -810,7 +817,7 @@ const subdivide_plot = async (json, from, state) => {
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
               .then((r) => {})
               .catch(async (e) => {
-                console.log("error no update plot",e)
+                console.log("error no update plot", e);
                 await saveLog(
                   "subdivide_plot",
                   json,
@@ -820,7 +827,7 @@ const subdivide_plot = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
-            console.log("error no update plot",e)
+            console.log("error no update plot", e);
             await saveLog(
               "subdivide_plot",
               json,
