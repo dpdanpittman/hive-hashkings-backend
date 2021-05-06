@@ -409,7 +409,7 @@ const nfttohkvaul = async (json, from, state) => {
             contract
               .generateToken(hivejs, "BUDS", budAmount, from)
               .then(() => {
-                console.log("sending buds by budAmount");
+                console.log("sending buds by budAmount", budAmount, from);
               })
               .catch(async (e) => {
                 await saveLog(
@@ -449,7 +449,7 @@ const nfttohkvaul = async (json, from, state) => {
           .then(() => {
             contract
               .generateToken(hivejs, "BUDS", budAmountVault, from)
-              .then(() => {})
+              .then(() => { console.log("enviando buds desde budAmountVault",budAmountVault, from) })
               .catch(async (e) => {
                 await saveLog(
                   "nfttohkvaul",
