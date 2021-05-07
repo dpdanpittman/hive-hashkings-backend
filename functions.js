@@ -706,7 +706,7 @@ const subdivide_plot = async (json, from, state) => {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
         contract
-          .subdividePlot(hivejs, "Africa", 3, userName)
+          .subdividePlot(hivejs, "Africa", 2, userName)
           .then((r) => {
             contract
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
@@ -735,7 +735,7 @@ const subdivide_plot = async (json, from, state) => {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
         contract
-          .subdividePlot(hivejs, "Mexico", 6, userName)
+          .subdividePlot(hivejs, "Mexico", 5, userName)
           .then((r) => {
             contract
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
@@ -764,7 +764,7 @@ const subdivide_plot = async (json, from, state) => {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
         contract
-          .subdividePlot(hivejs, "Jamaica", 2, userName)
+          .subdividePlot(hivejs, "Jamaica", 1, userName)
           .then((r) => {
             contract
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
@@ -792,7 +792,7 @@ const subdivide_plot = async (json, from, state) => {
     } else if (regionString == "southAmerica") {
       if (state.users[from] && dividedStatus == "false") {
         contract
-          .subdividePlot(hivejs, "South America", 7, userName)
+          .subdividePlot(hivejs, "South America", 6, userName)
           .then((r) => {
             contract
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
@@ -821,7 +821,7 @@ const subdivide_plot = async (json, from, state) => {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
         contract
-          .subdividePlot(hivejs, "Afghanistan", 5, userName)
+          .subdividePlot(hivejs, "Afghanistan", 4, userName)
           .then((r) => {
             contract
               .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
