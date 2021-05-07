@@ -656,19 +656,19 @@ const subdivide_plot = async (json, from, state) => {
   let plotID = json.plotID;
   let region = json.region;
 
-  let userName = from;
+  let userName = ""+from;
   let regionString = region;
   let plotIDString = "" + plotID;
 
   let plot = jp.query(state.users[from], `$.plots[?(@.id==${plotID})]`);
 
-  var dividedStatus = false;
+  var dividedStatus = "false";
   if (!plot[0]) {
     console.log("plot no found");
     return;
   }
   if (plot[0].properties.hasOwnProperty("SUBDIVIDED")) {
-    dividedStatus = plot[0].properties.SUBDIVIDED;
+    dividedStatus = ""+plot[0].properties.SUBDIVIDED;
   }
 
   console.log(userName, plot, regionString, plotIDString, dividedStatus);
