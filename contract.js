@@ -1041,7 +1041,7 @@ const SendSeedPoolManual = async (hive, seedsToSend, user) => {
       toSend = toSend - 4;
     }
   } else {
-    await createSeedT(hive, seedsToSend, userData[i].user);
+    await createSeedT(hive, seedsToSend, user);
   }
 };
 
@@ -2028,6 +2028,62 @@ async function getAllNftsAgua(axios) {
   });
 }
 
+async function getAllPlotsAndSeeds(axios) {
+  return new Promise(async (resolve) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: {},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = {
+        plots: [],
+        seeds: [],
+      };
+
+      for (let i = 0; i < nfts.length; i++) {
+        let nft = {
+          id: nfts[i]._id,
+          properties: nfts[i].properties,
+          owner: nfts[i].account,
+        };
+
+          if (nfts[i].properties.TYPE == "plot") {
+            onlyAcconts.plots.push(nft);
+          } else if (nfts[i].properties.TYPE == "seed") {
+            onlyAcconts.seeds.push(nft);
+          }
+        
+      }
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
 async function getAllPlantPlots(axios) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -2678,5 +2734,6 @@ module.exports = contract = {
   updateMultipleNfts,
   getAllNfts,
   getAllNftsAgua,
-  getAllPlantPlots
+  getAllPlantPlots,
+  getAllPlotsAndSeeds
 };

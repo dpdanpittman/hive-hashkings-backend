@@ -449,7 +449,13 @@ const nfttohkvaul = async (json, from, state) => {
           .then(() => {
             contract
               .generateToken(hivejs, "BUDS", budAmountVault, from)
-              .then(() => { console.log("enviando buds desde budAmountVault",budAmountVault, from) })
+              .then(() => {
+                console.log(
+                  "enviando buds desde budAmountVault",
+                  budAmountVault,
+                  from
+                );
+              })
               .catch(async (e) => {
                 await saveLog(
                   "nfttohkvaul",
@@ -653,14 +659,18 @@ const subdivide_plot = async (json, from, state) => {
   let regionString = region;
   let plotIDString = "" + plotID;
 
-  var dividedStatus = jp.query(
-    state.users[from],
-    `$.joints[?(@.id==${jointID})].properties.SUBDIVIDED`
-  );
+  let plot = jp.query(state.users[from], `$.plots[?(@.id==${plotID})]`);
 
-  let userName = "" + from;
+  var dividedStatus = false;
+  if (!plot[0]) {
+    console.log("plot no found");
+    return;
+  }
+  if (plot[0].properties.hasOwnProperty("SUBDIVIDED")) {
+    dividedStatus = plot[0].properties.SUBDIVIDED;
+  }
 
-  console.log(userName, regionString, plotIDString, dividedStatus);
+  console.log(userName, plot , regionString, plotIDString, dividedStatus);
 
   try {
     if (regionString == "asia") {
