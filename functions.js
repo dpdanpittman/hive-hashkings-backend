@@ -656,6 +656,7 @@ const subdivide_plot = async (json, from, state) => {
   let plotID = json.plotID;
   let region = json.region;
 
+  let userName = from;
   let regionString = region;
   let plotIDString = "" + plotID;
 
