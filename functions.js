@@ -671,18 +671,21 @@ const subdivide_plot = async (json, from, state) => {
     dividedStatus = plot[0].properties.SUBDIVIDED;
   }
 
-  console.log(userName, plot , regionString, plotIDString, dividedStatus);
+  console.log(userName, plot, regionString, plotIDString, dividedStatus);
 
   try {
     if (regionString == "asia") {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
+
         contract
-          .subdividePlot(hivejs, "Asia", 1, userName)
+          .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
           .then((r) => {
             contract
-              .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
-              .then((r) => {})
+              .subdividePlot(hivejs, "Asia", 1, userName)
+              .then((r) => {
+                console.log("subdivide asia");
+              })
               .catch(async (e) => {
                 console.log("error no update plot", e);
                 await saveLog(
@@ -706,12 +709,15 @@ const subdivide_plot = async (json, from, state) => {
     } else if (regionString == "africa") {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
+
         contract
-          .subdividePlot(hivejs, "Africa", 2, userName)
+          .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
           .then((r) => {
             contract
-              .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
-              .then((r) => {})
+              .subdividePlot(hivejs, "Africa", 2, userName)
+              .then((r) => {
+                console.log("subdivide africa");
+              })
               .catch(async (e) => {
                 console.log("error no update plot", e);
                 await saveLog(
@@ -735,12 +741,18 @@ const subdivide_plot = async (json, from, state) => {
     } else if (regionString == "mexico") {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
+        console.log("subdivide mexico");
+
         contract
-          .subdividePlot(hivejs, "Mexico", 5, userName)
+          .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
           .then((r) => {
+            console.log("updating nft ", plotIDString);
+
             contract
-              .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
-              .then((r) => {})
+              .subdividePlot(hivejs, "Mexico", 5, userName)
+              .then((r) => {
+                console.log("mexico subdivided");
+              })
               .catch(async (e) => {
                 console.log("error no update plot", e);
                 await saveLog(
@@ -764,12 +776,15 @@ const subdivide_plot = async (json, from, state) => {
     } else if (regionString == "jamaica") {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
+
         contract
-          .subdividePlot(hivejs, "Jamaica", 1, userName)
+          .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
           .then((r) => {
             contract
-              .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
-              .then((r) => {})
+              .subdividePlot(hivejs, "Jamaica", 1, userName)
+              .then((r) => {
+                console.log("subdivide jamaica complete");
+              })
               .catch(async (e) => {
                 console.log("error no update plot", e);
                 await saveLog(
@@ -793,11 +808,13 @@ const subdivide_plot = async (json, from, state) => {
     } else if (regionString == "southAmerica") {
       if (state.users[from] && dividedStatus == "false") {
         contract
-          .subdividePlot(hivejs, "South America", 6, userName)
+          .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
           .then((r) => {
             contract
-              .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
-              .then((r) => {})
+              .subdividePlot(hivejs, "South America", 6, userName)
+              .then((r) => {
+                console.log("subdivide complete soutAmerica");
+              })
               .catch(async (e) => {
                 console.log("error no update plot", e);
                 await saveLog(
@@ -821,12 +838,15 @@ const subdivide_plot = async (json, from, state) => {
     } else if (regionString == "afghanistan") {
       if (state.users[from] && dividedStatus == "false") {
         //createsubdivisions
+
         contract
-          .subdividePlot(hivejs, "Afghanistan", 4, userName)
+          .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
           .then((r) => {
             contract
-              .updateNft(hivejs, plotIDString, { SUBDIVIDED: true })
-              .then((r) => {})
+              .subdividePlot(hivejs, "Afghanistan", 4, userName)
+              .then((r) => {
+                console.log("subvivide afgahnistan");
+              })
               .catch(async (e) => {
                 console.log("error no update plot", e);
                 await saveLog(
@@ -849,7 +869,8 @@ const subdivide_plot = async (json, from, state) => {
       }
     }
   } catch (error) {
-    await saveLog("subdivide_plot", json, from, from + " plot doesnt exist");
+    console.log("se produjo un error al intentar subdividir plot", error);
+    await saveLog("subdivide_plot", json, from, from + " plot error");
   }
 };
 
