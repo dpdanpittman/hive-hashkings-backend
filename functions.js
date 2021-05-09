@@ -488,19 +488,19 @@ const nfttohkvaul = async (json, from, state) => {
       if (jointString === "pinner") {
         // give xp
         state.users[from].xp += state.stats.joints.pinner;
-      } else if (jointTypes === "hempWrappedJoint") {
+      } else if (jointTypes == "hempWrappedJoint") {
         // give xp
         state.users[from].xp += state.stats.joints.hempWrappedJoint;
-      } else if (jointTypes === "crossJoint") {
+      } else if (jointTypes == "crossJoint") {
         // give xp
         state.users[from].xp += state.stats.joints.crossJoint;
-      } else if (jointTypes === "blunt") {
+      } else if (jointTypes == "blunt") {
         // give xp
         state.users[from].xp += state.stats.joints.blunt;
-      } else if (jointTypes === "hempWrappedBlunt") {
+      } else if (jointTypes == "hempWrappedBlunt") {
         // give xp
         state.users[from].xp += state.stats.joints.hempWrappedBlunt;
-      } else if (jointTypes === "twaxJoint") {
+      } else if (jointTypes == "twaxJoint") {
         // give xp
         state.users[from].xp += state.stats.joints.twaxJoint;
       }
