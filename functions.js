@@ -491,7 +491,7 @@ const nfttohkvaul = async (json, from, state) => {
     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
     try {
       let jointString = "" + jointTypes;
-      if (jointString === "pinner") {
+      if (jointString == "pinner") {
         // give xp
         state.users[from].xp += state.stats.joints.pinner;
       } else if (jointTypes == "hempWrappedJoint") {
