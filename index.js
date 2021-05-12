@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK ||  53750148; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK ||  53815353; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago ||  53750148;
+const ago = ENV.ago ||  53815353;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -344,36 +344,37 @@ function userList() {
           };
         } else if (state.users[username]) {
           let report = res[4];
+          let report2 = res[2];
           for (const property in report) {
             if (property == username) {
               /*//get nft data
-                        seedData = report[property].seeds
-                        plotData = report[property].plots
-                        jointData = report[property].consumable
-                        boosterData = report[property].booster
-                        avatarData = report[property].avatar
-                        waterTowerData = report[property].water
-                        waterTowerTempData = report[property].waterTemp
+              seedData = report[property].seeds
+              plotData = report[property].plots
+              jointData = report[property].consumable
+              boosterData = report[property].booster
+              avatarData = report[property].avatar*/
+              //waterTowerData = report[property].water
+              /*waterTowerTempData = report[property].waterTemp
 
-                        //set nft data
-                        state.users[username].avatars = avatarData
-                        state.users[username].boosters = boosterData
-                        state.users[username].joints = jointData
-                        state.users[username].seeds = seedData
-                        state.users[username].plots = plotData
-                        state.users[username].waterTowers = waterTowerData
+              //set nft data
+              state.users[username].avatars = avatarData
+              state.users[username].boosters = boosterData
+              state.users[username].joints = jointData
+              state.users[username].seeds = seedData
+              state.users[username].plots = plotData
+              state.users[username].waterTowers = waterTowerData
 
-                        state.users[username].waterPlants.lvl1 = waterTowerTempData
+              state.users[username].waterPlants.lvl1 = waterTowerTempData
 
-                        //set number of seeds and plots for user
-                        state.users[username].seedCount = seedData.length
-                        state.users[username].plotCount = plotData.length
+              //set number of seeds and plots for user
+              state.users[username].seedCount = seedData.length
+              state.users[username].plotCount = plotData.length
 
-                        //if user doesnt exist, create them
-                        if(state.users[username].tokens.buds.balance > 0) {
-                            state.users[username].claimed.water = true
-                            state.users[username].claimed.avatar = true
-                            state.users[username].claimed.bud = true*/
+              //if user doesnt exist, create them
+              if(state.users[username].tokens.buds.balance > 0) {
+                  state.users[username].claimed.water = true
+                  state.users[username].claimed.avatar = true
+                  state.users[username].claimed.bud = true*/
               //get nft data
               seedData = report[property].seeds;
               plotData = report[property].plots;
@@ -393,20 +394,9 @@ function userList() {
               state.users[username].seedCount = seedData.length;
               state.users[username].plotCount = plotData.length;
 
-              //set hkwater for claiming
-              let waterTowerNumber = waterTowerData.length;
-              let HKwater = waterTowerNumber * 30;
-              state.users[username].hkwater = HKwater;
-              state.users[username].waterPlants.lvl1 = waterTowerNumber;
-
-              //if user doesnt exist, create them
-              if (state.users[username].tokens.buds.balance > 0) {
-                state.users[username].claimed.water = true;
-                state.users[username].claimed.avatar = true;
-                state.users[username].claimed.bud = true;
-              }
             }
           }
+          state.stats.supply.totalWaterTowersC = report2.totalAllWater
           //get the users tokens and set in db
           //contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
         }
@@ -1464,11 +1454,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 10
       ) {
-        // update total number of plots
-        state.users[json.from].water += state.stats.waterPlant.lvl2;
-
-        // add 1 plot to user inventory
-        state.users[from].waterPlants.lvl2++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 2, WATER: 96 });
@@ -1481,11 +1466,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl3.price * 1000 + 300 &&
         state.users[json.from].lvl >= 20
       ) {
-        // update total number of plots
-        state.users[json.from].water += state.stats.waterPlant.lvl3;
-
-        // add 1 plot to user inventory
-        state.users[json.from].waterPlants.lvl3++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 3, WATER: 166 });
@@ -1497,11 +1477,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl4.price * 1000 + 300 &&
         state.users[json.from].lvl >= 30
       ) {
-        // update total number of plots
-        state.users[json.from].water += state.stats.waterPlant.lvl4;
-
-        // add 1 plot to user inventory
-        state.users[json.from].waterPlants.lvl4++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 4, WATER: 234 });
@@ -1517,11 +1492,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl5.price * 1000 + 300 &&
         state.users[json.from].lvl >= 40
       ) {
-        // update total number of plots
-        state.users[json.from].water += state.stats.waterPlant.lvl5;
-
-        // add 1 plot to user inventory
-        state.users[json.from].waterPlants.lvl5++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 5, WATER: 302 });
@@ -1534,11 +1504,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl6.price * 1000 + 300 &&
         state.users[json.from].lvl >= 50
       ) {
-        // update total number of plots
-        state.users[json.from].water += state.stats.waterPlant.lvl6;
-
-        // add 1 plot to user inventory
-        state.users[json.from].waterPlants.lvl6++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 6, WATER: 370 });
@@ -1551,11 +1516,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl7.price * 1000 + 300 &&
         state.users[json.from].lvl >= 60
       ) {
-        // update total number of plots
-        state.users[json.from].water += state.stats.waterPlant.lvl7;
-
-        // add 1 plot to user inventory
-        state.users[json.from].waterPlants.lvl7++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 7, WATER: 438 });
@@ -1568,11 +1528,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl8.price * 1000 + 300 &&
         state.users[json.from].lvl >= 70
       ) {
-        // update total number of plots
-        state.users[from].water += state.stats.waterPlant.lvl8;
-
-        // add 1 plot to user inventory
-        state.users[from].waterPlants.lvl8++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 8, WATER: 506 });
@@ -1585,11 +1540,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl9.price * 1000 + 300 &&
         state.users[json.from].lvl >= 80
       ) {
-        // update total number of plots
-        state.users[json.from].water += state.stats.waterPlant.lvl9;
-
-        // add 1 plot to user inventory
-        state.users[json.from].waterPlants.lvl9++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 9, WATER: 574 });
@@ -1602,11 +1552,6 @@ function startApp() {
         amount < state.stats.prices.waterPlant.lvl10.price * 1000 + 300 &&
         state.users[json.from].lvl >= 90
       ) {
-        // update total number of plots
-        state.users[json.from].water += state.stats.waterPlant.lvl10;
-
-        // add 1 plot to user inventory
-        state.users[json.from].waterPlants.lvl10++;
 
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 10, WATER: 642 });
