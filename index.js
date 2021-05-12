@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK ||  53815353; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK ||  53815427; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago ||  53815353;
+const ago = ENV.ago ||  53815427;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -344,7 +344,6 @@ function userList() {
           };
         } else if (state.users[username]) {
           let report = res[4];
-          let report2 = res[2];
           for (const property in report) {
             if (property == username) {
               /*//get nft data
@@ -396,7 +395,7 @@ function userList() {
 
             }
           }
-          state.stats.supply.totalWaterTowersC = report2.totalAllWater
+          state.stats.supply.totalWaterTowersC = res[2].totalAllWater
           //get the users tokens and set in db
           //contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
         }
