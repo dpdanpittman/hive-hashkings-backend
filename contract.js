@@ -3,7 +3,7 @@ const ENV = process.env;
 const CONTRACT_CREATOR = "hashkings";
 const UTILITY_TOKEN_SYMBOL = "HKFARM";
 
-const ACTIVEKEY = ENV.activekey;
+const ACTIVEKEY = ENV.activekey || "5J6rYjnB6kyGmxuUn4DnpRjvYM7PbASQgLSNu4vEL1ziboXehd9";
 
 const SEEDS_PER_PACK = 3;
 
@@ -1041,7 +1041,7 @@ const SendSeedPoolManual = async (hive, seedsToSend, user) => {
       toSend = toSend - 4;
     }
   } else {
-    await createSeedT(hive, seedsToSend, user);
+    await createSeedT(hive, seedsToSend, userData[i].user);
   }
 };
 
@@ -2028,62 +2028,6 @@ async function getAllNftsAgua(axios) {
   });
 }
 
-async function getAllPlotsAndSeeds(axios) {
-  return new Promise(async (resolve) => {
-    (async () => {
-      let complete = false;
-      let nfts = [];
-      let offset = 0;
-
-      while (!complete) {
-        let get_nfts = await queryContract(
-          axios,
-          {
-            contract: CONTRACT,
-            table: NFT_SYMBOL + TABLE_POSTFIX,
-            query: {},
-          },
-          offset
-        );
-        if (get_nfts !== false) {
-          nfts = nfts.concat(get_nfts);
-          offset += 1000;
-
-          if (get_nfts.length !== 1000) {
-            complete = true;
-          }
-        } else {
-          complete = true;
-        }
-      }
-
-      let onlyAcconts = {
-        plots: [],
-        seeds: [],
-      };
-
-      for (let i = 0; i < nfts.length; i++) {
-        let nft = {
-          id: nfts[i]._id,
-          properties: nfts[i].properties,
-          owner: nfts[i].account,
-        };
-
-          if (nfts[i].properties.TYPE == "plot") {
-            onlyAcconts.plots.push(nft);
-          } else if (nfts[i].properties.TYPE == "seed") {
-            onlyAcconts.seeds.push(nft);
-          }
-        
-      }
-
-      let report = onlyAcconts;
-
-      resolve(report);
-    })();
-  });
-}
-
 async function getAllPlantPlots(axios) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -2365,7 +2309,11 @@ async function getOnlyUsersHaveMota(axios) {
         });
 
         if (!acc) {
-          onlyAcconts.push({ user: nfts[i].account, stake: nfts[i].stake });
+          onlyAcconts.push({
+            user: nfts[i].account,
+            stake: nfts[i].stake,
+            delegationsIn: nfts[i].delegationsIn,
+          });
         }
       }
 
@@ -2442,14 +2390,18 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
   let TOTALSTAKEDMOTAOFALLTHEPLAYERS = 0;
 
   for (let i = 0; i < usersNames.length; i++) {
-    if (usersNames[i].stake > 0) {
-      userData.push(usersNames[i]);
+    if (usersNames[i].user != "swashcoldsteel" && usersNames[i].user != "vica1988") {
+      if (usersNames[i].stake > 0) {
+        userData.push(usersNames[i]);
+      }
     }
   }
 
   for (let j = 0; j < userData.length; j++) {
     TOTALSTAKEDMOTAOFALLTHEPLAYERS =
-      TOTALSTAKEDMOTAOFALLTHEPLAYERS + parseFloat(userData[j].stake);
+      TOTALSTAKEDMOTAOFALLTHEPLAYERS +
+      parseFloat(userData[j].stake) +
+      parseFloat(userData[j].delegationsIn);
   }
 
   let ratio = TOTALSTAKEDMOTAOFALLTHEPLAYERS / preRatio;
@@ -2477,15 +2429,54 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
           seedsToSend = toSend;
         }
         if (toSend == seedsToSend) {
-          await createSeedT(hive, 4, userData[i].user);
-        } else {
-          await createSeedT(hive, toSend, userData[i].user);
-        }
+          try {
+            await new Promise((resolve) => {
+              setTimeout(() => {
+                resolve();
+              }, 5000);
+            });
 
+            await createSeedT(hive, 4, userData[i].user);
+          } catch (e) {
+            console.log(
+              "error sending seeds to user",
+              seedsToSend,
+              userData[i].user
+            );
+          }
+        } else {
+          try {
+            await new Promise((resolve) => {
+              setTimeout(() => {
+                resolve();
+              }, 5000);
+            });
+            await createSeedT(hive, toSend, userData[i].user);
+          } catch (e) {
+            console.log(
+              "error sending seeds to user",
+              seedsToSend,
+              userData[i].user
+            );
+          }
+        }
         toSend = toSend - 4;
       }
     } else {
-      await createSeedT(hive, seedsToSend, userData[i].user);
+      try {
+        await new Promise((resolve) => {
+          setTimeout(() => {
+            resolve();
+          }, 5000);
+        });
+        await createSeedT(hive, seedsToSend, userData[i].user);
+      } catch (e) {
+        console.log(
+          "error sending seeds to user",
+          seedsToSend,
+          userData[i].user
+        );
+      }
     }
   }
 }
@@ -2510,20 +2501,28 @@ async function distributeMota(amountToDistribute, listOfUsers, hive) {
         userGet
     );
 
-    if (userGet < 0.001) {
-      await new Promise((resolve) => {
-        setTimeout(() => {
-          resolve();
-        }, 5000);
-      });
-      await generateToken(hive, "MOTA", 0.001, listOfUsers[i].user);
-    } else {
-      await new Promise((resolve) => {
-        setTimeout(() => {
-          resolve();
-        }, 5000);
-      });
-      await generateToken(hive, "MOTA", userGet, listOfUsers[i].user);
+    try {
+      if (userGet < 0.001) {
+        await new Promise((resolve) => {
+          setTimeout(() => {
+            resolve();
+          }, 5000);
+        });
+        await generateToken(hive, "MOTA", 0.001, listOfUsers[i].user);
+      } else {
+        await new Promise((resolve) => {
+          setTimeout(() => {
+            resolve();
+          }, 5000);
+        });
+        await generateToken(hive, "MOTA", userGet, listOfUsers[i].user);
+      }
+    } catch (e) {
+      console.log(
+        "distribute fail for this user",
+        listOfUsers[i].user,
+        userGet
+      );
     }
   }
 }
@@ -2672,6 +2671,7 @@ async function updateSptSeeds(axios, hive) {
       }
 
       console.log(report.length);
+
       let update = [];
 
       update.push({
@@ -2680,6 +2680,7 @@ async function updateSptSeeds(axios, hive) {
           SPT: report[0].properties.SPT - 1,
         },
       });
+
       for (let index = 1; index <= report.length; index++) {
         if (report[index]) {
           if (index % 5 == 0) {
@@ -2689,8 +2690,22 @@ async function updateSptSeeds(axios, hive) {
               }, 5000);
             });
 
-            await updateMultipleNfts(hive, update);
-            console.log(update);
+            let updatex = {
+              id: "" + report[index]._id,
+              properties: {
+                SPT: report[index].properties.SPT - 1,
+              },
+            };
+
+            update.push(updatex);
+
+            try {
+              await updateMultipleNfts(hive, update);
+              console.log(update);
+            } catch (e) {
+              console.log("error on sending this group", update);
+            }
+
             update = [];
           } else {
             let updatex = {
@@ -2699,6 +2714,7 @@ async function updateSptSeeds(axios, hive) {
                 SPT: report[index].properties.SPT - 1,
               },
             };
+
             update.push(updatex);
           }
         }
@@ -2735,5 +2751,4 @@ module.exports = contract = {
   getAllNfts,
   getAllNftsAgua,
   getAllPlantPlots,
-  getAllPlotsAndSeeds
 };
