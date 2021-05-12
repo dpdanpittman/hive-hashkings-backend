@@ -114,7 +114,8 @@ const tohkvault = async (json, from, state) => {
     if (
       state.users[from] &&
       json.contractPayload.memo == "pinner" &&
-      amountBudsInt === 50
+      amountBudsInt === 50 &&
+      state.users[from].lvl >= 1
     ) {
       // create pinner
       let log = await contract.createConsumable(hivejs, "Pinner", type, from);
@@ -128,7 +129,8 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "hempWrappedJoint" &&
-      amountBudsInt === 200
+      amountBudsInt === 200 &&
+      state.users[from].lvl >= 15
     ) {
       // create hempwrappedjoint
       let log = await contract.createConsumable(
@@ -147,7 +149,8 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "crossJoint" &&
-      amountBudsInt === 1000
+      amountBudsInt === 1000 &&
+      state.users[from].lvl >= 30
     ) {
       // create crossjoint
       let log = await contract.createConsumable(
@@ -166,7 +169,8 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "blunt" &&
-      amountBudsInt === 2500
+      amountBudsInt === 2500 &&
+      state.users[from].lvl >= 45
     ) {
       // create blunt
       let log = await contract.createConsumable(hivejs, "Blunt", type, from);
@@ -180,7 +184,8 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "hempWrappedBlunt" &&
-      amountBudsInt === 5000
+      amountBudsInt === 5000 &&
+      state.users[from].lvl >= 60
     ) {
       // create hempwrappedblunt
       let log = await contract.createConsumable(
@@ -199,7 +204,8 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "twaxJoint" &&
-      amountBudsInt === 10000
+      amountBudsInt === 10000 &&
+      state.users[from].lvl >= 75
     ) {
       // set plot to subdivided
       let log = await contract.createConsumable(
