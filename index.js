@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53815653; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53815724; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53815653;
+const ago = ENV.ago || 53815724;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -395,12 +395,12 @@ function userList() {
 
             }
           }
-          state.stats.supply.totalWaterTowersC = res[2].totalAllWater
-          console.log(res[2])
           //get the users tokens and set in db
           //contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
         }
       }
+      state.stats.supply.totalWaterTowersC = res[2].totalAllWater
+          console.log(res[2])
     });
   } catch (error) {
     console.log("error when running report");
