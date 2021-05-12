@@ -107,9 +107,6 @@ const tohkvault = async (json, from, state) => {
     let type = json.contractPayload.memo;
     let amountBuds = json.contractPayload.quantity;
     let amountBudsInt = parseInt(amountBuds, 10);
-    if (state.users[from] /*&& json.contractPayload.memo == "deposit"*/) {
-      state.users[from].dailyBudDeposit += amountBudsInt;
-    }
 
     if (
       state.users[from] &&
