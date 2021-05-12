@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53815789; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53816398; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53815789;
+const ago = ENV.ago || 53816398;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -1448,8 +1448,8 @@ function startApp() {
 
       if (
         want === "water2" &&
-        amount > state.stats.prices.waterPlant.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl2.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 10
       ) {
 
@@ -1460,8 +1460,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water3" &&
-        amount > state.stats.prices.waterPlant.lvl3.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl3.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 20
       ) {
 
@@ -1471,8 +1471,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water4" &&
-        amount > state.stats.prices.waterPlant.lvl4.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl4.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 30
       ) {
 
@@ -1486,8 +1486,8 @@ function startApp() {
         ] = `${json.from} purchased ${json.want}`;
       } else if (
         want === "water5" &&
-        amount > state.stats.prices.waterPlant.lvl5.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl5.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 40
       ) {
 
@@ -1498,8 +1498,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water6" &&
-        amount > state.stats.prices.waterPlant.lvl6.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl6.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 50
       ) {
 
@@ -1510,8 +1510,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water7" &&
-        amount > state.stats.prices.waterPlant.lvl7.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl7.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 60
       ) {
 
@@ -1522,8 +1522,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water8" &&
-        amount > state.stats.prices.waterPlant.lvl8.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl8.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 70
       ) {
 
@@ -1534,8 +1534,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water9" &&
-        amount > state.stats.prices.waterPlant.lvl9.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl9.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 80
       ) {
 
@@ -1546,8 +1546,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water10" &&
-        amount > state.stats.prices.waterPlant.lvl10.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlant.lvl10.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 90
       ) {
 
