@@ -3,7 +3,8 @@ const ENV = process.env;
 const CONTRACT_CREATOR = "hashkings";
 const UTILITY_TOKEN_SYMBOL = "HKFARM";
 
-const ACTIVEKEY = ENV.activekey || "5J6rYjnB6kyGmxuUn4DnpRjvYM7PbASQgLSNu4vEL1ziboXehd9";
+const ACTIVEKEY =
+  ENV.activekey || "5J6rYjnB6kyGmxuUn4DnpRjvYM7PbASQgLSNu4vEL1ziboXehd9";
 
 const SEEDS_PER_PACK = 3;
 
@@ -18,7 +19,7 @@ const SEEDS = [
   {
     0: {
       SPT: 1, //Sprouting time
-      WATER: 12406,
+      WATER: 12096,
       PR: { min: 7550, max: 8000 }, //Production range
       NAME: "Aceh",
       chance: 66,
@@ -352,7 +353,7 @@ const generateRandomSeed = (to, SEEDS) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties: propertys,
   };
 
@@ -543,7 +544,7 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties: propertys,
   };
 
@@ -596,7 +597,7 @@ const CreateBud = (nameBudNFT, to) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties,
   };
 
@@ -613,7 +614,7 @@ const CreateWater = (nameWaterNFT, quantity, to) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties,
   };
 
@@ -632,7 +633,7 @@ const CreatePlot = (location, to) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties,
   };
 
@@ -652,7 +653,7 @@ const CreatePlotSubdiv = (location, to) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties,
   };
 
@@ -671,7 +672,7 @@ const CreateBooster = (name, consumableType, to) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties,
   };
 
@@ -689,7 +690,7 @@ const CreateConsumable = (name, consumableType, to) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties,
   };
 
@@ -705,7 +706,7 @@ const CreateAvatar = (name, to) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties,
   };
 
@@ -723,7 +724,7 @@ const CreateWaterTower = (name, to, water) => {
   const instance = {
     symbol: UTILITY_TOKEN_SYMBOL,
     to,
-    feeSymbol: "BEE",
+    feeSymbol: "PAL",
     properties,
   };
 
@@ -990,11 +991,39 @@ const createSeed = async (hive, packs, userBuyer) => {
   });
 };
 
-const createSeedT = async (hive, packs, userBuyer) => {
-  if (packs < 1) {
-    console.log("Seed was not sent to because stake was too low ", userBuyer);
-    return;
+const createPlotT = async (hive, packs, userBuyer, name) => {
+  let instances = [];
+  for (let i = 0; i < packs; i++) {
+    instances.push(CreatePlotSubdiv(name, userBuyer));
   }
+
+  let json = {
+    contractName: "nft",
+    contractAction: "issueMultiple",
+    contractPayload: {
+      instances: instances,
+    },
+  };
+
+  return new Promise((resolve, reject) => {
+    hive.broadcast.customJson(
+      ACTIVEKEY,
+      [CONTRACT_CREATOR],
+      [],
+      "ssc-mainnet-hive",
+      JSON.stringify(json),
+      function (err, result) {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(result);
+        }
+      }
+    );
+  });
+};
+
+const createSeedT = async (hive, packs, userBuyer) => {
   let instances = [];
   for (let i = 0; i < packs; i++) {
     instances.push(generateOneRandomSeed(userBuyer, getPlot(), SEEDS));
@@ -2028,6 +2057,121 @@ async function getAllNftsAgua(axios) {
   });
 }
 
+async function getAllPlotsAndSeeds(axios) {
+  return new Promise(async (resolve) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: {},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = {
+        plots: [],
+        seeds: [],
+      };
+
+      for (let i = 0; i < nfts.length; i++) {
+        let nft = {
+          id: nfts[i]._id,
+          properties: nfts[i].properties,
+          owner: nfts[i].account,
+        };
+
+        if (nfts[i].properties.TYPE == "plot") {
+          onlyAcconts.plots.push(nft);
+        } else if (nfts[i].properties.TYPE == "seed") {
+          onlyAcconts.seeds.push(nft);
+        }
+      }
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
+async function getAllPlotsbyRegion(axios) {
+  return new Promise(async (resolve) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: {},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = {
+        plots: [],
+        seeds: [],
+      };
+
+      for (let i = 0; i < nfts.length; i++) {
+        let nft = {
+          id: nfts[i]._id,
+          properties: nfts[i].properties,
+          owner: nfts[i].account,
+        };
+
+        if (nfts[i].properties.TYPE == "plot") {
+          if (nfts[i].properties.NAME == "Afghanistan") {
+            let u = nfts[i].account;
+            if(u !="chocolatoso" && u!="infernalcoliseum"){
+              onlyAcconts.plots.push(nft);
+            }
+           
+            
+          }
+        }
+      }
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
 async function getAllPlantPlots(axios) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -2725,6 +2869,57 @@ async function updateSptSeeds(axios, hive) {
   });
 }
 
+async function distributeSubdividePlots(hive, user, cantidad, name) {
+  let seedsToSend = cantidad;
+
+  console.log("username : " + user, "cantidad " + cantidad);
+
+  if (seedsToSend > 9) {
+    let toSend = seedsToSend;
+    while (toSend > 0) {
+      if (toSend > 9) {
+        seedsToSend = toSend;
+      }
+      if (toSend == seedsToSend) {
+        try {
+          await new Promise((resolve) => {
+            setTimeout(() => {
+              resolve();
+            }, 5000);
+          });
+
+          await createPlotT(hive, 9, user, name);
+        } catch (e) {
+          console.log("error sending plot to user", seedsToSend, user);
+        }
+      } else {
+        try {
+          await new Promise((resolve) => {
+            setTimeout(() => {
+              resolve();
+            }, 5000);
+          });
+          await createPlotT(hive, toSend, user, name);
+        } catch (e) {
+          console.log("error sending plots to user", seedsToSend, user);
+        }
+      }
+      toSend = toSend - 9;
+    }
+  } else {
+    try {
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 5000);
+      });
+      await createPlotT(hive, seedsToSend, user, name);
+    } catch (e) {
+      console.log("error sending plots to user", seedsToSend, user);
+    }
+  }
+}
+
 module.exports = contract = {
   createSeed,
   createOneSeed,
@@ -2751,4 +2946,7 @@ module.exports = contract = {
   getAllNfts,
   getAllNftsAgua,
   getAllPlantPlots,
+  getAllPlotsAndSeeds,
+  getAllPlotsbyRegion,
+  distributeSubdividePlots,
 };

@@ -1189,7 +1189,7 @@ function startApp() {
   //called when qwoyn_subdivide_plot is detected
   processor.on("subdivide_plot", async function (json, from) {
     console.log("subdivide_plot", from);
-    await subdivide_plot(json, from, state);
+    //await subdivide_plot(json, from, state);
   });
 
   // checks for qwoyn_plant_rental and plants the seed on a rental
