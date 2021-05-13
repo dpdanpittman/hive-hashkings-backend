@@ -343,7 +343,7 @@ const nfttohkvaul = async (json, from, state) => {
     let booster = json.contractPayload.nfts[0];
 
     let seedID = seed.ids[0];
-    let jointID = nft.ids[0];
+    let jointID = parseInt(nft.ids[0], 10);
     let boosterID = booster.ids[0];
 
     let plotID = jp.query(
@@ -403,13 +403,13 @@ const nfttohkvaul = async (json, from, state) => {
         await new Promise((resolve) => {
           setTimeout(() => {
             resolve();
-          }, 7000);
+          }, 2000);
         });
 
-        contract
+        await contract
           .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
-          .then(() => {
-            contract
+          .then(async () => {
+            await contract
               .generateToken(hivejs, "BUDS", budAmount, from)
               .then(() => {
                 console.log("sending buds by budAmount", budAmount, from);
@@ -444,13 +444,13 @@ const nfttohkvaul = async (json, from, state) => {
         await new Promise((resolve) => {
           setTimeout(() => {
             resolve();
-          }, 7000);
+          }, 2000);
         });
 
-        contract
+        await contract
           .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
-          .then(() => {
-            contract
+          .then(async () => {
+            await contract
               .generateToken(hivejs, "BUDS", budAmountVault, from)
               .then(() => {
                 console.log(
@@ -487,7 +487,8 @@ const nfttohkvaul = async (json, from, state) => {
     //smoke joint
     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
     try {
-      let jointString = "" + jointTypes;
+      let jointString = "" + jointTypes[0];
+      console.log("imprimiendo para smoke esto", jointString)
       if (jointString == "pinner") {
         // give xp
         state.users[from].xp += state.stats.joints.pinner;
@@ -659,7 +660,7 @@ const subdivide_plot = async (json, from, state) => {
   let plotID = json.plotID;
   let region = json.region;
 
-  let userName = ""+from;
+  let userName = "" + from;
   let regionString = region;
   let plotIDString = "" + plotID;
 
@@ -671,7 +672,7 @@ const subdivide_plot = async (json, from, state) => {
     return;
   }
   if (plot[0].properties.hasOwnProperty("SUBDIVIDED")) {
-    dividedStatus = ""+plot[0].properties.SUBDIVIDED;
+    dividedStatus = "" + plot[0].properties.SUBDIVIDED;
   }
 
   console.log(userName, plot, regionString, plotIDString, dividedStatus);

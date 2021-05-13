@@ -3,8 +3,7 @@ const ENV = process.env;
 const CONTRACT_CREATOR = "hashkings";
 const UTILITY_TOKEN_SYMBOL = "HKFARM";
 
-const ACTIVEKEY =
-  ENV.activekey || "5J6rYjnB6kyGmxuUn4DnpRjvYM7PbASQgLSNu4vEL1ziboXehd9";
+const ACTIVEKEY = ENV.activekey;
 
 const SEEDS_PER_PACK = 3;
 
