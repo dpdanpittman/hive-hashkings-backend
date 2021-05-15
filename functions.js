@@ -605,7 +605,7 @@ async function updateXP(state, xp, from, joinID) {
 
   //validar aqui
   await contract
-    .updateNft(hivejs, state.users[from].activeAvatar.id, {
+    .updateNft(hivejs, ""+state.users[from].activeAvatar.id, {
       XP: state.users[from].activeAvatar.properties.XP,
     })
     .then(() => {
