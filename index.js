@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53898381; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53898390; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53898381;
+const ago = ENV.ago || 53898390;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -720,29 +720,29 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].waterPlants = waterPlants;
     state.users[user].avatars = avatars;
 
-    if (state.users[from].activeAvatar) {
+    if (state.users[user].activeAvatar) {
       let av = await avatars.find(function (element) {
-        return element.id == state.users[from].activeAvatar.id;
+        return element.id == state.users[user].activeAvatar.id;
       });
 
       if (av) {
-        state.users[from].activeAvatar = av;
-        state.users[from].xp = state.users[from].activeAvatar.properties.XP
+        state.users[user].activeAvatar = av;
+        state.users[user].xp = state.users[user].activeAvatar.properties.XP
       } else {
         console.log("no tengo avatar activo, activando uno para no dar error");
         try {
-          state.users[from].activeAvatar = avatars[0];
-          state.users[from].xp = state.users[from].activeAvata.properties.XP
+          state.users[user].activeAvatar = avatars[0];
+          state.users[user].xp = state.users[user].activeAvata.properties.XP
         } catch (e) {
           console.log("usuario no tiene ningun avatar");
-          state.users[from].activeAvatar = {};
+          state.users[user].activeAvatar = {};
         }
       }
     } else {
       try {
-        state.users[from].activeAvatar = avatars[0];
+        state.users[user].activeAvatar = avatars[0];
       } catch (e) {
-        state.users[from].activeAvatar = {};
+        state.users[user].activeAvatar = {};
         console.log("usuario no tiene avatar");
       }
     }
