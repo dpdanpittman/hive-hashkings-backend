@@ -500,22 +500,22 @@ const nfttohkvaul = async (json, from, state) => {
       console.log("imprimiendo para smoke esto", jointString);
       if (jointString == "pinner") {
         // give xp
-        await updateXP(state, state.stats.joints.pinner, from);
+        await updateXP(state, state.stats.joints.pinner, from, jointID);
       } else if (jointTypes == "hempWrappedJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.hempWrappedJoint, from);
+        await updateXP(state, state.stats.joints.hempWrappedJoint, from, jointID);
       } else if (jointTypes == "crossJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.crossJoint, from);
+        await updateXP(state, state.stats.joints.crossJoint, from, jointID);
       } else if (jointTypes == "blunt") {
         // give xp
-        await updateXP(state, state.stats.joints.blunt, from);
+        await updateXP(state, state.stats.joints.blunt, from, jointID);
       } else if (jointTypes == "hempWrappedBlunt") {
         // give xp
-        await updateXP(state, state.stats.joints.hempWrappedBlunt, from);
+        await updateXP(state, state.stats.joints.hempWrappedBlunt, from, jointID);
       } else if (jointTypes == "twaxJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.twaxJoint, from);
+        await updateXP(state, state.stats.joints.twaxJoint, from, jointID);
       }
     } catch (error) {
       console.log("error al fumar smoke", error);
@@ -583,10 +583,10 @@ const nfttohkvaul = async (json, from, state) => {
   }
 };
 
-async function updateXP(state, xp, from) {
+async function updateXP(state, xp, from, joinID) {
   console.log("removiendo join", state.users[from].joints);
   state.users[from].joints = state.users[from].joints.filter(function (ele) {
-    return ele != value;
+    return ele.id != joinID;
   });
 
   console.log("done removiendo join", state.users[from].joints);
