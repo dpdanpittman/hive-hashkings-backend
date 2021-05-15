@@ -315,10 +315,38 @@ contract
     }
   });
 })();*/
+(async () => {
+  contract.getAllAvatar(axios).then(async (r) => {
+    for (const key in r.plots) {
+      console.log("cambiando", r.plots[key]);
 
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 2000);
+      });
 
-
-/* */
+      await contract
+        .updateMultipleNfts(hivejs, [
+          {
+            id: "" + r.plots[key].id,
+            properties: {
+              XP: 45,
+              NAME:
+                r.plots[key].properties.NAME == "Magical Male"
+                  ? "Magical Shaggi"
+                  : "Magical Maggi",
+            },
+          },
+        ])
+        .then((res) => {
+          console.log(res);
+        });
+     
+    }
+  });
+})();
+/* 
 (async () => {
   contract.getAllPlotsbyRegion(axios).then(async (response) => {
     let update = [];
@@ -375,8 +403,8 @@ contract
           });
         }
       }
-    } */
+    } 
 
   });
 })();
-
+*/

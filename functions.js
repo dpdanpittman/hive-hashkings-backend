@@ -440,7 +440,6 @@ const nfttohkvaul = async (json, from, state) => {
               "it couldnt update plot"
             );
 
-
             console.log("it couldnt update plot " + plotIDString, e);
           });
       } else if (budAmountVault) {
@@ -501,25 +500,25 @@ const nfttohkvaul = async (json, from, state) => {
       console.log("imprimiendo para smoke esto", jointString);
       if (jointString == "pinner") {
         // give xp
-        await updateXP(state, state.stats.joints.pinner);
+        await updateXP(state, state.stats.joints.pinner, from);
       } else if (jointTypes == "hempWrappedJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.hempWrappedJoint);
+        await updateXP(state, state.stats.joints.hempWrappedJoint, from);
       } else if (jointTypes == "crossJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.crossJoint);
+        await updateXP(state, state.stats.joints.crossJoint, from);
       } else if (jointTypes == "blunt") {
         // give xp
-        await updateXP(state, state.stats.joints.blunt);
+        await updateXP(state, state.stats.joints.blunt, from);
       } else if (jointTypes == "hempWrappedBlunt") {
         // give xp
-        await updateXP(state, state.stats.joints.hempWrappedBlunt);
+        await updateXP(state, state.stats.joints.hempWrappedBlunt, from);
       } else if (jointTypes == "twaxJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.twaxJoint);
+        await updateXP(state, state.stats.joints.twaxJoint, from);
       }
     } catch (error) {
-      console.log("error al fumar smoke", error)
+      console.log("error al fumar smoke", error);
     }
 
     /*let boosterString = "" + boosterType 
@@ -584,23 +583,25 @@ const nfttohkvaul = async (json, from, state) => {
   }
 };
 
-async function updateXP(state, xp) {
-  console.log("removiendo join",state.users[from].joints);
+async function updateXP(state, xp, from) {
+  console.log("removiendo join", state.users[from].joints);
   state.users[from].joints = state.users[from].joints.filter(function (ele) {
     return ele != value;
   });
 
-  console.log("done removiendo join",state.users[from].joints);
+  console.log("done removiendo join", state.users[from].joints);
 
-
-  console.log("subiendo xp",xp)
+  console.log("subiendo xp", xp);
   state.users[from].xp += xp;
 
-  console.log("subiendo done xp",state.users[from].xp )
+  console.log("subiendo done xp", state.users[from].xp);
 
   state.users[from].activeAvatar.properties.XP += xp;
 
-  console.log("nueva xp done avatar xp",state.users[from].activeAvatar.properties.XP )
+  console.log(
+    "nueva xp done avatar xp",
+    state.users[from].activeAvatar.properties.XP
+  );
 
   //validar aqui
   await contract
