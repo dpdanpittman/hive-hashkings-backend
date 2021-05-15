@@ -1757,7 +1757,7 @@ async function getUserNft(ssc, axios, user) {
         plots: [],
         tokens: {},
         waterTowers: {},
-        avatars:[]
+        avatars: [],
       };
 
       let tempWaterTowers = [];
@@ -2161,6 +2161,66 @@ async function getAllPlotsbyRegion(axios) {
 
         if (nfts[i].properties.TYPE == "plot") {
           if (nfts[i].properties.NAME == "Jamaica") {
+            let u = nfts[i].account;
+
+            onlyAcconts.plots.push(nft);
+          }
+        }
+      }
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
+async function getAllAvatar(axios) {
+  return new Promise(async (resolve) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: {},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = {
+        plots: [],
+        seeds: [],
+      };
+
+      for (let i = 0; i < nfts.length; i++) {
+        let nft = {
+          id: nfts[i]._id,
+          properties: nfts[i].properties,
+          owner: nfts[i].account,
+        };
+
+        if (nfts[i].properties.TYPE == "avatar") {
+          if (
+            nfts[i].properties.NAME == "Magical Male" ||
+            nfts[i].properties.NAME == "Magical Female"
+          ) {
             let u = nfts[i].account;
 
             onlyAcconts.plots.push(nft);
@@ -3045,4 +3105,5 @@ module.exports = contract = {
   distributeSubdividePlots,
   getAllUsersHaveAPlot,
   distributeAvatar,
+  getAllAvatar
 };

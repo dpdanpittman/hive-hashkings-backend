@@ -431,6 +431,16 @@ const nfttohkvaul = async (json, from, state) => {
               from,
               from + "it couldnt update plot " + plotIDString
             );
+
+            await setTransaction(
+              json.transaction_id,
+              "nfttohk-vault",
+              json,
+              from,
+              "it couldnt update plot"
+            );
+
+
             console.log("it couldnt update plot " + plotIDString, e);
           });
       } else if (budAmountVault) {
@@ -508,7 +518,9 @@ const nfttohkvaul = async (json, from, state) => {
         // give xp
         await updateXP(state, state.stats.joints.twaxJoint);
       }
-    } catch (error) {}
+    } catch (error) {
+      console.log("error al fumar smoke", error)
+    }
 
     /*let boosterString = "" + boosterType 
                     if(boosterString === "Level 1 Booster"){
@@ -573,20 +585,36 @@ const nfttohkvaul = async (json, from, state) => {
 };
 
 async function updateXP(state, xp) {
+  console.log("removiendo join",state.users[from].joints);
   state.users[from].joints = state.users[from].joints.filter(function (ele) {
     return ele != value;
   });
 
-  state.users[from].xp += state.stats.joints.pinner;
+  console.log("done removiendo join",state.users[from].joints);
+
+
+  console.log("subiendo xp",xp)
+  state.users[from].xp += xp;
+
+  console.log("subiendo done xp",state.users[from].xp )
 
   state.users[from].activeAvatar.properties.XP += xp;
+
+  console.log("nueva xp done avatar xp",state.users[from].activeAvatar.properties.XP )
 
   //validar aqui
   await contract
     .updateNft(hivejs, state.users[from].activeAvatar.id, {
       XP: state.users[from].activeAvatar.properties.XP,
     })
-    .then(() => {})
+    .then(() => {
+      console.log(
+        "se actualizo correctamente el avatar ",
+        state.users[from].activeAvatar.id,
+        "nueva xp ",
+        state.users[from].activeAvatar.properties.XP
+      );
+    })
     .catch(async (e) => {
       console.log("no se pudo actualizar el nft para subir la xp");
     });
