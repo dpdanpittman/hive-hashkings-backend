@@ -19,7 +19,7 @@ const SEEDS = [
   {
     0: {
       SPT: 1, //Sprouting time
-      WATER: 12096,
+      WATER: 12406,
       PR: { min: 7550, max: 8000 }, //Production range
       NAME: "Aceh",
       chance: 66,
