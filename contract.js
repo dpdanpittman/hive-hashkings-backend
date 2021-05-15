@@ -1,3 +1,4 @@
+require("dotenv").config();
 const ENV = process.env;
 
 const CONTRACT_CREATOR = "hashkings";
@@ -700,6 +701,7 @@ const CreateAvatar = (name, to) => {
   const properties = {
     NAME: name,
     TYPE: "avatar",
+    XP: 45,
   };
 
   const instance = {
@@ -1755,6 +1757,7 @@ async function getUserNft(ssc, axios, user) {
         plots: [],
         tokens: {},
         waterTowers: {},
+        avatars:[]
       };
 
       let tempWaterTowers = [];
@@ -1767,6 +1770,10 @@ async function getUserNft(ssc, axios, user) {
 
         if (nfts[i].properties.TYPE == "seed") {
           onlyAcconts.seeds.push(nft);
+        }
+
+        if (nfts[i].properties.TYPE == "avatar") {
+          onlyAcconts.avatars.push(nft);
         }
 
         if (nfts[i].properties.TYPE == "plot") {
@@ -2153,13 +2160,10 @@ async function getAllPlotsbyRegion(axios) {
         };
 
         if (nfts[i].properties.TYPE == "plot") {
-          if (nfts[i].properties.NAME == "Afghanistan") {
+          if (nfts[i].properties.NAME == "Jamaica") {
             let u = nfts[i].account;
-            if(u !="chocolatoso" && u!="infernalcoliseum"){
-              onlyAcconts.plots.push(nft);
-            }
-           
-            
+
+            onlyAcconts.plots.push(nft);
           }
         }
       }
@@ -2467,6 +2471,56 @@ async function getOnlyUsersHaveMota(axios) {
   });
 }
 
+async function getAllUsersHaveAPlot(axios) {
+  return new Promise(async (resolve) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: {},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 1000;
+
+          if (get_nfts.length !== 1000) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = [];
+
+      for (let i = 0; i < nfts.length; i++) {
+        if (nfts[i].properties.TYPE == "plot") {
+          let acc = await onlyAcconts.find(function (element) {
+            return element == nfts[i].account;
+          });
+
+          if (!acc) {
+            onlyAcconts.push(nfts[i].account);
+          }
+        }
+      }
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
 async function getTokens(ssc, user) {
   return new Promise(async (resolve, reject) => {
     let data = {
@@ -2533,7 +2587,10 @@ async function distributeSeeds(axios, seedsUsedLastDay, hive) {
   let TOTALSTAKEDMOTAOFALLTHEPLAYERS = 0;
 
   for (let i = 0; i < usersNames.length; i++) {
-    if (usersNames[i].user != "swashcoldsteel" && usersNames[i].user != "vica1988") {
+    if (
+      usersNames[i].user != "swashcoldsteel" &&
+      usersNames[i].user != "vica1988"
+    ) {
       if (usersNames[i].stake > 0) {
         userData.push(usersNames[i]);
       }
@@ -2919,6 +2976,44 @@ async function distributeSubdividePlots(hive, user, cantidad, name) {
   }
 }
 
+async function distributeAvatar(hive, user) {
+  let instances = [];
+
+  instances.push(CreateAvatar("Farmer Shaggi", user));
+  instances.push(CreateAvatar("Lucky Shaggi", user));
+  instances.push(CreateAvatar("Water Baron Shaggi", user));
+  instances.push(CreateAvatar("Scientist Shaggi", user));
+  instances.push(CreateAvatar("Farmer Maggi", user));
+  instances.push(CreateAvatar("Lucky Maggi", user));
+  instances.push(CreateAvatar("Water Baroness Maggi", user));
+  instances.push(CreateAvatar("Scientist Maggi", user));
+
+  let json = {
+    contractName: "nft",
+    contractAction: "issueMultiple",
+    contractPayload: {
+      instances: instances,
+    },
+  };
+
+  return new Promise((resolve, reject) => {
+    hive.broadcast.customJson(
+      ACTIVEKEY,
+      [CONTRACT_CREATOR],
+      [],
+      "ssc-mainnet-hive",
+      JSON.stringify(json),
+      function (err, result) {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(result);
+        }
+      }
+    );
+  });
+}
+
 module.exports = contract = {
   createSeed,
   createOneSeed,
@@ -2948,4 +3043,6 @@ module.exports = contract = {
   getAllPlotsAndSeeds,
   getAllPlotsbyRegion,
   distributeSubdividePlots,
+  getAllUsersHaveAPlot,
+  distributeAvatar,
 };

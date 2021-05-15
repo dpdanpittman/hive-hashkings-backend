@@ -7,7 +7,7 @@ hivejs.config.set("alternative_api_endpoints", [
   "https://anyx.io/",
 ]);
 var jp = require("jsonpath");
-
+require("dotenv").config();
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
     var val = item.owner;
@@ -181,7 +181,7 @@ contract.getAllNfts(axios).then((r) => {
           await new Promise((resolve) => {
             setTimeout(() => {
               resolve();
-            }, 7000);
+            }, 2000);
           });
           await contract
             .updateMultipleNfts(hivejs, [
@@ -300,13 +300,29 @@ contract
  contract.generateToken(hivejs, "HKWATER", (120).toFixed(3),"udabeu"  ).then(e => {
    console.log(e)
  }) */
+/*
+(async () => {
+  contract.getAllUsersHaveAPlot(axios).then(async (r) => {
+    for (const key in r) {
+      console.log("enviando", r[key]);
+
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 2000);
+      });
+      await contract.distributeAvatar(hivejs, r[key]);
+    }
+  });
+})();*/
 
 
+
+/* */
 (async () => {
   contract.getAllPlotsbyRegion(axios).then(async (response) => {
     let update = [];
 
-    
     console.log(response.plots.length);
 
     let test = groupBy(response.plots);
@@ -324,19 +340,19 @@ contract
           resolve();
         }, 2000);
       });
-      console.log(enviar[index].usuario,enviar[index].cantidad ,enviar[index].cantidad * 5)
-      
-      
+      console.log(
+        enviar[index].usuario,
+        enviar[index].cantidad,
+        enviar[index].cantidad * 2
+      );
+
       await contract.distributeSubdividePlots(
         hivejs,
         enviar[index].usuario,
-        enviar[index].cantidad * 5,
-        "Afghanistan"
+        enviar[index].cantidad * 2,
+        "Jamaica"
       );
-
-
     } 
-   
 
     /*
     for (let i = 0; i < response.plots.length; i++) {
@@ -348,7 +364,7 @@ contract
             }, 2000);
           });
           console.log("cambiando a subdividir true", update);
-         await contract.updateMultipleNfts(hivejs, update).then((res) => {
+          await contract.updateMultipleNfts(hivejs, update).then((res) => {
             console.log("actualizado", res);
           });
           update = [];
@@ -361,7 +377,6 @@ contract
       }
     } */
 
-    
   });
-  
 })();
+

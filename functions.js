@@ -488,25 +488,25 @@ const nfttohkvaul = async (json, from, state) => {
     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
     try {
       let jointString = "" + jointTypes[0];
-      console.log("imprimiendo para smoke esto", jointString)
+      console.log("imprimiendo para smoke esto", jointString);
       if (jointString == "pinner") {
         // give xp
-        state.users[from].xp += state.stats.joints.pinner;
+        await updateXP(state, state.stats.joints.pinner);
       } else if (jointTypes == "hempWrappedJoint") {
         // give xp
-        state.users[from].xp += state.stats.joints.hempWrappedJoint;
+        await updateXP(state, state.stats.joints.hempWrappedJoint);
       } else if (jointTypes == "crossJoint") {
         // give xp
-        state.users[from].xp += state.stats.joints.crossJoint;
+        await updateXP(state, state.stats.joints.crossJoint);
       } else if (jointTypes == "blunt") {
         // give xp
-        state.users[from].xp += state.stats.joints.blunt;
+        await updateXP(state, state.stats.joints.blunt);
       } else if (jointTypes == "hempWrappedBlunt") {
         // give xp
-        state.users[from].xp += state.stats.joints.hempWrappedBlunt;
+        await updateXP(state, state.stats.joints.hempWrappedBlunt);
       } else if (jointTypes == "twaxJoint") {
         // give xp
-        state.users[from].xp += state.stats.joints.twaxJoint;
+        await updateXP(state, state.stats.joints.twaxJoint);
       }
     } catch (error) {}
 
@@ -571,6 +571,26 @@ const nfttohkvaul = async (json, from, state) => {
                         }*/
   }
 };
+
+async function updateXP(state, xp) {
+  state.users[from].joints = state.users[from].joints.filter(function (ele) {
+    return ele != value;
+  });
+
+  state.users[from].xp += state.stats.joints.pinner;
+
+  state.users[from].activeAvatar.properties.XP += xp;
+
+  //validar aqui
+  await contract
+    .updateNft(hivejs, state.users[from].activeAvatar.id, {
+      XP: state.users[from].activeAvatar.properties.XP,
+    })
+    .then(() => {})
+    .catch(async (e) => {
+      console.log("no se pudo actualizar el nft para subir la xp");
+    });
+}
 
 const plant_plot = async (json, from, state) => {
   let seedID = json.seedID;
