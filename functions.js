@@ -503,7 +503,12 @@ const nfttohkvaul = async (json, from, state) => {
         await updateXP(state, state.stats.joints.pinner, from, jointID);
       } else if (jointTypes == "hempWrappedJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.hempWrappedJoint, from, jointID);
+        await updateXP(
+          state,
+          state.stats.joints.hempWrappedJoint,
+          from,
+          jointID
+        );
       } else if (jointTypes == "crossJoint") {
         // give xp
         await updateXP(state, state.stats.joints.crossJoint, from, jointID);
@@ -512,7 +517,12 @@ const nfttohkvaul = async (json, from, state) => {
         await updateXP(state, state.stats.joints.blunt, from, jointID);
       } else if (jointTypes == "hempWrappedBlunt") {
         // give xp
-        await updateXP(state, state.stats.joints.hempWrappedBlunt, from, jointID);
+        await updateXP(
+          state,
+          state.stats.joints.hempWrappedBlunt,
+          from,
+          jointID
+        );
       } else if (jointTypes == "twaxJoint") {
         // give xp
         await updateXP(state, state.stats.joints.twaxJoint, from, jointID);
@@ -584,40 +594,33 @@ const nfttohkvaul = async (json, from, state) => {
 };
 
 async function updateXP(state, xp, from, joinID) {
-  console.log("removiendo join", state.users[from].joints);
   state.users[from].joints = state.users[from].joints.filter(function (ele) {
     return ele.id != joinID;
   });
 
-  console.log("done removiendo join", state.users[from].joints);
-
-  console.log("subiendo xp", xp);
   state.users[from].xp += xp;
-
-  console.log("subiendo done xp", state.users[from].xp);
 
   state.users[from].activeAvatar.properties.XP += xp;
 
-  console.log(
-    "nueva xp done avatar xp",
-    state.users[from].activeAvatar.properties.XP
-  );
-
   //validar aqui
   await contract
-    .updateNft(hivejs, ""+state.users[from].activeAvatar.id, {
+    .updateNft(hivejs, "" + state.users[from].activeAvatar.id, {
       XP: state.users[from].activeAvatar.properties.XP,
     })
-    .then(() => {
-      console.log(
-        "se actualizo correctamente el avatar ",
-        state.users[from].activeAvatar.id,
-        "nueva xp ",
-        state.users[from].activeAvatar.properties.XP
-      );
-    })
+    .then(() => {})
     .catch(async (e) => {
       console.log("no se pudo actualizar el nft para subir la xp");
+
+      await contract
+        .updateNft(hivejs, "" + state.users[from].activeAvatar.id, {
+          XP: state.users[from].activeAvatar.properties.XP,
+        })
+        .then(() => {})
+        .catch(async (e) => {
+          console.log("al  intentar otra vez no se pudo actualizar la xp");
+        });
+
+        
     });
 }
 
