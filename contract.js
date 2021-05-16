@@ -2160,7 +2160,7 @@ async function getAllPlotsbyRegion(axios) {
         };
 
         if (nfts[i].properties.TYPE == "plot") {
-          if (nfts[i].properties.NAME == "Jamaica") {
+          if (nfts[i].properties.NAME == "Asia") {
             let u = nfts[i].account;
 
             onlyAcconts.plots.push(nft);

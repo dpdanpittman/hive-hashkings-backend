@@ -609,18 +609,31 @@ async function updateXP(state, xp, from, joinID) {
     })
     .then(() => {})
     .catch(async (e) => {
-      console.log("no se pudo actualizar el nft para subir la xp");
-
+      console.log(
+        "no se pudo actualizar el nft para subir la xp",
+        xp,
+        from,
+        "intentando otra vez",
+        e
+      );
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 2000);
+      });
       await contract
         .updateNft(hivejs, "" + state.users[from].activeAvatar.id, {
           XP: state.users[from].activeAvatar.properties.XP,
         })
         .then(() => {})
         .catch(async (e) => {
-          console.log("al  intentar otra vez no se pudo actualizar la xp");
+          console.log(
+            "al  intentar otra vez no se pudo actualizar la xp",
+            xp,
+            from,
+            e
+          );
         });
-
-        
     });
 }
 

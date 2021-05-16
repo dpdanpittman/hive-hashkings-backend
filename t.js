@@ -315,6 +315,9 @@ contract
     }
   });
 })();*/
+
+
+/*
 (async () => {
   contract.getAllAvatar(axios).then(async (r) => {
     for (const key in r.plots) {
@@ -346,7 +349,12 @@ contract
     }
   });
 })();
-/* 
+
+
+*/ 
+
+/*
+
 (async () => {
   contract.getAllPlotsbyRegion(axios).then(async (response) => {
     let update = [];
@@ -359,7 +367,7 @@ contract
     for (const key of Object.keys(test)) {
       n.push({ usuario: key, cantidad: test[key].cantidad });
     }
-
+    
     let enviar = sort(n);
 
     for (let index = 0; index < enviar.length; index++) {
@@ -371,14 +379,14 @@ contract
       console.log(
         enviar[index].usuario,
         enviar[index].cantidad,
-        enviar[index].cantidad * 2
+        enviar[index].cantidad * 1
       );
 
       await contract.distributeSubdividePlots(
         hivejs,
         enviar[index].usuario,
-        enviar[index].cantidad * 2,
-        "Jamaica"
+        enviar[index].cantidad * 1,
+        "Asia"
       );
     } 
 

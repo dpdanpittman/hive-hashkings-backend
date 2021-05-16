@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53924367; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53927164; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53924367;
+const ago = ENV.ago || 53927164;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -392,7 +392,6 @@ function userList() {
               //set number of seeds and plots for user
               state.users[username].seedCount = seedData.length;
               state.users[username].plotCount = plotData.length;
-
             }
           }
           //get the users tokens and set in db
@@ -405,76 +404,73 @@ function userList() {
   }
 }
 
-function leveling() {
-  var userList = state.stats.farmerList;
+function leveling(user) {
   try {
-    for (var i = 0; i < userList.length; i++) {
-      var user = userList[i];
-      if (state.users[user].xp >= 45 && state.users[user].xp <= 93) {
-        state.users[user].lvl = 1;
-      } else if (state.users[user].xp >= 94 && state.users[user].xp <= 146) {
-        state.users[user].lvl = 2;
-      } else if (state.users[user].xp >= 147 && state.users[user].xp <= 202) {
-        state.users[user].lvl = 3;
-      } else if (state.users[user].xp >= 203 && state.users[user].xp <= 263) {
-        state.users[user].lvl = 4;
-      } else if (state.users[user].xp >= 264 && state.users[user].xp <= 401) {
-        state.users[user].lvl = 5;
-      } else if (state.users[user].xp >= 402 && state.users[user].xp <= 478) {
-        state.users[user].lvl = 6;
-      } else if (state.users[user].xp >= 479 && state.users[user].xp <= 561) {
-        state.users[user].lvl = 7;
-      } else if (state.users[user].xp >= 562 && state.users[user].xp <= 651) {
-        state.users[user].lvl = 8;
-      } else if (state.users[user].xp >= 652 && state.users[user].xp <= 749) {
-        state.users[user].lvl = 9;
-      } else if (state.users[user].xp >= 750 && state.users[user].xp <= 853) {
-        state.users[user].lvl = 10;
-      } else if (state.users[user].xp >= 854 && state.users[user].xp <= 967) {
-        state.users[user].lvl = 11;
-      } else if (state.users[user].xp >= 968 && state.users[user].xp <= 1089) {
-        state.users[user].lvl = 12;
-      } else if (state.users[user].xp >= 1090 && state.users[user].xp <= 1221) {
-        state.users[user].lvl = 13;
-      } else if (state.users[user].xp >= 1222 && state.users[user].xp <= 1364) {
-        state.users[user].lvl = 14;
-      } else if (state.users[user].xp >= 1365 && state.users[user].xp <= 1518) {
-        state.users[user].lvl = 15;
-      } else if (state.users[user].xp >= 1519 && state.users[user].xp <= 1658) {
-        state.users[user].lvl = 16;
-      } else if (state.users[user].xp >= 1659 && state.users[user].xp <= 1865) {
-        state.users[user].lvl = 17;
-      } else if (state.users[user].xp >= 1866 && state.users[user].xp <= 2059) {
-        state.users[user].lvl = 18;
-      } else if (state.users[user].xp >= 2060 && state.users[user].xp <= 2269) {
-        state.users[user].lvl = 19;
-      } else if (state.users[user].xp >= 2270 && state.users[user].xp <= 2495) {
-        state.users[user].lvl = 20;
-      } else if (state.users[user].xp >= 2496 && state.users[user].xp <= 2740) {
+    let xp = state.users[user].xp;
+    if (xp >= 45 && xp <= 93) {
+      state.users[user].lvl = 1;
+    } else if (xp >= 94 && xp <= 146) {
+      state.users[user].lvl = 2;
+    } else if (xp >= 147 && xp <= 202) {
+      state.users[user].lvl = 3;
+    } else if (xp >= 203 && xp <= 263) {
+      state.users[user].lvl = 4;
+    } else if (xp >= 264 && xp <= 401) {
+      state.users[user].lvl = 5;
+    } else if (xp >= 402 && xp <= 478) {
+      state.users[user].lvl = 6;
+    } else if (xp >= 479 && xp <= 561) {
+      state.users[user].lvl = 7;
+    } else if (xp >= 562 && xp <= 651) {
+      state.users[user].lvl = 8;
+    } else if (xp >= 652 && xp <= 749) {
+      state.users[user].lvl = 9;
+    } else if (xp >= 750 && xp <= 853) {
+      state.users[user].lvl = 10;
+    } else if (xp >= 854 && xp <= 967) {
+      state.users[user].lvl = 11;
+    } else if (xp >= 968 && xp <= 1089) {
+      state.users[user].lvl = 12;
+    } else if (xp >= 1090 && xp <= 1221) {
+      state.users[user].lvl = 13;
+    } else if (xp >= 1222 && xp <= 1364) {
+      state.users[user].lvl = 14;
+    } else if (xp >= 1365 && xp <= 1518) {
+      state.users[user].lvl = 15;
+    } else if (xp >= 1519 && xp <= 1658) {
+      state.users[user].lvl = 16;
+    } else if (xp >= 1659 && xp <= 1865) {
+      state.users[user].lvl = 17;
+    } else if (xp >= 1866 && xp <= 2059) {
+      state.users[user].lvl = 18;
+    } else if (xp >= 2060 && xp <= 2269) {
+      state.users[user].lvl = 19;
+    } else if (xp >= 2270 && xp <= 2495) {
+      state.users[user].lvl = 20;
+    } else if (xp >= 2496 && xp <= 2740) {
       state.users[user].lvl = 21;
-      } else if (state.users[user].xp >= 2741 && state.users[user].xp <= 3004) {
-        state.users[user].lvl = 22;
-      } else if (state.users[user].xp >= 3005 && state.users[user].xp <= 3289) {
-        state.users[user].lvl = 23;
-      } else if (state.users[user].xp >= 3290 && state.users[user].xp <= 3597) {
-        state.users[user].lvl = 24;
-      } else if (state.users[user].xp >= 3598 && state.users[user].xp <= 3930) {
-        state.users[user].lvl = 25;
-      } else if (state.users[user].xp >= 3931 && state.users[user].xp <= 4290) {
-        state.users[user].lvl = 26;
-      } else if (state.users[user].xp >= 4291 && state.users[user].xp <= 4678) {
-        state.users[user].lvl = 27;
-      } else if (state.users[user].xp >= 4679 && state.users[user].xp <= 5097) {
-        state.users[user].lvl = 28;
-      } else if (state.users[user].xp >= 5098 && state.users[user].xp <= 5550) {
-        state.users[user].lvl = 29;
-      } else if (state.users[user].xp >= 5551 && state.users[user].xp <= 6039) {
-        state.users[user].lvl = 30;
-      } else if (state.users[user].xp >= 6040 && state.users[user].xp <= 6567) {
-        state.users[user].lvl = 31;
-      }
-      //need to figure out a better way
+    } else if (xp >= 2741 && xp <= 3004) {
+      state.users[user].lvl = 22;
+    } else if (xp >= 3005 && xp <= 3289) {
+      state.users[user].lvl = 23;
+    } else if (xp >= 3290 && xp <= 3597) {
+      state.users[user].lvl = 24;
+    } else if (xp >= 3598 && xp <= 3930) {
+      state.users[user].lvl = 25;
+    } else if (xp >= 3931 && xp <= 4290) {
+      state.users[user].lvl = 26;
+    } else if (xp >= 4291 && xp <= 4678) {
+      state.users[user].lvl = 27;
+    } else if (xp >= 4679 && xp <= 5097) {
+      state.users[user].lvl = 28;
+    } else if (xp >= 5098 && xp <= 5550) {
+      state.users[user].lvl = 29;
+    } else if (xp >= 5551 && xp <= 6039) {
+      state.users[user].lvl = 30;
+    } else if (xp >= 6040 && xp <= 6567) {
+      state.users[user].lvl = 31;
     }
+    //need to figure out a better way
   } catch (error) {
     console.log("error updating " + user + "'s lvl");
   }
@@ -712,22 +708,50 @@ app.get("/utest/:user", async (req, res, next) => {
         mota: 0,
         motaStake: 0,
         boosters: [],
+        activeAvatar: {},
       };
     }
     res.setHeader("Content-Type", "application/json");
-    let {
-      plots,
-      seeds,
-      tokens,
-      waterTowers,
-      waterPlants,
-    } = await contract.getUserNft(ssc, axios, user);
+    let { plots, seeds, tokens, waterTowers, waterPlants, avatars } =
+      await contract.getUserNft(ssc, axios, user);
     state.users[user].seeds = seeds;
     state.users[user].plots = plots;
     state.users[user].tokens = tokens;
     state.users[user].waterTowers = waterTowers;
     state.users[user].waterPlants = waterPlants;
+    state.users[user].avatars = avatars;
 
+    if (state.users[user].activeAvatar) {
+      let av = await state.users[user].avatars.find(function (element) {
+        return element.id == state.users[user].activeAvatar.id;
+      });
+
+      if (av) {
+        state.users[user].activeAvatar = av;
+        state.users[user].xp = state.users[user].activeAvatar.properties.XP;
+      } else {
+        console.log(
+          "no tengo avatar activo, activando uno para no dar error",
+          user
+        );
+        try {
+          state.users[user].activeAvatar = avatars[0];
+          state.users[user].xp = state.users[user].activeAvata.properties.XP;
+        } catch (e) {
+          console.log("usuario no tiene ningun avatar".user);
+          state.users[user].activeAvatar = {};
+        }
+      }
+    } else {
+      try {
+        state.users[user].activeAvatar = avatars[0];
+      } catch (e) {
+        state.users[user].activeAvatar = {};
+        console.log("usuario no tiene avatar");
+      }
+    }
+
+    await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
   } catch (error) {
     console.log("Couldn't find user", error);
@@ -802,6 +826,7 @@ app.get("/utest/:user", async (req, res, next) => {
         mota: 0,
         motaStake: 0,
         boosters: [],
+        activeAvatar: {},
       };
     }
   }
@@ -967,7 +992,7 @@ function startApp() {
 
     // performs the leveling check
     if (num % 11 === 0 && processor.isStreaming()) {
-      leveling();
+      //leveling();
     }
 
     // show the block number in the console every block
@@ -1000,9 +1025,7 @@ function startApp() {
     sending = true;
     await getAllTransaction()
       .then(async (resxp) => {
-
         for (let index = 0; index < resxp.length; index++) {
-
           let resx = resxp[index];
           await ssc
             .getTransactionInfo(resx.transaction_id)
@@ -1026,43 +1049,38 @@ function startApp() {
                       console.log("ocurrio un error", e);
                     });
                 } else {
-
-                  console.log("init updateTransaction")
+                  console.log("init updateTransaction");
                   await updateTransaction(resx.transaction_id)
                     .then(async (red) => {
-
                       switch (resx.type) {
                         case "tohk-vault":
                           console.log("processing tohk-vault pending");
-                          
+
                           await tohkvault(
                             JSON.parse(resx.json),
                             resx.from,
                             state
                           );
-                    
+
                           break;
 
                         case "nfttohk-vault":
                           console.log("processing  nft tohk-vault pending");
-                          
+
                           await nfttohkvaul(
                             JSON.parse(resx.json),
                             resx.from,
                             state
                           );
-                          
-                          break;
 
-                        
+                          break;
                       }
                     })
                     .catch((e) => {
                       console.log("ocurrio un error", e);
                     });
 
-                    console.log("finish updateTransaction")
-
+                  console.log("finish updateTransaction");
                 }
               } else {
                 console.log(
@@ -1124,8 +1142,7 @@ function startApp() {
               from,
               "error hive-engine dont have process this block "
             );
-          }
-          else if (json.contractName == "tokens") {
+          } else if (json.contractName == "tokens") {
             await setTransaction(
               json.transaction_id,
               "tohk-vault",
@@ -1234,16 +1251,15 @@ function startApp() {
   processor.on("change_avatar", function (json, from) {
     let avatar = json.avatar;
 
-    if (state.users[from] && avatar === 1) {
-      state.users[from].claimed.role = 1;
-    } else if (state.users[from] && avatar === 2) {
-      state.users[from].claimed.role = 2;
-    } else if (state.users[from] && avatar === 3) {
-      state.users[from].claimed.role = 3;
-    } else if (state.users[from] && avatar === 4) {
-      state.users[from].claimed.role = 4;
-    } else if (state.users[from] && avatar === 5) {
-      state.users[from].claimed.role = 5;
+    if (state.users[from] && avatar) {
+      let av = jp.query(state.users[from], `$.avatars[?(@.id==${avatar})]`);
+
+      if (av[0]) {
+        state.users[from].activeAvatar = av[0];
+        console.log("avatar cambiado con exito", av[0]);
+      } else {
+        console.log("no se pudo cambiar el avatar", avatar);
+      }
     }
   });
 
@@ -1441,7 +1457,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
       ) {
         // create nft
-        
+
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1452,7 +1468,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 10
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 2, WATER: 96 });
 
@@ -1464,7 +1479,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 20
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 3, WATER: 166 });
         const c = parseInt(amount);
@@ -1475,7 +1489,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 30
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 4, WATER: 234 });
 
@@ -1490,7 +1503,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 40
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 5, WATER: 302 });
 
@@ -1502,7 +1514,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 50
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 6, WATER: 370 });
 
@@ -1514,7 +1525,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 60
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 7, WATER: 438 });
 
@@ -1526,7 +1536,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 70
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 8, WATER: 506 });
 
@@ -1538,7 +1547,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 80
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 9, WATER: 574 });
 
@@ -1550,7 +1558,6 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
         state.users[json.from].lvl >= 90
       ) {
-
         // create nft
         await contract.updateNft(hivejs, type, { LVL: 10, WATER: 642 });
 
