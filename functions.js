@@ -370,6 +370,11 @@ const nfttohkvaul = async (json, from, state) => {
       `$.joints[?(@.id==${jointID})].properties.CONSUMABLETYPE`
     );
 
+    let jointTypesHKVAULT = jp.query(
+      state.users["hk-vault"],
+      `$.joints[?(@.id==${jointID})].properties.CONSUMABLETYPE`
+    );
+
     let boosterType = jp.query(
       state.users[from],
       `$.boosters[?(@.id==${boosterID})].properties.NAME`
@@ -496,8 +501,9 @@ const nfttohkvaul = async (json, from, state) => {
     //smoke joint
     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
     try {
-      let jointString = "" + jointTypes[0] ;
-      console.log("this user", from , "try smoke", jointString, jointTypes, "he send this joinid", jointID);
+      let jointString = "" +  ( jointTypes[0] ?  jointTypes[0] : jointTypesHKVAULT[0] ) ;
+      let jointStringHKVAULT = "" + jointTypesHKVAULT[0] ;
+      console.log("this user", from , "try smoke", jointString, jointTypes, "he send this joinid", jointID , "hk-vault sai", jointStringHKVAULT, jointTypesHKVAULT);
       if (jointString == "pinner") {
         // give xp
         await updateXP(state, state.stats.joints.pinner, from, jointID);
