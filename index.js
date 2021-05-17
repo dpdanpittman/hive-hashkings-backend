@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 53928734; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 53963967; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 53928734;
+const ago = ENV.ago || 53963967;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -736,9 +736,9 @@ app.get("/utest/:user", async (req, res, next) => {
         );
         try {
           state.users[user].activeAvatar = avatars[0];
-          state.users[user].xp = state.users[user].activeAvata.properties.XP;
+          state.users[user].xp = state.users[user].activeAvatar.properties.XP;
         } catch (e) {
-          console.log("usuario no tiene ningun avatar".user);
+          console.log("usuario no tiene ningun avatar",user,e);
           state.users[user].activeAvatar = {};
         }
       }
