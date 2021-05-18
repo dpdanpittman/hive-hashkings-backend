@@ -125,14 +125,14 @@ const SEEDS = [
     },
   },
   {
-    0: {
+    1: {
       SPT: 7, //Sprouting time
       WATER: 560,
       PR: { min: 270, max: 350 }, //Production range
       NAME: "Colombian Gold",
       chance: 50,
     },
-    1: {
+    2: {
       SPT: 7, //Sprouting time
       WATER: 504,
       PR: { min: 250, max: 325 }, //Production range
