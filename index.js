@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 54009128; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 54042957; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54009128;
+const ago = ENV.ago || 54042957;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -469,6 +469,126 @@ function leveling(user) {
       state.users[user].lvl = 30;
     } else if (xp >= 6040 && xp <= 6567) {
       state.users[user].lvl = 31;
+    } else if (xp >= 94 && xp <= 146) {
+      state.users[user].lvl = 32;
+    } else if (xp >= 147 && xp <= 202) {
+      state.users[user].lvl = 33;
+    } else if (xp >= 203 && xp <= 263) {
+      state.users[user].lvl = 34;
+    } else if (xp >= 264 && xp <= 401) {
+      state.users[user].lvl = 35;
+    } else if (xp >= 402 && xp <= 478) {
+      state.users[user].lvl = 36;
+    } else if (xp >= 479 && xp <= 561) {
+      state.users[user].lvl = 37;
+    } else if (xp >= 562 && xp <= 651) {
+      state.users[user].lvl = 38;
+    } else if (xp >= 652 && xp <= 749) {
+      state.users[user].lvl = 39;
+    } else if (xp >= 750 && xp <= 853) {
+      state.users[user].lvl = 40;
+    } else if (xp >= 854 && xp <= 967) {
+      state.users[user].lvl = 41;
+    } else if (xp >= 968 && xp <= 1089) {
+      state.users[user].lvl = 42;
+    } else if (xp >= 1090 && xp <= 1221) {
+      state.users[user].lvl = 43;
+    } else if (xp >= 1222 && xp <= 1364) {
+      state.users[user].lvl = 44;
+    } else if (xp >= 1365 && xp <= 1518) {
+      state.users[user].lvl = 45;
+    } else if (xp >= 1519 && xp <= 1658) {
+      state.users[user].lvl = 46;
+    } else if (xp >= 1659 && xp <= 1865) {
+      state.users[user].lvl = 47;
+    } else if (xp >= 1866 && xp <= 2059) {
+      state.users[user].lvl = 48;
+    } else if (xp >= 2060 && xp <= 2269) {
+      state.users[user].lvl = 49;
+    } else if (xp >= 2270 && xp <= 2495) {
+      state.users[user].lvl = 50;
+    } else if (xp >= 2496 && xp <= 2740) {
+      state.users[user].lvl = 51;
+    } else if (xp >= 2741 && xp <= 3004) {
+      state.users[user].lvl = 52;
+    } else if (xp >= 3005 && xp <= 3289) {
+      state.users[user].lvl = 53;
+    } else if (xp >= 3290 && xp <= 3597) {
+      state.users[user].lvl = 54;
+    } else if (xp >= 3598 && xp <= 3930) {
+      state.users[user].lvl = 55;
+    } else if (xp >= 3931 && xp <= 4290) {
+      state.users[user].lvl = 56;
+    } else if (xp >= 4291 && xp <= 4678) {
+      state.users[user].lvl = 57;
+    } else if (xp >= 4679 && xp <= 5097) {
+      state.users[user].lvl = 58;
+    } else if (xp >= 5098 && xp <= 5550) {
+      state.users[user].lvl = 59;
+    } else if (xp >= 5551 && xp <= 6039) {
+      state.users[user].lvl = 60;
+    } else if (xp >= 6040 && xp <= 6567) {
+      state.users[user].lvl = 61;
+    } else if (xp >= 94 && xp <= 146) {
+      state.users[user].lvl = 62;
+    } else if (xp >= 147 && xp <= 202) {
+      state.users[user].lvl = 63;
+    } else if (xp >= 203 && xp <= 263) {
+      state.users[user].lvl = 64;
+    } else if (xp >= 264 && xp <= 401) {
+      state.users[user].lvl = 65;
+    } else if (xp >= 402 && xp <= 478) {
+      state.users[user].lvl = 66;
+    } else if (xp >= 479 && xp <= 561) {
+      state.users[user].lvl = 67;
+    } else if (xp >= 562 && xp <= 651) {
+      state.users[user].lvl = 68;
+    } else if (xp >= 652 && xp <= 749) {
+      state.users[user].lvl = 69;
+    } else if (xp >= 750 && xp <= 853) {
+      state.users[user].lvl = 70;
+    } else if (xp >= 854 && xp <= 967) {
+      state.users[user].lvl = 71;
+    } else if (xp >= 968 && xp <= 1089) {
+      state.users[user].lvl = 72;
+    } else if (xp >= 1090 && xp <= 1221) {
+      state.users[user].lvl = 73;
+    } else if (xp >= 1222 && xp <= 1364) {
+      state.users[user].lvl = 74;
+    } else if (xp >= 1365 && xp <= 1518) {
+      state.users[user].lvl = 75;
+    } else if (xp >= 1519 && xp <= 1658) {
+      state.users[user].lvl = 76;
+    } else if (xp >= 1659 && xp <= 1865) {
+      state.users[user].lvl = 77;
+    } else if (xp >= 1866 && xp <= 2059) {
+      state.users[user].lvl = 78;
+    } else if (xp >= 2060 && xp <= 2269) {
+      state.users[user].lvl = 79;
+    } else if (xp >= 2270 && xp <= 2495) {
+      state.users[user].lvl = 80;
+    } else if (xp >= 2496 && xp <= 2740) {
+      state.users[user].lvl = 81;
+    } else if (xp >= 2741 && xp <= 3004) {
+      state.users[user].lvl = 82;
+    } else if (xp >= 3005 && xp <= 3289) {
+      state.users[user].lvl = 83;
+    } else if (xp >= 3290 && xp <= 3597) {
+      state.users[user].lvl = 84;
+    } else if (xp >= 3598 && xp <= 3930) {
+      state.users[user].lvl = 85;
+    } else if (xp >= 3931 && xp <= 4290) {
+      state.users[user].lvl = 86;
+    } else if (xp >= 4291 && xp <= 4678) {
+      state.users[user].lvl = 87;
+    } else if (xp >= 4679 && xp <= 5097) {
+      state.users[user].lvl = 88;
+    } else if (xp >= 5098 && xp <= 5550) {
+      state.users[user].lvl = 89;
+    } else if (xp >= 5551 && xp <= 6039) {
+      state.users[user].lvl = 80;
+    } else if (xp >= 6040 && xp <= 6567) {
+      state.users[user].lvl = 91;
     }
     //need to figure out a better way
   } catch (error) {
@@ -628,11 +748,6 @@ app.get("/u/:user", (req, res, next) => {
   } catch (error) {}
 });
 
-//shows a log
-app.get("/logs", (req, res, next) => {
-  res.setHeader("Content-Type", "application/json");
-  res.send(JSON.stringify(state.cs, null, 3));
-});
 
 app.get("/utest/:user", async (req, res, next) => {
   try {
@@ -860,9 +975,6 @@ function startWith(hash) {
 }*/
 
 function startApp() {
-  if (state.cs == null) {
-    state.cs = {};
-  }
   processor = steemState(client, dhive, startingBlock, 10, prefix);
 
   processor.onBlock(function (num, block) {
@@ -1494,9 +1606,6 @@ function startApp() {
 
         const c = parseInt(amount);
         state.bal.c += c;
-        state.cs[
-          `${json.block_num}:${json.from}`
-        ] = `${json.from} purchased ${json.want}`;
       } else if (
         want === "water5" &&
         amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
@@ -1570,9 +1679,6 @@ function startApp() {
         if (state.refund[i][1] == json.to && state.refund[i][2] == amount) {
           state.refund.splice(i, 1);
           state.bal.r -= amount;
-          state.cs[
-            `${json.block_num}:${json.to}`
-          ] = `${json.to} refunded successfully`;
           break;
         }
       }
