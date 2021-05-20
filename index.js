@@ -160,10 +160,10 @@ app.use(cors());
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 54043092; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 54043499; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54043092;
+const ago = ENV.ago || 54043499;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 var client = new dhive.Client(
   [
@@ -469,125 +469,125 @@ function leveling(user) {
       state.users[user].lvl = 30;
     } else if (xp >= 6040 && xp <= 6567) {
       state.users[user].lvl = 31;
-    } else if (xp >= 94 && xp <= 146) {
+    } else if (xp >= 6568 && xp <= 7138) {
       state.users[user].lvl = 32;
-    } else if (xp >= 147 && xp <= 202) {
+    } else if (xp >= 7139 && xp <= 7754) {
       state.users[user].lvl = 33;
-    } else if (xp >= 203 && xp <= 263) {
+    } else if (xp >= 7755 && xp <= 8419) {
       state.users[user].lvl = 34;
-    } else if (xp >= 264 && xp <= 401) {
+    } else if (xp >= 8420 && xp <= 9138) {
       state.users[user].lvl = 35;
-    } else if (xp >= 402 && xp <= 478) {
+    } else if (xp >= 9139 && xp <= 9914) {
       state.users[user].lvl = 36;
-    } else if (xp >= 479 && xp <= 561) {
+    } else if (xp >= 9915 && xp <= 10752) {
       state.users[user].lvl = 37;
-    } else if (xp >= 562 && xp <= 651) {
+    } else if (xp >= 10753 && xp <= 11657) {
       state.users[user].lvl = 38;
-    } else if (xp >= 652 && xp <= 749) {
+    } else if (xp >= 11658 && xp <= 12635) {
       state.users[user].lvl = 39;
-    } else if (xp >= 750 && xp <= 853) {
+    } else if (xp >= 12636 && xp <= 13690) {
       state.users[user].lvl = 40;
-    } else if (xp >= 854 && xp <= 967) {
+    } else if (xp >= 13691 && xp <= 14831) {
       state.users[user].lvl = 41;
-    } else if (xp >= 968 && xp <= 1089) {
+    } else if (xp >= 14832 && xp <= 16062) {
       state.users[user].lvl = 42;
-    } else if (xp >= 1090 && xp <= 1221) {
+    } else if (xp >= 16063 && xp <= 17392) {
       state.users[user].lvl = 43;
-    } else if (xp >= 1222 && xp <= 1364) {
+    } else if (xp >= 17393 && xp <= 18829) {
       state.users[user].lvl = 44;
-    } else if (xp >= 1365 && xp <= 1518) {
+    } else if (xp >= 18830 && xp <= 20380) {
       state.users[user].lvl = 45;
-    } else if (xp >= 1519 && xp <= 1658) {
+    } else if (xp >= 20381 && xp <= 22055) {
       state.users[user].lvl = 46;
-    } else if (xp >= 1659 && xp <= 1865) {
+    } else if (xp >= 22056 && xp <= 23865) {
       state.users[user].lvl = 47;
-    } else if (xp >= 1866 && xp <= 2059) {
+    } else if (xp >= 23866 && xp <= 25819) {
       state.users[user].lvl = 48;
-    } else if (xp >= 2060 && xp <= 2269) {
+    } else if (xp >= 25820 && xp <= 27930) {
       state.users[user].lvl = 49;
-    } else if (xp >= 2270 && xp <= 2495) {
+    } else if (xp >= 27931 && xp <= 30209) {
       state.users[user].lvl = 50;
-    } else if (xp >= 2496 && xp <= 2740) {
+    } else if (xp >= 30210 && xp <= 32671) {
       state.users[user].lvl = 51;
-    } else if (xp >= 2741 && xp <= 3004) {
+    } else if (xp >= 32672 && xp <= 35330) {
       state.users[user].lvl = 52;
-    } else if (xp >= 3005 && xp <= 3289) {
+    } else if (xp >= 35331 && xp <= 38201) {
       state.users[user].lvl = 53;
-    } else if (xp >= 3290 && xp <= 3597) {
+    } else if (xp >= 38202 && xp <= 41302) {
       state.users[user].lvl = 54;
-    } else if (xp >= 3598 && xp <= 3930) {
+    } else if (xp >= 41303 && xp <= 44651) {
       state.users[user].lvl = 55;
-    } else if (xp >= 3931 && xp <= 4290) {
+    } else if (xp >= 44652 && xp <= 48269) {
       state.users[user].lvl = 56;
-    } else if (xp >= 4291 && xp <= 4678) {
+    } else if (xp >= 48270 && xp <= 52175) {
       state.users[user].lvl = 57;
-    } else if (xp >= 4679 && xp <= 5097) {
+    } else if (xp >= 52176 && xp <= 56394) {
       state.users[user].lvl = 58;
-    } else if (xp >= 5098 && xp <= 5550) {
+    } else if (xp >= 56395 && xp <= 60951) {
       state.users[user].lvl = 59;
-    } else if (xp >= 5551 && xp <= 6039) {
+    } else if (xp >= 60952 && xp <= 65872) {
       state.users[user].lvl = 60;
-    } else if (xp >= 6040 && xp <= 6567) {
+    } else if (xp >= 65873 && xp <= 71187) {
       state.users[user].lvl = 61;
-    } else if (xp >= 94 && xp <= 146) {
+    } else if (xp >= 71188 && xp <= 76927) {
       state.users[user].lvl = 62;
-    } else if (xp >= 147 && xp <= 202) {
+    } else if (xp >= 76928 && xp <= 83126) {
       state.users[user].lvl = 63;
-    } else if (xp >= 203 && xp <= 263) {
+    } else if (xp >= 83127 && xp <= 89821) {
       state.users[user].lvl = 64;
-    } else if (xp >= 264 && xp <= 401) {
+    } else if (xp >= 89822 && xp <= 97051) {
       state.users[user].lvl = 65;
-    } else if (xp >= 402 && xp <= 478) {
+    } else if (xp >= 97052 && xp <= 104861) {
       state.users[user].lvl = 66;
-    } else if (xp >= 479 && xp <= 561) {
+    } else if (xp >= 104862 && xp <= 113295) {
       state.users[user].lvl = 67;
-    } else if (xp >= 562 && xp <= 651) {
+    } else if (xp >= 113296 && xp <= 122403) {
       state.users[user].lvl = 68;
-    } else if (xp >= 652 && xp <= 749) {
+    } else if (xp >= 122404 && xp <= 132240) {
       state.users[user].lvl = 69;
-    } else if (xp >= 750 && xp <= 853) {
+    } else if (xp >= 132241 && xp <= 142865) {
       state.users[user].lvl = 70;
-    } else if (xp >= 854 && xp <= 967) {
+    } else if (xp >= 142866 && xp <= 154339) {
       state.users[user].lvl = 71;
-    } else if (xp >= 968 && xp <= 1089) {
+    } else if (xp >= 154340 && xp <= 166731) {
       state.users[user].lvl = 72;
-    } else if (xp >= 1090 && xp <= 1221) {
+    } else if (xp >= 166732 && xp <= 180115) {
       state.users[user].lvl = 73;
-    } else if (xp >= 1222 && xp <= 1364) {
+    } else if (xp >= 180116 && xp <= 194569) {
       state.users[user].lvl = 74;
-    } else if (xp >= 1365 && xp <= 1518) {
+    } else if (xp >= 194570 && xp <= 210179) {
       state.users[user].lvl = 75;
-    } else if (xp >= 1519 && xp <= 1658) {
+    } else if (xp >= 210180 && xp <= 227039) {
       state.users[user].lvl = 76;
-    } else if (xp >= 1659 && xp <= 1865) {
+    } else if (xp >= 227040 && xp <= 264912) {
       state.users[user].lvl = 77;
-    } else if (xp >= 1866 && xp <= 2059) {
+    } else if (xp >= 264913 && xp <= 286150) {
       state.users[user].lvl = 78;
-    } else if (xp >= 2060 && xp <= 2269) {
+    } else if (xp >= 286151 && xp <= 309087) {
       state.users[user].lvl = 79;
-    } else if (xp >= 2270 && xp <= 2495) {
+    } else if (xp >= 309088 && xp <= 333859) {
       state.users[user].lvl = 80;
-    } else if (xp >= 2496 && xp <= 2740) {
+    } else if (xp >= 333860 && xp <= 360612) {
       state.users[user].lvl = 81;
-    } else if (xp >= 2741 && xp <= 3004) {
+    } else if (xp >= 360613 && xp <= 389506) {
       state.users[user].lvl = 82;
-    } else if (xp >= 3005 && xp <= 3289) {
+    } else if (xp >= 389507 && xp <= 420712) {
       state.users[user].lvl = 83;
-    } else if (xp >= 3290 && xp <= 3597) {
+    } else if (xp >= 420713 && xp <= 454414) {
       state.users[user].lvl = 84;
-    } else if (xp >= 3598 && xp <= 3930) {
+    } else if (xp >= 454415 && xp <= 490812) {
       state.users[user].lvl = 85;
-    } else if (xp >= 3931 && xp <= 4290) {
+    } else if (xp >= 490813 && xp <= 530122) {
       state.users[user].lvl = 86;
-    } else if (xp >= 4291 && xp <= 4678) {
+    } else if (xp >= 530123 && xp <= 572577) {
       state.users[user].lvl = 87;
-    } else if (xp >= 4679 && xp <= 5097) {
+    } else if (xp >= 572578 && xp <= 618428) {
       state.users[user].lvl = 88;
-    } else if (xp >= 5098 && xp <= 5550) {
+    } else if (xp >= 618429 && xp <= 667947) {
       state.users[user].lvl = 89;
-    } else if (xp >= 5551 && xp <= 6039) {
-      state.users[user].lvl = 80;
-    } else if (xp >= 6040 && xp <= 6567) {
+    } else if (xp >= 667948 && xp <= 721428) {
+      state.users[user].lvl = 90;
+    } else if (xp >= 721429 && xp <= 779187) {
       state.users[user].lvl = 91;
     }
     //need to figure out a better way
