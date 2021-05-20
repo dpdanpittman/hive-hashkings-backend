@@ -126,6 +126,38 @@ httpsServer.listen(443, () => {
 
 app.use(cors());
 
+/*app.get('/a/:user', (req, res, next) => {
+    let user = req.params.user,
+        arr = []
+    res.setHeader('Content-Type', 'application/json');
+    if (state.users[user]) {
+        for (var i = 0; i < state.users[user].addrs.length; i++) {
+            arr.push(state.users[user].addrs[i])
+        }
+    }
+    for (var i = 0; i < arr.length; i++) {
+        insert = ''
+        var insert = state.land[arr[i]]
+        if (insert) {
+            insert.id = arr[i]
+            if (insert.care.length > 3) { insert.care.splice(3, insert.care.length - 3) }
+            if (insert.aff.length > 3) { insert.aff.splice(3, insert.aff.length - 3) }
+            arr.splice(i, 1, insert)
+        }
+    }
+    res.send(JSON.stringify(arr, null, 3))
+});*/
+
+//overal game stats i.e. number of farmers, number of plants available, seed prices, land price, weather info
+//at each location such as mexico or jamaica etc.
+/*app.get('/stats', (req, res, next) => {
+    res.setHeader('Content-Type', 'application/json');
+    Object.keys(state.users).length
+    var ret = state.stats
+    ret.farmers = Object.keys(state.users).length
+    res.send(JSON.stringify(ret, null, 3))
+});*/
+
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 var state;
 var startingBlock = ENV.STARTINGBLOCK || 54009128; //GENESIS BLOCK
@@ -230,6 +262,148 @@ function hivePriceConversion(amount) {
   });
 }
 
+//compares farmer
+function userList() {
+  try {
+    contract.getReport(axios).then((res) => {
+      let farmerArray = state.stats.farmerList;
+      var arrayLength = farmerArray.length;
+      for (let i = 0; i < arrayLength; i++) {
+        let username = farmerArray[i];
+        if (!state.users[username]) {
+          state.users[username] = {
+            rentals: [],
+            plots: [],
+            plotCount: 0,
+            seedCount: 0,
+            seeds: [],
+            hkwater: 0,
+            waterCount: 0,
+            waterPlants: {
+              lvl1: 0,
+              lvl2: 0,
+              lvl3: 0,
+              lvl4: 0,
+              lvl5: 0,
+              lvl7: 0,
+              lvl8: 0,
+              lvl9: 0,
+              lvl10: 0,
+            },
+            waterTowers: {
+              lvl1: [],
+              lvl2: [],
+              lvl3: [],
+              lvl4: [],
+              lvl5: [],
+              lvl6: [],
+              lvl7: [],
+              lvl8: [],
+              lvl9: [],
+              lvl10: [],
+            },
+            timeBoosters: {
+              lvl1: 0,
+              lvl2: 0,
+              lvl3: 0,
+              lvl4: 0,
+              lvl5: 0,
+              lvl7: 0,
+              lvl8: 0,
+              lvl9: 0,
+              lvl10: 0,
+            },
+            buds: 0,
+            dailyBudDeposit: 0,
+            tokens: {
+              buds: {
+                balance: 0,
+                stake: 0,
+              },
+              mota: {
+                balance: 0,
+                stake: 0,
+              },
+              hkwater: {
+                balance: 0,
+                stake: 0,
+              },
+            },
+            claimed: {
+              water: false,
+              avatar: false,
+              bud: false,
+            },
+            xp: 45,
+            lvl: 1,
+            role: 1,
+            joints: [],
+            mota: 0,
+            motaStake: 0,
+            boosters: [],
+          };
+        } else if (state.users[username]) {
+          let report = res[4];
+          for (const property in report) {
+            if (property == username) {
+              /*//get nft data
+              seedData = report[property].seeds
+              plotData = report[property].plots
+              jointData = report[property].consumable
+              boosterData = report[property].booster
+              avatarData = report[property].avatar*/
+              //waterTowerData = report[property].water
+              /*waterTowerTempData = report[property].waterTemp
+
+              //set nft data
+              state.users[username].avatars = avatarData
+              state.users[username].boosters = boosterData
+              state.users[username].joints = jointData
+              state.users[username].seeds = seedData
+              state.users[username].plots = plotData
+              state.users[username].waterTowers = waterTowerData
+
+              state.users[username].waterPlants.lvl1 = waterTowerTempData
+
+              //set number of seeds and plots for user
+              state.users[username].seedCount = seedData.length
+              state.users[username].plotCount = plotData.length
+
+              //if user doesnt exist, create them
+              if(state.users[username].tokens.buds.balance > 0) {
+                  state.users[username].claimed.water = true
+                  state.users[username].claimed.avatar = true
+                  state.users[username].claimed.bud = true*/
+              //get nft data
+              seedData = report[property].seeds;
+              plotData = report[property].plots;
+              jointData = report[property].consumable;
+              boosterData = report[property].booster;
+              avatarData = report[property].avatar;
+              waterTowerData = report[property].waterTemp;
+
+              //set nft data
+              state.users[username].avatars = avatarData;
+              state.users[username].boosters = boosterData;
+              state.users[username].joints = jointData;
+              state.users[username].seeds = seedData;
+              state.users[username].plots = plotData;
+
+              //set number of seeds and plots for user
+              state.users[username].seedCount = seedData.length;
+              state.users[username].plotCount = plotData.length;
+            }
+          }
+          //get the users tokens and set in db
+          //contract.getTokens(ssc, username).then( response => { state.users[username].tokens = response } )
+        }
+      }
+    });
+  } catch (error) {
+    console.log("error when running report");
+  }
+}
+
 function leveling(user) {
   try {
     let xp = state.users[user].xp;
@@ -331,12 +505,12 @@ function reporting() {
       state.stats.supply.land.africa = totalAfricaSupply - africaTotal;
       state.stats.supply.land.africaC = africaTotal;
       state.stats.supply.land.afghanistan =
-      totalAfghanistanSupply - afghanistanTotal;
+        totalAfghanistanSupply - afghanistanTotal;
       state.stats.supply.land.afghanistanC = afghanistanTotal;
       state.stats.supply.land.mexico = totalMexicoSupply - mexicoTotal;
       state.stats.supply.land.mexicoC = mexicoTotal;
       state.stats.supply.land.southAmerica =
-      totalSouthAmericaSupply - southAmericaTotal;
+        totalSouthAmericaSupply - southAmericaTotal;
       state.stats.supply.land.southAmericaC = southAmericaTotal;
 
       state.stats.farmerList = res[3];
@@ -377,11 +551,13 @@ function landPriceConversion() {
           let thePrice = data.result[0];
           theLastPrice = thePrice.lastDayPrice;
           const hivePriceOfAsia = state.stats.prices.land.asia.price;
-          const hivePriceOfAfghanistan = state.stats.prices.land.afghanistan.price;
+          const hivePriceOfAfghanistan =
+            state.stats.prices.land.afghanistan.price;
           const hivePriceOfMexico = state.stats.prices.land.mexico.price;
           const hivePriceOfJamaica = state.stats.prices.land.jamaica.price;
           const hivePriceOfAfrica = state.stats.prices.land.africa.price;
-          const hivePriceOfSouthAmerica = state.stats.prices.land.southAmerica.price;
+          const hivePriceOfSouthAmerica =
+            state.stats.prices.land.southAmerica.price;
           const conversionAsia = hivePriceOfAsia / theLastPrice;
           const conversionAfghanistan = hivePriceOfAfghanistan / theLastPrice;
           const conversionMexico = hivePriceOfMexico / theLastPrice;
@@ -979,6 +1155,45 @@ function startApp() {
       }
     });
   });
+
+  /*--------------------------------Claim Goodies---------------------------*/
+
+  /*// checks for qwoyn_plant and plants the seed
+    processor.on('claim_water', function(json, from) {
+
+        if(state.users[from] && state.users[from].claimed.water === false && state.users[from].hkwater > 0){
+            //check how much water they get
+            let totalWaterCount = state.users[from].hkwater
+            //send water
+            let waterString = ""+totalWaterCount
+            contract.generateToken(hivejs, "HKWATER", waterString, from)
+            //set claimed.water to true
+            state.users[from].claimed.water = true
+        }                
+    });
+
+    // checks for qwoyn_plant and plants the seed
+    processor.on('claim_avatar', function(json, from) {
+
+        if(state.users[from] && state.users[from].claimed.avatar === false && state.users[from].hkwater > 0){
+            //send avatar 1 and 2
+            contract.createAvatar(hivejs, "Magical Male", from)
+            contract.createAvatar(hivejs, "Magical Female", from)
+            //set claimed avatar to true
+            state.users[from].claimed.avatar = true
+        }                
+    });
+
+    // checks for qwoyn_plant and plants the seed
+    processor.on('claim_bud', function(json, from) {
+
+        if(state.users[from] && state.users[from].claimed.bud === false && state.users[from].hkwater > 0){
+            //send bud
+            contract.generateToken(hivejs, "BUDS", "1", from)
+            //set claimed avatar to true
+            state.users[from].claimed.bud = true
+        }                
+    });*/
 
   /*------------------------------- Farm Actions ---------------------------*/
 
