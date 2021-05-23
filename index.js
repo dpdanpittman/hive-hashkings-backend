@@ -163,10 +163,10 @@ app.use(cors());
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 54154164; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 54154466; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54154164;
+const ago = ENV.ago || 54154466;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 
 var client = new dhive.Client(
@@ -1519,6 +1519,7 @@ function startApp() {
   });
 
   processor.onOperation("transfer", async function (json, from) {
+
     if (json.to === username && json.amount.split(" ")[1] === "HIVE") {
       //if user does not exist in db create user and db entry
       if (!state.users[json.from]) {
@@ -1711,6 +1712,11 @@ function startApp() {
         const c = parseInt(amount);
         state.bal.c += c;
       }
+
+
+
+
+
     } else if (json.from === username) {
       const amount = parseInt(parseFloat(json.amount) * 1000);
       for (var i = 0; i < state.refund.length; i++) {
@@ -1721,6 +1727,7 @@ function startApp() {
         }
       }
     }
+
   });
 
   processor.onStreamingStart(function () {
@@ -1879,7 +1886,7 @@ var bot = {
 };
 var cron = require("node-cron");
 
-cron.schedule("*/5 * * * *", () => {
+cron.schedule("*/3 * * * *", () => {
   if (!sending) {
     checkPendings();
   } else {

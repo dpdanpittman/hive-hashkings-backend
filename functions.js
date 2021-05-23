@@ -115,7 +115,8 @@ const tohkvault = async (json, from, state) => {
   //Craft Consumable joints and boosters
   //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
   if (json.contractPayload.symbol == "BUDS") {
-    let type = json.contractPayload.memo;
+    let type = json.contractPayload.memo.split(" ")[0];
+    console.log("procesing send buds", type);
     let amountBuds = json.contractPayload.quantity;
     let amountBudsInt = parseInt(amountBuds, 10);
 
@@ -410,68 +411,68 @@ const nfttohkvaul = async (json, from, state) => {
         }, 1000);
       });
 
-      await contract
-        .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
-        .then(async () => {
-          await updateOrsetTransaction(
-            json.transaction_id,
-            "nfttohk-vault",
-            json,
-            from,
-            "process complete"
-          )
-            .then(async (red) => {})
-            .catch((e) => {
-              console.log("ocurrio un error", e);
-            });
-
-          if (!budAmount) {
-            await contract
-              .generateToken(hivejs, "BUDS", budAmount, from)
-              .then(() => {
-                console.log("sending buds", budAmount, from);
-              })
-              .catch(async (e) => {
-                //no pude enviar buds, guardando en pendiente para enviar
-                console.log(from + " it could not send buds", e);
-
-                state.refund.push([
-                  "customJson",
-                  "ssc-mainnet-hive",
-                  {
-                    contractName: "tokens",
-                    contractAction: "issue",
-                    contractPayload: {
-                      to: from,
-                      symbol: "BUDS",
-                      quantity: budAmount,
-                    },
-                  },
-                ]);
+      if (plotIDString) {
+        await contract
+          .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
+          .then(async () => {
+            await updateOrsetTransaction(
+              json.transaction_id,
+              "nfttohk-vault",
+              json,
+              from,
+              "process complete"
+            )
+              .then(async (red) => {})
+              .catch((e) => {
+                console.log("ocurrio un error", e);
               });
-          } else {
-            ("reparando plot pero no envio buds porque ya seguro envie");
-          }
-        })
-        .catch(async (e) => {
-          await updateorSetPendingTransaction(
-            json.transaction_id,
-            "nfttohk-vault",
-            json,
-            from,
-            from + "it couldnt update plot " + plotIDString
-          );
 
-          console.log(
-            from +
-              "it couldnt update plot " +
-              plotIDString +
-              "setting on pending",
-            e
-          );
-        });
+            if (!budAmount) {
+              await contract
+                .generateToken(hivejs, "BUDS", budAmount, from)
+                .then(() => {
+                  console.log("sending buds", budAmount, from);
+                })
+                .catch(async (e) => {
+                  //no pude enviar buds, guardando en pendiente para enviar
+                  console.log(from + " it could not send buds", e);
 
-      return;
+                  state.refund.push([
+                    "customJson",
+                    "ssc-mainnet-hive",
+                    {
+                      contractName: "tokens",
+                      contractAction: "issue",
+                      contractPayload: {
+                        to: from,
+                        symbol: "BUDS",
+                        quantity: budAmount,
+                      },
+                    },
+                  ]);
+                });
+            } else {
+              ("reparando plot pero no envio buds porque ya seguro envie");
+            }
+          })
+          .catch(async (e) => {
+            await updateorSetPendingTransaction(
+              json.transaction_id,
+              "nfttohk-vault",
+              json,
+              from,
+              from + "it couldnt update plot " + plotIDString
+            );
+
+            console.log(
+              from +
+                "it couldnt update plot " +
+                plotIDString +
+                "setting on pending",
+              e
+            );
+          });
+      }
     }
 
     //Rent Subdivision <---- coming soon
