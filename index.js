@@ -163,10 +163,10 @@ app.use(cors());
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 54152872; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 54154164; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54152872;
+const ago = ENV.ago || 54154164;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 
 var client = new dhive.Client(
@@ -1004,7 +1004,6 @@ function startWith(hash) {
 
 var sending = false;
 
-  
 checkPendings = async () => {
   console.log("checking... ");
   sending = true;
@@ -1012,66 +1011,54 @@ checkPendings = async () => {
     .then(async (resxp) => {
       for (let index = 0; index < resxp.length; index++) {
         let resx = resxp[index];
-        await ssc
-          .getTransactionInfo(resx.transaction_id)
-          .then(async (res) => {
-            let errors = null;
+        await ssc.getTransactionInfo(resx.transaction_id).then(async (res) => {
+          let errors = null;
 
-            if (res) {
-              try {
-                errors = JSON.parse("" + res.logs).errors;
-              } catch (e) {
-                errors = false;
-              }
-
-              if (errors) {
-
-                console.error("no se pudo procesar otra vez la transaccion", errors);
-
-                await updateTransaction(resx.transaction_id)
-                  .then((red) => {
-                    console.log("actualizando con exito transaccion erronea");
-                  })
-                  .catch((e) => {
-                    console.log("ocurrio un error", e);
-                  });
-
-              } else {
-
-
-                switch (resx.type) {
-                  case "tohk-vault":
-                    console.log("processing tohk-vault pending");
-
-                    await tohkvault(
-                      JSON.parse(resx.json),
-                      resx.from,
-                      state
-                    );
-
-                    break;
-
-                  case "nfttohk-vault":
-                    console.log("processing  nft tohk-vault pending");
-
-                    await nfttohkvaul(
-                      JSON.parse(resx.json),
-                      resx.from,
-                      state
-                    );
-
-                    break;
-                }  
-
-              }
-            } else {
-              console.log(
-                "no se pudo procesar otra vez esta transaccion",
-                res,
-                resx
-              );
+          if (res) {
+            try {
+              errors = JSON.parse("" + res.logs).errors;
+            } catch (e) {
+              errors = false;
             }
-          });
+
+            if (errors) {
+              console.error(
+                "no se pudo procesar otra vez la transaccion",
+                errors
+              );
+
+              await updateTransaction(resx.transaction_id)
+                .then((red) => {
+                  console.log("actualizando con exito transaccion erronea");
+                })
+                .catch((e) => {
+                  console.log("ocurrio un error", e);
+                });
+            } else {
+              switch (resx.type) {
+                case "tohk-vault":
+                  console.log("processing tohk-vault pending");
+
+                  await tohkvault(JSON.parse(resx.json), resx.from, state);
+
+                  break;
+
+                case "nfttohk-vault":
+                  console.log("processing  nft tohk-vault pending");
+
+                  await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
+
+                  break;
+              }
+            }
+          } else {
+            console.log(
+              "no se pudo procesar otra vez esta transaccion",
+              res,
+              resx
+            );
+          }
+        });
       }
       sending = false;
     })
@@ -1080,7 +1067,6 @@ checkPendings = async () => {
       console.log("ERROR ON GET ALL TRANSACTION", e);
     });
 };
-
 
 function startApp() {
   processor = steemState(client, dhive, startingBlock, 10, prefix);
@@ -1254,7 +1240,30 @@ function startApp() {
           if (json.hasOwnProperty("contractName")) {
             let valid = await getIsPending(from, JSON.stringify(json));
             if (valid.response) {
-              console.log("this action is ", valid.status);
+            
+              if (json.contractName != "nft") {
+                if (
+                  json.contractPayload.symbol === "HKWATER" &&
+                  json.contractPayload.memo
+                ) {
+                  console.log(from,"this action is ", valid.status,json.contractPayload.memo);
+                  state.refund.push([
+                    "customJson",
+                    "ssc-mainnet-hive",
+                    {
+                      contractName: "tokens",
+                      contractAction: "transfer",
+                      contractPayload: {
+                        symbol: "HKWATER",
+                        to: whoFrom,
+                        quantity: amountString,
+                        memo: "watering has status "+valid.status+", please dont try again.",
+                      },
+                    },
+                  ]);
+
+                }
+              }
             } else {
               if (json.contractName == "nft") {
                 await nfttohkvaul(json, from, state);

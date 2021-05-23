@@ -401,7 +401,6 @@ const nfttohkvaul = async (json, from, state) => {
 
       if (!budAmount) {
         console.log("seed no esta en ninguna parte");
-        return;
       }
 
       //send harvested buds to user
@@ -426,32 +425,33 @@ const nfttohkvaul = async (json, from, state) => {
               console.log("ocurrio un error", e);
             });
 
-          await contract
-            .generateToken(hivejs, "BUDS", budAmount, from)
-            .then(() => {
-              console.log("sending buds", budAmount, from);
-            })
-            .catch(async (e) => {
-              //no pude enviar buds, guardando en pendiente para enviar
-              console.log(from + " it could not send buds", e);
+          if (!budAmount) {
+            await contract
+              .generateToken(hivejs, "BUDS", budAmount, from)
+              .then(() => {
+                console.log("sending buds", budAmount, from);
+              })
+              .catch(async (e) => {
+                //no pude enviar buds, guardando en pendiente para enviar
+                console.log(from + " it could not send buds", e);
 
-
-              state.refund.push([
-                "customJson",
-                "ssc-mainnet-hive",
-                {
-                  contractName: "tokens",
-                  contractAction: "issue",
-                  contractPayload: {
-                    to: from,
-                    symbol: "BUDS",
-                    quantity: budAmount,
+                state.refund.push([
+                  "customJson",
+                  "ssc-mainnet-hive",
+                  {
+                    contractName: "tokens",
+                    contractAction: "issue",
+                    contractPayload: {
+                      to: from,
+                      symbol: "BUDS",
+                      quantity: budAmount,
+                    },
                   },
-                },
-              ]);
-
-
-            });
+                ]);
+              });
+          } else {
+            ("reparando plot pero no envio buds porque ya seguro envie");
+          }
         })
         .catch(async (e) => {
           await updateorSetPendingTransaction(
@@ -471,7 +471,7 @@ const nfttohkvaul = async (json, from, state) => {
           );
         });
 
-        return;
+      return;
     }
 
     //Rent Subdivision <---- coming soon
@@ -483,12 +483,7 @@ const nfttohkvaul = async (json, from, state) => {
       let jointString =
         "" + (jointTypes[0] ? jointTypes[0] : jointTypesHKVAULT[0]);
       let jointStringHKVAULT = "" + jointTypesHKVAULT[0];
-      console.log(
-        "this user",
-        from,
-        "try smoke",
-        jointString
-      );
+      console.log("this user", from, "try smoke", jointString);
 
       let xptoUpdate = null;
       if (jointString == "pinner") {
@@ -515,7 +510,11 @@ const nfttohkvaul = async (json, from, state) => {
       if (xptoUpdate) {
         await updateXP(state, xptoUpdate, from, jointID, json);
       } else {
-        console.log("intente actualizar xp pero no pude ", jointString , "tal vez no estoy intentando fumar");
+        console.log(
+          "intente actualizar xp pero no pude ",
+          jointString,
+          "tal vez no estoy intentando fumar"
+        );
       }
     } catch (error) {
       console.log("error al fumar smoke", error);

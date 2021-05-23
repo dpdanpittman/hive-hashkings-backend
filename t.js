@@ -8,6 +8,7 @@ hivejs.config.set("alternative_api_endpoints", [
 ]);
 var jp = require("jsonpath");
 require("dotenv").config();
+
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
     var val = item.owner;
@@ -29,6 +30,8 @@ function sort(miarray) {
   });
 }
 
+
+/*
 let a = contract.testseeds();
 let b = [];
 for (let index = 0; index < a.length; index++) {
@@ -42,7 +45,7 @@ for (let index = 0; index < a.length; index++) {
   }
 }
 
-console.log(b)
+console.log(b)  */
 
 /*
 (async () => {
@@ -73,11 +76,11 @@ console.log(b)
     });
 })();
 */
-/*
-contract.generateToken(hivejs, "BUDS", "7724", "dominic23").then(e=>{
+
+contract.generateToken(hivejs, "HKWATER", "7724", "chocolatoso").then(e=>{
   console.log(e);
 })
-*/
+
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
