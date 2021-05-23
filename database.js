@@ -96,7 +96,6 @@ async function getIsPending(user, json) {
 
   if (transfer) {
     for (let index = 0; index < transfer.length; index++) {
-      console.log(transfer[index]);
       let temp = JSON.parse(transfer[index].json);
       temp.transaction_id = null;
       temp.block_num = null;
