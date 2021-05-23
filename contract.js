@@ -22,21 +22,21 @@ const SEEDS = [
       WATER: 12406,
       PR: { min: 7550, max: 8000 }, //Production range
       NAME: "Aceh",
-      chance: 66,
+      chance: 33,
     },
     1: {
       SPT: 2, //Sprouting time
       WATER: 12096,
       PR: { min: 7250, max: 7800 }, //Production range
       NAME: "Thai",
-      chance: 67,
+      chance: 33,
     },
     2: {
       SPT: 2, //Sprouting time
       WATER: 11328,
       PR: { min: 7000, max: 7300 }, //Production range
       NAME: "Thai Chocolate",
-      chance: 67,
+      chance: 33,
     },
   },
   {
@@ -61,28 +61,28 @@ const SEEDS = [
       WATER: 7608,
       PR: { min: 4600, max: 4900 }, //Production range
       NAME: "Swazi Gold",
-      chance: 75,
+      chance: 25,
     },
     1: {
       SPT: 3, //Sprouting time
       WATER: 6048,
       PR: { min: 3500, max: 3900 }, //Production range
       NAME: "Kilimanjaro",
-      chance: 75,
+      chance: 25,
     },
     2: {
       SPT: 4, //Sprouting time
       WATER: 4544,
       PR: { min: 2575, max: 2925 }, //Production range
       NAME: "Durban Poison",
-      chance: 75,
+      chance: 25,
     },
     3: {
       SPT: 4, //Sprouting time
       WATER: 3904,
       PR: { min: 2175, max: 2525 }, //Production range
       NAME: "Malawi",
-      chance: 75,
+      chance: 25,
     },
   },
   {
@@ -91,28 +91,28 @@ const SEEDS = [
       WATER: 3360,
       PR: { min: 1825, max: 2175 }, //Production range
       NAME: "Hindu Kush",
-      chance: 75,
+      chance: 25,
     },
     1: {
       SPT: 5, //Sprouting time
       WATER: 2800,
       PR: { min: 1450, max: 1800 }, //Production range
       NAME: "Afghani",
-      chance: 75,
+      chance: 25,
     },
     2: {
       SPT: 5, //Sprouting time
       WATER: 1680,
       PR: { min: 850, max: 1100 }, //Production range
       NAME: "Lashkar Gah",
-      chance: 75,
+      chance: 25,
     },
     3: {
       SPT: 6, //Sprouting time
       WATER: 1296,
       PR: { min: 600, max: 850 }, //Production range
       NAME: "Mazar I Sharif",
-      chance: 75,
+      chance: 25,
     },
   },
   {
@@ -125,14 +125,14 @@ const SEEDS = [
     },
   },
   {
-    1: {
+    0: {
       SPT: 7, //Sprouting time
       WATER: 560,
       PR: { min: 270, max: 350 }, //Production range
       NAME: "Colombian Gold",
       chance: 50,
     },
-    2: {
+    1: {
       SPT: 7, //Sprouting time
       WATER: 504,
       PR: { min: 250, max: 325 }, //Production range
@@ -158,11 +158,11 @@ const getPlot = () => {
   } else if (typeRoll > 85) {
     //15
     type = 4;
-  } else if (typeRoll > 75) {
+  } else if (typeRoll > 70) {
     //25
     type = 5;
-  } else if (typeRoll > 60) {
-    //25
+  } else if (typeRoll > 65) {
+    //40
     type = 6;
   }
 
@@ -365,18 +365,7 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
   let properties = {};
   if (type == 1) {
     let plot = SEEDS[0];
-    let seed = plot[Object.keys(plot).length - 1];
-    let typeRoll = Math.floor(Math.random() * 100) + 1;
-
-    let found = false;
-    for (let index = 0; index < Object.keys(plot).length; index++) {
-      const element = plot[index];
-      if (!found && typeRoll > element.chance) {
-        seed = element;
-        found = true;
-      }
-    }
-
+    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
     properties.WATER = seed.WATER;
@@ -393,18 +382,7 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 2) {
     let plot = SEEDS[1];
-    let seed = plot[Object.keys(plot).length - 1];
-    let typeRoll = Math.floor(Math.random() * 100) + 1;
-
-    let found = false;
-    for (let index = 0; index < Object.keys(plot).length; index++) {
-      const element = plot[index];
-      if (!found && typeRoll > element.chance) {
-        seed = element;
-        found = true;
-      }
-    }
-
+    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
     properties.WATER = seed.WATER;
@@ -421,18 +399,7 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 3) {
     let plot = SEEDS[2];
-    let seed = plot[Object.keys(plot).length - 1];
-    let typeRoll = Math.floor(Math.random() * 100) + 1;
-
-    let found = false;
-    for (let index = 0; index < Object.keys(plot).length; index++) {
-      const element = plot[index];
-      if (!found && typeRoll > element.chance) {
-        seed = element;
-        found = true;
-      }
-    }
-
+    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
     properties.WATER = seed.WATER;
@@ -449,17 +416,7 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 4) {
     let plot = SEEDS[3];
-    let seed = plot[Object.keys(plot).length - 1];
-    let typeRoll = Math.floor(Math.random() * 100) + 1;
-
-    let found = false;
-    for (let index = 0; index < Object.keys(plot).length; index++) {
-      const element = plot[index];
-      if (!found && typeRoll > element.chance) {
-        seed = element;
-        found = true;
-      }
-    }
+    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
 
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
@@ -477,17 +434,7 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 5) {
     let plot = SEEDS[4];
-    let seed = plot[Object.keys(plot).length - 1];
-    let typeRoll = Math.floor(Math.random() * 100) + 1;
-
-    let found = false;
-    for (let index = 0; index < Object.keys(plot).length; index++) {
-      const element = plot[index];
-      if (!found && typeRoll > element.chance) {
-        seed = element;
-        found = true;
-      }
-    }
+    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
 
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
@@ -505,17 +452,7 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 6) {
     let plot = SEEDS[5];
-    let seed = plot[Object.keys(plot).length - 1];
-    let typeRoll = Math.floor(Math.random() * 100) + 1;
-
-    let found = false;
-    for (let index = 0; index < Object.keys(plot).length; index++) {
-      const element = plot[index];
-      if (!found && typeRoll > element.chance) {
-        seed = element;
-        found = true;
-      }
-    }
+    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
 
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
@@ -3074,6 +3011,15 @@ async function distributeAvatar(hive, user) {
   });
 }
 
+
+function testseeds(){
+  let instances = []
+  for (let i = 0; i < 1000; i++) {
+    instances.push(generateOneRandomSeed("chocolatoso", getPlot(), SEEDS));
+  }
+  return instances;
+}
+
 module.exports = contract = {
   createSeed,
   createOneSeed,
@@ -3105,5 +3051,6 @@ module.exports = contract = {
   distributeSubdividePlots,
   getAllUsersHaveAPlot,
   distributeAvatar,
-  getAllAvatar
+  getAllAvatar,
+  testseeds
 };

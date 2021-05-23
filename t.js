@@ -28,6 +28,22 @@ function sort(miarray) {
     return 0;
   });
 }
+
+let a = contract.testseeds();
+let b = [];
+for (let index = 0; index < a.length; index++) {
+  if (
+    b.find((e) => {
+      if (e == a[index].properties.NAME) return e;
+    })
+  ) {
+  } else {
+    b.push(a[index].properties.NAME);
+  }
+}
+
+console.log(b)
+
 /*
 (async () => {
   contract
@@ -316,7 +332,6 @@ contract
   });
 })();*/
 
-
 /*
 (async () => {
   contract.getAllAvatar(axios).then(async (r) => {
@@ -351,7 +366,7 @@ contract
 })();
 
 
-*/ 
+*/
 
 /*
 

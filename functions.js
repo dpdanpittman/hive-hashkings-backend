@@ -4,6 +4,8 @@ const {
   setTransaction,
   getAllTransaction,
   updateTransaction,
+  updateorSetPendingTransaction,
+  updateOrsetTransaction,
 } = require("./database");
 
 var jp = require("jsonpath");
@@ -42,13 +44,32 @@ const tohkvault = async (json, from, state) => {
         let seedIdString = "" + seedID;
         // set water to new amount
 
-        let log = await contract.updateNft(hivejs, seedIdString, {
-          WATER: waterRemains,
-        });
-
-        console.log("update water nft", seedIdString);
-        let x = Object.assign({}, { r: log });
-        await saveLog("tohk-vault", json, from, JSON.stringify(x));
+        await contract
+          .updateNft(hivejs, seedIdString, {
+            WATER: waterRemains,
+          })
+          .then(async (response) => {
+            await updateOrsetTransaction(
+              json.transaction_id,
+              "tohk-vault",
+              json,
+              from,
+              "process complete"
+            )
+              .then(async (red) => {})
+              .catch((e) => {
+                console.log("ocurrio un error", e);
+              });
+          })
+          .catch(async (e) => {
+            await updateorSetPendingTransaction(
+              json.transaction_id,
+              "tohk-vault",
+              json,
+              from,
+              "error on update nft seed to set water"
+            );
+          });
       } else {
         state.refund.push([
           "customJson",
@@ -66,22 +87,12 @@ const tohkvault = async (json, from, state) => {
         ]);
       }
     } catch (error) {
-      await saveLog(
-        "tohk-vault",
-        json,
-        from,
-        from +
-          " had an issue watering seedID" +
-          json.contractPayload.memo +
-          " refunding " +
-          error
-      );
-
       console.log(
         from +
           " had an issue watering seedID" +
           json.contractPayload.memo +
-          " refunding"
+          " refunding",
+        error
       );
 
       state.refund.push([
@@ -108,6 +119,8 @@ const tohkvault = async (json, from, state) => {
     let amountBuds = json.contractPayload.quantity;
     let amountBudsInt = parseInt(amountBuds, 10);
 
+    let consumable = null;
+
     if (
       state.users[from] &&
       json.contractPayload.memo == "pinner" &&
@@ -115,14 +128,7 @@ const tohkvault = async (json, from, state) => {
       state.users[from].lvl >= 1
     ) {
       // create pinner
-      let log = await contract.createConsumable(hivejs, "Pinner", type, from);
-      let x = Object.assign({}, { r: log });
-      await saveLog(
-        "tohk-vault",
-        JSON.stringify(json),
-        from,
-        JSON.stringify(x)
-      );
+      consumable = "Pinner";
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "hempWrappedJoint" &&
@@ -130,39 +136,14 @@ const tohkvault = async (json, from, state) => {
       state.users[from].lvl >= 15
     ) {
       // create hempwrappedjoint
-      let log = await contract.createConsumable(
-        hivejs,
-        "Hemp Wrapped Joint",
-        type,
-        from
-      );
-      let x = Object.assign({}, { r: log });
-      await saveLog(
-        "tohk-vault",
-        JSON.stringify(json),
-        from,
-        JSON.stringify(x)
-      );
+      consumable = "Hemp Wrapped Joint";
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "crossJoint" &&
       amountBudsInt === 1000 &&
       state.users[from].lvl >= 30
     ) {
-      // create crossjoint
-      let log = await contract.createConsumable(
-        hivejs,
-        "Cross Joint",
-        type,
-        from
-      );
-      let x = Object.assign({}, { r: log });
-      await saveLog(
-        "tohk-vault",
-        JSON.stringify(json),
-        from,
-        JSON.stringify(x)
-      );
+      consumable = "Cross Joint";
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "blunt" &&
@@ -170,14 +151,7 @@ const tohkvault = async (json, from, state) => {
       state.users[from].lvl >= 45
     ) {
       // create blunt
-      let log = await contract.createConsumable(hivejs, "Blunt", type, from);
-      let x = Object.assign({}, { r: log });
-      await saveLog(
-        "tohk-vault",
-        JSON.stringify(json),
-        from,
-        JSON.stringify(x)
-      );
+      consumable = "Blunt";
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "hempWrappedBlunt" &&
@@ -185,19 +159,7 @@ const tohkvault = async (json, from, state) => {
       state.users[from].lvl >= 60
     ) {
       // create hempwrappedblunt
-      let log = await contract.createConsumable(
-        hivejs,
-        "Hemp Wrapped Blunt",
-        type,
-        from
-      );
-      let x = Object.assign({}, { r: log });
-      await saveLog(
-        "tohk-vault",
-        JSON.stringify(json),
-        from,
-        JSON.stringify(x)
-      );
+      consumable = "Hemp Wrapped Blunt";
     } else if (
       state.users[from] &&
       json.contractPayload.memo == "twaxJoint" &&
@@ -205,20 +167,48 @@ const tohkvault = async (json, from, state) => {
       state.users[from].lvl >= 75
     ) {
       // set plot to subdivided
-      let log = await contract.createConsumable(
-        hivejs,
-        "Twax Joint",
-        type,
-        from
-      );
-      let x = Object.assign({}, { r: log });
-      await saveLog(
-        "tohk-vault",
-        JSON.stringify(json),
-        from,
-        JSON.stringify(x)
-      );
-    } else if (
+      consumable = "Twax Joint";
+    }
+
+    if (consumable) {
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 1000);
+      });
+
+      await contract
+        .createConsumable(hivejs, consumable, type, from)
+        .then(async (response) => {
+          await updateOrsetTransaction(
+            json.transaction_id,
+            "tohk-vault",
+            json,
+            from,
+            "process complete"
+          )
+            .then(async (red) => {
+              console.log("sending ", consumable, "to ", from);
+            })
+            .catch((e) => {
+              console.log("ocurrio un error", e);
+            });
+        })
+        .catch(async (e) => {
+          console.log("error al enviar consumable", e);
+          await updateorSetPendingTransaction(
+            json.transaction_id,
+            "tohk-vault",
+            json,
+            from,
+            "error on sending " + consumable + " to " + from
+          );
+        });
+    }
+
+    /*
+    
+    else if (
       state.users[from] &&
       json.contractPayload.memo == "lvl1_booster" &&
       amountBudsInt === 10
@@ -262,7 +252,7 @@ const tohkvault = async (json, from, state) => {
       amountBudsInt === 210
     ) {
       // set plot to subdivided
-      let log = awaitcontract.createConsumable(
+      let log = await contract.createConsumable(
         hivejs,
         "Level 3 Booster",
         type,
@@ -281,7 +271,7 @@ const tohkvault = async (json, from, state) => {
       amountBudsInt === 2000
     ) {
       // set plot to subdivided
-      let log = awaitcontract.createConsumable(
+      let log = await contract.createConsumable(
         hivejs,
         "Level 4 Booster",
         type,
@@ -319,7 +309,7 @@ const tohkvault = async (json, from, state) => {
       amountBudsInt === 50
     ) {
       // set plot to subdivided
-      let log = awaitcontract.createConsumable(
+      let log = await contract.createConsumable(
         hivejs,
         "Level 6 Booster",
         type,
@@ -332,7 +322,7 @@ const tohkvault = async (json, from, state) => {
         from,
         JSON.stringify(x)
       );
-    }
+    } */
   }
 };
 
@@ -375,11 +365,6 @@ const nfttohkvaul = async (json, from, state) => {
       `$.joints[?(@.id==${jointID})].properties.CONSUMABLETYPE`
     );
 
-    let boosterType = jp.query(
-      state.users[from],
-      `$.boosters[?(@.id==${boosterID})].properties.NAME`
-    );
-
     if (
       state.users[from] ||
       (state.users["hk-vault"] && seedExists) ||
@@ -403,51 +388,7 @@ const nfttohkvaul = async (json, from, state) => {
 
       console.log("cheking", budAmount, budAmountVault);
 
-      if (budAmount) {
-        //send harvested buds to user
-        await new Promise((resolve) => {
-          setTimeout(() => {
-            resolve();
-          }, 2000);
-        });
-
-        await contract
-          .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
-          .then(async () => {
-            await contract
-              .generateToken(hivejs, "BUDS", budAmount, from)
-              .then(() => {
-                console.log("sending buds by budAmount", budAmount, from);
-              })
-              .catch(async (e) => {
-                await saveLog(
-                  "nfttohkvaul",
-                  json,
-                  from,
-                  from + " it could not send buds"
-                );
-                console.log(from + " it could not send buds", e);
-              });
-          })
-          .catch(async (e) => {
-            await saveLog(
-              "nfttohkvaul",
-              json,
-              from,
-              from + "it couldnt update plot " + plotIDString
-            );
-
-            await setTransaction(
-              json.transaction_id,
-              "nfttohk-vault",
-              json,
-              from,
-              "it couldnt update plot"
-            );
-
-            console.log("it couldnt update plot " + plotIDString, e);
-          });
-      } else if (budAmountVault) {
+      if (budAmountVault) {
         plotID = jp.query(
           state.users["hk-vault"],
           `$.seeds[?(@.id==${seedID})].properties.PLOTID`
@@ -455,44 +396,82 @@ const nfttohkvaul = async (json, from, state) => {
 
         plotIDString = "" + plotID;
 
-        await new Promise((resolve) => {
-          setTimeout(() => {
-            resolve();
-          }, 2000);
+        budAmount = budAmountVault;
+      }
+
+      if (!budAmount) {
+        console.log("seed no esta en ninguna parte");
+        return;
+      }
+
+      //send harvested buds to user
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 1000);
+      });
+
+      await contract
+        .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
+        .then(async () => {
+          await updateOrsetTransaction(
+            json.transaction_id,
+            "nfttohk-vault",
+            json,
+            from,
+            "process complete"
+          )
+            .then(async (red) => {})
+            .catch((e) => {
+              console.log("ocurrio un error", e);
+            });
+
+          await contract
+            .generateToken(hivejs, "BUDS", budAmount, from)
+            .then(() => {
+              console.log("sending buds", budAmount, from);
+            })
+            .catch(async (e) => {
+              //no pude enviar buds, guardando en pendiente para enviar
+              console.log(from + " it could not send buds", e);
+
+
+              state.refund.push([
+                "customJson",
+                "ssc-mainnet-hive",
+                {
+                  contractName: "tokens",
+                  contractAction: "issue",
+                  contractPayload: {
+                    to: from,
+                    symbol: "BUDS",
+                    quantity: budAmount,
+                  },
+                },
+              ]);
+
+
+            });
+        })
+        .catch(async (e) => {
+          await updateorSetPendingTransaction(
+            json.transaction_id,
+            "nfttohk-vault",
+            json,
+            from,
+            from + "it couldnt update plot " + plotIDString
+          );
+
+          console.log(
+            from +
+              "it couldnt update plot " +
+              plotIDString +
+              "setting on pending",
+            e
+          );
         });
 
-        await contract
-          .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
-          .then(async () => {
-            await contract
-              .generateToken(hivejs, "BUDS", budAmountVault, from)
-              .then(() => {
-                console.log(
-                  "enviando buds desde budAmountVault",
-                  budAmountVault,
-                  from
-                );
-              })
-              .catch(async (e) => {
-                await saveLog(
-                  "nfttohkvaul",
-                  json,
-                  from,
-                  from + " it could not send buds"
-                );
-                console.log(from + " it could not send buds", e);
-              });
-          })
-          .catch(async (e) => {
-            await saveLog(
-              "nfttohkvaul",
-              json,
-              from,
-              from + "it couldnt update plot " + plotIDString
-            );
-            console.log("it couldnt update plot " + plotIDString, e);
-          });
-      }
+        return;
     }
 
     //Rent Subdivision <---- coming soon
@@ -501,37 +480,42 @@ const nfttohkvaul = async (json, from, state) => {
     //smoke joint
     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
     try {
-      let jointString = "" +  ( jointTypes[0] ?  jointTypes[0] : jointTypesHKVAULT[0] ) ;
-      let jointStringHKVAULT = "" + jointTypesHKVAULT[0] ;
-      console.log("this user", from , "try smoke", jointString, jointTypes, "he send this joinid", jointID , "hk-vault sai", jointStringHKVAULT, jointTypesHKVAULT);
+      let jointString =
+        "" + (jointTypes[0] ? jointTypes[0] : jointTypesHKVAULT[0]);
+      let jointStringHKVAULT = "" + jointTypesHKVAULT[0];
+      console.log(
+        "this user",
+        from,
+        "try smoke",
+        jointString
+      );
+
+      let xptoUpdate = null;
       if (jointString == "pinner") {
         // give xp
-        await updateXP(state, state.stats.joints.pinner, from, jointID);
+        xptoUpdate = state.stats.joints.pinner;
       } else if (jointTypes == "hempWrappedJoint") {
         // give xp
-        await updateXP(
-          state,
-          state.stats.joints.hempWrappedJoint,
-          from,
-          jointID
-        );
+        xptoUpdate = state.stats.joints.hempWrappedJoint;
       } else if (jointTypes == "crossJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.crossJoint, from, jointID);
+
+        xptoUpdate = state.stats.joints.crossJoint;
       } else if (jointTypes == "blunt") {
         // give xp
-        await updateXP(state, state.stats.joints.blunt, from, jointID);
+        xptoUpdate = state.stats.joints.blunt;
       } else if (jointTypes == "hempWrappedBlunt") {
         // give xp
-        await updateXP(
-          state,
-          state.stats.joints.hempWrappedBlunt,
-          from,
-          jointID
-        );
+        xptoUpdate = state.stats.joints.hempWrappedBlunt;
       } else if (jointTypes == "twaxJoint") {
         // give xp
-        await updateXP(state, state.stats.joints.twaxJoint, from, jointID);
+        xptoUpdate = state.stats.joints.twaxJoint;
+      }
+
+      if (xptoUpdate) {
+        await updateXP(state, xptoUpdate, from, jointID, json);
+      } else {
+        console.log("intente actualizar xp pero no pude ", jointString , "tal vez no estoy intentando fumar");
       }
     } catch (error) {
       console.log("error al fumar smoke", error);
@@ -599,7 +583,7 @@ const nfttohkvaul = async (json, from, state) => {
   }
 };
 
-async function updateXP(state, xp, from, joinID) {
+async function updateXP(state, xp, from, joinID, json) {
   state.users[from].joints = state.users[from].joints.filter(function (ele) {
     return ele.id != joinID;
   });
@@ -619,27 +603,17 @@ async function updateXP(state, xp, from, joinID) {
         "no se pudo actualizar el nft para subir la xp",
         xp,
         from,
-        "intentando otra vez",
+        "regresando operacion a pediente",
         e
       );
-      await new Promise((resolve) => {
-        setTimeout(() => {
-          resolve();
-        }, 2000);
-      });
-      await contract
-        .updateNft(hivejs, "" + state.users[from].activeAvatar.id, {
-          XP: state.users[from].activeAvatar.properties.XP,
-        })
-        .then(() => {})
-        .catch(async (e) => {
-          console.log(
-            "al  intentar otra vez no se pudo actualizar la xp",
-            xp,
-            from,
-            e
-          );
-        });
+
+      await updateorSetPendingTransaction(
+        json.transaction_id,
+        "nfttohk-vault",
+        json,
+        from,
+        "error on update xp"
+      );
     });
 }
 

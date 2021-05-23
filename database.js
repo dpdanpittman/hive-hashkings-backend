@@ -9,41 +9,109 @@ async function saveLog(type, json, from, message) {
   }).save();
 }
 
-async function setTransaction(transaction_id, type, json, from, message) {
-  
-  
-  let transfer = await transferModel.findOne({transaction_id})
+async function setTransaction(transaction_id, type, json, from, message, status = "pending") {
+  let transfer = await transferModel.findOne({ transaction_id });
 
-  if(!transfer){
+  if (!transfer) {
     return await new transferModel({
       transaction_id,
       type,
       json: JSON.stringify(json),
       from,
       message,
-      status: "pending",
+      status: status,
     }).save();
-  
-  }else{
+  } else {
     console.log("transaccion existe no puedo guardarla otra vez");
   }
-
-  
-
 }
 
 async function updateTransaction(id) {
-  return await transferModel
-    .updateOne({ transaction_id: id }, { status: "complete" })
+  return await transferModel.updateOne(
+    { transaction_id: id },
+    { status: "complete" }
+  );
 }
 
-async function returnToPending(id){
-  return await transferModel
-    .updateOne({ transaction_id: id }, { status: "pending" })
+
+async function updateOrsetTransaction(transaction_id, type, json, from, message) {
+  let transfer = await transferModel.findOne({ transaction_id });
+
+  if (!transfer) {
+    await setTransaction(transaction_id, type, json, from, message, "complete");
+    return true;
+  } else {
+    await transferModel.updateOne(
+      { transaction_id: transaction_id },
+      { status: "complete" }
+    );
+    return true;
+  }
+}
+
+
+async function updateorSetPendingTransaction(
+  transaction_id,
+  type,
+  json,
+  from,
+  message
+) {
+  let transfer = await transferModel.findOne({ transaction_id });
+
+  if (!transfer) {
+    await setTransaction(transaction_id, type, json, from, "setting  pending transaction for failure execution");
+    return true;
+  } else {
+    await transferModel.updateOne(
+      { transaction_id: transaction_id },
+      { status: "pending" }
+    );
+    return true;
+  }
+
+  return false;
+}
+
+async function returnToPending(id) {
+  return await transferModel.updateOne(
+    { transaction_id: id },
+    { status: "pending" }
+  );
 }
 
 async function getAllTransaction() {
   return await transferModel.find({ status: "pending" });
+}
+
+async function getIsPending(user, json) {
+  let jsont = JSON.parse(json);
+
+  jsont.transaction_id = null;
+  jsont.block_num = null;
+
+  jsont = JSON.stringify(jsont);
+
+  let transfer = await transferModel.find({ from: user });
+
+  if (transfer) {
+    for (let index = 0; index < transfer.length; index++) {
+      console.log(transfer[index]);
+      let temp = JSON.parse(transfer[index].json);
+      temp.transaction_id = null;
+      temp.block_num = null;
+
+      temp = JSON.stringify(temp);
+
+      if (temp == jsont) {
+        return { response: true, status: transfer[index].status };
+      }
+    }
+  } else {
+    return { response: false };
+  }
+
+  return { response: false };
 }
 
 module.exports = {
@@ -51,5 +119,8 @@ module.exports = {
   setTransaction,
   getAllTransaction,
   updateTransaction,
-  returnToPending
+  returnToPending,
+  getIsPending,
+  updateorSetPendingTransaction,
+  updateOrsetTransaction
 };

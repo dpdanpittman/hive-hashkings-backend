@@ -61,6 +61,7 @@ const {
   setTransaction,
   getAllTransaction,
   updateTransaction,
+  getIsPending,
 } = require("./database");
 
 const {
@@ -111,13 +112,14 @@ const credentials = {
 };
 
 // Starting both http & https servers
+
 const httpServer = http.createServer(app);
-const httpsServer = https.createServer(credentials, app);
 
 httpServer.listen(80, () => {
   console.log("HTTP Server running on port 80");
 });
 
+const httpsServer = https.createServer(credentials, app);
 httpsServer.listen(443, () => {
   console.log("HTTPS Server running on port 443");
 });
@@ -159,12 +161,14 @@ app.use(cors());
 });*/
 
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
+
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 54043499; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 54151728; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54043499;
+const ago = ENV.ago || 54151728;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
+
 var client = new dhive.Client(
   [
     "https://api.deathwing.me",
@@ -215,7 +219,6 @@ function dynStart(account) {
     function (err, result) {
       if (err) {
         console.log(err);
-        dynStart("hashkings");
       } else {
         let ebus = result.filter((tx) => tx[1].op[1].id === "qwoyn_report");
         for (i = ebus.length - 1; i >= 0; i--) {
@@ -736,7 +739,9 @@ function startWith(hash) {
 //entire state.json output
 app.get("/", (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
-  res.send(JSON.stringify(state, null, 3));
+  let status = Object.assign({}, state);
+  status.users = [];
+  res.send(JSON.stringify(status, null, 3));
 });
 
 app.get("/u/:user", (req, res, next) => {
@@ -747,7 +752,6 @@ app.get("/u/:user", (req, res, next) => {
     res.send(JSON.stringify(state.users[user], null, 3));
   } catch (error) {}
 });
-
 
 app.get("/utest/:user", async (req, res, next) => {
   try {
@@ -853,7 +857,7 @@ app.get("/utest/:user", async (req, res, next) => {
           state.users[user].activeAvatar = avatars[0];
           state.users[user].xp = state.users[user].activeAvatar.properties.XP;
         } catch (e) {
-          console.log("usuario no tiene ningun avatar",user,e);
+          console.log("usuario no tiene ningun avatar", user, e);
           state.users[user].activeAvatar = {};
         }
       }
@@ -952,6 +956,29 @@ app.get("/prices", (req, res, next) => {
   res.send(JSON.stringify(state.stats.prices, null, 3));
 });
 
+app.get("/time", (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  res.send(JSON.stringify(state.stats.prices, null, 3));
+});
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+app.post("/pending", async (req, res, next) => {
+  try {
+    let user = req.body.user;
+    let json = req.body.json;
+
+    res.setHeader("Content-Type", "application/json");
+
+    let response = await getIsPending(user, JSON.stringify(json));
+
+    res.send(JSON.stringify(response, null, 3));
+  } catch (error) {
+    console.log("retorno error al llamar pending", error);
+  }
+});
+
 /*
 function startWith(hash) {
     console.log(`${hash} inserted`)
@@ -973,6 +1000,86 @@ function startWith(hash) {
         startApp()
     }
 }*/
+
+var sending = false;
+
+  
+checkPendings = async () => {
+  console.log("checking... ");
+  sending = true;
+  await getAllTransaction()
+    .then(async (resxp) => {
+      for (let index = 0; index < resxp.length; index++) {
+        let resx = resxp[index];
+        await ssc
+          .getTransactionInfo(resx.transaction_id)
+          .then(async (res) => {
+            let errors = null;
+
+            if (res) {
+              try {
+                errors = JSON.parse("" + res.logs).errors;
+              } catch (e) {
+                errors = false;
+              }
+
+              if (errors) {
+
+                console.error("no se pudo procesar otra vez la transaccion", errors);
+
+                await updateTransaction(resx.transaction_id)
+                  .then((red) => {
+                    console.log("actualizando con exito transaccion erronea");
+                  })
+                  .catch((e) => {
+                    console.log("ocurrio un error", e);
+                  });
+
+              } else {
+
+
+                switch (resx.type) {
+                  case "tohk-vault":
+                    console.log("processing tohk-vault pending");
+
+                    await tohkvault(
+                      JSON.parse(resx.json),
+                      resx.from,
+                      state
+                    );
+
+                    break;
+
+                  case "nfttohk-vault":
+                    console.log("processing  nft tohk-vault pending");
+
+                    await nfttohkvaul(
+                      JSON.parse(resx.json),
+                      resx.from,
+                      state
+                    );
+
+                    break;
+                }  
+
+              }
+            } else {
+              console.log(
+                "no se pudo procesar otra vez esta transaccion",
+                res,
+                resx
+              );
+            }
+          });
+      }
+      sending = false;
+    })
+    .catch((e) => {
+      sending = false;
+      console.log("ERROR ON GET ALL TRANSACTION", e);
+    });
+};
+
 
 function startApp() {
   processor = steemState(client, dhive, startingBlock, 10, prefix);
@@ -1104,7 +1211,7 @@ function startApp() {
 
     // performs the leveling check
     if (num % 11 === 0 && processor.isStreaming()) {
-      leveling();
+      //leveling();
     }
 
     // show the block number in the console every block
@@ -1115,11 +1222,6 @@ function startApp() {
     //saves state to ipfs hash every 5 minutes
     try {
       if (num % 100 === 1) {
-        if (!sending) {
-          checkPendings();
-        } else {
-          console.log("me encuentro enviando ahora");
-        }
         store.get([], function (err, data) {
           const blockState = Buffer.from(JSON.stringify([num, data]));
           ipfsSaveState(num, blockState);
@@ -1129,87 +1231,6 @@ function startApp() {
       console.log("error when running ipfsSaveState | line 678");
     }
   });
-
-  var sending = false;
-
-  checkPendings = async () => {
-    console.log("checking... ");
-    sending = true;
-    await getAllTransaction()
-      .then(async (resxp) => {
-        for (let index = 0; index < resxp.length; index++) {
-          let resx = resxp[index];
-          await ssc
-            .getTransactionInfo(resx.transaction_id)
-            .then(async (res) => {
-              let errors = null;
-
-              if (res) {
-                try {
-                  errors = JSON.parse("" + res.logs).errors;
-                } catch (e) {
-                  errors = false;
-                }
-
-                if (errors) {
-                  console.error("no se pudo procesar la transaccion", errors);
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando transaccion erronea");
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                } else {
-                  console.log("init updateTransaction");
-                  await updateTransaction(resx.transaction_id)
-                    .then(async (red) => {
-                      switch (resx.type) {
-                        case "tohk-vault":
-                          console.log("processing tohk-vault pending");
-
-                          await tohkvault(
-                            JSON.parse(resx.json),
-                            resx.from,
-                            state
-                          );
-
-                          break;
-
-                        case "nfttohk-vault":
-                          console.log("processing  nft tohk-vault pending");
-
-                          await nfttohkvaul(
-                            JSON.parse(resx.json),
-                            resx.from,
-                            state
-                          );
-
-                          break;
-                      }
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-
-                  console.log("finish updateTransaction");
-                }
-              } else {
-                console.log(
-                  "no se pudo procesar otra vez esta transaccion",
-                  res,
-                  resx
-                );
-              }
-            });
-        }
-        sending = false;
-      })
-      .catch((e) => {
-        sending = false;
-        console.log("ERROR ON GET ALL TRANSACTION", e);
-      });
-  };
 
   processor.on("tohk-vault", async function (json, from) {
     /*----------------------Fungible Tokens----------------------*/
@@ -1224,21 +1245,21 @@ function startApp() {
         }
 
         if (errors) {
-          await saveLog(
-            "tohk-vault",
-            json,
-            from,
-            "hive-engine error transac " + json.transaction_id
-          );
+          console.log("error hive-engine", errors);
         } else {
           //Water Plot
           //user sends HKWater to hk-vault with memo seedID
 
           if (json.hasOwnProperty("contractName")) {
-            if (json.contractName == "nft") {
-              await nfttohkvaul(json, from, state);
-            } else if (json.contractName == "tokens") {
-              await tohkvault(json, from, state);
+            let valid = await getIsPending(from, JSON.stringify(json));
+            if (valid.response) {
+              console.log("this action is ", valid.status);
+            } else {
+              if (json.contractName == "nft") {
+                await nfttohkvaul(json, from, state);
+              } else if (json.contractName == "tokens") {
+                await tohkvault(json, from, state);
+              }
             }
           }
         }
@@ -1311,8 +1332,15 @@ function startApp() {
 
   // checks for qwoyn_plant and plants the seed
   processor.on("plant_plot", async function (json, from) {
-    console.log("planting plot", from);
-    await plant_plot(json, from, state);
+    console.log("this user is planting plot", from);
+
+    let valid = await getIsPending(from, JSON.stringify(json));
+
+    if (valid.response) {
+      console.log("this action is ", valid.status);
+    } else {
+      await plant_plot(json, from, state);
+    }
   });
 
   //called when qwoyn_subdivide_plot is detected
@@ -1839,6 +1867,15 @@ var bot = {
     );
   },
 };
+var cron = require("node-cron");
+
+cron.schedule("*/5 * * * *", () => {
+  if (!sending) {
+    checkPendings();
+  } else {
+    console.log("me encuentro enviando ahora espera 5 minutos mas");
+  }
+});
 
 mongoose.Promise = global.Promise;
 // Usamos el método connect para conectarnos a nuestra base de datos
