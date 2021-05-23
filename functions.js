@@ -124,7 +124,7 @@ const tohkvault = async (json, from, state) => {
 
     if (
       state.users[from] &&
-      json.contractPayload.memo == "pinner" &&
+      type == "pinner" &&
       amountBudsInt === 50 &&
       state.users[from].lvl >= 1
     ) {
@@ -132,7 +132,7 @@ const tohkvault = async (json, from, state) => {
       consumable = "Pinner";
     } else if (
       state.users[from] &&
-      json.contractPayload.memo == "hempWrappedJoint" &&
+      type == "hempWrappedJoint" &&
       amountBudsInt === 200 &&
       state.users[from].lvl >= 15
     ) {
@@ -140,14 +140,14 @@ const tohkvault = async (json, from, state) => {
       consumable = "Hemp Wrapped Joint";
     } else if (
       state.users[from] &&
-      json.contractPayload.memo == "crossJoint" &&
+      type == "crossJoint" &&
       amountBudsInt === 1000 &&
       state.users[from].lvl >= 30
     ) {
       consumable = "Cross Joint";
     } else if (
       state.users[from] &&
-      json.contractPayload.memo == "blunt" &&
+      type == "blunt" &&
       amountBudsInt === 2500 &&
       state.users[from].lvl >= 45
     ) {
@@ -155,7 +155,7 @@ const tohkvault = async (json, from, state) => {
       consumable = "Blunt";
     } else if (
       state.users[from] &&
-      json.contractPayload.memo == "hempWrappedBlunt" &&
+      type == "hempWrappedBlunt" &&
       amountBudsInt === 5000 &&
       state.users[from].lvl >= 60
     ) {
@@ -163,7 +163,7 @@ const tohkvault = async (json, from, state) => {
       consumable = "Hemp Wrapped Blunt";
     } else if (
       state.users[from] &&
-      json.contractPayload.memo == "twaxJoint" &&
+      type == "twaxJoint" &&
       amountBudsInt === 10000 &&
       state.users[from].lvl >= 75
     ) {
