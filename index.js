@@ -214,6 +214,9 @@ function dynStart(account) {
     ...walletOperationsBitmask,
     function (err, result) {
       if (err) {
+        console.log(err);
+        dynStart("hashkings");
+      } else {
         let ebus = result.filter((tx) => tx[1].op[1].id === "qwoyn_report");
         for (i = ebus.length - 1; i >= 0; i--) {
           if (
