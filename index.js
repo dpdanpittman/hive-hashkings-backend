@@ -344,6 +344,7 @@ function userList() {
             mota: 0,
             motaStake: 0,
             boosters: [],
+            activeAvatar: {},
           };
         } else if (state.users[username]) {
           let report = res[4];
