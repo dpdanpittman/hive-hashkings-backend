@@ -168,7 +168,7 @@ var state;
 var startingBlock = ENV.STARTINGBLOCK || 54158471; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54158471;
+let ago = ENV.ago || 54158471;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 
 var client = new dhive.Client(
