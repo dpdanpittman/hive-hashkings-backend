@@ -850,7 +850,6 @@ app.get("/utest/:user", async (req, res, next) => {
         state.users[user].activeAvatar = av;
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
       } else {
-       
         try {
           state.users[user].activeAvatar = avatars[0];
           state.users[user].xp = state.users[user].activeAvatar.properties.XP;
@@ -870,7 +869,6 @@ app.get("/utest/:user", async (req, res, next) => {
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
   } catch (error) {
-   
     if (!state.users[user]) {
       state.users[user] = {
         rentals: [],
@@ -977,8 +975,7 @@ app.post("/pending", async (req, res, next) => {
 });
 
 async function updateHkVault(user = "hk-vault") {
-  let { seeds} =
-    await contract.getHKVaultNFts(ssc, axios, user);
+  let { seeds } = await contract.getHKVaultNFts(ssc, axios, user);
   state.users[user].seeds = seeds;
 }
 
@@ -1011,57 +1008,65 @@ checkPendings = async () => {
   sending = true;
   await getAllTransaction()
     .then(async (resxp) => {
-      await updateHkVault();
-      for (let index = 0; index < resxp.length; index++) {
-        let resx = resxp[index];
-        await ssc.getTransactionInfo(resx.transaction_id).then(async (res) => {
-          let errors = null;
+      if (resxp.length >= 1) {
+        await updateHkVault();
+        for (let index = 0; index < resxp.length; index++) {
+          let resx = resxp[index];
+          await ssc
+            .getTransactionInfo(resx.transaction_id)
+            .then(async (res) => {
+              let errors = null;
 
-          if (res) {
-            try {
-              errors = JSON.parse("" + res.logs).errors;
-            } catch (e) {
-              errors = false;
-            }
+              if (res) {
+                try {
+                  errors = JSON.parse("" + res.logs).errors;
+                } catch (e) {
+                  errors = false;
+                }
 
-            if (errors) {
-              console.error(
-                "no se pudo procesar otra vez la transaccion",
-                errors
-              );
+                if (errors) {
+                  console.error(
+                    "no se pudo procesar otra vez la transaccion",
+                    errors
+                  );
 
-              await updateTransaction(resx.transaction_id)
-                .then((red) => {
-                  console.log("actualizando con exito transaccion erronea");
-                })
-                .catch((e) => {
-                  console.log("ocurrio un error", e);
-                });
-            } else {
-              switch (resx.type) {
-                case "tohk-vault":
-                  console.log("processing tohk-vault pending");
+                  await updateTransaction(resx.transaction_id)
+                    .then((red) => {
+                      console.log("actualizando con exito transaccion erronea");
+                    })
+                    .catch((e) => {
+                      console.log("ocurrio un error", e);
+                    });
+                } else {
+                  switch (resx.type) {
+                    case "tohk-vault":
+                      console.log("processing tohk-vault pending");
 
-                  await tohkvault(JSON.parse(resx.json), resx.from, state);
+                      await tohkvault(JSON.parse(resx.json), resx.from, state);
 
-                  break;
+                      break;
 
-                case "nfttohk-vault":
-                  console.log("processing  nft tohk-vault pending");
+                    case "nfttohk-vault":
+                      console.log("processing  nft tohk-vault pending");
 
-                  await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
+                      await nfttohkvaul(
+                        JSON.parse(resx.json),
+                        resx.from,
+                        state
+                      );
 
-                  break;
+                      break;
+                  }
+                }
+              } else {
+                console.log(
+                  "no se pudo procesar otra vez esta transaccion",
+                  res,
+                  resx
+                );
               }
-            }
-          } else {
-            console.log(
-              "no se pudo procesar otra vez esta transaccion",
-              res,
-              resx
-            );
-          }
-        });
+            });
+        }
       }
       sending = false;
     })
@@ -1070,7 +1075,7 @@ checkPendings = async () => {
       console.log("ERROR ON GET ALL TRANSACTION", e);
     });
 
-    console.log("checking pendings finalice")
+  console.log("checking pendings finalice");
 };
 
 function startApp() {
@@ -1243,7 +1248,6 @@ function startApp() {
           //user sends HKWater to hk-vault with memo seedID
 
           if (json.hasOwnProperty("contractName")) {
-
             let valid = await getIsPending(from, JSON.stringify(json));
 
             if (valid.response) {
@@ -1252,7 +1256,6 @@ function startApp() {
                   json.contractPayload.symbol === "HKWATER" &&
                   json.contractPayload.memo
                 ) {
-
                   console.log(
                     from,
                     "this action is ",
@@ -1291,7 +1294,11 @@ function startApp() {
         }
       } else {
         // if DONT RECIBE ANY TRANSAC
-console.log(from, "setting this transact to pending", json.contractName);
+        console.log(
+          from,
+          "setting this transact to pending",
+          json.contractName
+        );
         if (json.hasOwnProperty("contractName")) {
           if (json.contractName == "nft") {
             await setTransaction(
