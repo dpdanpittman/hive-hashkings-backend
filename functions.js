@@ -604,7 +604,7 @@ async function updateXP(state, xp, from, joinID, json) {
     .updateNft(hivejs, "" + state.users[from].activeAvatar.id, {
       XP: state.users[from].activeAvatar.properties.XP,
     })
-    .then(() => {
+    .then(async () => {
       console.log("smoke update xp success");
 
       await updateOrsetTransaction(
