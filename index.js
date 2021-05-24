@@ -1948,7 +1948,7 @@ mongoose
         }
       })
       .catch((e) => {
-        console.log("error no puede traer get last block");
+        console.log("error no puede traer get last block",e);
       });
   })
   // Si no se conecta correctamente escupimos el error
