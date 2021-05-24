@@ -163,10 +163,10 @@ app.use(cors());
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 54155321; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 54155506; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54155321;
+const ago = ENV.ago || 54155506;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 
 var client = new dhive.Client(
@@ -980,6 +980,17 @@ app.post("/pending", async (req, res, next) => {
   }
 });
 
+async function updateHkVault(user = "hk-vault") {
+  let { plots, seeds, tokens, waterTowers, waterPlants, avatars } =
+    await contract.getUserNft(ssc, axios, user);
+  state.users[user].seeds = seeds;
+  state.users[user].plots = plots;
+  state.users[user].tokens = tokens;
+  state.users[user].waterTowers = waterTowers;
+  state.users[user].waterPlants = waterPlants;
+  state.users[user].avatars = avatars;
+}
+
 /*
 function startWith(hash) {
     console.log(`${hash} inserted`)
@@ -1005,10 +1016,11 @@ function startWith(hash) {
 var sending = false;
 
 checkPendings = async () => {
-  console.log("checking... ");
+  console.log("checking pendings... ");
   sending = true;
   await getAllTransaction()
     .then(async (resxp) => {
+      await updateHkVault();
       for (let index = 0; index < resxp.length; index++) {
         let resx = resxp[index];
         await ssc.getTransactionInfo(resx.transaction_id).then(async (res) => {
@@ -1240,13 +1252,17 @@ function startApp() {
           if (json.hasOwnProperty("contractName")) {
             let valid = await getIsPending(from, JSON.stringify(json));
             if (valid.response) {
-            
               if (json.contractName != "nft") {
                 if (
                   json.contractPayload.symbol === "HKWATER" &&
                   json.contractPayload.memo
                 ) {
-                  console.log(from,"this action is ", valid.status,json.contractPayload.memo);
+                  console.log(
+                    from,
+                    "this action is ",
+                    valid.status,
+                    json.contractPayload.memo
+                  );
                   state.refund.push([
                     "customJson",
                     "ssc-mainnet-hive",
@@ -1257,14 +1273,17 @@ function startApp() {
                         symbol: "HKWATER",
                         to: whoFrom,
                         quantity: amountString,
-                        memo: "watering has status "+valid.status+", please dont try again.",
+                        memo:
+                          "watering has status " +
+                          valid.status +
+                          ", please dont try again.",
                       },
                     },
                   ]);
-
                 }
               }
             } else {
+              await updateHkVault();
               if (json.contractName == "nft") {
                 await nfttohkvaul(json, from, state);
               } else if (json.contractName == "tokens") {
@@ -1519,7 +1538,6 @@ function startApp() {
   });
 
   processor.onOperation("transfer", async function (json, from) {
-
     if (json.to === username && json.amount.split(" ")[1] === "HIVE") {
       //if user does not exist in db create user and db entry
       if (!state.users[json.from]) {
@@ -1712,11 +1730,6 @@ function startApp() {
         const c = parseInt(amount);
         state.bal.c += c;
       }
-
-
-
-
-
     } else if (json.from === username) {
       const amount = parseInt(parseFloat(json.amount) * 1000);
       for (var i = 0; i < state.refund.length; i++) {
@@ -1727,7 +1740,6 @@ function startApp() {
         }
       }
     }
-
   });
 
   processor.onStreamingStart(function () {
