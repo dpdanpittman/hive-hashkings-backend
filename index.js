@@ -163,10 +163,10 @@ app.use(cors());
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 54158141; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 54158313; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54158141;
+const ago = ENV.ago || 54158313;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 
 var client = new dhive.Client(
@@ -977,14 +977,9 @@ app.post("/pending", async (req, res, next) => {
 });
 
 async function updateHkVault(user = "hk-vault") {
-  let { plots, seeds, tokens, waterTowers, waterPlants, avatars } =
-    await contract.getUserNft(ssc, axios, user);
+  let { seeds} =
+    await contract.getHKVaultNFts(ssc, axios, user);
   state.users[user].seeds = seeds;
-  state.users[user].plots = plots;
-  state.users[user].tokens = tokens;
-  state.users[user].waterTowers = waterTowers;
-  state.users[user].waterPlants = waterPlants;
-  state.users[user].avatars = avatars;
 }
 
 /*
