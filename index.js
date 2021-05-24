@@ -163,10 +163,10 @@ app.use(cors());
 //app.listen(port, () => console.log(`HASHKINGS API listening on port ${port}!`))
 
 var state;
-var startingBlock = ENV.STARTINGBLOCK || 54154466; //GENESIS BLOCK
+var startingBlock = ENV.STARTINGBLOCK || 54154920; //GENESIS BLOCK
 const username = ENV.ACCOUNT || "hashkings"; //account with all the SP
 const key = dhive.PrivateKey.from(ENV.skey); //active key for account
-const ago = ENV.ago || 54154466;
+const ago = ENV.ago || 54154920;
 const prefix = ENV.PREFIX || "qwoyn_"; // part of custom json visible on the blockchain during watering etc..
 
 var client = new dhive.Client(
@@ -1886,7 +1886,7 @@ var bot = {
 };
 var cron = require("node-cron");
 
-cron.schedule("*/3 * * * *", () => {
+cron.schedule("*/2 * * * *", () => {
   if (!sending) {
     checkPendings();
   } else {

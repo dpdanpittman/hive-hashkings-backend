@@ -481,10 +481,16 @@ const nfttohkvaul = async (json, from, state) => {
     //smoke joint
     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
     try {
-      let jointString =
-        "" + (jointTypes[0] ? jointTypes[0] : jointTypesHKVAULT[0]);
-      let jointStringHKVAULT = "" + jointTypesHKVAULT[0];
-      console.log("this user", from, "try smoke", jointString);
+      let jointString =  "" + (jointTypes[0] ? jointTypes[0] : jointTypesHKVAULT[0]);
+      
+      console.log(
+        "this user",
+        from,
+        "try smoke",
+        jointString,
+        jointTypes,
+        jointTypesHKVAULT
+      );
 
       let xptoUpdate = null;
       if (jointString == "pinner") {
