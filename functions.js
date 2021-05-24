@@ -422,12 +422,17 @@ const nfttohkvaul = async (json, from, state) => {
               from,
               "process complete"
             )
-              .then(async (red) => {})
+              .then(async (red) => {
+                console.log(
+                  "proceso completo, se actualizo el plot",
+                  plotIDString
+                );
+              })
               .catch((e) => {
                 console.log("ocurrio un error", e);
               });
 
-            if (!budAmount) {
+            if (budAmount) {
               await contract
                 .generateToken(hivejs, "BUDS", budAmount, from)
                 .then(() => {
@@ -452,7 +457,9 @@ const nfttohkvaul = async (json, from, state) => {
                   ]);
                 });
             } else {
-              ("reparando plot pero no envio buds porque ya seguro envie");
+              console.log(
+                "reparando plot pero no envio buds porque ya seguro envie"
+              );
             }
           })
           .catch(async (e) => {
@@ -495,23 +502,16 @@ const nfttohkvaul = async (json, from, state) => {
 
       let xptoUpdate = null;
       if (jointString == "pinner") {
-        // give xp
         xptoUpdate = state.stats.joints.pinner;
-      } else if (jointTypes == "hempWrappedJoint") {
-        // give xp
+      } else if (jointString == "hempWrappedJoint") {
         xptoUpdate = state.stats.joints.hempWrappedJoint;
-      } else if (jointTypes == "crossJoint") {
-        // give xp
-
+      } else if (jointString == "crossJoint") {
         xptoUpdate = state.stats.joints.crossJoint;
-      } else if (jointTypes == "blunt") {
-        // give xp
+      } else if (jointString == "blunt") {
         xptoUpdate = state.stats.joints.blunt;
-      } else if (jointTypes == "hempWrappedBlunt") {
-        // give xp
+      } else if (jointString == "hempWrappedBlunt") {
         xptoUpdate = state.stats.joints.hempWrappedBlunt;
-      } else if (jointTypes == "twaxJoint") {
-        // give xp
+      } else if (jointString == "twaxJoint") {
         xptoUpdate = state.stats.joints.twaxJoint;
       }
 
