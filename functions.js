@@ -481,8 +481,9 @@ const nfttohkvaul = async (json, from, state) => {
     //smoke joint
     //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
     try {
-      let jointString =  "" + (jointTypes[0] ? jointTypes[0] : jointTypesHKVAULT[0]);
-      
+      let jointString =
+        "" + (jointTypes[0] ? jointTypes[0] : jointTypesHKVAULT[0]);
+
       console.log(
         "this user",
         from,
@@ -603,7 +604,21 @@ async function updateXP(state, xp, from, joinID, json) {
     .updateNft(hivejs, "" + state.users[from].activeAvatar.id, {
       XP: state.users[from].activeAvatar.properties.XP,
     })
-    .then(() => {})
+    .then(() => {
+      console.log("smoke update xp success");
+
+      await updateOrsetTransaction(
+        json.transaction_id,
+        "nfttohk-vault",
+        json,
+        from,
+        "process update xp complete"
+      )
+        .then(async (red) => {})
+        .catch((e) => {
+          console.log("ocurrio un error", e);
+        });
+    })
     .catch(async (e) => {
       console.log(
         "no se pudo actualizar el nft para subir la xp",
