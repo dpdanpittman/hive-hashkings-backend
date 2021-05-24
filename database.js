@@ -1,4 +1,4 @@
-const { transferModel, logModel } = require("./models");
+const { transferModel, logModel,blockModel } = require("./models");
 
 async function saveLog(type, json, from, message) {
   return await new logModel({
@@ -84,6 +84,16 @@ async function getAllTransaction() {
   return await transferModel.find({ status: "pending" });
 }
 
+async function updateBlock(blockid) {
+  await blockModel.updateOne({ blockid: "1", block: blockid });
+  return getLastBlock();
+}
+
+async function getLastBlock() {
+  return await blockModel.findOne({ blockid: "1" });
+}
+
+
 async function getIsPending(user, json) {
   let jsont = JSON.parse(json);
 
@@ -113,6 +123,7 @@ async function getIsPending(user, json) {
   return { response: false };
 }
 
+
 module.exports = {
   saveLog,
   setTransaction,
@@ -121,5 +132,7 @@ module.exports = {
   returnToPending,
   getIsPending,
   updateorSetPendingTransaction,
-  updateOrsetTransaction
+  updateOrsetTransaction,
+  updateBlock,
+  getLastBlock
 };

@@ -77,10 +77,6 @@ console.log(b)  */
 })();
 */
 
-contract.generateToken(hivejs, "HKWATER", "7724", "chocolatoso").then(e=>{
-  console.log(e);
-})
-
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{

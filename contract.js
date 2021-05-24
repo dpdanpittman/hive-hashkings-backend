@@ -1695,6 +1695,7 @@ async function getUserNft(ssc, axios, user) {
         tokens: {},
         waterTowers: {},
         avatars: [],
+        joints: []
       };
 
       let tempWaterTowers = [];
@@ -1719,6 +1720,10 @@ async function getUserNft(ssc, axios, user) {
 
         if (nfts[i].properties.TYPE == "water") {
           tempWaterTowers.push(nft);
+        }
+
+        if (nfts[i].properties.TYPE == "consumable") {
+          onlyAcconts.joints.push(nft);
         }
       }
 
@@ -1773,6 +1778,7 @@ async function getHKVaultNFts(ssc, axios, user) {
         tokens: {},
         waterTowers: {},
         avatars: [],
+        joints: []
       };
 
       let tempWaterTowers = [];
@@ -1785,6 +1791,8 @@ async function getHKVaultNFts(ssc, axios, user) {
 
         if (nfts[i].properties.TYPE == "seed") {
           onlyAcconts.seeds.push(nft);
+        } else if (nfts[i].properties.TYPE == "consumable") {
+          onlyAcconts.joints.push(nft);
         }
 
       }

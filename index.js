@@ -62,6 +62,8 @@ const {
   getAllTransaction,
   updateTransaction,
   getIsPending,
+  updateBlock,
+  getLastBlock,
 } = require("./database");
 
 const {
@@ -832,7 +834,7 @@ app.get("/utest/:user", async (req, res, next) => {
       };
     }
     res.setHeader("Content-Type", "application/json");
-    let { plots, seeds, tokens, waterTowers, waterPlants, avatars } =
+    let { plots, seeds, tokens, waterTowers, waterPlants, avatars,joints } =
       await contract.getUserNft(ssc, axios, user);
     state.users[user].seeds = seeds;
     state.users[user].plots = plots;
@@ -840,7 +842,7 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].waterTowers = waterTowers;
     state.users[user].waterPlants = waterPlants;
     state.users[user].avatars = avatars;
-
+    state.users[user].joints = joints;
     if (state.users[user].activeAvatar) {
       let av = await state.users[user].avatars.find(function (element) {
         return element.id == state.users[user].activeAvatar.id;
@@ -975,8 +977,9 @@ app.post("/pending", async (req, res, next) => {
 });
 
 async function updateHkVault(user = "hk-vault") {
-  let { seeds } = await contract.getHKVaultNFts(ssc, axios, user);
+  let { seeds,joints } = await contract.getHKVaultNFts(ssc, axios, user);
   state.users[user].seeds = seeds;
+  state.users[user].joints = joints;
 }
 
 /*
@@ -1209,6 +1212,9 @@ function startApp() {
     // performs the leveling check
     if (num % 11 === 0 && processor.isStreaming()) {
       //leveling();
+      updateBlock(num).then((r) => {
+        console.log(r);
+      });
     }
 
     // show the block number in the console every block
@@ -1271,7 +1277,7 @@ function startApp() {
                       contractAction: "transfer",
                       contractPayload: {
                         symbol: "HKWATER",
-                        to: whoFrom,
+                        to: from,
                         quantity: amountString,
                         memo:
                           "watering has status " +
@@ -1280,6 +1286,8 @@ function startApp() {
                       },
                     },
                   ]);
+
+
                 }
               }
             } else {
@@ -1927,7 +1935,21 @@ mongoose
     //leveling();
     //reporting();
     //landPriceConversion();
-    dynStart("hashkings");
+    getLastBlock()
+      .then((res) => {
+        if (res.block) {
+          startingBlock = res.block;
+          ago = res.block;
+
+          if (res.block) {
+            console.log("starting block at ", startingBlock, ago);
+            dynStart("hashkings");
+          }
+        }
+      })
+      .catch((e) => {
+        console.log("error no puede traer get last block");
+      });
   })
   // Si no se conecta correctamente escupimos el error
   .catch((err) => console.error(err));

@@ -21,7 +21,18 @@ const logSchema = new Schema({
 
 const logModel = mongoose.model("Log", logSchema);
 
+
+
+const blockSchema = new Schema({
+  blockid: String,
+  block: String
+});
+
+const blockModel = mongoose.model("Block", blockSchema);
+
+
 module.exports = {
   transferModel,
   logModel,
+  blockModel
 };
