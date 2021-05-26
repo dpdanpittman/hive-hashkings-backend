@@ -30,7 +30,6 @@ function sort(miarray) {
   });
 }
 
-
 /*
 let a = contract.testseeds();
 let b = [];
@@ -76,6 +75,19 @@ console.log(b)  */
     });
 })();
 */
+
+
+
+
+/*
+ contract
+  .updateNft(hivejs, "" + 7443, {
+    XP: 32671,
+  })
+  .then((r) => {
+    console.log(r);
+  }); */
+
 
 
 /*

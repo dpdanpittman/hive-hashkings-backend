@@ -365,7 +365,10 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
   let properties = {};
   if (type == 1) {
     let plot = SEEDS[0];
-    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
+    let seed =
+      plot[
+        Math.floor(Math.random() * (Object.keys(plot).length - 1 - 0 + 1) + 0)
+      ];
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
     properties.WATER = seed.WATER;
@@ -382,7 +385,10 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 2) {
     let plot = SEEDS[1];
-    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
+    let seed =
+      plot[
+        Math.floor(Math.random() * (Object.keys(plot).length - 1 - 0 + 1) + 0)
+      ];
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
     properties.WATER = seed.WATER;
@@ -399,7 +405,10 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 3) {
     let plot = SEEDS[2];
-    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
+    let seed =
+      plot[
+        Math.floor(Math.random() * (Object.keys(plot).length - 1 - 0 + 1) + 0)
+      ];
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
     properties.WATER = seed.WATER;
@@ -416,7 +425,10 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 4) {
     let plot = SEEDS[3];
-    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
+    let seed =
+      plot[
+        Math.floor(Math.random() * (Object.keys(plot).length - 1 - 0 + 1) + 0)
+      ];
 
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
@@ -434,7 +446,10 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 5) {
     let plot = SEEDS[4];
-    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
+    let seed =
+      plot[
+        Math.floor(Math.random() * (Object.keys(plot).length - 1 - 0 + 1) + 0)
+      ];
 
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
@@ -452,7 +467,10 @@ const generateOneRandomSeed = (to, plot, SEEDS) => {
     }
   } else if (type == 6) {
     let plot = SEEDS[5];
-    let seed = plot[Math.floor(Math.random() * ( (Object.keys(plot).length - 1) - 0 + 1) + 0)];
+    let seed =
+      plot[
+        Math.floor(Math.random() * (Object.keys(plot).length - 1 - 0 + 1) + 0)
+      ];
 
     properties.NAME = seed.NAME;
     properties.SPT = seed.SPT;
@@ -1099,7 +1117,7 @@ function grouper(nft) {
   return nft.properties.NAME;
 }
 
-async function axiosRequest(axios, { contract, table, query, offset }) {
+async function axiosRequest(axios, { contract, table, query, offset }, method) {
   // Headers
   let config = {
     headers: {
@@ -1110,7 +1128,7 @@ async function axiosRequest(axios, { contract, table, query, offset }) {
   // Request POST body data
   let body = JSON.stringify([
     {
-      method: "find",
+      method: method,
       jsonrpc: "2.0",
       params: {
         contract: contract,
@@ -1134,10 +1152,15 @@ function isNullOrEmpty(variable) {
 async function queryContract(
   axios,
   { contract, table, query = {} },
-  offset = 0
+  offset = 0,
+  method = "find"
 ) {
   // Request data
-  let response = await axiosRequest(axios, { contract, table, query, offset });
+  let response = await axiosRequest(
+    axios,
+    { contract, table, query, offset },
+    method
+  );
 
   // Return result
   if (
@@ -1150,6 +1173,27 @@ async function queryContract(
 
   // Else return false
   return false;
+}
+
+async function getAvatarOnBlockchain(axios, avatarID) {
+  return new Promise(async (resolve, reject) => {
+    let get_nfts = await queryContract(
+      axios,
+      {
+        contract: CONTRACT,
+        table: NFT_SYMBOL + TABLE_POSTFIX,
+        query: { _id: avatarID },
+      },
+      0,
+      "findOne"
+    );
+
+    if (get_nfts) {
+      resolve(get_nfts.properties);
+    } else {
+      resolve(false);
+    }
+  });
 }
 
 async function getReport(axios) {
@@ -1695,7 +1739,7 @@ async function getUserNft(ssc, axios, user) {
         tokens: {},
         waterTowers: {},
         avatars: [],
-        joints: []
+        joints: [],
       };
 
       let tempWaterTowers = [];
@@ -1742,7 +1786,6 @@ async function getUserNft(ssc, axios, user) {
   });
 }
 
-
 async function getHKVaultNFts(ssc, axios, user) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -1778,7 +1821,7 @@ async function getHKVaultNFts(ssc, axios, user) {
         tokens: {},
         waterTowers: {},
         avatars: [],
-        joints: []
+        joints: [],
       };
 
       let tempWaterTowers = [];
@@ -1794,10 +1837,7 @@ async function getHKVaultNFts(ssc, axios, user) {
         } else if (nfts[i].properties.TYPE == "consumable") {
           onlyAcconts.joints.push(nft);
         }
-
       }
-
-  
 
       let report = onlyAcconts;
 
@@ -3080,9 +3120,8 @@ async function distributeAvatar(hive, user) {
   });
 }
 
-
-function testseeds(){
-  let instances = []
+function testseeds() {
+  let instances = [];
   for (let i = 0; i < 1000; i++) {
     instances.push(generateOneRandomSeed("chocolatoso", getPlot(), SEEDS));
   }
@@ -3122,5 +3161,6 @@ module.exports = contract = {
   distributeAvatar,
   getAllAvatar,
   testseeds,
-  getHKVaultNFts
+  getHKVaultNFts,
+  getAvatarOnBlockchain,
 };

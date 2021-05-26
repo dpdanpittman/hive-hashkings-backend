@@ -123,6 +123,19 @@ async function getIsPending(user, json) {
   return { response: false };
 }
 
+async function getAllPendings(user){
+  let jsont = JSON.parse(json);
+
+  jsont.transaction_id = null;
+  jsont.block_num = null;
+
+  jsont = JSON.stringify(jsont);
+
+  let transfer = await transferModel.find({ status: "pending", from: user });
+
+  return { response: true, data: transfer };
+}
+
 
 module.exports = {
   saveLog,
@@ -134,5 +147,6 @@ module.exports = {
   updateorSetPendingTransaction,
   updateOrsetTransaction,
   updateBlock,
-  getLastBlock
+  getLastBlock,
+  getAllPendings
 };

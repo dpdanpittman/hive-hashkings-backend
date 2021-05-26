@@ -591,18 +591,31 @@ const nfttohkvaul = async (json, from, state) => {
 };
 
 async function updateXP(state, xp, from, joinID, json) {
-  state.users[from].joints = state.users[from].joints.filter(function (ele) {
-    return ele.id != joinID;
-  });
+  //validar aquiii
 
-  state.users[from].xp += xp;
+  let activeAvatarID = state.users[from].activeAvatar.id;
 
-  state.users[from].activeAvatar.properties.XP += xp;
+  let avatar = await contract.getAvatarOnBlockchain(axios, activeAvatarID);
+
+  if (!avatar) {
+    console.log(
+      "no pude traer al avatar de la blockchain, regresando a pendiente"
+    );
+
+    await updateorSetPendingTransaction(
+      json.transaction_id,
+      "nfttohk-vault",
+      json,
+      from,
+      "error on update xp"
+    );
+    return;
+  }
 
   //validar aqui
   await contract
-    .updateNft(hivejs, "" + state.users[from].activeAvatar.id, {
-      XP: state.users[from].activeAvatar.properties.XP,
+    .updateNft(hivejs, "" + activeAvatarID, {
+      XP: avatar.XP + xp,
     })
     .then(async () => {
       console.log("smoke update xp success");

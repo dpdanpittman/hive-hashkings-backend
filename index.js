@@ -64,6 +64,7 @@ const {
   getIsPending,
   updateBlock,
   getLastBlock,
+  getAllPendings
 } = require("./database");
 
 const {
@@ -955,7 +956,27 @@ app.get("/prices", (req, res, next) => {
 
 app.get("/time", (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
-  res.send(JSON.stringify(state.stats.prices, null, 3));
+
+
+  let today = new Date();
+  today.setHours(23);
+  today.setMinutes(59);
+  today.setMilliseconds(0);
+
+  let yesterday = new Date();
+  yesterday.setDate(today.getDate() - 1);
+  yesterday.setHours(23);
+  yesterday.setMinutes(59);
+  yesterday.setMilliseconds(0);
+
+
+  let t = Math.floor( today.getTime() / 1000.0 )
+  let y = Math.floor( yesterday.getTime() / 1000.0 )
+
+
+  res.send(JSON.stringify({t,y}, null, 3));
+
+  
 });
 
 app.use(express.urlencoded({ extended: true }));
@@ -969,6 +990,20 @@ app.post("/pending", async (req, res, next) => {
     res.setHeader("Content-Type", "application/json");
 
     let response = await getIsPending(user, JSON.stringify(json));
+
+    res.send(JSON.stringify(response, null, 3));
+  } catch (error) {
+    console.log("retorno error al llamar pending", error);
+  }
+});
+
+app.post("/getallpendings", async (req, res, next) => {
+  try {
+    let user = req.body.user;
+
+    res.setHeader("Content-Type", "application/json");
+
+    let response = await getAllPendings(user);
 
     res.send(JSON.stringify(response, null, 3));
   } catch (error) {
@@ -1136,9 +1171,11 @@ function startApp() {
     //sets asset prices
     try {
       if (num % 5 === 0 && processor.isStreaming()) {
-        hivePriceConversion(1).then((price) => {
-          let assetPrice = price;
 
+        /*
+        hivePriceConversion(1).then((price) => {
+          
+          let assetPrice = price;
           state.stats.prices.land.asia.price = Math.ceil(assetPrice * 45);
           state.stats.prices.land.africa.price = Math.ceil(assetPrice * 22.5);
           state.stats.prices.land.afghanistan.price = Math.ceil(
@@ -1174,7 +1211,7 @@ function startApp() {
           state.stats.prices.bundles.mexicoBundle = Math.ceil(
             bundlePrice * 7.49
           );
-        });
+        });  */
 
         hivePriceConversion(1).then((prices) => {
           let bundlePrice = prices;
@@ -1190,6 +1227,8 @@ function startApp() {
           state.stats.prices.waterPlants.lvl9.price = bundlePrice;
           state.stats.prices.waterPlants.lvl10.price = bundlePrice;
         });
+
+        
       }
     } catch (error) {
       console.log("error when converting prices | line 637");
