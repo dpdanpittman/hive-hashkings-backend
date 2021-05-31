@@ -1193,7 +1193,6 @@ async function getAvatarOnBlockchain(axios, avatarID) {
       "findOne"
     );
 
-    console.log("get nft return", get_nfts);
 
     if (get_nfts) {
       resolve(get_nfts.properties);
