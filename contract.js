@@ -1,4 +1,5 @@
 require("dotenv").config();
+var jp = require("jsonpath");
 const ENV = process.env;
 
 const CONTRACT_CREATOR = "hashkings";
@@ -1188,6 +1189,8 @@ async function getAvatarOnBlockchain(axios, avatarID) {
       "findOne"
     );
 
+    console.log(get_nfts)
+
     if (get_nfts) {
       resolve(get_nfts.properties);
     } else {
@@ -2151,7 +2154,15 @@ async function getAllPlotsAndSeeds(axios) {
         };
 
         if (nfts[i].properties.TYPE == "plot") {
-          onlyAcconts.plots.push(nft);
+          if (nft.properties.hasOwnProperty("SEEDID")) {
+            if (nft.properties.SEEDID > 0) {
+              if (nft.properties.OCCUPIED) {
+                       onlyAcconts.plots.push(nft);
+                 
+              }
+            }
+          }
+         
         } else if (nfts[i].properties.TYPE == "seed") {
           onlyAcconts.seeds.push(nft);
         }

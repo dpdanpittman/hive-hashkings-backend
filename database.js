@@ -124,12 +124,6 @@ async function getIsPending(user, json) {
 }
 
 async function getAllPendings(user){
-  let jsont = JSON.parse(json);
-
-  jsont.transaction_id = null;
-  jsont.block_num = null;
-
-  jsont = JSON.stringify(jsont);
 
   let transfer = await transferModel.find({ status: "pending", from: user });
 

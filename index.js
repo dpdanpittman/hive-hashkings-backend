@@ -64,7 +64,7 @@ const {
   getIsPending,
   updateBlock,
   getLastBlock,
-  getAllPendings
+  getAllPendings,
 } = require("./database");
 
 const {
@@ -835,7 +835,7 @@ app.get("/utest/:user", async (req, res, next) => {
       };
     }
     res.setHeader("Content-Type", "application/json");
-    let { plots, seeds, tokens, waterTowers, waterPlants, avatars,joints } =
+    let { plots, seeds, tokens, waterTowers, waterPlants, avatars, joints } =
       await contract.getUserNft(ssc, axios, user);
     state.users[user].seeds = seeds;
     state.users[user].plots = plots;
@@ -957,7 +957,6 @@ app.get("/prices", (req, res, next) => {
 app.get("/time", (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
 
-
   let today = new Date();
   today.setHours(23);
   today.setMinutes(59);
@@ -969,14 +968,10 @@ app.get("/time", (req, res, next) => {
   yesterday.setMinutes(59);
   yesterday.setMilliseconds(0);
 
+  let t = Math.floor(today.getTime() / 1000.0);
+  let y = Math.floor(yesterday.getTime() / 1000.0);
 
-  let t = Math.floor( today.getTime() / 1000.0 )
-  let y = Math.floor( yesterday.getTime() / 1000.0 )
-
-
-  res.send(JSON.stringify({t,y}, null, 3));
-
-  
+  res.send(JSON.stringify({ t, y }, null, 3));
 });
 
 app.use(express.urlencoded({ extended: true }));
@@ -997,13 +992,17 @@ app.post("/pending", async (req, res, next) => {
   }
 });
 
-app.post("/getallpendings", async (req, res, next) => {
+app.post("/getallpendings/:user", async (req, res, next) => {
   try {
-    let user = req.body.user;
+    let user = req.params.user;
 
     res.setHeader("Content-Type", "application/json");
 
     let response = await getAllPendings(user);
+
+    if (!user) {
+      response = {};
+    }
 
     res.send(JSON.stringify(response, null, 3));
   } catch (error) {
@@ -1012,7 +1011,7 @@ app.post("/getallpendings", async (req, res, next) => {
 });
 
 async function updateHkVault(user = "hk-vault") {
-  let { seeds,joints } = await contract.getHKVaultNFts(ssc, axios, user);
+  let { seeds, joints } = await contract.getHKVaultNFts(ssc, axios, user);
   state.users[user].seeds = seeds;
   state.users[user].joints = joints;
 }
@@ -1171,7 +1170,6 @@ function startApp() {
     //sets asset prices
     try {
       if (num % 5 === 0 && processor.isStreaming()) {
-
         /*
         hivePriceConversion(1).then((price) => {
           
@@ -1227,8 +1225,6 @@ function startApp() {
           state.stats.prices.waterPlants.lvl9.price = bundlePrice;
           state.stats.prices.waterPlants.lvl10.price = bundlePrice;
         });
-
-        
       }
     } catch (error) {
       console.log("error when converting prices | line 637");
@@ -1325,8 +1321,6 @@ function startApp() {
                       },
                     },
                   ]);
-
-
                 }
               }
             } else {
@@ -1987,7 +1981,7 @@ mongoose
         }
       })
       .catch((e) => {
-        console.log("error no puede traer get last block",e);
+        console.log("error no puede traer get last block", e);
       });
   })
   // Si no se conecta correctamente escupimos el error

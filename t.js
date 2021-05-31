@@ -30,6 +30,15 @@ function sort(miarray) {
   });
 }
 
+
+
+contract
+  .updateMultipleNfts(hivejs, [
+  ])
+  .then((res) => {
+    console.log(res);
+  });
+
 /*
 let a = contract.testseeds();
 let b = [];
@@ -76,8 +85,21 @@ console.log(b)  */
 })();
 */
 
+/*
+contract
+  .updateMultipleNfts(hivejs, [
+    
+    {
+      id: "" +69538,
+      properties: {WATER: 0 },
+    },
+    
+  ])
+  .then((res) => {
+    console.log(res);
+  });
 
-
+  */
 
 /*
  contract
@@ -88,25 +110,26 @@ console.log(b)  */
     console.log(r);
   }); */
 
-
-
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
   console.log(r);
 })
 */
+
 /*
 contract
   .updateMultipleNfts(hivejs, [
     {
-      id: "" + 7758,
-      properties: { SPT:0 },
+      id: "" + 95554,
+      properties: { XP:45 },
     },
   ])
   .then((res) => {
     console.log(res);
   });
+
 */
+
 /*
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
@@ -192,6 +215,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 });
 */
+
 /*
 (async () => {
   contract.getAllNftsAgua(axios).then(async (response) => {
@@ -228,15 +252,18 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/*
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
-    for (let index = 0; index < response.plots.length; index++) {
+    let rx = response.plots.length;
+    console.log("updating" , rx)
+    for (let index = 0; index < rx; index++) {
       const element = response.plots[index];
 
       if (element.properties.hasOwnProperty("SEEDID")) {
         if (element.properties.SEEDID > 0) {
           if (element.properties.OCCUPIED) {
+
             let seed = jp.query(
               response,
               `$.seeds[?(@.id==${element.properties.SEEDID})]`
@@ -246,22 +273,47 @@ contract.getAllNfts(axios).then((r) => {
               if (seed.length > 0) {
                 //console.log("encontre semilla", seed[0].owner, element.owner );
                 if (seed[0].owner != element.owner) {
-                  console.log("actualizando nft porque", seed[0].owner, element.owner);
-                  await new Promise((resolve) => {
-                    setTimeout(() => {
-                      resolve();
-                    }, 7000);
-                  });
-                  contract
-                    .updateMultipleNfts(hivejs, [
-                      {
-                        id: "" + element.id,
-                        properties: { OCCUPIED: false, SEEDID: 0 },
-                      },
-                    ])
-                    .then((res) => {
-                      console.log("actualizado", res);
+                  console.log(
+                    "actualizando nft porque",
+                    seed[0].owner +" "+ seed[0].id,
+                    element.owner
+                  );
+
+                  if (seed[0].owner === "hk-vault") {
+                    await new Promise((resolve) => {
+                      setTimeout(() => {
+                        resolve();
+                      }, 1000);
                     });
+
+                    await contract
+                      .updateMultipleNfts(hivejs, [
+                        {
+                          id: "" + element.id,
+                          properties: { OCCUPIED: false, SEEDID: 0 },
+                        },
+                      ])
+                      .then((res) => {
+                       
+                      });
+
+                    await new Promise((resolve) => {
+                      setTimeout(() => {
+                        resolve();
+                      }, 1000);
+                    });
+
+                    await contract
+                      .generateToken(
+                        hivejs,
+                        "BUDS",
+                        seed[0].properties.PR.toFixed(3),
+                        element.owner
+                      )
+                      .then((e) => {
+                     
+                      });
+                  }
                 }
               }
             }
@@ -323,10 +375,6 @@ contract
 })(); 
 */
 
-/*
- contract.generateToken(hivejs, "HKWATER", (120).toFixed(3),"udabeu"  ).then(e => {
-   console.log(e)
- }) */
 /*
 (async () => {
   contract.getAllUsersHaveAPlot(axios).then(async (r) => {
