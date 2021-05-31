@@ -992,7 +992,7 @@ app.post("/pending", async (req, res, next) => {
   }
 });
 
-app.post("/getallpendings/:user", async (req, res, next) => {
+app.get("/getallpendings/:user", async (req, res, next) => {
   try {
     let user = req.params.user;
 
