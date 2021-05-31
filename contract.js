@@ -1162,7 +1162,6 @@ async function queryContract(
     { contract, table, query, offset },
     method
   ).then(r => {
-    console.log("axios responde", r);
     return r;
   }).catch((e) => {
     console.log("error  on axios request", e);
