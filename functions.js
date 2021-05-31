@@ -664,8 +664,8 @@ const plant_plot = async (json, from, state) => {
   let seedIDString = "" + seedID;
   //vamos a verificar tanto la seed como la plot
 
-  let plot = await contract.getAvatarOnBlockchain(axios, plotID);
-  let seed = await contract.getAvatarOnBlockchain(axios, seedID);
+  let plot = await contract.getAvatarOnBlockchain(axios, parseInt(plotID));
+  let seed = await contract.getAvatarOnBlockchain(axios, parseInt(seedID));
 
   console.log("verify seed and plot ", seedID , plotID);
 

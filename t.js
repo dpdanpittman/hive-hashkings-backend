@@ -30,14 +30,7 @@ function sort(miarray) {
   });
 }
 
-
-
-contract
-  .updateMultipleNfts(hivejs, [
-  ])
-  .then((res) => {
-    console.log(res);
-  });
+contract.generateToken(hivejs, "HKWATER", 20000, "chocolatoso");
 
 /*
 let a = contract.testseeds();
