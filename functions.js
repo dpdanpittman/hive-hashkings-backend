@@ -667,7 +667,7 @@ const plant_plot = async (json, from, state) => {
   let plot = await contract.getAvatarOnBlockchain(axios, plotID);
   let seed = await contract.getAvatarOnBlockchain(axios, seedID);
 
-  console.log("verify seed and plot");
+  console.log("verify seed and plot ", seedID , plotID);
 
   if (plot && seed) {
     if (plot.OCCUPIED || seed.PLANTED) {
@@ -675,7 +675,7 @@ const plant_plot = async (json, from, state) => {
       return;
     }
   } else {
-    console.log("no seed and no plot");
+    console.log("no seed and no plot " , plot , seed );
     return;
   }
   //make seed used and designate plot
