@@ -1161,7 +1161,12 @@ async function queryContract(
     axios,
     { contract, table, query, offset },
     method
-  );
+  ).then(r => {
+    console.log("axios responde", r);
+    return r;
+  }).catch((e) => {
+    console.log("error  on axios request", e);
+  });
 
   // Return result
   if (
@@ -1188,6 +1193,8 @@ async function getAvatarOnBlockchain(axios, avatarID) {
       0,
       "findOne"
     );
+
+    console.log("get nft return", get_nfts);
 
     if (get_nfts) {
       resolve(get_nfts.properties);
@@ -2155,12 +2162,10 @@ async function getAllPlotsAndSeeds(axios) {
           if (nft.properties.hasOwnProperty("SEEDID")) {
             if (nft.properties.SEEDID > 0) {
               if (nft.properties.OCCUPIED) {
-                       onlyAcconts.plots.push(nft);
-                 
+                onlyAcconts.plots.push(nft);
               }
             }
           }
-         
         } else if (nfts[i].properties.TYPE == "seed") {
           onlyAcconts.seeds.push(nft);
         }
