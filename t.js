@@ -30,7 +30,6 @@ function sort(miarray) {
   });
 }
 
-contract.generateToken(hivejs, "HKWATER", 20000, "chocolatoso");
 
 /*
 let a = contract.testseeds();
@@ -113,15 +112,39 @@ contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
 contract
   .updateMultipleNfts(hivejs, [
     {
-      id: "" + 95554,
-      properties: { XP:45 },
+      id: "" + 13811,
+      properties: { LVL: 2 , WATER: 96 },
     },
   ])
   .then((res) => {
     console.log(res);
-  });
+  }); */
 
-*/
+
+
+  function hivePriceConversion(amount) {
+    return new Promise((resolve, reject) => {
+      axios
+        .get("https://api.coingecko.com/api/v3/simple/price?ids=hive&vs_currencies=usd&include_24hr_change=true")
+        .then((res) => {
+          
+          const hiveCost = amount / res.data.hive.usd;
+          const hiveAmount = hiveCost;
+  
+          resolve(hiveAmount.toFixed(3));
+        })
+        .catch(async (err) => {
+          console.log("error al leer precio de coingekko", err)
+          resolve( await hivePriceConversion(1) );
+        });
+    });
+  }
+
+  hivePriceConversion(1).then(r => {
+    console.log(r);
+  })
+
+
 
 /*
 function groupBy(miarray, prop) {
@@ -249,14 +272,13 @@ contract.getAllNfts(axios).then((r) => {
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
-    console.log("updating" , rx)
+    console.log("updating", rx);
     for (let index = 0; index < rx; index++) {
       const element = response.plots[index];
 
       if (element.properties.hasOwnProperty("SEEDID")) {
         if (element.properties.SEEDID > 0) {
           if (element.properties.OCCUPIED) {
-
             let seed = jp.query(
               response,
               `$.seeds[?(@.id==${element.properties.SEEDID})]`
@@ -268,7 +290,7 @@ contract.getAllNfts(axios).then((r) => {
                 if (seed[0].owner != element.owner) {
                   console.log(
                     "actualizando nft porque",
-                    seed[0].owner +" "+ seed[0].id,
+                    seed[0].owner + " " + seed[0].id,
                     element.owner
                   );
 
@@ -286,9 +308,7 @@ contract.getAllNfts(axios).then((r) => {
                           properties: { OCCUPIED: false, SEEDID: 0 },
                         },
                       ])
-                      .then((res) => {
-                       
-                      });
+                      .then((res) => {});
 
                     await new Promise((resolve) => {
                       setTimeout(() => {
@@ -303,9 +323,7 @@ contract.getAllNfts(axios).then((r) => {
                         seed[0].properties.PR.toFixed(3),
                         element.owner
                       )
-                      .then((e) => {
-                     
-                      });
+                      .then((e) => {});
                   }
                 }
               }
@@ -315,8 +333,8 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})(); */
-
+})();
+*/
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);

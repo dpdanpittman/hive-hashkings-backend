@@ -253,17 +253,16 @@ function dynStart(account) {
 function hivePriceConversion(amount) {
   return new Promise((resolve, reject) => {
     axios
-      .get("https://api.binance.com/api/v3/ticker/price")
+      .get("https://api.coingecko.com/api/v3/simple/price?ids=hive&vs_currencies=usd&include_24hr_change=true")
       .then((res) => {
-        const { data } = res;
-        const hivePrice = data.find((o) => o.symbol === "HIVEUSDT");
-        const hiveCost = amount / hivePrice.price;
+        const hiveCost = amount / res.data.hive.usd;
         const hiveAmount = hiveCost;
 
         resolve(hiveAmount.toFixed(3));
       })
-      .catch((err) => {
-        reject(err);
+      .catch(async (err) => {
+        console.log("error al leer precio de coingekko", err)
+        resolve( await hivePriceConversion(1) );
       });
   });
 }
