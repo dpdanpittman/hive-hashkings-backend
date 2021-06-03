@@ -1213,7 +1213,7 @@ function startApp() {
         hivePriceConversion(1).then((prices) => {
           let bundlePrice = prices;
 
-          state.stats.prices.waterPlants.lvl1.price = Math.ceil(bundlePrice / 2);
+          state.stats.prices.waterPlants.lvl1.price = bundlePrice / 2;
           state.stats.prices.waterPlants.lvl2.price = bundlePrice;
           state.stats.prices.waterPlants.lvl3.price = bundlePrice;
           state.stats.prices.waterPlants.lvl4.price = bundlePrice;
@@ -1666,8 +1666,8 @@ function startApp() {
 
       if (
         want === "avatar1" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Magical Male",from)
@@ -1677,8 +1677,8 @@ function startApp() {
 
       if (
         want === "avatar2" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Magical Female",from)
@@ -1688,8 +1688,8 @@ function startApp() {
 
       if (
         want === "avatar3" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Farmer Shaggi",from)
@@ -1699,8 +1699,8 @@ function startApp() {
 
       if (
         want === "avatar4" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Farmer Maggi",from)
@@ -1710,8 +1710,8 @@ function startApp() {
 
       if (
         want === "avatar5" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Lucky Shaggi",from)
@@ -1721,8 +1721,8 @@ function startApp() {
 
       if (
         want === "avatar6" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Lucky Maggi",from)
@@ -1732,8 +1732,8 @@ function startApp() {
 
       if (
         want === "avatar7" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Water Baron Shaggi",from)
@@ -1743,8 +1743,8 @@ function startApp() {
 
       if (
         want === "avatar8" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Water Baroness Maggi",from)
@@ -1754,8 +1754,8 @@ function startApp() {
 
       if (
         want === "avatar9" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Scientist Shaggi",from)
@@ -1765,8 +1765,8 @@ function startApp() {
 
       if (
         want === "avatar10" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
         contract.createAvatar(hivejs,"Scientist Maggi",from)
@@ -1776,8 +1776,8 @@ function startApp() {
 
       if (
         want === "water2" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 10
       ) {
         // create nft
@@ -1787,8 +1787,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water3" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 20
       ) {
         // create nft
@@ -1797,8 +1797,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water4" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 30
       ) {
         // create nft
@@ -1808,8 +1808,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water5" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 40
       ) {
         // create nft
@@ -1819,8 +1819,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water6" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 50
       ) {
         // create nft
@@ -1830,8 +1830,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water7" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 60
       ) {
         // create nft
@@ -1841,8 +1841,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water8" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 70
       ) {
         // create nft
@@ -1852,8 +1852,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water9" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 80
       ) {
         // create nft
@@ -1863,8 +1863,8 @@ function startApp() {
         state.bal.c += c;
       } else if (
         want === "water10" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300 &&
+        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
         state.users[json.from].lvl >= 90
       ) {
         // create nft
