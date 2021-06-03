@@ -1213,7 +1213,7 @@ function startApp() {
         hivePriceConversion(1).then((prices) => {
           let bundlePrice = prices;
 
-          state.stats.prices.waterPlants.lvl1.price = bundlePrice;
+          state.stats.prices.waterPlants.lvl1.price = Math.ceil(bundlePrice / 2);
           state.stats.prices.waterPlants.lvl2.price = bundlePrice;
           state.stats.prices.waterPlants.lvl3.price = bundlePrice;
           state.stats.prices.waterPlants.lvl4.price = bundlePrice;
@@ -1665,12 +1665,111 @@ function startApp() {
         type = json.memo.split(" ")[1] || "";
 
       if (
-        want === "water1" &&
+        want === "avatar1" &&
         amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
       ) {
         // create nft
+        contract.createAvatar(hivejs,"Magical Male",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
 
+      if (
+        want === "avatar2" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Magical Female",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
+
+      if (
+        want === "avatar3" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Farmer Shaggi",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
+
+      if (
+        want === "avatar4" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Farmer Maggi",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
+
+      if (
+        want === "avatar5" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Lucky Shaggi",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
+
+      if (
+        want === "avatar6" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Lucky Maggi",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
+
+      if (
+        want === "avatar7" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Water Baron Shaggi",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
+
+      if (
+        want === "avatar8" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Water Baroness Maggi",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
+
+      if (
+        want === "avatar9" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Scientist Shaggi",from)
+        const c = parseInt(amount);
+        state.bal.c += c;
+      }
+
+      if (
+        want === "avatar10" &&
+        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 300 &&
+        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 300
+      ) {
+        // create nft
+        contract.createAvatar(hivejs,"Scientist Maggi",from)
         const c = parseInt(amount);
         state.bal.c += c;
       }
