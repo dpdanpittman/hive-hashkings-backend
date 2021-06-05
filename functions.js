@@ -20,27 +20,18 @@ hivejs.config.set("alternative_api_endpoints", [
   "https://anyx.io",
 ]);
 
-
 const tohkvault = async (json, from, state) => {
   //Water Plot
   //user sends HKWater to hk-vault with memo seedID
   if (json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
     console.log("watering", from);
+
     let seedID = json.contractPayload.memo;
     let whoFrom = "" + from;
 
     let amountWater = json.contractPayload.quantity;
     let amountWaterInt = parseInt(amountWater, 10);
     let amountString = "" + amountWater;
-
-    console.log(
-      "seedID= " +
-        seedID +
-        "; amountWater= " +
-        amountWater +
-        "; amountWaterInt= " +
-        amountWaterInt
-    );
 
     var water = await contract.getAvatarOnBlockchain(axios, seedID);
 
@@ -55,7 +46,6 @@ const tohkvault = async (json, from, state) => {
             WATER: waterRemains,
           })
           .then(async (response) => {
-
             await updateOrsetTransaction(
               json.transaction_id,
               "tohk-vault",
@@ -69,7 +59,6 @@ const tohkvault = async (json, from, state) => {
               });
           })
           .catch(async (e) => {
-
             await updateorSetPendingTransaction(
               json.transaction_id,
               "tohk-vault",
@@ -77,7 +66,6 @@ const tohkvault = async (json, from, state) => {
               from,
               "error on update nft seed to set water"
             );
-
           });
       } else {
         state.refund.push([
@@ -338,111 +326,45 @@ const tohkvault = async (json, from, state) => {
 
 const nfttohkvaul = async (json, from, state) => {
   if (json.contractPayload.nfts[0].symbol === "HKFARM") {
+    let nftComing = json.contractPayload.nfts[0];
 
-    let seed = json.contractPayload.nfts[0];
-    let nft = json.contractPayload.nfts[0];
-    let booster = json.contractPayload.nfts[0];
+    var nft = await contract.getNFT(axios, parseInt(nftComing.ids[0], 10));
 
-    let seedID = seed.ids[0];
-    let jointID = parseInt(nft.ids[0], 10);
-    let boosterID = booster.ids[0];
+    if (nft) {
+      if (nft.properties.TYPE == "seed") {
+        let sptStatus = nft.properties.SPT;
+        let waterStatus = nft.properties.WATER;
 
-    let plotID = jp.query(
-      state.users[from],
-      `$.seeds[?(@.id==${seedID})].properties.PLOTID`
-    );
-    let sptStatus = jp.query(
-      state.users[from],
-      `$.seeds[?(@.id==${seedID})].properties.SPT`
-    );
-    let waterStatus = jp.query(
-      state.users[from],
-      `$.seeds[?(@.id==${seedID})].properties.WATER`
-    );
-    let seedExists = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})]`);
+        if (sptStatus < 1 && waterStatus < 1) {
+          let plotIDString = "" + nft.properties.PLOTID;
+          var budAmount = nft.properties.PR;
+          //send harvested buds to user
+          await new Promise((resolve) => {
+            setTimeout(() => {
+              resolve();
+            }, 1000);
+          });
 
-    let seedSent = jp.query(
-      state.users["hk-vault"],
-      `$.seeds[?(@.id==${seedID})]`
-    );
+          await contract
+            .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
+            .then(async () => {
+              await updateOrsetTransaction(
+                json.transaction_id,
+                "nfttohk-vault",
+                json,
+                from,
+                "process complete"
+              )
+                .then(async (red) => {
+                  console.log(
+                    "proceso completo, se actualizo el plot",
+                    plotIDString
+                  );
+                })
+                .catch((e) => {
+                  console.log("ocurrio un error", e);
+                });
 
-    let jointTypes = jp.query(
-      state.users[from],
-      `$.joints[?(@.id==${jointID})].properties.CONSUMABLETYPE`
-    );
-
-    let jointTypesHKVAULT = jp.query(
-      state.users["hk-vault"],
-      `$.joints[?(@.id==${jointID})].properties.CONSUMABLETYPE`
-    );
-
-    if (
-      state.users[from] ||
-      (state.users["hk-vault"] && seedExists) ||
-      (seedSent && sptStatus < 1 && waterStatus < 1)
-    ) {
-      var budAmount =
-        "" +
-        jp.query(
-          state.users[from],
-          `$.seeds[?(@.id==${seedID})].properties.PR`
-        );
-
-      var budAmountVault =
-        "" +
-        jp.query(
-          state.users["hk-vault"],
-          `$.seeds[?(@.id==${seedID})].properties.PR`
-        );
-
-      let plotIDString = "" + plotID;
-
-      console.log("cheking", budAmount, budAmountVault);
-
-      if (budAmountVault) {
-        plotID = jp.query(
-          state.users["hk-vault"],
-          `$.seeds[?(@.id==${seedID})].properties.PLOTID`
-        );
-
-        plotIDString = "" + plotID;
-
-        budAmount = budAmountVault;
-      }
-
-      if (!budAmount) {
-        console.log("seed no esta en ninguna parte");
-      }
-
-      //send harvested buds to user
-      await new Promise((resolve) => {
-        setTimeout(() => {
-          resolve();
-        }, 1000);
-      });
-
-      if (plotIDString) {
-        await contract
-          .updateNft(hivejs, plotIDString, { OCCUPIED: false, SEEDID: 0 })
-          .then(async () => {
-            await updateOrsetTransaction(
-              json.transaction_id,
-              "nfttohk-vault",
-              json,
-              from,
-              "process complete"
-            )
-              .then(async (red) => {
-                console.log(
-                  "proceso completo, se actualizo el plot",
-                  plotIDString
-                );
-              })
-              .catch((e) => {
-                console.log("ocurrio un error", e);
-              });
-
-            if (budAmount) {
               await contract
                 .generateToken(hivejs, "BUDS", budAmount, from)
                 .then(() => {
@@ -466,132 +388,62 @@ const nfttohkvaul = async (json, from, state) => {
                     },
                   ]);
                 });
-            } else {
-              console.log(
-                "reparando plot pero no envio buds porque ya seguro envie"
+            })
+            .catch(async (e) => {
+              await updateorSetPendingTransaction(
+                json.transaction_id,
+                "nfttohk-vault",
+                json,
+                from,
+                from + " it couldnt update plot " + plotIDString
               );
-            }
-          })
-          .catch(async (e) => {
-            await updateorSetPendingTransaction(
-              json.transaction_id,
-              "nfttohk-vault",
-              json,
-              from,
-              from + "it couldnt update plot " + plotIDString
-            );
-
-            console.log(
-              from +
-                "it couldnt update plot " +
-                plotIDString +
-                "setting on pending",
-              e
-            );
-          });
+            });
+        }
       }
+
+      if (nft.properties.TYPE == "consumable") {
+        //smoke joint
+        //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
+        try {
+          let jointString = "" + nft.properties.CONSUMABLETYPE;
+
+          console.log("this user", from, "try smoke", jointString);
+
+          let xptoUpdate = null;
+          if (jointString == "pinner") {
+            xptoUpdate = state.stats.joints.pinner;
+          } else if (jointString == "hempWrappedJoint") {
+            xptoUpdate = state.stats.joints.hempWrappedJoint;
+          } else if (jointString == "crossJoint") {
+            xptoUpdate = state.stats.joints.crossJoint;
+          } else if (jointString == "blunt") {
+            xptoUpdate = state.stats.joints.blunt;
+          } else if (jointString == "hempWrappedBlunt") {
+            xptoUpdate = state.stats.joints.hempWrappedBlunt;
+          } else if (jointString == "twaxJoint") {
+            xptoUpdate = state.stats.joints.twaxJoint;
+          }
+
+          if (xptoUpdate) {
+            await updateXP(state, xptoUpdate, from, jointID, json);
+          }
+        } catch (error) {
+          console.log("error al fumar smoke", error);
+        }
+      }
+    } else {
+      await updateorSetPendingTransaction(
+        json.transaction_id,
+        "nfttohk-vault",
+        json,
+        from,
+        from + " nft no exist check please "
+      );
+      return;
     }
 
     //Rent Subdivision <---- coming soon
     //user will send mota to hk-vault with memo plotOwner and amountRent
-
-    //smoke joint
-    //user sends comumable NFT to hk-vault with memo type (ex. smoke_joint, smoke_blunt etc..)
-    try {
-      let jointString =
-        "" + (jointTypes[0] ? jointTypes[0] : jointTypesHKVAULT[0]);
-
-      console.log(
-        "this user",
-        from,
-        "try smoke",
-        jointString,
-        jointTypes,
-        jointTypesHKVAULT
-      );
-
-      let xptoUpdate = null;
-      if (jointString == "pinner") {
-        xptoUpdate = state.stats.joints.pinner;
-      } else if (jointString == "hempWrappedJoint") {
-        xptoUpdate = state.stats.joints.hempWrappedJoint;
-      } else if (jointString == "crossJoint") {
-        xptoUpdate = state.stats.joints.crossJoint;
-      } else if (jointString == "blunt") {
-        xptoUpdate = state.stats.joints.blunt;
-      } else if (jointString == "hempWrappedBlunt") {
-        xptoUpdate = state.stats.joints.hempWrappedBlunt;
-      } else if (jointString == "twaxJoint") {
-        xptoUpdate = state.stats.joints.twaxJoint;
-      }
-
-      if (xptoUpdate) {
-        await updateXP(state, xptoUpdate, from, jointID, json);
-      } 
-
-    } catch (error) {
-      console.log("error al fumar smoke", error);
-    }
-
-    /*let boosterString = "" + boosterType 
-                    if(boosterString === "Level 1 Booster"){
-
-                        //claim booster
-                        state.users[from].timeBoosters.lvl1 += 1
-                    }
-
-                    if(boosterString === "Level 2 Booster"){
-
-                        //claim booster
-                        state.users[from].timeBoosters.lvl2 += 1
-                    }
-
-                    if(boosterString === "Level 3 Booster"){
-
-                        //claim booster
-                        state.users[from].timeBoosters.lvl3 += 1
-                    }
-
-                    if(boosterString === "Level 4 Booster"){
-
-                        //claim booster
-                        state.users[from].timeBoosters.lvl4 += 1
-                    }
-
-                    if(boosterString === "Level 5 Booster"){
-
-                        //claim booster
-                        state.users[from].timeBoosters.lvl5 += 1
-                    }
-
-                    if(boosterString === "Level 6 Booster"){
-
-                        //claim booster
-                        state.users[from].timeBoosters.lvl6 += 1
-                    }*/
-
-    //claim Booster
-    //user sends booster NFT to hk-vault with memo type (ex. use_booster_lvl1, use_booster_lvl2 etc..)
-    /*if(json.contractPayload.symbol === "HKFARM" && json.contractPayload.memo) {
-                        let seedID = json.contractPayload.id
-                        let plotID = json.contractPayload.memo
-
-                        let sptStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.SPT`);  
-                        let waterStatus = jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.WATER`);
-                        
-
-                        if(state.users[from] && sptStatus < 1 && waterStatus < 1){
-
-                            var budAmount = "" + jp.query(state.users[from], `$.seeds[?(@.id==${seedID})].properties.PR`);  
-                        
-                            //send harvested buds to user
-                            contract.generateToken(hivejs, "BUDS", budAmount, from)
-
-                            //make plot occupied and designate seed
-                            contract.updateNft(hivejs, plotID, { "OCCUPIED": false })
-                            contract.updateNft(hivejs, plotID, { "SEEDID": 0 })
-                            }
-                        }*/
   }
 };
 
@@ -667,7 +519,7 @@ const plant_plot = async (json, from, state) => {
   let plot = await contract.getAvatarOnBlockchain(axios, parseInt(plotID));
   let seed = await contract.getAvatarOnBlockchain(axios, parseInt(seedID));
 
-  console.log("verify seed and plot ", seedID , plotID);
+  console.log("verify seed and plot ", seedID, plotID);
 
   if (plot && seed) {
     if (plot.OCCUPIED || seed.PLANTED) {
@@ -675,7 +527,7 @@ const plant_plot = async (json, from, state) => {
       return;
     }
   } else {
-    console.log("no seed and no plot " , plot , seed );
+    console.log("no seed and no plot ", plot, seed);
     return;
   }
   //make seed used and designate plot

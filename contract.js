@@ -1202,6 +1202,28 @@ async function getAvatarOnBlockchain(axios, avatarID) {
   });
 }
 
+async function getNFT(axios, nftID) {
+  return new Promise(async (resolve, reject) => {
+    let get_nfts = await queryContract(
+      axios,
+      {
+        contract: CONTRACT,
+        table: NFT_SYMBOL + TABLE_POSTFIX,
+        query: { _id: nftID },
+      },
+      0,
+      "findOne"
+    );
+
+
+    if (get_nfts) {
+      resolve(get_nfts);
+    } else {
+      resolve(false);
+    }
+  });
+}
+
 async function getReport(axios) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -3175,4 +3197,5 @@ module.exports = contract = {
   testseeds,
   getHKVaultNFts,
   getAvatarOnBlockchain,
+  getNFT
 };

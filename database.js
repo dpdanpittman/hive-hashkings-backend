@@ -84,13 +84,15 @@ async function getAllTransaction() {
   return await transferModel.find({ status: "pending" });
 }
 
-async function updateBlock(blockid) {
-  await blockModel.updateOne({ blockid: "1", block: blockid });
+async function updateBlock(id, blockid) {
+  await blockModel.updateOne({ blockid: ""+id, block: blockid });
   return getLastBlock();
 }
 
 async function getLastBlock() {
-  return await blockModel.findOne({ blockid: "1" });
+  let hb =  await blockModel.findOne({ blockid: "1" });
+  let heb =  await blockModel.findOne({ blockid: "2" });
+  return {hb,heb}
 }
 
 

@@ -30,7 +30,6 @@ function sort(miarray) {
   });
 }
 
-
 /*
 let a = contract.testseeds();
 let b = [];
@@ -119,32 +118,6 @@ contract
   .then((res) => {
     console.log(res);
   }); */
-
-
-
-  function hivePriceConversion(amount) {
-    return new Promise((resolve, reject) => {
-      axios
-        .get("https://api.coingecko.com/api/v3/simple/price?ids=hive&vs_currencies=usd&include_24hr_change=true")
-        .then((res) => {
-          
-          const hiveCost = amount / res.data.hive.usd;
-          const hiveAmount = hiveCost;
-  
-          resolve(hiveAmount.toFixed(3));
-        })
-        .catch(async (err) => {
-          console.log("error al leer precio de coingekko", err)
-          resolve( await hivePriceConversion(1) );
-        });
-    });
-  }
-
-  hivePriceConversion(1).then(r => {
-    console.log(r);
-  })
-
-
 
 /*
 function groupBy(miarray, prop) {
@@ -268,7 +241,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii 
+/* vamo por aquiiii */
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -334,7 +307,7 @@ contract.getAllNfts(axios).then((r) => {
     }
   });
 })();
-*/
+
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
@@ -501,3 +474,21 @@ contract
   });
 })();
 */
+
+/*
+const SSC = require("sscjs");
+const ssc = new SSC("https://api.hive-engine.com/rpc");
+
+
+const processxor = require("./hiveEngineProcessor");
+processxor(
+  ssc,
+  7525370,
+  (payload) => {
+    console.log("payload on token send", payload);
+  },
+  (nft) => {
+    console.log("payload nft send", nft)
+  }
+);
+ */
