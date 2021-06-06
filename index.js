@@ -750,17 +750,20 @@ app.get("/", (req, res, next) => {
 });
 
 app.get("/u/:user", (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
   try {
     let user = req.params.user;
-    res.setHeader("Content-Type", "application/json");
-
     res.send(JSON.stringify(state.users[user], null, 3));
-  } catch (error) {}
+  } catch (error) {
+    res.send(JSON.stringify({}, null, 3));
+  }
 });
 
 app.get("/utest/:user", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  let user = req.params.user;
   try {
-    let user = req.params.user;
+   
     if (!state.users[user]) {
       state.users[user] = {
         rentals: [],
@@ -835,7 +838,7 @@ app.get("/utest/:user", async (req, res, next) => {
         activeAvatar: {},
       };
     }
-    res.setHeader("Content-Type", "application/json");
+    
     let { plots, seeds, tokens, waterTowers, waterPlants, avatars, joints } =
       await contract.getUserNft(ssc, axios, user);
     state.users[user].seeds = seeds;
@@ -946,6 +949,9 @@ app.get("/utest/:user", async (req, res, next) => {
         boosters: [],
         activeAvatar: {},
       };
+      res.send(JSON.stringify(state.users[user], null, 3));
+    }else{
+      res.send(JSON.stringify(state.users[user], null, 3));
     }
   }
 });
@@ -979,28 +985,24 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.post("/pending", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
   try {
     let user = req.body.user;
     let json = req.body.json;
-
-    res.setHeader("Content-Type", "application/json");
-
     let response = await getIsPending(user, JSON.stringify(json));
 
     res.send(JSON.stringify(response, null, 3));
   } catch (error) {
-    console.log("retorno error al llamar pending", error);
+    res.send(JSON.stringify({}, null, 3));
   }
 });
 
 app.get("/getallpendings/:user", async (req, res, next) => {
+  
+  res.setHeader("Content-Type", "application/json");
   try {
     let user = req.params.user;
-
-    res.setHeader("Content-Type", "application/json");
-
     let response = await getAllPendings(user);
-
     if (!user) {
       response = {};
     }
@@ -1008,6 +1010,7 @@ app.get("/getallpendings/:user", async (req, res, next) => {
     res.send(JSON.stringify(response, null, 3));
   } catch (error) {
     console.log("retorno error al llamar pending", error);
+    res.send(JSON.stringify({}, null, 3));
   }
 });
 

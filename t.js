@@ -241,7 +241,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii */
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -307,13 +307,14 @@ contract.getAllNfts(axios).then((r) => {
     }
   });
 })();
+*/
 
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
 }); */
 
-/*
+
 contract
   .updateMultipleNfts(hivejs, [
     {
@@ -323,7 +324,7 @@ contract
   ])
   .then((res) => {
     console.log(res);
-  }); */
+  }); 
 
 /* reparar despues
 (async () => {
