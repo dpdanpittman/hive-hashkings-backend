@@ -1207,7 +1207,7 @@ function startApp() {
     // performs the leveling check
     if (num % 11 === 0 && processor.isStreaming()) {
       //leveling();
-      updateBlock(1, num).then((r) => {
+      updateBlock("1", num).then((r) => {
         console.log("update hive block");
       });
     }
@@ -1759,7 +1759,7 @@ function hiveEngineStart(starBlock) {
       }
     },
     async (block) => {
-      updateBlock(2, block).then((r) => {
+      updateBlock("2", block).then((r) => {
         console.log("update hive-engine block");
       });
     }
