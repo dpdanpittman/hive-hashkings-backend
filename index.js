@@ -1890,8 +1890,9 @@ mongoose
           startingBlock = res.hb.block;
           ago = res.hb.block;
 
+          console.log("starting block at ", startingBlock, res.heb.block);
           if (res.hb.block && res.heb.block) {
-            console.log("starting block at ", startingBlock, res.heb.block);
+           
             dynStart("hashkings");
             hiveEngineStart(res.heb.block);
           }
