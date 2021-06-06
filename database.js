@@ -85,7 +85,7 @@ async function getAllTransaction() {
 }
 
 async function updateBlock(id, blockid) {
-  await blockModel.updateOne({ blockid: id, block: blockid });
+  await blockModel.updateOne({ blockid: id }, {block: blockid});
   return getLastBlock();
 }
 
