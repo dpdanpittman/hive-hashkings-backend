@@ -1751,7 +1751,7 @@ function hiveEngineStart(starBlock) {
       }
     },
     async (nft) => {
-      let valid = await getIsPending(payload.from, JSON.stringify(nft.json));
+      let valid = await getIsPending(nft.from, JSON.stringify(nft.json));
       if (valid.response) {
         console.log("this transaction is done", nft);
       } else {
