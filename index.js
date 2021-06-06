@@ -1894,7 +1894,7 @@ mongoose
           if (res.hb.block && res.heb.block) {
            
             dynStart("hashkings");
-            hiveEngineStart(res.heb.block);
+            hiveEngineStart(parseInt(res.heb.block, 10));
           }
         }
       })
