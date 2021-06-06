@@ -4,7 +4,9 @@ function processor(ssc, lastBlock, onToken, onNft, BlockNumber) {
       if (!err) {
         let blockNumber = result.blockNumber;
 
-        console.log("hive engine block number", blockNumber)
+        if (blockNumber % 5 == 0) {
+          console.log("hive engine block number", blockNumber);
+        }
 
         if (blockNumber % 11 == 0) {
           BlockNumber(blockNumber);
