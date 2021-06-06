@@ -36,8 +36,9 @@ function processor(ssc, lastBlock, onToken, onNft, BlockNumber) {
                             memo: payload.memo,
                             symbol: payload.symbol,
                           },
+                          transaction_id: elementPricipal.transactionId,
                         },
-                        transaction_id: elementPricipal.transactionId,
+                       
                       };
                       onToken(payloadSend);
                     }
@@ -63,8 +64,9 @@ function processor(ssc, lastBlock, onToken, onNft, BlockNumber) {
                             nfts: payload.nfts,
                             symbol: payload.nfts[0].symbol,
                           },
+                          transaction_id: elementPricipal.transactionId,
                         },
-                        transaction_id: elementPricipal.transactionId,
+                        
                       };
 
                       onNft(payloadSend);
