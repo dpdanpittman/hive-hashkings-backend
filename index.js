@@ -1886,7 +1886,8 @@ mongoose
     );
     getLastBlock()
       .then((res) => {
-        if (res.hb.block && res.heb.block) {
+        console.log("get las block respondio", res)
+        if (res.hb.block) {
           startingBlock = res.hb.block;
           ago = res.hb.block;
 
