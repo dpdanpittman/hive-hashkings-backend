@@ -1886,7 +1886,7 @@ mongoose
     );
     getLastBlock()
       .then((res) => {
-        if (res.block) {
+        if (res.hb.block && res.heb.block) {
           startingBlock = res.hb.block;
           ago = res.hb.block;
 
