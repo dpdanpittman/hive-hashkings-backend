@@ -1207,7 +1207,7 @@ function startApp() {
     // performs the leveling check
     if (num % 11 === 0 && processor.isStreaming()) {
       //leveling();
-      updateBlock(1,num).then((r) => {
+      updateBlock(1, num).then((r) => {
         console.log("update hive block");
       });
     }
@@ -1718,7 +1718,7 @@ function hiveEngineStart(starBlock) {
   processxor(
     ssc,
     starBlock,
-    (payload) => {
+    async (payload) => {
       let valid = await getIsPending(from, JSON.stringify(payload.json));
 
       if (valid.response) {
@@ -1750,7 +1750,7 @@ function hiveEngineStart(starBlock) {
         await tohkvault(payload.json, payload.from, state);
       }
     },
-    (nft) => {
+    async (nft) => {
       let valid = await getIsPending(from, JSON.stringify(nft.json));
       if (valid.response) {
         console.log("this transaction is done", nft);
@@ -1758,10 +1758,10 @@ function hiveEngineStart(starBlock) {
         await nfttohkvaul(nft.json, nft.from, state);
       }
     },
-    (block) => {
-          updateBlock(2,block).then((r) => {
-                    console.log("update hive-engine block");
-                  });
+    async (block) => {
+      updateBlock(2, block).then((r) => {
+        console.log("update hive-engine block");
+      });
     }
   );
 }
@@ -1891,7 +1891,7 @@ mongoose
           ago = res.hb.block;
 
           if (res.hb.block && res.heb.block) {
-            console.log("starting block at ", startingBlock , res.heb.block);
+            console.log("starting block at ", startingBlock, res.heb.block);
             dynStart("hashkings");
             hiveEngineStart(res.heb.block);
           }
