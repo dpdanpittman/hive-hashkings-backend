@@ -425,7 +425,7 @@ const nfttohkvaul = async (json, from, state) => {
           }
 
           if (xptoUpdate) {
-            await updateXP(state, xptoUpdate, from, jointID, json);
+            await updateXP(state, xptoUpdate, from, nft.id, json);
           }
         } catch (error) {
           console.log("error al fumar smoke", error);
