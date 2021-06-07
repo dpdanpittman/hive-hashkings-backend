@@ -10,7 +10,7 @@ const ACTIVEKEY = ENV.activekey;
 const SEEDS_PER_PACK = 3;
 
 //new api for get all nfts
-const URL = "https://engine.ryamer.com/contracts";
+const URL = "https://herpc.dtools.dev/contracts";
 const CONTRACT = "nft"; // Should be nft
 const TABLE_POSTFIX = "instances"; // ShoAuld be the same
 const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol

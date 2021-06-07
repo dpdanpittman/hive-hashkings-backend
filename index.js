@@ -209,7 +209,7 @@ const walletOperationsBitmask = makeBitMaskFilter([
 ]);
 
 //this rpc sucks
-const ssc = new SSC("https://engine.ryamer.com");
+const ssc = new SSC("https://herpc.dtools.dev");
 
 //this doesnt work 100 percent
 function dynStart(account) {
@@ -660,7 +660,7 @@ function reporting() {
 function landPriceConversion() {
   return new Promise((resolve, reject) => {
     axios
-      .post("https://engine.ryamer.com/contracts", {
+      .post("https://herpc.dtools.dev/contracts", {
         jsonrpc: "2.0",
         id: 18,
         method: "find",
