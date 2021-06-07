@@ -10,7 +10,7 @@ const ACTIVEKEY = ENV.activekey;
 const SEEDS_PER_PACK = 3;
 
 //new api for get all nfts
-const URL = "https://herpc.dtools.dev/contracts";
+const URL = "https://104.238.153.130:5000/contracts";
 const CONTRACT = "nft"; // Should be nft
 const TABLE_POSTFIX = "instances"; // ShoAuld be the same
 const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol
