@@ -1204,7 +1204,7 @@ function startApp() {
 
     // makes sure database is up to date every 2 blocks
     if (num % 2 === 0 && processor.isStreaming()) {
-      reporting();
+      //reporting();
     }
 
     // performs the leveling check
