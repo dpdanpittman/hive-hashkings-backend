@@ -856,6 +856,7 @@ app.get("/utest/:user", async (req, res, next) => {
         state.users[user].activeAvatar = av;
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
       } else {
+        console.log("user no have avatar", user)
         try {
           state.users[user].activeAvatar = avatars[0];
           state.users[user].xp = state.users[user].activeAvatar.properties.XP;
@@ -1292,7 +1293,7 @@ function startApp() {
 
     if (av) {
       state.users[from].activeAvatar = av;
-      console.log("avatar cambiado con exito");
+      console.log("avatar cambiado con exito", av);
     } else {
       console.log("no se pudo cambiar el avatar", avatar);
     }
