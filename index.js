@@ -893,9 +893,6 @@ app.get("/utest/:user", async (req, res, next) => {
       }
     }
 
-    if(user =="zadmadueno"){
-      console.log("avatar dice", state.users[user].activeAvatar)
-    }
 
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
@@ -975,6 +972,7 @@ app.get("/utest/:user", async (req, res, next) => {
       };
       res.send(JSON.stringify(state.users[user], null, 3));
     } else {
+      console.log("error", error)
       res.send(JSON.stringify(state.users[user], null, 3));
     }
   }
