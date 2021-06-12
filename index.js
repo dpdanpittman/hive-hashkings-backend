@@ -883,7 +883,6 @@ app.get("/utest/:user", async (req, res, next) => {
 
     let activex = state.users[user].activeAvatar;
 
-    console.log("avatar", activex, user)
 
     if (!activex) {
       try {
