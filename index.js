@@ -848,9 +848,7 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
     if (state.users[user].activeAvatar) {
-      let av = state.users[user].avatars.find(function (element) {
-        return element.id == state.users[user].activeAvatar.id;
-      });
+      let av =  state.users[user].activeAvatar;
 
       if (av) {
         state.users[user].activeAvatar = av;
