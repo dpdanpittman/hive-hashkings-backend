@@ -847,7 +847,7 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].waterPlants = waterPlants;
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
-    if (state.users[user].activeAvatar) {
+    if (state.users[user].activeAvatar.hasOwnProperty("properties")) {
       let av = {}
 
       if(state.users[user].activeAvatar.hasOwnProperty("_id")){
@@ -879,6 +879,7 @@ app.get("/utest/:user", async (req, res, next) => {
       try {
         state.users[user].activeAvatar = avatars[0];
       } catch (e) {
+        console.log("error al cambiar avatar", e)
         state.users[user].activeAvatar = {};
       }
     }
