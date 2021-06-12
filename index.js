@@ -840,6 +840,7 @@ app.get("/utest/:user", async (req, res, next) => {
 
     let { plots, seeds, tokens, waterTowers, waterPlants, avatars, joints } =
       await contract.getUserNft(ssc, axios, user);
+
     state.users[user].seeds = seeds;
     state.users[user].plots = plots;
     state.users[user].tokens = tokens;
@@ -847,26 +848,22 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].waterPlants = waterPlants;
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
+
     if (state.users[user].activeAvatar.hasOwnProperty("properties")) {
-      let av = {}
+      let av = {};
 
-      if(state.users[user].activeAvatar.hasOwnProperty("_id")){
-
+      if (state.users[user].activeAvatar.hasOwnProperty("_id")) {
         av.id = state.users[user].activeAvatar._id;
         av.properties = state.users[user].activeAvatar.properties;
         av.owner = user;
-      }else{
+      } else {
         av = state.users[user].activeAvatar;
       }
       if (av) {
         state.users[user].activeAvatar = av;
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
       } else {
-        console.log(
-          "user no have avatar",
-          user,
-          av
-        );
+        console.log("user no have avatar", user, av);
         try {
           state.users[user].activeAvatar = avatars[0];
           state.users[user].xp = state.users[user].activeAvatar.properties.XP;
@@ -875,23 +872,28 @@ app.get("/utest/:user", async (req, res, next) => {
         }
       }
     } else {
-      
       try {
         state.users[user].activeAvatar = avatars[0];
       } catch (e) {
-        console.log("error al cambiar avatar", e)
+        console.log("error al cambiar avatar", e);
         state.users[user].activeAvatar = {};
       }
     }
 
 
-    if(!state.users[user].hasOwnProperty("activeAvatar")){
+    let activex = state.users[user].activeAvatar;
+
+    if (!activex) {
       try {
         state.users[user].activeAvatar = avatars[0];
       } catch (e) {
-        console.log("error al cambiar avatar", e)
+        console.log("error al cambiar avatar", e);
         state.users[user].activeAvatar = {};
       }
+    }
+
+    if(user =="zadmadueno"){
+      console.log("avatar dice", state.users[user].activeAvatar)
     }
 
     await leveling(user);
