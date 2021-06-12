@@ -848,10 +848,16 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
     if (state.users[user].activeAvatar) {
-      let av = state.users[user].avatars.find(function (element) {
-        return element.id == state.users[user].activeAvatar._id;
-      });
+      let av = {}
 
+      if(state.users[user].activeAvatar.hasOwnProperty("_id")){
+
+        av.id = state.users[user].activeAvatar._id;
+        av.properties = state.users[user].activeAvatar.properties;
+        av.owner = user;
+      }else{
+        av = state.users[user].activeAvatar;
+      }
       if (av) {
         state.users[user].activeAvatar = av;
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
@@ -869,7 +875,7 @@ app.get("/utest/:user", async (req, res, next) => {
         }
       }
     } else {
-      console.log("usuario no tiene avatar usando el primero que tenga", user);
+      
       try {
         state.users[user].activeAvatar = avatars[0];
       } catch (e) {
