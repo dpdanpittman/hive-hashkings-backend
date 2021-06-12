@@ -856,7 +856,11 @@ app.get("/utest/:user", async (req, res, next) => {
         state.users[user].activeAvatar = av;
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
       } else {
-        console.log("user no have avatar", user)
+        console.log(
+          "user no have avatar",
+          user,
+          state.users[user].activeAvatar
+        );
         try {
           state.users[user].activeAvatar = avatars[0];
           state.users[user].xp = state.users[user].activeAvatar.properties.XP;
@@ -865,11 +869,11 @@ app.get("/utest/:user", async (req, res, next) => {
         }
       }
     } else {
+      console.log("usuario no tiene avatar usando el primero que tenga", user);
       try {
         state.users[user].activeAvatar = avatars[0];
       } catch (e) {
         state.users[user].activeAvatar = {};
-        console.log("usuario no tiene avatar");
       }
     }
 
