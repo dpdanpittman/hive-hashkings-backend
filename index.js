@@ -884,6 +884,16 @@ app.get("/utest/:user", async (req, res, next) => {
       }
     }
 
+
+    if(!state.users[user].hasOwnProperty("activeAvatar")){
+      try {
+        state.users[user].activeAvatar = avatars[0];
+      } catch (e) {
+        console.log("error al cambiar avatar", e)
+        state.users[user].activeAvatar = {};
+      }
+    }
+
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
   } catch (error) {
