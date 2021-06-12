@@ -763,7 +763,6 @@ app.get("/utest/:user", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   let user = req.params.user;
   try {
-   
     if (!state.users[user]) {
       state.users[user] = {
         rentals: [],
@@ -838,7 +837,7 @@ app.get("/utest/:user", async (req, res, next) => {
         activeAvatar: {},
       };
     }
-    
+
     let { plots, seeds, tokens, waterTowers, waterPlants, avatars, joints } =
       await contract.getUserNft(ssc, axios, user);
     state.users[user].seeds = seeds;
@@ -950,7 +949,7 @@ app.get("/utest/:user", async (req, res, next) => {
         activeAvatar: {},
       };
       res.send(JSON.stringify(state.users[user], null, 3));
-    }else{
+    } else {
       res.send(JSON.stringify(state.users[user], null, 3));
     }
   }
@@ -998,7 +997,6 @@ app.post("/pending", async (req, res, next) => {
 });
 
 app.get("/getallpendings/:user", async (req, res, next) => {
-  
   res.setHeader("Content-Type", "application/json");
   try {
     let user = req.params.user;
@@ -1289,16 +1287,14 @@ function startApp() {
   // change avatar
   processor.on("change_avatar", async function (json, from) {
     let avatar = json.avatar;
+    console.log("changin avatar ", avatar, from);
+    let av = await contract.getNFT(axios, parseInt(avatar, 10));
 
-    if (state.users[from] && avatar) {
-      let av = await contract.getNFT(axios, parseInt(avatar, 10));
-
-      if (av) {
-        state.users[from].activeAvatar = av;
-        console.log("avatar cambiado con exito");
-      } else {
-        console.log("no se pudo cambiar el avatar", avatar);
-      }
+    if (av) {
+      state.users[from].activeAvatar = av;
+      console.log("avatar cambiado con exito");
+    } else {
+      console.log("no se pudo cambiar el avatar", avatar);
     }
   });
 
@@ -1722,7 +1718,10 @@ function hiveEngineStart(starBlock) {
     ssc,
     starBlock,
     async (payload) => {
-      let valid = await getIsPending(payload.from, JSON.stringify(payload.json));
+      let valid = await getIsPending(
+        payload.from,
+        JSON.stringify(payload.json)
+      );
 
       if (valid.response) {
         if (
@@ -1889,14 +1888,13 @@ mongoose
     );
     getLastBlock()
       .then((res) => {
-        console.log("get las block respondio", res)
+        console.log("get las block respondio", res);
         if (res.hb.block) {
           startingBlock = res.hb.block;
           ago = res.hb.block;
 
           console.log("starting block at ", startingBlock, res.heb.block);
           if (res.hb.block && res.heb.block) {
-           
             dynStart("hashkings");
             hiveEngineStart(parseInt(res.heb.block, 10));
           }

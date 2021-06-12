@@ -106,19 +106,186 @@ contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
   console.log(r);
 })
 */
-
 /*
 contract
   .updateMultipleNfts(hivejs, [
     {
-      id: "" + 13811,
-      properties: { LVL: 2 , WATER: 96 },
+      id: "" + 107561,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107565,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107582,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107587,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107597,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107617,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107620,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107635,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107637,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107652,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107662,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 107681,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 108493,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 109220,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 109308,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 109905,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110379,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110482,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110487,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110555,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110560,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110572,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110689,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110806,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 110885,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 112123,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 112124,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 112387,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113815,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113906,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113915,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113931,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113934,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113941,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113943,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113954,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 113957,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 114072,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 115073,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 115086,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 115092,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 115673,
+      properties: { PLANTED: false },
+    },
+    {
+      id: "" + 115784,
+      properties: { PLANTED: false },
     },
   ])
   .then((res) => {
     console.log(res);
-  }); */
-
+  });
+*/
 /*
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
@@ -493,3 +660,10 @@ processxor(
   }
 );
  */
+
+/*
+contract.createAvatar(hivejs,"Lucky Shaggi","luisdragonheroe").then(e => {
+  console.log(e)
+}).catch(err => {
+  console.log(err)
+}) */
