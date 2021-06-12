@@ -849,6 +849,15 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
 
+    if (!state.users[user].hasOwnProperty("activeAvatar")) {
+      try {
+        state.users[user].activeAvatar = avatars[0];
+      } catch (e) {
+        console.log("error al cambiar avatar", e);
+        state.users[user].activeAvatar = {};
+      }
+    }
+
     if (state.users[user].activeAvatar.hasOwnProperty("properties")) {
       let av = {};
 
@@ -881,18 +890,7 @@ app.get("/utest/:user", async (req, res, next) => {
     }
 
 
-    let activex = state.users[user].activeAvatar;
-
-
-    if (!activex) {
-      try {
-        state.users[user].activeAvatar = avatars[0];
-      } catch (e) {
-        console.log("error al cambiar avatar", e);
-        state.users[user].activeAvatar = {};
-      }
-    }
-
+    
 
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
@@ -972,7 +970,6 @@ app.get("/utest/:user", async (req, res, next) => {
       };
       res.send(JSON.stringify(state.users[user], null, 3));
     } else {
-      console.log("error", error)
       res.send(JSON.stringify(state.users[user], null, 3));
     }
   }
