@@ -848,7 +848,7 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
     if (state.users[user].activeAvatar) {
-      let av = await state.users[user].avatars.find(function (element) {
+      let av = state.users[user].avatars.find(function (element) {
         return element.id == state.users[user].activeAvatar.id;
       });
 
@@ -859,7 +859,7 @@ app.get("/utest/:user", async (req, res, next) => {
         console.log(
           "user no have avatar",
           user,
-          state.users[user].activeAvatar
+          av
         );
         try {
           state.users[user].activeAvatar = avatars[0];
