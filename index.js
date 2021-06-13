@@ -856,41 +856,38 @@ app.get("/utest/:user", async (req, res, next) => {
         console.log("error al cambiar avatar", e);
         state.users[user].activeAvatar = {};
       }
-    }
+    } else {
+      if (state.users[user].activeAvatar.hasOwnProperty("properties")) {
+        let av = {};
 
-    if (state.users[user].activeAvatar.hasOwnProperty("properties")) {
-      let av = {};
-
-      if (state.users[user].activeAvatar.hasOwnProperty("_id")) {
-        av.id = state.users[user].activeAvatar._id;
-        av.properties = state.users[user].activeAvatar.properties;
-        av.owner = user;
+        if (state.users[user].activeAvatar.hasOwnProperty("_id")) {
+          av.id = state.users[user].activeAvatar._id;
+          av.properties = state.users[user].activeAvatar.properties;
+          av.owner = user;
+        } else {
+          av = state.users[user].activeAvatar;
+        }
+        if (av) {
+          state.users[user].activeAvatar = av;
+          state.users[user].xp = state.users[user].activeAvatar.properties.XP;
+        } else {
+          console.log("user no have avatar", user, av);
+          try {
+            state.users[user].activeAvatar = avatars[0];
+            state.users[user].xp = state.users[user].activeAvatar.properties.XP;
+          } catch (e) {
+            state.users[user].activeAvatar = {};
+          }
+        }
       } else {
-        av = state.users[user].activeAvatar;
-      }
-      if (av) {
-        state.users[user].activeAvatar = av;
-        state.users[user].xp = state.users[user].activeAvatar.properties.XP;
-      } else {
-        console.log("user no have avatar", user, av);
         try {
           state.users[user].activeAvatar = avatars[0];
-          state.users[user].xp = state.users[user].activeAvatar.properties.XP;
         } catch (e) {
+          console.log("error al cambiar avatar", e);
           state.users[user].activeAvatar = {};
         }
       }
-    } else {
-      try {
-        state.users[user].activeAvatar = avatars[0];
-      } catch (e) {
-        console.log("error al cambiar avatar", e);
-        state.users[user].activeAvatar = {};
-      }
     }
-
-
-    
 
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));

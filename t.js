@@ -91,11 +91,12 @@ contract
   });
 
   */
-
 /*
+
  contract
-  .updateNft(hivejs, "" + 7443, {
-    XP: 32671,
+  .updateNft(hivejs, "" + 7759, {
+    NAME: "Water",
+    TYPE:"water"
   })
   .then((r) => {
     console.log(r);
@@ -475,7 +476,6 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();
 
-
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
@@ -667,3 +667,7 @@ contract.createAvatar(hivejs,"Lucky Shaggi","luisdragonheroe").then(e => {
 }).catch(err => {
   console.log(err)
 }) */
+
+contract.getAvatarOnBlockchain(axios, 7768).then((er) => {
+  console.log("e", er);
+});
