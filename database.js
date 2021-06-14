@@ -110,8 +110,8 @@ async function storeUpdateXp(user, xp) {
   let u = await xpUserModel.findOne({ user: user });
 
   if (u) {
-    u.xp = u.xp + xp;
-    return await xpUserModel.updateOne({ user: user }, { xp: xp });
+    let nxp = parseInt(u.xp,10) + parseInt(xp,10);
+    return await xpUserModel.updateOne({ user: user }, { xp: nxp });
   } else {
     return await new xpUserModel({
       user: user,
