@@ -185,7 +185,7 @@ async function setactiveAvatar(user, id) {
     return await new activeAvatarModel({
       user: user,
       avatarId: id,
-    });
+    }).save();
   }
 }
 
