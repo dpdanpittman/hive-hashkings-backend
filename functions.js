@@ -7,6 +7,7 @@ const {
   updateTransaction,
   updateorSetPendingTransaction,
   updateOrsetTransaction,
+  storeUpdateXp
 } = require("./database");
 
 var jp = require("jsonpath");
@@ -368,7 +369,16 @@ async function updateXP(state, xp, from, joinID, json) {
         from,
         "process update xp complete"
       )
-        .then(async (red) => {})
+        .then(async (red) => {
+
+
+          storeUpdateXp(from,xp).then(response => {
+            console.log("store xp to new report done", from, xp)
+          }).catch(e => {
+            console.log("error al guardar new report", e)
+          });
+
+        })
         .catch((e) => {
           console.log("ocurrio un error", e);
         });

@@ -1,4 +1,9 @@
-const { transferModel, logModel,blockModel } = require("./models");
+const {
+  transferModel,
+  logModel,
+  blockModel,
+  xpUserModel,
+} = require("./models");
 
 async function saveLog(type, json, from, message) {
   return await new logModel({
@@ -9,7 +14,14 @@ async function saveLog(type, json, from, message) {
   }).save();
 }
 
-async function setTransaction(transaction_id, type, json, from, message, status = "pending") {
+async function setTransaction(
+  transaction_id,
+  type,
+  json,
+  from,
+  message,
+  status = "pending"
+) {
   let transfer = await transferModel.findOne({ transaction_id });
 
   if (!transfer) {
@@ -33,8 +45,13 @@ async function updateTransaction(id) {
   );
 }
 
-
-async function updateOrsetTransaction(transaction_id, type, json, from, message) {
+async function updateOrsetTransaction(
+  transaction_id,
+  type,
+  json,
+  from,
+  message
+) {
   let transfer = await transferModel.findOne({ transaction_id });
 
   if (!transfer) {
@@ -49,7 +66,6 @@ async function updateOrsetTransaction(transaction_id, type, json, from, message)
   }
 }
 
-
 async function updateorSetPendingTransaction(
   transaction_id,
   type,
@@ -60,7 +76,13 @@ async function updateorSetPendingTransaction(
   let transfer = await transferModel.findOne({ transaction_id });
 
   if (!transfer) {
-    await setTransaction(transaction_id, type, json, from, "setting  pending transaction for failure execution");
+    await setTransaction(
+      transaction_id,
+      type,
+      json,
+      from,
+      "setting  pending transaction for failure execution"
+    );
     return true;
   } else {
     await transferModel.updateOne(
@@ -84,17 +106,31 @@ async function getAllTransaction() {
   return await transferModel.find({ status: "pending" });
 }
 
+async function storeUpdateXp(user, xp) {
+  let u = await xpUserModel.findOne({ user: user });
+
+  if (u) {
+    u.xp = u.xp + xp;
+    return await xpUserModel.updateOne({ user: user }, { xp: xp });
+  } else {
+    return await new xpUserModel({
+      user: user,
+      xp: xp,
+      date: new Date().getTime(),
+    }).save();
+  }
+}
+
 async function updateBlock(id, blockid) {
-  await blockModel.updateOne({ blockid: id }, {block: blockid});
+  await blockModel.updateOne({ blockid: id }, { block: blockid });
   return getLastBlock();
 }
 
 async function getLastBlock() {
-  let hb =  await blockModel.findOne({ blockid: "1" });
-  let heb =  await blockModel.findOne({ blockid: "2" });
-  return {hb,heb}
+  let hb = await blockModel.findOne({ blockid: "1" });
+  let heb = await blockModel.findOne({ blockid: "2" });
+  return { hb, heb };
 }
-
 
 async function getIsPending(user, json) {
   let jsont = JSON.parse(json);
@@ -125,13 +161,11 @@ async function getIsPending(user, json) {
   return { response: false };
 }
 
-async function getAllPendings(user){
-
+async function getAllPendings(user) {
   let transfer = await transferModel.find({ status: "pending", from: user });
 
   return { response: true, data: transfer };
 }
-
 
 module.exports = {
   saveLog,
@@ -144,5 +178,6 @@ module.exports = {
   updateOrsetTransaction,
   updateBlock,
   getLastBlock,
-  getAllPendings
+  getAllPendings,
+  storeUpdateXp,
 };

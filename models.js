@@ -31,8 +31,17 @@ const blockSchema = new Schema({
 const blockModel = mongoose.model("Block", blockSchema);
 
 
+const xpUserSchema = new Schema({
+  user: String,
+  xp: String,
+  date:String
+});
+
+const xpUserModel = mongoose.model("xpUser", xpUserSchema);
+
 module.exports = {
   transferModel,
   logModel,
-  blockModel
+  blockModel,
+  xpUserModel
 };
