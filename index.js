@@ -874,7 +874,6 @@ app.get("/utest/:user", async (req, res, next) => {
         ava.owner = user;
         state.users[user].activeAvatar = ava;
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
-        await setactiveAvatar(user, ava.id);
       } else {
         if (avatars.length > 0) {
           let ava = await contract.getNFT(axios, avatars[0].id);
