@@ -856,6 +856,9 @@ app.get("/utest/:user", async (req, res, next) => {
     if (!actualActiveAvatar) {
       if (avatars.length > 0) {
         let ava = await contract.getNFT(axios, avatars[0].id);
+        ava.id = ava._id;
+        ava.properties = ava.properties;
+        ava.owner = user;
         state.users[user].activeAvatar = ava;
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
         await setactiveAvatar(user, ava.id);
@@ -863,14 +866,20 @@ app.get("/utest/:user", async (req, res, next) => {
         state.users[user].activeAvatar = {};
       }
     } else {
-      let ava = await contract.getNFT(axios, parseInt(actualActiveAvatar, 10));
+      let ava = await contract.getNFT(axios, actualActiveAvatar);
       if (ava) {
+        ava.id = ava._id;
+        ava.properties = ava.properties;
+        ava.owner = user;
         state.users[user].activeAvatar = ava;
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
         await setactiveAvatar(user, ava.id);
       } else {
         if (avatars.length > 0) {
           let ava = await contract.getNFT(axios, avatars[0].id);
+          ava.id = ava._id;
+          ava.properties = ava.properties;
+          ava.owner = user;
           state.users[user].activeAvatar = ava;
           state.users[user].xp = state.users[user].activeAvatar.properties.XP;
           await setactiveAvatar(user, ava.id);
@@ -880,6 +889,7 @@ app.get("/utest/:user", async (req, res, next) => {
       }
     }
 
+    
 
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
