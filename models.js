@@ -39,9 +39,18 @@ const xpUserSchema = new Schema({
 
 const xpUserModel = mongoose.model("xpUser", xpUserSchema);
 
+
+const activeAvatarSchema = new Schema({
+  user: String,
+  avatarId:String
+});
+
+const activeAvatarModel = mongoose.model("activeavatar", activeAvatarSchema);
+
 module.exports = {
   transferModel,
   logModel,
   blockModel,
-  xpUserModel
+  xpUserModel,
+  activeAvatarModel
 };

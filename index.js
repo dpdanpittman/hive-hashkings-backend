@@ -65,6 +65,8 @@ const {
   updateBlock,
   getLastBlock,
   getAllPendings,
+  setactiveAvatar,
+  getactiveAvatar,
 } = require("./database");
 
 const {
@@ -849,45 +851,35 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
 
-    if (!state.users[user].hasOwnProperty("activeAvatar")) {
-      try {
-        state.users[user].activeAvatar = avatars[0];
-      } catch (e) {
-        console.log("error al cambiar avatar", e);
+    let actualActiveAvatar = await getactiveAvatar(user);
+
+    if (!actualActiveAvatar) {
+      if (avatars.length > 0) {
+        let ava = await contract.getNFT(axios, avatars[0].id);
+        state.users[user].activeAvatar = ava;
+        state.users[user].xp = state.users[user].activeAvatar.properties.XP;
+        await setactiveAvatar(user, ava.id);
+      } else {
         state.users[user].activeAvatar = {};
       }
     } else {
-      if (state.users[user].activeAvatar.hasOwnProperty("properties")) {
-        let av = {};
-
-        if (state.users[user].activeAvatar.hasOwnProperty("_id")) {
-          av.id = state.users[user].activeAvatar._id;
-          av.properties = state.users[user].activeAvatar.properties;
-          av.owner = user;
-        } else {
-          av = state.users[user].activeAvatar;
-        }
-        if (av) {
-          state.users[user].activeAvatar = av;
-          state.users[user].xp = state.users[user].activeAvatar.properties.XP;
-        } else {
-          console.log("user no have avatar", user, av);
-          try {
-            state.users[user].activeAvatar = avatars[0];
-            state.users[user].xp = state.users[user].activeAvatar.properties.XP;
-          } catch (e) {
-            state.users[user].activeAvatar = {};
-          }
-        }
+      let ava = await contract.getNFT(axios, parseInt(actualActiveAvatar, 10));
+      if (ava) {
+        state.users[user].activeAvatar = ava;
+        state.users[user].xp = state.users[user].activeAvatar.properties.XP;
+        await setactiveAvatar(user, ava.id);
       } else {
-        try {
-          state.users[user].activeAvatar = avatars[0];
-        } catch (e) {
-          console.log("error al cambiar avatar", e);
+        if (avatars.length > 0) {
+          let ava = await contract.getNFT(axios, avatars[0].id);
+          state.users[user].activeAvatar = ava;
+          state.users[user].xp = state.users[user].activeAvatar.properties.XP;
+          await setactiveAvatar(user, ava.id);
+        } else {
           state.users[user].activeAvatar = {};
         }
       }
     }
+
 
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
@@ -1308,7 +1300,8 @@ function startApp() {
     let av = await contract.getNFT(axios, parseInt(avatar, 10));
 
     if (av) {
-      state.users[from].activeAvatar = av;
+      await setactiveAvatar(from, av.id);
+      state.users[user].activeAvatar = av;
       console.log("avatar cambiado con exito", av);
     } else {
       console.log("no se pudo cambiar el avatar", avatar);

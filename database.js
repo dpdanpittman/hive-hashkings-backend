@@ -3,6 +3,7 @@ const {
   logModel,
   blockModel,
   xpUserModel,
+  activeAvatarModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -110,7 +111,7 @@ async function storeUpdateXp(user, xp) {
   let u = await xpUserModel.findOne({ user: user });
 
   if (u) {
-    let nxp = parseInt(u.xp,10) + parseInt(xp,10);
+    let nxp = parseInt(u.xp, 10) + parseInt(xp, 10);
     return await xpUserModel.updateOne({ user: user }, { xp: nxp });
   } else {
     return await new xpUserModel({
@@ -167,6 +168,27 @@ async function getAllPendings(user) {
   return { response: true, data: transfer };
 }
 
+async function getactiveAvatar(user) {
+  let data = await activeAvatarModel.findOne({ user: user });
+  if (data) {
+    return data.avatarId;
+  } else {
+    return false;
+  }
+}
+
+async function setactiveAvatar(user, id) {
+  let data = await activeAvatarModel.findOne({ user });
+  if (data) {
+    return await activeAvatarModel.updateOne({ user: user }, { avatarId: id });
+  } else {
+    return await new activeAvatarModel({
+      user: user,
+      avatarId: id,
+    });
+  }
+}
+
 module.exports = {
   saveLog,
   setTransaction,
@@ -180,4 +202,6 @@ module.exports = {
   getLastBlock,
   getAllPendings,
   storeUpdateXp,
+  getactiveAvatar,
+  setactiveAvatar
 };

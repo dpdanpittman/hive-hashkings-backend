@@ -7,7 +7,8 @@ const {
   updateTransaction,
   updateorSetPendingTransaction,
   updateOrsetTransaction,
-  storeUpdateXp
+  storeUpdateXp,
+  getactiveAvatar,
 } = require("./database");
 
 var jp = require("jsonpath");
@@ -204,8 +205,6 @@ const tohkvault = async (json, from, state) => {
           );
         });
     }
-
-   
   }
 };
 
@@ -335,9 +334,13 @@ const nfttohkvaul = async (json, from, state) => {
 async function updateXP(state, xp, from, joinID, json) {
   //validar aquiii
 
-  let activeAvatarID = state.users[from].activeAvatar.id;
+  let activeAvatarID = await getactiveAvatar(from);
 
-  let avatar = await contract.getAvatarOnBlockchain(axios, activeAvatarID);
+  let avatar = null;
+
+  if (activeAvatarID) {
+    avatar = await contract.getAvatarOnBlockchain(axios, parseInt(activeAvatarID, 10));
+  }
 
   if (!avatar) {
     console.log(
@@ -370,14 +373,13 @@ async function updateXP(state, xp, from, joinID, json) {
         "process update xp complete"
       )
         .then(async (red) => {
-
-
-          storeUpdateXp(from,xp).then(response => {
-            console.log("store xp to new report done", from, xp)
-          }).catch(e => {
-            console.log("error al guardar new report", e)
-          });
-
+          storeUpdateXp(from, xp)
+            .then((response) => {
+              console.log("store xp to new report done", from, xp);
+            })
+            .catch((e) => {
+              console.log("error al guardar new report", e);
+            });
         })
         .catch((e) => {
           console.log("ocurrio un error", e);
@@ -445,9 +447,7 @@ const plant_plot = async (json, from, state) => {
     });
 };
 
-const subdivide_plot = async (json, from, state) => {
-  
-};
+const subdivide_plot = async (json, from, state) => {};
 
 module.exports = {
   tohkvault,
