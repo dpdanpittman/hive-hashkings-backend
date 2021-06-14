@@ -1311,7 +1311,7 @@ function startApp() {
 
     if (av) {
       await setactiveAvatar(from, av.id);
-      state.users[user].activeAvatar = av;
+      state.users[from].activeAvatar = av;
       console.log("avatar cambiado con exito", av);
     } else {
       console.log("no se pudo cambiar el avatar", avatar);
