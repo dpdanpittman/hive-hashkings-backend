@@ -1310,8 +1310,12 @@ function startApp() {
     let av = await contract.getNFT(axios, parseInt(avatar, 10));
 
     if (av) {
-      await setactiveAvatar(from, av.id);
+      await setactiveAvatar(from, av._id);
+      av.id = av._id;
+      av.properties = av.properties;
+      av.owner = user;
       state.users[from].activeAvatar = av;
+      state.users[user].xp = state.users[user].activeAvatar.properties.XP;
       console.log("avatar cambiado con exito", av);
     } else {
       console.log("no se pudo cambiar el avatar", avatar);
