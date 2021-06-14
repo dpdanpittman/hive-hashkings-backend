@@ -853,9 +853,8 @@ app.get("/utest/:user", async (req, res, next) => {
 
     let actualActiveAvatar = await getactiveAvatar(user);
 
-    console.log("active avatar id", actualActiveAvatar);
-
     if (!actualActiveAvatar) {
+
       if (avatars.length > 0) {
         let ava = await contract.getNFT(axios, avatars[0].id);
         ava.id = ava._id;
@@ -868,7 +867,7 @@ app.get("/utest/:user", async (req, res, next) => {
         state.users[user].activeAvatar = {};
       }
     } else {
-      let ava = await contract.getNFT(axios, actualActiveAvatar);
+      let ava = await contract.getNFT(axios, parseInt(actualActiveAvatar,10));
       if (ava) {
         ava.id = ava._id;
         ava.properties = ava.properties;
