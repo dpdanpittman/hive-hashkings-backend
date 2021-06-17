@@ -91,16 +91,17 @@ contract
   });
 
   */
-/*
+/* */
 
- contract
-  .updateNft(hivejs, "" + 7759, {
-    NAME: "Water",
-    TYPE:"water"
+contract
+  .updateNft(hivejs, "" + 42279, {
+    PLOTID: 35404,
+    PLANTED: true,
+    SPT: 0,
   })
   .then((r) => {
     console.log(r);
-  }); */
+  });
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
@@ -409,7 +410,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii */
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -474,7 +475,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})();
+})();  */
 
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
@@ -667,7 +668,3 @@ contract.createAvatar(hivejs,"Lucky Shaggi","luisdragonheroe").then(e => {
 }).catch(err => {
   console.log(err)
 }) */
-
-contract.getAvatarOnBlockchain(axios, 7768).then((er) => {
-  console.log("e", er);
-});

@@ -211,7 +211,7 @@ const walletOperationsBitmask = makeBitMaskFilter([
 ]);
 
 //this rpc sucks
-const ssc = new SSC("http://104.238.153.130:5000");
+const ssc = new SSC("https://us.engine.ryamer.com");
 
 //this doesnt work 100 percent
 function dynStart(account) {
@@ -662,7 +662,7 @@ function reporting() {
 function landPriceConversion() {
   return new Promise((resolve, reject) => {
     axios
-      .post("http://104.238.153.130:5000/contracts", {
+      .post("https://us.engine.ryamer.com/contracts", {
         jsonrpc: "2.0",
         id: 18,
         method: "find",
