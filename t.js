@@ -91,17 +91,14 @@ contract
   });
 
   */
-/* */
-
+/*
 contract
-  .updateNft(hivejs, "" + 42279, {
-    PLOTID: 35404,
-    PLANTED: true,
-    SPT: 0,
+  .updateNft(hivejs, "" + 56544, {
+    WATER: 0,
   })
   .then((r) => {
     console.log(r);
-  });
+  }); */
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
@@ -410,7 +407,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii 
+/* vamo por aquiiii  */
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -475,7 +472,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})();  */
+})();  
 
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
@@ -662,8 +659,22 @@ processxor(
 );
  */
 
+/* 
+contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
+  console.log(e)
+}).catch(err => {
+  console.log(err)
+}) 
+*/
+
 /*
-contract.createAvatar(hivejs,"Lucky Shaggi","luisdragonheroe").then(e => {
+contract.getNFT(axios, 37049).then((e) => {
+  console.log("aa", e);
+});
+
+/*
+
+contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
   console.log(e)
 }).catch(err => {
   console.log(err)

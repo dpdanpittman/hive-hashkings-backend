@@ -854,7 +854,6 @@ app.get("/utest/:user", async (req, res, next) => {
     let actualActiveAvatar = await getactiveAvatar(user);
 
     if (!actualActiveAvatar) {
-
       if (avatars.length > 0) {
         let ava = await contract.getNFT(axios, avatars[0].id);
         ava.id = ava._id;
@@ -867,7 +866,7 @@ app.get("/utest/:user", async (req, res, next) => {
         state.users[user].activeAvatar = {};
       }
     } else {
-      let ava = await contract.getNFT(axios, parseInt(actualActiveAvatar,10));
+      let ava = await contract.getNFT(axios, parseInt(actualActiveAvatar, 10));
       if (ava) {
         ava.id = ava._id;
         ava.properties = ava.properties;
@@ -888,8 +887,6 @@ app.get("/utest/:user", async (req, res, next) => {
         }
       }
     }
-
-    
 
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
@@ -1451,10 +1448,36 @@ function startApp() {
       }
 
       //purchasing
-      const amount = parseInt(parseFloat(json.amount) * 1000);
+      const amount = parseInt(json.amount * 1000);
       var want =
           json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
         type = json.memo.split(" ")[1] || "";
+
+      console.log(
+        "intentando hacer una compra",
+        from,
+        json.from,
+        amount,
+        want,
+        state.stats.prices.waterPlants.lvl1.price,
+        state.stats.prices.waterPlants.lvl2.price
+      );
+
+      state.stats.prices.waterPlants.lvl1.price = state.stats.prices.waterPlants
+        .lvl1.price
+        ? state.stats.prices.waterPlants.lvl1.price
+        : amount;
+
+      state.stats.prices.waterPlants.lvl2.price = state.stats.prices.waterPlants
+        .lvl2.price
+        ? state.stats.prices.waterPlants.lvl2.price
+        : amount;
+
+      console.log(
+        "sending",
+        state.stats.prices.waterPlants.lvl1.price,
+        state.stats.prices.waterPlants.lvl2.price
+      );
 
       if (
         want === "avatar1" &&

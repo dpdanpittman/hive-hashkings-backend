@@ -339,7 +339,10 @@ async function updateXP(state, xp, from, joinID, json) {
   let avatar = null;
 
   if (activeAvatarID) {
-    avatar = await contract.getAvatarOnBlockchain(axios, parseInt(activeAvatarID, 10));
+    avatar = await contract.getAvatarOnBlockchain(
+      axios,
+      parseInt(activeAvatarID, 10)
+    );
   }
 
   if (!avatar) {
@@ -412,21 +415,16 @@ const plant_plot = async (json, from, state) => {
   let seedIDString = "" + seedID;
   //vamos a verificar tanto la seed como la plot
 
-  let plot = await contract.getAvatarOnBlockchain(axios, parseInt(plotID));
-  let seed = await contract.getAvatarOnBlockchain(axios, parseInt(seedID));
+  let plot = await contract.getNFT(axios, parseInt(plotID));
+  let seed = await contract.getNFT(axios, parseInt(seedID));
 
-  console.log("verify seed and plot ", seedID, plotID);
+  console.log("verify seed and plot ", seedID, plotID, from);
 
-  if (plot && seed) {
-    if (plot.OCCUPIED || seed.PLANTED) {
-      console.log("plot or seed ocupped");
-      return;
-    }
-  } else {
-    console.log("no seed and no plot ", plot, seed);
+  //make seed used and designate plot
+
+  if (!validatePlotAndSeed(plot, seed)) {
     return;
   }
-  //make seed used and designate plot
 
   await contract
     .updateMultipleNfts(hivejs, [
@@ -448,6 +446,61 @@ const plant_plot = async (json, from, state) => {
 };
 
 const subdivide_plot = async (json, from, state) => {};
+
+const Seeds = {
+  Aceh: "Asia",
+  Thai: "Asia",
+  "Chocolate Thai": "Asia",
+  "Lamb’s Bread": "Jamaica",
+  "King’s Bread": "Jamaica",
+  "Swazi Gold": "Africa",
+  Kilimanjaro: "Africa",
+  "Durban Poison": "Africa",
+  Malawi: "Africa",
+  "Hindu Kush": "Afghanistan",
+  Afghani: "Afghanistan",
+  "Lashkar Gah": "Afghanistan",
+  "Mazar I Sharif": "Afghanistan",
+  "Acapulco Gold": "Mexico",
+  "Colombian Gold": "South America",
+  "Panama Red": "South America",
+};
+
+const validatePlotAndSeed = async (plot, seed, from) => {
+  let plotOrSeedNoExist = false;
+  let plotOrSeedOcupped = false;
+
+  if (plot && seed) {
+    if (plot.properties.OCCUPIED || seed.properties.PLANTED) {
+      console.log("plot or seed ocupped", from);
+      plotOrSeedOcupped = true;
+    }
+  } else {
+    console.log("no seed or no plot ", plot, seed, from);
+    plotOrSeedNoExist = true;
+  }
+
+  let seedPerteneceAPlot = true;
+  if (Seeds[seed.properties.NAME] == plot.properties.NAME) {
+    seedPerteneceAPlot = false;
+  } else {
+    console.log("semilla no pertenece a esta tierra", from);
+  }
+
+  let seedYplotPertenecenAUsuario = true;
+  if (plot.account == from && seed.account == from) {
+    seedYplotPertenecenAUsuario = false;
+  } else {
+    console.log("la semilla o la tierra no pertenece al usuario", from);
+  }
+
+  return (
+    !plotOrSeedNoExist &&
+    !plotOrSeedOcupped &&
+    !seedPerteneceAPlot &&
+    !seedYplotPertenecenAUsuario
+  );
+};
 
 module.exports = {
   tohkvault,
