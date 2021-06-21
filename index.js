@@ -1448,14 +1448,13 @@ function startApp() {
       }
 
       //purchasing
-      const amount = parseInt(json.amount * 1000);
+      const amount = parseInt(json.amount.split(" ")[0] * 1000);
       var want =
           json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
         type = json.memo.split(" ")[1] || "";
 
       console.log(
         "intentando hacer una compra",
-        from,
         json.from,
         amount,
         want,
@@ -1473,19 +1472,13 @@ function startApp() {
         ? state.stats.prices.waterPlants.lvl2.price
         : amount;
 
-      console.log(
-        "sending",
-        state.stats.prices.waterPlants.lvl1.price,
-        state.stats.prices.waterPlants.lvl2.price
-      );
-
       if (
         want === "avatar1" &&
         amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Magical Male", from);
+        await contract.createAvatar(hivejs, "Magical Male", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1496,7 +1489,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Magical Female", from);
+        await contract.createAvatar(hivejs, "Magical Female", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1507,7 +1500,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Farmer Shaggi", from);
+        await contract.createAvatar(hivejs, "Farmer Shaggi", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1518,7 +1511,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Farmer Maggi", from);
+        await contract.createAvatar(hivejs, "Farmer Maggi", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1529,7 +1522,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Lucky Shaggi", from);
+        await contract.createAvatar(hivejs, "Lucky Shaggi", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1540,7 +1533,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Lucky Maggi", from);
+        await contract.createAvatar(hivejs, "Lucky Maggi", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1551,7 +1544,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Water Baron Shaggi", from);
+        await contract.createAvatar(hivejs, "Water Baron Shaggi", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1562,7 +1555,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Water Baroness Maggi", from);
+        await contract.createAvatar(hivejs, "Water Baroness Maggi", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1573,7 +1566,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Scientist Shaggi", from);
+        await contract.createAvatar(hivejs, "Scientist Shaggi", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
@@ -1584,7 +1577,7 @@ function startApp() {
         amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
       ) {
         // create nft
-        contract.createAvatar(hivejs, "Scientist Maggi", from);
+        await contract.createAvatar(hivejs, "Scientist Maggi", json.from);
         const c = parseInt(amount);
         state.bal.c += c;
       }
