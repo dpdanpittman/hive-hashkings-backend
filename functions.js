@@ -422,7 +422,7 @@ const plant_plot = async (json, from, state) => {
 
   //make seed used and designate plot
 
-  if (!validatePlotAndSeed(plot, seed)) {
+  if (!(await validatePlotAndSeed(plot, seed, from))) {
     return;
   }
 
