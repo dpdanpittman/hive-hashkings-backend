@@ -430,15 +430,15 @@ const plant_plot = async (json, from, state) => {
     .updateMultipleNfts(hivejs, [
       {
         id: plotIDString,
-        properties: { OCCUPIED: true, SEEDID: seedID },
+        properties: { OCCUPIED: true, SEEDID: parseInt(seedID) },
       },
       {
         id: seedIDString,
-        properties: { PLANTED: true, PLOTID: plotID },
+        properties: { PLANTED: true, PLOTID: parseInt(plotID) },
       },
     ])
     .then((res) => {
-      console.log("update plot and seed");
+      console.log("update plot and seed successfully", from);
     })
     .catch((e) => {
       console.log("error on update plot and seed", e);

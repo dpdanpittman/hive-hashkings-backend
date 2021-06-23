@@ -10,7 +10,7 @@ const ACTIVEKEY = ENV.activekey;
 const SEEDS_PER_PACK = 3;
 
 //new api for get all nfts
-const URL = "https://us.engine.ryamer.com/contracts";
+const URL = "https://rpc.hashkings.xyz/contracts";
 const CONTRACT = "nft"; // Should be nft
 const TABLE_POSTFIX = "instances"; // ShoAuld be the same
 const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol
@@ -855,6 +855,7 @@ const createConsumable = async (hive, name, consumableType, userBuyer) => {
 const createAvatar = async (hive, name, userBuyer) => {
   let instances = [];
 
+  console.log("creando avatar", name," para ", userBuyer)
   instances.push(CreateAvatar(name, userBuyer));
 
   let json = {
