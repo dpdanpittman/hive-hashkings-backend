@@ -450,7 +450,7 @@ const subdivide_plot = async (json, from, state) => {};
 const Seeds = {
   Aceh: "Asia",
   Thai: "Asia",
-  "Chocolate Thai": "Asia",
+  "Thai Chocolate": "Asia",
   "Lamb’s Bread": "Jamaica",
   "King’s Bread": "Jamaica",
   "Swazi Gold": "Africa",
