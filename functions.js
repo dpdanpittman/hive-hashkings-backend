@@ -70,6 +70,18 @@ const tohkvault = async (json, from, state) => {
             );
           });
       } else {
+        await updateOrsetTransaction(
+          json.transaction_id,
+          "tohk-vault",
+          json,
+          from,
+          "process complete"
+        )
+          .then(async (red) => {})
+          .catch((e) => {
+            console.log("ocurrio un error", e);
+          });
+
         state.refund.push([
           "customJson",
           "ssc-mainnet-hive",
@@ -93,6 +105,18 @@ const tohkvault = async (json, from, state) => {
           " refunding",
         error
       );
+
+      await updateOrsetTransaction(
+        json.transaction_id,
+        "tohk-vault",
+        json,
+        from,
+        "process complete"
+      )
+        .then(async (red) => {})
+        .catch((e) => {
+          console.log("ocurrio un error", e);
+        });
 
       state.refund.push([
         "customJson",
