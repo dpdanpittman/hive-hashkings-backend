@@ -1354,16 +1354,11 @@ function startApp() {
 
   //qwoyn_rent a plot
   processor.on("set_rent", async function (json, from) {
-    console.log("intentando colocar renta", from, json.from);
+    console.log("intentando colocar renta", from, json);
 
     let term = parseInt(json.term, 10);
     let price = parseFloat(json.price);
     let plot = json.plot;
-
-    if (from && from != json.from) {
-      console.log("you can try to rent a plot from other person");
-      return;
-    }
 
     if (term != 1 || term != 3 || term != 6) {
       console.log("error u need set a correct term time");
