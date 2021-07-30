@@ -26,7 +26,7 @@ const tohkvault = async (json, from, state) => {
   //Water Plot
   //user sends HKWater to hk-vault with memo seedID
   if (json.contractPayload.symbol === "HKWATER" && json.contractPayload.memo) {
-    console.log("watering", from);
+    console.log("watering", from, json);
 
     let seedID = json.contractPayload.memo;
     let whoFrom = "" + from;

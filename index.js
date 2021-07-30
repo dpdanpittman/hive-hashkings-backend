@@ -1071,60 +1071,22 @@ checkPendings = async () => {
         await updateHkVault();
         for (let index = 0; index < resxp.length; index++) {
           let resx = resxp[index];
-          await ssc
-            .getTransactionInfo(resx.transaction_id)
-            .then(async (res) => {
-              let errors = null;
 
-              if (res) {
-                try {
-                  errors = JSON.parse("" + res.logs).errors;
-                } catch (e) {
-                  errors = false;
-                }
+          switch (resx.type) {
+            case "tohk-vault":
+              console.log("processing tohk-vault pending");
 
-                if (errors) {
-                  console.error(
-                    "no se pudo procesar otra vez la transaccion",
-                    errors
-                  );
+              await tohkvault(JSON.parse(resx.json), resx.from, state);
 
-                  await updateTransaction(resx.transaction_id)
-                    .then((red) => {
-                      console.log("actualizando con exito transaccion erronea");
-                    })
-                    .catch((e) => {
-                      console.log("ocurrio un error", e);
-                    });
-                } else {
-                  switch (resx.type) {
-                    case "tohk-vault":
-                      console.log("processing tohk-vault pending");
+              break;
 
-                      await tohkvault(JSON.parse(resx.json), resx.from, state);
+            case "nfttohk-vault":
+              console.log("processing  nft tohk-vault pending");
 
-                      break;
+              await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
 
-                    case "nfttohk-vault":
-                      console.log("processing  nft tohk-vault pending");
-
-                      await nfttohkvaul(
-                        JSON.parse(resx.json),
-                        resx.from,
-                        state
-                      );
-
-                      break;
-                  }
-                }
-              } else {
-                console.log(
-                  "no se pudo procesar otra vez esta transaccion",
-                  res,
-                  resx
-                );
-              }
-            });
+              break;
+          }
         }
       }
       sending = false;
@@ -1361,7 +1323,7 @@ function startApp() {
     let plot = json.plot;
 
     console.log(term, price, plot);
-    
+
     if (term != 1 || term != 3 || term != 6) {
       console.log("error u need set a correct term time");
       return;
