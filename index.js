@@ -1360,6 +1360,8 @@ function startApp() {
     let price = parseFloat(json.price);
     let plot = json.plot;
 
+    console.log(term, price, plot);
+    
     if (term != 1 || term != 3 || term != 6) {
       console.log("error u need set a correct term time");
       return;
