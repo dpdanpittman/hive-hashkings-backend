@@ -1354,11 +1354,13 @@ function startApp() {
 
   //qwoyn_rent a plot
   processor.on("set_rent", async function (json, from) {
+    console.log("intentando colocar renta", from, json.from);
+
     let term = parseInt(json.term, 10);
     let price = parseFloat(json.price);
     let plot = json.plot;
 
-    if (from != json.from) {
+    if (from && from != json.from) {
       console.log("you can try to rent a plot from other person");
       return;
     }
@@ -1716,6 +1718,8 @@ async function processWaterBuy(json, from, amount, want, type) {
     return;
   }
 
+  console.group("processWaterUpsteStart");
+
   let waterTower = await contract.getNFT(axios, parseInt(type, 10));
 
   if (!waterTower) {
@@ -1794,6 +1798,8 @@ async function processWaterBuy(json, from, amount, want, type) {
     const c = parseInt(amount);
     state.bal.c += c;
   }
+
+  console.group("processWaterUpsteEnd");
 }
 
 //check if string contain text
@@ -2067,5 +2073,3 @@ mongoose
       });
   })
   .catch((err) => console.error(err));
-
-
