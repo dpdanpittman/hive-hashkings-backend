@@ -59,7 +59,7 @@ const refundModel = mongoose.model("Refund", refundSchema);
 
 const adrsSchema = new Schema({
   user: String,
-  adrs: Number,
+  adrs: String,
 });
 
 const adrsModel = mongoose.model("Adrs", adrsSchema);
