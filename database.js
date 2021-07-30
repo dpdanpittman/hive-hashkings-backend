@@ -202,7 +202,7 @@ async function addPendingRefund(usuario, value, memo) {
     status: "pending",
   }).save();
 }
-async function getAllRefunds(usuario, value, memo) {
+async function getAllRefunds() {
   return await refundModel.find({ status: "pending" });
 }
 
@@ -219,7 +219,7 @@ async function setAdrs(user, adrs) {
 }
 
 async function getAdrs(user) {
-  let u = await adrsModel.find({ user });
+  let u = await adrsModel.findOne({ user });
 
   if (!u) {
     return "none";
