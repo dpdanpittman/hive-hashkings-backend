@@ -1324,7 +1324,7 @@ function startApp() {
 
     console.log(term, price, plot);
 
-    if (json.term != "1" || json.term != "3" || json.term != "6") {
+    if ( ""+json.term != "1" || ""+json.term != "3" || ""+json.term != "6") {
       console.log("error u need set a correct term time");
       return;
     }
