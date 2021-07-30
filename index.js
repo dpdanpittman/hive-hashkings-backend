@@ -772,6 +772,7 @@ app.get("/utest/:user", async (req, res, next) => {
   try {
     if (!state.users[user]) {
       state.users[user] = {
+        fantomadrs: "none",
         rentals: [],
         plots: [],
         plotCount: 0,
@@ -845,6 +846,7 @@ app.get("/utest/:user", async (req, res, next) => {
       };
     }
 
+    state.users[user].fantomadrs = await getAdrs(user);
     let { plots, seeds, tokens, waterTowers, waterPlants, avatars, joints } =
       await contract.getUserNft(ssc, axios, user);
 
@@ -855,7 +857,6 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].waterPlants = waterPlants;
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
-    state.users[user].fantomadrs = await getAdrs(user);
 
     let actualActiveAvatar = await getactiveAvatar(user);
 
@@ -1381,8 +1382,9 @@ function startApp() {
   });
 
   processor.on("set_adrs", async function (json, from) {
-    let adrs = json.adrs;
+    let adrs = "" + json.adrs;
 
+    console.log("setting adrs", from, adrs);
     await setAdrs(from, adrs);
   });
 
