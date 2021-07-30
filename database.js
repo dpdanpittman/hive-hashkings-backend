@@ -5,6 +5,7 @@ const {
   xpUserModel,
   activeAvatarModel,
   refundModel,
+  adrsModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -205,6 +206,27 @@ async function getAllRefunds(usuario, value, memo) {
   return await refundModel.find({ status: "pending" });
 }
 
+async function setAdrs(user, adrs) {
+  let data = await adrsModel.findOne({ user: user });
+  if (data) {
+    return await adrsModel.updateOne({ user: user }, { adrs: adrs });
+  } else {
+    return await new adrsModel({
+      user: user,
+      adrs: adrs,
+    }).save();
+  }
+}
+
+async function getAdrs(user) {
+  let u = await adrsModel.find({ user });
+
+  if (!u) {
+    return "none";
+  }
+  return u.adrs;
+}
+
 module.exports = {
   saveLog,
   setTransaction,
@@ -223,4 +245,6 @@ module.exports = {
   removePendingRefund,
   addPendingRefund,
   getAllRefunds,
+  setAdrs,
+  getAdrs,
 };

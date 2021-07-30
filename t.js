@@ -722,7 +722,7 @@ contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
 ]
 
 
-  */
+  
 contract.generateToken(hivejs, "MOTA", "22.8618", "ooakosimo").then((e) => {
   console.log(e);
-});
+});*/

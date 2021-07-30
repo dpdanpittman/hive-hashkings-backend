@@ -70,6 +70,8 @@ const {
   removePendingRefund,
   addPendingRefund,
   getAllRefunds,
+  setAdrs,
+  getAdrs,
 } = require("./database");
 
 const {
@@ -853,6 +855,7 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].waterPlants = waterPlants;
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
+    state.users[user].fantomadrs = await getAdrs(user);
 
     let actualActiveAvatar = await getactiveAvatar(user);
 
@@ -1324,7 +1327,11 @@ function startApp() {
 
     console.log(term, price, plot);
 
-    if ( ""+json.term != "1" || ""+json.term != "3" || ""+json.term != "6") {
+    if (
+      "" + json.term != "1" ||
+      "" + json.term != "3" ||
+      "" + json.term != "6"
+    ) {
       console.log("error u need set a correct term time");
       return;
     }
@@ -1371,6 +1378,12 @@ function startApp() {
     } else {
       console.log("algo falta para rentar");
     }
+  });
+
+  processor.on("set_adrs", async function (json, from) {
+    let adrs = json.adrs;
+
+    await setAdrs(from, adrs);
   });
 
   processor.on("cancel_set_rent", async function (json, from) {
@@ -1983,6 +1996,7 @@ var bot = {
 };
 
 var cron = require("node-cron");
+const { set } = require("@hiveio/hive-js/lib/auth/serializer/src/types");
 
 cron.schedule("*/2 * * * *", () => {
   if (!sending) {

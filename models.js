@@ -52,10 +52,17 @@ const refundSchema = new Schema({
   usuario: String,
   value: Number,
   memo: String,
-  status : String
+  status: String,
 });
 
 const refundModel = mongoose.model("Refund", refundSchema);
+
+const adrsSchema = new Schema({
+  user: String,
+  adrs: Number,
+});
+
+const adrsModel = mongoose.model("Adrs", adrsSchema);
 
 module.exports = {
   transferModel,
@@ -63,5 +70,6 @@ module.exports = {
   blockModel,
   xpUserModel,
   activeAvatarModel,
-  refundModel
+  refundModel,
+  adrsModel,
 };
