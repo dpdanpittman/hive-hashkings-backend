@@ -1136,7 +1136,7 @@ async function axiosRequest(axios, { contract, table, query, offset }, method) {
         contract: contract,
         table: table,
         query: query,
-        limit: 1000,
+        limit: 499,
         offset: offset,
         indexes: [],
       },
@@ -1240,9 +1240,9 @@ async function getReport(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -1705,9 +1705,9 @@ async function getOnlyUsers(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 400) {
             complete = true;
           }
         } else {
@@ -1752,9 +1752,9 @@ async function getUserNft(ssc, axios, user) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -1834,9 +1834,9 @@ async function getHKVaultNFts(ssc, axios, user) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2053,9 +2053,9 @@ async function getAllNfts(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2107,9 +2107,9 @@ async function getAllNftsAgua(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2157,9 +2157,9 @@ async function getAllPlotsAndSeeds(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2218,9 +2218,9 @@ async function getAllPlotsbyRegion(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2275,9 +2275,9 @@ async function getAllAvatar(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2331,9 +2331,9 @@ async function getAllPlantPlots(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2579,9 +2579,9 @@ async function getOnlyUsersHaveMota(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2631,9 +2631,9 @@ async function getAllUsersHaveAPlot(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
+          offset += 499;
 
-          if (get_nfts.length !== 1000) {
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -2985,8 +2985,8 @@ async function updateSptSeeds(axios, hive) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 1000;
-          if (get_nfts.length !== 1000) {
+          offset += 499;
+          if (get_nfts.length !== 499) {
             complete = true;
           }
         } else {
@@ -3163,6 +3163,42 @@ function testseeds() {
   return instances;
 }
 
+
+async function test(axios, hive) {
+  return new Promise(async (resolve, reject) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: { "properties.CONSUMABLETYPE.status" : "rented"},
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 499;
+          if (get_nfts.length !== 499) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+
+
+      resolve(nfts);
+    })();
+  });
+}
+
 module.exports = contract = {
   createSeed,
   createOneSeed,
@@ -3198,5 +3234,6 @@ module.exports = contract = {
   testseeds,
   getHKVaultNFts,
   getAvatarOnBlockchain,
-  getNFT
+  getNFT,
+  test
 };

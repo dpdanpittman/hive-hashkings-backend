@@ -4,6 +4,7 @@ const {
   blockModel,
   xpUserModel,
   activeAvatarModel,
+  refundModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -189,6 +190,21 @@ async function setactiveAvatar(user, id) {
   }
 }
 
+async function removePendingRefund(id) {
+  return await refundModel.updateOne({ _id: id }, { status: "complete" });
+}
+async function addPendingRefund(usuario, value, memo) {
+  return await new refundModel({
+    usuario,
+    value,
+    memo,
+    status: "pending",
+  }).save();
+}
+async function getAllRefunds(usuario, value, memo) {
+  return await refundModel.find({ status: "pending" });
+}
+
 module.exports = {
   saveLog,
   setTransaction,
@@ -203,5 +219,8 @@ module.exports = {
   getAllPendings,
   storeUpdateXp,
   getactiveAvatar,
-  setactiveAvatar
+  setactiveAvatar,
+  removePendingRefund,
+  addPendingRefund,
+  getAllRefunds,
 };

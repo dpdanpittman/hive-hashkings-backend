@@ -93,13 +93,13 @@ contract
   */
 /*
 contract
-  .updateNft(hivejs, "" + 56544, {
-    WATER: 0,
+  .updateNft(hivejs, "" + 126350, {
+    SPT: 0,
   })
   .then((r) => {
     console.log(r);
-  }); */
-
+  });
+ */
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
   console.log(r);
@@ -407,7 +407,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii  */
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -472,20 +472,56 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})();  
+})(); 
+
+
 
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
 }); */
 
-/*
+/* 
 contract
   .updateMultipleNfts(hivejs, [
-    {
-      id: "" + 6703,
-      properties: { OCCUPIED: false },
-    },
+    { id: '146545', properties: { SPT: 3 } },
+    { id: '146567', properties: { SPT: 0 } },
+    { id: '146575', properties: { SPT: 2 } },
+    { id: '146623', properties: { SPT: 2 } },
+    { id: '146636', properties: { SPT: 3 } },
+    { id: '146653', properties: { SPT: 2 } },
+    { id: '146669', properties: { SPT: 1 } },
+    { id: '146684', properties: { SPT: 3 } },
+    { id: '146704', properties: { SPT: 6 } },
+    { id: '146706', properties: { SPT: 6 } },
+    { id: '146712', properties: { SPT: 6 } },
+    { id: '146895', properties: { SPT: 0 } },
+    { id: '146897', properties: { SPT: 1 } },
+    { id: '146898', properties: { SPT: 1 } },
+    { id: '146900', properties: { SPT: 1 } },
+    { id: '146902', properties: { SPT: 1 } },
+    { id: '146904', properties: { SPT: 1 } },
+    { id: '146907', properties: { SPT: 1 } },
+    { id: '146914', properties: { SPT: 1 } },
+    { id: '146916', properties: { SPT: 1 } },
+    { id: '146917', properties: { SPT: 1 } },
+    { id: '146922', properties: { SPT: 1 } },
+    { id: '146927', properties: { SPT: 1 } },
+    { id: '146928', properties: { SPT: 1 } },
+    { id: '146931', properties: { SPT: 1 } },
+    { id: '146932', properties: { SPT: 1 } },
+    { id: '146934', properties: { SPT: 2 } },
+    { id: '146941', properties: { SPT: 2 } },
+    { id: '146943', properties: { SPT: 2 } },
+    { id: '146945', properties: { SPT: 2 } },
+    { id: '146948', properties: { SPT: 0 } },
+    { id: '146949', properties: { SPT: 2 } },
+    { id: '146960', properties: { SPT: 2 } },
+    { id: '146964', properties: { SPT: 2 } },
+    { id: '146965', properties: { SPT: 2 } },
+    { id: '146968', properties: { SPT: 2 } },
+    { id: '146979', properties: { SPT: 2 } },
+    { id: '146983', properties: { SPT: 2 } }
   ])
   .then((res) => {
     console.log(res);
@@ -679,3 +715,14 @@ contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
 }).catch(err => {
   console.log(err)
 }) */
+
+/*
+[
+
+]
+
+
+  */
+contract.generateToken(hivejs, "MOTA", "22.8618", "ooakosimo").then((e) => {
+  console.log(e);
+});

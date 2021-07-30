@@ -67,6 +67,9 @@ const {
   getAllPendings,
   setactiveAvatar,
   getactiveAvatar,
+  removePendingRefund,
+  addPendingRefund,
+  getAllRefunds,
 } = require("./database");
 
 const {
@@ -1057,6 +1060,7 @@ function startWith(hash) {
 }*/
 
 var sending = false;
+var sendingRefunds = false;
 
 checkPendings = async () => {
   console.log("checking pendings... ");
@@ -1131,6 +1135,20 @@ checkPendings = async () => {
     });
 
   console.log("checking pendings finalice");
+};
+
+getAllRefund = async () => {
+  console.log("checking refunds... ");
+  sendingRefunds = true;
+  await getAllRefunds().then(async (resxp) => {
+    if (resxp.length >= 1) {
+      for (let index = 0; index < resxp.length; index++) {
+        let resx = resxp[index];
+        await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
+      }
+    }
+    sendingRefunds = false;
+  });
 };
 
 function startApp() {
@@ -1334,6 +1352,104 @@ function startApp() {
     }
   });
 
+  //qwoyn_rent a plot
+  processor.on("set_rent", async function (json, from) {
+    let term = parseInt(json.term, 10);
+    let price = parseFloat(json.price);
+    let plot = json.plot;
+
+    if (from != json.from) {
+      console.log("you can try to rent a plot from other person");
+      return;
+    }
+
+    if (term != 1 || term != 3 || term != 6) {
+      console.log("error u need set a correct term time");
+      return;
+    }
+
+    if (term && price && plot) {
+      let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
+      if (plotInfo) {
+        if (plotInfo.account != json.from) {
+          console.log("you can try to set a rent from other person plot");
+          return;
+        }
+        let plotProperties = plotInfo.properties;
+
+        if (plotProperties.RENTED) {
+          console.log("plot is already rented");
+          return;
+        }
+
+        if (plotProperties.RENTEDINFO != "null") {
+          console.log("plot is already set to rented");
+          return;
+        }
+
+        if (plotProperties.OCCUPIED) {
+          console.log("plot is occupied");
+          return;
+        }
+
+        let rentStatus = {
+          term,
+          price,
+        };
+
+        await contract.updateNft(hivejs, plot, {
+          RENTEDINFO: "available",
+          RENTEDSTATUS: JSON.stringify(rentStatus),
+        });
+      } else {
+        console.log(
+          "no se pudo traer la info de este plot o water tower",
+          plot
+        );
+      }
+    } else {
+      console.log("algo falta para rentar");
+    }
+  });
+
+  processor.on("cancel_set_rent", async function (json, from) {
+    let plot = json.plot;
+
+    if (from != json.from) {
+      console.log("you can try to cancel a rent from other person plot");
+      return;
+    }
+
+    if (plot) {
+      let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
+      if (plotInfo) {
+        if (plotInfo.account != json.from) {
+          console.log("you can try to cancel a rent from other person plot");
+          return;
+        }
+
+        let plotProperties = plotInfo.properties;
+
+        if (plotProperties.RENTEDINFO != "available") {
+          console.log("plot isnt set to rent");
+          return;
+        }
+
+        await contract.updateNft(hivejs, plot, {
+          RENTEDINFO: "null",
+          RENTEDSTATUS: "null",
+        });
+      } else {
+        console.log(
+          "no se pudo traer la info de este plot o water tower",
+          plot
+        );
+      }
+    } else {
+      console.log("algo falta para rentar");
+    }
+  });
+
   /*-------------------------- RENTALS  ---------------------------*/
 
   // search for qwoyn_pinner from user on blockchain since genesis <----- transfer
@@ -1446,21 +1562,10 @@ function startApp() {
           boosters: [],
         };
       }
-
-      //purchasing
       const amount = parseInt(json.amount.split(" ")[0] * 1000);
       var want =
           json.memo.split(" ")[0].toLowerCase() || json.memo.toLowerCase(),
         type = json.memo.split(" ")[1] || "";
-
-      console.log(
-        "intentando hacer una compra",
-        json.from,
-        amount,
-        want,
-        state.stats.prices.waterPlants.lvl1.price,
-        state.stats.prices.waterPlants.lvl2.price
-      );
 
       state.stats.prices.waterPlants.lvl1.price = state.stats.prices.waterPlants
         .lvl1.price
@@ -1472,215 +1577,14 @@ function startApp() {
         ? state.stats.prices.waterPlants.lvl2.price
         : amount;
 
-      if (
-        want === "avatar1" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Magical Male", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
+      if (contains(want, "water")) {
+        processWaterBuy(json, from, amount, want, type);
       }
 
-      if (
-        want === "avatar2" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Magical Female", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
+      if (contains(want, "avatar")) {
+        processAvatarBuy(json, from, amount, want, type);
       }
-
-      if (
-        want === "avatar3" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Farmer Shaggi", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
-
-      if (
-        want === "avatar4" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Farmer Maggi", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
-
-      if (
-        want === "avatar5" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Lucky Shaggi", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
-
-      if (
-        want === "avatar6" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Lucky Maggi", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
-
-      if (
-        want === "avatar7" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Water Baron Shaggi", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
-
-      if (
-        want === "avatar8" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Water Baroness Maggi", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
-
-      if (
-        want === "avatar9" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Scientist Shaggi", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
-
-      if (
-        want === "avatar10" &&
-        amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
-        amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100
-      ) {
-        // create nft
-        await contract.createAvatar(hivejs, "Scientist Maggi", json.from);
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
-
-      if (
-        want === "water2" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 10
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 2, WATER: 96 });
-
-        const c = parseInt(amount);
-        state.bal.c += c;
-      } else if (
-        want === "water3" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 20
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 3, WATER: 166 });
-        const c = parseInt(amount);
-        state.bal.c += c;
-      } else if (
-        want === "water4" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 30
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 4, WATER: 234 });
-
-        const c = parseInt(amount);
-        state.bal.c += c;
-      } else if (
-        want === "water5" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 40
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 5, WATER: 302 });
-
-        const c = parseInt(amount);
-        state.bal.c += c;
-      } else if (
-        want === "water6" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 50
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 6, WATER: 370 });
-
-        const c = parseInt(amount);
-        state.bal.c += c;
-      } else if (
-        want === "water7" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 60
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 7, WATER: 438 });
-
-        const c = parseInt(amount);
-        state.bal.c += c;
-      } else if (
-        want === "water8" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 70
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 8, WATER: 506 });
-
-        const c = parseInt(amount);
-        state.bal.c += c;
-      } else if (
-        want === "water9" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 80
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 9, WATER: 574 });
-
-        const c = parseInt(amount);
-        state.bal.c += c;
-      } else if (
-        want === "water10" &&
-        amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
-        amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300 &&
-        state.users[json.from].lvl >= 90
-      ) {
-        // create nft
-        await contract.updateNft(hivejs, type, { LVL: 10, WATER: 642 });
-
-        const c = parseInt(amount);
-        state.bal.c += c;
-      }
+      //purchasing
     } else if (json.from === username) {
       const amount = parseInt(parseFloat(json.amount) * 1000);
       for (var i = 0; i < state.refund.length; i++) {
@@ -1708,6 +1612,193 @@ function startApp() {
       });
     });
   }
+}
+
+async function processAvatarBuy(json, from, amount, want, type) {
+  let canBuy =
+    amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
+    amount < state.stats.prices.waterPlants.lvl1.price * 1000 + 100;
+
+  if (!canBuy) {
+    //refound hive
+    addPendingRefund(
+      json.from,
+      parseFloat(json.amount.split(" ")[0]),
+      "Refund for " + want + " error amount, try again"
+    );
+    return;
+  }
+
+  if (want === "avatar1" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Magical Male", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar2" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Magical Female", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar3" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Farmer Shaggi", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar4" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Farmer Maggi", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar5" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Lucky Shaggi", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar6" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Lucky Maggi", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar7" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Water Baron Shaggi", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar8" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Water Baroness Maggi", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar9" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Scientist Shaggi", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+
+  if (want === "avatar10" && canBuy) {
+    // create nft
+    await contract.createAvatar(hivejs, "Scientist Maggi", json.from);
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+}
+
+async function processWaterBuy(json, from, amount, want, type) {
+  let canBuy =
+    amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
+    amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300;
+
+  if (!canBuy) {
+    //refound hive
+    addPendingRefund(
+      json.from,
+      parseFloat(json.amount.split(" ")[0]),
+      "Refund for " + want + " error amount, try again"
+    );
+
+    return;
+  }
+
+  let waterTower = await contract.getNFT(axios, parseInt(type, 10));
+
+  if (!waterTower) {
+    addPendingRefund(
+      json.from,
+      parseFloat(json.amount.split(" ")[0]),
+      "Refund for " + want + " error no found this nft, try again."
+    );
+
+    return;
+  }
+
+  if ("water" + waterTower.properties.LVL == want) {
+    addPendingRefund(
+      json.from,
+      parseFloat(json.amount.split(" ")[0]),
+      "Refund for " +
+        want +
+        " error this water tower has already been raised to this level."
+    );
+
+    return;
+  }
+
+  if (want === "water2" && canBuy && state.users[json.from].lvl >= 10) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 2, WATER: 96 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water3" && canBuy && state.users[json.from].lvl >= 20) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 3, WATER: 166 });
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water4" && canBuy && state.users[json.from].lvl >= 30) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 4, WATER: 234 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water5" && canBuy && state.users[json.from].lvl >= 40) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 5, WATER: 302 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water6" && canBuy && state.users[json.from].lvl >= 50) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 6, WATER: 370 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water7" && canBuy && state.users[json.from].lvl >= 60) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 7, WATER: 438 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water8" && canBuy && state.users[json.from].lvl >= 70) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 8, WATER: 506 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water9" && canBuy && state.users[json.from].lvl >= 80) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 9, WATER: 574 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water10" && canBuy && state.users[json.from].lvl >= 90) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 10, WATER: 642 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+}
+
+//check if string contain text
+function contains(string, text) {
+  return string.indexOf(text) !== -1;
 }
 
 function ipfsSaveState(blocknum, hashable) {
@@ -1806,6 +1897,27 @@ function hiveEngineStart(starBlock) {
       });
     }
   );
+}
+
+async function refundTest(usuario, value, memo, id) {
+  const data = {
+    amount: `${value} HIVE`,
+    from: username,
+    to: usuario,
+    memo: memo,
+  };
+  let r = await client.broadcast.transfer(data, key).then(
+    (result) => {
+      console.log("refund Exitoso");
+      removePendingRefund(id);
+      return true;
+    },
+    function (error) {
+      return r;
+    }
+  );
+
+  return r;
 }
 
 var bot = {
@@ -1911,7 +2023,17 @@ cron.schedule("*/2 * * * *", () => {
   if (!sending) {
     checkPendings();
   } else {
-    console.log("me encuentro enviando ahora espera 5 minutos mas");
+    console.log("me encuentro enviando ahora espera 2 minutos mas");
+  }
+});
+
+cron.schedule("*/10 * * * *", () => {
+  if (!sendingRefunds) {
+    getAllRefund();
+  } else {
+    console.log(
+      "me encuentro enviando los pendientes ahora espera 10 minutos mas"
+    );
   }
 });
 
@@ -1945,3 +2067,5 @@ mongoose
       });
   })
   .catch((err) => console.error(err));
+
+
