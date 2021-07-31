@@ -1322,15 +1322,15 @@ function startApp() {
   processor.on("set_rent", async function (json, from) {
     console.log("intentando colocar renta", from, json);
 
-    let term = parseInt(json.term, 10);
-    let price = parseFloat(json.price);
+    let term = parseInt("" + json.term, 10);
+    let price = parseFloat("" + json.price);
     let plot = json.plot;
 
     console.log(term, price, plot);
 
     if (
-      "" + json.term != "1" ||
-      "" + json.term != "3" ||
+      "" + json.term != "1" &&
+      "" + json.term != "3" &&
       "" + json.term != "6"
     ) {
       console.log("error u need set a correct term time");
