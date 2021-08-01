@@ -1997,23 +1997,30 @@ cron.schedule("*/2 * * * *", () => {
   }
 });
 
-async function getAllRefund() {
-  console.log("checking refunds... ");
+async function getAllR() {
+  console.log("checking refunds... ", sendingRefunds);
   sendingRefunds = true;
-  await getAllRefunds().then(async (resxp) => {
-    for (let index = 0; index < resxp.length; index++) {
-      let resx = resxp[index];
-      await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
-    }
+  await getAllRefunds()
+    .then(async (resxp) => {
+      console.log("refund list", resxp);
+      for (let index = 0; index < resxp.length; index++) {
+        let resx = resxp[index];
+        await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
+      }
 
-    sendingRefunds = false;
-  });
+      sendingRefunds = false;
+      console.log("refund end", sendingRefunds);
+    })
+    .catch((e) => {
+      sendingRefunds = false;
+      console.log("ERROR ON GET ALL REFUNDS", e);
+    });
 }
 
 cron.schedule("*/2 * * * *", () => {
   console.log("inciiando refund cron");
   if (!sendingRefunds) {
-    getAllRefund();
+    getAllR();
   } else {
     console.log(
       "me encuentro enviando los pendientes ahora espera 10 minutos mas"
