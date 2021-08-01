@@ -2002,10 +2002,9 @@ async function getAllR() {
   sendingRefunds = true;
   await getAllRefunds()
     .then(async (resxp) => {
-      console.log("refund list", resxp);
-      for (let index = 0; index < resxp.length; index++) {
-        let resx = resxp[index];
-        await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
+      for (const refund of resxp) {
+        let { usuario, value, memo, _id } = refund;
+        await refundTest(usuario, value, memo, _id);
       }
 
       sendingRefunds = false;
