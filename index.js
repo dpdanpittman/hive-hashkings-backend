@@ -1110,7 +1110,7 @@ getAllRefund = async () => {
     if (resxp.length >= 1) {
       for (let index = 0; index < resxp.length; index++) {
         let resx = resxp[index];
-       // await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
+        await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
       }
     }
     sendingRefunds = false;
@@ -1340,7 +1340,8 @@ function startApp() {
     if (term && price && plot) {
       let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
       if (plotInfo) {
-        if (plotInfo.account != json.from) {
+        console.log("plot info to rent", plotInfo);
+        if (plotInfo.account != from) {
           console.log("you can try to set a rent from other person plot");
           return;
         }
