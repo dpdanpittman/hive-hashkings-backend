@@ -1066,57 +1066,6 @@ function startWith(hash) {
 var sending = false;
 var sendingRefunds = false;
 
-checkPendings = async () => {
-  console.log("checking pendings... ");
-  sending = true;
-  await getAllTransaction()
-    .then(async (resxp) => {
-      if (resxp.length >= 1) {
-        await updateHkVault();
-        for (let index = 0; index < resxp.length; index++) {
-          let resx = resxp[index];
-
-          switch (resx.type) {
-            case "tohk-vault":
-              console.log("processing tohk-vault pending");
-
-              await tohkvault(JSON.parse(resx.json), resx.from, state);
-
-              break;
-
-            case "nfttohk-vault":
-              console.log("processing  nft tohk-vault pending");
-
-              await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
-
-              break;
-          }
-        }
-      }
-      sending = false;
-    })
-    .catch((e) => {
-      sending = false;
-      console.log("ERROR ON GET ALL TRANSACTION", e);
-    });
-
-  console.log("checking pendings finalice");
-};
-
-getAllRefund = async () => {
-  console.log("checking refunds... ");
-  sendingRefunds = true;
-  await getAllRefunds().then(async (resxp) => {
-    if (resxp.length >= 1) {
-      for (let index = 0; index < resxp.length; index++) {
-        let resx = resxp[index];
-        await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
-      }
-    }
-    sendingRefunds = false;
-  });
-};
-
 function startApp() {
   processor = steemState(client, dhive, startingBlock, 10, prefix);
 
@@ -2003,6 +1952,43 @@ var bot = {
 var cron = require("node-cron");
 const { set } = require("@hiveio/hive-js/lib/auth/serializer/src/types");
 
+async function checkPendings() {
+  console.log("checking pendings... ");
+  sending = true;
+  await getAllTransaction()
+    .then(async (resxp) => {
+      if (resxp.length >= 1) {
+        await updateHkVault();
+        for (let index = 0; index < resxp.length; index++) {
+          let resx = resxp[index];
+
+          switch (resx.type) {
+            case "tohk-vault":
+              console.log("processing tohk-vault pending");
+
+              await tohkvault(JSON.parse(resx.json), resx.from, state);
+
+              break;
+
+            case "nfttohk-vault":
+              console.log("processing  nft tohk-vault pending");
+
+              await nfttohkvaul(JSON.parse(resx.json), resx.from, state);
+
+              break;
+          }
+        }
+      }
+      sending = false;
+    })
+    .catch((e) => {
+      sending = false;
+      console.log("ERROR ON GET ALL TRANSACTION", e);
+    });
+
+  console.log("checking pendings finalice");
+}
+
 cron.schedule("*/2 * * * *", () => {
   if (!sending) {
     checkPendings();
@@ -2011,7 +1997,22 @@ cron.schedule("*/2 * * * *", () => {
   }
 });
 
+async function getAllRefund() {
+  console.log("checking refunds... ");
+  sendingRefunds = true;
+  await getAllRefunds().then(async (resxp) => {
+    if (resxp.length >= 1) {
+      for (let index = 0; index < resxp.length; index++) {
+        let resx = resxp[index];
+        await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
+      }
+    }
+    sendingRefunds = false;
+  });
+}
+
 cron.schedule("*/2 * * * *", () => {
+  console.log("inciiando refund cron");
   if (!sendingRefunds) {
     getAllRefund();
   } else {
