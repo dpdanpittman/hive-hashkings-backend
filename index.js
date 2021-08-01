@@ -1110,7 +1110,7 @@ getAllRefund = async () => {
     if (resxp.length >= 1) {
       for (let index = 0; index < resxp.length; index++) {
         let resx = resxp[index];
-        await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
+       // await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
       }
     }
     sendingRefunds = false;
@@ -1893,7 +1893,7 @@ async function refundTest(usuario, value, memo, id) {
       return true;
     },
     function (error) {
-      return r;
+      return false;
     }
   );
 
