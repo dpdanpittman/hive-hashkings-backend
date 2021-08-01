@@ -2011,7 +2011,7 @@ cron.schedule("*/2 * * * *", () => {
   }
 });
 
-cron.schedule("*/10 * * * *", () => {
+cron.schedule("*/2 * * * *", () => {
   if (!sendingRefunds) {
     getAllRefund();
   } else {
