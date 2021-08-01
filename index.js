@@ -2001,12 +2001,11 @@ async function getAllRefund() {
   console.log("checking refunds... ");
   sendingRefunds = true;
   await getAllRefunds().then(async (resxp) => {
-    if (resxp.length >= 1) {
-      for (let index = 0; index < resxp.length; index++) {
-        let resx = resxp[index];
-        await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
-      }
+    for (let index = 0; index < resxp.length; index++) {
+      let resx = resxp[index];
+      await refundTest(resx.usuario, resx.value, resx.memo, resx._id);
     }
+
     sendingRefunds = false;
   });
 }
