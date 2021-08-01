@@ -1849,7 +1849,7 @@ function hiveEngineStart(starBlock) {
                 contractPayload: {
                   symbol: "HKWATER",
                   to: payload.from,
-                  quantity: "" + payload.contractPayload.quantity,
+                  quantity: "" + payload.json.contractPayload.quantity,
                   memo:
                     "watering has status " +
                     valid.status +
