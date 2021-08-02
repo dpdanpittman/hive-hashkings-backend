@@ -988,13 +988,13 @@ app.get("/time", (req, res, next) => {
 
   let today = new Date();
   today.setHours(23);
-  today.setMinutes(59);
+  today.setMinutes(58);
   today.setMilliseconds(0);
 
   let yesterday = new Date();
   yesterday.setDate(today.getDate() - 1);
   yesterday.setHours(23);
-  yesterday.setMinutes(59);
+  yesterday.setMinutes(58);
   yesterday.setMilliseconds(0);
 
   let t = Math.floor(today.getTime() / 1000.0);
@@ -1998,8 +1998,8 @@ cron.schedule("*/2 * * * *", () => {
 });
 
 async function getAllR() {
-  console.log("checking refunds... ", sendingRefunds);
   sendingRefunds = true;
+  console.log("checking refunds... ", sendingRefunds);
   await getAllRefunds()
     .then(async (resxp) => {
       for (const refund of resxp) {
