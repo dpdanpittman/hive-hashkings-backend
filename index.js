@@ -1353,7 +1353,7 @@ function startApp() {
           return;
         }
 
-        let r = await contract.updateNft(hivejs, ""+plot, {
+        let r = await contract.updateNft(hivejs, "" + plot, {
           RENTEDINFO: "n/a",
           RENTEDSTATUS: "n/a",
         });
@@ -1550,7 +1550,7 @@ async function processAvatarBuy(json, from, amount, want, type) {
 
   if (!canBuy) {
     //refound hive
-    addPendingRefund(
+  await  addPendingRefund(
       json.from,
       parseFloat(json.amount.split(" ")[0]),
       "Refund for " + want + " error amount, try again"
@@ -1636,7 +1636,7 @@ async function processWaterBuy(json, from, amount, want, type) {
 
   if (!canBuy) {
     //refound hive
-    addPendingRefund(
+    await addPendingRefund(
       json.from,
       parseFloat(json.amount.split(" ")[0]),
       "Refund for " + want + " error amount, try again"
@@ -1644,8 +1644,6 @@ async function processWaterBuy(json, from, amount, want, type) {
 
     return;
   }
-
-  console.group("processWaterUpsteStart");
 
   let waterTower = await contract.getNFT(axios, parseInt(type, 10));
 
@@ -1725,8 +1723,6 @@ async function processWaterBuy(json, from, amount, want, type) {
     const c = parseInt(amount);
     state.bal.c += c;
   }
-
-  console.group("processWaterUpsteEnd");
 }
 
 //check if string contain text
