@@ -1357,8 +1357,8 @@ function startApp() {
         }
 
         await contract.updateNft(hivejs, plot, {
-          RENTEDINFO: "null",
-          RENTEDSTATUS: "null",
+          RENTEDINFO: "n/a",
+          RENTEDSTATUS: "n/a",
         });
         console.log("plot cancelado de renta con exito");
       } else {
