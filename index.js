@@ -1157,14 +1157,11 @@ function startApp() {
     // performs the leveling check
     if (num % 11 === 0 && processor.isStreaming()) {
       //leveling();
-      updateBlock("1", num).then((r) => {
-        console.log("update hive block");
-      });
+      updateBlock("1", num).then((r) => {});
     }
 
     // show the block number in the console every block
     if (num % 1 === 0 && processor.isStreaming()) {
-      console.log(num);
     }
 
     //saves state to ipfs hash every 5 minutes
@@ -1356,11 +1353,12 @@ function startApp() {
           return;
         }
 
-        await contract.updateNft(hivejs, plot, {
+        let r = await contract.updateNft(hivejs, plot, {
           RENTEDINFO: "n/a",
           RENTEDSTATUS: "n/a",
         });
-        console.log("plot cancelado de renta con exito");
+        
+        console.log("plot cancelado de renta con exito", r);
       } else {
         console.log(
           "no se pudo traer la info de este plot o water tower",
