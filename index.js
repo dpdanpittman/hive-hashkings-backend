@@ -1333,30 +1333,23 @@ function startApp() {
     }
   });
 
-  processor.on("set_adrs", async function (json, from) {
-    let adrs = "" + json.adrs;
-
-    console.log("setting adrs", from, adrs);
-    await setAdrs(from, adrs);
-  });
-
-  processor.on("cancel_set_rent", async function (json, from) {
-    let plot = json.plot;
-
-    if (from != json.from) {
-      console.log("you can try to cancel a rent from other person plot");
-      return;
-    }
+  processor.on("cancel_rent", async function (json, from) {
+    let plot = json.id;
 
     if (plot) {
       let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
       if (plotInfo) {
-        if (plotInfo.account != json.from) {
+        if (plotInfo.account != from) {
           console.log("you can try to cancel a rent from other person plot");
           return;
         }
 
         let plotProperties = plotInfo.properties;
+
+        if (plotProperties.RENTED) {
+          console.log("no puedes cancelar una renta por este metodo");
+          return;
+        }
 
         if (plotProperties.RENTEDINFO != "available") {
           console.log("plot isnt set to rent");
@@ -1367,6 +1360,7 @@ function startApp() {
           RENTEDINFO: "null",
           RENTEDSTATUS: "null",
         });
+        console.log("plot cancelado de renta con exito");
       } else {
         console.log(
           "no se pudo traer la info de este plot o water tower",
@@ -1377,6 +1371,15 @@ function startApp() {
       console.log("algo falta para rentar");
     }
   });
+
+  /////////////////////////////PHANTOM//////////////////////////////////////////
+  processor.on("set_adrs", async function (json, from) {
+    let adrs = "" + json.adrs;
+
+    console.log("setting adrs", from, adrs);
+    await setAdrs(from, adrs);
+  });
+  //////////////////////////////////////////////////////////////////////////////
 
   /*-------------------------- RENTALS  ---------------------------*/
 
