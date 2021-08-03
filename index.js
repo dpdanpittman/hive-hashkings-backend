@@ -1353,12 +1353,12 @@ function startApp() {
           return;
         }
 
-        let r = await contract.updateNft(hivejs, plot, {
+        let r = await contract.updateNft(hivejs, ""+plot, {
           RENTEDINFO: "n/a",
           RENTEDSTATUS: "n/a",
         });
-        
-        console.log("plot cancelado de renta con exito", r);
+
+        console.log("plot cancelado de renta con exito");
       } else {
         console.log(
           "no se pudo traer la info de este plot o water tower",
