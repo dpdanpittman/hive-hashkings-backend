@@ -1964,7 +1964,7 @@ function hiveEngineStart(starBlock) {
 
 async function refundTest(usuario, value, memo, id) {
   const data = {
-    amount: `${value} HIVE`,
+    amount: `${Number.parseFloat(value).toFixed(3)} HIVE`,
     from: username,
     to: usuario,
     memo: memo,
@@ -1976,7 +1976,7 @@ async function refundTest(usuario, value, memo, id) {
       return true;
     },
     function (error) {
-      console.log("no se pudo enviar el refund",error);
+      console.log("no se pudo enviar el refund", error);
       return false;
     }
   );
