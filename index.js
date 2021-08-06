@@ -1560,9 +1560,7 @@ async function Rentar(json, from, amount, want, type) {
 
   let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
   if (plotInfo) {
-
     let plotProperties = plotInfo.properties;
-
 
     if (plotProperties.RENTED == true) {
       console.log("ya esta plot fue rentada");
@@ -1978,6 +1976,7 @@ async function refundTest(usuario, value, memo, id) {
       return true;
     },
     function (error) {
+      console.log("no se pudo enviar el refund",error);
       return false;
     }
   );
@@ -2137,6 +2136,7 @@ async function getAllR() {
     .then(async (resxp) => {
       for (const refund of resxp) {
         let { usuario, value, memo, _id } = refund;
+        console.log("sending refund", usuario, value, memo, _id);
         await refundTest(usuario, value, memo, _id);
       }
 
