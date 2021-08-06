@@ -1513,7 +1513,7 @@ function startApp() {
       } else if (contains(want, "cancelr")) {
         cancelRent(json, from, amount, want, type);
       } else if (contains(want, "rent")) {
-        Rentar(json, from, amount, want, type);
+        Rentar(json, from, parseFloat(json.amount.split(" ")[0]), want, type);
       }
       //purchasing
     } else if (json.from === username) {
@@ -1576,6 +1576,8 @@ async function Rentar(json, from, amount, want, type) {
 
       price = Number.parseFloat(price).toFixed(3);
       amount = Number.parseFloat(amount).toFixed(3);
+
+      console.log(price, amount);
 
       if (amount == price) {
         let termindays = term * 30;
