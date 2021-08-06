@@ -1789,11 +1789,15 @@ async function getUserNft(ssc, axios, user) {
         }
 
         if (nfts[i].properties.TYPE == "plot") {
-          onlyAcconts.plots.push(nft);
+          if (!nfts[i].properties.RENTED) {
+            onlyAcconts.plots.push(nft);
+          }
         }
 
         if (nfts[i].properties.TYPE == "water") {
-          tempWaterTowers.push(nft);
+          if (!nfts[i].properties.RENTED) {
+            tempWaterTowers.push(nft);
+          }
         }
 
         if (nfts[i].properties.TYPE == "consumable") {
