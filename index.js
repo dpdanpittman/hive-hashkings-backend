@@ -1591,7 +1591,7 @@ async function Rentar(json, from, amount, want, type) {
           by: from,
         };
 
-        await contract.updateNft(hivejs, plot, {
+        await contract.updateNft(hivejs, ""+plot, {
           RENTEDINFO: "occupied",
           RENTED: true,
           RENTEDSTATUS: JSON.stringify(rentStatus),
