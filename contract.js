@@ -1835,7 +1835,7 @@ async function getRents(ssc, axios, user) {
           {
             contract: CONTRACT,
             table: NFT_SYMBOL + TABLE_POSTFIX,
-            query: { "properties.RENTEDINFO": user },
+            query: { "properties.RENTEDINFO": ""+user },
           },
           offset
         );
