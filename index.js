@@ -1545,7 +1545,6 @@ function startApp() {
   }
 }
 
-
 async function sendHiveToUser(plotInfo, amount) {
   let quantity = amount - amount * 0.05;
 
@@ -1556,7 +1555,6 @@ async function sendHiveToUser(plotInfo, amount) {
   );
 }
 
-
 async function Rentar(json, from, amount, want, type) {
   let plot = parseInt(type);
 
@@ -1564,7 +1562,7 @@ async function Rentar(json, from, amount, want, type) {
   if (plotInfo) {
     console.log("verificando esta plot", plotInfo);
     let plotProperties = plotInfo.properties;
-
+    console.log("plot properties", plotProperties.RENTED);
     if (plotProperties.RENTED) {
       console.log("ya esta plot fue rentada");
       await addPendingRefund(
