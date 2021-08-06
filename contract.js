@@ -1805,9 +1805,10 @@ async function getUserNft(ssc, axios, user) {
         }
       }
 
-      rents = await getRents(ssc, axios, user);
+      onlyAcconts.rents = await getRents(ssc, axios, user);
 
       onlyAcconts.tokens = await getTokens(ssc, user);
+      
       onlyAcconts.waterTowers = (
         await formateWaterTowers(tempWaterTowers)
       ).waterTowers;
