@@ -1562,6 +1562,9 @@ async function Rentar(json, from, amount, want, type) {
   if (plotInfo) {
     let plotProperties = plotInfo.properties;
 
+    console.log(plotProperties.RENTED, plotProperties.RENTED == true);
+
+    
     if (plotProperties.RENTED == true) {
       console.log("ya esta plot fue rentada");
       await addPendingRefund(
