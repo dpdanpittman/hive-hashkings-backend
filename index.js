@@ -1545,6 +1545,18 @@ function startApp() {
   }
 }
 
+
+async function sendHiveToUser(plotInfo, amount) {
+  let quantity = amount - amount * 0.05;
+
+  await addPendingRefund(
+    plotInfo.account,
+    parseFloat("" + quantity),
+    "Rented Plot" + _id + ""
+  );
+}
+
+
 async function Rentar(json, from, amount, want, type) {
   let plot = parseInt(type);
 
@@ -1592,16 +1604,6 @@ async function Rentar(json, from, amount, want, type) {
       }
     }
   }
-}
-
-function sendHiveToUser(plotInfo, amount) {
-  let quantity = amount - amount * 0.05;
-
-  await addPendingRefund(
-    plotInfo.account,
-    parseFloat("" + quantity),
-    "Rented Plot" + _id + ""
-  );
 }
 
 let numberMaximunDaysOfPlots = {
