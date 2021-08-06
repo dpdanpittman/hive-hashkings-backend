@@ -1562,10 +1562,7 @@ async function Rentar(json, from, amount, want, type) {
   if (plotInfo) {
     let plotProperties = plotInfo.properties;
 
-    console.log(plotProperties.RENTED, plotProperties.RENTED == true);
-
-    
-    if (plotProperties.RENTED == true) {
+    if (plotProperties.RENTED) {
       console.log("ya esta plot fue rentada");
       await addPendingRefund(
         json.from,
@@ -1576,6 +1573,9 @@ async function Rentar(json, from, amount, want, type) {
     } else {
       let rentedStatus = JSON.parse(plotProperties.RENTEDSTATUS);
       let { term, price, time } = rentedStatus;
+
+      price = Number.parseFloat(price).toFixed(3);
+      amount = Number.parseFloat(amount).toFixed(3);
 
       if (amount == price) {
         let termindays = term * 30;
@@ -1597,7 +1597,7 @@ async function Rentar(json, from, amount, want, type) {
 
         await sendHiveToUser(plotInfo, amount);
       } else {
-        console.log("ya esta plot fue rentada");
+        console.log("enviaste la cantidad incorrecta");
         await addPendingRefund(
           json.from,
           parseFloat(json.amount.split(" ")[0]),
