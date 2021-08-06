@@ -407,7 +407,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii 
+/* vamo por aquiiii */
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;

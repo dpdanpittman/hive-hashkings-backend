@@ -1508,10 +1508,12 @@ function startApp() {
 
       if (contains(want, "water")) {
         processWaterBuy(json, from, amount, want, type);
-      }
-
-      if (contains(want, "avatar")) {
+      } else if (contains(want, "avatar")) {
         processAvatarBuy(json, from, amount, want, type);
+      } else if (contains(want, "cancelr")) {
+        cancelRent(json, from, amount, want, type);
+      } else if (contains(want, "rent")) {
+        Rentar(json, from, amount, want, type);
       }
       //purchasing
     } else if (json.from === username) {
@@ -1543,6 +1545,134 @@ function startApp() {
   }
 }
 
+async function Rentar(json, from, amount, want, type) {
+  let plot = parseInt(type);
+
+  let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
+  if (plotInfo) {
+    if (plotProperties.RENTED) {
+      console.log("ya esta plot fue rentada");
+      await addPendingRefund(
+        json.from,
+        parseFloat(json.amount.split(" ")[0]),
+        "Refund for " + "cancel rent " + type + " plot are rented"
+      );
+      return;
+    } else {
+      let rentedStatus = JSON.parse(plotProperties.RENTEDSTATUS);
+      let { term, price, time } = rentedStatus;
+
+      if (amount == price) {
+        let termindays = term * 30;
+        let tiempo = new Date();
+        tiempo.setDate(tiempo.getDate() + termindays);
+
+        let rentStatus = {
+          term,
+          price,
+          time: tiempo,
+          by: from,
+        };
+
+        await contract.updateNft(hivejs, plot, {
+          RENTEDINFO: "occupied",
+          RENTED: true,
+          RENTEDSTATUS: JSON.stringify(rentStatus),
+        });
+
+        await sendHiveToUser(plotInfo, amount);
+      } else {
+        console.log("ya esta plot fue rentada");
+        await addPendingRefund(
+          json.from,
+          parseFloat(json.amount.split(" ")[0]),
+          "Refund for " + "cancel rent " + type + " u need send correct amount"
+        );
+        return;
+      }
+    }
+  }
+}
+
+function sendHiveToUser(plotInfo, amount) {
+  let quantity = amount - amount * 0.05;
+
+  await addPendingRefund(
+    plotInfo.account,
+    parseFloat("" + quantity),
+    "Rented Plot" + _id + ""
+  );
+}
+
+let numberMaximunDaysOfPlots = {
+  Asia: 2,
+  Jamaica: 5,
+  Africa: 5,
+  Afghanistan: 6,
+  Mexico: 7,
+  "South America": 7,
+};
+
+async function cancelRent(json, from, amount, want, type) {
+  let plot = parseInt(type);
+
+  let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
+
+  if (plotInfo) {
+    if (!plotProperties.RENTED) {
+      console.log("no puedes cancelar una renta que no esta rentada");
+      await addPendingRefund(
+        json.from,
+        parseFloat(json.amount.split(" ")[0]),
+        "Refund for " + "cancel rent " + type + " plot not rented"
+      );
+      return;
+    }
+
+    let rentedStatus = JSON.parse(plotProperties.RENTEDSTATUS);
+    let { term, price, time } = rentedStatus;
+
+    let days = 30 * term;
+
+    let now = new Date().getTime();
+    let timeLeft = new Date(time).getTime();
+    let Difference_In_Time = now - timeLeft;
+    let Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24);
+
+    if (Difference_In_Days > 0) {
+      if (Difference_In_Days < numberMaximunDaysOfPlots[plotProperties.NAME]) {
+        if (amount != price) {
+          console.log("No enviaste el suficiente dinero");
+          await addPendingRefund(
+            json.from,
+            parseFloat(json.amount.split(" ")[0]),
+            "Refund for " +
+              "cancel rent " +
+              type +
+              ": u need send a correct value for cancel "
+          );
+          return;
+        }
+      }
+
+      let valorTotalDia = price / days;
+      let valorDiasActual = price / Difference_In_Days;
+
+      let valorARecibir = parseInt(valorDiasActual - valorTotalDia);
+
+      if (amount != valorARecibir) {
+        console.log("No enviaste el suficiente dinero");
+        await addPendingRefund(
+          json.from,
+          parseFloat(json.amount.split(" ")[0]),
+          "Refund for " + "cancel rent " + type + ": u need send correct value"
+        );
+        return;
+      }
+    }
+  }
+}
+
 async function processAvatarBuy(json, from, amount, want, type) {
   let canBuy =
     amount > state.stats.prices.waterPlants.lvl1.price * 1000 - 100 &&
@@ -1550,7 +1680,7 @@ async function processAvatarBuy(json, from, amount, want, type) {
 
   if (!canBuy) {
     //refound hive
-  await  addPendingRefund(
+    await addPendingRefund(
       json.from,
       parseFloat(json.amount.split(" ")[0]),
       "Refund for " + want + " error amount, try again"
@@ -1634,24 +1764,24 @@ async function processWaterBuy(json, from, amount, want, type) {
     amount > state.stats.prices.waterPlants.lvl2.price * 1000 - 300 &&
     amount < state.stats.prices.waterPlants.lvl2.price * 1000 + 300;
 
+  let waterTower = await contract.getNFT(axios, parseInt(type, 10));
+
   if (!canBuy) {
     //refound hive
     await addPendingRefund(
       json.from,
       parseFloat(json.amount.split(" ")[0]),
-      "Refund for " + want + " error amount, try again"
+      "Refund for " + want + " " + type + " error amount, try again"
     );
 
     return;
   }
 
-  let waterTower = await contract.getNFT(axios, parseInt(type, 10));
-
   if (!waterTower) {
     addPendingRefund(
       json.from,
       parseFloat(json.amount.split(" ")[0]),
-      "Refund for " + want + " error no found this nft, try again."
+      "Refund for " + want + " " + type + " error no found this nft, try again."
     );
 
     return;
@@ -1663,6 +1793,8 @@ async function processWaterBuy(json, from, amount, want, type) {
       parseFloat(json.amount.split(" ")[0]),
       "Refund for " +
         want +
+        " " +
+        type +
         " error this water tower has already been raised to this level."
     );
 

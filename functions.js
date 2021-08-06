@@ -79,7 +79,7 @@ const tohkvault = async (json, from, state) => {
         )
           .then(async (red) => {})
           .catch((e) => {
-            console.log("ocurrio un error", e);
+            console.error("ocurrio un error", e);
           });
 
         state.refund.push([
@@ -98,7 +98,7 @@ const tohkvault = async (json, from, state) => {
         ]);
       }
     } catch (error) {
-      console.log(
+      console.error(
         from +
           " had an issue watering seedID" +
           json.contractPayload.memo +
@@ -115,7 +115,7 @@ const tohkvault = async (json, from, state) => {
       )
         .then(async (red) => {})
         .catch((e) => {
-          console.log("ocurrio un error", e);
+          console.error("ocurrio un error", e);
         });
 
       state.refund.push([
@@ -139,7 +139,7 @@ const tohkvault = async (json, from, state) => {
   //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
   if (json.contractPayload.symbol == "BUDS") {
     let type = json.contractPayload.memo.split(" ")[0];
-    console.log("procesing send buds", type);
+   // console.log("procesing send buds", type);
     let amountBuds = json.contractPayload.quantity;
     let amountBudsInt = parseInt(amountBuds, 10);
 
@@ -212,14 +212,14 @@ const tohkvault = async (json, from, state) => {
             "process complete"
           )
             .then(async (red) => {
-              console.log("sending ", consumable, "to ", from);
+             // console.log("sending ", consumable, "to ", from);
             })
             .catch((e) => {
-              console.log("ocurrio un error", e);
+              console.error("ocurrio un error", e);
             });
         })
         .catch(async (e) => {
-          console.log("error al enviar consumable", e);
+          console.error("error al enviar consumable", e);
           await updateorSetPendingTransaction(
             json.transaction_id,
             "tohk-vault",
@@ -264,23 +264,25 @@ const nfttohkvaul = async (json, from, state) => {
                 "process complete"
               )
                 .then(async (red) => {
-                  console.log(
+
+                /*  console.log(
                     "proceso completo, se actualizo el plot",
                     plotIDString
-                  );
+                  ); */
+
                 })
                 .catch((e) => {
-                  console.log("ocurrio un error", e);
+                 // console.log("ocurrio un error", e);
                 });
 
               await contract
                 .generateToken(hivejs, "BUDS", budAmount, from)
                 .then(() => {
-                  console.log("sending buds", budAmount, from);
+                 // console.log("sending buds", budAmount, from);
                 })
                 .catch(async (e) => {
                   //no pude enviar buds, guardando en pendiente para enviar
-                  console.log(from + " it could not send buds", e);
+                  console.error(from + " it could not send buds", e);
 
                   state.refund.push([
                     "customJson",
@@ -315,7 +317,7 @@ const nfttohkvaul = async (json, from, state) => {
         try {
           let jointString = "" + nft.properties.CONSUMABLETYPE;
 
-          console.log("this user", from, "try smoke", jointString);
+          //console.log("this user", from, "try smoke", jointString);
 
           let xptoUpdate = null;
           if (jointString == "pinner") {
@@ -336,7 +338,7 @@ const nfttohkvaul = async (json, from, state) => {
             await updateXP(state, xptoUpdate, from, nft.id, json);
           }
         } catch (error) {
-          console.log("error al fumar smoke", error);
+          console.error("error al fumar smoke", error);
         }
       }
     } else {
@@ -370,7 +372,7 @@ async function updateXP(state, xp, from, joinID, json) {
   }
 
   if (!avatar) {
-    console.log(
+    console.error(
       "no pude traer al avatar de la blockchain, regresando a pendiente"
     );
 
@@ -390,7 +392,7 @@ async function updateXP(state, xp, from, joinID, json) {
       XP: avatar.XP + xp,
     })
     .then(async () => {
-      console.log("smoke update xp success");
+     // console.log("smoke update xp success");
 
       await updateOrsetTransaction(
         json.transaction_id,
@@ -402,18 +404,18 @@ async function updateXP(state, xp, from, joinID, json) {
         .then(async (red) => {
           storeUpdateXp(from, xp)
             .then((response) => {
-              console.log("store xp to new report done", from, xp);
+            //  console.log("store xp to new report done", from, xp);
             })
             .catch((e) => {
-              console.log("error al guardar new report", e);
+              console.error("error al guardar new report", e);
             });
         })
         .catch((e) => {
-          console.log("ocurrio un error", e);
+          console.error("ocurrio un error", e);
         });
     })
     .catch(async (e) => {
-      console.log(
+      console.error(
         "no se pudo actualizar el nft para subir la xp",
         xp,
         from,
@@ -442,7 +444,7 @@ const plant_plot = async (json, from, state) => {
   let plot = await contract.getNFT(axios, parseInt(plotID));
   let seed = await contract.getNFT(axios, parseInt(seedID));
 
-  console.log("verify seed and plot ", seedID, plotID, from);
+  //console.log("verify seed and plot ", seedID, plotID, from);
 
   //make seed used and designate plot
 
@@ -462,10 +464,10 @@ const plant_plot = async (json, from, state) => {
       },
     ])
     .then((res) => {
-      console.log("update plot and seed successfully", from);
+     // console.log("update plot and seed successfully", from);
     })
     .catch((e) => {
-      console.log("error on update plot and seed", e);
+      console.error("error on update plot and seed", e);
     });
 };
 
@@ -496,11 +498,11 @@ const validatePlotAndSeed = async (plot, seed, from) => {
 
   if (plot && seed) {
     if (plot.properties.OCCUPIED || seed.properties.PLANTED) {
-      console.log("plot or seed ocupped", from);
+      console.error("plot or seed ocupped", from);
       plotOrSeedOcupped = true;
     }
   } else {
-    console.log("no seed or no plot ", plot, seed, from);
+    console.error("no seed or no plot ", plot, seed, from);
     plotOrSeedNoExist = true;
   }
 
@@ -515,7 +517,7 @@ const validatePlotAndSeed = async (plot, seed, from) => {
   if (plot.account == from && seed.account == from) {
     seedYplotPertenecenAUsuario = false;
   } else {
-    console.log("la semilla o la tierra no pertenece al usuario", from);
+    console.error("la semilla o la tierra no pertenece al usuario", from);
   }
 
   return (
