@@ -1560,10 +1560,11 @@ async function Rentar(json, from, amount, want, type) {
 
   let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
   if (plotInfo) {
-    console.log("verificando esta plot", plotInfo);
+
     let plotProperties = plotInfo.properties;
-    console.log("plot properties", plotProperties.RENTED, plotProperties);
-    if (plotProperties.RENTED) {
+
+
+    if (plotProperties.RENTED == true) {
       console.log("ya esta plot fue rentada");
       await addPendingRefund(
         json.from,
