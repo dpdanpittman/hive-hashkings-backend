@@ -1551,7 +1551,7 @@ async function sendHiveToUser(plotInfo, amount) {
   await addPendingRefund(
     plotInfo.account,
     parseFloat("" + quantity),
-    "Rented Plot" + _id + ""
+    "Rented Plot" + plotInfo._id + ""
   );
 }
 
