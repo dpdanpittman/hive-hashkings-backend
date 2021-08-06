@@ -76,21 +76,18 @@ console.log(b)  */
 })();
 */
 
-/*
+/* 
 contract
   .updateMultipleNfts(hivejs, [
-    
     {
-      id: "" +69538,
-      properties: {WATER: 0 },
+      id: "" + 63052,
+      properties: { RENTEDINFO: "chocolatoso" },
     },
-    
   ])
   .then((res) => {
     console.log(res);
-  });
+  }); */
 
-  */
 /*
 contract
   .updateNft(hivejs, "" + 126350, {
@@ -407,7 +404,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii */
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -472,9 +469,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})(); 
-
-
+})(); */
 
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {

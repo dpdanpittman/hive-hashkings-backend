@@ -855,7 +855,7 @@ const createConsumable = async (hive, name, consumableType, userBuyer) => {
 const createAvatar = async (hive, name, userBuyer) => {
   let instances = [];
 
-  console.log("creando avatar", name," para ", userBuyer)
+  console.log("creando avatar", name, " para ", userBuyer);
   instances.push(CreateAvatar(name, userBuyer));
 
   let json = {
@@ -1162,11 +1162,13 @@ async function queryContract(
     axios,
     { contract, table, query, offset },
     method
-  ).then(r => {
-    return r;
-  }).catch((e) => {
-    console.log("error  on axios request", e);
-  });
+  )
+    .then((r) => {
+      return r;
+    })
+    .catch((e) => {
+      console.log("error  on axios request", e);
+    });
 
   // Return result
   if (
@@ -1194,7 +1196,6 @@ async function getAvatarOnBlockchain(axios, avatarID) {
       "findOne"
     );
 
-
     if (get_nfts) {
       resolve(get_nfts.properties);
     } else {
@@ -1215,7 +1216,6 @@ async function getNFT(axios, nftID) {
       0,
       "findOne"
     );
-
 
     if (get_nfts) {
       resolve(get_nfts);
@@ -1769,6 +1769,7 @@ async function getUserNft(ssc, axios, user) {
         waterTowers: {},
         avatars: [],
         joints: [],
+        rents: [],
       };
 
       let tempWaterTowers = [];
@@ -1800,6 +1801,8 @@ async function getUserNft(ssc, axios, user) {
         }
       }
 
+      rents = await getRents(ssc, axios, user);
+
       onlyAcconts.tokens = await getTokens(ssc, user);
       onlyAcconts.waterTowers = (
         await formateWaterTowers(tempWaterTowers)
@@ -1811,6 +1814,40 @@ async function getUserNft(ssc, axios, user) {
       let report = onlyAcconts;
 
       resolve(report);
+    })();
+  });
+}
+
+async function getRents(ssc, axios, user) {
+  return new Promise(async (resolve, reject) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: { "properties.RENTEDINFO": user },
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 499;
+
+          if (get_nfts.length !== 499) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      resolve(nfts);
     })();
   });
 }
@@ -3163,7 +3200,6 @@ function testseeds() {
   return instances;
 }
 
-
 async function test(axios, hive) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -3177,7 +3213,7 @@ async function test(axios, hive) {
           {
             contract: CONTRACT,
             table: NFT_SYMBOL + TABLE_POSTFIX,
-            query: { "properties.CONSUMABLETYPE.status" : "rented"},
+            query: { "properties.CONSUMABLETYPE.status": "rented" },
           },
           offset
         );
@@ -3191,8 +3227,6 @@ async function test(axios, hive) {
           complete = true;
         }
       }
-
-
 
       resolve(nfts);
     })();
@@ -3235,5 +3269,5 @@ module.exports = contract = {
   getHKVaultNFts,
   getAvatarOnBlockchain,
   getNFT,
-  test
+  test,
 };

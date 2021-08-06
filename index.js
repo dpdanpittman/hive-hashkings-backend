@@ -842,12 +842,13 @@ app.get("/utest/:user", async (req, res, next) => {
         mota: 0,
         motaStake: 0,
         boosters: [],
+        rents:[],
         activeAvatar: {},
       };
     }
 
     state.users[user].fantomadrs = await getAdrs(user);
-    let { plots, seeds, tokens, waterTowers, waterPlants, avatars, joints } =
+    let { plots, seeds, tokens, waterTowers, waterPlants, avatars, joints,rents } =
       await contract.getUserNft(ssc, axios, user);
 
     state.users[user].seeds = seeds;
@@ -857,6 +858,7 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].waterPlants = waterPlants;
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
+    state.users[user].rents = rents;
 
     let actualActiveAvatar = await getactiveAvatar(user);
 
@@ -969,6 +971,7 @@ app.get("/utest/:user", async (req, res, next) => {
         mota: 0,
         motaStake: 0,
         boosters: [],
+        rents:[],
         activeAvatar: {},
       };
       res.send(JSON.stringify(state.users[user], null, 3));
@@ -1592,7 +1595,7 @@ async function Rentar(json, from, amount, want, type) {
         };
 
         await contract.updateNft(hivejs, ""+plot, {
-          RENTEDINFO: "occupied",
+          RENTEDINFO: ""+json.from,
           RENTED: true,
           RENTEDSTATUS: JSON.stringify(rentStatus),
         });
