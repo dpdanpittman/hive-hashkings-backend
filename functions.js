@@ -139,7 +139,7 @@ const tohkvault = async (json, from, state) => {
   //user sends BUDS to hk-vault with memo type (ex. joint, blunt etc..)
   if (json.contractPayload.symbol == "BUDS") {
     let type = json.contractPayload.memo.split(" ")[0];
-   // console.log("procesing send buds", type);
+    // console.log("procesing send buds", type);
     let amountBuds = json.contractPayload.quantity;
     let amountBudsInt = parseInt(amountBuds, 10);
 
@@ -212,7 +212,7 @@ const tohkvault = async (json, from, state) => {
             "process complete"
           )
             .then(async (red) => {
-             // console.log("sending ", consumable, "to ", from);
+              // console.log("sending ", consumable, "to ", from);
             })
             .catch((e) => {
               console.error("ocurrio un error", e);
@@ -264,21 +264,19 @@ const nfttohkvaul = async (json, from, state) => {
                 "process complete"
               )
                 .then(async (red) => {
-
-                /*  console.log(
+                  /*  console.log(
                     "proceso completo, se actualizo el plot",
                     plotIDString
                   ); */
-
                 })
                 .catch((e) => {
-                 // console.log("ocurrio un error", e);
+                  // console.log("ocurrio un error", e);
                 });
 
               await contract
                 .generateToken(hivejs, "BUDS", budAmount, from)
                 .then(() => {
-                 // console.log("sending buds", budAmount, from);
+                  // console.log("sending buds", budAmount, from);
                 })
                 .catch(async (e) => {
                   //no pude enviar buds, guardando en pendiente para enviar
@@ -392,7 +390,7 @@ async function updateXP(state, xp, from, joinID, json) {
       XP: avatar.XP + xp,
     })
     .then(async () => {
-     // console.log("smoke update xp success");
+      // console.log("smoke update xp success");
 
       await updateOrsetTransaction(
         json.transaction_id,
@@ -404,7 +402,7 @@ async function updateXP(state, xp, from, joinID, json) {
         .then(async (red) => {
           storeUpdateXp(from, xp)
             .then((response) => {
-            //  console.log("store xp to new report done", from, xp);
+              //  console.log("store xp to new report done", from, xp);
             })
             .catch((e) => {
               console.error("error al guardar new report", e);
@@ -464,7 +462,7 @@ const plant_plot = async (json, from, state) => {
       },
     ])
     .then((res) => {
-     // console.log("update plot and seed successfully", from);
+      // console.log("update plot and seed successfully", from);
     })
     .catch((e) => {
       console.error("error on update plot and seed", e);
@@ -514,10 +512,19 @@ const validatePlotAndSeed = async (plot, seed, from) => {
   }
 
   let seedYplotPertenecenAUsuario = true;
-  if (plot.account == from && seed.account == from) {
-    seedYplotPertenecenAUsuario = false;
+
+  if (plot.properties.RENTED) {
+    if (plot.properties.RENTEDINFO == from && seed.account == from) {
+      seedYplotPertenecenAUsuario = false;
+    } else {
+      console.error("la semilla o la tierra no pertenece al usuario que renta", from);
+    }
   } else {
-    console.error("la semilla o la tierra no pertenece al usuario", from);
+    if (plot.account == from && seed.account == from) {
+      seedYplotPertenecenAUsuario = false;
+    } else {
+      console.error("la semilla o la tierra no pertenece al usuario", from);
+    }
   }
 
   return (
