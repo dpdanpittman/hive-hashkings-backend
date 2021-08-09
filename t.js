@@ -76,17 +76,17 @@ console.log(b)  */
 })();
 */
 
-/* 
+/*  */
 contract
   .updateMultipleNfts(hivejs, [
     {
-      id: "" + 63052,
-      properties: { RENTEDINFO: "chocolatoso" },
+      id: "" + 119683,
+      properties: { SPT: 0 },
     },
   ])
   .then((res) => {
     console.log(res);
-  }); */
+  });
 
 /*
 contract

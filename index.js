@@ -1302,7 +1302,7 @@ function startApp() {
         }
 
         if (plotProperties.RENTEDINFO) {
-          if (plotProperties.RENTEDINFO != "null") {
+          if (plotProperties.RENTEDINFO != "n/a") {
             console.log("plot is already set to rented");
             return;
           }
