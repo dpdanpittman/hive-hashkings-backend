@@ -82,20 +82,7 @@ const tohkvault = async (json, from, state) => {
             console.error("ocurrio un error", e);
           });
 
-        state.refund.push([
-          "customJson",
-          "ssc-mainnet-hive",
-          {
-            contractName: "tokens",
-            contractAction: "transfer",
-            contractPayload: {
-              symbol: "HKWATER",
-              to: whoFrom,
-              quantity: amountWater,
-              memo: "plot has already been watered",
-            },
-          },
-        ]);
+        
       }
     } catch (error) {
       console.error(
@@ -118,20 +105,7 @@ const tohkvault = async (json, from, state) => {
           console.error("ocurrio un error", e);
         });
 
-      state.refund.push([
-        "customJson",
-        "ssc-mainnet-hive",
-        {
-          contractName: "tokens",
-          contractAction: "transfer",
-          contractPayload: {
-            symbol: "HKWATER",
-            to: whoFrom,
-            quantity: amountString,
-            memo: "we discovered an issue watering, please try again.",
-          },
-        },
-      ]);
+     
     }
   }
 
@@ -281,20 +255,7 @@ const nfttohkvaul = async (json, from, state) => {
                 .catch(async (e) => {
                   //no pude enviar buds, guardando en pendiente para enviar
                   console.error(from + " it could not send buds", e);
-
-                  state.refund.push([
-                    "customJson",
-                    "ssc-mainnet-hive",
-                    {
-                      contractName: "tokens",
-                      contractAction: "issue",
-                      contractPayload: {
-                        to: from,
-                        symbol: "BUDS",
-                        quantity: budAmount,
-                      },
-                    },
-                  ]);
+               
                 });
             })
             .catch(async (e) => {

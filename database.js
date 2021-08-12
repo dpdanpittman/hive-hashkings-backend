@@ -6,6 +6,7 @@ const {
   activeAvatarModel,
   refundModel,
   adrsModel,
+  distributeErrorModel
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -227,6 +228,17 @@ async function getAdrs(user) {
   return u.adrs;
 }
 
+
+async function addRefund(usuario, value, moneda, time) {
+  return await new distributeErrorModel({
+    usuario,
+    value,
+    moneda,
+    time,
+    status: "pending",
+  }).save();
+}
+
 module.exports = {
   saveLog,
   setTransaction,
@@ -245,6 +257,7 @@ module.exports = {
   removePendingRefund,
   addPendingRefund,
   getAllRefunds,
+  addRefund,
   setAdrs,
   getAdrs,
 };

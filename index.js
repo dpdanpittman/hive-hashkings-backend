@@ -134,6 +134,11 @@ httpsServer.listen(443, () => {
   console.log("HTTPS Server running on port 443");
 });
 
+let io = require("socket.io")(httpServer);
+io.on("connection", () => {
+  /* … */
+});
+io.sockets.emit("init", init);
 /***************** End Server ************************/
 
 app.use(cors());
@@ -842,14 +847,22 @@ app.get("/utest/:user", async (req, res, next) => {
         mota: 0,
         motaStake: 0,
         boosters: [],
-        rents:[],
+        rents: [],
         activeAvatar: {},
       };
     }
 
     state.users[user].fantomadrs = await getAdrs(user);
-    let { plots, seeds, tokens, waterTowers, waterPlants, avatars, joints,rents } =
-      await contract.getUserNft(ssc, axios, user);
+    let {
+      plots,
+      seeds,
+      tokens,
+      waterTowers,
+      waterPlants,
+      avatars,
+      joints,
+      rents,
+    } = await contract.getUserNft(ssc, axios, user);
 
     state.users[user].seeds = seeds;
     state.users[user].plots = plots;
@@ -971,7 +984,7 @@ app.get("/utest/:user", async (req, res, next) => {
         mota: 0,
         motaStake: 0,
         boosters: [],
-        rents:[],
+        rents: [],
         activeAvatar: {},
       };
       res.send(JSON.stringify(state.users[user], null, 3));
@@ -1594,8 +1607,8 @@ async function Rentar(json, from, amount, want, type) {
           by: from,
         };
 
-        await contract.updateNft(hivejs, ""+plot, {
-          RENTEDINFO: ""+json.from,
+        await contract.updateNft(hivejs, "" + plot, {
+          RENTEDINFO: "" + json.from,
           RENTED: true,
           RENTEDSTATUS: JSON.stringify(rentStatus),
         });
@@ -2172,7 +2185,7 @@ mongoose.Promise = global.Promise;
 
 mongoose
   .connect(
-    "mongodb+srv://hashkings:JtZa8bb0Yi3jnfNZ@cluster0.trqu4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    `mongodb+srv://${ENV.mongouser}@cluster0.trqu4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => {

@@ -64,6 +64,22 @@ const adrsSchema = new Schema({
 
 const adrsModel = mongoose.model("Adrs", adrsSchema);
 
+
+const distributeErrorSchema = new Schema({
+  usuario: String,
+  value: Number,
+  moneda: String,
+  time: Number,
+  status: String,
+});
+
+const distributeErrorModel = mongoose.model(
+  "distributeError",
+  distributeErrorSchema
+);
+
+
+
 module.exports = {
   transferModel,
   logModel,
@@ -72,4 +88,5 @@ module.exports = {
   activeAvatarModel,
   refundModel,
   adrsModel,
+  distributeErrorModel
 };

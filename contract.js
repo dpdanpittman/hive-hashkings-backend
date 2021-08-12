@@ -16,6 +16,9 @@ const TABLE_POSTFIX = "instances"; // ShoAuld be the same
 const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol
 const EXPORT = true; // Export to file? true = Export, false = no
 
+const { addRefund } = require("./database");
+
+
 const SEEDS = [
   {
     0: {
@@ -1808,7 +1811,7 @@ async function getUserNft(ssc, axios, user) {
       onlyAcconts.rents = await getRents(ssc, axios, user);
 
       onlyAcconts.tokens = await getTokens(ssc, user);
-      
+
       onlyAcconts.waterTowers = (
         await formateWaterTowers(tempWaterTowers)
       ).waterTowers;
@@ -1836,7 +1839,7 @@ async function getRents(ssc, axios, user) {
           {
             contract: CONTRACT,
             table: NFT_SYMBOL + TABLE_POSTFIX,
-            query: { "properties.RENTEDINFO": ""+user },
+            query: { "properties.RENTEDINFO": "" + user },
           },
           offset
         );
@@ -2936,8 +2939,9 @@ const generateToken = async (hive, token, quantity, user) => {
       [],
       "ssc-mainnet-hive",
       JSON.stringify(json),
-      function (err, result) {
+      async function (err, result) {
         if (err) {
+          await addRefund(user, "" + quantity, token, Date.now());
           reject(err);
         } else {
           resolve(result);
