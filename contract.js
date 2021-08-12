@@ -18,7 +18,6 @@ const EXPORT = true; // Export to file? true = Export, false = no
 
 const { addRefund } = require("./database");
 
-
 const SEEDS = [
   {
     0: {
@@ -1773,6 +1772,7 @@ async function getUserNft(ssc, axios, user) {
         avatars: [],
         joints: [],
         rents: [],
+        rented: [],
       };
 
       let tempWaterTowers = [];
@@ -1794,12 +1794,16 @@ async function getUserNft(ssc, axios, user) {
         if (nfts[i].properties.TYPE == "plot") {
           if (!nfts[i].properties.RENTED) {
             onlyAcconts.plots.push(nft);
+          } else {
+            onlyAcconts.rented.push(nft);
           }
         }
 
         if (nfts[i].properties.TYPE == "water") {
           if (!nfts[i].properties.RENTED) {
             tempWaterTowers.push(nft);
+          } else {
+            onlyAcconts.rented.push(nft);
           }
         }
 

@@ -77,12 +77,21 @@ const tohkvault = async (json, from, state) => {
           from,
           "process complete"
         )
-          .then(async (red) => {})
+          .then(async (red) => {
+            
+            await contract
+              .generateToken(hivejs, "HKWATER", "" + amountWaterInt, from)
+              .then(() => {
+                // console.log("sending buds", budAmount, from);
+              })
+              .catch(async (e) => {
+                //no pude enviar buds, guardando en pendiente para enviar
+                console.error(from + " it could not send buds", e);
+              });
+          })
           .catch((e) => {
             console.error("ocurrio un error", e);
           });
-
-        
       }
     } catch (error) {
       console.error(
@@ -100,12 +109,20 @@ const tohkvault = async (json, from, state) => {
         from,
         "process complete"
       )
-        .then(async (red) => {})
+        .then(async (red) => {
+          await contract
+            .generateToken(hivejs, "HKWATER", "" + amountWaterInt, from)
+            .then(() => {
+              // console.log("sending buds", budAmount, from);
+            })
+            .catch(async (e) => {
+              //no pude enviar buds, guardando en pendiente para enviar
+              console.error(from + " it could not send buds", e);
+            });
+        })
         .catch((e) => {
           console.error("ocurrio un error", e);
         });
-
-     
     }
   }
 
@@ -255,7 +272,6 @@ const nfttohkvaul = async (json, from, state) => {
                 .catch(async (e) => {
                   //no pude enviar buds, guardando en pendiente para enviar
                   console.error(from + " it could not send buds", e);
-               
                 });
             })
             .catch(async (e) => {
@@ -478,7 +494,10 @@ const validatePlotAndSeed = async (plot, seed, from) => {
     if (plot.properties.RENTEDINFO == from && seed.account == from) {
       seedYplotPertenecenAUsuario = false;
     } else {
-      console.error("la semilla o la tierra no pertenece al usuario que renta", from);
+      console.error(
+        "la semilla o la tierra no pertenece al usuario que renta",
+        from
+      );
     }
   } else {
     if (plot.account == from && seed.account == from) {

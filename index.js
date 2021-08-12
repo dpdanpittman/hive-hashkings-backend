@@ -848,6 +848,7 @@ app.get("/utest/:user", async (req, res, next) => {
         motaStake: 0,
         boosters: [],
         rents: [],
+        rented: [],
         activeAvatar: {},
       };
     }
@@ -862,6 +863,7 @@ app.get("/utest/:user", async (req, res, next) => {
       avatars,
       joints,
       rents,
+      rented,
     } = await contract.getUserNft(ssc, axios, user);
 
     state.users[user].seeds = seeds;
@@ -872,6 +874,7 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].avatars = avatars;
     state.users[user].joints = joints;
     state.users[user].rents = rents;
+    state.users[user].rented = rented;
 
     let actualActiveAvatar = await getactiveAvatar(user);
 
@@ -985,6 +988,7 @@ app.get("/utest/:user", async (req, res, next) => {
         motaStake: 0,
         boosters: [],
         rents: [],
+        rented: [],
         activeAvatar: {},
       };
       res.send(JSON.stringify(state.users[user], null, 3));
