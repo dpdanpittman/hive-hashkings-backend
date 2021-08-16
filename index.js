@@ -1398,7 +1398,7 @@ function startApp() {
     let plot = json.plot;
     let waterTower = json.waterTower;
 
-    let [plotNFT, waterTowerNFT] = Promise.all([
+    let [plotNFT, waterTowerNFT] = await Promise.all([
       contract.getNFT(axios, parseInt(plot, 10)),
       contract.getNFT(axios, parseInt(waterTower, 10)),
     ]);
@@ -1486,18 +1486,28 @@ function startApp() {
         let waterProperties = waterInfo.properties;
         let bundleProperties = BundleInfo.properties;
 
-        if (plotProperties.RENTED || waterProperties.RENTED || bundleProperties.RENTED) {
+        if (
+          plotProperties.RENTED ||
+          waterProperties.RENTED ||
+          bundleProperties.RENTED
+        ) {
           console.log("plot or water tower or bundle is already rented");
           return;
         }
 
-        if (plotProperties.RENTEDINFO && waterProperties.RENTEDINFO && bundleProperties.RENTEDINFO) {
+        if (
+          plotProperties.RENTEDINFO &&
+          waterProperties.RENTEDINFO &&
+          bundleProperties.RENTEDINFO
+        ) {
           if (
             plotProperties.RENTEDINFO != "n/a" ||
             waterProperties.RENTEDINFO != "n/a" ||
             bundleProperties.RENTEDINFO != "n/a"
           ) {
-            console.log("plot or waterTower or bundle is already set to rented");
+            console.log(
+              "plot or waterTower or bundle is already set to rented"
+            );
             return;
           }
         }
