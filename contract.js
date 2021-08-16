@@ -562,6 +562,24 @@ const CreateBud = (nameBudNFT, to) => {
   return instance;
 };
 
+const CreateBundle = (to, plot, waterTower, name) => {
+  const properties = {
+    NAME: name,
+    TYPE: "bundle",
+    PLOTID: plot,
+    WATER: waterTower,
+  };
+
+  const instance = {
+    symbol: UTILITY_TOKEN_SYMBOL,
+    to,
+    feeSymbol: "PAL",
+    properties,
+  };
+
+  return instance;
+};
+
 const CreateWater = (nameWaterNFT, quantity, to) => {
   const properties = {
     NAME: nameWaterNFT,
@@ -1773,6 +1791,7 @@ async function getUserNft(ssc, axios, user) {
         joints: [],
         rents: [],
         rented: [],
+        bundles: [],
       };
 
       let tempWaterTowers = [];
@@ -1809,6 +1828,10 @@ async function getUserNft(ssc, axios, user) {
 
         if (nfts[i].properties.TYPE == "consumable") {
           onlyAcconts.joints.push(nft);
+        }
+
+        if (nfts[i].properties.TYPE == "bundle") {
+          onlyAcconts.bundles.push(nft);
         }
       }
 
@@ -3246,6 +3269,40 @@ async function test(axios, hive) {
   });
 }
 
+async function createBundle(hive, plot, waterTower, to, name) {
+  plot = parseInt(plot, 10);
+  waterTower = parseInt(waterTower, 10);
+
+  let instances = [];
+
+  instances.push(CreateBundle(to, plot, waterTower, name));
+
+  let json = {
+    contractName: "nft",
+    contractAction: "issueMultiple",
+    contractPayload: {
+      instances: instances,
+    },
+  };
+
+  return new Promise((resolve, reject) => {
+    hive.broadcast.customJson(
+      ACTIVEKEY,
+      [CONTRACT_CREATOR],
+      [],
+      "ssc-mainnet-hive",
+      JSON.stringify(json),
+      function (err, result) {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(result);
+        }
+      }
+    );
+  });
+}
+
 module.exports = contract = {
   createSeed,
   createOneSeed,
@@ -3283,4 +3340,5 @@ module.exports = contract = {
   getAvatarOnBlockchain,
   getNFT,
   test,
+  createBundle,
 };

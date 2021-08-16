@@ -849,6 +849,7 @@ app.get("/utest/:user", async (req, res, next) => {
         boosters: [],
         rents: [],
         rented: [],
+        bundles: [],
         activeAvatar: {},
       };
     }
@@ -864,6 +865,7 @@ app.get("/utest/:user", async (req, res, next) => {
       joints,
       rents,
       rented,
+      bundles,
     } = await contract.getUserNft(ssc, axios, user);
 
     state.users[user].seeds = seeds;
@@ -875,6 +877,7 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].joints = joints;
     state.users[user].rents = rents;
     state.users[user].rented = rented;
+    state.users[user].bundles = bundles;
 
     let actualActiveAvatar = await getactiveAvatar(user);
 
@@ -989,6 +992,7 @@ app.get("/utest/:user", async (req, res, next) => {
         boosters: [],
         rents: [],
         rented: [],
+        bundles: [],
         activeAvatar: {},
       };
       res.send(JSON.stringify(state.users[user], null, 3));
@@ -1390,6 +1394,144 @@ function startApp() {
     }
   });
 
+  processor.on("create_bundle", async function (json, from) {
+    let plot = json.plot;
+    let waterTower = json.waterTower;
+
+    let [plotNFT, waterTowerNFT] = Promise.all([
+      contract.getNFT(axios, parseInt(plot, 10)),
+      contract.getNFT(axios, parseInt(waterTower, 10)),
+    ]);
+
+    if (plotNFT && waterTowerNFT) {
+      let plotProperties = plotNFT.properties;
+      let waterProperties = waterTowerNFT.properties;
+      if (plotProperties.RENTED || waterProperties.RENTED) {
+        console.log(
+          "crear un bundle de una tierra o torre de agua que este rentada"
+        );
+        return;
+      }
+      if (
+        plotProperties.RENTEDINFO == "available" ||
+        waterProperties.RENTEDINFO == "available"
+      ) {
+        console.log(
+          "no puedes crear un bundle con una torre de agua que esta listada para rentar"
+        );
+        return;
+      }
+
+      if (plotNFT.account != from || waterTowerNFT.account != from) {
+        console.log("no puedes crear un bundle de nfts que no te pertenecen");
+        return;
+      }
+
+      if (plotProperties.OCCUPIED) {
+        console.log("no puedes crear un bundle con una tierra ocupada");
+        return;
+      }
+
+      await contract.createBundle(
+        hivejs,
+        plot,
+        waterTower,
+        from,
+        plotProperties.NAME + " + WaterTower lvl :" + waterProperties.LVL
+      );
+      console.log("bundle creado con exito");
+    } else {
+      console.log("no se pudo traer la info de este plot o water tower");
+    }
+  });
+
+  processor.on("set_rent_bundle", async function (json, from) {
+    console.log("intentando colocar renta", from, json);
+
+    let term = parseInt("" + json.term, 10);
+    let price = parseFloat("" + json.price);
+    let bundle = json.bundle;
+
+    let BundleInfo = await contract.getNFT(axios, parseInt(bundle, 10));
+
+    if (!BundleInfo) {
+      console.log("no se pudo traer la info de este bundle");
+      return;
+    }
+
+    let plot = BundleInfo.properties.PLOTID;
+    let waterTower = BundleInfo.properties.WATER;
+
+    console.log(term, price, plot);
+
+    if (
+      "" + json.term != "1" &&
+      "" + json.term != "3" &&
+      "" + json.term != "6"
+    ) {
+      console.log("error u need set a correct term time");
+      return;
+    }
+
+    if (term && price && plot && waterTower) {
+      let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
+      let waterInfo = await contract.getNFT(axios, parseInt(waterTower, 10));
+      if (plotInfo && waterInfo) {
+        console.log("plot info to rent", plotInfo, waterInfo);
+        if (plotInfo.account != from || waterInfo.account != from) {
+          console.log("you can try to set a rent from other person plot");
+          return;
+        }
+        let plotProperties = plotInfo.properties;
+        let waterProperties = waterInfo.properties;
+        let bundleProperties = BundleInfo.properties;
+
+        if (plotProperties.RENTED || waterProperties.RENTED || bundleProperties.RENTED) {
+          console.log("plot or water tower or bundle is already rented");
+          return;
+        }
+
+        if (plotProperties.RENTEDINFO && waterProperties.RENTEDINFO && bundleProperties.RENTEDINFO) {
+          if (
+            plotProperties.RENTEDINFO != "n/a" ||
+            waterProperties.RENTEDINFO != "n/a" ||
+            bundleProperties.RENTEDINFO != "n/a"
+          ) {
+            console.log("plot or waterTower or bundle is already set to rented");
+            return;
+          }
+        }
+
+        if (plotProperties.OCCUPIED) {
+          console.log("plot is occupied");
+          return;
+        }
+
+        let rentStatus = {
+          term,
+          price,
+        };
+
+        await contract.updateMultipleNfts(hivejs, [
+          {
+            id: "" + bundle,
+            properties: {
+              RENTEDINFO: "available",
+              RENTEDSTATUS: JSON.stringify(rentStatus),
+            },
+          },
+        ]);
+      } else {
+        console.log(
+          "no se pudo traer la info de este plot o water tower",
+          plot
+        );
+      }
+    } else {
+      console.log("algo falta para rentar");
+    }
+  });
+
   /////////////////////////////PHANTOM//////////////////////////////////////////
   processor.on("set_adrs", async function (json, from) {
     let adrs = "" + json.adrs;
@@ -1534,6 +1676,14 @@ function startApp() {
         cancelRent(json, from, amount, want, type);
       } else if (contains(want, "rent")) {
         Rentar(json, from, parseFloat(json.amount.split(" ")[0]), want, type);
+      } else if (contains(want, "rentBundle")) {
+        RentarBundle(
+          json,
+          from,
+          parseFloat(json.amount.split(" ")[0]),
+          want,
+          type
+        );
       }
       //purchasing
     } else if (json.from === username) {
@@ -1571,7 +1721,7 @@ async function sendHiveToUser(plotInfo, amount) {
   await addPendingRefund(
     plotInfo.account,
     parseFloat("" + quantity),
-    "Rented Plot" + plotInfo._id + ""
+    "Rented " + plotInfo._id + ""
   );
 }
 
@@ -1618,6 +1768,98 @@ async function Rentar(json, from, amount, want, type) {
         });
 
         await sendHiveToUser(plotInfo, amount);
+      } else {
+        console.log("enviaste la cantidad incorrecta");
+        await addPendingRefund(
+          json.from,
+          parseFloat(json.amount.split(" ")[0]),
+          "Refund for " + "cancel rent " + type + " u need send correct amount"
+        );
+        return;
+      }
+    }
+  }
+}
+
+async function RentarBundle(json, from, amount, want, type) {
+  let bundle = type.split("|");
+
+  let plot = parseInt(bundle[0]);
+  let waterTower = parseInt(bundle[1]);
+
+  let bundleID = "" + bundle[2];
+
+  let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
+  let waterInfo = await contract.getNFT(axios, parseInt(waterTower, 10));
+  let bundleInfo = await contract.getNFT(axios, parseInt(bundleID, 10));
+
+  if (plotInfo && waterInfo && bundleInfo) {
+    let plotProperties = plotInfo.properties;
+    let waterProperties = waterInfo.properties;
+
+    if (plotProperties.RENTED || waterProperties.RENTED) {
+      console.log("ya esta plot o waterTower  fue rentada");
+      await addPendingRefund(
+        json.from,
+        parseFloat(json.amount.split(" ")[0]),
+        "Refund for " + "cancel rent " + type + "invalid Bundle"
+      );
+
+      await contract.updateNft(hivejs, "" + bundleID, {
+        RENTEDINFO: "n/a",
+        RENTEDSTATUS: "n/a",
+      });
+
+      return;
+    } else {
+      let rentedStatus = JSON.parse(bundleInfo.RENTEDSTATUS);
+      let { term, price, time } = rentedStatus;
+
+      price = Number.parseFloat(price).toFixed(3);
+      amount = Number.parseFloat(amount).toFixed(3);
+
+      console.log(price, amount);
+
+      if (amount == price) {
+        let termindays = term * 30;
+        let tiempo = new Date();
+        tiempo.setDate(tiempo.getDate() + termindays);
+
+        let rentStatus = {
+          term,
+          price,
+          time: tiempo,
+          by: from,
+        };
+
+        await contract.updateMultipleNfts(hivejs, [
+          {
+            id: "" + plot,
+            properties: {
+              RENTEDINFO: "" + json.from,
+              RENTED: true,
+              RENTEDSTATUS: JSON.stringify(rentStatus),
+            },
+          },
+          {
+            id: "" + waterTower,
+            properties: {
+              RENTEDINFO: "" + json.from,
+              RENTED: true,
+              RENTEDSTATUS: JSON.stringify(rentStatus),
+            },
+          },
+          {
+            id: "" + bundleID,
+            properties: {
+              RENTEDINFO: "" + json.from,
+              RENTED: true,
+              RENTEDSTATUS: JSON.stringify(rentStatus),
+            },
+          },
+        ]);
+
+        await sendHiveToUser(bundleInfo, amount);
       } else {
         console.log("enviaste la cantidad incorrecta");
         await addPendingRefund(
