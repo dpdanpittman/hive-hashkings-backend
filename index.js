@@ -234,6 +234,7 @@ function dynStart(account) {
     function (err, result) {
       if (err) {
         console.log("ocurrio un error al pleno inicio on getAccountHistory",err);
+        startWith(config.engineCrank);
       } else {
         let ebus = result.filter((tx) => tx[1].op[1].id === "qwoyn_report");
         for (i = ebus.length - 1; i >= 0; i--) {
