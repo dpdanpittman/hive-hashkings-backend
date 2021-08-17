@@ -925,7 +925,19 @@ app.get("/utest/:user", async (req, res, next) => {
         state.users[user].xp = state.users[user].activeAvatar.properties.XP;
         await setactiveAvatar(user, ava.id);
       } else {
-        state.users[user].activeAvatar = {};
+        state.users[user].activeAvatar = {
+          _id: 140646,
+          account: user,
+          ownedBy: "u",
+          lockedTokens: {},
+          properties: {
+            NAME: "Farmer Shaggi",
+            TYPE: "avatar",
+            XP: 45,
+          },
+          id: 140646,
+          owner: user,
+        };
       }
     } else {
       let ava = await contract.getNFT(axios, parseInt(actualActiveAvatar, 10));
