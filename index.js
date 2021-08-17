@@ -49,7 +49,7 @@ const ipfs = new IPFS({
   protocol: "https",
 });
 
-hivejs.api.setOptions({ url: "https://api.deathwing.me" });
+hivejs.api.setOptions({ url: "https://anyx.io" });
 hivejs.config.set("alternative_api_endpoints", [
   "https://api.hive.blog/",
   "https://api.deathwing.me",
@@ -233,7 +233,7 @@ function dynStart(account) {
     ...walletOperationsBitmask,
     function (err, result) {
       if (err) {
-        console.log(err);
+        console.log("ocurrio un error al pleno inicio on getAccountHistory",err);
       } else {
         let ebus = result.filter((tx) => tx[1].op[1].id === "qwoyn_report");
         for (i = ebus.length - 1; i >= 0; i--) {
