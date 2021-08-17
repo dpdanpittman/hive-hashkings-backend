@@ -899,6 +899,20 @@ app.get("/utest/:user", async (req, res, next) => {
     state.users[user].rented = rented;
     state.users[user].bundles = bundles;
 
+    if (avatars.length == 0) {
+      state.users[user].avatars = [
+        {
+          id: 185934,
+          properties: {
+            NAME: "Lucky Shaggi",
+            TYPE: "avatar",
+            XP: 45,
+          },
+          owner: user,
+        },
+      ];
+    }
+
     let actualActiveAvatar = await getactiveAvatar(user);
 
     if (!actualActiveAvatar) {
@@ -931,7 +945,19 @@ app.get("/utest/:user", async (req, res, next) => {
           state.users[user].xp = state.users[user].activeAvatar.properties.XP;
           await setactiveAvatar(user, ava.id);
         } else {
-          state.users[user].activeAvatar = {};
+          state.users[user].activeAvatar = {
+            _id: 140646,
+            account: user,
+            ownedBy: "u",
+            lockedTokens: {},
+            properties: {
+              NAME: "Farmer Shaggi",
+              TYPE: "avatar",
+              XP: 45,
+            },
+            id: 140646,
+            owner: user,
+          };
         }
       }
     }
