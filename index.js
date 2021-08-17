@@ -233,7 +233,10 @@ function dynStart(account) {
     ...walletOperationsBitmask,
     function (err, result) {
       if (err) {
-        console.log("ocurrio un error al pleno inicio on getAccountHistory",err);
+        console.log(
+          "ocurrio un error al pleno inicio on getAccountHistory",
+          err
+        );
         startWith(config.engineCrank);
       } else {
         let ebus = result.filter((tx) => tx[1].op[1].id === "qwoyn_report");
@@ -776,11 +779,9 @@ app.get("/utest/:user", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   let user = req.params.user;
   try {
-
-    if(!state.hasOwnProperty("users") ){
+    if (!state.hasOwnProperty("users")) {
       state.users = [];
     }
-
 
     if (!state.users[user]) {
       state.users[user] = {
@@ -857,7 +858,19 @@ app.get("/utest/:user", async (req, res, next) => {
         rents: [],
         rented: [],
         bundles: [],
-        activeAvatar: {},
+        activeAvatar: {
+          _id: 140646,
+          account: user,
+          ownedBy: "u",
+          lockedTokens: {},
+          properties: {
+            NAME: "Farmer Shaggi",
+            TYPE: "avatar",
+            XP: 45,
+          },
+          id: 140646,
+          owner: user,
+        },
       };
     }
 
@@ -1001,7 +1014,19 @@ app.get("/utest/:user", async (req, res, next) => {
         rents: [],
         rented: [],
         bundles: [],
-        activeAvatar: {},
+        activeAvatar: {
+          _id: 140646,
+          account: user,
+          ownedBy: "u",
+          lockedTokens: {},
+          properties: {
+            NAME: "Farmer Shaggi",
+            TYPE: "avatar",
+            XP: 45,
+          },
+          id: 140646,
+          owner: user,
+        },
       };
       res.send(JSON.stringify(state.users[user], null, 3));
     } else {
@@ -1382,6 +1407,34 @@ function startApp() {
 
         if (plotProperties.RENTEDINFO != "available") {
           console.log("plot isnt set to rent");
+          return;
+        }
+
+        if (plotProperties.TYPE == "bundle") {
+          await contract.updateMultipleNfts(hivejs, [
+            {
+              id: "" + plot,
+              properties: {
+                RENTEDINFO: "n/a",
+                RENTEDSTATUS: "n/a",
+              },
+            },
+            {
+              id: "" + plotProperties.PLOTID,
+              properties: {
+                RENTEDINFO: "n/a",
+                RENTEDSTATUS: "n/a",
+              },
+            },
+            {
+              id: "" + plotProperties.WATER,
+              properties: {
+                RENTEDINFO: "n/a",
+                RENTEDSTATUS: "n/a",
+              },
+            },
+          ]);
+
           return;
         }
 
@@ -1822,7 +1875,6 @@ async function RentarBundle(json, from, amount, want, type) {
 
   let plot = parseInt(bundle[0]);
   let waterTower = parseInt(bundle[1]);
-
 
   let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
   let waterInfo = await contract.getNFT(axios, parseInt(waterTower, 10));
