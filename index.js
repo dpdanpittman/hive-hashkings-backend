@@ -1432,12 +1432,30 @@ function startApp() {
         return;
       }
 
+      let extitePlotEnAlgunBundle = await contract.getInBundle(
+        axios,
+        parseInt(plot, 10),
+        "plot"
+      );
+      let existeTorreEnAlgunBundleWaterInfo = await contract.getInBundle(
+        axios,
+        parseInt(waterTower, 10),
+        "water"
+      );
+
+      if (extitePlotEnAlgunBundle || existeTorreEnAlgunBundleWaterInfo) {
+        console.log(
+          "bundle no se pudo crear porque plot o water tower estan en un bundle"
+        );
+        return;
+      }
+
       await contract.createBundle(
         hivejs,
         plot,
         waterTower,
         from,
-        plotProperties.NAME + " + WaterTower lvl :" + waterProperties.LVL
+        plotProperties.NAME + " + WaterTower lvl " + waterProperties.LVL
       );
       console.log("bundle creado con exito");
     } else {
@@ -1797,11 +1815,14 @@ async function RentarBundle(json, from, amount, want, type) {
   let plot = parseInt(bundle[0]);
   let waterTower = parseInt(bundle[1]);
 
-  let bundleID = "" + bundle[2];
 
   let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
   let waterInfo = await contract.getNFT(axios, parseInt(waterTower, 10));
-  let bundleInfo = await contract.getNFT(axios, parseInt(bundleID, 10));
+  let bundleInfo = await contract.findBundleByPLOTANDWATER(
+    axios,
+    parseInt(plot, 10),
+    parseInt(waterTower, 10)
+  );
 
   if (plotInfo && waterInfo && bundleInfo) {
     let plotProperties = plotInfo.properties;
@@ -1815,7 +1836,7 @@ async function RentarBundle(json, from, amount, want, type) {
         "Refund for " + "cancel rent " + type + "invalid Bundle"
       );
 
-      await contract.updateNft(hivejs, "" + bundleID, {
+      await contract.updateNft(hivejs, "" + bundleInfo._id, {
         RENTEDINFO: "n/a",
         RENTEDSTATUS: "n/a",
       });

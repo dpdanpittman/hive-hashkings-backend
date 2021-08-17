@@ -404,7 +404,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii */
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -469,8 +469,8 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})(); 
-
+})();
+*/
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
@@ -721,3 +721,7 @@ contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
 contract.generateToken(hivejs, "MOTA", "22.8618", "ooakosimo").then((e) => {
   console.log(e);
 });*/
+
+contract.findBundleByPLOTANDWATER(axios, 25104, 7762).then((e) => {
+  console.log(e);
+});

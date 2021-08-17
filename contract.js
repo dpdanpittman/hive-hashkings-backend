@@ -1245,6 +1245,61 @@ async function getNFT(axios, nftID) {
   });
 }
 
+async function getInBundle(axios, nftID, type) {
+  return new Promise(async (resolve, reject) => {
+    let query = {};
+
+    if (type == "plot") {
+      query = { "properties.PLOTID": nftID, "properties.TYPE": "bundle" };
+    } else {
+      query = { "properties.WATER": nftID, "properties.TYPE": "bundle" };
+    }
+
+    let get_nfts = await queryContract(
+      axios,
+      {
+        contract: CONTRACT,
+        table: NFT_SYMBOL + TABLE_POSTFIX,
+        query: query,
+      },
+      0,
+      "findOne"
+    );
+
+    if (get_nfts) {
+      resolve(get_nfts);
+    } else {
+      resolve(false);
+    }
+  });
+}
+
+async function findBundleByPLOTANDWATER(axios, plotID, waterTowerID) {
+  return new Promise(async (resolve, reject) => {
+    let query = {
+      "properties.PLOTID": plotID,
+      "properties.WATER": waterTowerID,
+    };
+
+    let get_nfts = await queryContract(
+      axios,
+      {
+        contract: CONTRACT,
+        table: NFT_SYMBOL + TABLE_POSTFIX,
+        query: query,
+      },
+      0,
+      "findOne"
+    );
+
+    if (get_nfts) {
+      resolve(get_nfts);
+    } else {
+      resolve(false);
+    }
+  });
+}
+
 async function getReport(axios) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -3341,4 +3396,6 @@ module.exports = contract = {
   getNFT,
   test,
   createBundle,
+  getInBundle,
+  findBundleByPLOTANDWATER
 };
