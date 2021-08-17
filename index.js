@@ -919,6 +919,7 @@ app.get("/utest/:user", async (req, res, next) => {
     await leveling(user);
     res.send(JSON.stringify(state.users[user], null, 3));
   } catch (error) {
+    console.log("erro aqui", error);
     if (!state.users[user]) {
       state.users[user] = {
         rentals: [],
