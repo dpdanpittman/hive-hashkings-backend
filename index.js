@@ -775,6 +775,12 @@ app.get("/utest/:user", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   let user = req.params.user;
   try {
+
+    if(!state.hasOwnProperty("users") ){
+      state.users = [];
+    }
+
+
     if (!state.users[user]) {
       state.users[user] = {
         fantomadrs: "none",
