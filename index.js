@@ -1377,34 +1377,6 @@ function startApp() {
           return;
         }
 
-        if (plotProperties.TYPE == "bundle") {
-          await contract.updateMultipleNfts(hivejs, [
-            {
-              id: "" + plot,
-              properties: {
-                RENTEDINFO: "n/a",
-                RENTEDSTATUS: "n/a",
-              },
-            },
-            {
-              id: "" + plotProperties.PLOTID,
-              properties: {
-                RENTEDINFO: "n/a",
-                RENTEDSTATUS: "n/a",
-              },
-            },
-            {
-              id: "" + plotProperties.WATER,
-              properties: {
-                RENTEDINFO: "n/a",
-                RENTEDSTATUS: "n/a",
-              },
-            },
-          ]);
-
-          return;
-        }
-
         let r = await contract.updateNft(hivejs, "" + plot, {
           RENTEDINFO: "n/a",
           RENTEDSTATUS: "n/a",
@@ -1842,6 +1814,7 @@ async function RentarBundle(json, from, amount, want, type) {
 
   let plot = parseInt(bundle[0]);
   let waterTower = parseInt(bundle[1]);
+
 
   let plotInfo = await contract.getNFT(axios, parseInt(plot, 10));
   let waterInfo = await contract.getNFT(axios, parseInt(waterTower, 10));
