@@ -6,7 +6,7 @@ const {
   activeAvatarModel,
   refundModel,
   adrsModel,
-  distributeErrorModel
+  distributeErrorModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -208,6 +208,7 @@ async function getAllRefunds() {
 }
 
 async function setAdrs(user, adrs) {
+  adrs = ("" + adrs).toLowerCase();
   let data = await adrsModel.findOne({ user: user });
   if (data) {
     return await adrsModel.updateOne({ user: user }, { adrs: adrs });
@@ -227,7 +228,6 @@ async function getAdrs(user) {
   }
   return u.adrs;
 }
-
 
 async function addRefund(usuario, value, moneda, time) {
   return await new distributeErrorModel({
