@@ -1867,7 +1867,9 @@ async function getUserNft(ssc, axios, user) {
 
         if (nfts[i].properties.TYPE == "plot") {
           if (!nfts[i].properties.RENTED) {
-            onlyAcconts.plots.push(nft);
+            if (nfts[i].properties.RENTEDINFO != "available") {
+              onlyAcconts.plots.push(nft);
+            }
           } else {
             onlyAcconts.rented.push(nft);
           }
@@ -1875,7 +1877,9 @@ async function getUserNft(ssc, axios, user) {
 
         if (nfts[i].properties.TYPE == "water") {
           if (!nfts[i].properties.RENTED) {
-            tempWaterTowers.push(nft);
+            if (nfts[i].properties.RENTEDINFO != "available") {
+              tempWaterTowers.push(nft);
+            }
           } else {
             onlyAcconts.rented.push(nft);
           }
@@ -3397,5 +3401,5 @@ module.exports = contract = {
   test,
   createBundle,
   getInBundle,
-  findBundleByPLOTANDWATER
+  findBundleByPLOTANDWATER,
 };
