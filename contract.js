@@ -1765,7 +1765,7 @@ async function getReport(axios) {
   });
 }
 
-async function getOnlyUsers(axios) {
+async function getOnlyUsers(axios, ssc) {
   return new Promise(async (resolve, reject) => {
     (async () => {
       let complete = false;
@@ -1777,6 +1777,63 @@ async function getOnlyUsers(axios) {
           axios,
           { contract: CONTRACT, table: NFT_SYMBOL + TABLE_POSTFIX },
           offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 499;
+
+          if (get_nfts.length !== 400) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = [];
+
+      for (let i = 0; i < nfts.length; i++) {
+        let acc = await onlyAcconts.find(function (element) {
+          return element == nfts[i].account;
+        });
+        if (!acc) {
+          onlyAcconts.push(nfts[i].account);
+        }
+      }
+
+      let buds = await getAllUserHaveTokens(ssc, "BUDS");
+      let mota = await getAllUserHaveTokens(ssc, "MOTA");
+
+      let array3 = onlyAcconts.concat(buds).concat(mota);
+      array3 = [...new Set([...buds, ...mota, ...onlyAcconts])];
+
+      let report = array3;
+
+      resolve(report);
+    })();
+  });
+}
+
+async function getAllUserHaveTokens(ssc, token) {
+  return new Promise(async (resolve, reject) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await ssc.find(
+          "tokens",
+          "balances",
+          { symbol: token },
+          499,
+          offset,
+          [],
+          (err, result) => {
+            if (err) {
+              return null;
+            }
+          }
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
@@ -3402,4 +3459,5 @@ module.exports = contract = {
   createBundle,
   getInBundle,
   findBundleByPLOTANDWATER,
+  getOnlyUsers,
 };

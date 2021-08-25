@@ -1130,6 +1130,17 @@ app.get("/getallpendings/:user", async (req, res, next) => {
   }
 });
 
+app.post("/allPlayers", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  try {
+    let response = await contract.getOnlyUsers(axios,ssc);
+
+    res.send(JSON.stringify({ totalUsers: response.length }, null, 3));
+  } catch (error) {
+    res.send(JSON.stringify({}, null, 3));
+  }
+});
+
 async function updateHkVault(user = "hk-vault") {
   let { seeds, joints } = await contract.getHKVaultNFts(ssc, axios, user);
   state.users[user].seeds = seeds;

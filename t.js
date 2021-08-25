@@ -102,6 +102,22 @@ contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
   console.log(r);
 })
 */
+
+contract
+  .updateMultipleNfts(hivejs, [
+    {
+      id: "" + 128176,
+      properties: { PLANTED: false, PLOTID: 0 },
+    },
+    {
+      id: "" + 128176,
+      properties: { PLANTED: false, PLOTID: 0 },
+    },
+  ])
+  .then((res) => {
+    console.log(res);
+  });
+
 /*
 contract
   .updateMultipleNfts(hivejs, [
@@ -404,7 +420,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii */
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -469,7 +485,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})();
+})();  */
 
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
@@ -698,13 +714,13 @@ contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
 }) 
 */
 
-/*
-contract.getNFT(axios, 37049).then((e) => {
+/* 
+contract.getNFT(axios, 128176).then((e) => {
   console.log("aa", e);
 });
+*/
 
 /*
-
 contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
   console.log(e)
 }).catch(err => {
@@ -721,4 +737,3 @@ contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
 contract.generateToken(hivejs, "MOTA", "22.8618", "ooakosimo").then((e) => {
   console.log(e);
 });*/
-
