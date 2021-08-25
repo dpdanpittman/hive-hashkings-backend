@@ -1130,7 +1130,7 @@ app.get("/getallpendings/:user", async (req, res, next) => {
   }
 });
 
-app.post("/allPlayers", async (req, res, next) => {
+app.get("/allPlayers", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   try {
     let response = await contract.getOnlyUsers(axios,ssc);
