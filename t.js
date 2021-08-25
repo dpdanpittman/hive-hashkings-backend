@@ -9,6 +9,9 @@ hivejs.config.set("alternative_api_endpoints", [
 var jp = require("jsonpath");
 require("dotenv").config();
 
+const SSC = require("sscjs");
+const ssc = new SSC("https://rpc.hashkings.xyz");
+
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
     var val = item.owner;
@@ -103,6 +106,7 @@ contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
 })
 */
 
+/*
 contract
   .updateMultipleNfts(hivejs, [
     {
@@ -116,7 +120,7 @@ contract
   ])
   .then((res) => {
     console.log(res);
-  });
+  });  */
 
 /*
 contract
@@ -737,3 +741,7 @@ contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
 contract.generateToken(hivejs, "MOTA", "22.8618", "ooakosimo").then((e) => {
   console.log(e);
 });*/
+
+contract.getOnlyUsers(axios, ssc).then((e) => {
+  console.log(e);
+});

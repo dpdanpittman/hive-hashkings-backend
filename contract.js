@@ -1167,6 +1167,38 @@ async function axiosRequest(axios, { contract, table, query, offset }, method) {
   return await axios.post(URL, body, config);
 }
 
+async function axiosRequestTest(
+  axios,
+  { contract, table, query, offset },
+  method
+) {
+  // Headers
+  let config = {
+    headers: {
+      "Content-Type": "application/json",
+      "Cache-Control": "no-cache",
+    },
+  };
+  // Request POST body data
+  let body = JSON.stringify([
+    {
+      method: method,
+      jsonrpc: "2.0",
+      params: {
+        contract: contract,
+        table: table,
+        query: query,
+        limit: 1000,
+        offset: offset,
+        indexes: [],
+      },
+      id: 1,
+    },
+  ]);
+  // Make request.
+  return await axios.post(URL, body, config);
+}
+
 function isNullOrEmpty(variable) {
   return variable === null || variable === undefined;
 }
@@ -1179,6 +1211,37 @@ async function queryContract(
 ) {
   // Request data
   let response = await axiosRequest(
+    axios,
+    { contract, table, query, offset },
+    method
+  )
+    .then((r) => {
+      return r;
+    })
+    .catch((e) => {
+      console.log("error  on axios request", e);
+    });
+
+  // Return result
+  if (
+    response &&
+    response.data !== undefined &&
+    response.data !== null &&
+    !isNullOrEmpty(response.data[0].result)
+  )
+    return response.data[0].result;
+
+  // Else return false
+  return false;
+}
+async function queryContractTest(
+  axios,
+  { contract, table, query = {} },
+  offset = 0,
+  method = "find"
+) {
+  // Request data
+  let response = await axiosRequestTest(
     axios,
     { contract, table, query, offset },
     method
@@ -1773,16 +1836,16 @@ async function getOnlyUsers(axios, ssc) {
       let offset = 0;
 
       while (!complete) {
-        let get_nfts = await queryContract(
+        let get_nfts = await queryContractTest(
           axios,
           { contract: CONTRACT, table: NFT_SYMBOL + TABLE_POSTFIX },
           offset
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 499;
+          offset += 1000;
 
-          if (get_nfts.length !== 400) {
+          if (get_nfts.length !== 1000) {
             complete = true;
           }
         } else {
