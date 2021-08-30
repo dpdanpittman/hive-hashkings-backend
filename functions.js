@@ -59,8 +59,8 @@ const tohkvault = async (json, from, state) => {
               .then(async (red) => {
                 await sendNotificationToUser(
                   from,
-                  "seed ",
-                  seedID,
+                  "seed "+
+                  seedIdString+
                   " successfully watered"
                 );
               })
