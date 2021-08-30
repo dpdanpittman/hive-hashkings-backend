@@ -9,6 +9,7 @@ const {
   updateOrsetTransaction,
   storeUpdateXp,
   getactiveAvatar,
+  sendNotificationToUser,
 } = require("./database");
 
 var jp = require("jsonpath");
@@ -55,7 +56,14 @@ const tohkvault = async (json, from, state) => {
               from,
               "process complete"
             )
-              .then(async (red) => {})
+              .then(async (red) => {
+                await sendNotificationToUser(
+                  from,
+                  "seed ",
+                  seedID,
+                  " successfully watered"
+                );
+              })
               .catch((e) => {
                 console.log("ocurrio un error", e);
               });
@@ -67,7 +75,14 @@ const tohkvault = async (json, from, state) => {
               json,
               from,
               "error on update nft seed to set water"
-            );
+            ).then(async (r) => {
+              await sendNotificationToUser(
+                from,
+                "seed ",
+                seedID,
+                " error watering, we will try again in a few minutes "
+              );
+            });
           });
       } else {
         await updateOrsetTransaction(
@@ -78,11 +93,16 @@ const tohkvault = async (json, from, state) => {
           "process complete"
         )
           .then(async (red) => {
-            
             await contract
               .generateToken(hivejs, "HKWATER", "" + amountWaterInt, from)
-              .then(() => {
+              .then(async () => {
                 // console.log("sending buds", budAmount, from);
+                await sendNotificationToUser(
+                  from,
+                  "seed ",
+                  seedID,
+                  " error watering, You tried to water a seed that does not need more water, we will send you the water back "
+                );
               })
               .catch(async (e) => {
                 //no pude enviar buds, guardando en pendiente para enviar
@@ -112,8 +132,14 @@ const tohkvault = async (json, from, state) => {
         .then(async (red) => {
           await contract
             .generateToken(hivejs, "HKWATER", "" + amountWaterInt, from)
-            .then(() => {
+            .then(async () => {
               // console.log("sending buds", budAmount, from);
+              await sendNotificationToUser(
+                from,
+                "seed ",
+                seedID,
+                " error watering, unexpected error, try again, we will send you the water back "
+              );
             })
             .catch(async (e) => {
               //no pude enviar buds, guardando en pendiente para enviar
@@ -204,6 +230,7 @@ const tohkvault = async (json, from, state) => {
           )
             .then(async (red) => {
               // console.log("sending ", consumable, "to ", from);
+              await sendNotificationToUser(from, "sending " + consumable);
             })
             .catch((e) => {
               console.error("ocurrio un error", e);
@@ -217,7 +244,13 @@ const tohkvault = async (json, from, state) => {
             json,
             from,
             "error on sending " + consumable + " to " + from
-          );
+          ).then(async (red) => {
+            await sendNotificationToUser(
+              from,
+              "error on sending " + consumable,
+              "we try send again soon"
+            );
+          });
         });
     }
   }
@@ -266,8 +299,12 @@ const nfttohkvaul = async (json, from, state) => {
 
               await contract
                 .generateToken(hivejs, "BUDS", budAmount, from)
-                .then(() => {
+                .then(async () => {
                   // console.log("sending buds", budAmount, from);
+                  await sendNotificationToUser(
+                    from,
+                    "plot " + plotIDString + " successfully collected"
+                  );
                 })
                 .catch(async (e) => {
                   //no pude enviar buds, guardando en pendiente para enviar
@@ -357,7 +394,12 @@ async function updateXP(state, xp, from, joinID, json) {
       json,
       from,
       "error on update xp"
-    );
+    ).then(async (red) => {
+      await sendNotificationToUser(
+        from,
+        "error on update xp, we try again soon"
+      );
+    });
     return;
   }
 
@@ -377,6 +419,8 @@ async function updateXP(state, xp, from, joinID, json) {
         "process update xp complete"
       )
         .then(async (red) => {
+          await sendNotificationToUser(from, "update xp successfully");
+
           storeUpdateXp(from, xp)
             .then((response) => {
               //  console.log("store xp to new report done", from, xp);
@@ -438,8 +482,9 @@ const plant_plot = async (json, from, state) => {
         properties: { PLANTED: true, PLOTID: parseInt(plotID) },
       },
     ])
-    .then((res) => {
+    .then(async (res) => {
       // console.log("update plot and seed successfully", from);
+      await sendNotificationToUser(from, PLOTID + " planted successfully");
     })
     .catch((e) => {
       console.error("error on update plot and seed", e);

@@ -1,3 +1,5 @@
+const { admin } = require("./firebaseConfig");
+
 const {
   transferModel,
   logModel,
@@ -7,6 +9,7 @@ const {
   refundModel,
   adrsModel,
   distributeErrorModel,
+  notificationModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -239,6 +242,44 @@ async function addRefund(usuario, value, moneda, time) {
   }).save();
 }
 
+async function sendNotificationToUser(user, message) {
+  let data = await notificationModel.findOne({ user: user });
+
+  if (!data) {
+    return;
+  }
+  const registrationToken = data.registrationToken;
+  const options = {
+    priority: "high",
+    timeToLive: 60 * 60 * 24,
+  };
+
+  await admin
+    .messaging()
+    .sendToDevice(registrationToken, message, options)
+    .then((response) => {})
+    .catch((error) => {});
+}
+
+async function registrarUsuarioNotificacion(user, token) {
+  let data = await notificationModel.findOne({ user: user });
+  if (data) {
+    if (data.registrationToken != token) {
+      return await notificationModel.updateOne(
+        { user: user },
+        { registrationToken: token }
+      );
+    } else {
+      return "ok";
+    }
+  } else {
+    return await new notificationModel({
+      user: user,
+      registrationToken: token,
+    }).save();
+  }
+}
+
 module.exports = {
   saveLog,
   setTransaction,
@@ -260,4 +301,6 @@ module.exports = {
   addRefund,
   setAdrs,
   getAdrs,
+  sendNotificationToUser,
+  registrarUsuarioNotificacion,
 };

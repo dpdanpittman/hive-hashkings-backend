@@ -16,7 +16,7 @@ const TABLE_POSTFIX = "instances"; // ShoAuld be the same
 const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol
 const EXPORT = true; // Export to file? true = Export, false = no
 
-const { addRefund } = require("./database");
+const { addRefund,sendNotificationToUser } = require("./database");
 
 const SEEDS = [
   {
@@ -3147,7 +3147,9 @@ const generateToken = async (hive, token, quantity, user) => {
       JSON.stringify(json),
       async function (err, result) {
         if (err) {
-          await addRefund(user, "" + quantity, token, Date.now());
+          await addRefund(user, "" + quantity, token, Date.now()).then( async r => {
+            await sendNotificationToUser(user,  "error on sending "+token + " we try again send soon");
+          });
           reject(err);
         } else {
           resolve(result);

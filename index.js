@@ -72,6 +72,8 @@ const {
   getAllRefunds,
   setAdrs,
   getAdrs,
+  sendNotificationToUser,
+  registrarUsuarioNotificacion,
 } = require("./database");
 
 const {
@@ -1114,6 +1116,19 @@ app.post("/pending", async (req, res, next) => {
   }
 });
 
+app.post("/registerusernotifications", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  try {
+    let user = req.body.user;
+    let token = req.body.token;
+    let response = await registrarUsuarioNotificacion(user, token);
+
+    res.send(JSON.stringify(response, null, 3));
+  } catch (error) {
+    res.send(JSON.stringify({}, null, 3));
+  }
+});
+
 app.get("/getallpendings/:user", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   try {
@@ -1133,7 +1148,7 @@ app.get("/getallpendings/:user", async (req, res, next) => {
 app.get("/allPlayers", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   try {
-    let response = await contract.getOnlyUsers(axios,ssc);
+    let response = await contract.getOnlyUsers(axios, ssc);
 
     res.send(JSON.stringify({ totalUsers: response.length }, null, 3));
   } catch (error) {

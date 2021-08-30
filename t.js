@@ -106,22 +106,18 @@ contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
 })
 */
 
-/*
+/* 
 contract
   .updateMultipleNfts(hivejs, [
     {
-      id: "" + 128176,
-      properties: { PLANTED: false, PLOTID: 0 },
-    },
-    {
-      id: "" + 128176,
-      properties: { PLANTED: false, PLOTID: 0 },
+      id: "" + 12828,
+      properties: { LVL: 4, WATER: 234 },
     },
   ])
   .then((res) => {
     console.log(res);
-  });  */
-
+  });  
+*/
 /*
 contract
   .updateMultipleNfts(hivejs, [
@@ -424,7 +420,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii 
+/* vamo por aquiiii */
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -489,7 +485,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})();  */
+})();  
 
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
@@ -742,6 +738,9 @@ contract.generateToken(hivejs, "MOTA", "22.8618", "ooakosimo").then((e) => {
   console.log(e);
 });*/
 
+
+/*
 contract.getOnlyUsers(axios, ssc).then((e) => {
   console.log(e);
 });
+*/
