@@ -484,7 +484,7 @@ const plant_plot = async (json, from, state) => {
     ])
     .then(async (res) => {
       // console.log("update plot and seed successfully", from);
-      await sendNotificationToUser(from, PLOTID + " planted successfully");
+      await sendNotificationToUser(from, plotID + " planted successfully");
     })
     .catch((e) => {
       console.error("error on update plot and seed", e);
