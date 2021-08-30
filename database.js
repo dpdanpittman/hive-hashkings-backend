@@ -254,9 +254,15 @@ async function sendNotificationToUser(user, message) {
     timeToLive: 60 * 60 * 24,
   };
 
+  const mensaje = {
+    notification: {
+      title: "hk message",
+      body: message,
+    },
+  };
   await admin
     .messaging()
-    .sendToDevice(registrationToken, message, options)
+    .sendToDevice(registrationToken, mensaje, options)
     .then((response) => {})
     .catch((error) => {});
 }
