@@ -16,7 +16,7 @@ var jp = require("jsonpath");
 
 var hivejs = require("@hiveio/hive-js");
 
-hivejs.api.setOptions({ url: "https://anyx.io" });
+hivejs.api.setOptions({ url: "https://api.deathwing.me" });
 hivejs.config.set("alternative_api_endpoints", [
   "https://api.deathwing.me",
   "https://api.hivekings.com",

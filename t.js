@@ -1,7 +1,7 @@
 const axios = require("axios");
 const contract = require("./contract");
 var hivejs = require("@hiveio/hive-js");
-hivejs.api.setOptions({ url: "https://anyx.io/" });
+hivejs.api.setOptions({ url: "https://api.deathwing.me" });
 hivejs.config.set("alternative_api_endpoints", [
   "https://api.hive.blog/",
   "https://anyx.io/",
@@ -91,20 +91,20 @@ contract
     console.log(res);
   }); */
 
-/*
+/* 77235  */
 contract
-  .updateNft(hivejs, "" + 126350, {
-    SPT: 0,
+  .updateNft(hivejs, "" + 185934, {
+    XP: 0,
   })
   .then((r) => {
     console.log(r);
   });
- */
+
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
   console.log(r);
 })
-*/
+
 
 /* 
 contract
@@ -420,7 +420,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii */
+/* vamo por aquiiii
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -486,7 +486,7 @@ contract.getAllNfts(axios).then((r) => {
     }
   });
 })();  
-
+ */
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);

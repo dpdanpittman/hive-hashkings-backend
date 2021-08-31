@@ -49,7 +49,7 @@ const ipfs = new IPFS({
   protocol: "https",
 });
 
-hivejs.api.setOptions({ url: "https://anyx.io" });
+hivejs.api.setOptions({ url: "https://api.deathwing.me" });
 hivejs.config.set("alternative_api_endpoints", [
   "https://api.hive.blog/",
   "https://api.deathwing.me",
