@@ -91,15 +91,15 @@ contract
     console.log(res);
   }); */
 
-/* 77235  */
+/* 77235   
 contract
-  .updateNft(hivejs, "" + 185934, {
-    XP: 0,
+  .updateNft(hivejs, "" + 187569, {
+    XP: 74235,
   })
   .then((r) => {
     console.log(r);
   });
-
+*/
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
   console.log(r);
@@ -485,8 +485,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})();  
- */
+})();  */
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
@@ -738,9 +737,50 @@ contract.generateToken(hivejs, "MOTA", "22.8618", "ooakosimo").then((e) => {
   console.log(e);
 });*/
 
-
 /*
 contract.getOnlyUsers(axios, ssc).then((e) => {
   console.log(e);
 });
 */
+contract.getAllByName(axios, "Magical Shaggi").then(async (e) => {
+  let avatars = e.avatars;
+  let arrays = divideArrayByArrays(avatars, 40);
+  for (var i = 0; i < arrays.length; i++) {
+    await new Promise((resolve) => {
+      setTimeout(() => {
+        resolve();
+      }, 2000);
+    });
+    
+    await contract
+      .updateMultipleNfts(hivejs, formatearArrayAdecuado(arrays[i]))
+      .then((res) => {
+        console.log(res);
+      });
+  }
+});
+
+//get number aleatory 10-16
+
+function aleatoryNumber(min, max) {
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
+function divideArrayByArrays(arr, arrays) {
+  let result = [];
+  for (let i = 0; i < arr.length; i += arrays) {
+    result.push(arr.slice(i, i + arrays));
+  }
+  return result;
+}
+
+function formatearArrayAdecuado(arr) {
+  let result = [];
+  for (let i = 0; i < arr.length; i++) {
+    result.push({
+      id: "" + arr[i].id,
+      properties: { POWER: aleatoryNumber(45, 72), USAGE: 4 },
+    });
+  }
+  return result;
+}

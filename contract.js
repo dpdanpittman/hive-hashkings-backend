@@ -16,7 +16,7 @@ const TABLE_POSTFIX = "instances"; // ShoAuld be the same
 const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol
 const EXPORT = true; // Export to file? true = Export, false = no
 
-const { addRefund,sendNotificationToUser } = require("./database");
+const { addRefund, sendNotificationToUser } = require("./database");
 
 const SEEDS = [
   {
@@ -2567,6 +2567,56 @@ async function getAllAvatar(axios) {
   });
 }
 
+async function getAllByName(axios, name) {
+  return new Promise(async (resolve) => {
+    (async () => {
+      let complete = false;
+      let nfts = [];
+      let offset = 0;
+
+      while (!complete) {
+        let get_nfts = await queryContract(
+          axios,
+          {
+            contract: CONTRACT,
+            table: NFT_SYMBOL + TABLE_POSTFIX,
+            query: { "properties.NAME": name, "properties.TYPE": "avatar" },
+          },
+          offset
+        );
+        if (get_nfts !== false) {
+          nfts = nfts.concat(get_nfts);
+          offset += 499;
+
+          if (get_nfts.length !== 499) {
+            complete = true;
+          }
+        } else {
+          complete = true;
+        }
+      }
+
+      let onlyAcconts = {
+        avatars: []
+      };
+
+      for (let i = 0; i < nfts.length; i++) {
+        let nft = {
+          id: nfts[i]._id,
+          properties: nfts[i].properties,
+          owner: nfts[i].account,
+        };
+
+        onlyAcconts.avatars.push(nft);
+      }
+
+      let report = onlyAcconts;
+
+      resolve(report);
+    })();
+  });
+}
+
 async function getAllPlantPlots(axios) {
   return new Promise(async (resolve, reject) => {
     (async () => {
@@ -3147,9 +3197,14 @@ const generateToken = async (hive, token, quantity, user) => {
       JSON.stringify(json),
       async function (err, result) {
         if (err) {
-          await addRefund(user, "" + quantity, token, Date.now()).then( async r => {
-            await sendNotificationToUser(user,  "error on sending "+token + " we try again send soon");
-          });
+          await addRefund(user, "" + quantity, token, Date.now()).then(
+            async (r) => {
+              await sendNotificationToUser(
+                user,
+                "error on sending " + token + " we try again send soon"
+              );
+            }
+          );
           reject(err);
         } else {
           resolve(result);
@@ -3525,4 +3580,5 @@ module.exports = contract = {
   getInBundle,
   findBundleByPLOTANDWATER,
   getOnlyUsers,
+  getAllByName
 };

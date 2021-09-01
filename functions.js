@@ -59,9 +59,7 @@ const tohkvault = async (json, from, state) => {
               .then(async (red) => {
                 await sendNotificationToUser(
                   from,
-                  "seed "+
-                  seedIdString+
-                  " successfully watered"
+                  "seed " + seedIdString + " successfully watered"
                 );
               })
               .catch((e) => {
@@ -253,6 +251,23 @@ const tohkvault = async (json, from, state) => {
           });
         });
     }
+  }
+
+  if (json.contractPayload.symbol == "MOTA" && json.contractPayload.memo) {
+    const amount = parseFloat(json.amount.split(" ")[0]);
+    var want =
+        json.contractPayload.memo.split(" ")[0].toLowerCase() ||
+        json.contractPayload.memo.toLowerCase(),
+      type = json.contractPayload.memo.split(" ")[1] || "";
+
+    await motaPriceConversion(state, amount)
+      .then(async (price) => {
+        let canBuy = price >= state.stats.prices.waterPlants.lvl2.price;
+        processWaterBuy(json, from, price, want, type, state, canBuy);
+      })
+      .catch(async (e) => {
+        //regresa el dinero vale mia
+      });
   }
 };
 
@@ -559,6 +574,128 @@ const validatePlotAndSeed = async (plot, seed, from) => {
     !seedYplotPertenecenAUsuario
   );
 };
+
+async function processWaterBuy(json, from, amount, want, type, state, canBuy) {
+  let waterTower = await contract.getNFT(axios, parseInt(type, 10));
+  console.log("procesando compra con mota");
+
+  
+  if (!canBuy) {
+    /* refund cant buy
+    await addPendingRefund(
+      json.from,
+      parseFloat(json.amount.split(" ")[0]),
+      "Refund for " + want + " " + type + " error amount, try again"
+    );  */
+
+    return;
+  }
+
+  if (!waterTower) {
+    /* refund   addPendingRefund(
+      json.from,
+      parseFloat(json.amount.split(" ")[0]),
+      "Refund for " + want + " " + type + " error no found this nft, try again."
+    ); */
+
+    return;
+  }
+
+  if ("water" + waterTower.properties.LVL == want) {
+    /* refund  addPendingRefund(
+      json.from,
+      parseFloat(json.amount.split(" ")[0]),
+      "Refund for " +
+        want +
+        " " +
+        type +
+        " error this water tower has already been raised to this level."
+    ); */
+
+    return;
+  }
+
+  if (want === "water2" && canBuy && state.users[json.from].lvl >= 10) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 2, WATER: 96 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water3" && canBuy && state.users[json.from].lvl >= 20) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 3, WATER: 166 });
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water4" && canBuy && state.users[json.from].lvl >= 30) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 4, WATER: 234 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water5" && canBuy && state.users[json.from].lvl >= 40) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 5, WATER: 302 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water6" && canBuy && state.users[json.from].lvl >= 50) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 6, WATER: 370 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water7" && canBuy && state.users[json.from].lvl >= 60) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 7, WATER: 438 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water8" && canBuy && state.users[json.from].lvl >= 70) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 8, WATER: 506 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water9" && canBuy && state.users[json.from].lvl >= 80) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 9, WATER: 574 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  } else if (want === "water10" && canBuy && state.users[json.from].lvl >= 90) {
+    // create nft
+    await contract.updateNft(hivejs, type, { LVL: 10, WATER: 642 });
+
+    const c = parseInt(amount);
+    state.bal.c += c;
+  }
+}
+
+function motaPriceConversion(state, amount) {
+  return new Promise((resolve, reject) => {
+    axios
+      .post("https://us.engine.ryamer.com/contracts", {
+        jsonrpc: "2.0",
+        id: 12,
+        method: "find",
+        params: {
+          contract: "market",
+          table: "metrics",
+          query: { symbol: { $in: ["MOTA"] } },
+          limit: 1000,
+          offset: 0,
+          indexes: [],
+        },
+      })
+      .then((result) => {
+        const lasPrice = result.result[0].lastPrice;
+        const valueInHive = amount * lasPrice;
+
+        resolve(valueInHive);
+      })
+      .catch(async (err) => {});
+  });
+}
 
 module.exports = {
   tohkvault,
