@@ -260,9 +260,9 @@ const tohkvault = async (json, from, state) => {
         json.contractPayload.memo.toLowerCase(),
       type = json.contractPayload.memo.split(" ")[1] || "";
 
-    await motaPriceConversion(state, amount)
+    await motaPriceConversion(state, state.stats.prices.waterPlants.lvl2.price)
       .then(async (price) => {
-        let canBuy = price >= state.stats.prices.waterPlants.lvl2.price;
+        let canBuy =amount  >= price;
         processWaterBuy(json, from, price, want, type, state, canBuy);
       })
       .catch(async (e) => {
@@ -688,12 +688,14 @@ function motaPriceConversion(state, amount) {
         },
       })
       .then((result) => {
-        const lasPrice = result.result[0].lastPrice;
+        const lasPrice = result.data.result[0].lastPrice;
         const valueInHive = amount * lasPrice;
 
         resolve(valueInHive);
       })
-      .catch(async (err) => {});
+      .catch(async (err) => {
+        reject(false);
+      });
   });
 }
 
