@@ -583,7 +583,6 @@ async function processWaterBuy(json, from, amount, want, type, state, canBuy) {
     amount,
     want,
     type,
-    state,
     canBuy
   );
 
