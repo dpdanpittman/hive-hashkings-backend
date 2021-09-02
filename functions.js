@@ -262,7 +262,7 @@ const tohkvault = async (json, from, state) => {
 
     await motaPriceConversion(state, state.stats.prices.waterPlants.lvl2.price)
       .then(async (price) => {
-        let canBuy =amount  >= price;
+        let canBuy = amount >= price;
         processWaterBuy(json, from, price, want, type, state, canBuy);
       })
       .catch(async (e) => {
@@ -577,9 +577,16 @@ const validatePlotAndSeed = async (plot, seed, from) => {
 
 async function processWaterBuy(json, from, amount, want, type, state, canBuy) {
   let waterTower = await contract.getNFT(axios, parseInt(type, 10));
-  console.log("procesando compra con mota");
+  console.log(
+    "procesando compra con mota",
+    from,
+    amount,
+    want,
+    type,
+    state,
+    canBuy
+  );
 
-  
   if (!canBuy) {
     /* refund cant buy
     await addPendingRefund(
