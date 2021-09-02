@@ -254,7 +254,7 @@ const tohkvault = async (json, from, state) => {
   }
 
   if (json.contractPayload.symbol == "MOTA" && json.contractPayload.memo) {
-    const amount = parseFloat(json.amount.split(" ")[0]);
+    const amount = parseFloat(json.contractPayload.quantity);
     var want =
         json.contractPayload.memo.split(" ")[0].toLowerCase() ||
         json.contractPayload.memo.toLowerCase(),
