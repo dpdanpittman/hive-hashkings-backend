@@ -577,14 +577,7 @@ const validatePlotAndSeed = async (plot, seed, from) => {
 
 async function processWaterBuy(json, from, amount, want, type, state, canBuy) {
   let waterTower = await contract.getNFT(axios, parseInt(type, 10));
-  console.log(
-    "procesando compra con mota",
-    from,
-    amount,
-    want,
-    type,
-    canBuy
-  );
+  console.log("procesando compra con mota", from, amount, want, type, canBuy);
 
   if (!canBuy) {
     /* refund cant buy
@@ -603,7 +596,7 @@ async function processWaterBuy(json, from, amount, want, type, state, canBuy) {
       parseFloat(json.amount.split(" ")[0]),
       "Refund for " + want + " " + type + " error no found this nft, try again."
     ); */
-
+    console.log("no puedo traer la info de esa water tower", type);
     return;
   }
 
@@ -617,58 +610,63 @@ async function processWaterBuy(json, from, amount, want, type, state, canBuy) {
         type +
         " error this water tower has already been raised to this level."
     ); */
-
+    console.log(
+      "son iguales no puedo subir de nivel ",
+      "water" + waterTower.properties.LVL,
+      want
+    );
     return;
   }
 
-  if (want === "water2" && canBuy && state.users[json.from].lvl >= 10) {
+  if (want === "water2" && canBuy && state.users[from].lvl >= 10) {
     // create nft
+    console.log("actualizando a water2");
     await contract.updateNft(hivejs, type, { LVL: 2, WATER: 96 });
 
     const c = parseInt(amount);
     state.bal.c += c;
-  } else if (want === "water3" && canBuy && state.users[json.from].lvl >= 20) {
+  } else if (want === "water3" && canBuy && state.users[from].lvl >= 20) {
     // create nft
     await contract.updateNft(hivejs, type, { LVL: 3, WATER: 166 });
     const c = parseInt(amount);
     state.bal.c += c;
-  } else if (want === "water4" && canBuy && state.users[json.from].lvl >= 30) {
+  } else if (want === "water4" && canBuy && state.users[from].lvl >= 30) {
     // create nft
     await contract.updateNft(hivejs, type, { LVL: 4, WATER: 234 });
 
     const c = parseInt(amount);
     state.bal.c += c;
-  } else if (want === "water5" && canBuy && state.users[json.from].lvl >= 40) {
+  } else if (want === "water5" && canBuy && state.users[from].lvl >= 40) {
     // create nft
     await contract.updateNft(hivejs, type, { LVL: 5, WATER: 302 });
 
     const c = parseInt(amount);
     state.bal.c += c;
-  } else if (want === "water6" && canBuy && state.users[json.from].lvl >= 50) {
+  } else if (want === "water6" && canBuy && state.users[from].lvl >= 50) {
     // create nft
     await contract.updateNft(hivejs, type, { LVL: 6, WATER: 370 });
 
     const c = parseInt(amount);
     state.bal.c += c;
-  } else if (want === "water7" && canBuy && state.users[json.from].lvl >= 60) {
+  } else if (want === "water7" && canBuy && state.users[from].lvl >= 60) {
     // create nft
     await contract.updateNft(hivejs, type, { LVL: 7, WATER: 438 });
 
     const c = parseInt(amount);
     state.bal.c += c;
-  } else if (want === "water8" && canBuy && state.users[json.from].lvl >= 70) {
+  } else if (want === "water8" && canBuy && state.users[from].lvl >= 70) {
     // create nft
     await contract.updateNft(hivejs, type, { LVL: 8, WATER: 506 });
 
     const c = parseInt(amount);
     state.bal.c += c;
-  } else if (want === "water9" && canBuy && state.users[json.from].lvl >= 80) {
+  } else if (want === "water9" && canBuy && state.users[from].lvl >= 80) {
     // create nft
     await contract.updateNft(hivejs, type, { LVL: 9, WATER: 574 });
 
     const c = parseInt(amount);
     state.bal.c += c;
-  } else if (want === "water10" && canBuy && state.users[json.from].lvl >= 90) {
+  } else if (want === "water10" && canBuy && state.users[from].lvl >= 90) {
     // create nft
     await contract.updateNft(hivejs, type, { LVL: 10, WATER: 642 });
 
