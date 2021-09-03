@@ -10,6 +10,7 @@ const {
   storeUpdateXp,
   getactiveAvatar,
   sendNotificationToUser,
+  addPendingRefundMota
 } = require("./database");
 
 var jp = require("jsonpath");
@@ -263,7 +264,15 @@ const tohkvault = async (json, from, state) => {
     await motaPriceConversion(state, state.stats.prices.waterPlants.lvl2.price)
       .then(async (price) => {
         let canBuy = amount >= price;
-        processWaterBuy(json, from, price, want, type, state, canBuy);
+        processWaterBuy(
+          json,
+          from,
+          json.contractPayload.quantity,
+          want,
+          type,
+          state,
+          canBuy
+        );
       })
       .catch(async (e) => {
         //regresa el dinero vale mia
@@ -580,47 +589,40 @@ async function processWaterBuy(json, from, amount, want, type, state, canBuy) {
   console.log("procesando compra con mota", from, amount, want, type, canBuy);
 
   if (!canBuy) {
-    /* refund cant buy
-    await addPendingRefund(
-      json.from,
-      parseFloat(json.amount.split(" ")[0]),
+    await addPendingRefundMota(
+      from,
+      amount,
       "Refund for " + want + " " + type + " error amount, try again"
-    );  */
+    );
 
     return;
   }
 
   if (!waterTower) {
-    /* refund   addPendingRefund(
-      json.from,
-      parseFloat(json.amount.split(" ")[0]),
+    addPendingRefundMota(
+      from,
+      amount,
       "Refund for " + want + " " + type + " error no found this nft, try again."
-    ); */
-    console.log("no puedo traer la info de esa water tower", type);
+    );
     return;
   }
 
   if ("water" + waterTower.properties.LVL == want) {
-    /* refund  addPendingRefund(
-      json.from,
-      parseFloat(json.amount.split(" ")[0]),
+    addPendingRefundMota(
+      from,
+      amount,
       "Refund for " +
         want +
         " " +
         type +
         " error this water tower has already been raised to this level."
-    ); */
-    console.log(
-      "son iguales no puedo subir de nivel ",
-      "water" + waterTower.properties.LVL,
-      want
     );
+   
     return;
   }
 
   if (want === "water2" && canBuy && state.users[from].lvl >= 10) {
     // create nft
-    console.log("actualizando a water2");
     await contract.updateNft(hivejs, type, { LVL: 2, WATER: 96 });
 
     const c = parseInt(amount);

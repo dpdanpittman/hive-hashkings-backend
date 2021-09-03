@@ -68,8 +68,11 @@ const {
   setactiveAvatar,
   getactiveAvatar,
   removePendingRefund,
+  removePendingRefundMota,
   addPendingRefund,
+  addPendingRefundMota,
   getAllRefunds,
+  getAllRefundsMota,
   setAdrs,
   getAdrs,
   sendNotificationToUser,
@@ -286,8 +289,6 @@ function hivePriceConversion(amount) {
       });
   });
 }
-
-
 
 //compares farmer
 function userList() {
@@ -1188,7 +1189,7 @@ function startWith(hash) {
 
 var sending = false;
 var sendingRefunds = false;
-
+var sendingRefundsMota = false;
 function startApp() {
   processor = steemState(client, dhive, startingBlock, 10, prefix);
 
@@ -2408,6 +2409,38 @@ async function refundTest(usuario, value, memo, id) {
   return r;
 }
 
+async function refundTestMota(usuario, value, memo, id) {
+  let json = {
+    contractName: "tokens",
+    contractAction: "transfer",
+    contractPayload: {
+      symbol: "MOTA",
+      to: usuario,
+      quantity: "" + value,
+    },
+  };
+
+  let r = await new Promise((resolve, reject) => {
+    hive.broadcast.customJson(
+      ACTIVEKEY,
+      [CONTRACT_CREATOR],
+      [],
+      "ssc-mainnet-hive",
+      JSON.stringify(json),
+      async function (err, result) {
+        if (err) {
+          reject(false);
+        } else {
+          await removePendingRefundMota(id);
+          resolve(true);
+        }
+      }
+    );
+  });
+
+  return r;
+}
+
 var bot = {
   xfer: function (toa, amount, memo) {
     const float = parseFloat(amount / 1000).toFixed(3);
@@ -2573,6 +2606,26 @@ async function getAllR() {
     });
 }
 
+async function getAllRM() {
+  sendingRefundsMota = true;
+  console.log("checking mtoa refunds... ", sendingRefundsMota);
+  await getAllRefundsMota()
+    .then(async (resxp) => {
+      for (const refund of resxp) {
+        let { usuario, value, memo, _id } = refund;
+        console.log("sending refund Mota", usuario, value, memo, _id);
+        await refundTestMota(usuario, value, memo, _id);
+      }
+
+      sendingRefundsMota = false;
+      console.log("refund end", sendingRefundsMota);
+    })
+    .catch((e) => {
+      sendingRefundsMota = false;
+      console.log("ERROR ON GET ALL MOTA REFUNDS", e);
+    });
+}
+
 cron.schedule("*/2 * * * *", () => {
   console.log("inciiando refund cron");
   if (!sendingRefunds) {
@@ -2580,6 +2633,14 @@ cron.schedule("*/2 * * * *", () => {
   } else {
     console.log(
       "me encuentro enviando los pendientes ahora espera 10 minutos mas"
+    );
+  }
+
+  if (!sendingRefundsMota) {
+    getAllRM();
+  } else {
+    console.log(
+      "me encuentro enviando los pendientes  de mota ahora espera 10 minutos mas"
     );
   }
 });

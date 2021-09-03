@@ -57,6 +57,17 @@ const refundSchema = new Schema({
 
 const refundModel = mongoose.model("Refund", refundSchema);
 
+const refundMotaSchema = new Schema({
+  usuario: String,
+  value: Number,
+  memo: String,
+  status: String,
+});
+
+const refundModelmota = mongoose.model("Refundmota", refundMotaSchema);
+
+
+
 const adrsSchema = new Schema({
   user: String,
   adrs: String,
@@ -94,6 +105,7 @@ module.exports = {
   xpUserModel,
   activeAvatarModel,
   refundModel,
+  refundModelmota,
   adrsModel,
   distributeErrorModel,
   notificationModel,

@@ -10,6 +10,7 @@ const {
   adrsModel,
   distributeErrorModel,
   notificationModel,
+  refundModelmota
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -198,6 +199,11 @@ async function setactiveAvatar(user, id) {
 async function removePendingRefund(id) {
   return await refundModel.updateOne({ _id: id }, { status: "complete" });
 }
+
+async function removePendingRefundMota(id) {
+  return await refundModelmota.updateOne({ _id: id }, { status: "complete" });
+}
+
 async function addPendingRefund(usuario, value, memo) {
   return await new refundModel({
     usuario,
@@ -206,8 +212,23 @@ async function addPendingRefund(usuario, value, memo) {
     status: "pending",
   }).save();
 }
+
+async function addPendingRefundMota(usuario, value, memo) {
+  return await new refundModelmota({
+    usuario,
+    value,
+    memo,
+    status: "pending",
+  }).save();
+}
+
+
 async function getAllRefunds() {
   return await refundModel.find({ status: "pending" });
+}
+
+async function getAllRefundsMota() {
+  return await refundModelmota.find({ status: "pending" });
 }
 
 async function setAdrs(user, adrs) {
@@ -301,10 +322,16 @@ module.exports = {
   storeUpdateXp,
   getactiveAvatar,
   setactiveAvatar,
+
   removePendingRefund,
   addPendingRefund,
   getAllRefunds,
   addRefund,
+
+  removePendingRefundMota,
+  addPendingRefundMota,
+  getAllRefundsMota,
+
   setAdrs,
   getAdrs,
   sendNotificationToUser,
