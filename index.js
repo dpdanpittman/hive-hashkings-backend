@@ -2417,6 +2417,7 @@ async function refundTestMota(usuario, value, memo, id) {
       symbol: "MOTA",
       to: usuario,
       quantity: "" + value,
+      memo: memo,
     },
   };
 
