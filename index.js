@@ -2421,7 +2421,7 @@ async function refundTestMota(usuario, value, memo, id) {
   };
 
   let r = await new Promise((resolve, reject) => {
-    hive.broadcast.customJson(
+    hivejs.broadcast.customJson(
       ACTIVEKEY,
       [CONTRACT_CREATOR],
       [],
@@ -2618,7 +2618,7 @@ async function getAllRM() {
       }
 
       sendingRefundsMota = false;
-      console.log("refund end", sendingRefundsMota);
+      console.log("refund mota end", sendingRefundsMota);
     })
     .catch((e) => {
       sendingRefundsMota = false;
