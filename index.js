@@ -2422,8 +2422,8 @@ async function refundTestMota(usuario, value, memo, id) {
 
   let r = await new Promise((resolve, reject) => {
     hivejs.broadcast.customJson(
-      ACTIVEKEY,
-      [CONTRACT_CREATOR],
+      process.env.hkvault,
+      ["hk-vault"],
       [],
       "ssc-mainnet-hive",
       JSON.stringify(json),
