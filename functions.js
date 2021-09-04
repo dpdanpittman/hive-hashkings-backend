@@ -261,11 +261,11 @@ const tohkvault = async (json, from, state) => {
         json.contractPayload.memo.toLowerCase(),
       type = json.contractPayload.memo.split(" ")[1] || "";
 
-    await motaPriceConversion(state, state.stats.prices.waterPlants.lvl2.price)
+    await motaPriceConversion(state,amount)
       .then(async (price) => {
-        let canBuy = amount >= price;
+        let canBuy = price >= state.stats.prices.waterPlants.lvl2.price;
 
-        console.log("try upgrade water tower", amount, price);
+        console.log("try upgrade water tower", price, state.stats.prices.waterPlants.lvl2.price);
         processWaterBuy(
           json,
           from,
