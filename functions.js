@@ -10,7 +10,7 @@ const {
   storeUpdateXp,
   getactiveAvatar,
   sendNotificationToUser,
-  addPendingRefundMota
+  addPendingRefundMota,
 } = require("./database");
 
 var jp = require("jsonpath");
@@ -261,11 +261,15 @@ const tohkvault = async (json, from, state) => {
         json.contractPayload.memo.toLowerCase(),
       type = json.contractPayload.memo.split(" ")[1] || "";
 
-    await motaPriceConversion(state,amount)
+    await motaPriceConversion(state, amount)
       .then(async (price) => {
-        let canBuy = price >= state.stats.prices.waterPlants.lvl2.price;
+        let canBuy = price + 0.01 >= state.stats.prices.waterPlants.lvl2.price;
 
-        console.log("try upgrade water tower", price, state.stats.prices.waterPlants.lvl2.price);
+        console.log(
+          "try upgrade water tower",
+          price,
+          state.stats.prices.waterPlants.lvl2.price
+        );
         processWaterBuy(
           json,
           from,
@@ -619,7 +623,7 @@ async function processWaterBuy(json, from, amount, want, type, state, canBuy) {
         type +
         " error this water tower has already been raised to this level."
     );
-   
+
     return;
   }
 
@@ -697,7 +701,7 @@ function motaPriceConversion(state, amount) {
       })
       .then((result) => {
         const lasPrice = result.data.result[0].lastPrice;
-        const valueInHive = amount * lasPrice;
+        const valueInHive = amount / lasPrice;
 
         resolve(valueInHive);
       })
