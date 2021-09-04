@@ -66,8 +66,6 @@ const refundMotaSchema = new Schema({
 
 const refundModelmota = mongoose.model("Refundmota", refundMotaSchema);
 
-
-
 const adrsSchema = new Schema({
   user: String,
   adrs: String,
@@ -98,6 +96,28 @@ const notificationModel = mongoose.model(
   notificationUserSchema
 );
 
+const raidsSchema = new Schema({
+  boss: String,
+  multiplicator: String,
+  time: String,
+  status: String,
+  type: String,
+});
+
+const raidsModel = mongoose.model("raids", raidsSchema);
+
+const userOnraidsSchema = new Schema({
+  avatar: String,
+  power: String,
+  user: String,
+  raid: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "raids",
+  },
+});
+
+const userOnraidsModel = mongoose.model("userxraids", userOnraidsSchema);
+
 module.exports = {
   transferModel,
   logModel,
@@ -109,4 +129,6 @@ module.exports = {
   adrsModel,
   distributeErrorModel,
   notificationModel,
+  raidsModel,
+  userOnraidsModel,
 };

@@ -264,6 +264,8 @@ const tohkvault = async (json, from, state) => {
     await motaPriceConversion(state, state.stats.prices.waterPlants.lvl2.price)
       .then(async (price) => {
         let canBuy = amount >= price;
+
+        console.log("try upgrade water tower", amount, price);
         processWaterBuy(
           json,
           from,

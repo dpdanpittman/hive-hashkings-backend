@@ -93,8 +93,9 @@ contract
 
 /* 77235   
 contract
-  .updateNft(hivejs, "" + 187569, {
-    XP: 74235,
+  .updateNft(hivejs, "" + 53003, {
+    OCCUPIED: true,
+    SEEDID:204867
   })
   .then((r) => {
     console.log(r);
@@ -420,7 +421,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii
+/* vamo por aquiiii */
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -485,7 +486,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})();  */
+})(); 
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
@@ -713,8 +714,8 @@ contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
 }) 
 */
 
-/* 
-contract.getNFT(axios, 128176).then((e) => {
+/*  
+contract.getNFT(axios, 204867).then((e) => {
   console.log("aa", e);
 });
 */
@@ -742,6 +743,8 @@ contract.getOnlyUsers(axios, ssc).then((e) => {
   console.log(e);
 });
 */
+
+/*
 contract.getAllByName(axios, "Magical Shaggi").then(async (e) => {
   let avatars = e.avatars;
   let arrays = divideArrayByArrays(avatars, 40);
@@ -759,9 +762,9 @@ contract.getAllByName(axios, "Magical Shaggi").then(async (e) => {
       });
   }
 });
-
+*/
 //get number aleatory 10-16
-
+/*
 function aleatoryNumber(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
@@ -783,4 +786,4 @@ function formatearArrayAdecuado(arr) {
     });
   }
   return result;
-}
+} */

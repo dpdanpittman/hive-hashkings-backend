@@ -26,7 +26,7 @@
 //----------------------------------------------------//
 
 require("dotenv").config();
-
+const WeightedList = require("js-weighted-list");
 const mongoose = require("mongoose");
 var dhive = require("@hiveio/dhive");
 var hivejs = require("@hiveio/hive-js");
@@ -77,6 +77,12 @@ const {
   getAdrs,
   sendNotificationToUser,
   registrarUsuarioNotificacion,
+  registerRaid,
+  finishRaid,
+  getAllRaidsDisponibles,
+  getRaid,
+  getAvatarOnRaid,
+  getAllAvatarsOnRaid,
 } = require("./database");
 
 const {
@@ -2645,6 +2651,104 @@ cron.schedule("*/2 * * * *", () => {
     );
   }
 });
+
+cron.schedule("58 23 * * *", async () => {
+/*  await repartirPremioRaid();
+  await finalizoRaids();
+  await crearRaids();
+
+  registerRaid;
+  finishRaid;
+  getAllRaidsDisponibles;
+  getRaid;
+  getAvatarOnRaid; */
+});
+
+async function repartirPremioRaid() {
+  let getAllPendingRaid = await getAllRaidsDisponibles();
+
+  for (const raid of getAllPendingRaid) {
+    let dropaRepartir = 0;
+    let avatars = await getAllAvatarsOnRaid(raid._id);
+    switch (raid.type) {
+      case "comun":
+        dropaRepartir = (0.1 * raid.multiplicator) / 100;
+        for (let avatar of avatars) {
+        }
+        break;
+      case "rara":
+        dropaRepartir = (0.05 * raid.multiplicator) / 100;
+        for (let avatar of avatars) {
+        }
+        break;
+      case "epica":
+        dropaRepartir = (0.05 * raid.multiplicator) / 100;
+        for (let avatar of avatars) {
+        }
+        break;
+      case "mitica":
+        dropaRepartir = (0.05 * raid.multiplicator) / 100;
+        for (let avatar of avatars) {
+        }
+        break;
+      case "legendaria":
+        dropaRepartir = (0.05 * raid.multiplicator) / 100;
+        for (let avatar of avatars) {
+        }
+        break;
+    }
+  }
+}
+async function finalizoRaids() {}
+async function crearRaids() {}
+
+const getDropRate = (type) => {
+  var data = [];
+  switch (type) {
+    case "comun":
+      data = [
+        ["2", 75],
+        ["5", 24],
+        ["10", 1],
+      ];
+      break;
+
+    case "rara":
+      data = [
+        ["2", 75],
+        ["5", 24],
+        ["10", 1],
+      ];
+      break;
+
+    case "epica":
+      data = [
+        ["2", 60],
+        ["5", 38],
+        ["10", 2],
+      ];
+      break;
+
+    case "legendaria":
+      data = [
+        ["2", 40],
+        ["5", 57],
+        ["10", 3],
+      ];
+      break;
+
+    case "mitica":
+      data = [
+        ["2", 25],
+        ["5", 70],
+        ["10", 5],
+      ];
+      break;
+  }
+
+  var wl = new WeightedList(data);
+  return wl.peek();
+};
 
 mongoose.Promise = global.Promise;
 

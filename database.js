@@ -10,7 +10,9 @@ const {
   adrsModel,
   distributeErrorModel,
   notificationModel,
-  refundModelmota
+  refundModelmota,
+  raidsModel,
+  userOnraidsModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -222,7 +224,6 @@ async function addPendingRefundMota(usuario, value, memo) {
   }).save();
 }
 
-
 async function getAllRefunds() {
   return await refundModel.find({ status: "pending" });
 }
@@ -307,6 +308,36 @@ async function registrarUsuarioNotificacion(user, token) {
   }
 }
 
+async function registerRaid(boss, multiplicator, time, type) {
+  return await new raidsModel({
+    boss,
+    multiplicator,
+    time,
+    status: "pending",
+    type,
+  }).save();
+}
+
+async function finishRaid(id) {
+  return await raidsModel.updateOne({ _id: id }, { status: "complete" });
+}
+
+async function getAllRaidsDisponibles() {
+  return await raidsModel.find({ status: "pending" });
+}
+
+async function getRaid(id) {
+  return await raidsModel.findOne({ _id: id });
+}
+
+async function getAvatarOnRaid(avatar) {
+  return await userOnraidsModel.findOne({ avatar: avatar }).populate("raid");
+}
+
+async function getAllAvatarsOnRaid(raid) {
+  return await userOnraidsModel.find({ raid: raid });
+}
+
 module.exports = {
   saveLog,
   setTransaction,
@@ -336,4 +367,11 @@ module.exports = {
   getAdrs,
   sendNotificationToUser,
   registrarUsuarioNotificacion,
+
+  registerRaid,
+  finishRaid,
+  getAllRaidsDisponibles,
+  getRaid,
+  getAvatarOnRaid,
+  getAllAvatarsOnRaid
 };
