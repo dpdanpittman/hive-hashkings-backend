@@ -69,20 +69,31 @@ const {
   getactiveAvatar,
   removePendingRefund,
   removePendingRefundMota,
+
   addPendingRefund,
-  addPendingRefundMota,
+
   getAllRefunds,
   getAllRefundsMota,
+
+  removePendingRefundBuds,
+  addPendingRefundBuds,
+  getAllRefundsBuds,
+
   setAdrs,
   getAdrs,
   sendNotificationToUser,
   registrarUsuarioNotificacion,
   registerRaid,
   finishRaid,
+
+  registerAvatarOnRaid,
   getAllRaidsDisponibles,
   getRaid,
   getAvatarOnRaid,
   getAllAvatarsOnRaid,
+
+  getBudsArepartir,
+  actualizarBudsArepartir,
 } = require("./database");
 
 const {
@@ -1165,6 +1176,17 @@ app.get("/allPlayers", async (req, res, next) => {
   }
 });
 
+app.get("/raids", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  try {
+    let response = await getAllRaidsDisponibles();
+
+    res.send(JSON.stringify({ totalUsers: response.length }, null, 3));
+  } catch (error) {
+    res.send(JSON.stringify({}, null, 3));
+  }
+});
+
 async function updateHkVault(user = "hk-vault") {
   let { seeds, joints } = await contract.getHKVaultNFts(ssc, axios, user);
   state.users[user].seeds = seeds;
@@ -1196,6 +1218,7 @@ function startWith(hash) {
 var sending = false;
 var sendingRefunds = false;
 var sendingRefundsMota = false;
+var sendingRefundsBuds = false;
 function startApp() {
   processor = steemState(client, dhive, startingBlock, 10, prefix);
 
@@ -1376,6 +1399,39 @@ function startApp() {
       console.log("avatar cambiado con exito", av);
     } else {
       console.log("no se pudo cambiar el avatar", avatar);
+    }
+  });
+
+  processor.on("avatar_onraid", async function (json, from) {
+    let avatar = json.avatar;
+    let raid = json.raid;
+    console.log("setting avatar on raid ", avatar, raid, from);
+    let av = await contract.getNFT(axios, parseInt(avatar, 10));
+
+    if (av) {
+      //   (XP * POWER MULTIPLIER) / 100
+
+      let exist = await getAvatarOnRaid(av._id, raid);
+
+      if (exist) {
+        if (exist.raid.status === "complete") {
+          await sendNotificationToUser(from, "the avatar is already finish");
+        } else {
+          await sendNotificationToUser(from, "the avatar is already in a raid");
+        }
+      } else {
+        let avatarPower = (av.properties.POWER * av.properties.POWER) / 100;
+        await registerAvatarOnRaid(av._id, avatarPower, from, raid).catch(
+          async (e) => {
+            await sendNotificationToUser(
+              from,
+              "error on register avatar in a raid, try again"
+            );
+          }
+        );
+      }
+    } else {
+      await sendNotificationToUser(from, "try again");
     }
   });
 
@@ -2448,6 +2504,39 @@ async function refundTestMota(usuario, value, memo, id) {
   return r;
 }
 
+async function refundTestBuds(usuario, value, memo, id) {
+  let json = {
+    contractName: "tokens",
+    contractAction: "transfer",
+    contractPayload: {
+      symbol: "BUDS",
+      to: usuario,
+      quantity: "" + value,
+      memo: memo,
+    },
+  };
+
+  let r = await new Promise((resolve, reject) => {
+    hivejs.broadcast.customJson(
+      process.env.hkraids,
+      ["hk-raids"],
+      [],
+      "ssc-mainnet-hive",
+      JSON.stringify(json),
+      async function (err, result) {
+        if (err) {
+          reject(false);
+        } else {
+          await removePendingRefundBuds(id);
+          resolve(true);
+        }
+      }
+    );
+  });
+
+  return r;
+}
+
 var bot = {
   xfer: function (toa, amount, memo) {
     const float = parseFloat(amount / 1000).toFixed(3);
@@ -2633,6 +2722,26 @@ async function getAllRM() {
     });
 }
 
+async function getAllRB() {
+  sendingRefundsBuds = true;
+  console.log("checking mtoa refunds... ", sendingRefundsBuds);
+  await getAllRefundsBuds()
+    .then(async (resxp) => {
+      for (const refund of resxp) {
+        let { usuario, value, memo, _id } = refund;
+        console.log("sending refund buds", usuario, value, memo, _id);
+        await refundTestBuds(usuario, value, memo, _id);
+      }
+
+      sendingRefundsBuds = false;
+      console.log("refund buds end", sendingRefundsMota);
+    })
+    .catch((e) => {
+      sendingRefundsBuds = false;
+      console.log("ERROR ON GET ALL BUDS REFUNDS", e);
+    });
+}
+
 cron.schedule("*/2 * * * *", () => {
   console.log("inciiando refund cron");
   if (!sendingRefunds) {
@@ -2650,62 +2759,136 @@ cron.schedule("*/2 * * * *", () => {
       "me encuentro enviando los pendientes  de mota ahora espera 10 minutos mas"
     );
   }
+
+  if (!sendingRefundsBuds) {
+    getAllRB();
+  } else {
+    console.log(
+      "me encuentro enviando los pendientes  de mota ahora espera 10 minutos mas"
+    );
+  }
 });
 
 cron.schedule("58 23 * * *", async () => {
-/*  await repartirPremioRaid();
-  await finalizoRaids();
-  await crearRaids();
-
-  registerRaid;
-  finishRaid;
-  getAllRaidsDisponibles;
-  getRaid;
-  getAvatarOnRaid; */
+  //await repartirPremioRaid();
+  //await finalizoRaids();
+  //await crearRaids();
 });
 
 async function repartirPremioRaid() {
   let getAllPendingRaid = await getAllRaidsDisponibles();
+  let TotalARepartir = await getBudsArepartir();
 
+  let gastoTotal = 0;
   for (const raid of getAllPendingRaid) {
     let dropaRepartir = 0;
     let avatars = await getAllAvatarsOnRaid(raid._id);
     switch (raid.type) {
       case "comun":
-        dropaRepartir = (0.1 * raid.multiplicator) / 100;
-        for (let avatar of avatars) {
-        }
+        dropaRepartir = TotalARepartir * ((0.1 * raid.multiplicator) / 100);
         break;
       case "rara":
-        dropaRepartir = (0.05 * raid.multiplicator) / 100;
-        for (let avatar of avatars) {
-        }
+        dropaRepartir = TotalARepartir * ((0.05 * raid.multiplicator) / 100);
         break;
       case "epica":
-        dropaRepartir = (0.05 * raid.multiplicator) / 100;
-        for (let avatar of avatars) {
-        }
+        dropaRepartir = TotalARepartir * ((0.05 * raid.multiplicator) / 100);
         break;
       case "mitica":
-        dropaRepartir = (0.05 * raid.multiplicator) / 100;
-        for (let avatar of avatars) {
-        }
+        dropaRepartir = TotalARepartir * ((0.05 * raid.multiplicator) / 100);
         break;
       case "legendaria":
-        dropaRepartir = (0.05 * raid.multiplicator) / 100;
-        for (let avatar of avatars) {
-        }
+        dropaRepartir = TotalARepartir * ((0.05 * raid.multiplicator) / 100);
         break;
     }
+    let ratio = dropaRepartir / getTotalPower(avatars);
+    for (let avatar of avatars) {
+      let userGet = (ratio * avatar.power).toFixed(3);
+      await addPendingRefundBuds(
+        avatar.user,
+        userGet,
+        "U get buds for participe on raid " +
+          "day " +
+          raid.time +
+          " " +
+          raid.boss +
+          "-" +
+          raid.type
+      );
+    }
+    gastoTotal = gastoTotal + dropaRepartir;
   }
 }
-async function finalizoRaids() {}
-async function crearRaids() {}
 
-const getDropRate = (type) => {
+async function finalizoRaids() {
+  let getAllPendingRaid = await getAllRaidsDisponibles();
+
+  for (const raid of getAllPendingRaid) {
+    await finishRaid(raid._id);
+  }
+}
+
+function getTotalPower(avatars) {
+  let total = 0;
+  for (const avatar of avatars) {
+    total = total + avatar.power;
+  }
+  return total;
+}
+
+async function crearRaids() {
+  let boss25 = getBoss();
+  let type25 = getType();
+  let multiplicador25 = getDropRate("25");
+
+  let boss50 = getBoss();
+  let type50 = getType();
+  let multiplicador50 = getDropRate("50");
+
+  let boss75 = getBoss();
+  let type75 = getType();
+  let multiplicador75 = getDropRate("75");
+
+  let boss100 = getBoss();
+  let type100 = getType();
+  let multiplicador100 = getDropRate("100");
+
+  await registerRaid(
+    boss25,
+    "25",
+    multiplicador25,
+    new Date().getTime(),
+    type25
+  );
+
+  await registerRaid(
+    boss50,
+    "50",
+    multiplicador50,
+    new Date().getTime(),
+    type50
+  );
+
+  await registerRaid(
+    boss75,
+    "75",
+    multiplicador75,
+    new Date().getTime(),
+    type75
+  );
+
+  await registerRaid(
+    boss100,
+    "100",
+    multiplicador100,
+    new Date().getTime(),
+    type100
+  );
+}
+
+const getDropRate = (lvl) => {
   var data = [];
-  switch (type) {
-    case "comun":
+  switch (lvl) {
+    case "25":
       data = [
         ["2", 75],
         ["5", 24],
@@ -2713,15 +2896,7 @@ const getDropRate = (type) => {
       ];
       break;
 
-    case "rara":
-      data = [
-        ["2", 75],
-        ["5", 24],
-        ["10", 1],
-      ];
-      break;
-
-    case "epica":
+    case "50":
       data = [
         ["2", 60],
         ["5", 38],
@@ -2729,7 +2904,7 @@ const getDropRate = (type) => {
       ];
       break;
 
-    case "legendaria":
+    case "75":
       data = [
         ["2", 40],
         ["5", 57],
@@ -2737,7 +2912,7 @@ const getDropRate = (type) => {
       ];
       break;
 
-    case "mitica":
+    case "100":
       data = [
         ["2", 25],
         ["5", 70],
@@ -2747,6 +2922,39 @@ const getDropRate = (type) => {
   }
 
   var wl = new WeightedList(data);
+  return wl.peek();
+};
+
+const getBoss = () => {
+  let data = [
+    ["zeus", 8.33],
+    ["anna", 8.33],
+    ["chameleon", 8.33],
+    ["Cryptolocker", 8.33],
+    ["Flashback", 8.33],
+    ["fridaythe13th", 8.33],
+    ["GameThief", 8.33],
+    ["ILOVEYOU", 8.33],
+    ["Melissa", 8.33],
+    ["Michelangelo", 8.33],
+    ["MydoomL", 8.33],
+    ["Sobig", 8.33],
+  ];
+
+  let wl = new WeightedList(data);
+  return wl.peek();
+};
+
+const getType = () => {
+  let data = [
+    ["comun", 20],
+    ["rara", 20],
+    ["epica", 20],
+    ["mitica", 20],
+    ["legendaria", 20],
+  ];
+
+  let wl = new WeightedList(data);
   return wl.peek();
 };
 

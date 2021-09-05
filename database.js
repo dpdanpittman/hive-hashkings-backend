@@ -11,8 +11,10 @@ const {
   distributeErrorModel,
   notificationModel,
   refundModelmota,
+  refundModelbuds,
   raidsModel,
   userOnraidsModel,
+  infoBudsModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -206,6 +208,10 @@ async function removePendingRefundMota(id) {
   return await refundModelmota.updateOne({ _id: id }, { status: "complete" });
 }
 
+async function removePendingRefundBuds(id) {
+  return await refundModelbuds.updateOne({ _id: id }, { status: "complete" });
+}
+
 async function addPendingRefund(usuario, value, memo) {
   return await new refundModel({
     usuario,
@@ -224,12 +230,25 @@ async function addPendingRefundMota(usuario, value, memo) {
   }).save();
 }
 
+async function addPendingRefundBuds(usuario, value, memo) {
+  return await new refundModelbuds({
+    usuario,
+    value,
+    memo,
+    status: "pending",
+  }).save();
+}
+
 async function getAllRefunds() {
   return await refundModel.find({ status: "pending" });
 }
 
 async function getAllRefundsMota() {
   return await refundModelmota.find({ status: "pending" });
+}
+
+async function getAllRefundsBuds() {
+  return await refundModelbuds.find({ status: "pending" });
 }
 
 async function setAdrs(user, adrs) {
@@ -308,9 +327,10 @@ async function registrarUsuarioNotificacion(user, token) {
   }
 }
 
-async function registerRaid(boss, multiplicator, time, type) {
+async function registerRaid(boss, lvl, multiplicator, time, type) {
   return await new raidsModel({
     boss,
+    lvl,
     multiplicator,
     time,
     status: "pending",
@@ -330,12 +350,36 @@ async function getRaid(id) {
   return await raidsModel.findOne({ _id: id });
 }
 
-async function getAvatarOnRaid(avatar) {
-  return await userOnraidsModel.findOne({ avatar: avatar }).populate("raid");
+async function getAvatarOnRaid(avatar, raid) {
+  return await userOnraidsModel
+    .findOne({ avatar: avatar, raid: raid })
+    .populate("raid");
+}
+
+async function registerAvatarOnRaid(avatar, power, user, raid) {
+  return await new userOnraidsModel({
+    avatar,
+    power,
+    user,
+    raid,
+  }).save();
 }
 
 async function getAllAvatarsOnRaid(raid) {
   return await userOnraidsModel.find({ raid: raid });
+}
+
+async function getBudsArepartir() {
+  let buds = await infoBudsModel.findOne({ infoid: "1" });
+  if (!buds) {
+    return 0;
+  } else {
+    return buds.value;
+  }
+}
+
+async function actualizarBudsArepartir(value) {
+  return await infoBudsModel.updateOne({ infoid: "1" }, { value: "" + value });
 }
 
 module.exports = {
@@ -363,15 +407,22 @@ module.exports = {
   addPendingRefundMota,
   getAllRefundsMota,
 
+  removePendingRefundBuds,
+  addPendingRefundBuds,
+  getAllRefundsBuds,
+
   setAdrs,
   getAdrs,
   sendNotificationToUser,
   registrarUsuarioNotificacion,
 
   registerRaid,
+  registerAvatarOnRaid,
   finishRaid,
   getAllRaidsDisponibles,
   getRaid,
   getAvatarOnRaid,
-  getAllAvatarsOnRaid
+  getAllAvatarsOnRaid,
+  getBudsArepartir,
+  actualizarBudsArepartir,
 };
