@@ -1181,7 +1181,7 @@ app.get("/raids", async (req, res, next) => {
   try {
     let response = await getAllRaidsDisponibles();
 
-    res.send(JSON.stringify({ totalUsers: response.length }, null, 3));
+    res.send(JSON.stringify({ raids: response }, null, 3));
   } catch (error) {
     res.send(JSON.stringify({}, null, 3));
   }
