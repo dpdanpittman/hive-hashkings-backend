@@ -1430,7 +1430,7 @@ function startApp() {
             await sendNotificationToUser(from, "this raid is end, try again");
             return;
           } else {
-            let avatarLVL = getLVL(av.properties.xp);
+            let avatarLVL = getLVL(av.properties.XP);
             let raidLVL = parseInt(raidSolicitada.lvl);
 
             console.log(
