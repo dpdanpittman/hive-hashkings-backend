@@ -1411,23 +1411,67 @@ function startApp() {
     if (av) {
       //   (XP * POWER MULTIPLIER) / 100
 
-      let exist = await getAvatarOnRaid(av._id, raid);
+      if (av.properties.USAGE > 1) {
+        let exist = await getAvatarOnRaid(av._id, raid);
 
-      if (exist) {
-        if (exist.raid.status === "complete") {
-          await sendNotificationToUser(from, "the avatar is already finish");
-        } else {
-          await sendNotificationToUser(from, "the avatar is already in a raid");
-        }
-      } else {
-        let avatarPower = (av.properties.POWER * av.properties.POWER) / 100;
-        await registerAvatarOnRaid(av._id, avatarPower, from, raid).catch(
-          async (e) => {
+        if (exist) {
+          if (exist.raid.status === "complete") {
+            await sendNotificationToUser(from, "the avatar is already finish");
+          } else {
             await sendNotificationToUser(
               from,
-              "error on register avatar in a raid, try again"
+              "the avatar is already in a raid"
             );
           }
+        } else {
+          let raidSolicitada = await getRaid(raid);
+
+          if (raidSolicitada.status == "complete") {
+            await sendNotificationToUser(from, "this raid is end, try again");
+            return;
+          } else {
+            let avatarLVL = state.users[from].lvl;
+            if(!avatarLVL){
+              await sendNotificationToUser(
+                from,
+                "cannot get user lvl, try again"
+              );
+              return;
+            }
+            let raidLVL = parseInt(raidSolicitada.lvl);
+            if (raidLVL >= getMinimoRaidLVL(raidLVL) && avatarLVL <= raidLVL) {
+            } else {
+              await sendNotificationToUser(
+                from,
+                "avatar dont have lvl to enter on this raid "
+              );
+              return;
+            }
+          }
+
+          let avatarPower = (av.properties.POWER * av.properties.POWER) / 100;
+          await registerAvatarOnRaid(av._id, avatarPower, from, raid)
+            .then(async (r) => {
+              await contract.updateNft(hivejs, avatar._id, {
+                USAGE: av.properties.USAGE - 1,
+              });
+
+              await sendNotificationToUser(
+                from,
+                "Avatar register successfully"
+              );
+            })
+            .catch(async (e) => {
+              await sendNotificationToUser(
+                from,
+                "error on register avatar in a raid, try again"
+              );
+            });
+        }
+      } else {
+        await sendNotificationToUser(
+          from,
+          "u cant use this avatar more, wait end raid"
         );
       }
     } else {
@@ -2956,6 +3000,22 @@ const getType = () => {
 
   let wl = new WeightedList(data);
   return wl.peek();
+};
+
+const getLVL = (xp) => {};
+const getMinimoRaidLVL = (lvl) => {
+  switch (lvl) {
+    case 25:
+      return 1;
+
+    case 50:
+      return 26;
+
+    case 75:
+      return 51;
+    case 100:
+      return 76;
+  }
 };
 
 mongoose.Promise = global.Promise;

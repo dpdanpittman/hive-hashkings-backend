@@ -32,19 +32,19 @@ async function repartirPremioRaid() {
     let avatars = await getAllAvatarsOnRaid(raid._id);
     switch (raid.type) {
       case "comun":
-        dropaRepartir = TotalARepartir * ((0.1 * parseInt(raid.multiplicator) / 100);
+        dropaRepartir = TotalARepartir * ((0.1 * parseInt(raid.multiplicator) / 100));
         break;
       case "rara":
-        dropaRepartir = TotalARepartir * ((0.05 * parseInt(raid.multiplicator) / 100);
+        dropaRepartir = TotalARepartir * ((0.05 * parseInt(raid.multiplicator) / 100));
         break;
       case "epica":
-        dropaRepartir = TotalARepartir * ((0.05 * parseInt(raid.multiplicator) / 100);
+        dropaRepartir = TotalARepartir * ((0.05 * parseInt(raid.multiplicator) / 100));
         break;
       case "mitica":
-        dropaRepartir = TotalARepartir * ((0.05 * parseInt(raid.multiplicator) / 100);
+        dropaRepartir = TotalARepartir * ((0.05 * parseInt(raid.multiplicator) / 100));
         break;
       case "legendaria":
-        dropaRepartir = TotalARepartir * ((0.05 * parseInt(raid.multiplicator) / 100);
+        dropaRepartir = TotalARepartir * ((0.05 * parseInt(raid.multiplicator) / 100));
         break;
     }
     let ratio = dropaRepartir / getTotalPower(avatars);
@@ -61,6 +61,8 @@ async function repartirPremioRaid() {
           "-" +
           raid.type
       );
+
+   //   await contract.updateNft(hivejs, avatar.avatar, { USAGE: av.properties.USAGE - 1 });
     }
     gastoTotal = gastoTotal + dropaRepartir;
   }

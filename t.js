@@ -421,7 +421,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii */
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -714,11 +714,11 @@ contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
 }) 
 */
 
-/*  
-contract.getNFT(axios, 204867).then((e) => {
+/*  */
+contract.getNFT(axios, 11573).then((e) => {
   console.log("aa", e);
 });
-*/
+
 
 /*
 contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
