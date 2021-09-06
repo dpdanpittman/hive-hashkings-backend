@@ -1450,10 +1450,10 @@ function startApp() {
             }
           }
 
-          let avatarPower = (av.properties.POWER * av.properties.POWER) / 100;
+          let avatarPower = (av.properties.XP * av.properties.POWER) / 100;
           await registerAvatarOnRaid(av._id, avatarPower, from, raid)
             .then(async (r) => {
-              await contract.updateNft(hivejs, avatar._id, {
+              await contract.updateNft(hivejs, av._id, {
                 USAGE: av.properties.USAGE - 1,
               });
 
