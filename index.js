@@ -1165,6 +1165,33 @@ app.get("/getallpendings/:user", async (req, res, next) => {
   }
 });
 
+app.get("/raidinfo/:raidid", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  try {
+    let id = req.params.raidid;
+    let raid = await getRaid(id);
+    let avatarOnRaid = await getAllAvatarsOnRaid(id);
+
+    let response = {
+      raid,
+      avatarOnRaid,
+    };
+
+    res.send(JSON.stringify(response, null, 3));
+  } catch (error) {
+    res.send(
+      JSON.stringify(
+        {
+          raid: null,
+          avatarOnRaid: null,
+        },
+        null,
+        3
+      )
+    );
+  }
+});
+
 app.get("/allPlayers", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   try {
@@ -1440,7 +1467,10 @@ function startApp() {
               raidLVL
             );
 
-            if (avatarLVL >= getMinimoRaidLVL(raidLVL) && avatarLVL <= raidLVL) {
+            if (
+              avatarLVL >= getMinimoRaidLVL(raidLVL) &&
+              avatarLVL <= raidLVL
+            ) {
             } else {
               await sendNotificationToUser(
                 from,
@@ -1453,7 +1483,7 @@ function startApp() {
           let avatarPower = (av.properties.XP * av.properties.POWER) / 100;
           await registerAvatarOnRaid(av._id, avatarPower, from, raid)
             .then(async (r) => {
-              await contract.updateNft(hivejs, av._id, {
+              await contract.updateNft(hivejs, "" + av._id, {
                 USAGE: av.properties.USAGE - 1,
               });
 

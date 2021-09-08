@@ -13,8 +13,8 @@ const WeightedList = require("js-weighted-list");
 
 async function test() {
   await repartirPremioRaid();
-  await finalizoRaids();
-  await crearRaids();
+ // await finalizoRaids();
+ // await crearRaids();
 }
 
 async function repartirPremioRaid() {
