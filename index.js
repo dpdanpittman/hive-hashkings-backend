@@ -1168,13 +1168,16 @@ app.get("/getallpendings/:user", async (req, res, next) => {
 app.get("/raidinfo/:raidid", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   try {
+    
     let id = req.params.raidid;
     let raid = await getRaid(id);
     let avatarOnRaid = await getAllAvatarsOnRaid(id);
+    let budsRewards = parseFloat(await getBudsArepartir());
 
     let response = {
       raid,
       avatarOnRaid,
+      budsRewards
     };
 
     res.send(JSON.stringify(response, null, 3));
