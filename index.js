@@ -94,6 +94,9 @@ const {
 
   getBudsArepartir,
   actualizarBudsArepartir,
+
+
+  getuserOnBot
 } = require("./database");
 
 const {
@@ -1213,6 +1216,22 @@ app.get("/raids", async (req, res, next) => {
 
     res.send(JSON.stringify({ raids: response }, null, 3));
   } catch (error) {
+    res.send(JSON.stringify({}, null, 3));
+  }
+});
+
+app.get("/userOnBot/:user", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  try {
+    let user = req.params.user;
+    let response = await getuserOnBot(user);
+    if (!user) {
+      response = {};
+    }
+
+    res.send(JSON.stringify(response, null, 3));
+  } catch (error) {
+    console.log("retorno error al llamar pending", error);
     res.send(JSON.stringify({}, null, 3));
   }
 });

@@ -66,7 +66,6 @@ const refundMotaSchema = new Schema({
 
 const refundModelmota = mongoose.model("Refundmota", refundMotaSchema);
 
-
 const refundBudsSchema = new Schema({
   usuario: String,
   value: Number,
@@ -129,8 +128,6 @@ const userOnraidsSchema = new Schema({
 
 const userOnraidsModel = mongoose.model("userxraids", userOnraidsSchema);
 
-
-
 const infobudsSchema = new Schema({
   infoid: String,
   value: String,
@@ -138,6 +135,13 @@ const infobudsSchema = new Schema({
 
 const infoBudsModel = mongoose.model("infobud", infobudsSchema);
 
+const userOnbotSchema = new Schema({
+  user: String,
+  value: String,
+  time: String,
+});
+
+const userOnbotModel = mongoose.model("userOnbot", userOnbotSchema);
 
 module.exports = {
   transferModel,
@@ -153,5 +157,6 @@ module.exports = {
   raidsModel,
   userOnraidsModel,
   refundModelbuds,
-  infoBudsModel
+  infoBudsModel,
+  userOnbotModel,
 };
