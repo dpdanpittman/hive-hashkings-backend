@@ -164,7 +164,6 @@ const tohkvault = async (json, from, state) => {
     if (
       state.users[from] &&
       type == "pinner" &&
-      amountBudsInt === 50 &&
       state.users[from].lvl >= 1
     ) {
       // create pinner
@@ -172,7 +171,6 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       type == "hempWrappedJoint" &&
-      amountBudsInt === 200 &&
       state.users[from].lvl >= 15
     ) {
       // create hempwrappedjoint
@@ -180,14 +178,12 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       type == "crossJoint" &&
-      amountBudsInt === 1000 &&
       state.users[from].lvl >= 30
     ) {
       consumable = "Cross Joint";
     } else if (
       state.users[from] &&
       type == "blunt" &&
-      amountBudsInt === 2500 &&
       state.users[from].lvl >= 45
     ) {
       // create blunt
@@ -195,7 +191,6 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       type == "hempWrappedBlunt" &&
-      amountBudsInt === 5000 &&
       state.users[from].lvl >= 60
     ) {
       // create hempwrappedblunt
@@ -203,7 +198,6 @@ const tohkvault = async (json, from, state) => {
     } else if (
       state.users[from] &&
       type == "twaxJoint" &&
-      amountBudsInt === 10000 &&
       state.users[from].lvl >= 75
     ) {
       // set plot to subdivided
