@@ -161,6 +161,8 @@ const tohkvault = async (json, from, state) => {
 
     let consumable = null;
 
+    console.log(from,"solicitando", type);
+
     if (
       state.users[from] &&
       type == "pinner" &&
