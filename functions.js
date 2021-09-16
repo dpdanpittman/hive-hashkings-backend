@@ -247,6 +247,8 @@ const tohkvault = async (json, from, state) => {
             );
           });
         });
+    }else{ 
+      console.log("no consumable valido // refund despue")
     }
   }
 
