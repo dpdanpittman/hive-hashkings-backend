@@ -794,3 +794,27 @@ var data = [
 var wl = new WeightedList(data);
 
 console.log(parseInt(wl.peek()[0]));
+
+
+function getPlotbySeedName(seedName) {
+  const SEEDS = {
+    Aceh: 1,
+    Thai: 1,
+    "Chocolate Thai": 1,
+    "Lamb’s Bread": 2,
+    "King’s Bread": 2,
+    "Swazi Gold": 3,
+    Kilimanjaro: 3,
+    "Durban Poison": 3,
+    Malawi: 3,
+    "Hindu Kush": 4,
+    Afghani: 4,
+    "Lashkar Gah": 4,
+    "Mazar I Sharif": 4,
+    "Acapulco Gold": 5,
+    "Colombian Gold": 6,
+    "Panama Red": 6,
+  };
+
+  return  SEEDS[seedName];
+}

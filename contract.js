@@ -993,7 +993,9 @@ const createPlotT = async (hive, packs, userBuyer, name) => {
 const createSeedT = async (hive, packs, userBuyer) => {
   let instances = [];
   for (let i = 0; i < packs; i++) {
-    instances.push(generateOneRandomSeed(userBuyer, parseInt(getPlot()[0]), SEEDS));
+    instances.push(
+      generateOneRandomSeed(userBuyer, parseInt(getPlot()[0]), SEEDS)
+    );
   }
 
   let json = {
@@ -1016,6 +1018,63 @@ const createSeedT = async (hive, packs, userBuyer) => {
           reject(err);
         } else {
           resolve(result);
+        }
+      }
+    );
+  });
+};
+
+function getPlotbySeedName(seedName) {
+  const SEEDS = {
+    Aceh: 1,
+    Thai: 1,
+    "Chocolate Thai": 1,
+    "Lamb’s Bread": 2,
+    "King’s Bread": 2,
+    "Swazi Gold": 3,
+    Kilimanjaro: 3,
+    "Durban Poison": 3,
+    Malawi: 3,
+    "Hindu Kush": 4,
+    Afghani: 4,
+    "Lashkar Gah": 4,
+    "Mazar I Sharif": 4,
+    "Acapulco Gold": 5,
+    "Colombian Gold": 6,
+    "Panama Red": 6,
+  };
+
+  return  SEEDS[seedName];
+}
+
+const createSeedTT = async (hive, packs, userBuyer, seedName) => {
+  let instances = [];
+  for (let i = 0; i < packs; i++) {
+    instances.push(
+      generateOneRandomSeed(userBuyer, getPlotbySeedName(seedName), SEEDS)
+    );
+  }
+
+  let json = {
+    contractName: "nft",
+    contractAction: "issueMultiple",
+    contractPayload: {
+      instances: instances,
+    },
+  };
+
+  return new Promise((resolve, reject) => {
+    hive.broadcast.customJson(
+      ACTIVEKEY,
+      [CONTRACT_CREATOR],
+      [],
+      "ssc-mainnet-hive",
+      JSON.stringify(json),
+      function (err, result) {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(instances[0].properties.NAME);
         }
       }
     );
@@ -2428,7 +2487,6 @@ async function getAllPlotsAndSeeds(axios) {
             }
           }
         } else if (nfts[i].properties.TYPE == "seed") {
-         
         }
       }
 
@@ -2586,7 +2644,7 @@ async function getAllByName(axios, name) {
       }
 
       let onlyAcconts = {
-        avatars: []
+        avatars: [],
       };
 
       for (let i = 0; i < nfts.length; i++) {
@@ -3456,7 +3514,9 @@ async function distributeAvatar(hive, user) {
 function testseeds() {
   let instances = [];
   for (let i = 0; i < 10; i++) {
-    instances.push(generateOneRandomSeed("chocolatoso", parseInt(getPlot()[0]), SEEDS));
+    instances.push(
+      generateOneRandomSeed("chocolatoso", parseInt(getPlot()[0]), SEEDS)
+    );
   }
   return instances;
 }
@@ -3570,5 +3630,6 @@ module.exports = contract = {
   findBundleByPLOTANDWATER,
   getOnlyUsers,
   getAllByName,
-  createSeedT
+  createSeedT,
+  createSeedTT,
 };

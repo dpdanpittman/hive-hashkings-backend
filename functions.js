@@ -162,13 +162,9 @@ const tohkvault = async (json, from, state) => {
 
     let consumable = null;
 
-    console.log(from,"solicitando", type);
+    console.log(from, "solicitando", type);
 
-    if (
-      state.users[from] &&
-      type == "pinner" &&
-      state.users[from].lvl >= 1
-    ) {
+    if (state.users[from] && type == "pinner" && state.users[from].lvl >= 1) {
       // create pinner
       consumable = "Pinner";
     } else if (
@@ -248,8 +244,8 @@ const tohkvault = async (json, from, state) => {
             );
           });
         });
-    }else{ 
-      console.log("no consumable valido // refund despue")
+    } else {
+      console.log("no consumable valido // refund despue");
     }
   }
 
@@ -339,21 +335,21 @@ const nfttohkvaul = async (json, from, state) => {
                     ["0", 85.0],
                     ["1", 15.0],
                   ];
-                  
+
                   var wl = new WeightedList(data);
-                  
-                 if(parseInt(wl.peek()[0]) == 1) { 
-                   console.log(from, "gano random seed")
-                  await contract.createSeedT(hivejs,1,from).then(async r =>{
-                    await sendNotificationToUser(
-                      from,
-                      "u win a random seed"
-                    );
-                  });
-                 }
 
+                  if (parseInt(wl.peek()[0]) == 1) {
+                    console.log(from, "gano random seed");
 
-
+                    await contract
+                      .createSeedTT(hivejs, 1, from, nft.properties.NAME)
+                      .then(async (r) => {
+                        await sendNotificationToUser(
+                          from,
+                          "u win a random seed "+r
+                        );
+                      });
+                  }
                 })
                 .catch(async (e) => {
                   //no pude enviar buds, guardando en pendiente para enviar
