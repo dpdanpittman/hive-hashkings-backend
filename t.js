@@ -32,7 +32,7 @@ function sort(miarray) {
     return 0;
   });
 }
-
+const WeightedList = require("js-weighted-list");
 /*
 let a = contract.testseeds();
 let b = [];
@@ -91,15 +91,16 @@ contract
     console.log(res);
   }); */
 
-/* 77235   
+/* 77235  
 contract
-  .updateNft(hivejs, "" + 52014, {
-    RENTED: false,
+  .updateNft(hivejs, "" + 212364, {
+    PLANTED: false,
+    PLOTID  : 0
   })
   .then((r) => {
     console.log(r);
-  });
-*/
+  });*/
+
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
   console.log(r);
@@ -110,7 +111,7 @@ contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
 contract
   .updateMultipleNfts(hivejs, [
     {
-      id: "" + 12828,
+      id: "" + 2479,
       properties: { LVL: 4, WATER: 234 },
     },
   ])
@@ -420,7 +421,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii */
+/* vamo por aquiiii 
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -440,13 +441,13 @@ contract.getAllNfts(axios).then((r) => {
               if (seed.length > 0) {
                 //console.log("encontre semilla", seed[0].owner, element.owner );
                 if (seed[0].owner != element.owner) {
-                  console.log(
-                    "actualizando nft porque",
-                    seed[0].owner + " " + seed[0].id,
-                    element.owner
-                  );
-
                   if (seed[0].owner === "hk-vault") {
+                    
+                    console.log(
+                      "actualizando nft porque",
+                      seed[0].owner + " " + seed[0].id,
+                      element.owner
+                    );
                     await new Promise((resolve) => {
                       setTimeout(() => {
                         resolve();
@@ -485,7 +486,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})(); 
+})();*/
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
@@ -713,8 +714,8 @@ contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
 }) 
 */
 
-/*  
-contract.getNFT(axios, 11573).then((e) => {
+/* 
+contract.getNFT(axios, 212364).then((e) => {
   console.log("aa", e);
 }); */
 
@@ -785,3 +786,11 @@ function formatearArrayAdecuado(arr) {
   }
   return result;
 } */
+var data = [
+  ["0", 85.0],
+  ["1", 15.0],
+];
+
+var wl = new WeightedList(data);
+
+console.log(parseInt(wl.peek()[0]));

@@ -1,5 +1,6 @@
 const contract = require("./contract.js");
 var axios = require("axios");
+const WeightedList = require("js-weighted-list");
 const {
   saveLog,
   setTransaction,
@@ -333,6 +334,26 @@ const nfttohkvaul = async (json, from, state) => {
                     from,
                     "plot " + plotIDString + " successfully collected"
                   );
+
+                  var data = [
+                    ["0", 85.0],
+                    ["1", 15.0],
+                  ];
+                  
+                  var wl = new WeightedList(data);
+                  
+                 if(parseInt(wl.peek()[0]) == 1) { 
+                   console.log(from, "gano random seed")
+                  await contract.createSeedT(hivejs,1,from).then(async r =>{
+                    await sendNotificationToUser(
+                      from,
+                      "u win a random seed"
+                    );
+                  });
+                 }
+
+
+
                 })
                 .catch(async (e) => {
                   //no pude enviar buds, guardando en pendiente para enviar

@@ -1,4 +1,5 @@
 require("dotenv").config();
+const WeightedList = require("js-weighted-list");
 var jp = require("jsonpath");
 const ENV = process.env;
 
@@ -146,34 +147,22 @@ const SEEDS = [
 ];
 
 const getPlot = () => {
-  let type = 6;
-  let typeRoll = Math.floor(Math.random() * 100) + 1;
+  var data = [
+    ["1", 1.38],
+    ["2", 3.99],
+    ["3", 9.82],
+    ["4", 17.06],
+    ["5", 25.06],
+    ["6", 42.56],
+  ];
 
-  if (typeRoll > 97) {
-    //3
-    type = 1;
-  } else if (typeRoll > 94) {
-    //6
-    type = 2;
-  } else if (typeRoll > 89) {
-    //11
-    type = 3;
-  } else if (typeRoll > 85) {
-    //15
-    type = 4;
-  } else if (typeRoll > 70) {
-    //25
-    type = 5;
-  } else if (typeRoll > 65) {
-    //40
-    type = 6;
-  }
+  var wl = new WeightedList(data);
 
-  return type;
+  return wl.peek();
 };
 
 const generateRandomSeed = (to, SEEDS) => {
-  const type = getPlot();
+  const type = parseInt(getPlot()[0]);
   let properties = {};
   if (type == 1) {
     let plot = SEEDS[0];
@@ -1004,7 +993,7 @@ const createPlotT = async (hive, packs, userBuyer, name) => {
 const createSeedT = async (hive, packs, userBuyer) => {
   let instances = [];
   for (let i = 0; i < packs; i++) {
-    instances.push(generateOneRandomSeed(userBuyer, getPlot(), SEEDS));
+    instances.push(generateOneRandomSeed(userBuyer, parseInt(getPlot()[0]), SEEDS));
   }
 
   let json = {
@@ -2397,7 +2386,7 @@ async function getAllPlotsAndSeeds(axios) {
       let offset = 0;
 
       while (!complete) {
-        let get_nfts = await queryContract(
+        let get_nfts = await queryContractTest(
           axios,
           {
             contract: CONTRACT,
@@ -2408,9 +2397,9 @@ async function getAllPlotsAndSeeds(axios) {
         );
         if (get_nfts !== false) {
           nfts = nfts.concat(get_nfts);
-          offset += 499;
+          offset += 1000;
 
-          if (get_nfts.length !== 499) {
+          if (get_nfts.length !== 1000) {
             complete = true;
           }
         } else {
@@ -2439,7 +2428,7 @@ async function getAllPlotsAndSeeds(axios) {
             }
           }
         } else if (nfts[i].properties.TYPE == "seed") {
-          onlyAcconts.seeds.push(nft);
+         
         }
       }
 
@@ -3466,8 +3455,8 @@ async function distributeAvatar(hive, user) {
 
 function testseeds() {
   let instances = [];
-  for (let i = 0; i < 1000; i++) {
-    instances.push(generateOneRandomSeed("chocolatoso", getPlot(), SEEDS));
+  for (let i = 0; i < 10; i++) {
+    instances.push(generateOneRandomSeed("chocolatoso", parseInt(getPlot()[0]), SEEDS));
   }
   return instances;
 }
@@ -3580,5 +3569,6 @@ module.exports = contract = {
   getInBundle,
   findBundleByPLOTANDWATER,
   getOnlyUsers,
-  getAllByName
+  getAllByName,
+  createSeedT
 };
