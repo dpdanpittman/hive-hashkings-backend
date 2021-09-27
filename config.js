@@ -24,7 +24,7 @@ const clients = [
     'https://fin.hive.3speak.co',
     'https://hived.emre.sh',
     'https://techcoderx.com',
-    'api2.hive-engine.com/rpc',
+    'herpc.dtools.dev',
     'https://hived.privex.io',
     'https://api.pharesim.me'
 ]

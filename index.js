@@ -246,7 +246,7 @@ const walletOperationsBitmask = makeBitMaskFilter([
 ]);
 
 //this rpc sucks
-const ssc = new SSC("api2.hive-engine.com/rpc");
+const ssc = new SSC("https://herpc.dtools.dev/");
 
 //this doesnt work 100 percent
 function dynStart(account) {
@@ -701,7 +701,7 @@ function reporting() {
 function landPriceConversion() {
   return new Promise((resolve, reject) => {
     axios
-      .post("api2.hive-engine.com/rpc/contracts", {
+      .post("https://herpc.dtools.dev/contracts", {
         jsonrpc: "2.0",
         id: 18,
         method: "find",

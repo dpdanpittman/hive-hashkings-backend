@@ -10,7 +10,7 @@ var jp = require("jsonpath");
 require("dotenv").config();
 
 const SSC = require("sscjs");
-const ssc = new SSC("api2.hive-engine.com/rpc");
+const ssc = new SSC("https://herpc.dtools.dev");
 
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
@@ -693,7 +693,7 @@ contract
 
 /*
 const SSC = require("sscjs");
-const ssc = new SSC("api2.hive-engine.com/rpcrpc");
+const ssc = new SSC("herpc.dtools.devrpc");
 
 
 const processxor = require("./hiveEngineProcessor");
