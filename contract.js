@@ -1267,7 +1267,7 @@ async function queryContract(
       return r;
     })
     .catch((e) => {
-      console.log("error  on axios request", e);
+      
     });
 
   // Return result
@@ -1282,6 +1282,7 @@ async function queryContract(
   // Else return false
   return false;
 }
+
 async function queryContractTest(
   axios,
   { contract, table, query = {} },
@@ -1298,7 +1299,7 @@ async function queryContractTest(
       return r;
     })
     .catch((e) => {
-      console.log("error  on axios request", e);
+      
     });
 
   // Return result

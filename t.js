@@ -733,16 +733,7 @@ contract.getNFT(axios, 233042).then(async (e) => {
   } = await contract.getUserNft(ssc, axios, "chocolatoso");
 
   console.log(
-    plots,
-    seeds,
     tokens,
-    waterTowers,
-    waterPlants,
-    avatars,
-    joints,
-    rents,
-    rented,
-    bundles
   );
 });
 
