@@ -658,7 +658,7 @@ function reporting() {
 function landPriceConversion() {
   return new Promise((resolve, reject) => {
     axios
-      .post("herpc.dtools.devrpc/contracts", {
+      .post("https://rpc.hashkings.xyz/contracts", {
         jsonrpc: "2.0",
         id: 18,
         method: "find",

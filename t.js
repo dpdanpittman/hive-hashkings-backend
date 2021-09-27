@@ -10,7 +10,7 @@ var jp = require("jsonpath");
 require("dotenv").config();
 
 const SSC = require("sscjs");
-const ssc = new SSC("https://herpc.dtools.dev/");
+const ssc = new SSC("https://rpc.hashkings.xyz/");
 
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
