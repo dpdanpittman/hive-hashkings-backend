@@ -10,7 +10,7 @@ var jp = require("jsonpath");
 require("dotenv").config();
 
 const SSC = require("sscjs");
-const ssc = new SSC("https://rpc.hashkings.xyz");
+const ssc = new SSC("https://api.hive-engine.com/");
 
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
@@ -92,13 +92,17 @@ contract
   }); */
 
 /* 77235  */
-contract
-  .updateNft(hivejs, "" + 233361, {
-    TYPE: "none",
+
+contract.updateNft(hivejs, "" + 233361, {
+    TYPE: "seed",
+    NAME: "Lamb’s Bread",
+    SPT: 2,
+    WATER: 10864,
+    PR: 7024
   })
   .then((r) => {
     console.log(r);
-  });
+  }); 
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
