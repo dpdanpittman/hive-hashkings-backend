@@ -91,15 +91,14 @@ contract
     console.log(res);
   }); */
 
-/* 77235  
+/* 77235  */
 contract
-  .updateNft(hivejs, "" + 212364, {
-    PLANTED: false,
-    PLOTID  : 0
+  .updateNft(hivejs, "" + 233361, {
+    TYPE: "none",
   })
   .then((r) => {
     console.log(r);
-  });*/
+  });
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
@@ -715,7 +714,7 @@ contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
 */
 
 /* 
-contract.getNFT(axios, 212364).then((e) => {
+contract.getNFT(axios, 233042 ).then((e) => {
   console.log("aa", e);
 }); */
 
@@ -786,35 +785,3 @@ function formatearArrayAdecuado(arr) {
   }
   return result;
 } */
-var data = [
-  ["0", 85.0],
-  ["1", 15.0],
-];
-
-var wl = new WeightedList(data);
-
-console.log(parseInt(wl.peek()[0]));
-
-
-function getPlotbySeedName(seedName) {
-  const SEEDS = {
-    Aceh: 1,
-    Thai: 1,
-    "Chocolate Thai": 1,
-    "Lamb’s Bread": 2,
-    "King’s Bread": 2,
-    "Swazi Gold": 3,
-    Kilimanjaro: 3,
-    "Durban Poison": 3,
-    Malawi: 3,
-    "Hindu Kush": 4,
-    Afghani: 4,
-    "Lashkar Gah": 4,
-    "Mazar I Sharif": 4,
-    "Acapulco Gold": 5,
-    "Colombian Gold": 6,
-    "Panama Red": 6,
-  };
-
-  return  SEEDS[seedName];
-}

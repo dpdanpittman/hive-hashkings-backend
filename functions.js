@@ -346,7 +346,7 @@ const nfttohkvaul = async (json, from, state) => {
                       .then(async (r) => {
                         await sendNotificationToUser(
                           from,
-                          "u win a random seed "+r
+                          "you found a seed "+r
                         );
                       });
                   }

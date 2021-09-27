@@ -1028,7 +1028,7 @@ function getPlotbySeedName(seedName) {
   const SEEDS = {
     Aceh: 1,
     Thai: 1,
-    "Chocolate Thai": 1,
+    "Thai Chocolate": 1,
     "Lamb’s Bread": 2,
     "King’s Bread": 2,
     "Swazi Gold": 3,
