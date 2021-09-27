@@ -10,7 +10,7 @@ var jp = require("jsonpath");
 require("dotenv").config();
 
 const SSC = require("sscjs");
-const ssc = new SSC("https://rpc.ecency.com");
+const ssc = new SSC("api2.hive-engine.com/rpc");
 
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
@@ -91,7 +91,7 @@ contract
     console.log(res);
   }); */
 
-/* 77235  */
+/* 77235 
 
 contract.updateNft(hivejs, "" + 233361, {
     TYPE: "seed",
@@ -102,7 +102,7 @@ contract.updateNft(hivejs, "" + 233361, {
   })
   .then((r) => {
     console.log(r);
-  }); 
+  });  */
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
@@ -693,7 +693,7 @@ contract
 
 /*
 const SSC = require("sscjs");
-const ssc = new SSC("https://rpc.ecency.comrpc");
+const ssc = new SSC("api2.hive-engine.com/rpcrpc");
 
 
 const processxor = require("./hiveEngineProcessor");
@@ -717,10 +717,10 @@ contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
 }) 
 */
 
-/* 
+/* */
 contract.getNFT(axios, 233042 ).then((e) => {
   console.log("aa", e);
-}); */
+}); 
 
 /*
 contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {

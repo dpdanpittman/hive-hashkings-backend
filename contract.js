@@ -11,7 +11,7 @@ const ACTIVEKEY = ENV.activekey;
 const SEEDS_PER_PACK = 3;
 
 //new api for get all nfts
-const URL = "https://rpc.ecency.com/contracts";
+const URL = "https://api2.hive-engine.com/rpc/contracts";
 const CONTRACT = "nft"; // Should be nft
 const TABLE_POSTFIX = "instances"; // ShoAuld be the same
 const NFT_SYMBOL = "HKFARM"; // Your NFT Symbol
