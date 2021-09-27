@@ -10,7 +10,7 @@ var jp = require("jsonpath");
 require("dotenv").config();
 
 const SSC = require("sscjs");
-const ssc = new SSC("https://herpc.dtools.dev");
+const ssc = new SSC("https://herpc.dtools.dev/");
 
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
@@ -718,9 +718,33 @@ contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
 */
 
 /* */
-contract.getNFT(axios, 233042 ).then((e) => {
-  console.log("aa", e);
-}); 
+contract.getNFT(axios, 233042).then(async (e) => {
+  let {
+    plots,
+    seeds,
+    tokens,
+    waterTowers,
+    waterPlants,
+    avatars,
+    joints,
+    rents,
+    rented,
+    bundles,
+  } = await contract.getUserNft(ssc, axios, "chocolatoso");
+
+  console.log(
+    plots,
+    seeds,
+    tokens,
+    waterTowers,
+    waterPlants,
+    avatars,
+    joints,
+    rents,
+    rented,
+    bundles
+  );
+});
 
 /*
 contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
