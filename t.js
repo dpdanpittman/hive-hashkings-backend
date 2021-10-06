@@ -79,30 +79,18 @@ console.log(b)  */
 })();
 */
 
-/*  
+/* 
 contract
   .updateMultipleNfts(hivejs, [
     {
-      id: "" + 119683,
-      properties: { SPT: 0 },
+      id: "" + 7734,
+      properties: { SEEDID: 0 },
     },
   ])
   .then((res) => {
     console.log(res);
-  }); */
-
-/* 77235 
-
-contract.updateNft(hivejs, "" + 233361, {
-    TYPE: "seed",
-    NAME: "Lamb’s Bread",
-    SPT: 2,
-    WATER: 10864,
-    PR: 7024
-  })
-  .then((r) => {
-    console.log(r);
-  });  */
+  }); 
+ */
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
@@ -440,11 +428,12 @@ contract.getAllNfts(axios).then((r) => {
               `$.seeds[?(@.id==${element.properties.SEEDID})]`
             );
 
+
             if (seed) {
               if (seed.length > 0) {
-                //console.log("encontre semilla", seed[0].owner, element.owner );
+               // console.log("encontre semilla", seed[0].owner, element.owner );
                 if (seed[0].owner != element.owner) {
-                  if (seed[0].owner === "hk-vault") {
+                  if (seed[0].owner == "hk-vault") {
                     
                     console.log(
                       "actualizando nft porque",
@@ -490,6 +479,8 @@ contract.getAllNfts(axios).then((r) => {
     }
   });
 })();*/
+
+/**/
 /*
 contract.SendSeedPoolManual(hivejs, 4, "chocolatoso").then((r) => {
   console.log(r);
@@ -716,26 +707,24 @@ contract.createAvatar(hivejs,"Lucky Shaggi","dota2hive").then(e => {
   console.log(err)
 }) 
 */
+/*
+contract.generateToken(hivejs, "BUDS", "1", "chocolatoso").then((e) => {
+  console.log(e);
+});*/
 
-/* */
-contract.getNFT(axios, 233042).then(async (e) => {
-  let {
-    plots,
-    seeds,
-    tokens,
-    waterTowers,
-    waterPlants,
-    avatars,
-    joints,
-    rents,
-    rented,
-    bundles,
-  } = await contract.getUserNft(ssc, axios, "chocolatoso");
-
-  console.log(
-    tokens,
-  );
-});
+/* 77235 */
+contract
+  .updateNft(hivejs, "" + 13952 , {
+    LVL: 5,
+    WATER:302
+  })
+  .then((r) => {
+    console.log(r);
+  }); /*-- */
+/*
+contract.getNFT(axios, 13952  ).then(async (e) => {
+  console.log(e);
+}); /*
 
 /*
 contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
@@ -751,9 +740,7 @@ contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
 
 
   
-contract.generateToken(hivejs, "MOTA", "22.8618", "ooakosimo").then((e) => {
-  console.log(e);
-});*/
+
 
 /*
 contract.getOnlyUsers(axios, ssc).then((e) => {

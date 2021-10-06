@@ -2488,6 +2488,7 @@ async function getAllPlotsAndSeeds(axios) {
             }
           }
         } else if (nfts[i].properties.TYPE == "seed") {
+          onlyAcconts.seeds.push(nft);
         }
       }
 
@@ -2568,7 +2569,7 @@ async function getAllAvatar(axios) {
           {
             contract: CONTRACT,
             table: NFT_SYMBOL + TABLE_POSTFIX,
-            query: {},
+            query: {"properties.TYPE": "avatar"},
           },
           offset
         );

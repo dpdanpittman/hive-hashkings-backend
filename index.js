@@ -95,8 +95,9 @@ const {
   getBudsArepartir,
   actualizarBudsArepartir,
 
-
-  getuserOnBot
+  getuserOnBot,
+  getAllCompras,
+  actualizarCompras,
 } = require("./database");
 
 const {
@@ -1171,7 +1172,6 @@ app.get("/getallpendings/:user", async (req, res, next) => {
 app.get("/raidinfo/:raidid", async (req, res, next) => {
   res.setHeader("Content-Type", "application/json");
   try {
-    
     let id = req.params.raidid;
     let raid = await getRaid(id);
     let avatarOnRaid = await getAllAvatarsOnRaid(id);
@@ -1180,7 +1180,7 @@ app.get("/raidinfo/:raidid", async (req, res, next) => {
     let response = {
       raid,
       avatarOnRaid,
-      budsRewards
+      budsRewards,
     };
 
     res.send(JSON.stringify(response, null, 3));
@@ -1215,6 +1215,21 @@ app.get("/raids", async (req, res, next) => {
     let response = await getAllRaidsDisponibles();
 
     res.send(JSON.stringify({ raids: response }, null, 3));
+  } catch (error) {
+    res.send(JSON.stringify({}, null, 3));
+  }
+});
+
+app.get("/compraavatars/:user", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  try {
+    let user = req.params.user;
+    let response = await getAllCompras(user);
+    if (!user) {
+      response = {};
+    }
+
+    res.send(JSON.stringify(response, null, 3));
   } catch (error) {
     res.send(JSON.stringify({}, null, 3));
   }

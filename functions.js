@@ -201,6 +201,20 @@ const tohkvault = async (json, from, state) => {
     ) {
       // set plot to subdivided
       consumable = "Twax Joint";
+    } else if (
+      state.users[from] &&
+      type == "tripleBraid" &&
+      state.users[from].lvl >= 80
+    ) {
+      // set plot to subdivided
+      consumable = "Triple Braid";
+    } else if (
+      state.users[from] &&
+      type == "scorpionJoint" &&
+      state.users[from].lvl >= 80
+    ) {
+      // set plot to subdivided
+      consumable = "Scorpion Joint";
     }
 
     if (consumable) {
@@ -336,7 +350,19 @@ const nfttohkvaul = async (json, from, state) => {
                     ["1", 15.0],
                   ];
 
+                  var data2 = [
+                    ["0", 90.0],
+                    ["1", 10.0],
+                  ];
+
                   var wl = new WeightedList(data);
+                  var wl2 = new WeightedList(data2);
+
+                  if (parseInt(wl2.peek()[0]) == 1) {
+                    await contract
+                      .createSeedTT(hivejs, 1, "hashkings", nft.properties.NAME)
+                      .then(async (r) => {});
+                  }
 
                   if (parseInt(wl.peek()[0]) == 1) {
                     console.log(from, "gano random seed");
@@ -346,7 +372,7 @@ const nfttohkvaul = async (json, from, state) => {
                       .then(async (r) => {
                         await sendNotificationToUser(
                           from,
-                          "you found a seed "+r
+                          "you found a seed " + r
                         );
                       });
                   }
@@ -378,17 +404,21 @@ const nfttohkvaul = async (json, from, state) => {
 
           let xptoUpdate = null;
           if (jointString == "pinner") {
-            xptoUpdate = state.stats.joints.pinner;
+            xptoUpdate = 15;
           } else if (jointString == "hempWrappedJoint") {
-            xptoUpdate = state.stats.joints.hempWrappedJoint;
+            xptoUpdate = 75;
           } else if (jointString == "crossJoint") {
-            xptoUpdate = state.stats.joints.crossJoint;
+            xptoUpdate = 400;
           } else if (jointString == "blunt") {
-            xptoUpdate = state.stats.joints.blunt;
+            xptoUpdate = 1100;
           } else if (jointString == "hempWrappedBlunt") {
-            xptoUpdate = state.stats.joints.hempWrappedBlunt;
+            xptoUpdate = 2500;
           } else if (jointString == "twaxJoint") {
-            xptoUpdate = state.stats.joints.twaxJoint;
+            xptoUpdate = 6000;
+          } else if (jointString == "tripleBraid") {
+            xptoUpdate = 15000;
+          } else if (jointString == "scorpionJoint") {
+            xptoUpdate = 35000;
           }
 
           if (xptoUpdate) {

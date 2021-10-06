@@ -143,6 +143,20 @@ const userOnbotSchema = new Schema({
 
 const userOnbotModel = mongoose.model("userOnbot", userOnbotSchema);
 
+const ProcesarCompraSchema = new Schema({
+  trxid: String,
+  username: String,
+  cantidad: String,
+  token_amount: String,
+  token: String,
+  status: String,
+});
+
+const procesarCompraModel = mongoose.model(
+  "procesarcompra",
+  ProcesarCompraSchema
+);
+
 module.exports = {
   transferModel,
   logModel,
@@ -159,4 +173,5 @@ module.exports = {
   refundModelbuds,
   infoBudsModel,
   userOnbotModel,
+  procesarCompraModel,
 };

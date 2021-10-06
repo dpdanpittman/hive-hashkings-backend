@@ -16,6 +16,7 @@ const {
   userOnraidsModel,
   infoBudsModel,
   userOnbotModel,
+  procesarCompraModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -382,6 +383,18 @@ async function getBudsArepartir() {
 async function actualizarBudsArepartir(value) {
   return await infoBudsModel.updateOne({ infoid: "1" }, { value: "" + value });
 }
+
+async function getAllCompras(user) {
+  return await procesarCompraModel.find({ username: user, status: "pending" });
+}
+
+async function actualizarCompras(uid) {
+  return await procesarCompraModel.updateOne(
+    { _id: uid },
+    { status: "complete" }
+  );
+}
+
 async function getuserOnBot(user) {
   return await userOnbotModel.findOne({ user: user });
 }
@@ -431,4 +444,6 @@ module.exports = {
   actualizarBudsArepartir,
 
   getuserOnBot,
+  getAllCompras,
+  actualizarCompras,
 };
