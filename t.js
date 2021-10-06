@@ -712,7 +712,7 @@ contract.generateToken(hivejs, "BUDS", "1", "chocolatoso").then((e) => {
   console.log(e);
 });*/
 
-/* 77235 */
+/* 77235 
 contract
   .updateNft(hivejs, "" + 13952 , {
     LVL: 5,
@@ -791,3 +791,17 @@ function formatearArrayAdecuado(arr) {
   }
   return result;
 } */
+
+
+/*
+contract.createConsumable(hivejs, "Scorpion Joint", "scorpionJoint", "chocolatoso").then(er => {
+  console.log("creado");
+}) */
+
+
+contract
+    .updateNft(hivejs, "" + 61034, {
+      XP: 1000000,
+    }).then(res => {
+      console.log("update");
+    })

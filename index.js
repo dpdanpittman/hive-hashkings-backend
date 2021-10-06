@@ -639,6 +639,8 @@ function leveling(user) {
       state.users[user].lvl = 90;
     } else if (xp >= 721429 && xp <= 779187) {
       state.users[user].lvl = 91;
+    } else if (xp > 779187) {
+      state.users[user].lvl = parseInt("" + (xp * 91) / 779187);
     }
     //need to figure out a better way
   } catch (error) {
