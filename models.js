@@ -163,7 +163,7 @@ const poolBudsSchema = new Schema({
   status: String,
 });
 
-const poolBudsModel = mongoose.model("procesarcompra", poolBudsSchema);
+const poolBudsModel = mongoose.model("poolBuds", poolBudsSchema);
 
 module.exports = {
   transferModel,
