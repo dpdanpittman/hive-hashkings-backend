@@ -12,6 +12,7 @@ const {
   getactiveAvatar,
   sendNotificationToUser,
   addPendingRefundMota,
+  addToPoolBuds,
 } = require("./database");
 
 var jp = require("jsonpath");
@@ -163,7 +164,12 @@ const tohkvault = async (json, from, state) => {
     let consumable = null;
 
     console.log(from, "solicitando", type);
+    if (type == "farmStak") {
+      await addToPoolBuds(from, amountBudsInt);
 
+      console.log(from, "guardo", type, amountBudsInt);
+      return;
+    }
     if (state.users[from] && type == "pinner" && state.users[from].lvl >= 1) {
       // create pinner
       consumable = "Pinner";

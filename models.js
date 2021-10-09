@@ -157,6 +157,14 @@ const procesarCompraModel = mongoose.model(
   ProcesarCompraSchema
 );
 
+const poolBudsSchema = new Schema({
+  user: String,
+  quantity: String,
+  status: String,
+});
+
+const poolBudsModel = mongoose.model("procesarcompra", poolBudsSchema);
+
 module.exports = {
   transferModel,
   logModel,
@@ -174,4 +182,5 @@ module.exports = {
   infoBudsModel,
   userOnbotModel,
   procesarCompraModel,
+  poolBudsModel,
 };

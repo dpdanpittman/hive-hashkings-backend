@@ -17,6 +17,7 @@ const {
   infoBudsModel,
   userOnbotModel,
   procesarCompraModel,
+  poolBudsModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -399,6 +400,18 @@ async function getuserOnBot(user) {
   return await userOnbotModel.findOne({ user: user });
 }
 
+async function addToPoolBuds(user, quantity) {
+  return await new poolBudsModel({
+    user,
+    quantity: "" + quantity,
+    status: "pending",
+  }).save();
+}
+
+async function getAllPoolBuds() {
+  return await poolBudsModel.find({ status: "pending" });
+}
+
 module.exports = {
   saveLog,
   setTransaction,
@@ -446,4 +459,6 @@ module.exports = {
   getuserOnBot,
   getAllCompras,
   actualizarCompras,
+  addToPoolBuds,
+  getAllPoolBuds,
 };
