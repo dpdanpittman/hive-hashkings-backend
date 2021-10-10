@@ -165,6 +165,21 @@ const poolBudsSchema = new Schema({
 
 const poolBudsModel = mongoose.model("poolBuds", poolBudsSchema);
 
+const compraConsumableSchema = new Schema({
+  trxid: String,
+  username: String,
+  consumable: String,
+  token_amount: String,
+  token: String,
+  status: String,
+});
+
+const compraConsumableModel = mongoose.model(
+  "compraConsumable",
+  compraConsumableSchema,
+  "procesarcompraconsumable"
+);
+
 module.exports = {
   transferModel,
   logModel,
@@ -183,4 +198,5 @@ module.exports = {
   userOnbotModel,
   procesarCompraModel,
   poolBudsModel,
+  compraConsumableModel,
 };

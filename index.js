@@ -98,6 +98,8 @@ const {
   getuserOnBot,
   getAllCompras,
   actualizarCompras,
+  getAllConsumablesbuy,
+  updateCompraConsumable
 } = require("./database");
 
 const {
@@ -1282,6 +1284,7 @@ function startWith(hash) {
 }*/
 
 var sending = false;
+var sendingConsumables =false;
 var sendingRefunds = false;
 var sendingRefundsMota = false;
 var sendingRefundsBuds = false;
@@ -2796,6 +2799,17 @@ cron.schedule("*/2 * * * *", () => {
   }
 });
 
+
+
+cron.schedule("*/5 * * * *", () => {
+  if (!sendingConsumables) {
+    console.log("procesando compras consumable")
+    procesarCompraConsumables();
+  } else {
+    console.log("me encuentro enviando consumables ahora espera 5 minutos mas");
+  }
+});
+
 async function getAllR() {
   sendingRefunds = true;
   console.log("checking refunds... ", sendingRefunds);
@@ -2814,6 +2828,53 @@ async function getAllR() {
       sendingRefunds = false;
       console.log("ERROR ON GET ALL REFUNDS", e);
     });
+}
+
+async function procesarCompraConsumables() {
+  await getAllConsumablesbuy().then(async (compras) => {
+    sendingConsumables = true;
+    for (const compra of compras) {
+
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 4000);
+      });
+
+      let { _id, consumable, username } = compra;
+
+      let from = username;
+      let type = consumable;
+      let consumablex = "";
+
+      if (type == "pinner") {
+        consumablex = "Pinner";
+      } else if (type == "hempWrappedJoint") {
+        consumablex = "Hemp Wrapped Joint";
+      } else if (type == "crossJoint") {
+        consumablex = "Cross Joint";
+      } else if (type == "blunt") {
+        consumablex = "Blunt";
+      } else if (type == "hempWrappedBlunt") {
+        consumablex = "Hemp Wrapped Blunt";
+      } else if (type == "twaxJoint") {
+        consumablex = "Twax Joint";
+      } else if (type == "tripleBraid") {
+        consumablex = "Triple Braid";
+      } else if (type == "scorpionJoint") {
+        consumablex = "Scorpion Joint";
+      }
+
+      await contract
+        .createConsumable(hivejs, consumablex, type, from)
+        .then(async (response) => {
+          console.log("envio consumable con exito a ", from, consumablex);
+          await updateCompraConsumable(_id);
+          await sendNotificationToUser(from, "recibe: " + consumable);
+        });
+    }
+    sendingConsumables = false;
+  });
 }
 
 async function getAllRM() {
