@@ -414,7 +414,7 @@ async function getAllPoolBuds() {
 }
 
 async function getAllConsumablesbuy() {
-  return await compraConsumableModel.find({ status: "pending" });
+  return await compraConsumableModel.find({ status: "pendiente" });
 }
 async function updateCompraConsumable(uid) {
   return await compraConsumableModel.updateOne(

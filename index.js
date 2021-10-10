@@ -2873,6 +2873,7 @@ async function procesarCompraConsumables() {
           await sendNotificationToUser(from, "recibe: " + consumable);
         });
     }
+    console.log("finalizo entrega de compra consumables")
     sendingConsumables = false;
   });
 }

@@ -8,9 +8,10 @@ hivejs.config.set("alternative_api_endpoints", [
 ]);
 var jp = require("jsonpath");
 require("dotenv").config();
-
+const ENV = process.env;
 const SSC = require("sscjs");
 const ssc = new SSC("https://rpc.hashkings.xyz/");
+const mongoose = require("mongoose");
 
 function groupBy(miarray, prop) {
   return miarray.reduce(function (groups, item) {
@@ -33,6 +34,9 @@ function sort(miarray) {
   });
 }
 const WeightedList = require("js-weighted-list");
+
+const { getAllConsumablesbuy, updateCompraConsumable } = require("./database");
+
 /*
 let a = contract.testseeds();
 let b = [];
@@ -792,16 +796,19 @@ function formatearArrayAdecuado(arr) {
   return result;
 } */
 
-
 /*
 contract.createConsumable(hivejs, "Scorpion Joint", "scorpionJoint", "chocolatoso").then(er => {
   console.log("creado");
 }) */
 
 
+/*
 contract
-    .updateNft(hivejs, "" + 61034, {
-      XP: 1000000,
-    }).then(res => {
-      console.log("update");
-    })
+  .updateNft(hivejs, "" + 61034, {
+    XP: 1000000,
+  })
+  .then((res) => {
+    console.log("update");
+  }); */
+
+

@@ -175,9 +175,8 @@ const compraConsumableSchema = new Schema({
 });
 
 const compraConsumableModel = mongoose.model(
-  "compraConsumable",
-  compraConsumableSchema,
-  "procesarcompraconsumable"
+  "procesarcompraconsumables",
+  compraConsumableSchema
 );
 
 module.exports = {
