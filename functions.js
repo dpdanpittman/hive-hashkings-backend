@@ -628,8 +628,7 @@ const validatePlotAndSeed = async (plot, seed, from) => {
 
   let seedPerteneceAPlot = true;
 
-  if (esuniversal(seed.properties.NAME)) {
-  } else {
+  if (!esuniversal(seed.properties.NAME)) {
     if (Seeds[seed.properties.NAME] == plot.properties.NAME) {
       seedPerteneceAPlot = false;
     } else {
