@@ -593,6 +593,25 @@ const Seeds = {
   "Panama Red": "South America",
 };
 
+const esuniversal = (seedName) => {
+  switch (seedName) {
+    case "Blue Dream":
+      return true;
+    case "Bubblegum":
+      return true;
+    case "Critical Kush":
+      return true;
+    case "Shaggi’s Dream":
+      return true;
+    case "Purple Haze":
+      return true;
+    case "Snoops Dream":
+      return true;
+  }
+
+  return false;
+};
+
 const validatePlotAndSeed = async (plot, seed, from) => {
   let plotOrSeedNoExist = false;
   let plotOrSeedOcupped = false;
@@ -608,10 +627,14 @@ const validatePlotAndSeed = async (plot, seed, from) => {
   }
 
   let seedPerteneceAPlot = true;
-  if (Seeds[seed.properties.NAME] == plot.properties.NAME) {
-    seedPerteneceAPlot = false;
+
+  if (esuniversal(seed.properties.NAME)) {
   } else {
-    console.log("semilla no pertenece a esta tierra", from);
+    if (Seeds[seed.properties.NAME] == plot.properties.NAME) {
+      seedPerteneceAPlot = false;
+    } else {
+      console.log("semilla no pertenece a esta tierra", from);
+    }
   }
 
   let seedYplotPertenecenAUsuario = true;

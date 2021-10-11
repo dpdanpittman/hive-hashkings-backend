@@ -482,7 +482,7 @@ contract.getAllNfts(axios).then((r) => {
       }
     }
   });
-})();*/
+})(); /**/
 
 /**/
 /*
@@ -716,11 +716,10 @@ contract.generateToken(hivejs, "BUDS", "1", "chocolatoso").then((e) => {
   console.log(e);
 });*/
 
-/* 77235 
+/* 77235 */
 contract
-  .updateNft(hivejs, "" + 13952 , {
-    LVL: 5,
-    WATER:302
+  .updateNft(hivejs, "" + 236569 , {
+    NAME:"Shaggi’s Dream"
   })
   .then((r) => {
     console.log(r);
