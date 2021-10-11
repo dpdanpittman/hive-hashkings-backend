@@ -549,7 +549,10 @@ const plant_plot = async (json, from, state) => {
   //make seed used and designate plot
 
   if (!(await validatePlotAndSeed(plot, seed, from))) {
-    console.log("no paso la validacion");
+    await sendNotificationToUser(
+      from,
+      plotID + " error on try to plant this seed "
+    );
     return;
   }
 
@@ -635,6 +638,8 @@ const validatePlotAndSeed = async (plot, seed, from) => {
     } else {
       console.log("semilla no pertenece a esta tierra", from);
     }
+  }else{
+    seedPerteneceAPlot = false;
   }
 
   let seedYplotPertenecenAUsuario = true;
