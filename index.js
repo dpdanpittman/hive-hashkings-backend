@@ -99,7 +99,8 @@ const {
   getAllCompras,
   actualizarCompras,
   getAllConsumablesbuy,
-  updateCompraConsumable
+  updateCompraConsumable,
+  getAllPoolBuds
 } = require("./database");
 
 const {
@@ -1219,6 +1220,17 @@ app.get("/raids", async (req, res, next) => {
     let response = await getAllRaidsDisponibles();
 
     res.send(JSON.stringify({ raids: response }, null, 3));
+  } catch (error) {
+    res.send(JSON.stringify({}, null, 3));
+  }
+});
+
+app.get("/specialseeds", async (req, res, next) => {
+  res.setHeader("Content-Type", "application/json");
+  try {
+    let response = await getAllPoolBuds();
+
+    res.send(JSON.stringify({ specialseeds: response }, null, 3));
   } catch (error) {
     res.send(JSON.stringify({}, null, 3));
   }
