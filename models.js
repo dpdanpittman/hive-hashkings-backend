@@ -82,6 +82,13 @@ const adrsSchema = new Schema({
 
 const adrsModel = mongoose.model("Adrs", adrsSchema);
 
+const adrsMaticSchema = new Schema({
+  user: String,
+  adrs: String,
+});
+
+const adrsMaticModel = mongoose.model("AdrsM", adrsMaticSchema);
+
 const distributeErrorSchema = new Schema({
   usuario: String,
   value: Number,
@@ -188,6 +195,7 @@ module.exports = {
   refundModel,
   refundModelmota,
   adrsModel,
+  adrsMaticModel,
   distributeErrorModel,
   notificationModel,
   raidsModel,
@@ -198,4 +206,5 @@ module.exports = {
   procesarCompraModel,
   poolBudsModel,
   compraConsumableModel,
+  
 };

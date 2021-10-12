@@ -81,6 +81,8 @@ const {
 
   setAdrs,
   getAdrs,
+  setMaticAdrs,
+  getMaticAdrs,
   sendNotificationToUser,
   registrarUsuarioNotificacion,
   registerRaid,
@@ -817,6 +819,7 @@ app.get("/utest/:user", async (req, res, next) => {
     if (!state.users[user]) {
       state.users[user] = {
         fantomadrs: "none",
+        maticmadrs: "none",
         rentals: [],
         plots: [],
         plotCount: 0,
@@ -906,6 +909,7 @@ app.get("/utest/:user", async (req, res, next) => {
     }
 
     state.users[user].fantomadrs = await getAdrs(user);
+    state.users[user].maticadrs = await getMaticAdrs(user);
     let {
       plots,
       seeds,
@@ -1888,6 +1892,13 @@ function startApp() {
   });
   //////////////////////////////////////////////////////////////////////////////
 
+   /////////////////////////////MATIC//////////////////////////////////////////
+  processor.on("set_adrsmatic", async function (json, from) {
+    let adrs = "" + json.adrs;
+
+    console.log("setting matic adrs", from, adrs);
+    await setMaticAdrs(from, adrs);
+  });
   /*-------------------------- RENTALS  ---------------------------*/
 
   // search for qwoyn_pinner from user on blockchain since genesis <----- transfer

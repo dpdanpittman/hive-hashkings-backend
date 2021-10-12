@@ -8,6 +8,7 @@ const {
   activeAvatarModel,
   refundModel,
   adrsModel,
+  adrsMaticModel,
   distributeErrorModel,
   notificationModel,
   refundModelmota,
@@ -277,6 +278,30 @@ async function getAdrs(user) {
   return u.adrs;
 }
 
+
+//MATIC//
+async function setMaticAdrs(user, adrs) {
+  adrs = ("" + adrs).toLowerCase();
+  let data = await adrsMaticModel.findOne({ user: user });
+  if (data) {
+    return await adrsMaticModel.updateOne({ user: user }, { adrs: adrs });
+  } else {
+    return await new adrsMaticModel({
+      user: user,
+      adrs: adrs,
+    }).save();
+  }
+}
+//MATIC//
+async function getMaticAdrs(user) {
+  let u = await adrsMaticModel.findOne({ user });
+
+  if (!u) {
+    return "none";
+  }
+  return u.adrs;
+}
+
 async function addRefund(usuario, value, moneda, time) {
   return await new distributeErrorModel({
     usuario,
@@ -454,6 +479,8 @@ module.exports = {
 
   setAdrs,
   getAdrs,
+  setMaticAdrs,
+  getMaticAdrs,
   sendNotificationToUser,
   registrarUsuarioNotificacion,
 
