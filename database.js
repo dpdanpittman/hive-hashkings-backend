@@ -20,6 +20,7 @@ const {
   procesarCompraModel,
   poolBudsModel,
   compraConsumableModel,
+  completarConsumableModel,
 } = require("./models");
 
 async function saveLog(type, json, from, message) {
@@ -278,7 +279,6 @@ async function getAdrs(user) {
   return u.adrs;
 }
 
-
 //MATIC//
 async function setMaticAdrs(user, adrs) {
   adrs = ("" + adrs).toLowerCase();
@@ -441,8 +441,37 @@ async function getAllPoolBuds() {
 async function getAllConsumablesbuy() {
   return await compraConsumableModel.find({ status: "pendiente" });
 }
+
 async function updateCompraConsumable(uid) {
   return await compraConsumableModel.updateOne(
+    { _id: uid },
+    { status: "complete" }
+  );
+}
+
+async function addConsumablebuy(
+  trxid,
+  username,
+  consumable,
+  token_amount,
+  token
+) {
+  return await new completarConsumableModel({
+    trxid,
+    username,
+    consumable,
+    token_amount,
+    token,
+    status: "pendiente",
+  }).save();
+}
+
+async function getAllcompletarConsumablesbuy() {
+  return await completarConsumableModel.find({ status: "pendiente" });
+}
+
+async function updatecompletarCompraConsumable(uid) {
+  return await completarConsumableModel.updateOne(
     { _id: uid },
     { status: "complete" }
   );
@@ -501,4 +530,8 @@ module.exports = {
   getAllPoolBuds,
   getAllConsumablesbuy,
   updateCompraConsumable,
+
+  addConsumablebuy,
+  getAllcompletarConsumablesbuy,
+  updatecompletarCompraConsumable,
 };

@@ -102,7 +102,11 @@ const {
   actualizarCompras,
   getAllConsumablesbuy,
   updateCompraConsumable,
-  getAllPoolBuds
+  getAllPoolBuds,
+
+  addConsumablebuy,
+  getAllcompletarConsumablesbuy,
+  updatecompletarCompraConsumable,
 } = require("./database");
 
 const {
@@ -1300,7 +1304,8 @@ function startWith(hash) {
 }*/
 
 var sending = false;
-var sendingConsumables =false;
+var sendingConsumables = false;
+var sendingConsumablesX = false;
 var sendingRefunds = false;
 var sendingRefundsMota = false;
 var sendingRefundsBuds = false;
@@ -1892,7 +1897,7 @@ function startApp() {
   });
   //////////////////////////////////////////////////////////////////////////////
 
-   /////////////////////////////MATIC//////////////////////////////////////////
+  /////////////////////////////MATIC//////////////////////////////////////////
   processor.on("set_adrsmatic", async function (json, from) {
     let adrs = "" + json.adrs;
 
@@ -2822,12 +2827,19 @@ cron.schedule("*/2 * * * *", () => {
   }
 });
 
-
-
 cron.schedule("*/5 * * * *", () => {
   if (!sendingConsumables) {
-    console.log("procesando compras consumable")
+    console.log("procesando compras consumable");
     procesarCompraConsumables();
+  } else {
+    console.log("me encuentro enviando consumables ahora espera 5 minutos mas");
+  }
+});
+
+cron.schedule("*/5 * * * *", () => {
+  if (!sendingConsumablesX) {
+    console.log("procesando compras consumable");
+    agregarAComprarConsumable();
   } else {
     console.log("me encuentro enviando consumables ahora espera 5 minutos mas");
   }
@@ -2854,10 +2866,9 @@ async function getAllR() {
 }
 
 async function procesarCompraConsumables() {
-  await getAllConsumablesbuy().then(async (compras) => {
+  await getAllcompletarConsumablesbuy().then(async (compras) => {
     sendingConsumables = true;
     for (const compra of compras) {
-
       await new Promise((resolve) => {
         setTimeout(() => {
           resolve();
@@ -2892,12 +2903,51 @@ async function procesarCompraConsumables() {
         .createConsumable(hivejs, consumablex, type, from)
         .then(async (response) => {
           console.log("envio consumable con exito a ", from, consumablex);
-          await updateCompraConsumable(_id);
+          await updatecompletarCompraConsumable(_id);
           await sendNotificationToUser(from, "recibe: " + consumable);
         });
     }
-    console.log("finalizo entrega de compra consumables")
+    console.log("finalizo entrega de compra consumables");
     sendingConsumables = false;
+  });
+}
+
+async function agregarAComprarConsumable() {
+  await getAllConsumablesbuy().then(async (compras) => {
+    sendingConsumablesX = true;
+    for (const compra of compras) {
+      await new Promise((resolve) => {
+        setTimeout(() => {
+          resolve();
+        }, 4000);
+      });
+
+      let {
+        _id,
+        trxid,
+        username,
+        consumable,
+        token_amount,
+        token,
+        status,
+        from,
+        cantidad,
+      } = compra;
+
+      let Cantidadtx = parseInt(cantidad);
+      for (let index = 0; index < Cantidadtx; index++) {
+        await addConsumablebuy(
+          trxid,
+          username,
+          consumable,
+          token_amount,
+          token
+        );
+      }
+
+      await updateCompraConsumable(_id);
+    }
+    sendingConsumablesX = false;
   });
 }
 

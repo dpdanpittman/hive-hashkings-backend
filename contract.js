@@ -1044,7 +1044,7 @@ function getPlotbySeedName(seedName) {
     "Panama Red": 6,
   };
 
-  return  SEEDS[seedName];
+  return SEEDS[seedName];
 }
 
 const createSeedTT = async (hive, packs, userBuyer, seedName) => {
@@ -1266,9 +1266,7 @@ async function queryContract(
     .then((r) => {
       return r;
     })
-    .catch((e) => {
-      
-    });
+    .catch((e) => {});
 
   // Return result
   if (
@@ -1298,9 +1296,7 @@ async function queryContractTest(
     .then((r) => {
       return r;
     })
-    .catch((e) => {
-      
-    });
+    .catch((e) => {});
 
   // Return result
   if (
@@ -1351,6 +1347,42 @@ async function getNFT(axios, nftID) {
 
     if (get_nfts) {
       resolve(get_nfts);
+    } else {
+      resolve(false);
+    }
+  });
+}
+
+async function getNFTbyName(axios, name) {
+  return new Promise(async (resolve, reject) => {
+    let complete = false;
+    let nfts = [];
+    let offset = 0;
+
+    while (!complete) {
+      let get_nfts = await queryContract(
+        axios,
+        {
+          contract: CONTRACT,
+          table: NFT_SYMBOL + TABLE_POSTFIX,
+          query: { "properties.NAME": name },
+        },
+        offset
+      );
+      if (get_nfts !== false) {
+        nfts = nfts.concat(get_nfts);
+        offset += 499;
+
+        if (get_nfts.length !== 499) {
+          complete = true;
+        }
+      } else {
+        complete = true;
+      }
+    }
+
+    if (nfts) {
+      resolve(nfts);
     } else {
       resolve(false);
     }
@@ -2569,7 +2601,7 @@ async function getAllAvatar(axios) {
           {
             contract: CONTRACT,
             table: NFT_SYMBOL + TABLE_POSTFIX,
-            query: {"properties.TYPE": "avatar"},
+            query: { "properties.TYPE": "avatar" },
           },
           offset
         );
@@ -3634,4 +3666,5 @@ module.exports = contract = {
   getAllByName,
   createSeedT,
   createSeedTT,
+  getNFTbyName,
 };

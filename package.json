@@ -16,7 +16,7 @@
     "dependencies": {
         "@hive-engine/sscjs": "0.0.9",
         "@hiveio/dhive": "^0.14.16",
-        "@hiveio/hive-js": "^0.8.16",
+        "@hiveio/hive-js": "^2.0.4",
         "axios": "^0.21.1",
         "cors": "^2.8.5",
         "dotenv": "^8.6.0",

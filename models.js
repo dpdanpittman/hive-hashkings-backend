@@ -172,6 +172,21 @@ const poolBudsSchema = new Schema({
 
 const poolBudsModel = mongoose.model("poolBuds", poolBudsSchema);
 
+const completarConsumableSchema = new Schema({
+  trxid: String,
+  username: String,
+  consumable: String,
+  token_amount: String,
+  token: String,
+  status: String,
+});
+
+const completarConsumableModel = mongoose.model(
+  "completarcompraconsumables",
+  completarConsumableSchema
+);
+
+
 const compraConsumableSchema = new Schema({
   trxid: String,
   username: String,
@@ -179,6 +194,8 @@ const compraConsumableSchema = new Schema({
   token_amount: String,
   token: String,
   status: String,
+  from : String, 
+  cantidad: String
 });
 
 const compraConsumableModel = mongoose.model(
@@ -206,5 +223,5 @@ module.exports = {
   procesarCompraModel,
   poolBudsModel,
   compraConsumableModel,
-  
+  completarConsumableModel
 };

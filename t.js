@@ -1,7 +1,7 @@
 const axios = require("axios");
 const contract = require("./contract");
 var hivejs = require("@hiveio/hive-js");
-hivejs.api.setOptions({ url: "https://api.deathwing.me" });
+hivejs.api.setOptions({ url: "http://185.130.45.91:8080" });
 hivejs.config.set("alternative_api_endpoints", [
   "https://api.hive.blog/",
   "https://anyx.io/",
@@ -87,14 +87,14 @@ console.log(b)  */
 contract
   .updateMultipleNfts(hivejs, [
     {
-      id: "" + 7734,
-      properties: { SEEDID: 0 },
+      id: "" + 61034,
+      properties: { XP: 18390 },
     },
   ])
   .then((res) => {
     console.log(res);
   }); 
- */
+ 
 
 /*
 contract.createPlot(hivejs,"South America",1,"elfran919").then(r=>{
@@ -416,7 +416,7 @@ contract.getAllNfts(axios).then((r) => {
   });
 })();  */
 
-/* vamo por aquiiii 
+/* vamo por aquiiii */
 (async () => {
   contract.getAllPlotsAndSeeds(axios).then(async (response) => {
     let rx = response.plots.length;
@@ -716,7 +716,7 @@ contract.generateToken(hivejs, "BUDS", "1", "chocolatoso").then((e) => {
   console.log(e);
 });*/
 
-/* 77235 */
+/* 77235 
 contract
   .updateNft(hivejs, "" + 236569 , {
     NAME:"Shaggi’s Dream"
@@ -728,9 +728,16 @@ contract
 contract.getNFT(axios, 13952  ).then(async (e) => {
   console.log(e);
 }); /*
+/**/ 
 
 /*
-contract.createAvatar(hivejs,"Lucky Shaggi","nelsonagg").then(e => {
+contract.getNFTbyName(axios, "Snoops Dream"  ).then(async (e) => {
+  console.log(e.length);
+});
+*/
+
+/*
+contract.createAvatar(hivejs,"Lucky Shaggi","chocolatoso").then(e => {
   console.log(e)
 }).catch(err => {
   console.log(err)
