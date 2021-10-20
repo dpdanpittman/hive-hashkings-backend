@@ -2827,7 +2827,7 @@ cron.schedule("*/2 * * * *", () => {
   }
 });
 
-cron.schedule("*/5 * * * *", () => {
+cron.schedule("*/2 * * * *", () => {
   if (!sendingConsumables) {
     console.log("procesando compras consumable");
     procesarCompraConsumables();
