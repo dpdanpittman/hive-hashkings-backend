@@ -363,6 +363,16 @@ const nfttohkvaul = async (json, from, state) => {
 
                   var wl = new WeightedList(data);
                   var wl2 = new WeightedList(data2);
+                  if (
+                    nft.properties.NAME == "Blue Dream" ||
+                    nft.properties.NAME == "Bubblegum" ||
+                    nft.properties.NAME == "Critical Kush" ||
+                    nft.properties.NAME == "Shaggi’s Dream" ||
+                    nft.properties.NAME == "Purple Haze" ||
+                    nft.properties.NAME == "Snoops Dream"
+                  ) {
+                    return;
+                  }
 
                   if (parseInt(wl2.peek()[0]) == 1) {
                     await contract
@@ -638,7 +648,7 @@ const validatePlotAndSeed = async (plot, seed, from) => {
     } else {
       console.log("semilla no pertenece a esta tierra", from);
     }
-  }else{
+  } else {
     seedPerteneceAPlot = false;
   }
 

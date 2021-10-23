@@ -432,13 +432,11 @@ contract.getAllNfts(axios).then((r) => {
               `$.seeds[?(@.id==${element.properties.SEEDID})]`
             );
 
-
             if (seed) {
               if (seed.length > 0) {
-               // console.log("encontre semilla", seed[0].owner, element.owner );
+                // console.log("encontre semilla", seed[0].owner, element.owner );
                 if (seed[0].owner != element.owner) {
                   if (seed[0].owner == "hk-vault") {
-                    
                     console.log(
                       "actualizando nft porque",
                       seed[0].owner + " " + seed[0].id,
@@ -718,17 +716,22 @@ contract.generateToken(hivejs, "BUDS", "1", "chocolatoso").then((e) => {
 
 /* 77235 
 contract
-  .updateNft(hivejs, "" + 236569 , {
-    NAME:"Shaggi’s Dream"
+  .updateNft(hivejs, "" + 238577, {
+    TYPE: "seed",
+    NAME: "Mazar I Sharif",
+    SPT: 6,
+    WATER: 1296,
+    PR: 721,
+    PLANTED: false,
   })
   .then((r) => {
     console.log(r);
   }); /*-- */
 /*
-contract.getNFT(axios, 13952  ).then(async (e) => {
+contract.getNFT(axios, 238577  ).then(async (e) => {
   console.log(e);
 }); /*
-/**/ 
+/**/
 
 /*
 contract.getNFTbyName(axios, "Snoops Dream"  ).then(async (e) => {
@@ -807,7 +810,6 @@ contract.createConsumable(hivejs, "Scorpion Joint", "scorpionJoint", "chocolatos
   console.log("creado");
 }) */
 
-
 /*
 contract
   .updateNft(hivejs, "" + 61034, {
@@ -816,5 +818,3 @@ contract
   .then((res) => {
     console.log("update");
   }); */
-
-
